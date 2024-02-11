@@ -1,0 +1,18 @@
+name: SonarCloud Analysis
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: SonarScanner Begin
+        run: |
+          SonarScanner.MSBuild.exe begin /o:"tzr-redstonemaniac" /k:"TZR-Redstonemaniac_Camera-Simualtor" /d:sonar.host.url="https://sonarcloud.io"
+      - name: Build Project
+        run: dotnet build Camera-Simulator.sln --nologo -v q --property WarningLevel=0 /clp:ErrorsOnly
+      - name: SonarScanner End
+        run: dotnet-sonarscanner end
+
