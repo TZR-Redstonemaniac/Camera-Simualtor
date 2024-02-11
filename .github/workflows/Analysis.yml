@@ -8,11 +8,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v2
       - name: SonarScanner Begin
         run: |
-          SonarScanner.MSBuild.exe begin /o:"tzr-redstonemaniac" /k:"TZR-Redstonemaniac_Camera-Simualtor" /d:sonar.host.url="https://sonarcloud.io"
+          msbuild begin /o:"tzr-redstonemaniac" /k:"TZR-Redstonemaniac_Camera-Simualtor" /d:sonar.host.url="https://sonarcloud.io"
       - name: Build Project
         run: dotnet build Camera-Simulator.sln --nologo -v q --property WarningLevel=0 /clp:ErrorsOnly
       - name: SonarScanner End
-        run: dotnet-sonarscanner end
+        run: msbuild end
 
