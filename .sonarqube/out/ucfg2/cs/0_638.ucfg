@@ -1,0 +1,52 @@
+
+(Shapes.RegularPolygon.FillColorStart.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs« «("0*
+0
+« «(*
+1*Ü
+1
+«
+ «(Ok
+i
+
+«6 «(:
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillr
+p
+
+«6 «(M<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color"__id*
+
+valueUnityEngine.Coloré
+ã
+
+«
+ «(O
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*'
+
+«
+ «(
+Shapes.RegularPolygon*@
+
+« «(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*L
+
+«6 «(M>*<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*2
+2
+«P «(P"!
+
+«O «(P
+implicit return:
+valueUnityEngine.ColorB
+Shapes.RegularPolygonX

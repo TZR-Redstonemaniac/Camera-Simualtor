@@ -1,0 +1,50 @@
+
+Shapes.Polygon.FillSpace.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csû û("0*
+0
+û û(*
+1*ﬂ
+1
+û
+ û(Ud
+b
+
+û? û(C
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillk
+i
+
+û? û(Q6
+
+%0Shapes.GradientFill"
+spaceShapes.FillSpace"__id*
+
+valueShapes.FillSpaceı
+Ú
+
+û
+ û(U
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)* 
+
+û
+ û(
+Shapes.Polygon*D
+
+û û(66*4
+Shapes.ShapesMaterialUtils"
+propFillSpaceint*F
+
+û8 û(S8*6
+
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
+2*2
+2
+ûV û(V"!
+
+ûU û(V
+implicit return:
+valueShapes.FillSpaceB
+Shapes.PolygonX

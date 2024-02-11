@@ -1,0 +1,51 @@
+
+Shapes.Rectangle.UseFill.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csñ ñ("0*
+0
+ñ ñ(*
+1*˜
+1
+ó ò(XN
+L
+
+ó ó(%
+Shapes.Rectangle"
+useFillbool"__id*
+
+valueboolƒ
+¡
+
+ò1 ò(U	
+%0int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*A
+
+ò1 ò(53*1
+Shapes.Rectangle"
+fillShapes.GradientFill*5
+
+òL ò(S'*%
+Shapes.Rectangle"
+useFillbool…
+∆
+
+ò ò(W
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+
+ò ò(
+Shapes.Rectangle*C
+
+ò ò(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+ò1 ò(U
+	
+%0int*
+2*2
+2
+ô ô("!
+
+ô ô(
+implicit return:
+valueboolB
+Shapes.RectangleX

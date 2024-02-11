@@ -1,9 +1,0 @@
-
-Ocsharpsquid:S3903"-Move 'RayTracingMesh' into a named namespace.(“Ëùÿÿÿÿ
-Lcsharpsquid:S108")Either remove or fill this block of code.(áßíÙ8†¶êÌÃ1
-hcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(ê·®©8Û¯ûËÃ1
-mcsharpsquid:S1104
-"DMake this field 'private' and encapsulate it in a 'public' property.(ğëšúÿÿÿÿ8Û¯ûËÃ1
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ò¢ˆ¨şÿÿÿÿ8Ü¯ûËÃ1
-|csharpsquid:S1450"SRemove the field 'mesh' and declare it as a local variable in the relevant methods.(éØ‚éşÿÿÿÿ8ÏÆÌÃ1
-Pcsharpsquid:S1481",Remove the unused local variable 'vertices'.(Ë©ÜÁ8šœ—ÌÃ1

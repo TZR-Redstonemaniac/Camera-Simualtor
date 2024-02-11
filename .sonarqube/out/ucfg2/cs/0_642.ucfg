@@ -1,0 +1,25 @@
+
+EShapes.GradientFillStack.GradientFillStack(bool, Shapes.GradientFill)è
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs ("0*
+0 (*
+1*⁄
+1B (d≈
+¬
+B (d
+
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*\
+B (KP*N
+Shapes.GradientFillStack"0
+	gradients#System.Collections.Generic.Stack<T>*
+R (b
+	{unknown}*
+2*.
+2e (e"
+d (e
+implicit return:
+ (%
+
+onbool:+
+' (<
+gradientShapes.GradientFillB
+Shapes.GradientFillStackX

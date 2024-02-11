@@ -1,0 +1,146 @@
+
+&Shapes.ShapesExtensions.PopCount(uint)„
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.cst t("0*
+0t t(*
+1*
+1u x(j
+h
+u u(
+
+%0uint"%!binary_implicit_operator_passthrough*
+u u(
+	
+iuint*
+u u(2o
+m
+u u($
+
+%1uint"%!binary_implicit_operator_passthrough*
+u u(
+
+
+%0uint*
+u u($2ÕªÕªr
+p
+u u(&
+
+%2uint"%!binary_implicit_operator_passthrough*
+u u(
+	
+iuint*
+u u($
+
+
+%1uint-
++
+u u(&	
+iuint"__id*
+
+
+%2uintn
+l
+v	 v(
+
+%3uint"%!binary_implicit_operator_passthrough*
+v	 v(
+
+	
+iuint*
+v v(2³æÌ™j
+h
+v  v(&
+
+%4uint"%!binary_implicit_operator_passthrough*
+v  v(!
+	
+iuint*
+v% v(&2o
+m
+v v(5
+
+%5uint"%!binary_implicit_operator_passthrough*
+v  v(&
+
+
+%4uint*
+v+ v(52³æÌ™s
+q
+v v(7
+
+%6uint"%!binary_implicit_operator_passthrough*
+v	 v(
+
+
+%3uint*
+v v(5
+
+
+%5uint-
++
+v v(7	
+iuint"__id*
+
+
+%6uintj
+h
+w w(
+
+%7uint"%!binary_implicit_operator_passthrough*
+w w(
+	
+iuint*
+w w(2r
+p
+w w(
+
+%8uint"%!binary_implicit_operator_passthrough*
+w w(
+	
+iuint*
+w w(
+
+
+%7uintn
+l
+w w(%
+
+%9uint"%!binary_implicit_operator_passthrough*
+w w(
+
+
+%8uint*
+w w(%2¼xo
+m
+w	 w(3
+%10uint"%!binary_implicit_operator_passthrough*
+w w(%
+
+
+%9uint*
+w* w(32‚„m
+k
+w w(;
+%11uint"%!binary_implicit_operator_passthrough*
+w	 w(3
+
+%10uint*
+w9 w(;2.
+,
+w w(;	
+iuint"__id*
+
+%11uint8
+6
+x x(
+%retint"__id*
+x x(
+	
+iuint*
+2*(
+2y y("
+y y(
+
+%retint:
+t t()	
+iuintB"
+Shapes.ShapesExtensionsX

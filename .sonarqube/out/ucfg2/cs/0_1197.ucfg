@@ -1,0 +1,33 @@
+
+$Shapes.Draw.RegularPolygonRadius.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csş ş("0*
+0
+ş ş(*
+1*Ç
+1
+ş
+ ş(\
+Z
+
+ş
+ ş(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleS
+Q
+
+ş
+ ş()
+
+%0Shapes.DrawStyle"
+radiusfloat"__id*
+
+valuefloat*
+2*2
+2
+ş ş("!
+
+ş ş(
+implicit return:
+valuefloatB"
+Shapes.DrawX

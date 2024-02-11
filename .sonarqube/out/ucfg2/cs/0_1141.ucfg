@@ -1,0 +1,23 @@
+
+.Shapes.StyleStack.StyleStack(Shapes.DrawStyle)‡
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\StyleStack.cs ("0*
+0 (*
+1*Þ
+1, (@É
+Æ
+, (@
+
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
+, (2F*D
+Shapes.StyleStack"-
+styles#System.Collections.Generic.Stack<T>*'
+9 (>
+
+styleShapes.DrawStyle*
+2*.
+2A (A"
+@ (A
+implicit return:%
+ (&
+styleShapes.DrawStyleB
+Shapes.StyleStackX

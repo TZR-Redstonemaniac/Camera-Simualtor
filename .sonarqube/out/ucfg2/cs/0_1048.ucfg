@@ -1,0 +1,37 @@
+
+Shapes.Draw.TextLineSpacing.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csö ö("0*
+0
+ö ö(*
+1*∑
+1
+ö! ö(D\
+Z
+
+ö! ö(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+ö! ö(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyleX
+V
+
+ö! ö(D.
+
+%1Shapes.TextStyle"
+lineSpacingfloat"__id*
+
+valuefloat*
+2*2
+2
+öE ö(E"!
+
+öD ö(E
+implicit return:
+valuefloatB"
+Shapes.DrawX

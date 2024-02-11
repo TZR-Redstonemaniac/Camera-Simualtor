@@ -1,0 +1,93 @@
+
+bShapes.ShapesExtensions.Product<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, int>)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.cs[ [("0*
+0[ [(*
+1*>
+1\ \(*
+(
+\ \(
+productint"__id*2*
+2*‡
+2] ]( «
+] ](/
+%0)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*>
+] ](2
+0
+arr)System.Collections.Generic.IEnumerable<T>2GetEnumerator()
+}
+] ](6
+	%capture0)System.Collections.Generic.IEnumerator<T>"__id*31
+/
+%0)System.Collections.Generic.IEnumerator<T>*
+3*Æ
+3] ](ñì
+] ](
+
+%1bool")System.Collections.IEnumerator.MoveNext()*D
+] ](8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2
+MoveNext()*
+4
+5*⁄
+4] ^(†ù
+] ](
+%2T"5System.Collections.Generic.IEnumerator<T>.Current.get*D
+] ](8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2Current.get)
+'
+] ](
+objT"__id*	
+
+%2Tèå
+^ ^(	
+%3int"!System.Func<T, TResult>.Invoke(T)*/
+^ ^(#
+!
+mulValSystem.Func<T, TResult>*
+^ ^(
+
+
+objT2	Invoke(T)f
+d
+^ ^(
+productint"%!binary_implicit_operator_passthrough*
+
+productint*
+	
+%3int*
+3*
+5] ](*
+6
+7*ù
+6] ](àÖ
+] ](
+
+%4void"System.IDisposable.Dispose()*D
+] ](8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2	Dispose()*
+7*
+7[ [(*
+8*Q
+8_
+ _(=
+;
+_
+ _(
+%retint"__id*
+_
+ _(
+
+productint*
+9*(
+9` `("
+` `(
+
+%retint:<
+[  [(70
+arr)System.Collections.Generic.IEnumerable<T>:-
+[9 [(L!
+mulValSystem.Func<T, TResult>B"
+Shapes.ShapesExtensionsX

@@ -1,0 +1,106 @@
+
+(Shapes.DashStyle.DashStyle(float, float)„
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs´	 ´("0*
+0
+³ ³(*
+1*Ä
+
+1
+µ »(7l
+j
+
+µ µ(
+%0Shapes.DashStyle"__id*><*:
+Shapes.DashStyle"$
+defaultDashStyleShapes.DashStylez
+x
+
+µ µ($-
+Shapes.DashStyle"
+typeShapes.DashType"__id*53*1
+
+%0Shapes.DashStyle"
+typeShapes.DashTypel
+j
+
+¶ ¶( 
+%1Shapes.DashStyle"__id*><*:
+Shapes.DashStyle"$
+defaultDashStyleShapes.DashStyle~
+|
+
+¶ ¶(&/
+Shapes.DashStyle"
+spaceShapes.DashSpace"__id*75*3
+
+%1Shapes.DashStyle"
+spaceShapes.DashSpacel
+j
+
+· ·(
+%2Shapes.DashStyle"__id*><*:
+Shapes.DashStyle"$
+defaultDashStyleShapes.DashStyleƒ
+€
+
+· ·($1
+Shapes.DashStyle"
+snapShapes.DashSnapping"__id*97*5
+
+%2Shapes.DashStyle"
+snapShapes.DashSnappingL
+J
+
+¸ ¸(#
+Shapes.DashStyle"
+sizefloat"__id*
+
+sizefloatR
+P
+
+¹ ¹(&
+Shapes.DashStyle"
+spacingfloat"__id*
+
+spacingfloatl
+j
+
+º º(!
+%3Shapes.DashStyle"__id*><*:
+Shapes.DashStyle"$
+defaultDashStyleShapes.DashStylej
+h
+
+º º((%
+Shapes.DashStyle"
+offsetfloat"__id*-+*)
+
+%3Shapes.DashStyle"
+offsetfloatl
+j
+
+» »((
+%4Shapes.DashStyle"__id*><*:
+Shapes.DashStyle"$
+defaultDashStyleShapes.DashStylex
+v
+
+» »(6,
+Shapes.DashStyle"
+shapeModifierfloat"__id*42*0
+
+%4Shapes.DashStyle"
+shapeModifierfloat*
+2*2
+2
+¼ ¼("!
+
+¼ ¼(
+implicit return:
+
+´ ´(
+sizefloat:
+
+´  ´(-
+spacingfloatB
+Shapes.DashStyleX

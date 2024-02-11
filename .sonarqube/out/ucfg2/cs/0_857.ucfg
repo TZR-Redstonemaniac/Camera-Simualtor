@@ -1,0 +1,35 @@
+
+Shapes.Polyline.this[int].getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csR R("0*
+0R R(*
+1*º
+1R
+ R(À
+»
+R
+ R(
+%0Shapes.PolylinePoint"7System.Collections.Generic.ICollection<T>.this[int].get*O
+R
+ R(C*A
+Shapes.Polyline",
+points"System.Collections.Generic.List<T>*
+R R(
+
+
+iintZ
+X
+R
+ R(
+%retShapes.PolylinePoint"__id*(
+R
+ R(
+
+%0Shapes.PolylinePoint*
+2*9
+2R R("*
+R R(
+
+%retShapes.PolylinePoint:
+
+iintB
+Shapes.Polyline

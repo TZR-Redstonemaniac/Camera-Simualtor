@@ -1,0 +1,39 @@
+
+'Shapes.DrawCommand.DrawCommand()!staticà
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.cs#	 #("0*±
+0# #(\Z
+ .  (F)
+%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>û
+õ
+ .  (F)
+%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
+ .  (F+
+)
+%0#System.Collections.Generic.Stack<T>í
+è
+ ,  (FN
+Shapes.DrawCommand"6
+cBuffersWriting#System.Collections.Generic.Stack<T>"__id*-+
+)
+%0#System.Collections.Generic.Stack<T>|z
+!L !(w9
+%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>”
+–
+!L !(w9
+%33System.Collections.Generic.Dictionary<TKey, TValue>"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*G
+!L !(w;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>¥
+±
+!J !(w`
+Shapes.DrawCommand"H
+cBuffersRendering3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>*
+1*
+1% -(V*
+2*.
+2/ /("
+/ /(
+implicit returnB"
+Shapes.DrawCommandX

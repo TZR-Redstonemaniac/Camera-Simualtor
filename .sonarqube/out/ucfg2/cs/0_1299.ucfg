@@ -1,0 +1,86 @@
+
+FShapes.DrawCommand.AppendToBuffer(UnityEngine.Rendering.CommandBuffer)ä
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.csô ô("0*
+0
+ô ô(*
+1*¸
+1
+ö" ö(+ÿ
+’
+
+ö" ö(+3
+%0-System.Collections.Generic.List<T>.Enumerator"9System.Collections.Generic.ICollection<T>.GetEnumerator()*W
+
+ö" ö(+I*G
+Shapes.DrawCommand"/
+	drawCalls"System.Collections.Generic.List<T>ä
+á
+
+ö" ö(+:
+	%capture0-System.Collections.Generic.List<T>.Enumerator"__id*75
+3
+%0-System.Collections.Generic.List<T>.Enumerator*
+2*ª
+2
+ö" ö(+°
+û
+
+ö" ö(+
+
+%1bool"8System.Collections.Generic.List<T>.Enumerator.MoveNext()*J
+
+ö" ö(+<
+:
+	%capture0-System.Collections.Generic.List<T>.Enumerator*
+3
+4*Û
+3
+ö õ(#≤
+Ø
+
+ö ö(
+%2Shapes.ShapeDrawCall"9System.Collections.Generic.List<T>.Enumerator.Current.get*J
+
+ö" ö(+<
+:
+	%capture0-System.Collections.Generic.List<T>.EnumeratorR
+P
+
+ö ö(
+drawShapes.ShapeDrawCall"__id*
+
+%2Shapes.ShapeDrawCall”
+–
+
+õ õ("
+
+%3void"LShapes.ShapeDrawCall.AddToCommandBuffer(UnityEngine.Rendering.CommandBuffer)*,
+
+õ õ(
+
+drawShapes.ShapeDrawCall*:
+
+õ õ( ,
+*
+cmd#UnityEngine.Rendering.CommandBuffer*
+2*ß
+4
+ö" ö(+êç
+
+ö" ö(+
+
+%4void"System.IDisposable.Dispose()*J
+
+ö" ö(+<
+:
+	%capture0-System.Collections.Generic.List<T>.Enumerator2	Dispose()*
+5*2
+5
+ú ú("!
+
+ú ú(
+implicit return:8
+
+ô  ô(1*
+cmd#UnityEngine.Rendering.CommandBufferB
+Shapes.DrawCommandX

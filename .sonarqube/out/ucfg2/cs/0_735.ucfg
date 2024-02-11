@@ -1,0 +1,38 @@
+
+(Shapes.Draw.GradientFillRadialRadius.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÒ Ò("0*
+0
+Ò Ò(*
+1*œ
+1
+Ò! Ò(@\
+Z
+
+Ò! Ò(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ò! Ò(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillg
+e
+
+Ò! Ò(@
+%retfloat"__id*B
+
+Ò! Ò(@4*2
+
+%1Shapes.GradientFill"
+radialRadiusfloat*
+2*.
+2
+ÒA Ò(A"
+
+Ò@ Ò(A
+
+%retfloatB"
+Shapes.DrawX

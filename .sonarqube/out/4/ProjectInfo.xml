@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Assembly-CSharp-Editor</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>49170f33-23cd-d674-9ec0-dbcc3ed2cce8</ProjectGuid>
+  <FullPath>C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assembly-CSharp-Editor.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\4\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Temp\Bin\Debug\Assembly-CSharp-Editor\Assembly-CSharp-Editor.dll.RoslynCA.json|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Temp\Bin\Debug\Assembly-CSharp-Editor\Assembly-CSharp-Editor.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\4</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

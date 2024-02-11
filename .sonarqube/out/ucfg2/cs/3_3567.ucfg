@@ -1,0 +1,32 @@
+
+RayTracingMesh.RayTracingMesh()u
+kC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\RayTracingMesh.cs ("0*í
+0ZX
+
+/ 
+(4(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>š
+—
+
+/ 
+(4(
+%1"System.Collections.Generic.List<T>")System.Collections.Generic.List<T>.List()*6
+
+/ 
+(4*
+(
+%0"System.Collections.Generic.List<T>†
+ƒ
+
+- 
+(4C
+RayTracingMesh"/
+	triangles"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>O
+M
+
+%2void")UnityEngine.MonoBehaviour.MonoBehaviour()*
+RayTracingMesh"
+implicit returnB
+RayTracingMeshX

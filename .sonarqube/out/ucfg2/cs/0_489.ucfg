@@ -1,0 +1,54 @@
+
+*Shapes.RegularPolygon.FillRadialOrigin.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÆ Æ("0*
+0
+Æ Æ(*
+1*í
+1
+Ø ∞(Tk
+i
+
+Ø Ø(
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillx
+v
+
+Ø Ø(@
+
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3û
+õ
+
+∞6 ∞(Q
+%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*F
+
+∞6 ∞(:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillÛ
+
+
+∞ ∞(S
+
+%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*'
+
+∞ ∞(
+Shapes.RegularPolygon*D
+
+∞ ∞(46*4
+Shapes.ShapesMaterialUtils"
+propFillStartint*)
+
+∞6 ∞(Q
+
+%1UnityEngine.Vector4*
+2*2
+2
+± ±("!
+
+± ±(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.RegularPolygonX

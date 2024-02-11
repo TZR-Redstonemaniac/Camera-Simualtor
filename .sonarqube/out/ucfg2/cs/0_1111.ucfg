@@ -1,0 +1,93 @@
+
+$Shapes.ShapeRenderer.RenderQueue.set†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csY Y("0*
+0Y Y(*
+1*Ú
+1Z [(R
+P
+Z Z(,
+Shapes.ShapeRenderer"
+renderQueueint"__id*
+
+valueinto
+m
+[ [(
+
+%0bool"/Shapes.ShapeRenderer.IsUsingUniqueMaterials.get*$
+[ [(
+Shapes.ShapeRenderer*
+2
+9*y
+2\ \(e
+c
+\ \(
+
+%1void"%Shapes.ShapeRenderer.UpdateMaterial()*$
+\ \(
+Shapes.ShapeRenderer*
+3*Ê
+3], ](>ÊÇ
+], ](>$
+%2System.Collections.IEnumerator".System.Collections.IEnumerable.GetEnumerator()*T
+], ](>H*F
+Shapes.ShapeRenderer",
+instancedMaterialsUnityEngine.Material[]2GetEnumerator()i
+g
+], ](>+
+	%capture0System.Collections.IEnumerator"__id*(&
+$
+%2System.Collections.IEnumerator*
+4*£
+4], ](>‹ˆ
+], ](>
+
+%3bool")System.Collections.IEnumerator.MoveNext()*9
+], ](>-
++
+	%capture0System.Collections.IEnumerator2
+MoveNext()*
+5
+6*¡
+5] ^(2Œ
+] ](
+%4object"*System.Collections.IEnumerator.Current.get*9
+], ](>-
++
+	%capture0System.Collections.IEnumerator2Current.getO
+M
+] ]()
+instancedMaterialUnityEngine.Material"__id*
+
+%4object©
+¦
+^ ^(1	
+%5int"$UnityEngine.Material.renderQueue.set*7
+^ ^(+
+)
+instancedMaterialUnityEngine.Material*0.*,
+Shapes.ShapeRenderer"
+renderQueueint*
+4*{
+6], ](>d
+b
+], ](>
+	%capture1System.IDisposable"__id*/-
++
+	%capture0System.Collections.IEnumerator*
+7
+8*„
+7], ](>pn
+], ](>
+
+%6void"System.IDisposable.Dispose()*-
+], ](>!
+
+	%capture1System.IDisposable2	Dispose()*
+8*
+8Y Y(*
+9*.
+9` `("
+` `(
+implicit return:
+valueintB
+Shapes.ShapeRendererX

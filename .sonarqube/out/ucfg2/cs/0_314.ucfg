@@ -1,0 +1,99 @@
+
+Shapes.Rectangle.DashSize.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs„ „("0*
+0
+„ „(*
+1*î
+1
+‰ Ê(e
+c
+
+‰ ‰(
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyleQ
+O
+
+‰ ‰('
+
+%0Shapes.DashStyle"
+sizefloat"__id*
+
+valuefloatÉ
+Ä
+
+Â Â(I
+%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*C
+
+Â Â(!5*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyle*4
+
+Â6 Â(<&*$
+Shapes.Rectangle"
+dashedbool*8
+
+Â> Â(G**(
+Shapes.Rectangle"
+	thicknessfloat;
+9
+
+Â
+ Â(I
+netDashSizefloat"__id*
+
+%1float*
+2
+3*Õ
+2
+Á Á(Je
+c
+
+Á4 Á(G
+%2float"$Shapes.Rectangle.GetNetDashSpacing()*"
+
+Á4 Á(E
+Shapes.Rectangleœ
+Ã
+
+Á Á(I
+
+%3void")Shapes.ShapeRenderer.SetFloat(int, float)*"
+
+Á Á(
+Shapes.Rectangle*F
+
+Á Á(28*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+
+Á4 Á(G
+
+%2float*
+3*Ô
+3
+Ë Ë(Aÿ
+’
+
+Ë Ë(@
+
+%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*"
+
+Ë Ë(
+Shapes.Rectangle*C
+
+Ë Ë(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*$
+
+Ë3 Ë(>
+
+netDashSizefloat*
+4*2
+4
+È È("!
+
+È È(
+implicit return:
+valuefloatB
+Shapes.RectangleX

@@ -1,0 +1,24 @@
+
+Shapes.PointPath<T>.PointPath()†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PointPath.cs	 	("0*ï
+0ZX
+ (((
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>š
+—
+ (((
+%1"System.Collections.Generic.List<T>")System.Collections.Generic.List<T>.List()*6
+ ((*
+(
+%0"System.Collections.Generic.List<T>†
+ƒ
+ ((C
+Shapes.PointPath<T>"*
+path"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>Q
+O
+
+%2void"&Shapes.DisposableMesh.DisposableMesh()*
+Shapes.PointPath<T>"
+implicit returnB
+Shapes.PointPath<T>X

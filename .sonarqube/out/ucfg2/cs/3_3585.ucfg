@@ -1,0 +1,113 @@
+
+RayTracingManager.OnDestroy()p
+fC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\RayTracingManager.csP P("0*
+0P P(*
+1*•
+1Q Q(~
+|
+Q Q(&
+	%capture0UnityEngine.ComputeBuffer"__id*B@*>
+RayTracingManager"'
+
+meshReaderUnityEngine.ComputeBuffer*
+2
+3*‡
+2Q Q(s
+q
+Q Q(
+
+%0void"#UnityEngine.ComputeBuffer.Release()*4
+Q Q((
+&
+	%capture0UnityEngine.ComputeBuffer*
+3*˜
+3R R(€
+~
+R R(&
+	%capture1UnityEngine.ComputeBuffer"__id*DB*@
+RayTracingManager")
+sphereReaderUnityEngine.ComputeBuffer*
+4
+5*‡
+4R R( s
+q
+R R(
+
+%1void"#UnityEngine.ComputeBuffer.Release()*4
+R R((
+&
+	%capture1UnityEngine.ComputeBuffer*
+5*›
+5S S(ƒ
+€
+S S(&
+	%capture2UnityEngine.ComputeBuffer"__id*FD*B
+RayTracingManager"+
+triangleReaderUnityEngine.ComputeBuffer*
+6
+7*‡
+6S S("s
+q
+S S(!
+
+%2void"#UnityEngine.ComputeBuffer.Release()*4
+S S((
+&
+	%capture2UnityEngine.ComputeBuffer*
+7*•
+7T T(~
+|
+T T(&
+	%capture3UnityEngine.ComputeBuffer"__id*B@*>
+RayTracingManager"'
+
+meshReaderUnityEngine.ComputeBuffer*
+8
+9*‡
+8T T(s
+q
+T T(
+
+%3void"#UnityEngine.ComputeBuffer.Dispose()*4
+T T((
+&
+	%capture3UnityEngine.ComputeBuffer*
+9*š
+9U U(€
+~
+U U(&
+	%capture4UnityEngine.ComputeBuffer"__id*DB*@
+RayTracingManager")
+sphereReaderUnityEngine.ComputeBuffer*
+10
+11*‰
+10U U( s
+q
+U U(
+
+%4void"#UnityEngine.ComputeBuffer.Dispose()*4
+U U((
+&
+	%capture4UnityEngine.ComputeBuffer*
+11*ž
+11V V(ƒ
+€
+V V(&
+	%capture5UnityEngine.ComputeBuffer"__id*FD*B
+RayTracingManager"+
+triangleReaderUnityEngine.ComputeBuffer*
+12
+13*‰
+12V V("s
+q
+V V(!
+
+%5void"#UnityEngine.ComputeBuffer.Dispose()*4
+V V((
+&
+	%capture5UnityEngine.ComputeBuffer*
+13*/
+13W W("
+W W(
+implicit returnB
+RayTracingManagerX

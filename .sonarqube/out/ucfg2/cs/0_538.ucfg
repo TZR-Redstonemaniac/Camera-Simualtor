@@ -1,0 +1,52 @@
+
+#Shapes.Rectangle.FillColorStart.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¡ ¡("0*
+0
+¡ ¡(*
+1*¸
+1
+¡
+ ¡(Of
+d
+
+¡6 ¡(:
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillr
+p
+
+¡6 ¡(M<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color"__id*
+
+valueUnityEngine.Colorâ
+Ü
+
+¡
+ ¡(O
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*"
+
+¡
+ ¡(
+Shapes.Rectangle*@
+
+¡ ¡(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*L
+
+¡6 ¡(M>*<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*2
+2
+¡P ¡(P"!
+
+¡O ¡(P
+implicit return:
+valueUnityEngine.ColorB
+Shapes.RectangleX

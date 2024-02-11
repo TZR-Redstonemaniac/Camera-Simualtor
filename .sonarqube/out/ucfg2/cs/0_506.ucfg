@@ -1,0 +1,23 @@
+
+/Shapes.ColorStack.ColorStack(UnityEngine.Color)‡
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
+0 (*
+1*Ý
+1& (8È
+Å
+& (8
+
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
+& (,F*D
+Shapes.ColorStack"-
+colors#System.Collections.Generic.Stack<T>*&
+3 (6
+
+mtxUnityEngine.Color*
+2*.
+29 (9"
+8 (9
+implicit return:$
+ ( 
+mtxUnityEngine.ColorB
+Shapes.ColorStackX

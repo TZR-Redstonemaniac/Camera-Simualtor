@@ -1,0 +1,64 @@
+
+%Shapes.RegularPolygon.DashSpacing.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÚ Ú("0*
+0
+Ú Ú(*
+1*
+1
+Ú
+ Ú( *
+2
+3*◊
+2
+Ú# Ú(1j
+h
+
+Ú# Ú(,
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyleU
+S
+
+Ú# Ú(1
+	%capture0float"__id*+)*'
+
+%0Shapes.DashStyle"
+sizefloat*
+4*⁄
+3
+Ú4 Ú(Ej
+h
+
+Ú4 Ú(=
+%1Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyleX
+V
+
+Ú4 Ú(E
+	%capture0float"__id*.,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+4*]
+4
+Ú
+ Ú(EG
+E
+
+Ú
+ Ú(E
+%retfloat"__id*"
+
+Ú
+ Ú(E
+
+	%capture0float*
+5*.
+5
+ÚF Ú(F"
+
+ÚE Ú(F
+
+%retfloatB
+Shapes.RegularPolygonX

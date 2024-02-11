@@ -1,0 +1,33 @@
+
+Shapes.Draw.RingThickness.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÏ Ï("0*
+0
+Ï Ï(*
+1* 
+1
+Ï
+ Ï(!\
+Z
+
+Ï
+ Ï(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleV
+T
+
+Ï
+ Ï(!,
+
+%0Shapes.DrawStyle"
+	thicknessfloat"__id*
+
+valuefloat*
+2*2
+2
+Ï" Ï(""!
+
+Ï! Ï("
+implicit return:
+valuefloatB"
+Shapes.DrawX

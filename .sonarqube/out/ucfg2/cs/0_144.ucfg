@@ -1,0 +1,20 @@
+
+(Shapes.ObjectPool<T>.ObjectPool()!static„
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs (!"0*¥
+0\Z
+" (0)
+%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>ž
+›
+" (0)
+%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
+" (0+
+)
+%0#System.Collections.Generic.Stack<T>‰
+†
+  (0E
+Shapes.ObjectPool<T>"+
+pool#System.Collections.Generic.Stack<T>"__id*-+
+)
+%0#System.Collections.Generic.Stack<T>"
+implicit returnB"
+Shapes.ObjectPool<T>X
