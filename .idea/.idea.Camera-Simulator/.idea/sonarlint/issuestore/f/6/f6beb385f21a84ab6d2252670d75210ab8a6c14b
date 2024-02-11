@@ -1,8 +1,8 @@
 
-rcsharpsquid:S1659¤"'Declare 'posB' in a separate statement.(ÊĞÙò8ø ğºÙ1J$11000c42-dc17-4126-b7d0-ca86afbd2603
-rcsharpsquid:S1659¤"'Declare 'posC' in a separate statement.(ÊĞÙò8ù ğºÙ1J$857ea4f6-7096-46e9-ab8d-0e068e69c561
-ucsharpsquid:S1659¥"*Declare 'normalB' in a separate statement.(çŸÈÁ8ù ğºÙ1J$acac8ec9-7f33-4b64-abcb-0aa629ef9bda
-ucsharpsquid:S1659¥"*Declare 'normalC' in a separate statement.(çŸÈÁ8ù ğºÙ1J$bec547ac-550c-4cfd-9597-471df3ec7a34
-csharpsquid:S3898"1Implement 'IEquatable<T>' in value type 'Sphere'.(Şş‹©øÿÿÿÿ8ù ğºÙ1J$3b47b613-dacb-49e0-9f69-ef28a3e3c892
-ƒcsharpsquid:S3898£"3Implement 'IEquatable<T>' in value type 'Triangle'.(ÀŠ›ºùÿÿÿÿ8ù ğºÙ1J$617b3e2c-64fc-4a68-9024-5e5dc00744f8
-~csharpsquid:S3898¨"3Implement 'IEquatable<T>' in value type 'MeshInfo'.(§Õğâ8ù ğºÙ1J$b39bc641-cd5f-4e7a-b0b7-d3583943946d
+rcsharpsquid:S1659¤"'Declare 'posB' in a separate statement.(ÊĞÙò8ø ğºÙ1J$177b96eb-a9c3-465e-894b-a31c8e5c07c7
+rcsharpsquid:S1659¤"'Declare 'posC' in a separate statement.(ÊĞÙò8ù ğºÙ1J$5e423b50-c580-4b25-abfd-e93303d315a9
+ucsharpsquid:S1659¥"*Declare 'normalB' in a separate statement.(çŸÈÁ8ù ğºÙ1J$7391f737-0a3a-4169-bd9a-541949aab756
+ucsharpsquid:S1659¥"*Declare 'normalC' in a separate statement.(çŸÈÁ8ù ğºÙ1J$993da4a9-5989-45de-9491-c878337cbe56
+csharpsquid:S3898"1Implement 'IEquatable<T>' in value type 'Sphere'.(Şş‹©øÿÿÿÿ8ù ğºÙ1J$76d0bcdc-c12f-4060-a07d-934327796457
+ƒcsharpsquid:S3898£"3Implement 'IEquatable<T>' in value type 'Triangle'.(ÀŠ›ºùÿÿÿÿ8ù ğºÙ1J$2b1a0aba-5ce3-4554-8944-82d71280a592
+~csharpsquid:S3898¨"3Implement 'IEquatable<T>' in value type 'MeshInfo'.(§Õğâ8ù ğºÙ1J$cb5364a8-75e3-4f20-9f37-be03e9002399
