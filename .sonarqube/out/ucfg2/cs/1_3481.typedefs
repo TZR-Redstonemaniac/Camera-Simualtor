@@ -1,5 +1,7 @@
-è
-Shapes.Decayerobject)
-SetT(float)Shapes.Decayer.SetT(float)#
-Update()Shapes.Decayer.Update()%
-	Decayer()Shapes.Decayer.Decayer()
+Ë
+Shapes.CrosshairUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject!
+Fire()Shapes.Crosshair.Fire()'
+	FireHit()Shapes.Crosshair.FireHit()A
+UpdateCrosshairDecay()'Shapes.Crosshair.UpdateCrosshairDecay()3
+DrawCrosshair() Shapes.Crosshair.DrawCrosshair()+
+Crosshair()Shapes.Crosshair.Crosshair()

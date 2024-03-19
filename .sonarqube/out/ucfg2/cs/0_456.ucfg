@@ -1,50 +1,31 @@
 
-Shapes.Rectangle.FillSpace.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs§ §("0*
+Shapes.Draw.ScaleMode.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
 0
-§ §(*
-1*„
+ç ç(*
+1*Î
 1
-§
- §(Uf
-d
+ç! ç(0\
+Z
 
-§? §(C
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillk
-i
+ç! ç(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylew
+u
 
-§? §(Q6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpace"__id*
-
-valueShapes.FillSpace˜
-Ù
+ç! ç(0
+%retShapes.ScaleMode"__id*G
 
-§
- §(U
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
-
-§
- §(
-Shapes.Rectangle*D
-
-§ §(66*4
-Shapes.ShapesMaterialUtils"
-propFillSpaceint*F
-
-§8 §(S8*6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpace*
-2*2
+ç! ç(09*7
+
+%0Shapes.DrawStyle"
+	scaleModeShapes.ScaleMode*
+2*9
 2
-§V §(V"!
+ç1 ç(1"(
 
-§U §(V
-implicit return:
-valueShapes.FillSpaceB
-Shapes.RectangleX
+ç0 ç(1
+
+%retShapes.ScaleModeB"
+Shapes.DrawX

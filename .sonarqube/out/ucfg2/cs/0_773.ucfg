@@ -1,17 +1,21 @@
 
-1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSnap.getã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()"0*á
-0x* x(*¥
-±
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x().
-%ret&System.Collections.Generic.List<float>"__id*Í
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()Z*X
-Shapes.MpbLine3D"B
-Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¿
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine3D
+&Shapes.Line.MatchDashSpacingToSize.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csI I("0*
+0I I(*
+1*s
+1I
+ I( _
+]
+I
+ I( 
+%retbool"__id*=
+I
+ I( 1*/
+Shapes.Line"
+matchDashSpacingToSizebool*
+2*)
+2I! I(!"
+I  I(!
+
+%retboolB
+Shapes.LineX

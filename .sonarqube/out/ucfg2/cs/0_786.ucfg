@@ -1,16 +1,28 @@
 
-4Shapes.MpbLine3D.Shapes.IDashableMpb.dashSpacing.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,"0*€
-0z- z(-•
-¢
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,[
-Shapes.MpbLine3D"E
-Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine3D
+Shapes.Line.DashSize.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csY Y("0*
+0Y Y(*
+1*Ã
+1Y
+ Y(^
+\
+Y
+ Y(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleX
+V
+Y
+ Y(
+%retfloat"__id*5
+Y
+ Y()*'
+
+%0Shapes.DashStyle"
+sizefloat*
+2**
+2Y Y("
+Y Y(
+
+%retfloatB
+Shapes.LineX

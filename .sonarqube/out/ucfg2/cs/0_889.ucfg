@@ -1,21 +1,17 @@
 
-!Shapes.DisposableMesh.ClearMesh()å
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DisposableMesh.csP P("0*
-0P P(*
-1*
-1Q Q(*
-2
-3*â
-2R R(u
-s
-R R(
-
-%0void"UnityEngine.Mesh.Clear()*A
-R R(5*3
-Shapes.DisposableMesh"
-meshUnityEngine.Mesh*
-3*.
-3S S("
-S S(
-implicit returnB
-Shapes.DisposableMeshX
+1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSize.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()"0*á
+0w* w(*¥
+±
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()Z*X
+Shapes.MpbLine3D"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine3D

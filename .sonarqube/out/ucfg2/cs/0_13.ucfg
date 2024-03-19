@@ -1,0 +1,22 @@
+
+3Shapes.GradientFillStack.GradientFillStack()!staticè
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs
+ 
+()"0*Æ
+0\Z
+: ([)
+%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>û
+õ
+: ([)
+%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
+: ([+
+)
+%0#System.Collections.Generic.Stack<T>í
+è
+8 ([N
+Shapes.GradientFillStack"0
+	gradients#System.Collections.Generic.Stack<T>"__id*-+
+)
+%0#System.Collections.Generic.Stack<T>"
+implicit returnB"
+Shapes.GradientFillStackX

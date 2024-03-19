@@ -1,30 +1,51 @@
 
- Shapes.Draw.StencilWriteMask.setå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csn n("0*
-0n n(*
-1*∫
-1n! n(KZ
-X
-n! n(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
-k
-n! n(2
-%1Shapes.RenderState"__id*?=*;
-
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderState[
-Y
-n! n(K4
-
-%1Shapes.RenderState"
-stencilWriteMaskbyte"__id*
+!Shapes.RegularPolygon.UseFill.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csú ú("0*
+0
+ú ú(*
+1*ã
+1
+ù û(XS
+Q
 
-valuebyte*
-2*.
-2nL n(L"
-nK n(L
+ù ù(*
+Shapes.RegularPolygon"
+useFillbool"__id*
+
+valueboolŒ
+À
+
+û1 û(U	
+%0int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*F
+
+û1 û(58*6
+Shapes.RegularPolygon"
+fillShapes.GradientFill*:
+
+ûL û(S,**
+Shapes.RegularPolygon"
+useFillboolŒ
+À
+
+û û(W
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
+
+û û(
+Shapes.RegularPolygon*C
+
+û û(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+û1 û(U
+	
+%0int*
+2*2
+2
+ü ü("!
+
+ü ü(
 implicit return:
-valuebyteB"
-Shapes.DrawX
+valueboolB
+Shapes.RegularPolygonX

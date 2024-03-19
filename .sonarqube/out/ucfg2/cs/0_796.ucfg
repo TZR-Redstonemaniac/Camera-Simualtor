@@ -1,37 +1,21 @@
 
-Shapes.Draw.DashSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csé é("0*
-0
-é é(*
-1*«
-1
-é! é(>\
-Z
-
-é! é(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-é! é(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleh
-f
-
-é! é(>3
-
-%1Shapes.DashStyle"
-spaceShapes.DashSpace"__id*
-
-valueShapes.DashSpace*
-2*2
-2
-é? é(?"!
-
-é> é(?
-implicit return:
-valueShapes.DashSpaceB"
-Shapes.DrawX
+Shapes.Cuboid.Size.get
+uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs ("0*
+0 (*
+1*Å
+1
+ (m
+k
+
+ (
+%retUnityEngine.Vector3"__id*<
+
+ (0*.
+Shapes.Cuboid"
+sizeUnityEngine.Vector3*
+2*8
+2 (")
+ (
+
+%retUnityEngine.Vector3B
+Shapes.Cuboid

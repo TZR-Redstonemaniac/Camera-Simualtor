@@ -1,37 +1,17 @@
 
-Shapes.Draw.Font.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csˆ ˆ("0*
+4Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpace.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*"0*·
 0
-ˆ ˆ(*
-1*Ã
-1
-ˆ! ˆ(=\
-Z
-
-ˆ! ˆ(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ˆ! ˆ(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStylem
-k
-
-ˆ! ˆ(=5
-
-%1Shapes.TextStyle"
-fontTMPro.TMP_FontAsset"__id* 
-
-valueTMPro.TMP_FontAsset*
-2*2
-2
-ˆ> ˆ(>"!
-
-ˆ= ˆ(>
-implicit return:
-valueTMPro.TMP_FontAssetB"
-Shapes.DrawX
+Ω+ Ω(+ß
+§
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*[
+Shapes.MpbTriangle"C
+Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbTriangle

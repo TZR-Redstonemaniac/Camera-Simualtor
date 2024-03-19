@@ -1,35 +1,64 @@
 
-Shapes.Triangle.DashSpace.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csƒ ƒ("0*
+Shapes.Triangle.DashSpacing.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csø ø("0*
 0
-ƒ ƒ(*
-1*ï
+ø ø(*
+1*
 1
-ƒ
- ƒ(d
+ø
+ ø( *
+2
+3*Ñ
+2
+ø# ø(1d
 b
 
-ƒ
- ƒ(
+ø# ø(,
 %0Shapes.DashStyle"__id*64*2
 Shapes.Triangle"
-	dashStyleShapes.DashStyles
-q
+	dashStyleShapes.DashStyleU
+S
 
-ƒ
- ƒ(
-%retShapes.DashSpace"__id*C
-
-ƒ
- ƒ(5*3
+ø# ø(1
+	%capture0float"__id*+)*'
 
-%0Shapes.DashStyle"
-spaceShapes.DashSpace*
-2*9
-2
-ƒ ƒ("(
+%0Shapes.DashStyle"
+sizefloat*
+4*Ô
+3
+ø4 ø(Ed
+b
 
-ƒ ƒ(
-
-%retShapes.DashSpaceB
+ø4 ø(=
+%1Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyleX
+V
+
+ø4 ø(E
+	%capture0float"__id*.,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+4*]
+4
+ø
+ ø(EG
+E
+
+ø
+ ø(E
+%retfloat"__id*"
+
+ø
+ ø(E
+
+	%capture0float*
+5*.
+5
+øF ø(F"
+
+øE ø(F
+
+%retfloatB
 Shapes.TriangleX

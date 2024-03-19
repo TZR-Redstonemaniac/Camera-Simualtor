@@ -1,15 +1,15 @@
-ø
-mC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\IntersectionTester.cs 8r,	!"#%&()*+,-/0234579;=>?xÇ!"%+-/23479=Õ
+¿
+mC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\IntersectionTester.cs 8r-
+ "#$&')*+,-.0134568:<>?@xÇ "#&,.03458:>Õ
 kC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\RayTracingMesh.cs 8j9<?r3
-!"#$%'(*+-./0124567:=@BCEFGHIxÇ"'(*+-./0567:B 
-fC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\RayTracingManager.csy 	8'jrÊ	
-!"$%'(*+,-./1246789:<>@ABDFHJKLNPQRSTUVWYZ\]_`bcefhiklnopqrstuwxz{}~ÅÇÑÖáàâäåçéêíìîïñòôöúùûü†°£§•ß®©™´¨Æ∞±≤≥¥∂∑∏πªΩø¿¡√≈∆»… ÃÕœ–—”‘’◊ÿŸ€‹ﬁﬂ‡‚„‰ÂÊËÈÎÌÓÔÒÚÙıˆ˜˘˙¸˛ÄÅÉÑÖÜáâäãåçéêëíîïóòôöúùûü†¢£§•ß®©™´¨xÇÁLNQRSTUVZ\]_`bcefhiklnopqrwxz{}~ÅÇÑÖáàâäåçéêíìîïôöúùûü†°£§•ß™´Æ∞≤∑∏πªΩø√≈… ÃÕœ–‘’◊ÿŸ€‹ﬁﬂ‡‚„‰ÂÈÎÌÓÔÙıˆ˙¸˛ÅÑÖÜáâäãåçêîïóòô°
+!"#$%'(*+-./0124567:=@BCEFGHIxÇ"'(*+-./0567:B°
 bC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\CamTest.cs 8jr	
  !"$%'()*+xÇ !"%'ç
-eC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\Screenshot.cs 8jr	xÇ	ö
-cC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\MovementHelper.cs 8jr	
- "#$xÇ		
-"Ç
+eC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\Screenshot.cs 8jr	xÇ	õ
+cC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\MovementHelper.cs 8j	r
+ !#$%xÇ	
+ #Ç
 oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\RayTracingMaterial.csr	å
 iC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\SphereObject.cs 8r	xÇá
-iC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\ShaderRenderer.cs 8r	xÇ
+iC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\ShaderRenderer.cs 8r	xÇ€
+oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Managers\RayTracingManager.csy 	8'j	rÎ !"$%'(*+-./0124579:;<=?ACDEGIKMNOQSTUVWXYZ\]_`bcefhiklnoqrstuvwxz{}~ÄÅÇÑÖáàäãåçèêëìïñóòôõúùü†°¢£§¶ß®™´¨≠ÆØ±≥¥µ∂∑π∫ªºæ¿¬√ƒ∆»…ÀÃÕœ–“”‘÷◊ÿ⁄€‹ﬁﬂ·‚„ÂÊÁËÈÎÏÓÒÚÛÙı˜¯˘˙¸˝ˇÅÉÑÜáàâäåçéèêëìîïóòöõúùü†°¢£•¶ß®™´¨≠ÆØxÇÍ !"OQTUVWXY]_`bcefhiklnoqrstuz{}~ÄÅÇÑÖáàäãåçèêëìïñóòúùü†°¢£§¶ß®™≠Æ±≥µ∫ªºæ¿¬∆»ÃÕœ–“”◊ÿ⁄€‹ﬁﬂ·‚„ÂÊÁËÏÓÒÚÛ˜¯˘˝ˇÅÑáàâäåçéèêìóòöõú

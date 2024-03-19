@@ -1,5 +1,5 @@
-À
-IntersectionTesterUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject'
-Update()IntersectionTester.Update()[
-"DoesIntersect(UnityEngine.Vector2)5IntersectionTester.DoesIntersect(UnityEngine.Vector2)?
-IntersectionTester()'IntersectionTester.IntersectionTester()
+È
+CamTestUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject
+Start()CamTest.Start()
+Update()CamTest.Update()
+	CamTest()CamTest.CamTest()

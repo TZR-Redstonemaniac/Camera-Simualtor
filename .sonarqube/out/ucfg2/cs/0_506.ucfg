@@ -1,23 +1,35 @@
 
-/Shapes.ColorStack.ColorStack(UnityEngine.Color)á
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
-0 (*
-1*›
-1& (8»
-≈
-& (8
+)Shapes.RegularPolygon.FillLinearStart.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csª ª("0*
+0
+ª ª(*
+1*á
+1
+ª
+ ª(k
+i
 
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
-& (,F*D
-Shapes.ColorStack"-
-colors#System.Collections.Generic.Stack<T>*&
-3 (6
-
-mtxUnityEngine.Color*
-2*.
-29 (9"
-8 (9
-implicit return:$
- ( 
-mtxUnityEngine.ColorB
-Shapes.ColorStackX
+ª
+ ª(
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillÉ
+Ä
+
+ª
+ ª(
+%retUnityEngine.Vector3"__id*O
+
+ª
+ ª(A*?
+
+%0Shapes.GradientFill""
+linearStartUnityEngine.Vector3*
+2*<
+2
+ª ª("+
+
+ª ª(
+
+%retUnityEngine.Vector3B
+Shapes.RegularPolygon

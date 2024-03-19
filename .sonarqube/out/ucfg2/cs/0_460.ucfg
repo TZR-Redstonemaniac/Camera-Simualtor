@@ -1,27 +1,30 @@
 
-!Shapes.RegularPolygon.UseFill.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csõ õ("0*
+Shapes.Draw.ScaleMode.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csé é("0*
 0
-õ õ(*
-1*t
+é é(*
+1*‡
 1
-õ
- õ(^
-\
+é! é(8\
+Z
 
-õ
- õ(
-%retbool"__id*:
+é! é(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylel
+j
 
-õ
- õ(,**
-Shapes.RegularPolygon"
-useFillbool*
-2*-
+é! é(87
+
+%0Shapes.DrawStyle"
+	scaleModeShapes.ScaleMode"__id*
+
+valueShapes.ScaleMode*
+2*2
 2
-õ õ("
+é9 é(9"!
 
-õ õ(
-
-%retboolB
-Shapes.RegularPolygonX
+é8 é(9
+implicit return:
+valueShapes.ScaleModeB"
+Shapes.DrawX

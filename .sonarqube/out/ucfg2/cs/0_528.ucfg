@@ -1,35 +1,40 @@
 
-Shapes.Polygon.this[int].get€
-vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.cs1 1("0*
-01 1(*
-1*¸
-11
- 1(É
-Æ
-1
- 1(
-%0UnityEngine.Vector2"7System.Collections.Generic.ICollection<T>.this[int].get*N
-1
- 1(B*@
-Shapes.Polygon",
-points"System.Collections.Generic.List<T>*
-1 1(
-
-
-iintX
+!Shapes.Disc.DashShapeModifier.set›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs@ @("0*
+0@ @(*
+1*¿
+1@
+ @(c^
+\
+@B @(K
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStyleX
 V
-1
- 1(
-%retUnityEngine.Vector2"__id*'
-1
- 1(
-
-%0UnityEngine.Vector2*
-2*8
-21 1(")
-1 1(
-
-%retUnityEngine.Vector2:
-
-iintB
-Shapes.Polygon
+@B @(a0
+
+%0Shapes.DashStyle"
+shapeModifierfloat"__id*
+
+valuefloatð
+í
+@
+ @(c
+
+%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+@
+ @(
+Shapes.Disc*J
+@ @(@>*<
+Shapes.ShapesMaterialUtils"
+propDashShapeModifierint*>
+@B @(a2*0
+
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2*.
+2@d @(d"
+@c @(d
+implicit return:
+valuefloatB
+Shapes.DiscX

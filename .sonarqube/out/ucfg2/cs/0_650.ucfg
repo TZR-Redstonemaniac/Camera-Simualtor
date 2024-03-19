@@ -1,40 +1,33 @@
 
-Shapes.Line.DashType.set›
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csz z("0*
-0z z(*
-1*¾
-1z
- z(X^
-\
-z> z(G
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStylec
+Shapes.Triangle.B.set
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csq q("0*
+0q q(*
+1*ë
+1q
+ q(?c
 a
-z> z(T1
-
-%0Shapes.DashStyle"
-typeShapes.DashType"__id*
-
-valueShapes.DashTypeä
-á
-z
- z(X
+q4 q(=-
+Shapes.Triangle"
+bUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ñ
+î
+q
+ q(?
 
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-z
- z(
-Shapes.Line*A
-z z(55*3
-Shapes.ShapesMaterialUtils"
-propDashTypeint*?
-z7 z(V3*1
-
-%0Shapes.DashStyle"
-typeShapes.DashType*
+%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
+q
+ q(
+Shapes.Triangle*:
+q q(2.*,
+Shapes.ShapesMaterialUtils"
+propBint*;
+q4 q(=/*-
+Shapes.Triangle"
+bUnityEngine.Vector3*
 2*.
-2zY z(Y"
-zX z(Y
-implicit return:
-valueShapes.DashTypeB
-Shapes.LineX
+2q@ q(@"
+q? q(@
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.TriangleX

@@ -1,17 +1,47 @@
 
-9Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashType.set
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()"0*æ
+Shapes.Line.GetNetDashSpacing()
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
 0
-ø* ø(*¬
-©
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()`
-Shapes.MpbRegularPolygon"B
-Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"¥
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRegularPolygon
+ (*
+1*È
+1
+ (hï
+ì
+
+ (h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
+
+ (0
+Shapes.Line*>
+
+2 (;0*.
+Shapes.Line"
+	dashStyleShapes.DashStyle*/
+
+= (C!*
+Shapes.Line"
+dashedbool*?
+
+E ([1*/
+Shapes.Line"
+matchDashSpacingToSizebool*3
+
+] (f%*#
+Shapes.Line"
+	thicknessfloat@
+>
+
+ (h
+%retfloat"__id*
+
+ (h
+
+%0float*
+2*.
+2
+i (i"
+
+h (i
+
+%retfloatB
+Shapes.LineX

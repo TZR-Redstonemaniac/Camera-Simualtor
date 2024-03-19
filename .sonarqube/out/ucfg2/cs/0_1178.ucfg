@@ -1,89 +1,27 @@
 
-6Shapes.ShapesMaterialUtils.GetRectMaterial(bool, bool)â
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.csì  ì(/"0*
+Shapes.Quad.IsUsingAutoD.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csù ù("0*
 0
-ì ì(*
-1*
+ù ù(*
+1*k
 1
-î î(*
-2
-6*
+ù
+ ù(U
+S
+
+ù
+ ù(
+%retbool"__id*1
+
+ù
+ ù(#*!
+Shapes.Quad"
+autoSetDbool*
+2*-
 2
-ï ï(*
-3
-4*•
-3
-ï ï()é
-ã
+ù ù("
 
-ï ï()#
-	%capture0Shapes.ShapesMaterials"__id*RP*N
-Shapes.ShapesMaterialUtils".
-matRectBorderRoundedShapes.ShapesMaterials*
-5*û
-4
-ï, ï(9á
-Ñ
-
-ï, ï(9#
-	%capture0Shapes.ShapesMaterials"__id*KI*G
-Shapes.ShapesMaterialUtils"'
-matRectBorderShapes.ShapesMaterials*
-5*Ä
-5
-ï ï(9i
-g
-
-ï ï(9
-%retShapes.ShapesMaterials"__id*3
-
-ï ï(9%
-#
-	%capture0Shapes.ShapesMaterials*
-10*
-6
-ó ó(*
-7
-8*ü
-7
-ó ó(#à
-Ö
-
-ó ó(##
-	%capture1Shapes.ShapesMaterials"__id*LJ*H
-Shapes.ShapesMaterialUtils"(
-matRectRoundedShapes.ShapesMaterials*
-9*û
-8
-ó& ó(3á
-Ñ
-
-ó& ó(3#
-	%capture1Shapes.ShapesMaterials"__id*KI*G
-Shapes.ShapesMaterialUtils"'
-matRectSimpleShapes.ShapesMaterials*
-9*Ä
-9
-ó ó(3i
-g
-
-ó ó(3
-%retShapes.ShapesMaterials"__id*3
-
-ó ó(3%
-#
-	%capture1Shapes.ShapesMaterials*
-10*@
-10
-ò ò(".
-
-ò ò( 
-
-%retShapes.ShapesMaterials:
-
-ì1 ì(<
-hollowbool:
-
-ì> ì(J
-roundedboolB"
-Shapes.ShapesMaterialUtils
+ù ù(
+
+%retboolB
+Shapes.QuadX

@@ -1,33 +1,84 @@
 
-Shapes.Triangle.A.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csk k("0*
-0k k(*
-1*Î
-1k
- k(?c
-a
-k4 k(=-
-Shapes.Triangle"
-aUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3Ò
-Ó
-k
- k(?
+Shapes.Disc.Color.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs8 8("0*
+08 8(*
+1*ì
+19 <(P_
+]
+9- 9(:+
+Shapes.Disc"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.ColorË
+Â
+9 9(<
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-k
- k(
-Shapes.Triangle*:
-k k(2.*,
-Shapes.ShapesMaterialUtils"
-propAint*;
-k4 k(=/*-
-Shapes.Triangle"
-aUnityEngine.Vector3*
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+9 9(
+Shapes.Disc*>
+9 9(+2*0
+Shapes.ShapesMaterialUtils"
+	propColorint*9
+9- 9(:-*+
+Shapes.Disc"
+colorUnityEngine.Colori
+g
+:7 :(N5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Color"__id*
+
+valueUnityEngine.Color¸
+˘
+: :(P
+
+%1void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+: :(
+Shapes.Disc*H
+: :(5<*:
+Shapes.ShapesMaterialUtils"
+propColorOuterStartint*C
+:7 :(N7*5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Colorg
+e
+;5 ;(J3
+Shapes.Disc""
+colorInnerEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color¯
+ı
+; ;(L
+
+%2void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+; ;(
+Shapes.Disc*F
+; ;(3:*8
+Shapes.ShapesMaterialUtils"
+propColorInnerEndint*A
+;5 ;(J5*3
+Shapes.Disc""
+colorInnerEndUnityEngine.Colorg
+e
+<8 <(M3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color˚
+¯
+< <(O
+
+%3void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+< <(
+Shapes.Disc*F
+< <(6:*8
+Shapes.ShapesMaterialUtils"
+propColorOuterEndint*A
+<8 <(M5*3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color*
 2*.
-2k@ k(@"
-k? k(@
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.TriangleX
+2= =("
+= =(
+implicit return:
+valueUnityEngine.ColorB
+Shapes.DiscX

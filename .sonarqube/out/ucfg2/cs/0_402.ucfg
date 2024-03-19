@@ -1,33 +1,35 @@
 
-Shapes.Line.ColorEnd.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs? ?("0*
-0? ?(*
-1*Í
-1?
- ?(Kb
-`
-?9 ?(I.
-Shapes.Line"
-colorEndUnityEngine.Color"__id*
-
-valueUnityEngine.ColorÒ
-Ó
-?
- ?(K
+"Shapes.RegularPolygon.DashSnap.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÑ Ñ("0*
+0
+Ñ Ñ(*
+1*˙
+1
+Ñ
+ Ñ(j
+h
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-?
- ?(
-Shapes.Line*A
-? ?(75*3
-Shapes.ShapesMaterialUtils"
-propColorEndint*<
-?9 ?(I0*.
-Shapes.Line"
-colorEndUnityEngine.Color*
-2*.
-2?L ?(L"
-?K ?(L
-implicit return:
-valueUnityEngine.ColorB
-Shapes.LineX
+Ñ
+ Ñ(
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStylex
+v
+
+Ñ
+ Ñ(
+%retShapes.DashSnapping"__id*E
+
+Ñ
+ Ñ(7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*<
+2
+Ñ Ñ("+
+
+Ñ Ñ(
+
+%retShapes.DashSnappingB
+Shapes.RegularPolygonX

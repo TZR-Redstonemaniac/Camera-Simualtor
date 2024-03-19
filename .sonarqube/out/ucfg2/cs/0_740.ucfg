@@ -1,18 +1,51 @@
 
-3Shapes.MpbPolygon.Shapes.IFillableMpb.fillSpace.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*"0*ë
-0
-ç+ ç(+∫
-∑
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*.
-%ret&System.Collections.Generic.List<float>"__id*Ó
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*\*Z
-Shapes.MpbPolygon"C
-Shapes.IFillableMpb.fillSpace"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbPolygon
+Shapes.ArrayPool<T>.Alloc(int)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs	 	("0*
+0	 	(*
+1*π
+1	- 	(<°
+û
+	- 	(7	
+%0int"3System.Collections.Generic.ICollection<T>.Count.get*R
+	- 	(1F*D
+Shapes.ArrayPool<T>"+
+pool#System.Collections.Generic.Stack<T>*
+2
+3*e
+2	? 	(N
+	? 	(N	
+%1T[]"T[]3
+1
+	? 	(N
+	%capture0T[]"__id*
+	
+%1T[]*
+4*Á
+3	Q 	([ù
+ö
+	Q 	([	
+%2T[]"/System.Collections.Generic.ICollection<T>.Pop()*R
+	Q 	(UF*D
+Shapes.ArrayPool<T>"+
+pool#System.Collections.Generic.Stack<T>3
+1
+	Q 	([
+	%capture0T[]"__id*
+	
+%2T[]*
+4*S
+4	- 	([?
+=
+	- 	([
+%retT[]"__id*
+	- 	([
+
+	%capture0T[]*
+5*(
+5	\ 	(\"
+	[ 	(\
+
+%retT[]:
+	 	('
+maxCountintB"
+Shapes.ArrayPool<T>

@@ -1,28 +1,27 @@
 
-Shapes.Line.DashSnap.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csu u("0*
-0u u(*
-1*Ë
-1u
- u(^
-\
-u
- u(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStylet
-r
-u
- u(
-%retShapes.DashSnapping"__id*C
-u
- u(7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*8
-2u u(")
-u u(
-
-%retShapes.DashSnappingB
-Shapes.LineX
+Shapes.Disc.ColorStart.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csi i("0*
+0i i(*
+1*‡
+1i
+ i(vt
+i
+ i(
+%0UnityEngine.Color"Shapes.ShapeRenderer.Color.get*$
+i
+ i(
+Shapes.ShapeRenderer2	Color.getT
+R
+i
+ i(
+%retUnityEngine.Color"__id*%
+i
+ i(
+
+%0UnityEngine.Color*
+2*6
+2i i("'
+i i(
+
+%retUnityEngine.ColorB
+Shapes.Disc

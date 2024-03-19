@@ -1,16 +1,17 @@
 
-1Shapes.MpbLine2D.Shapes.IDashableMpb.dashSnap.set‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()"0*Ø
-0Z* Z(*¢
-Ÿ
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()X
-Shapes.MpbLine2D"B
-Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine2D
+Shapes.ShapeGroup.OnValidate()ƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs+ +("0*
+0+ +(*
+1*v
+1+ +(*b
+`
++ +(*
+
+%0void"%Shapes.ShapeGroup.UpdateChildShapes()*!
++ +((
+Shapes.ShapeGroup*
+2*.
+2++ +(+"
++* +(+
+implicit returnB
+Shapes.ShapeGroupX

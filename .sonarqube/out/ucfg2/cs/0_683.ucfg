@@ -1,43 +1,31 @@
 
-Shapes.Triangle.ColorB.setƒ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs© ©("0*
+&Shapes.Draw.RegularPolygonGeometry.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csæ æ("0*
 0
-© ©(*
-1*ü
+æ æ(*
+1*”
 1
-©
- ©(Gf
-d
+æ! æ(=\
+Z
 
-©7 ©(E0
-Shapes.Triangle"
-colorBUnityEngine.Color"__id*
-
-valueUnityEngine.Colorý
-ú
+æ! æ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleŸ
+œ
 
-©
- ©(G
+æ! æ(=%
+%retShapes.RegularPolygonGeometry"__id*a
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
-
-©
- ©(
-Shapes.Triangle*A
-
-© ©(53*1
-Shapes.ShapesMaterialUtils"
-
-propColorBint*@
-
-©7 ©(E2*0
-Shapes.Triangle"
-colorBUnityEngine.Color*
-2*2
+æ! æ(=S*Q
+
+%0Shapes.DrawStyle"7
+regularPolygonGeometryShapes.RegularPolygonGeometry*
+2*F
 2
-©H ©(H"!
+æ> æ(>"5
 
-©G ©(H
-implicit return:
-valueUnityEngine.ColorB
-Shapes.TriangleX
+æ= æ(>'
+%
+%retShapes.RegularPolygonGeometryB"
+Shapes.DrawX

@@ -1,120 +1,43 @@
 
-ÜShapes.ShapesMath.WeightedSum(UnityEngine.Vector4, UnityEngine.Vector2, UnityEngine.Vector2, UnityEngine.Vector2, UnityEngine.Vector2)~
-tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMath.cs$/ $(:"0*
-0$ $(*
-1*≤
-1	$w $(ú›
-⁄
-$w $(~
-%0UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*4
-$w $(z(*&
-
-wUnityEngine.Vector4"
+Shapes.Quad.ColorC.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÈ È("0*
+0
+È È(*
+1*
+1
+È
+ È(Gb
+`
 
-xfloat*&
-$} $(~
-
-aUnityEngine.Vector2„
-‡
+È7 È(E,
+Shapes.Quad"
+colorCUnityEngine.Color"__id*
+
+valueUnityEngine.Colorı
+Ú
 
-$Å $(à
-%1UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
+È
+ È(G
 
-$Å $(Ñ(*&
-
-wUnityEngine.Vector4"
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
 
-yfloat*(
+È
+ È(
+Shapes.Quad*A
 
-$á $(à
-
-bUnityEngine.Vector2‚
-ﬂ
-	$w $(à
-%2UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*'
-$w $(~
-
-%0UnityEngine.Vector2*)
+È È(53*1
+Shapes.ShapesMaterialUtils"
 
-$Å $(à
-
-%1UnityEngine.Vector2„
-‡
+propColorCint*<
 
-$ã $(í
-%3UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
-
-$ã $(é(*&
-
-wUnityEngine.Vector4"
-
-zfloat*(
-
-$ë $(í
-
-cUnityEngine.Vector2„
-‡
-	$w $(í
-%4UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*(
-	$w $(à
-
-%2UnityEngine.Vector2*)
-
-$ã $(í
-
-%3UnityEngine.Vector2„
-‡
-
-$ï $(ú
-%5UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
-
-$ï $(ò(*&
-
-wUnityEngine.Vector4"
-
-wfloat*(
-
-$õ $(ú
-
-dUnityEngine.Vector2„
-‡
-	$w $(ú
-%6UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*(
-	$w $(í
-
-%4UnityEngine.Vector2*)
-
-$ï $(ú
-
-%5UnityEngine.Vector2Z
-X
-	$w $(ú
-%retUnityEngine.Vector2"__id*(
-	$w $(ú
-
-%6UnityEngine.Vector2*
-2*<
+È7 È(E.*,
+Shapes.Quad"
+colorCUnityEngine.Color*
+2*2
 2
-$ù $(ù"+
+ÈH È(H"!
 
-$ú $(ù
-
-%retUnityEngine.Vector2:$
-$< $(E
-wUnityEngine.Vector4:$
-$G $(P
-aUnityEngine.Vector2:$
-$R $([
-bUnityEngine.Vector2:$
-$] $(f
-cUnityEngine.Vector2:$
-$h $(q
-dUnityEngine.Vector2B"
-Shapes.ShapesMath
+ÈG È(H
+implicit return:
+valueUnityEngine.ColorB
+Shapes.QuadX

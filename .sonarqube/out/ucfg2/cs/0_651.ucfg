@@ -1,50 +1,48 @@
 
-&Shapes.RegularPolygon.FillColorEnd.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÀ À("0*
-0
-À À(*
-1*Ö
-1
-À
- À(Pk
-i
-
-À9 À(=
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFillp
-n
-
-À9 À(N:
-
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color"__id*
+Shapes.Disc.ColorEnd.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csr r("0*
+0r r(*
+1*›
+1s t(Pg
+e
+s5 s(J3
+Shapes.Disc""
+colorInnerEndUnityEngine.Color"__id*
 
-valueUnityEngine.Colorè
-å
+valueUnityEngine.Color¯
+ı
+s s(L
 
-À
- À(P
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+s s(
+Shapes.Disc*F
+s s(3:*8
+Shapes.ShapesMaterialUtils"
+propColorInnerEndint*A
+s5 s(J5*3
+Shapes.Disc""
+colorInnerEndUnityEngine.Colorg
+e
+t8 t(M3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color˚
+¯
+t t(O
 
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*'
-
-À
- À(
-Shapes.RegularPolygon*C
-
-À À(75*3
-Shapes.ShapesMaterialUtils"
-propColorEndint*J
-
-À9 À(N<*:
-
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color*
-2*2
-2
-ÀQ À(Q"!
-
-ÀP À(Q
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+t t(
+Shapes.Disc*F
+t t(6:*8
+Shapes.ShapesMaterialUtils"
+propColorOuterEndint*A
+t8 t(M5*3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color*
+2*.
+2u u("
+u u(
 implicit return:
-valueUnityEngine.ColorB
-Shapes.RegularPolygonX
+valueUnityEngine.ColorB
+Shapes.DiscX

@@ -1,42 +1,27 @@
 
-$Shapes.ShapeRenderer.StencilComp.setˆ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs¡ ¡("0*
+Shapes.Quad.CheckAutoSetD()
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csª ª("0*
 0
-¡ ¡(*
-1*Ü
+ª ª(*
+1*
 1
-¡
- ¡(l™
-–
-
-¡U ¡(hN
-Shapes.ShapeRenderer"4
-stencilComp%UnityEngine.Rendering.CompareFunction"__id*20
-.
-value%UnityEngine.Rendering.CompareFunction©
-¦
-
-¡
- ¡(l
-
-%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
-
-¡
- ¡('
-Shapes.ShapeRenderer*F
-
-¡) ¡(L8*6
-Shapes.ShapesMaterialUtils"
-propStencilCompint*^
-
-¡N ¡(jP*N
-Shapes.ShapeRenderer"4
-stencilComp%UnityEngine.Rendering.CompareFunction*
-2*2
+« «(*
+2
+3*g
 2
-¡m ¡(m"!
+¬ ¬(Q
+O
 
-¡l ¡(m
-implicit return:0.
-value%UnityEngine.Rendering.CompareFunctionB
-Shapes.ShapeRendererX
+¬ ¬(
+
+%0void"Shapes.Quad.AutoSetD()*
+
+¬ ¬(
+Shapes.Quad*
+3*2
+3
+­ ­("!
+
+­ ­(
+implicit returnB
+Shapes.QuadX

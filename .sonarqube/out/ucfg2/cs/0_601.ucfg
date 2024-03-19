@@ -1,41 +1,28 @@
 
-Shapes.Line.DashSpacing.setõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csd d("0*
-0d d(*
-1*Á
-1e f(L^
-\
-e e(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStyleR
-P
-e e(*
-
-%0Shapes.DashStyle"
-spacingfloat"__id*
-
-valuefloatW
-U
-f6 f(I
-%1float"Shapes.Line.GetNetDashSpacing()*
-f6 f(G
-Shapes.Line≈
-¬
-f f(K
-
-%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-f f(
-Shapes.Line*D
-f f(48*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-f6 f(I
-
-%1float*
-2*.
-2g g("
-g g(
-implicit return:
-valuefloatB
-Shapes.LineX
+Shapes.Disc.ColorOuter.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csY Y("0*
+0Y Y(*
+1*Õ
+1Y
+ Y(c
+a
+Y
+ Y(
+%0UnityEngine.Color"Shapes.Disc.ColorOuterStart.get*
+Y
+ Y(
+Shapes.DiscT
+R
+Y
+ Y(
+%retUnityEngine.Color"__id*%
+Y
+ Y(
+
+%0UnityEngine.Color*
+2*6
+2Y Y("'
+Y Y(
+
+%retUnityEngine.ColorB
+Shapes.Disc

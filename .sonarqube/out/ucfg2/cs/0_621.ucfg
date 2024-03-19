@@ -1,27 +1,37 @@
 
-"Shapes.Triangle.ThicknessSpace.getÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csç ç("0*
+Shapes.Draw.DashSpacing.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs© ©("0*
 0
-ç ç(*
-1*ò
+© ©(*
+1*≥
 1
-ç
- ç(Å
-
+©! ©(@\
+Z
 
-ç
- ç(
-%retShapes.ThicknessSpace"__id*L
+©! ©(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
 
-ç
- ç(>*<
-Shapes.Triangle"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
+©! ©(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyleT
+R
+
+©! ©(@*
+
+%1Shapes.DashStyle"
+spacingfloat"__id*
+
+valuefloat*
+2*2
 2
-ç ç("-
+©A ©(A"!
 
-ç ç(
-
-%retShapes.ThicknessSpaceB
-Shapes.TriangleX
+©@ ©(A
+implicit return:
+valuefloatB"
+Shapes.DrawX

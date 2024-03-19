@@ -1,54 +1,53 @@
 
-"Shapes.Polygon.FillLinearStart.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs∞ ∞("0*
+%Shapes.RegularPolygon.DashSpacing.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÛ Û("0*
 0
-∞ ∞(*
-1*¸
+Û Û(*
+1*°
 1
-± ≤(Td
-b
+Ù ı(Lj
+h
 
-± ±(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillw
-u
+Ù Ù(
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyleT
+R
 
-± ±(?
-
-%0Shapes.GradientFill""
-linearStartUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ó
-î
+Ù Ù(*
+
+%0Shapes.DashStyle"
+spacingfloat"__id*
+
+valuefloato
+m
 
-≤6 ≤(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
+ı6 ı(I
+%1float")Shapes.RegularPolygon.GetNetDashSpacing()*'
 
-≤6 ≤(:1*/
-Shapes.Polygon"
-fillShapes.GradientFillÏ
-È
+ı6 ı(G
+Shapes.RegularPolygon◊
+‘
 
-≤ ≤(S
+ı ı(K
 
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
+%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*'
 
-≤ ≤(
-Shapes.Polygon*D
+ı ı(
+Shapes.RegularPolygon*F
 
-≤ ≤(46*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
+ı ı(48*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
 
-≤6 ≤(Q
-
-%1UnityEngine.Vector4*
+ı6 ı(I
+
+%1float*
 2*2
 2
-≥ ≥("!
+ˆ ˆ("!
 
-≥ ≥(
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.PolygonX
+ˆ ˆ(
+implicit return:
+valuefloatB
+Shapes.RegularPolygonX

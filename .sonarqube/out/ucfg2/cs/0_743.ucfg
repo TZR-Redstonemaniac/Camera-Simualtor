@@ -1,16 +1,42 @@
 
-/Shapes.MpbDisc.Shapes.IDashableMpb.dashType.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs9& 9()"0*÷
-09* 9(*†
-ù
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs9& 9()V
-Shapes.MpbDisc"B
-Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs9& 9()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbDisc
+#Shapes.Rectangle.ThicknessSpace.setÑ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csâ â("0*
+0
+â â(*
+1*ì
+1
+â
+ â(^w
+u
+
+âD â(Z=
+Shapes.Rectangle"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpaceÉ
+Ä
+
+â
+ â(^
+
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+
+â
+ â(
+Shapes.Rectangle*I
+
+â â(;;*9
+Shapes.ShapesMaterialUtils"
+propThicknessSpaceint*M
+
+â= â(\?*=
+Shapes.Rectangle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*2
+2
+â_ â(_"!
+
+â^ â(_
+implicit return: 
+valueShapes.ThicknessSpaceB
+Shapes.RectangleX

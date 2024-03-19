@@ -1,35 +1,18 @@
 
-.Shapes.GradientFill.GetShaderFillTypeInt(bool)Ö
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.csY Y(#"0*
-0Y Y(*
-1*
-1Y3 Y(6*
-2
-3*n
-2Y9 Y(BZ
-X
-Y9 Y(B
-	%capture0int"__id*42*0
-Shapes.GradientFill"
-typeShapes.FillType*
-4*I
-3YE Y(N5
-3
-YE Y(N
-	%capture0int"__id*2ˇˇˇˇˇˇˇˇˇ*
-4*S
-4Y3 Y(N?
-=
-Y3 Y(N
-%retint"__id*
-Y3 Y(N
-
-	%capture0int*
-5*(
-5YO Y(O"
-YN Y(O
-
-%retint:
-Y% Y(-
-useboolB
-Shapes.GradientFillX
+2Shapes.MpbPolygon.Shapes.IFillableMpb.fillType.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()"0*ê
+0
+è* è(*π
+∂
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è().
+%ret&System.Collections.Generic.List<float>"__id*Ì
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()[*Y
+Shapes.MpbPolygon"B
+Shapes.IFillableMpb.fillType"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbPolygon

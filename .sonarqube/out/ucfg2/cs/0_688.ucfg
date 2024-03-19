@@ -1,38 +1,27 @@
 
-$Shapes.Draw.GradientFillColorEnd.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŸ Ÿ("0*
+Shapes.Triangle.Thickness.getÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csá á("0*
 0
-Ÿ Ÿ(*
-1*„
+á á(*
+1*r
 1
-Ÿ! Ÿ(<\
+á
+ á(\
 Z
 
-Ÿ! Ÿ(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+á
+ á(
+%retfloat"__id*7
 
-Ÿ! Ÿ(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill{
-y
-
-Ÿ! Ÿ(<
-%retUnityEngine.Color"__id*J
-
-Ÿ! Ÿ(<<*:
-
-%1Shapes.GradientFill"
-colorEndUnityEngine.Color*
-2*:
+á
+ á()*'
+Shapes.Triangle"
+	thicknessfloat*
+2*.
 2
-Ÿ= Ÿ(=")
+á á("
 
-Ÿ< Ÿ(=
-
-%retUnityEngine.ColorB"
-Shapes.Draw
+á á(
+
+%retfloatB
+Shapes.TriangleX

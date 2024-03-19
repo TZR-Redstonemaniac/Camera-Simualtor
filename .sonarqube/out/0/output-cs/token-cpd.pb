@@ -97432,7 +97432,1395 @@ LineEndCapVV	 
 	textStylehh 
 ;hh 
 }ii 
-}kk €b
+}kk ¢\
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolygonPath.cs
+	namespace 	
+Shapes
+ 
+{ 
+public 
+class 
+PolygonPath 
+: 
+	PointPath %
+<% &
+Vector2& -
+>- .
+{/ 0 
+PolygonTriangulation		 %
+lastUsedTriangulationMode		 0
+=		1 2 
+PolygonTriangulation		3 G
+.		G H
+EarClipping		H S
+;		S T
+public 
+PolygonPath	 
+( 
+) 
+=> 
+_ 
+= 
+$num 
+;  
+public 
+void	 
+AddPoint 
+( 
+float 
+x 
+,  
+float! &
+y' (
+)) *
+=>+ -
+AddPoint. 6
+(6 7
+new8 ;
+Vector2< C
+(C D
+xE F
+,F G
+yH I
+)J K
+)L M
+;M N
+public 
+void	 
+BezierTo 
+( 
+Vector2 
+startTangent  ,
+,, -
+Vector2. 5
+
+endTangent6 @
+,@ A
+Vector2B I
+endJ M
+,M N
+intO R
+
+pointCountS ]
+)^ _
+{` a
+if 
+( $
+CheckCanAddContinuePoint 
+(  
+)  !
+)" #
+return$ *
+;* +
+	AddPoints 
+( 
+
+ShapesMath 
+. &
+CubicBezierPointsSkipFirst 3
+(3 4
+	LastPoint5 >
+,> ?
+startTangent@ L
+,L M
+
+endTangentN X
+,X Y
+endZ ]
+,] ^
+
+pointCount_ i
+)j k
+)l m
+;m n
+} 
+public   
+void  	 
+BezierTo   
+(   
+Vector2   
+startTangent    ,
+,  , -
+Vector2  . 5
+
+endTangent  6 @
+,  @ A
+Vector2  B I
+end  J M
+,  M N
+float  O T
+pointsPerTurn  U b
+)  c d
+{  e f
+int!! 
+sampleCount!! 
+=!! 
+ShapesConfig!! !
+.!!! "
+Instance!!" *
+.!!* +,
+ polylineBezierAngularSumAccuracy!!+ K
+*!!L M
+$num!!N O
++!!P Q
+$num!!R S
+;!!S T
+float"" 
+curveSumDeg""	 
+="" 
+
+ShapesMath"" !
+.""! ""
+GetApproximateCurveSum""" 8
+(""8 9
+	LastPoint"": C
+,""C D
+startTangent""E Q
+,""Q R
+
+endTangent""S ]
+,""] ^
+end""_ b
+,""b c
+sampleCount""d o
+)""p q
+;""q r
+float## 
+angSpanTurns##	 
+=## 
+curveSumDeg## #
+/##$ %
+$num##& *
+;##* +
+int$$ 
+
+pointCount$$ 
+=$$ 
+Mathf$$ 
+.$$ 
+Max$$ 
+($$ 
+$num$$  
+,$$  !
+Mathf$$" '
+.$$' (
+
+RoundToInt$$( 2
+($$2 3
+angSpanTurns$$4 @
+*$$A B
+ShapesConfig$$C O
+.$$O P
+Instance$$P X
+.$$X Y(
+polylineDefaultPointsPerTurn$$Y u
+)$$v w
+)$$x y
+;$$y z
+BezierTo%% 
+(%% 
+startTangent%% 
+,%% 
+
+endTangent%% %
+,%%% &
+end%%' *
+,%%* +
+
+pointCount%%, 6
+)%%7 8
+;%%8 9
+}&& 
+public++ 
+void++	 
+ArcTo++ 
+(++ 
+Vector2++ 
+corner++ #
+,++# $
+Vector2++% ,
+next++- 1
+,++1 2
+float++3 8
+radius++9 ?
+,++? @
+float++A F
+pointsPerTurn++G T
+)++U V
+{++W X
+if,, 
+(,, $
+CheckCanAddContinuePoint,, 
+(,,  
+),,  !
+),," #
+return,,$ *
+;,,* +
+AddArcPoints-- 
+(-- 
+corner-- 
+,-- 
+next-- 
+,-- 
+radius-- %
+,--% &
+
+useDensity--' 1
+:--1 2
+true--3 7
+,--7 8
+$num--9 :
+,--: ;
+pointsPerTurn--< I
+)--J K
+;--K L
+}.. 
+public33 
+void33	 
+ArcTo33 
+(33 
+Vector233 
+corner33 #
+,33# $
+Vector233% ,
+next33- 1
+,331 2
+float333 8
+radius339 ?
+,33? @
+int33A D
+
+pointCount33E O
+)33P Q
+{33R S
+if44 
+(44 $
+CheckCanAddContinuePoint44 
+(44  
+)44  !
+)44" #
+return44$ *
+;44* +
+AddArcPoints55 
+(55 
+corner55 
+,55 
+next55 
+,55 
+radius55 %
+,55% &
+
+useDensity55' 1
+:551 2
+false553 8
+,558 9
+
+pointCount55: D
+,55D E
+$num55F G
+)55H I
+;55I J
+}66 
+public;; 
+void;;	 
+ArcTo;; 
+(;; 
+Vector2;; 
+corner;; #
+,;;# $
+Vector2;;% ,
+next;;- 1
+,;;1 2
+float;;3 8
+radius;;9 ?
+);;@ A
+{;;B C
+if<< 
+(<< $
+CheckCanAddContinuePoint<< 
+(<<  
+)<<  !
+)<<" #
+return<<$ *
+;<<* +
+AddArcPoints== 
+(== 
+corner== 
+,== 
+next== 
+,== 
+radius== %
+,==% &
+
+useDensity==' 1
+:==1 2
+true==3 7
+,==7 8
+$num==9 :
+,==: ;
+ShapesConfig==< H
+.==H I
+Instance==I Q
+.==Q R(
+polylineDefaultPointsPerTurn==R n
+)==o p
+;==p q
+}>> 
+publicCC 
+voidCC	 
+ArcToCC 
+(CC 
+Vector2CC 
+cornerCC #
+,CC# $
+Vector2CC% ,
+nextCC- 1
+,CC1 2
+floatCC3 8
+radiusCC9 ?
+,CC? @
+floatCCA F
+pointsPerTurnCCG T
+,CCT U
+ColorCCV [
+colorCC\ a
+)CCb c
+{CCd e
+ifDD 
+(DD $
+CheckCanAddContinuePointDD 
+(DD  
+)DD  !
+)DD" #
+returnDD$ *
+;DD* +
+AddArcPointsEE 
+(EE 
+cornerEE 
+,EE 
+nextEE 
+,EE 
+radiusEE %
+,EE% &
+
+useDensityEE' 1
+:EE1 2
+trueEE3 7
+,EE7 8
+$numEE9 :
+,EE: ;
+pointsPerTurnEE< I
+)EEJ K
+;EEK L
+}FF 
+voidHH 
+AddArcPointsHH 
+(HH 
+Vector2HH 
+cornerHH #
+,HH# $
+Vector2HH% ,
+nextHH- 1
+,HH1 2
+floatHH3 8
+radiusHH9 ?
+,HH? @
+boolHHA E
+
+useDensityHHF P
+,HHP Q
+intHHR U
+targetPointCountHHV f
+,HHf g
+floatHHh m
+pointsPerTurnHHn {
+)HH| }
+{HH~ 
+ifII 
+(II 
+radiusII 
+<=II 
+$numII 
+)II 
+{II 
+AddPointKK 
+(KK 
+cornerKK 
+)KK 
+;KK 
+returnLL 
+
+;LL
+ 
+}MM 
+Vector2OO 
+
+tangentAOO 
+=OO 
+(OO 
+cornerOO 
+-OO  
+	LastPointOO! *
+)OO+ ,
+.OO, -
+
+normalizedOO- 7
+;OO7 8
+Vector2PP 
+
+tangentBPP 
+=PP 
+(PP 
+nextPP 
+-PP 
+cornerPP %
+)PP& '
+.PP' (
+
+normalizedPP( 2
+;PP2 3
+floatQQ 
+dotQQ	 
+=QQ 
+Vector2QQ 
+.QQ 
+DotQQ 
+(QQ 
+tangentAQQ $
+,QQ$ %
+tangentBQQ& .
+)QQ/ 0
+;QQ0 1
+ifSS 
+(SS 
+dotSS 
+
+>SS 
+$numSS 
+)SS 
+{SS 
+AddPointTT 
+(TT 
+cornerTT 
+)TT 
+;TT 
+returnUU 
+
+;UU
+ 
+}VV 
+Vector2XX 
+
+normAXX 
+=XX 
+
+ShapesMathXX 
+.XX 
+
+Rotate90CWXX (
+(XX( )
+tangentAXX* 2
+)XX3 4
+;XX4 5
+Vector2YY 
+
+normBYY 
+=YY 
+
+ShapesMathYY 
+.YY 
+
+Rotate90CWYY (
+(YY( )
+tangentBYY* 2
+)YY3 4
+;YY4 5
+Vector2ZZ 
+
+	cornerDirZZ 
+=ZZ 
+(ZZ 
+normAZZ 
++ZZ  
+normBZZ! &
+)ZZ' (
+.ZZ( )
+
+normalizedZZ) 3
+;ZZ3 4
+float[[ 
+
+cornerBDot[[	 
+=[[ 
+Vector2[[ 
+.[[ 
+Dot[[ !
+([[! "
+	cornerDir[[# ,
+,[[, -
+normB[[. 3
+)[[4 5
+;[[5 6
+Vector2\\ 
+
+center\\ 
+=\\ 
+corner\\ 
++\\ 
+	cornerDir\\ &
+*\\' (
+(\\) *
+(\\+ ,
+radius\\- 3
+/\\4 5
+
+cornerBDot\\6 @
+)\\A B
+)\\C D
+;\\D E
+if^^ 
+(^^ 
+
+useDensity^^ 
+)^^ 
+{^^ 
+float__ 	
+angTurn__
+ 
+=__ 
+Vector2__ 
+.__ 
+Angle__ !
+(__! "
+normA__# (
+,__( )
+normB__* /
+)__0 1
+/__2 3
+$num__4 8
+;__8 9
+targetPointCount`` 
+=`` 
+Mathf`` 
+.`` 
+
+RoundToInt`` '
+(``' (
+angTurn``) 0
+*``1 2
+pointsPerTurn``3 @
+)``A B
+;``B C
+}aa 
+	AddPointscc 
+(cc 
+
+ShapesMathcc 
+.cc 
+GetArcPointscc %
+(cc% &
+-cc' (
+normAcc( -
+,cc- .
+-cc/ 0
+normBcc0 5
+,cc5 6
+centercc7 =
+,cc= >
+radiuscc? E
+,ccE F
+targetPointCountccG W
+)ccX Y
+)ccZ [
+;cc[ \
+}dd 
+publichh 
+boolhh	 %
+EnsureMeshIsReadyToRenderhh '
+(hh' ( 
+PolygonTriangulationhh) =
+triangulationhh> K
+,hhK L
+outhhM P
+MeshhhQ U
+outMeshhhV ]
+)hh^ _
+{hh` a
+ifii 
+(ii 
+	meshDirtyii 
+==ii 
+falseii 
+)ii 
+{ii 
+ifkk 
+(kk 
+triangulationkk 
+!=kk %
+lastUsedTriangulationModekk 2
+)kk3 4
+	meshDirtyll 
+=ll 
+truell 
+;ll 
+}mm 
+returnoo 	
+baseoo
+ 
+.oo %
+EnsureMeshIsReadyToRenderoo (
+(oo( )
+outoo* -
+outMeshoo. 5
+,oo5 6
+(oo7 8
+)oo8 9
+=>oo: <
+{oo= >
+TryUpdateMeshoo? L
+(ooL M
+triangulationooN [
+)oo\ ]
+;oo] ^
+}oo_ `
+)ooa b
+;oob c
+}pp 
+voidrr 
+TryUpdateMeshrr 
+(rr  
+PolygonTriangulationrr *
+triangulationrr+ 8
+)rr9 :
+{rr; <%
+lastUsedTriangulationModess 
+=ss 
+triangulationss ,
+;ss, -
+ShapesMeshGenuu 
+.uu 
+GenPolygonMeshuu 
+(uu  
+baseuu! %
+.uu% &
+meshuu& *
+,uu* +
+pathuu, 0
+,uu0 1
+triangulationuu2 ?
+)uu@ A
+;uuA B
+}vv 
+}yy 
+}|| ˆ
+ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DestroyOnAssemblyReload.cs
+	namespace 	
+Shapes
+ 
+{ 
+[ 
+AttributeUsage 
+( 
+AttributeTargets "
+." #
+Field# (
+)) *
+]* +
+public 
+class #
+DestroyOnAssemblyReload %
+:& '
+	Attribute( 1
+{2 3
+}		 
+} çQ
+vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesConfig.cs
+	namespace 	
+Shapes
+ 
+{ 
+[ 
+CreateAssetMenu 
+] 
+public		 
+class		 
+ShapesConfig		 
+:		 
+ScriptableObject		 -
+{		. /
+public 
+enum	 
+FragOutputPrecision !
+{" #
+fixed4 	
+,	 
+
+half4 
+, 	
+float4 	
+} 
+public 
+enum	 
+LocalAAQuality 
+{ 
+Off 
+, 
+Medium 	
+,	 
+
+High 
+} 
+public 
+enum	 $
+QuadInterpolationQuality &
+{' (
+Low 
+, 
+Medium 	
+,	 
+
+High2D 	
+,	 
+
+High 
+} 
+static 
+ShapesConfig	 
+inst 
+; 
+public 
+static	 
+ShapesConfig 
+Instance %
+{& '
+get   
+{   
+if!! 
+(!! 
+inst!! 
+==!! 
+null!! 
+)!! 
+inst"" 	
+=""
+ 
+	Resources"" 
+."" 
+Load"" 
+<"" 
+ShapesConfig"" '
+>""' (
+(""( )
+$str""* 9
+)"": ;
+;""; <
+return## 
+
+inst## 
+;## 
+}$$ 
+}%% 
+['' 
+Tooltip'' 
+
+(''
+ 
+$str'' u
+)''v w
+]''w x
+public(( 
+bool((	 
+useHdrColorPickers((  
+=((! "
+false((# (
+;((( )
+[** 
+Tooltip** 
+
+(**
+ 
+$str** F
+)**G H
+]**H I
+public++ 
+bool++	 '
+autoConfigureRenderPipeline++ )
+=++* +
+true++, 0
+;++0 1
+[-- 
+Tooltip-- 
+
+(--
+ 
+$str	-- †
++
+--° ¢
+$str.. ~
++	.. Ä
+$str// W
+)//X Y
+]//Y Z
+public00 
+bool00	 &
+useImmediateModeInstancing00 (
+=00) *
+true00+ /
+;00/ 0
+[22 
+Tooltip22 
+
+(22
+ 
+$str22 [
++22\ ]
+$str33 ]
++33^ _
+$str	44 Ä
++
+44Å Ç
+$str	55 Ñ
++
+55Ö Ü
+$str66 g
++66h i
+$str	77 ç
+)
+77é è
+]
+77è ê
+public88 
+float88	 (
+polylineDefaultPointsPerTurn88 +
+=88, -
+$num88. 0
+;880 1
+[:: 
+Tooltip:: 
+
+(::
+ 
+$str:: Q
++::R S
+$str;; `
++;;a b
+$str<< P
++<<Q R
+$str== o
++==p q
+$str>> 0
++>>1 2
+$str?? 
+
++?? 
+$str@@ v
++@@w x
+$strAA _
++AA` a
+$strBB !
++BB" #
+$strCC 
+)CC  !
+]CC! "
+publicDD 
+intDD	 ,
+ polylineBezierAngularSumAccuracyDD -
+=DD. /
+$numDD0 1
+;DD1 2
+[FF 
+TooltipFF 
+
+(FF
+ 
+$strFF t
++FFu v
+$strGG k
++GGl m
+$strHH b
+)HHc d
+]HHd e
+publicII 
+boolII	 &
+pushPopStateInDrawCommandsII (
+=II) *
+trueII+ /
+;II/ 0
+publicKK 
+constKK	 
+stringKK 
+TOOLTIP_BOUNDSKK $
+=KK% &
+$strKK' O
++KKP Q
+$strLL f
++LLg h
+$strMM `
++MMa b
+$strNN 
++NN 
+$strOO ^
++OO_ `
+$strPP z
++PP{ |
+$strQQ g
++QQh i
+$strRR n
++RRo p
+$strSS r
++SSs t
+$strTT 
++TT 
+$strUU r
++UUs t
+$strVV v
+;VVv w
+constXX 
+floatXX 
+VERY_LORGE_BOUNDSXX 
+=XX  !
+$numXX" #
+<<XX$ &
+$numXX' )
+;XX) *
+[ZZ 
+TooltipZZ 
+
+(ZZ
+ 
+TOOLTIP_BOUNDSZZ 
+)ZZ 
+]ZZ 
+publicZZ $
+floatZZ% *
+boundsSizeQuadZZ+ 9
+=ZZ: ;
+VERY_LORGE_BOUNDSZZ< M
+;ZZM N
+[[[ 
+Tooltip[[ 
+
+([[
+ 
+TOOLTIP_BOUNDS[[ 
+)[[ 
+][[ 
+public[[ $
+float[[% *
+boundsSizeTriangle[[+ =
+=[[> ?
+VERY_LORGE_BOUNDS[[@ Q
+;[[Q R
+[\\ 
+Tooltip\\ 
+
+(\\
+ 
+TOOLTIP_BOUNDS\\ 
+)\\ 
+]\\ 
+public\\ $
+float\\% *
+boundsSizeSphere\\+ ;
+=\\< =
+VERY_LORGE_BOUNDS\\> O
+;\\O P
+[]] 
+Tooltip]] 
+
+(]]
+ 
+TOOLTIP_BOUNDS]] 
+)]] 
+]]] 
+public]] $
+float]]% *
+boundsSizeTorus]]+ :
+=]]; <
+VERY_LORGE_BOUNDS]]= N
+;]]N O
+[^^ 
+Tooltip^^ 
+
+(^^
+ 
+TOOLTIP_BOUNDS^^ 
+)^^ 
+]^^ 
+public^^ $
+float^^% *
+boundsSizeCuboid^^+ ;
+=^^< =
+VERY_LORGE_BOUNDS^^> O
+;^^O P
+[__ 
+Tooltip__ 
+
+(__
+ 
+TOOLTIP_BOUNDS__ 
+)__ 
+]__ 
+public__ $
+float__% *
+boundsSizeCone__+ 9
+=__: ;
+VERY_LORGE_BOUNDS__< M
+;__M N
+[`` 
+Tooltip`` 
+
+(``
+ 
+TOOLTIP_BOUNDS`` 
+)`` 
+]`` 
+public`` $
+float``% *
+boundsSizeCylinder``+ =
+=``> ?
+VERY_LORGE_BOUNDS``@ Q
+;``Q R
+[aa 
+Tooltipaa 
+
+(aa
+ 
+TOOLTIP_BOUNDSaa 
+)aa 
+]aa 
+publicaa $
+floataa% *
+boundsSizeCapsuleaa+ <
+=aa= >
+VERY_LORGE_BOUNDSaa? P
+;aaP Q
+publicee 
+intee	 
+[ee 
+]ee 
+sphereDetailee 
+=ee 
+{ee 
+$numee  !
+,ee! "
+$numee# $
+,ee$ %
+$numee& '
+,ee' (
+$numee) *
+,ee* +
+$numee, .
+}ee/ 0
+;ee0 1
+publicgg 
+
+Vector2Intgg	 
+[gg 
+]gg 
+torusDivsMinorMajorgg )
+=gg* +
+{gg, -
+newhh 
+
+Vector2Inthh 
+(hh 
+$numhh 
+,hh 
+$numhh 
+)hh 
+,hh 
+newii 
+
+Vector2Intii 
+(ii 
+$numii 
+,ii 
+$numii 
+)ii 
+,ii 
+newjj 
+
+Vector2Intjj 
+(jj 
+$numjj 
+,jj 
+$numjj 
+)jj 
+,jj 
+newkk 
+
+Vector2Intkk 
+(kk 
+$numkk 
+,kk 
+$numkk 
+)kk 
+,kk 
+newll 
+
+Vector2Intll 
+(ll 
+$numll 
+,ll 
+$numll 
+)ll 
+}mm 
+;mm 
+publicoo 
+intoo	 
+[oo 
+]oo 
+coneDivsoo 
+=oo 
+{oo 
+$numoo 
+,oo 
+$numoo !
+,oo! "
+$numoo# %
+,oo% &
+$numoo' )
+,oo) *
+$numoo+ .
+}oo/ 0
+;oo0 1
+publicpp 
+intpp	 
+[pp 
+]pp 
+cylinderDivspp 
+=pp 
+{pp 
+$numpp  !
+,pp! "
+$numpp# %
+,pp% &
+$numpp' )
+,pp) *
+$numpp+ -
+,pp- .
+$numpp/ 2
+}pp3 4
+;pp4 5
+publicqq 
+intqq	 
+[qq 
+]qq 
+capsuleDivsqq 
+=qq 
+{qq 
+$numqq  
+,qq  !
+$numqq" #
+,qq# $
+$numqq% &
+,qq& '
+$numqq( *
+,qq* +
+$numqq, .
+}qq/ 0
+;qq0 1
+[tt 
+Tooltiptt 
+
+(tt
+ 
+$strtt 8
++tt9 :
+$struu 
+
++uu 
+$strvv i
++vvj k
+$strww _
++ww` a
+$strxx 6
+)xx7 8
+]xx8 9
+publicyy 
+FragOutputPrecisionyy	 
+FRAG_OUTPUT_V4yy +
+=yy, -
+FragOutputPrecisionyy. A
+.yyA B
+half4yyB G
+;yyG H
+[{{ 
+Tooltip{{ 
+
+({{
+ 
+$str{{ 5
++{{6 7
+$str|| 
++
+||Ä Å
+$str	}} ë
+)
+}}í ì
+]
+}}ì î
+public~~ 
+LocalAAQuality~~	 '
+LOCAL_ANTI_ALIASING_QUALITY~~ 3
+=~~4 5
+LocalAAQuality~~6 D
+.~~D E
+High~~E I
+;~~I J
+[
+ÄÄ 
+Tooltip
+ÄÄ 
+
+(
+ÄÄ
+ 
+$str
+ÄÄ K
++
+ÄÄL M
+$str
+ÅÅ 
++
+ÅÅ 
+$str
+ÇÇ +
++
+ÇÇ, -
+$str
+ÉÉ "
++
+ÉÉ# $
+$str
+ÑÑ d
++
+ÑÑe f
+$str
+ÖÖ *
++
+ÖÖ+ ,
+$str
+ÜÜ $
++
+ÜÜ% &
+$str
+áá ?
++
+áá@ A
+$str
+àà <
++
+àà= >
+$str
+ââ 
++ââÄ Å
+$str
+ää $
++
+ää% &
+$str
+ãã 0
++
+ãã1 2
+$str
+åå ,
++
+åå- .
+$strçç ™
++çç´ ¨
+$str
+éé n
++
+ééo p
+$str
+èè +
++
+èè, -
+$str
+êê +
++
+êê, -
+$str
+ëë 5
++
+ëë6 7
+$str
+íí r
+)
+íís t
+]
+íít u
+public
+ìì &
+QuadInterpolationQuality
+ìì	 !(
+QUAD_INTERPOLATION_QUALITY
+ìì" <
+=
+ìì= >&
+QuadInterpolationQuality
+ìì? W
+.
+ììW X
+Medium
+ììX ^
+;
+ìì^ _
+[
+ïï 
+Tooltip
+ïï 
+
+(
+ïï
+ 
+$str
+ïï k
++
+ïïl m
+$str
+ññ z
++
+ññ{ |
+$str
+óó y
++
+óóz {
+$str
+òò w
++
+òòx y
+$str
+ôô *
++
+ôô+ ,
+$str
+öö *
++
+öö+ ,
+$str
+õõ M
+)
+õõN O
+]
+õõO P
+public
+úú 
+int
+úú	 !
+NOOTS_ACROSS_SCREEN
+úú  
+=
+úú! "
+$num
+úú# &
+;
+úú& '
+}
+ûû 
+}†† €b
 }C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs
 	namespace 	
 Shapes
@@ -98156,1459 +99544,2076 @@ propRadiusUU! +
 ;rrC D
 }ss 
 }uu 
-}ww ˆ
-ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DestroyOnAssemblyReload.cs
+}ww ˜¡
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs
 	namespace 	
 Shapes
  
 { 
-[ 
-AttributeUsage 
-( 
-AttributeTargets "
-." #
-Field# (
-)) *
-]* +
-public 
-class #
-DestroyOnAssemblyReload %
-:& '
-	Attribute( 1
-{2 3
-}		 
-} çQ
-vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesConfig.cs
-	namespace 	
-Shapes
- 
-{ 
-[ 
-CreateAssetMenu 
-] 
-public		 
-class		 
-ShapesConfig		 
-:		 
-ScriptableObject		 -
-{		. /
-public 
-enum	 
-FragOutputPrecision !
-{" #
-fixed4 	
-,	 
-
-half4 
-, 	
-float4 	
-} 
-public 
-enum	 
-LocalAAQuality 
-{ 
-Off 
-, 
-Medium 	
-,	 
-
-High 
-} 
-public 
-enum	 $
-QuadInterpolationQuality &
-{' (
-Low 
-, 
-Medium 	
-,	 
-
-High2D 	
-,	 
-
-High 
-} 
-static 
-ShapesConfig	 
-inst 
-; 
-public 
-static	 
-ShapesConfig 
-Instance %
-{& '
-get   
-{   
-if!! 
-(!! 
-inst!! 
-==!! 
-null!! 
-)!! 
-inst"" 	
-=""
- 
-	Resources"" 
-."" 
-Load"" 
-<"" 
-ShapesConfig"" '
->""' (
-(""( )
-$str""* 9
-)"": ;
-;""; <
-return## 
-
-inst## 
-;## 
-}$$ 
-}%% 
-['' 
-Tooltip'' 
-
-(''
- 
-$str'' u
-)''v w
-]''w x
-public(( 
-bool((	 
-useHdrColorPickers((  
-=((! "
-false((# (
-;((( )
-[** 
-Tooltip** 
-
-(**
- 
-$str** F
-)**G H
-]**H I
-public++ 
-bool++	 '
-autoConfigureRenderPipeline++ )
-=++* +
-true++, 0
-;++0 1
-[-- 
-Tooltip-- 
-
-(--
- 
-$str	-- †
-+
---° ¢
-$str.. ~
-+	.. Ä
-$str// W
-)//X Y
-]//Y Z
-public00 
-bool00	 &
-useImmediateModeInstancing00 (
-=00) *
-true00+ /
-;00/ 0
-[22 
-Tooltip22 
-
-(22
- 
-$str22 [
-+22\ ]
-$str33 ]
-+33^ _
-$str	44 Ä
-+
-44Å Ç
-$str	55 Ñ
-+
-55Ö Ü
-$str66 g
-+66h i
-$str	77 ç
-)
-77é è
-]
-77è ê
-public88 
-float88	 (
-polylineDefaultPointsPerTurn88 +
-=88, -
-$num88. 0
-;880 1
-[:: 
-Tooltip:: 
-
-(::
- 
-$str:: Q
-+::R S
-$str;; `
-+;;a b
-$str<< P
-+<<Q R
-$str== o
-+==p q
-$str>> 0
-+>>1 2
-$str?? 
-
-+?? 
-$str@@ v
-+@@w x
-$strAA _
-+AA` a
-$strBB !
-+BB" #
-$strCC 
-)CC  !
-]CC! "
-publicDD 
-intDD	 ,
- polylineBezierAngularSumAccuracyDD -
-=DD. /
-$numDD0 1
-;DD1 2
-[FF 
-TooltipFF 
-
-(FF
- 
-$strFF t
-+FFu v
-$strGG k
-+GGl m
-$strHH b
-)HHc d
-]HHd e
-publicII 
-boolII	 &
-pushPopStateInDrawCommandsII (
-=II) *
-trueII+ /
-;II/ 0
-publicKK 
-constKK	 
-stringKK 
-TOOLTIP_BOUNDSKK $
-=KK% &
-$strKK' O
-+KKP Q
-$strLL f
-+LLg h
-$strMM `
-+MMa b
-$strNN 
-+NN 
-$strOO ^
-+OO_ `
-$strPP z
-+PP{ |
-$strQQ g
-+QQh i
-$strRR n
-+RRo p
-$strSS r
-+SSs t
-$strTT 
-+TT 
-$strUU r
-+UUs t
-$strVV v
-;VVv w
-constXX 
-floatXX 
-VERY_LORGE_BOUNDSXX 
-=XX  !
-$numXX" #
-<<XX$ &
-$numXX' )
-;XX) *
-[ZZ 
-TooltipZZ 
-
-(ZZ
- 
-TOOLTIP_BOUNDSZZ 
-)ZZ 
-]ZZ 
-publicZZ $
-floatZZ% *
-boundsSizeQuadZZ+ 9
-=ZZ: ;
-VERY_LORGE_BOUNDSZZ< M
-;ZZM N
-[[[ 
-Tooltip[[ 
-
-([[
- 
-TOOLTIP_BOUNDS[[ 
-)[[ 
-][[ 
-public[[ $
-float[[% *
-boundsSizeTriangle[[+ =
-=[[> ?
-VERY_LORGE_BOUNDS[[@ Q
-;[[Q R
-[\\ 
-Tooltip\\ 
-
-(\\
- 
-TOOLTIP_BOUNDS\\ 
-)\\ 
-]\\ 
-public\\ $
-float\\% *
-boundsSizeSphere\\+ ;
-=\\< =
-VERY_LORGE_BOUNDS\\> O
-;\\O P
-[]] 
-Tooltip]] 
-
-(]]
- 
-TOOLTIP_BOUNDS]] 
-)]] 
-]]] 
-public]] $
-float]]% *
-boundsSizeTorus]]+ :
-=]]; <
-VERY_LORGE_BOUNDS]]= N
-;]]N O
-[^^ 
-Tooltip^^ 
-
-(^^
- 
-TOOLTIP_BOUNDS^^ 
-)^^ 
-]^^ 
-public^^ $
-float^^% *
-boundsSizeCuboid^^+ ;
-=^^< =
-VERY_LORGE_BOUNDS^^> O
-;^^O P
-[__ 
-Tooltip__ 
-
-(__
- 
-TOOLTIP_BOUNDS__ 
-)__ 
-]__ 
-public__ $
-float__% *
-boundsSizeCone__+ 9
-=__: ;
-VERY_LORGE_BOUNDS__< M
-;__M N
-[`` 
-Tooltip`` 
-
-(``
- 
-TOOLTIP_BOUNDS`` 
-)`` 
-]`` 
-public`` $
-float``% *
-boundsSizeCylinder``+ =
-=``> ?
-VERY_LORGE_BOUNDS``@ Q
-;``Q R
-[aa 
-Tooltipaa 
-
-(aa
- 
-TOOLTIP_BOUNDSaa 
-)aa 
-]aa 
-publicaa $
-floataa% *
-boundsSizeCapsuleaa+ <
-=aa= >
-VERY_LORGE_BOUNDSaa? P
-;aaP Q
-publicee 
-intee	 
-[ee 
-]ee 
-sphereDetailee 
-=ee 
-{ee 
-$numee  !
-,ee! "
-$numee# $
-,ee$ %
-$numee& '
-,ee' (
-$numee) *
-,ee* +
-$numee, .
-}ee/ 0
-;ee0 1
-publicgg 
-
-Vector2Intgg	 
-[gg 
-]gg 
-torusDivsMinorMajorgg )
-=gg* +
-{gg, -
-newhh 
-
-Vector2Inthh 
-(hh 
-$numhh 
-,hh 
-$numhh 
-)hh 
-,hh 
-newii 
-
-Vector2Intii 
-(ii 
-$numii 
-,ii 
-$numii 
-)ii 
-,ii 
-newjj 
-
-Vector2Intjj 
-(jj 
-$numjj 
-,jj 
-$numjj 
-)jj 
-,jj 
-newkk 
-
-Vector2Intkk 
-(kk 
-$numkk 
-,kk 
-$numkk 
-)kk 
-,kk 
-newll 
-
-Vector2Intll 
-(ll 
-$numll 
-,ll 
-$numll 
-)ll 
-}mm 
-;mm 
-publicoo 
-intoo	 
-[oo 
-]oo 
-coneDivsoo 
-=oo 
-{oo 
-$numoo 
-,oo 
-$numoo !
-,oo! "
-$numoo# %
-,oo% &
-$numoo' )
-,oo) *
-$numoo+ .
-}oo/ 0
-;oo0 1
-publicpp 
-intpp	 
-[pp 
-]pp 
-cylinderDivspp 
-=pp 
-{pp 
-$numpp  !
-,pp! "
-$numpp# %
-,pp% &
-$numpp' )
-,pp) *
-$numpp+ -
-,pp- .
-$numpp/ 2
-}pp3 4
-;pp4 5
-publicqq 
-intqq	 
-[qq 
-]qq 
-capsuleDivsqq 
-=qq 
-{qq 
-$numqq  
-,qq  !
-$numqq" #
-,qq# $
-$numqq% &
-,qq& '
-$numqq( *
-,qq* +
-$numqq, .
-}qq/ 0
-;qq0 1
-[tt 
-Tooltiptt 
-
-(tt
- 
-$strtt 8
-+tt9 :
-$struu 
-
-+uu 
-$strvv i
-+vvj k
-$strww _
-+ww` a
-$strxx 6
-)xx7 8
-]xx8 9
-publicyy 
-FragOutputPrecisionyy	 
-FRAG_OUTPUT_V4yy +
-=yy, -
-FragOutputPrecisionyy. A
-.yyA B
-half4yyB G
-;yyG H
-[{{ 
-Tooltip{{ 
-
-({{
- 
-$str{{ 5
-+{{6 7
-$str|| 
-+
-||Ä Å
-$str	}} ë
-)
-}}í ì
-]
-}}ì î
-public~~ 
-LocalAAQuality~~	 '
-LOCAL_ANTI_ALIASING_QUALITY~~ 3
-=~~4 5
-LocalAAQuality~~6 D
-.~~D E
-High~~E I
-;~~I J
-[
-ÄÄ 
-Tooltip
-ÄÄ 
-
-(
-ÄÄ
- 
-$str
-ÄÄ K
-+
-ÄÄL M
-$str
-ÅÅ 
-+
-ÅÅ 
-$str
-ÇÇ +
-+
-ÇÇ, -
-$str
-ÉÉ "
-+
-ÉÉ# $
-$str
-ÑÑ d
-+
-ÑÑe f
-$str
-ÖÖ *
-+
-ÖÖ+ ,
-$str
-ÜÜ $
-+
-ÜÜ% &
-$str
-áá ?
-+
-áá@ A
-$str
-àà <
-+
-àà= >
-$str
-ââ 
-+ââÄ Å
-$str
-ää $
-+
-ää% &
-$str
-ãã 0
-+
-ãã1 2
-$str
-åå ,
-+
-åå- .
-$strçç ™
-+çç´ ¨
-$str
-éé n
-+
-ééo p
-$str
-èè +
-+
-èè, -
-$str
-êê +
-+
-êê, -
-$str
-ëë 5
-+
-ëë6 7
-$str
-íí r
-)
-íís t
-]
-íít u
-public
-ìì &
-QuadInterpolationQuality
-ìì	 !(
-QUAD_INTERPOLATION_QUALITY
-ìì" <
-=
-ìì= >&
-QuadInterpolationQuality
-ìì? W
-.
-ììW X
-Medium
-ììX ^
-;
-ìì^ _
-[
-ïï 
-Tooltip
-ïï 
-
-(
-ïï
- 
-$str
-ïï k
-+
-ïïl m
-$str
-ññ z
-+
-ññ{ |
-$str
-óó y
-+
-óóz {
-$str
-òò w
-+
-òòx y
-$str
-ôô *
-+
-ôô+ ,
-$str
-öö *
-+
-öö+ ,
-$str
-õõ M
-)
-õõN O
-]
-õõO P
-public
-úú 
-int
-úú	 !
-NOOTS_ACROSS_SCREEN
-úú  
-=
-úú! "
-$num
-úú# &
-;
-úú& '
-}
-ûû 
-}†† ¶
-ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesColorFieldAttribute.cs
-	namespace 	
-Shapes
- 
-{ 
-[ 
-AttributeUsage 
-( 
-AttributeTargets "
-." #
-Field# (
-,( )
-	Inherited* 3
-=4 5
-true6 :
-,: ;
-AllowMultiple< I
-=J K
-falseL Q
-)R S
-]S T
-public		 
-sealed		 
-class		 %
-ShapesColorFieldAttribute		 .
-:		/ 0
-PropertyAttribute		1 B
-{		C D
+[ 
+ExecuteAlways 
+] 
+[		 
+AddComponentMenu		 
+(		 
+$str		 !
+)		" #
+]		# $
 public
 
- 
-readonly
+ 
+partial
 
-	 
-bool
+ 
+class
 
- 
-	showAlpha
+ 
+Disc
 
-  
-=
+ 
+:
 
-! "
-true
+ 
+ShapeRenderer
 
-# '
-;
+ *
+,
 
-' (
-public %
-ShapesColorFieldAttribute	 "
-(" #
-bool$ (
-	showAlpha) 2
-)3 4
-=>5 7
-this8 <
-.< =
-	showAlpha= F
-=G H
-	showAlphaI R
-;R S
-} 
-} ¢\
-~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolygonPath.cs
-	namespace 	
-Shapes
- 
-{ 
-public 
-class 
-PolygonPath 
-: 
-	PointPath %
-<% &
-Vector2& -
->- .
-{/ 0 
-PolygonTriangulation		 %
-lastUsedTriangulationMode		 0
-=		1 2 
-PolygonTriangulation		3 G
-.		G H
-EarClipping		H S
-;		S T
-public 
-PolygonPath	 
-( 
-) 
-=> 
-_ 
-= 
-$num 
-;  
+* +
+	IDashable
+
+, 5
+{
+
+6 7
 public 
-void	 
-AddPoint 
-( 
-float 
-x 
-,  
-float! &
-y' (
-)) *
-=>+ -
-AddPoint. 6
-(6 7
-new8 ;
-Vector2< C
-(C D
-xE F
-,F G
-yH I
-)J K
-)L M
-;M N
-public 
-void	 
-BezierTo 
-( 
-Vector2 
-startTangent  ,
-,, -
-Vector2. 5
-
-endTangent6 @
-,@ A
-Vector2B I
-endJ M
-,M N
-intO R
-
-pointCountS ]
-)^ _
-{` a
-if 
-( $
-CheckCanAddContinuePoint 
-(  
-)  !
-)" #
-return$ *
-;* +
-	AddPoints 
-( 
-
-ShapesMath 
-. &
-CubicBezierPointsSkipFirst 3
-(3 4
-	LastPoint5 >
-,> ?
-startTangent@ L
-,L M
-
-endTangentN X
-,X Y
-endZ ]
-,] ^
-
-pointCount_ i
-)j k
-)l m
-;m n
-} 
-public   
-void  	 
-BezierTo   
-(   
-Vector2   
-startTangent    ,
-,  , -
-Vector2  . 5
-
-endTangent  6 @
-,  @ A
-Vector2  B I
-end  J M
-,  M N
-float  O T
-pointsPerTurn  U b
-)  c d
-{  e f
-int!! 
-sampleCount!! 
-=!! 
-ShapesConfig!! !
-.!!! "
-Instance!!" *
-.!!* +,
- polylineBezierAngularSumAccuracy!!+ K
-*!!L M
-$num!!N O
-+!!P Q
-$num!!R S
-;!!S T
-float"" 
-curveSumDeg""	 
-="" 
-
-ShapesMath"" !
-.""! ""
-GetApproximateCurveSum""" 8
-(""8 9
-	LastPoint"": C
-,""C D
-startTangent""E Q
-,""Q R
-
-endTangent""S ]
-,""] ^
-end""_ b
-,""b c
-sampleCount""d o
-)""p q
-;""q r
-float## 
-angSpanTurns##	 
-=## 
-curveSumDeg## #
-/##$ %
-$num##& *
-;##* +
-int$$ 
-
-pointCount$$ 
-=$$ 
-Mathf$$ 
-.$$ 
-Max$$ 
-($$ 
-$num$$  
-,$$  !
-Mathf$$" '
-.$$' (
-
-RoundToInt$$( 2
-($$2 3
-angSpanTurns$$4 @
-*$$A B
-ShapesConfig$$C O
-.$$O P
-Instance$$P X
-.$$X Y(
-polylineDefaultPointsPerTurn$$Y u
-)$$v w
-)$$x y
-;$$y z
-BezierTo%% 
-(%% 
-startTangent%% 
-,%% 
-
-endTangent%% %
-,%%% &
-end%%' *
-,%%* +
-
-pointCount%%, 6
-)%%7 8
-;%%8 9
-}&& 
-public++ 
-void++	 
-ArcTo++ 
-(++ 
-Vector2++ 
-corner++ #
-,++# $
-Vector2++% ,
-next++- 1
-,++1 2
-float++3 8
-radius++9 ?
-,++? @
-float++A F
-pointsPerTurn++G T
-)++U V
-{++W X
-if,, 
-(,, $
-CheckCanAddContinuePoint,, 
-(,,  
-),,  !
-),," #
-return,,$ *
-;,,* +
-AddArcPoints-- 
-(-- 
-corner-- 
-,-- 
-next-- 
-,-- 
-radius-- %
-,--% &
-
-useDensity--' 1
-:--1 2
-true--3 7
-,--7 8
-$num--9 :
-,--: ;
-pointsPerTurn--< I
-)--J K
-;--K L
-}.. 
-public33 
-void33	 
-ArcTo33 
-(33 
-Vector233 
-corner33 #
-,33# $
-Vector233% ,
-next33- 1
-,331 2
-float333 8
-radius339 ?
-,33? @
-int33A D
-
-pointCount33E O
-)33P Q
-{33R S
-if44 
-(44 $
-CheckCanAddContinuePoint44 
-(44  
-)44  !
-)44" #
-return44$ *
-;44* +
-AddArcPoints55 
-(55 
-corner55 
-,55 
-next55 
-,55 
-radius55 %
-,55% &
-
-useDensity55' 1
-:551 2
-false553 8
-,558 9
-
-pointCount55: D
-,55D E
-$num55F G
-)55H I
-;55I J
-}66 
-public;; 
-void;;	 
-ArcTo;; 
-(;; 
-Vector2;; 
-corner;; #
-,;;# $
-Vector2;;% ,
-next;;- 1
-,;;1 2
-float;;3 8
-radius;;9 ?
-);;@ A
-{;;B C
-if<< 
-(<< $
-CheckCanAddContinuePoint<< 
-(<<  
-)<<  !
-)<<" #
-return<<$ *
-;<<* +
-AddArcPoints== 
-(== 
-corner== 
-,== 
-next== 
-,== 
-radius== %
-,==% &
-
-useDensity==' 1
-:==1 2
-true==3 7
-,==7 8
-$num==9 :
-,==: ;
-ShapesConfig==< H
-.==H I
-Instance==I Q
-.==Q R(
-polylineDefaultPointsPerTurn==R n
-)==o p
-;==p q
-}>> 
-publicCC 
-voidCC	 
-ArcToCC 
-(CC 
-Vector2CC 
-cornerCC #
-,CC# $
-Vector2CC% ,
-nextCC- 1
-,CC1 2
-floatCC3 8
-radiusCC9 ?
-,CC? @
-floatCCA F
-pointsPerTurnCCG T
-,CCT U
-ColorCCV [
-colorCC\ a
-)CCb c
-{CCd e
-ifDD 
-(DD $
-CheckCanAddContinuePointDD 
-(DD  
-)DD  !
-)DD" #
-returnDD$ *
-;DD* +
-AddArcPointsEE 
-(EE 
-cornerEE 
-,EE 
-nextEE 
-,EE 
-radiusEE %
-,EE% &
-
-useDensityEE' 1
-:EE1 2
-trueEE3 7
-,EE7 8
-$numEE9 :
-,EE: ;
-pointsPerTurnEE< I
-)EEJ K
-;EEK L
-}FF 
-voidHH 
-AddArcPointsHH 
-(HH 
-Vector2HH 
-cornerHH #
-,HH# $
-Vector2HH% ,
-nextHH- 1
-,HH1 2
-floatHH3 8
-radiusHH9 ?
-,HH? @
-boolHHA E
-
-useDensityHHF P
-,HHP Q
-intHHR U
-targetPointCountHHV f
-,HHf g
-floatHHh m
-pointsPerTurnHHn {
-)HH| }
-{HH~ 
-ifII 
-(II 
-radiusII 
-<=II 
-$numII 
-)II 
-{II 
-AddPointKK 
-(KK 
-cornerKK 
-)KK 
-;KK 
-returnLL 
-
-;LL
- 
-}MM 
-Vector2OO 
-
-tangentAOO 
-=OO 
-(OO 
-cornerOO 
--OO  
-	LastPointOO! *
-)OO+ ,
-.OO, -
-
-normalizedOO- 7
-;OO7 8
-Vector2PP 
-
-tangentBPP 
-=PP 
-(PP 
-nextPP 
--PP 
-cornerPP %
-)PP& '
-.PP' (
-
-normalizedPP( 2
-;PP2 3
-floatQQ 
-dotQQ	 
-=QQ 
-Vector2QQ 
-.QQ 
-DotQQ 
-(QQ 
-tangentAQQ $
-,QQ$ %
-tangentBQQ& .
-)QQ/ 0
-;QQ0 1
-ifSS 
-(SS 
-dotSS 
-
->SS 
-$numSS 
-)SS 
-{SS 
-AddPointTT 
-(TT 
-cornerTT 
-)TT 
-;TT 
-returnUU 
-
-;UU
- 
-}VV 
-Vector2XX 
-
-normAXX 
-=XX 
-
-ShapesMathXX 
-.XX 
-
-Rotate90CWXX (
-(XX( )
-tangentAXX* 2
-)XX3 4
-;XX4 5
-Vector2YY 
-
-normBYY 
-=YY 
-
-ShapesMathYY 
-.YY 
-
-Rotate90CWYY (
-(YY( )
-tangentBYY* 2
-)YY3 4
-;YY4 5
-Vector2ZZ 
-
-	cornerDirZZ 
-=ZZ 
-(ZZ 
-normAZZ 
-+ZZ  
-normBZZ! &
-)ZZ' (
-.ZZ( )
-
-normalizedZZ) 3
-;ZZ3 4
-float[[ 
-
-cornerBDot[[	 
-=[[ 
-Vector2[[ 
-.[[ 
-Dot[[ !
-([[! "
-	cornerDir[[# ,
-,[[, -
-normB[[. 3
-)[[4 5
-;[[5 6
-Vector2\\ 
+enum	 
+DiscColorMode 
+{ 
+Single 	
+,	 
 
-center\\ 
-=\\ 
-corner\\ 
-+\\ 
-	cornerDir\\ &
-*\\' (
-(\\) *
-(\\+ ,
-radius\\- 3
-/\\4 5
-
-cornerBDot\\6 @
-)\\A B
-)\\C D
-;\\D E
-if^^ 
-(^^ 
-
-useDensity^^ 
-)^^ 
-{^^ 
-float__ 	
-angTurn__
- 
-=__ 
-Vector2__ 
-.__ 
-Angle__ !
-(__! "
-normA__# (
-,__( )
-normB__* /
-)__0 1
-/__2 3
-$num__4 8
-;__8 9
-targetPointCount`` 
-=`` 
-Mathf`` 
-.`` 
-
-RoundToInt`` '
-(``' (
-angTurn``) 0
-*``1 2
-pointsPerTurn``3 @
-)``A B
-;``B C
-}aa 
-	AddPointscc 
-(cc 
-
-ShapesMathcc 
-.cc 
-GetArcPointscc %
-(cc% &
--cc' (
-normAcc( -
-,cc- .
--cc/ 0
-normBcc0 5
-,cc5 6
-centercc7 =
-,cc= >
-radiuscc? E
-,ccE F
-targetPointCountccG W
-)ccX Y
-)ccZ [
-;cc[ \
-}dd 
-publichh 
-boolhh	 %
-EnsureMeshIsReadyToRenderhh '
-(hh' ( 
-PolygonTriangulationhh) =
-triangulationhh> K
-,hhK L
-outhhM P
-MeshhhQ U
-outMeshhhV ]
-)hh^ _
-{hh` a
-ifii 
-(ii 
-	meshDirtyii 
-==ii 
-falseii 
-)ii 
-{ii 
-ifkk 
-(kk 
-triangulationkk 
-!=kk %
-lastUsedTriangulationModekk 2
-)kk3 4
-	meshDirtyll 
-=ll 
-truell 
-;ll 
-}mm 
-returnoo 	
-baseoo
+Radial 	
+,	 
+
+Angular 
+
+,
+ 
+Bilinear 
+} 
+public 
+bool	 
+HasThickness 
+=> 
+type "
+." #
+HasThickness# /
+(/ 0
+)0 1
+;1 2
+public 
+bool	 
+	HasSector 
+=> 
+type 
+.  
+	HasSector  )
+() *
+)* +
+;+ ,
+[!! 
+SerializeField!! 
+]!! 
+DiscType!! 
+type!!  
+=!!! "
+DiscType!!# +
+.!!+ ,
+Disc!!, 0
+;!!0 1
+public## 
+DiscType##	 
+Type## 
+{## 
+get$$ 
+=>$$ 	
+type$$
  
-.oo %
-EnsureMeshIsReadyToRenderoo (
-(oo( )
-outoo* -
-outMeshoo. 5
-,oo5 6
-(oo7 8
-)oo8 9
-=>oo: <
-{oo= >
-TryUpdateMeshoo? L
-(ooL M
-triangulationooN [
-)oo\ ]
-;oo] ^
-}oo_ `
-)ooa b
-;oob c
-}pp 
-voidrr 
-TryUpdateMeshrr 
-(rr  
-PolygonTriangulationrr *
-triangulationrr+ 8
-)rr9 :
-{rr; <%
-lastUsedTriangulationModess 
-=ss 
-triangulationss ,
-;ss, -
-ShapesMeshGenuu 
-.uu 
-GenPolygonMeshuu 
-(uu  
-baseuu! %
-.uu% &
-meshuu& *
-,uu* +
-pathuu, 0
-,uu0 1
-triangulationuu2 ?
-)uu@ A
-;uuA B
+;$$ 
+set%% 
+{%% 
+type&& 
+=&&	 
+
+value&& 
+;&& 
+UpdateMaterial'' 
+('' 
+)'' 
+;'' 
+ApplyProperties(( 
+((( 
+)(( 
+;(( 
+})) 
+}** 
+[,, 
+SerializeField,, 
+],, 
+DiscColorMode,,  
+	colorMode,,! *
+=,,+ ,
+DiscColorMode,,- :
+.,,: ;
+Single,,; A
+;,,A B
+public.. 
+DiscColorMode..	 
+	ColorMode..  
+{..! "
+get// 
+=>// 	
+	colorMode//
+ 
+;// 
+set00 
+{00 
+	colorMode11 
+=11 
+value11 
+;11 
+ApplyProperties22 
+(22 
+)22 
+;22 
+}33 
+}44 
+public66 
+override66	 
+Color66 
+Color66 
+{66 
+get77 
+=>77 	
+color77
+ 
+;77 
+set88 
+{88 
+SetColor99 
+(99 
+ShapesMaterialUtils99 !
+.99! "
+	propColor99" +
+,99+ ,
+color99- 2
+=993 4
+value995 :
+)99; <
+;99< =
+SetColor:: 
+(:: 
+ShapesMaterialUtils:: !
+.::! "
+propColorOuterStart::" 5
+,::5 6
+colorOuterStart::7 F
+=::G H
+value::I N
+)::O P
+;::P Q
+SetColor;; 
+(;; 
+ShapesMaterialUtils;; !
+.;;! "
+propColorInnerEnd;;" 3
+,;;3 4
+colorInnerEnd;;5 B
+=;;C D
+value;;E J
+);;K L
+;;;L M
+SetColorNow<< 
+(<< 
+ShapesMaterialUtils<< $
+.<<$ %
+propColorOuterEnd<<% 6
+,<<6 7
+colorOuterEnd<<8 E
+=<<F G
+value<<H M
+)<<N O
+;<<O P
+}== 
+}>> 
+public@@ 
+Color@@	 
+ColorInnerStart@@ 
+{@@  
+getAA 
+=>AA 	
+colorAA
+ 
+;AA 
+setBB 
+=>BB 	
+SetColorNowBB
+ 
+(BB 
+ShapesMaterialUtilsBB *
+.BB* +
+	propColorBB+ 4
+,BB4 5
+colorBB6 ;
+=BB< =
+valueBB> C
+)BBD E
+;BBE F
+}CC 
+[DD 
+SerializeFieldDD 
+]DD 
+[DD 
+ShapesColorFieldDD $
+(DD$ %
+trueDD& *
+)DD+ ,
+]DD, -
+ColorDD. 3
+colorOuterStartDD4 C
+=DDD E
+ColorDDF K
+.DDK L
+whiteDDL Q
+;DDQ R
+publicFF 
+ColorFF	 
+ColorOuterStartFF 
+{FF  
+getGG 
+=>GG 	
+colorOuterStartGG
+ 
+;GG 
+setHH 
+=>HH 	
+SetColorNowHH
+ 
+(HH 
+ShapesMaterialUtilsHH *
+.HH* +
+propColorOuterStartHH+ >
+,HH> ?
+colorOuterStartHH@ O
+=HHP Q
+valueHHR W
+)HHX Y
+;HHY Z
+}II 
+[JJ 
+SerializeFieldJJ 
+]JJ 
+[JJ 
+ShapesColorFieldJJ $
+(JJ$ %
+trueJJ& *
+)JJ+ ,
+]JJ, -
+ColorJJ. 3
+colorInnerEndJJ4 A
+=JJB C
+ColorJJD I
+.JJI J
+whiteJJJ O
+;JJO P
+publicLL 
+ColorLL	 
+ColorInnerEndLL 
+{LL 
+getMM 
+=>MM 	
+colorInnerEndMM
+ 
+;MM 
+setNN 
+=>NN 	
+SetColorNowNN
+ 
+(NN 
+ShapesMaterialUtilsNN *
+.NN* +
+propColorInnerEndNN+ <
+,NN< =
+colorInnerEndNN> K
+=NNL M
+valueNNN S
+)NNT U
+;NNU V
+}OO 
+[PP 
+SerializeFieldPP 
+]PP 
+[PP 
+ShapesColorFieldPP $
+(PP$ %
+truePP& *
+)PP+ ,
+]PP, -
+ColorPP. 3
+colorOuterEndPP4 A
+=PPB C
+ColorPPD I
+.PPI J
+whitePPJ O
+;PPO P
+publicRR 
+ColorRR	 
+ColorOuterEndRR 
+{RR 
+getSS 
+=>SS 	
+colorOuterEndSS
+ 
+;SS 
+setTT 
+=>TT 	
+SetColorNowTT
+ 
+(TT 
+ShapesMaterialUtilsTT *
+.TT* +
+propColorOuterEndTT+ <
+,TT< =
+colorOuterEndTT> K
+=TTL M
+valueTTN S
+)TTT U
+;TTU V
+}UU 
+publicXX 
+ColorXX	 
+
+ColorOuterXX 
+{XX 
+getYY 
+=>YY 	
+ColorOuterStartYY
+ 
+;YY 
+setZZ 
+{ZZ 
+SetColor[[ 
+([[ 
+ShapesMaterialUtils[[ !
+.[[! "
+propColorOuterStart[[" 5
+,[[5 6
+colorOuterStart[[7 F
+=[[G H
+value[[I N
+)[[O P
+;[[P Q
+SetColorNow\\ 
+(\\ 
+ShapesMaterialUtils\\ $
+.\\$ %
+propColorOuterEnd\\% 6
+,\\6 7
+colorOuterEnd\\8 E
+=\\F G
+value\\H M
+)\\N O
+;\\O P
+}]] 
+}^^ 
+public`` 
+Color``	 
+
+ColorInner`` 
+{`` 
+getaa 
+=>aa 	
+coloraa
+ 
+;aa 
+setbb 
+{bb 
+SetColorcc 
+(cc 
+ShapesMaterialUtilscc !
+.cc! "
+	propColorcc" +
+,cc+ ,
+colorcc- 2
+=cc3 4
+valuecc5 :
+)cc; <
+;cc< =
+SetColorNowdd 
+(dd 
+ShapesMaterialUtilsdd $
+.dd$ %
+propColorInnerEnddd% 6
+,dd6 7
+colorInnerEnddd8 E
+=ddF G
+valueddH M
+)ddN O
+;ddO P
+}ee 
+}ff 
+publichh 
+Colorhh	 
+
+ColorStarthh 
+{hh 
+getii 
+=>ii 	
+baseii
+ 
+.ii 
+Colorii 
+;ii 
+setjj 
+{jj 
+SetColorkk 
+(kk 
+ShapesMaterialUtilskk !
+.kk! "
+	propColorkk" +
+,kk+ ,
+colorkk- 2
+=kk3 4
+valuekk5 :
+)kk; <
+;kk< =
+SetColorNowll 
+(ll 
+ShapesMaterialUtilsll $
+.ll$ %
+propColorOuterStartll% 8
+,ll8 9
+colorOuterStartll: I
+=llJ K
+valuellL Q
+)llR S
+;llS T
+}mm 
+}nn 
+publicpp 
+Colorpp	 
+ColorEndpp 
+{pp 
+getqq 
+=>qq 	
+colorInnerEndqq
+ 
+;qq 
+setrr 
+{rr 
+SetColorss 
+(ss 
+ShapesMaterialUtilsss !
+.ss! "
+propColorInnerEndss" 3
+,ss3 4
+colorInnerEndss5 B
+=ssC D
+valuessE J
+)ssK L
+;ssL M
+SetColorNowtt 
+(tt 
+ShapesMaterialUtilstt $
+.tt$ %
+propColorOuterEndtt% 6
+,tt6 7
+colorOuterEndtt8 E
+=ttF G
+valuettH M
+)ttN O
+;ttO P
+}uu 
 }vv 
-}yy 
-}|| Ω9
+[xx 
+SerializeFieldxx 
+]xx 
+DiscGeometryxx 
+geometryxx  (
+=xx) *
+DiscGeometryxx+ 7
+.xx7 8
+Flat2Dxx8 >
+;xx> ?
+publiczz 
+DiscGeometryzz	 
+Geometryzz 
+{zz  
+get{{ 
+=>{{ 	
+geometry{{
+ 
+;{{ 
+set|| 
+=>|| 	
+	SetIntNow||
+ 
+(|| 
+ShapesMaterialUtils|| (
+.||( )
+propAlignment||) 6
+,||6 7
+(||8 9
+int||9 <
+)||< =
+(||= >
+geometry||? G
+=||H I
+value||J O
+)||P Q
+)||R S
+;||S T
+}}} 
+[
+ÅÅ 
+SerializeField
+ÅÅ 
+]
+ÅÅ 
+AngularUnit
+ÅÅ 
+angUnitInput
+ÅÅ +
+=
+ÅÅ, -
+AngularUnit
+ÅÅ. 9
+.
+ÅÅ9 :
+Degrees
+ÅÅ: A
+;
+ÅÅA B
+[
+ÑÑ 
+SerializeField
+ÑÑ 
+]
+ÑÑ 
+float
+ÑÑ 
+angRadiansStart
+ÑÑ (
+=
+ÑÑ) *
+$num
+ÑÑ+ ,
+;
+ÑÑ, -
+public
+ÜÜ 
+float
+ÜÜ	 
+AngRadiansStart
+ÜÜ 
+{
+ÜÜ  
+get
+áá 
+=>
+áá 	
+angRadiansStart
+áá
+ 
+;
+áá 
+set
+àà 
+=>
+àà 	
+SetFloatNow
+àà
+ 
+(
+àà !
+ShapesMaterialUtils
+àà *
+.
+àà* +
+propAngStart
+àà+ 7
+,
+àà7 8
+angRadiansStart
+àà9 H
+=
+ààI J
+value
+ààK P
+)
+ààQ R
+;
+ààR S
+}
+ââ 
+[
+ää 
+SerializeField
+ää 
+]
+ää 
+float
+ää 
+angRadiansEnd
+ää &
+=
+ää' (
+
+ShapesMath
+ää) 3
+.
+ää3 4
+TAU
+ää4 7
+*
+ää8 9
+(
+ää: ;
+$num
+ää< =
+/
+ää> ?
+$num
+ää@ B
+)
+ääC D
+;
+ääD E
+public
+åå 
+float
+åå	 
+AngRadiansEnd
+åå 
+{
+åå 
+get
+çç 
+=>
+çç 	
+angRadiansEnd
+çç
+ 
+;
+çç 
+set
+éé 
+=>
+éé 	
+SetFloatNow
+éé
+ 
+(
+éé !
+ShapesMaterialUtils
+éé *
+.
+éé* +
+
+propAngEnd
+éé+ 5
+,
+éé5 6
+angRadiansEnd
+éé7 D
+=
+ééE F
+value
+ééG L
+)
+ééM N
+;
+ééN O
+}
+èè 
+[
+êê 
+SerializeField
+êê 
+]
+êê 
+float
+êê 
+radius
+êê 
+=
+êê  !
+$num
+êê" #
+;
+êê# $
+public
+íí 
+float
+íí	 
+Radius
+íí 
+{
+íí 
+get
+ìì 
+=>
+ìì 	
+radius
+ìì
+ 
+;
+ìì 
+set
+îî 
+=>
+îî 	
+SetFloatNow
+îî
+ 
+(
+îî !
+ShapesMaterialUtils
+îî *
+.
+îî* +
+
+propRadius
+îî+ 5
+,
+îî5 6
+radius
+îî7 =
+=
+îî> ?
+Mathf
+îî@ E
+.
+îîE F
+Max
+îîF I
+(
+îîI J
+$num
+îîK M
+,
+îîM N
+value
+îîO T
+)
+îîU V
+)
+îîW X
+;
+îîX Y
+}
+ïï 
+[
+ññ 
+SerializeField
+ññ 
+]
+ññ 
+ThicknessSpace
+ññ !
+radiusSpace
+ññ" -
+=
+ññ. /
+Shapes
+ññ0 6
+.
+ññ6 7
+ThicknessSpace
+ññ7 E
+.
+ññE F
+Meters
+ññF L
+;
+ññL M
+public
+òò 
+ThicknessSpace
+òò	 
+RadiusSpace
+òò #
+{
+òò$ %
+get
+ôô 
+=>
+ôô 	
+radiusSpace
+ôô
+ 
+;
+ôô 
+set
+öö 
+=>
+öö 	
+	SetIntNow
+öö
+ 
+(
+öö !
+ShapesMaterialUtils
+öö (
+.
+öö( )
+propRadiusSpace
+öö) 8
+,
+öö8 9
+(
+öö: ;
+int
+öö; >
+)
+öö> ?
+(
+öö? @
+radiusSpace
+ööA L
+=
+ööM N
+value
+ööO T
+)
+ööU V
+)
+ööW X
+;
+ööX Y
+}
+õõ 
+[
+úú 
+SerializeField
+úú 
+]
+úú 
+float
+úú 
+	thickness
+úú "
+=
+úú# $
+$num
+úú% )
+;
+úú) *
+[
+ûû 
+System
+ûû 	
+.
+ûû	 
+
+Obsolete
+ûû
+ 
+(
+ûû 
+$str
+ûû _
+,
+ûû_ `
+true
+ûûa e
+)
+ûûf g
+]
+ûûg h
+public
+üü 
+float
+üü	 
+RadiusInner
+üü 
+{
+üü 
+get
+†† 
+=>
+†† 	
+	Thickness
+††
+ 
+;
+†† 
+set
+°° 
+=>
+°° 	
+	Thickness
+°°
+ 
+=
+°° 
+value
+°° 
+;
+°° 
+}
+¢¢ 
+public
+§§ 
+float
+§§	 
+	Thickness
+§§ 
+{
+§§ 
+get
+•• 
+=>
+•• 	
+	thickness
+••
+ 
+;
+•• 
+set
+¶¶ 
+{
+¶¶ 
+SetFloatNow
+ßß 
+(
+ßß !
+ShapesMaterialUtils
+ßß $
+.
+ßß$ %
+propThickness
+ßß% 2
+,
+ßß2 3
+	thickness
+ßß4 =
+=
+ßß> ?
+Mathf
+ßß@ E
+.
+ßßE F
+Max
+ßßF I
+(
+ßßI J
+$num
+ßßK M
+,
+ßßM N
+value
+ßßO T
+)
+ßßU V
+)
+ßßW X
+;
+ßßX Y
+if
+®® 
+(
+®® 
+HasThickness
+®® 
+&&
+®® 
+dashed
+®® 
+&&
+®® !
+	dashStyle
+®®" +
+.
+®®+ ,
+space
+®®, 1
+==
+®®2 4
+	DashSpace
+®®5 >
+.
+®®> ?
+Relative
+®®? G
+)
+®®H I
+SetAllDashValues
+©© 
+(
+©© 
+now
+©© 
+:
+©© 
+true
+©©  
+)
+©©! "
+;
+©©" #
+}
+™™ 
+}
+´´ 
+[
+¨¨ 
+SerializeField
+¨¨ 
+]
+¨¨ 
+ThicknessSpace
+¨¨ !
+thicknessSpace
+¨¨" 0
+=
+¨¨1 2
+Shapes
+¨¨3 9
+.
+¨¨9 :
+ThicknessSpace
+¨¨: H
+.
+¨¨H I
+Meters
+¨¨I O
+;
+¨¨O P
+public
+ÆÆ 
+ThicknessSpace
+ÆÆ	 
+ThicknessSpace
+ÆÆ &
+{
+ÆÆ' (
+get
+ØØ 
+=>
+ØØ 	
+thicknessSpace
+ØØ
+ 
+;
+ØØ 
+set
+∞∞ 
+=>
+∞∞ 	
+	SetIntNow
+∞∞
+ 
+(
+∞∞ !
+ShapesMaterialUtils
+∞∞ (
+.
+∞∞( ) 
+propThicknessSpace
+∞∞) ;
+,
+∞∞; <
+(
+∞∞= >
+int
+∞∞> A
+)
+∞∞A B
+(
+∞∞B C
+thicknessSpace
+∞∞D R
+=
+∞∞S T
+value
+∞∞U Z
+)
+∞∞[ \
+)
+∞∞] ^
+;
+∞∞^ _
+}
+±± 
+[
+≤≤ 
+SerializeField
+≤≤ 
+]
+≤≤ 
+	ArcEndCap
+≤≤ 
+
+arcEndCaps
+≤≤ '
+=
+≤≤( )
+	ArcEndCap
+≤≤* 3
+.
+≤≤3 4
+None
+≤≤4 8
+;
+≤≤8 9
+public
+¥¥ 
+	ArcEndCap
+¥¥	 
+
+ArcEndCaps
+¥¥ 
+{
+¥¥ 
+get
+µµ 
+=>
+µµ 	
+
+arcEndCaps
+µµ
+ 
+;
+µµ 
+set
+∂∂ 
+=>
+∂∂ 	
+	SetIntNow
+∂∂
+ 
+(
+∂∂ !
+ShapesMaterialUtils
+∂∂ (
+.
+∂∂( )
+propRoundCaps
+∂∂) 6
+,
+∂∂6 7
+(
+∂∂8 9
+int
+∂∂9 <
+)
+∂∂< =
+(
+∂∂= >
+
+arcEndCaps
+∂∂? I
+=
+∂∂J K
+value
+∂∂L Q
+)
+∂∂R S
+)
+∂∂T U
+;
+∂∂U V
+}
+∑∑ 
+private
+ππ 	
+	protected
+ππ
+ 
+override
+ππ 
+void
+ππ !&
+SetAllMaterialProperties
+ππ" :
+(
+ππ: ;
+)
+ππ; <
+{
+ππ= >
+SetInt
+∫∫ 	
+(
+∫∫	 
+!
+ShapesMaterialUtils
+∫∫ 
+.
+∫∫ 
+propAlignment
+∫∫ ,
+,
+∫∫, -
+(
+∫∫. /
+int
+∫∫/ 2
+)
+∫∫2 3
+geometry
+∫∫3 ;
+)
+∫∫< =
+;
+∫∫= >
+SetFloat
+ªª 
+(
+ªª !
+ShapesMaterialUtils
+ªª  
+.
+ªª  !
+
+propRadius
+ªª! +
+,
+ªª+ ,
+radius
+ªª- 3
+)
+ªª4 5
+;
+ªª5 6
+SetInt
+ºº 	
+(
+ºº	 
+!
+ShapesMaterialUtils
+ºº 
+.
+ºº 
+propRadiusSpace
+ºº .
+,
+ºº. /
+(
+ºº0 1
+int
+ºº1 4
+)
+ºº4 5
+radiusSpace
+ºº5 @
+)
+ººA B
+;
+ººB C
+SetFloat
+ΩΩ 
+(
+ΩΩ !
+ShapesMaterialUtils
+ΩΩ  
+.
+ΩΩ  !
+propThickness
+ΩΩ! .
+,
+ΩΩ. /
+	thickness
+ΩΩ0 9
+)
+ΩΩ: ;
+;
+ΩΩ; <
+SetInt
+ææ 	
+(
+ææ	 
+!
+ShapesMaterialUtils
+ææ 
+.
+ææ  
+propThicknessSpace
+ææ 1
+,
+ææ1 2
+(
+ææ3 4
+int
+ææ4 7
+)
+ææ7 8
+thicknessSpace
+ææ8 F
+)
+ææG H
+;
+ææH I
+SetInt
+øø 	
+(
+øø	 
+!
+ShapesMaterialUtils
+øø 
+.
+øø 
+propRoundCaps
+øø ,
+,
+øø, -
+(
+øø. /
+int
+øø/ 2
+)
+øø2 3
+
+arcEndCaps
+øø3 =
+)
+øø> ?
+;
+øø? @
+SetFloat
+¿¿ 
+(
+¿¿ !
+ShapesMaterialUtils
+¿¿  
+.
+¿¿  !
+propAngStart
+¿¿! -
+,
+¿¿- .
+angRadiansStart
+¿¿/ >
+)
+¿¿? @
+;
+¿¿@ A
+SetFloat
+¡¡ 
+(
+¡¡ !
+ShapesMaterialUtils
+¡¡  
+.
+¡¡  !
+
+propAngEnd
+¡¡! +
+,
+¡¡+ ,
+angRadiansEnd
+¡¡- :
+)
+¡¡; <
+;
+¡¡< =
+switch
+¬¬ 	
+(
+¬¬	 
+
+	ColorMode
+¬¬ 
+)
+¬¬ 
+{
+¬¬ 
+case
+√√ 
+DiscColorMode
+√√	 
+.
+√√ 
+Single
+√√ 
+:
+√√ 
+SetColor
+ƒƒ 
+(
+ƒƒ !
+ShapesMaterialUtils
+ƒƒ "
+.
+ƒƒ" #!
+propColorOuterStart
+ƒƒ# 6
+,
+ƒƒ6 7
+base
+ƒƒ8 <
+.
+ƒƒ< =
+Color
+ƒƒ= B
+)
+ƒƒC D
+;
+ƒƒD E
+SetColor
+≈≈ 
+(
+≈≈ !
+ShapesMaterialUtils
+≈≈ "
+.
+≈≈" #
+propColorInnerEnd
+≈≈# 4
+,
+≈≈4 5
+base
+≈≈6 :
+.
+≈≈: ;
+Color
+≈≈; @
+)
+≈≈A B
+;
+≈≈B C
+SetColor
+∆∆ 
+(
+∆∆ !
+ShapesMaterialUtils
+∆∆ "
+.
+∆∆" #
+propColorOuterEnd
+∆∆# 4
+,
+∆∆4 5
+base
+∆∆6 :
+.
+∆∆: ;
+Color
+∆∆; @
+)
+∆∆A B
+;
+∆∆B C
+break
+«« 
+
+;
+««
+ 
+case
+»» 
+DiscColorMode
+»»	 
+.
+»» 
+Radial
+»» 
+:
+»» 
+SetColor
+…… 
+(
+…… !
+ShapesMaterialUtils
+…… "
+.
+……" #!
+propColorOuterStart
+……# 6
+,
+……6 7
+ColorOuterStart
+……8 G
+)
+……H I
+;
+……I J
+SetColor
+   
+(
+   !
+ShapesMaterialUtils
+   "
+.
+  " #
+propColorInnerEnd
+  # 4
+,
+  4 5
+base
+  6 :
+.
+  : ;
+Color
+  ; @
+)
+  A B
+;
+  B C
+SetColor
+ÀÀ 
+(
+ÀÀ !
+ShapesMaterialUtils
+ÀÀ "
+.
+ÀÀ" #
+propColorOuterEnd
+ÀÀ# 4
+,
+ÀÀ4 5
+ColorOuterStart
+ÀÀ6 E
+)
+ÀÀF G
+;
+ÀÀG H
+break
+ÃÃ 
+
+;
+ÃÃ
+ 
+case
+ÕÕ 
+DiscColorMode
+ÕÕ	 
+.
+ÕÕ 
+Angular
+ÕÕ 
+:
+ÕÕ 
+SetColor
+ŒŒ 
+(
+ŒŒ !
+ShapesMaterialUtils
+ŒŒ "
+.
+ŒŒ" #!
+propColorOuterStart
+ŒŒ# 6
+,
+ŒŒ6 7
+base
+ŒŒ8 <
+.
+ŒŒ< =
+Color
+ŒŒ= B
+)
+ŒŒC D
+;
+ŒŒD E
+SetColor
+œœ 
+(
+œœ !
+ShapesMaterialUtils
+œœ "
+.
+œœ" #
+propColorInnerEnd
+œœ# 4
+,
+œœ4 5
+ColorInnerEnd
+œœ6 C
+)
+œœD E
+;
+œœE F
+SetColor
+–– 
+(
+–– !
+ShapesMaterialUtils
+–– "
+.
+––" #
+propColorOuterEnd
+––# 4
+,
+––4 5
+ColorInnerEnd
+––6 C
+)
+––D E
+;
+––E F
+break
+—— 
+
+;
+——
+ 
+case
+““ 
+DiscColorMode
+““	 
+.
+““ 
+Bilinear
+““ 
+:
+““  
+SetColor
+”” 
+(
+”” !
+ShapesMaterialUtils
+”” "
+.
+””" #!
+propColorOuterStart
+””# 6
+,
+””6 7
+ColorOuterStart
+””8 G
+)
+””H I
+;
+””I J
+SetColor
+‘‘ 
+(
+‘‘ !
+ShapesMaterialUtils
+‘‘ "
+.
+‘‘" #
+propColorInnerEnd
+‘‘# 4
+,
+‘‘4 5
+ColorInnerEnd
+‘‘6 C
+)
+‘‘D E
+;
+‘‘E F
+SetColor
+’’ 
+(
+’’ !
+ShapesMaterialUtils
+’’ "
+.
+’’" #
+propColorOuterEnd
+’’# 4
+,
+’’4 5
+ColorOuterEnd
+’’6 C
+)
+’’D E
+;
+’’E F
+break
+÷÷ 
+
+;
+÷÷
+ 
+}
+◊◊ 
+SetAllDashValues
+ŸŸ 
+(
+ŸŸ 
+now
+ŸŸ 
+:
+ŸŸ 
+false
+ŸŸ 
+)
+ŸŸ  !
+;
+ŸŸ! "
+}
+⁄⁄ 
+internal
+‹‹ 
+
+override
+‹‹ 
+bool
+‹‹ 
+HasDetailLevels
+‹‹ (
+=>
+‹‹) +
+false
+‹‹, 1
+;
+‹‹1 2
+private
+ﬂﬂ 	
+	protected
+ﬂﬂ
+ 
+override
+ﬂﬂ 
+void
+ﬂﬂ !
+ShapeClampRanges
+ﬂﬂ" 2
+(
+ﬂﬂ2 3
+)
+ﬂﬂ3 4
+{
+ﬂﬂ5 6
+radius
+‡‡ 	
+=
+‡‡
+ 
+Mathf
+‡‡ 
+.
+‡‡ 
+Max
+‡‡ 
+(
+‡‡ 
+$num
+‡‡ 
+,
+‡‡ 
+radius
+‡‡ !
+)
+‡‡" #
+;
+‡‡# $
+	thickness
+·· 
+=
+·· 
+Mathf
+·· 
+.
+·· 
+Max
+·· 
+(
+·· 
+$num
+·· 
+,
+·· 
+	thickness
+·· '
+)
+··( )
+;
+··) *
+if
+‚‚ 
+(
+‚‚ $
+matchDashSpacingToSize
+‚‚ 
+==
+‚‚  
+false
+‚‚! &
+)
+‚‚' (
+DashSpacing
+„„ 
+=
+„„ 
+	DashSpace
+„„ 
+==
+„„ 
+	DashSpace
+„„ (
+.
+„„( )
+
+FixedCount
+„„) 3
+?
+„„4 5
+Mathf
+„„6 ;
+.
+„„; <
+Clamp01
+„„< C
+(
+„„C D
+DashSpacing
+„„E P
+)
+„„Q R
+:
+„„S T
+Mathf
+„„U Z
+.
+„„Z [
+Max
+„„[ ^
+(
+„„^ _
+$num
+„„` b
+,
+„„b c
+DashSpacing
+„„d o
+)
+„„p q
+;
+„„q r
+}
+‰‰ 
+private
+ÁÁ 	
+	protected
+ÁÁ
+ 
+override
+ÁÁ 
+Material
+ÁÁ %
+[
+ÁÁ% &
+]
+ÁÁ& '
+GetMaterials
+ÁÁ( 4
+(
+ÁÁ4 5
+)
+ÁÁ5 6
+{
+ÁÁ7 8
+return
+ËË 	
+new
+ËË
+ 
+[
+ËË 
+]
+ËË 
+{
+ËË !
+ShapesMaterialUtils
+ËË %
+.
+ËË% &
+GetDiscMaterial
+ËË& 5
+(
+ËË5 6
+type
+ËË7 ;
+)
+ËË< =
+[
+ËË= >
+	BlendMode
+ËË> G
+]
+ËËG H
+}
+ËËI J
+;
+ËËJ K
+}
+ÈÈ 
+private
+ÎÎ 	
+	protected
+ÎÎ
+ 
+override
+ÎÎ 
+Bounds
+ÎÎ # 
+GetBounds_Internal
+ÎÎ$ 6
+(
+ÎÎ6 7
+)
+ÎÎ7 8
+{
+ÎÎ9 :
+if
+ÏÏ 
+(
+ÏÏ 
+radiusSpace
+ÏÏ 
+!=
+ÏÏ 
+ThicknessSpace
+ÏÏ $
+.
+ÏÏ$ %
+Meters
+ÏÏ% +
+)
+ÏÏ, -
+return
+ÌÌ 
+
+new
+ÌÌ 
+Bounds
+ÌÌ 
+(
+ÌÌ 
+Vector3
+ÌÌ 
+.
+ÌÌ 
+zero
+ÌÌ #
+,
+ÌÌ# $
+Vector3
+ÌÌ% ,
+.
+ÌÌ, -
+one
+ÌÌ- 0
+)
+ÌÌ1 2
+;
+ÌÌ2 3
+float
+ÔÔ 
+padding
+ÔÔ	 
+=
+ÔÔ 
+thicknessSpace
+ÔÔ !
+==
+ÔÔ" $
+ThicknessSpace
+ÔÔ% 3
+.
+ÔÔ3 4
+Meters
+ÔÔ4 :
+?
+ÔÔ; <
+	thickness
+ÔÔ= F
+*
+ÔÔG H
+$num
+ÔÔI L
+:
+ÔÔM N
+$num
+ÔÔO Q
+;
+ÔÔQ R
+float
+ 
+apothem
+	 
+=
+ 
+HasThickness
+ 
+?
+  !
+radius
+" (
++
+) *
+padding
++ 2
+:
+3 4
+radius
+5 ;
+;
+; <
+float
+ÒÒ 
+size
+ÒÒ	 
+=
+ÒÒ 
+apothem
+ÒÒ 
+*
+ÒÒ 
+$num
+ÒÒ 
+;
+ÒÒ 
+return
+ÚÚ 	
+new
+ÚÚ
+ 
+Bounds
+ÚÚ 
+(
+ÚÚ 
+Vector3
+ÚÚ 
+.
+ÚÚ 
+zero
+ÚÚ "
+,
+ÚÚ" #
+new
+ÚÚ$ '
+Vector3
+ÚÚ( /
+(
+ÚÚ/ 0
+size
+ÚÚ1 5
+,
+ÚÚ5 6
+size
+ÚÚ7 ;
+,
+ÚÚ; <
+$num
+ÚÚ= ?
+)
+ÚÚ@ A
+)
+ÚÚB C
+;
+ÚÚC D
+}
+ÛÛ 
+}
+ıı 
+}˜˜ Ω9
 yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterials.cs
 	namespace 	
 Shapes
@@ -101755,2076 +103760,71 @@ propLength00! +
 ;AAS T
 }BB 
 }DD 
-}FF ˜¡
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs
-	namespace 	
-Shapes
+}FF ¶
+ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesColorFieldAttribute.cs
+	namespace 	
+Shapes
  
-{ 
-[ 
-ExecuteAlways 
-] 
-[		 
-AddComponentMenu		 
-(		 
-$str		 !
-)		" #
-]		# $
+{ 
+[ 
+AttributeUsage 
+( 
+AttributeTargets "
+." #
+Field# (
+,( )
+	Inherited* 3
+=4 5
+true6 :
+,: ;
+AllowMultiple< I
+=J K
+falseL Q
+)R S
+]S T
+public		 
+sealed		 
+class		 %
+ShapesColorFieldAttribute		 .
+:		/ 0
+PropertyAttribute		1 B
+{		C D
 public
 
- 
-partial
+ 
+readonly
 
- 
-class
+	 
+bool
 
- 
-Disc
+ 
+	showAlpha
 
- 
-:
+  
+=
 
- 
-ShapeRenderer
+! "
+true
 
- *
-,
+# '
+;
 
-* +
-	IDashable
-
-, 5
-{
-
-6 7
-public 
-enum	 
-DiscColorMode 
-{ 
-Single 	
-,	 
-
-Radial 	
-,	 
-
-Angular 
-
-,
- 
-Bilinear 
-} 
-public 
-bool	 
-HasThickness 
-=> 
-type "
-." #
-HasThickness# /
-(/ 0
-)0 1
-;1 2
-public 
-bool	 
-	HasSector 
-=> 
-type 
-.  
-	HasSector  )
-() *
-)* +
-;+ ,
-[!! 
-SerializeField!! 
-]!! 
-DiscType!! 
-type!!  
-=!!! "
-DiscType!!# +
-.!!+ ,
-Disc!!, 0
-;!!0 1
-public## 
-DiscType##	 
-Type## 
-{## 
-get$$ 
-=>$$ 	
-type$$
- 
-;$$ 
-set%% 
-{%% 
-type&& 
-=&&	 
-
-value&& 
-;&& 
-UpdateMaterial'' 
-('' 
-)'' 
-;'' 
-ApplyProperties(( 
-((( 
-)(( 
-;(( 
-})) 
-}** 
-[,, 
-SerializeField,, 
-],, 
-DiscColorMode,,  
-	colorMode,,! *
-=,,+ ,
-DiscColorMode,,- :
-.,,: ;
-Single,,; A
-;,,A B
-public.. 
-DiscColorMode..	 
-	ColorMode..  
-{..! "
-get// 
-=>// 	
-	colorMode//
- 
-;// 
-set00 
-{00 
-	colorMode11 
-=11 
-value11 
-;11 
-ApplyProperties22 
-(22 
-)22 
-;22 
-}33 
-}44 
-public66 
-override66	 
-Color66 
-Color66 
-{66 
-get77 
-=>77 	
-color77
- 
-;77 
-set88 
-{88 
-SetColor99 
-(99 
-ShapesMaterialUtils99 !
-.99! "
-	propColor99" +
-,99+ ,
-color99- 2
-=993 4
-value995 :
-)99; <
-;99< =
-SetColor:: 
-(:: 
-ShapesMaterialUtils:: !
-.::! "
-propColorOuterStart::" 5
-,::5 6
-colorOuterStart::7 F
-=::G H
-value::I N
-)::O P
-;::P Q
-SetColor;; 
-(;; 
-ShapesMaterialUtils;; !
-.;;! "
-propColorInnerEnd;;" 3
-,;;3 4
-colorInnerEnd;;5 B
-=;;C D
-value;;E J
-);;K L
-;;;L M
-SetColorNow<< 
-(<< 
-ShapesMaterialUtils<< $
-.<<$ %
-propColorOuterEnd<<% 6
-,<<6 7
-colorOuterEnd<<8 E
-=<<F G
-value<<H M
-)<<N O
-;<<O P
-}== 
-}>> 
-public@@ 
-Color@@	 
-ColorInnerStart@@ 
-{@@  
-getAA 
-=>AA 	
-colorAA
- 
-;AA 
-setBB 
-=>BB 	
-SetColorNowBB
- 
-(BB 
-ShapesMaterialUtilsBB *
-.BB* +
-	propColorBB+ 4
-,BB4 5
-colorBB6 ;
-=BB< =
-valueBB> C
-)BBD E
-;BBE F
-}CC 
-[DD 
-SerializeFieldDD 
-]DD 
-[DD 
-ShapesColorFieldDD $
-(DD$ %
-trueDD& *
-)DD+ ,
-]DD, -
-ColorDD. 3
-colorOuterStartDD4 C
-=DDD E
-ColorDDF K
-.DDK L
-whiteDDL Q
-;DDQ R
-publicFF 
-ColorFF	 
-ColorOuterStartFF 
-{FF  
-getGG 
-=>GG 	
-colorOuterStartGG
- 
-;GG 
-setHH 
-=>HH 	
-SetColorNowHH
- 
-(HH 
-ShapesMaterialUtilsHH *
-.HH* +
-propColorOuterStartHH+ >
-,HH> ?
-colorOuterStartHH@ O
-=HHP Q
-valueHHR W
-)HHX Y
-;HHY Z
-}II 
-[JJ 
-SerializeFieldJJ 
-]JJ 
-[JJ 
-ShapesColorFieldJJ $
-(JJ$ %
-trueJJ& *
-)JJ+ ,
-]JJ, -
-ColorJJ. 3
-colorInnerEndJJ4 A
-=JJB C
-ColorJJD I
-.JJI J
-whiteJJJ O
-;JJO P
-publicLL 
-ColorLL	 
-ColorInnerEndLL 
-{LL 
-getMM 
-=>MM 	
-colorInnerEndMM
- 
-;MM 
-setNN 
-=>NN 	
-SetColorNowNN
- 
-(NN 
-ShapesMaterialUtilsNN *
-.NN* +
-propColorInnerEndNN+ <
-,NN< =
-colorInnerEndNN> K
-=NNL M
-valueNNN S
-)NNT U
-;NNU V
-}OO 
-[PP 
-SerializeFieldPP 
-]PP 
-[PP 
-ShapesColorFieldPP $
-(PP$ %
-truePP& *
-)PP+ ,
-]PP, -
-ColorPP. 3
-colorOuterEndPP4 A
-=PPB C
-ColorPPD I
-.PPI J
-whitePPJ O
-;PPO P
-publicRR 
-ColorRR	 
-ColorOuterEndRR 
-{RR 
-getSS 
-=>SS 	
-colorOuterEndSS
- 
-;SS 
-setTT 
-=>TT 	
-SetColorNowTT
- 
-(TT 
-ShapesMaterialUtilsTT *
-.TT* +
-propColorOuterEndTT+ <
-,TT< =
-colorOuterEndTT> K
-=TTL M
-valueTTN S
-)TTT U
-;TTU V
-}UU 
-publicXX 
-ColorXX	 
-
-ColorOuterXX 
-{XX 
-getYY 
-=>YY 	
-ColorOuterStartYY
- 
-;YY 
-setZZ 
-{ZZ 
-SetColor[[ 
-([[ 
-ShapesMaterialUtils[[ !
-.[[! "
-propColorOuterStart[[" 5
-,[[5 6
-colorOuterStart[[7 F
-=[[G H
-value[[I N
-)[[O P
-;[[P Q
-SetColorNow\\ 
-(\\ 
-ShapesMaterialUtils\\ $
-.\\$ %
-propColorOuterEnd\\% 6
-,\\6 7
-colorOuterEnd\\8 E
-=\\F G
-value\\H M
-)\\N O
-;\\O P
-}]] 
-}^^ 
-public`` 
-Color``	 
-
-ColorInner`` 
-{`` 
-getaa 
-=>aa 	
-coloraa
- 
-;aa 
-setbb 
-{bb 
-SetColorcc 
-(cc 
-ShapesMaterialUtilscc !
-.cc! "
-	propColorcc" +
-,cc+ ,
-colorcc- 2
-=cc3 4
-valuecc5 :
-)cc; <
-;cc< =
-SetColorNowdd 
-(dd 
-ShapesMaterialUtilsdd $
-.dd$ %
-propColorInnerEnddd% 6
-,dd6 7
-colorInnerEnddd8 E
-=ddF G
-valueddH M
-)ddN O
-;ddO P
-}ee 
-}ff 
-publichh 
-Colorhh	 
-
-ColorStarthh 
-{hh 
-getii 
-=>ii 	
-baseii
- 
-.ii 
-Colorii 
-;ii 
-setjj 
-{jj 
-SetColorkk 
-(kk 
-ShapesMaterialUtilskk !
-.kk! "
-	propColorkk" +
-,kk+ ,
-colorkk- 2
-=kk3 4
-valuekk5 :
-)kk; <
-;kk< =
-SetColorNowll 
-(ll 
-ShapesMaterialUtilsll $
-.ll$ %
-propColorOuterStartll% 8
-,ll8 9
-colorOuterStartll: I
-=llJ K
-valuellL Q
-)llR S
-;llS T
-}mm 
-}nn 
-publicpp 
-Colorpp	 
-ColorEndpp 
-{pp 
-getqq 
-=>qq 	
-colorInnerEndqq
- 
-;qq 
-setrr 
-{rr 
-SetColorss 
-(ss 
-ShapesMaterialUtilsss !
-.ss! "
-propColorInnerEndss" 3
-,ss3 4
-colorInnerEndss5 B
-=ssC D
-valuessE J
-)ssK L
-;ssL M
-SetColorNowtt 
-(tt 
-ShapesMaterialUtilstt $
-.tt$ %
-propColorOuterEndtt% 6
-,tt6 7
-colorOuterEndtt8 E
-=ttF G
-valuettH M
-)ttN O
-;ttO P
-}uu 
-}vv 
-[xx 
-SerializeFieldxx 
-]xx 
-DiscGeometryxx 
-geometryxx  (
-=xx) *
-DiscGeometryxx+ 7
-.xx7 8
-Flat2Dxx8 >
-;xx> ?
-publiczz 
-DiscGeometryzz	 
-Geometryzz 
-{zz  
-get{{ 
-=>{{ 	
-geometry{{
- 
-;{{ 
-set|| 
-=>|| 	
-	SetIntNow||
- 
-(|| 
-ShapesMaterialUtils|| (
-.||( )
-propAlignment||) 6
-,||6 7
-(||8 9
-int||9 <
-)||< =
-(||= >
-geometry||? G
-=||H I
-value||J O
-)||P Q
-)||R S
-;||S T
-}}} 
-[
-ÅÅ 
-SerializeField
-ÅÅ 
-]
-ÅÅ 
-AngularUnit
-ÅÅ 
-angUnitInput
-ÅÅ +
-=
-ÅÅ, -
-AngularUnit
-ÅÅ. 9
-.
-ÅÅ9 :
-Degrees
-ÅÅ: A
-;
-ÅÅA B
-[
-ÑÑ 
-SerializeField
-ÑÑ 
-]
-ÑÑ 
-float
-ÑÑ 
-angRadiansStart
-ÑÑ (
-=
-ÑÑ) *
-$num
-ÑÑ+ ,
-;
-ÑÑ, -
-public
-ÜÜ 
-float
-ÜÜ	 
-AngRadiansStart
-ÜÜ 
-{
-ÜÜ  
-get
-áá 
-=>
-áá 	
-angRadiansStart
-áá
- 
-;
-áá 
-set
-àà 
-=>
-àà 	
-SetFloatNow
-àà
- 
-(
-àà !
-ShapesMaterialUtils
-àà *
-.
-àà* +
-propAngStart
-àà+ 7
-,
-àà7 8
-angRadiansStart
-àà9 H
-=
-ààI J
-value
-ààK P
-)
-ààQ R
-;
-ààR S
-}
-ââ 
-[
-ää 
-SerializeField
-ää 
-]
-ää 
-float
-ää 
-angRadiansEnd
-ää &
-=
-ää' (
-
-ShapesMath
-ää) 3
-.
-ää3 4
-TAU
-ää4 7
-*
-ää8 9
-(
-ää: ;
-$num
-ää< =
-/
-ää> ?
-$num
-ää@ B
-)
-ääC D
-;
-ääD E
-public
-åå 
-float
-åå	 
-AngRadiansEnd
-åå 
-{
-åå 
-get
-çç 
-=>
-çç 	
-angRadiansEnd
-çç
- 
-;
-çç 
-set
-éé 
-=>
-éé 	
-SetFloatNow
-éé
- 
-(
-éé !
-ShapesMaterialUtils
-éé *
-.
-éé* +
-
-propAngEnd
-éé+ 5
-,
-éé5 6
-angRadiansEnd
-éé7 D
-=
-ééE F
-value
-ééG L
-)
-ééM N
-;
-ééN O
-}
-èè 
-[
-êê 
-SerializeField
-êê 
-]
-êê 
-float
-êê 
-radius
-êê 
-=
-êê  !
-$num
-êê" #
-;
-êê# $
-public
-íí 
-float
-íí	 
-Radius
-íí 
-{
-íí 
-get
-ìì 
-=>
-ìì 	
-radius
-ìì
- 
-;
-ìì 
-set
-îî 
-=>
-îî 	
-SetFloatNow
-îî
- 
-(
-îî !
-ShapesMaterialUtils
-îî *
-.
-îî* +
-
-propRadius
-îî+ 5
-,
-îî5 6
-radius
-îî7 =
-=
-îî> ?
-Mathf
-îî@ E
-.
-îîE F
-Max
-îîF I
-(
-îîI J
-$num
-îîK M
-,
-îîM N
-value
-îîO T
-)
-îîU V
-)
-îîW X
-;
-îîX Y
-}
-ïï 
-[
-ññ 
-SerializeField
-ññ 
-]
-ññ 
-ThicknessSpace
-ññ !
-radiusSpace
-ññ" -
-=
-ññ. /
-Shapes
-ññ0 6
-.
-ññ6 7
-ThicknessSpace
-ññ7 E
-.
-ññE F
-Meters
-ññF L
-;
-ññL M
-public
-òò 
-ThicknessSpace
-òò	 
-RadiusSpace
-òò #
-{
-òò$ %
-get
-ôô 
-=>
-ôô 	
-radiusSpace
-ôô
- 
-;
-ôô 
-set
-öö 
-=>
-öö 	
-	SetIntNow
-öö
- 
-(
-öö !
-ShapesMaterialUtils
-öö (
-.
-öö( )
-propRadiusSpace
-öö) 8
-,
-öö8 9
-(
-öö: ;
-int
-öö; >
-)
-öö> ?
-(
-öö? @
-radiusSpace
-ööA L
-=
-ööM N
-value
-ööO T
-)
-ööU V
-)
-ööW X
-;
-ööX Y
-}
-õõ 
-[
-úú 
-SerializeField
-úú 
-]
-úú 
-float
-úú 
-	thickness
-úú "
-=
-úú# $
-$num
-úú% )
-;
-úú) *
-[
-ûû 
-System
-ûû 	
-.
-ûû	 
-
-Obsolete
-ûû
- 
-(
-ûû 
-$str
-ûû _
-,
-ûû_ `
-true
-ûûa e
-)
-ûûf g
-]
-ûûg h
-public
-üü 
-float
-üü	 
-RadiusInner
-üü 
-{
-üü 
-get
-†† 
-=>
-†† 	
-	Thickness
-††
- 
-;
-†† 
-set
-°° 
-=>
-°° 	
-	Thickness
-°°
- 
-=
-°° 
-value
-°° 
-;
-°° 
-}
-¢¢ 
-public
-§§ 
-float
-§§	 
-	Thickness
-§§ 
-{
-§§ 
-get
-•• 
-=>
-•• 	
-	thickness
-••
- 
-;
-•• 
-set
-¶¶ 
-{
-¶¶ 
-SetFloatNow
-ßß 
-(
-ßß !
-ShapesMaterialUtils
-ßß $
-.
-ßß$ %
-propThickness
-ßß% 2
-,
-ßß2 3
-	thickness
-ßß4 =
-=
-ßß> ?
-Mathf
-ßß@ E
-.
-ßßE F
-Max
-ßßF I
-(
-ßßI J
-$num
-ßßK M
-,
-ßßM N
-value
-ßßO T
-)
-ßßU V
-)
-ßßW X
-;
-ßßX Y
-if
-®® 
-(
-®® 
-HasThickness
-®® 
-&&
-®® 
-dashed
-®® 
-&&
-®® !
-	dashStyle
-®®" +
-.
-®®+ ,
-space
-®®, 1
-==
-®®2 4
-	DashSpace
-®®5 >
-.
-®®> ?
-Relative
-®®? G
-)
-®®H I
-SetAllDashValues
-©© 
-(
-©© 
-now
-©© 
-:
-©© 
-true
-©©  
-)
-©©! "
-;
-©©" #
-}
-™™ 
-}
-´´ 
-[
-¨¨ 
-SerializeField
-¨¨ 
-]
-¨¨ 
-ThicknessSpace
-¨¨ !
-thicknessSpace
-¨¨" 0
-=
-¨¨1 2
-Shapes
-¨¨3 9
-.
-¨¨9 :
-ThicknessSpace
-¨¨: H
-.
-¨¨H I
-Meters
-¨¨I O
-;
-¨¨O P
-public
-ÆÆ 
-ThicknessSpace
-ÆÆ	 
-ThicknessSpace
-ÆÆ &
-{
-ÆÆ' (
-get
-ØØ 
-=>
-ØØ 	
-thicknessSpace
-ØØ
- 
-;
-ØØ 
-set
-∞∞ 
-=>
-∞∞ 	
-	SetIntNow
-∞∞
- 
-(
-∞∞ !
-ShapesMaterialUtils
-∞∞ (
-.
-∞∞( ) 
-propThicknessSpace
-∞∞) ;
-,
-∞∞; <
-(
-∞∞= >
-int
-∞∞> A
-)
-∞∞A B
-(
-∞∞B C
-thicknessSpace
-∞∞D R
-=
-∞∞S T
-value
-∞∞U Z
-)
-∞∞[ \
-)
-∞∞] ^
-;
-∞∞^ _
-}
-±± 
-[
-≤≤ 
-SerializeField
-≤≤ 
-]
-≤≤ 
-	ArcEndCap
-≤≤ 
-
-arcEndCaps
-≤≤ '
-=
-≤≤( )
-	ArcEndCap
-≤≤* 3
-.
-≤≤3 4
-None
-≤≤4 8
-;
-≤≤8 9
-public
-¥¥ 
-	ArcEndCap
-¥¥	 
-
-ArcEndCaps
-¥¥ 
-{
-¥¥ 
-get
-µµ 
-=>
-µµ 	
-
-arcEndCaps
-µµ
- 
-;
-µµ 
-set
-∂∂ 
-=>
-∂∂ 	
-	SetIntNow
-∂∂
- 
-(
-∂∂ !
-ShapesMaterialUtils
-∂∂ (
-.
-∂∂( )
-propRoundCaps
-∂∂) 6
-,
-∂∂6 7
-(
-∂∂8 9
-int
-∂∂9 <
-)
-∂∂< =
-(
-∂∂= >
-
-arcEndCaps
-∂∂? I
-=
-∂∂J K
-value
-∂∂L Q
-)
-∂∂R S
-)
-∂∂T U
-;
-∂∂U V
-}
-∑∑ 
-private
-ππ 	
-	protected
-ππ
- 
-override
-ππ 
-void
-ππ !&
-SetAllMaterialProperties
-ππ" :
-(
-ππ: ;
-)
-ππ; <
-{
-ππ= >
-SetInt
-∫∫ 	
-(
-∫∫	 
-!
-ShapesMaterialUtils
-∫∫ 
-.
-∫∫ 
-propAlignment
-∫∫ ,
-,
-∫∫, -
-(
-∫∫. /
-int
-∫∫/ 2
-)
-∫∫2 3
-geometry
-∫∫3 ;
-)
-∫∫< =
-;
-∫∫= >
-SetFloat
-ªª 
-(
-ªª !
-ShapesMaterialUtils
-ªª  
-.
-ªª  !
-
-propRadius
-ªª! +
-,
-ªª+ ,
-radius
-ªª- 3
-)
-ªª4 5
-;
-ªª5 6
-SetInt
-ºº 	
-(
-ºº	 
-!
-ShapesMaterialUtils
-ºº 
-.
-ºº 
-propRadiusSpace
-ºº .
-,
-ºº. /
-(
-ºº0 1
-int
-ºº1 4
-)
-ºº4 5
-radiusSpace
-ºº5 @
-)
-ººA B
-;
-ººB C
-SetFloat
-ΩΩ 
-(
-ΩΩ !
-ShapesMaterialUtils
-ΩΩ  
-.
-ΩΩ  !
-propThickness
-ΩΩ! .
-,
-ΩΩ. /
-	thickness
-ΩΩ0 9
-)
-ΩΩ: ;
-;
-ΩΩ; <
-SetInt
-ææ 	
-(
-ææ	 
-!
-ShapesMaterialUtils
-ææ 
-.
-ææ  
-propThicknessSpace
-ææ 1
-,
-ææ1 2
-(
-ææ3 4
-int
-ææ4 7
-)
-ææ7 8
-thicknessSpace
-ææ8 F
-)
-ææG H
-;
-ææH I
-SetInt
-øø 	
-(
-øø	 
-!
-ShapesMaterialUtils
-øø 
-.
-øø 
-propRoundCaps
-øø ,
-,
-øø, -
-(
-øø. /
-int
-øø/ 2
-)
-øø2 3
-
-arcEndCaps
-øø3 =
-)
-øø> ?
-;
-øø? @
-SetFloat
-¿¿ 
-(
-¿¿ !
-ShapesMaterialUtils
-¿¿  
-.
-¿¿  !
-propAngStart
-¿¿! -
-,
-¿¿- .
-angRadiansStart
-¿¿/ >
-)
-¿¿? @
-;
-¿¿@ A
-SetFloat
-¡¡ 
-(
-¡¡ !
-ShapesMaterialUtils
-¡¡  
-.
-¡¡  !
-
-propAngEnd
-¡¡! +
-,
-¡¡+ ,
-angRadiansEnd
-¡¡- :
-)
-¡¡; <
-;
-¡¡< =
-switch
-¬¬ 	
-(
-¬¬	 
-
-	ColorMode
-¬¬ 
-)
-¬¬ 
-{
-¬¬ 
-case
-√√ 
-DiscColorMode
-√√	 
-.
-√√ 
-Single
-√√ 
-:
-√√ 
-SetColor
-ƒƒ 
-(
-ƒƒ !
-ShapesMaterialUtils
-ƒƒ "
-.
-ƒƒ" #!
-propColorOuterStart
-ƒƒ# 6
-,
-ƒƒ6 7
-base
-ƒƒ8 <
-.
-ƒƒ< =
-Color
-ƒƒ= B
-)
-ƒƒC D
-;
-ƒƒD E
-SetColor
-≈≈ 
-(
-≈≈ !
-ShapesMaterialUtils
-≈≈ "
-.
-≈≈" #
-propColorInnerEnd
-≈≈# 4
-,
-≈≈4 5
-base
-≈≈6 :
-.
-≈≈: ;
-Color
-≈≈; @
-)
-≈≈A B
-;
-≈≈B C
-SetColor
-∆∆ 
-(
-∆∆ !
-ShapesMaterialUtils
-∆∆ "
-.
-∆∆" #
-propColorOuterEnd
-∆∆# 4
-,
-∆∆4 5
-base
-∆∆6 :
-.
-∆∆: ;
-Color
-∆∆; @
-)
-∆∆A B
-;
-∆∆B C
-break
-«« 
-
-;
-««
- 
-case
-»» 
-DiscColorMode
-»»	 
-.
-»» 
-Radial
-»» 
-:
-»» 
-SetColor
-…… 
-(
-…… !
-ShapesMaterialUtils
-…… "
-.
-……" #!
-propColorOuterStart
-……# 6
-,
-……6 7
-ColorOuterStart
-……8 G
-)
-……H I
-;
-……I J
-SetColor
-   
-(
-   !
-ShapesMaterialUtils
-   "
-.
-  " #
-propColorInnerEnd
-  # 4
-,
-  4 5
-base
-  6 :
-.
-  : ;
-Color
-  ; @
-)
-  A B
-;
-  B C
-SetColor
-ÀÀ 
-(
-ÀÀ !
-ShapesMaterialUtils
-ÀÀ "
-.
-ÀÀ" #
-propColorOuterEnd
-ÀÀ# 4
-,
-ÀÀ4 5
-ColorOuterStart
-ÀÀ6 E
-)
-ÀÀF G
-;
-ÀÀG H
-break
-ÃÃ 
-
-;
-ÃÃ
- 
-case
-ÕÕ 
-DiscColorMode
-ÕÕ	 
-.
-ÕÕ 
-Angular
-ÕÕ 
-:
-ÕÕ 
-SetColor
-ŒŒ 
-(
-ŒŒ !
-ShapesMaterialUtils
-ŒŒ "
-.
-ŒŒ" #!
-propColorOuterStart
-ŒŒ# 6
-,
-ŒŒ6 7
-base
-ŒŒ8 <
-.
-ŒŒ< =
-Color
-ŒŒ= B
-)
-ŒŒC D
-;
-ŒŒD E
-SetColor
-œœ 
-(
-œœ !
-ShapesMaterialUtils
-œœ "
-.
-œœ" #
-propColorInnerEnd
-œœ# 4
-,
-œœ4 5
-ColorInnerEnd
-œœ6 C
-)
-œœD E
-;
-œœE F
-SetColor
-–– 
-(
-–– !
-ShapesMaterialUtils
-–– "
-.
-––" #
-propColorOuterEnd
-––# 4
-,
-––4 5
-ColorInnerEnd
-––6 C
-)
-––D E
-;
-––E F
-break
-—— 
-
-;
-——
- 
-case
-““ 
-DiscColorMode
-““	 
-.
-““ 
-Bilinear
-““ 
-:
-““  
-SetColor
-”” 
-(
-”” !
-ShapesMaterialUtils
-”” "
-.
-””" #!
-propColorOuterStart
-””# 6
-,
-””6 7
-ColorOuterStart
-””8 G
-)
-””H I
-;
-””I J
-SetColor
-‘‘ 
-(
-‘‘ !
-ShapesMaterialUtils
-‘‘ "
-.
-‘‘" #
-propColorInnerEnd
-‘‘# 4
-,
-‘‘4 5
-ColorInnerEnd
-‘‘6 C
-)
-‘‘D E
-;
-‘‘E F
-SetColor
-’’ 
-(
-’’ !
-ShapesMaterialUtils
-’’ "
-.
-’’" #
-propColorOuterEnd
-’’# 4
-,
-’’4 5
-ColorOuterEnd
-’’6 C
-)
-’’D E
-;
-’’E F
-break
-÷÷ 
-
-;
-÷÷
- 
-}
-◊◊ 
-SetAllDashValues
-ŸŸ 
-(
-ŸŸ 
-now
-ŸŸ 
-:
-ŸŸ 
-false
-ŸŸ 
-)
-ŸŸ  !
-;
-ŸŸ! "
-}
-⁄⁄ 
-internal
-‹‹ 
-
-override
-‹‹ 
-bool
-‹‹ 
-HasDetailLevels
-‹‹ (
-=>
-‹‹) +
-false
-‹‹, 1
-;
-‹‹1 2
-private
-ﬂﬂ 	
-	protected
-ﬂﬂ
- 
-override
-ﬂﬂ 
-void
-ﬂﬂ !
-ShapeClampRanges
-ﬂﬂ" 2
-(
-ﬂﬂ2 3
-)
-ﬂﬂ3 4
-{
-ﬂﬂ5 6
-radius
-‡‡ 	
-=
-‡‡
- 
-Mathf
-‡‡ 
-.
-‡‡ 
-Max
-‡‡ 
-(
-‡‡ 
-$num
-‡‡ 
-,
-‡‡ 
-radius
-‡‡ !
-)
-‡‡" #
-;
-‡‡# $
-	thickness
-·· 
-=
-·· 
-Mathf
-·· 
-.
-·· 
-Max
-·· 
-(
-·· 
-$num
-·· 
-,
-·· 
-	thickness
-·· '
-)
-··( )
-;
-··) *
-if
-‚‚ 
-(
-‚‚ $
-matchDashSpacingToSize
-‚‚ 
-==
-‚‚  
-false
-‚‚! &
-)
-‚‚' (
-DashSpacing
-„„ 
-=
-„„ 
-	DashSpace
-„„ 
-==
-„„ 
-	DashSpace
-„„ (
-.
-„„( )
-
-FixedCount
-„„) 3
-?
-„„4 5
-Mathf
-„„6 ;
-.
-„„; <
-Clamp01
-„„< C
-(
-„„C D
-DashSpacing
-„„E P
-)
-„„Q R
-:
-„„S T
-Mathf
-„„U Z
-.
-„„Z [
-Max
-„„[ ^
-(
-„„^ _
-$num
-„„` b
-,
-„„b c
-DashSpacing
-„„d o
-)
-„„p q
-;
-„„q r
-}
-‰‰ 
-private
-ÁÁ 	
-	protected
-ÁÁ
- 
-override
-ÁÁ 
-Material
-ÁÁ %
-[
-ÁÁ% &
-]
-ÁÁ& '
-GetMaterials
-ÁÁ( 4
-(
-ÁÁ4 5
-)
-ÁÁ5 6
-{
-ÁÁ7 8
-return
-ËË 	
-new
-ËË
- 
-[
-ËË 
-]
-ËË 
-{
-ËË !
-ShapesMaterialUtils
-ËË %
-.
-ËË% &
-GetDiscMaterial
-ËË& 5
-(
-ËË5 6
-type
-ËË7 ;
-)
-ËË< =
-[
-ËË= >
-	BlendMode
-ËË> G
-]
-ËËG H
-}
-ËËI J
-;
-ËËJ K
-}
-ÈÈ 
-private
-ÎÎ 	
-	protected
-ÎÎ
- 
-override
-ÎÎ 
-Bounds
-ÎÎ # 
-GetBounds_Internal
-ÎÎ$ 6
-(
-ÎÎ6 7
-)
-ÎÎ7 8
-{
-ÎÎ9 :
-if
-ÏÏ 
-(
-ÏÏ 
-radiusSpace
-ÏÏ 
-!=
-ÏÏ 
-ThicknessSpace
-ÏÏ $
-.
-ÏÏ$ %
-Meters
-ÏÏ% +
-)
-ÏÏ, -
-return
-ÌÌ 
-
-new
-ÌÌ 
-Bounds
-ÌÌ 
-(
-ÌÌ 
-Vector3
-ÌÌ 
-.
-ÌÌ 
-zero
-ÌÌ #
-,
-ÌÌ# $
-Vector3
-ÌÌ% ,
-.
-ÌÌ, -
-one
-ÌÌ- 0
-)
-ÌÌ1 2
-;
-ÌÌ2 3
-float
-ÔÔ 
-padding
-ÔÔ	 
-=
-ÔÔ 
-thicknessSpace
-ÔÔ !
-==
-ÔÔ" $
-ThicknessSpace
-ÔÔ% 3
-.
-ÔÔ3 4
-Meters
-ÔÔ4 :
-?
-ÔÔ; <
-	thickness
-ÔÔ= F
-*
-ÔÔG H
-$num
-ÔÔI L
-:
-ÔÔM N
-$num
-ÔÔO Q
-;
-ÔÔQ R
-float
- 
-apothem
-	 
-=
- 
-HasThickness
- 
-?
-  !
-radius
-" (
-+
-) *
-padding
-+ 2
-:
-3 4
-radius
-5 ;
-;
-; <
-float
-ÒÒ 
-size
-ÒÒ	 
-=
-ÒÒ 
-apothem
-ÒÒ 
-*
-ÒÒ 
-$num
-ÒÒ 
-;
-ÒÒ 
-return
-ÚÚ 	
-new
-ÚÚ
- 
-Bounds
-ÚÚ 
-(
-ÚÚ 
-Vector3
-ÚÚ 
-.
-ÚÚ 
-zero
-ÚÚ "
-,
-ÚÚ" #
-new
-ÚÚ$ '
-Vector3
-ÚÚ( /
-(
-ÚÚ/ 0
-size
-ÚÚ1 5
-,
-ÚÚ5 6
-size
-ÚÚ7 ;
-,
-ÚÚ; <
-$num
-ÚÚ= ?
-)
-ÚÚ@ A
-)
-ÚÚB C
-;
-ÚÚC D
-}
-ÛÛ 
-}
-ıı 
-}˜˜ ÃD
+' (
+public %
+ShapesColorFieldAttribute	 "
+(" #
+bool$ (
+	showAlpha) 2
+)3 4
+=>5 7
+this8 <
+.< =
+	showAlpha= F
+=G H
+	showAlphaI R
+;R S
+} 
+} ÃD
 tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs
 	namespace 	
 Shapes
@@ -137870,317 +137870,17 @@ endTangent
 ÔÔe f
 }
 ÙÙ 
-}˜˜ «*
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ShapeDrawState.cs
-	namespace 	
-Shapes
- 
-{ 
-struct 
-ShapeDrawState 
-{ 
-public		 
-Mesh			 
-mesh		 
-;		 
-public
-
- 
-Material
-
-	 
-mat
-
- 
-;
-
- 
-public 
-int	 
-submesh 
-; 
-internal 
-
-bool 
-CompatibleWith 
-( 
-ShapeDrawState  .
-other/ 4
-)5 6
-=>7 9
-mesh: >
-==? A
-otherB G
-.G H
-meshH L
-&&M O
-submeshP W
-==X Z
-other[ `
-.` a
-submesha h
-&&i k
-matl o
-==p r
-others x
-.x y
-maty |
-;| }
-} 
-struct 
-ShapeDrawCall 
-{ 
-public 
-ShapeDrawState	 
-	drawState !
-;! "
-public !
-MaterialPropertyBlock	 
-mpb "
-;" #
-public 
-int	 
-count 
-; 
-public 
-	Matrix4x4	 
-matrix 
-; 
-public 
-	Matrix4x4	 
-[ 
-] 
-matrices 
-; 
-bool 
-	instanced 
-; 
-public 
-ShapeDrawCall	 
-( 
-ShapeDrawState &
-	drawState' 0
-,0 1
-	Matrix4x42 ;
-matrix< B
-)C D
-{E F
-this 
-. 
-count 
-= 
-$num 
-; 
-this 
-. 
-	drawState 
-= 
-	drawState 
-; 
-this 
-. 
-matrix 
-= 
-matrix 
-; 
-this 
-. 
-	instanced 
-= 
-false 
-; 
-this 
-. 
-mpb 
-= 
-
-ObjectPool 
-< !
-MaterialPropertyBlock .
->. /
-./ 0
-Alloc0 5
-(5 6
-)6 7
-;7 8
-matrices 
-= 
-null 
-; 
-}   
-public"" 
-ShapeDrawCall""	 
-("" 
-ShapeDrawState"" &
-	drawState""' 0
-,""0 1
-int""2 5
-count""6 ;
-,""; <
-	Matrix4x4""= F
-[""F G
-]""G H
-matrices""I Q
-)""R S
-{""T U
-this## 
-.## 
-count## 
-=## 
-count## 
-;## 
-this$$ 
-.$$ 
-	drawState$$ 
-=$$ 
-	drawState$$ 
-;$$ 
-this%% 
-.%% 
-matrices%% 
-=%% 
-matrices%% 
-;%% 
-this&& 
-.&& 
-	instanced&& 
-=&& 
-true&& 
-;&& 
-this'' 
-.'' 
-mpb'' 
-='' 
-
-ObjectPool'' 
-<'' !
-MaterialPropertyBlock'' .
->''. /
-.''/ 0
-Alloc''0 5
-(''5 6
-)''6 7
-;''7 8
-matrix(( 	
-=((
- 
-default(( 
-;(( 
-})) 
-public++ 
-void++	 
-AddToCommandBuffer++  
-(++  !
-CommandBuffer++" /
-cmd++0 3
-)++4 5
-{++6 7
-if,, 
-(,, 
-	instanced,, 
-),, 
-cmd-- 
-.-- 
-DrawMeshInstanced-- 
-(-- 
-	drawState-- $
-.--$ %
-mesh--% )
-,--) *
-	drawState--+ 4
-.--4 5
-submesh--5 <
-,--< =
-	drawState--> G
-.--G H
-mat--H K
-,--K L
-$num--M N
-,--N O
-matrices--P X
-,--X Y
-count--Z _
-,--_ `
-mpb--a d
-)--e f
-;--f g
-else.. 
-cmd// 
-.// 
-DrawMesh// 
-(// 
-	drawState// 
-.// 
-mesh//  
-,//  !
-matrix//" (
-,//( )
-	drawState//* 3
-.//3 4
-mat//4 7
-,//7 8
-	drawState//9 B
-.//B C
-submesh//C J
-,//J K
-$num//L M
-,//M N
-mpb//O R
-)//S T
-;//T U
-}00 
-public22 
-void22	 
-Cleanup22 
-(22 
-)22 
-{22 
-mpb33 
-.33 
-Clear33 
-(33 
-)33 
-;33 
-
-ObjectPool44 
-<44 !
-MaterialPropertyBlock44 #
->44# $
-.44$ %
-Free44% )
-(44) *
-mpb44+ .
-)44/ 0
-;440 1
-if55 
-(55 
-	instanced55 
-)55 
-	ArrayPool66 
-<66 
-	Matrix4x466 
->66 
-.66 
-Free66 
-(66 
-matrices66 '
-)66( )
-;66) *
-	drawState77 
-.77 
-mat77 
-=77 
-null77 
-;77 
-	drawState88 
-.88 
-mesh88 
-=88 
-null88 
-;88 
-}99 
-};; 
-}== Ä€
+}˜˜ ë
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesAssemblyConfig.cs
+[ 
+assembly 	
+:	 
+
+InternalsVisibleTo 
+( 
+$str -
+). /
+]/ 0Ä€
 }C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs
 	namespace 	
 Shapes
@@ -139946,17 +139646,317 @@ matsLine3D
 ≤≤ 
 }
 µµ 
-}∑∑ ë
-~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesAssemblyConfig.cs
-[ 
-assembly 	
-:	 
-
-InternalsVisibleTo 
-( 
-$str -
-). /
-]/ 0—T
+}∑∑ «*
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ShapeDrawState.cs
+	namespace 	
+Shapes
+ 
+{ 
+struct 
+ShapeDrawState 
+{ 
+public		 
+Mesh			 
+mesh		 
+;		 
+public
+
+ 
+Material
+
+	 
+mat
+
+ 
+;
+
+ 
+public 
+int	 
+submesh 
+; 
+internal 
+
+bool 
+CompatibleWith 
+( 
+ShapeDrawState  .
+other/ 4
+)5 6
+=>7 9
+mesh: >
+==? A
+otherB G
+.G H
+meshH L
+&&M O
+submeshP W
+==X Z
+other[ `
+.` a
+submesha h
+&&i k
+matl o
+==p r
+others x
+.x y
+maty |
+;| }
+} 
+struct 
+ShapeDrawCall 
+{ 
+public 
+ShapeDrawState	 
+	drawState !
+;! "
+public !
+MaterialPropertyBlock	 
+mpb "
+;" #
+public 
+int	 
+count 
+; 
+public 
+	Matrix4x4	 
+matrix 
+; 
+public 
+	Matrix4x4	 
+[ 
+] 
+matrices 
+; 
+bool 
+	instanced 
+; 
+public 
+ShapeDrawCall	 
+( 
+ShapeDrawState &
+	drawState' 0
+,0 1
+	Matrix4x42 ;
+matrix< B
+)C D
+{E F
+this 
+. 
+count 
+= 
+$num 
+; 
+this 
+. 
+	drawState 
+= 
+	drawState 
+; 
+this 
+. 
+matrix 
+= 
+matrix 
+; 
+this 
+. 
+	instanced 
+= 
+false 
+; 
+this 
+. 
+mpb 
+= 
+
+ObjectPool 
+< !
+MaterialPropertyBlock .
+>. /
+./ 0
+Alloc0 5
+(5 6
+)6 7
+;7 8
+matrices 
+= 
+null 
+; 
+}   
+public"" 
+ShapeDrawCall""	 
+("" 
+ShapeDrawState"" &
+	drawState""' 0
+,""0 1
+int""2 5
+count""6 ;
+,""; <
+	Matrix4x4""= F
+[""F G
+]""G H
+matrices""I Q
+)""R S
+{""T U
+this## 
+.## 
+count## 
+=## 
+count## 
+;## 
+this$$ 
+.$$ 
+	drawState$$ 
+=$$ 
+	drawState$$ 
+;$$ 
+this%% 
+.%% 
+matrices%% 
+=%% 
+matrices%% 
+;%% 
+this&& 
+.&& 
+	instanced&& 
+=&& 
+true&& 
+;&& 
+this'' 
+.'' 
+mpb'' 
+='' 
+
+ObjectPool'' 
+<'' !
+MaterialPropertyBlock'' .
+>''. /
+.''/ 0
+Alloc''0 5
+(''5 6
+)''6 7
+;''7 8
+matrix(( 	
+=((
+ 
+default(( 
+;(( 
+})) 
+public++ 
+void++	 
+AddToCommandBuffer++  
+(++  !
+CommandBuffer++" /
+cmd++0 3
+)++4 5
+{++6 7
+if,, 
+(,, 
+	instanced,, 
+),, 
+cmd-- 
+.-- 
+DrawMeshInstanced-- 
+(-- 
+	drawState-- $
+.--$ %
+mesh--% )
+,--) *
+	drawState--+ 4
+.--4 5
+submesh--5 <
+,--< =
+	drawState--> G
+.--G H
+mat--H K
+,--K L
+$num--M N
+,--N O
+matrices--P X
+,--X Y
+count--Z _
+,--_ `
+mpb--a d
+)--e f
+;--f g
+else.. 
+cmd// 
+.// 
+DrawMesh// 
+(// 
+	drawState// 
+.// 
+mesh//  
+,//  !
+matrix//" (
+,//( )
+	drawState//* 3
+.//3 4
+mat//4 7
+,//7 8
+	drawState//9 B
+.//B C
+submesh//C J
+,//J K
+$num//L M
+,//M N
+mpb//O R
+)//S T
+;//T U
+}00 
+public22 
+void22	 
+Cleanup22 
+(22 
+)22 
+{22 
+mpb33 
+.33 
+Clear33 
+(33 
+)33 
+;33 
+
+ObjectPool44 
+<44 !
+MaterialPropertyBlock44 #
+>44# $
+.44$ %
+Free44% )
+(44) *
+mpb44+ .
+)44/ 0
+;440 1
+if55 
+(55 
+	instanced55 
+)55 
+	ArrayPool66 
+<66 
+	Matrix4x466 
+>66 
+.66 
+Free66 
+(66 
+matrices66 '
+)66( )
+;66) *
+	drawState77 
+.77 
+mat77 
+=77 
+null77 
+;77 
+	drawState88 
+.88 
+mesh88 
+=88 
+null88 
+;88 
+}99 
+};; 
+}== —T
 vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.cs
 	namespace 	
 Shapes
@@ -140648,28 +140648,7 @@ Coordinate 
 }
 
  
-} ê
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ArcEndCap.cs
-	namespace 	
-Shapes
- 
-{ 
-public 
-enum 
-	ArcEndCap 
-{ 
-None		 
-=		 
-$num			 
-
-,		
- 
-Round 
-= 	
-$num
- 
-} 
-} ïâ
+} ïâ
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs
 	namespace 	
 Shapes
@@ -142132,7 +142111,28 @@ FixedCountee  
 «« 
 }
 ÀÀ 
-}ÕÕ ªÖ
+}ÕÕ ê
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ArcEndCap.cs
+	namespace 	
+Shapes
+ 
+{ 
+public 
+enum 
+	ArcEndCap 
+{ 
+None		 
+=		 
+$num			 
+
+,		
+ 
+Round 
+= 	
+$num
+ 
+} 
+} ªÖ
 ~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.cs
 	namespace 	
 Shapes
@@ -228614,585 +228614,7 @@ DiscColors44" ,
 )44S T
 ;44T U
 }66 
-}88 ⁄R
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RenderState.cs
-	namespace		 	
-Shapes		
- 
-{		 
-internal 	
-struct
- 
-RenderState 
-: 
-
-IEquatable )
-<) *
-RenderState* 5
->5 6
-{7 8
-public 
-Shader	 
-shader 
-; 
-public 
-string	 
-[ 
-] 
-keywords 
-; 
-public 
-bool	 
-isTextMaterial 
-; 
-public 
-CompareFunction	 
-zTest 
-; 
-public 
-float	 
-zOffsetFactor 
-; 
-public## 
-int##	 
-zOffsetUnits## 
-;## 
-public(( 
-ColorWriteMask((	 
-	colorMask(( !
-;((! "
-public++ 
-CompareFunction++	 
-stencilComp++ $
-;++$ %
-public.. 
-	StencilOp..	 
-stencilOpPass..  
-;..  !
-public11 
-byte11	 
-stencilRefID11 
-;11 
-public44 
-byte44	 
-stencilReadMask44 
-;44 
-public77 
-byte77	 
-stencilWriteMask77 
-;77 
-public99 
-Material99	 
-CreateMaterial99  
-(99  !
-)99! "
-{99# $
-Material:: 
-mat:: 
-=:: 
-new:: 
-Material:: 
-(:: 
-shader::  &
-)::' (
-{::) *
-shaderKeywords::+ 9
-=::: ;
-keywords::< D
-}::E F
-;::F G
-mat;; 
-.;; 
-SetInt_Shapes;; 
-(;; 
-isTextMaterial;; $
-?;;% &
-ShapesMaterialUtils;;' :
-.;;: ;
-propZTestTMP;;; G
-:;;H I
-ShapesMaterialUtils;;J ]
-.;;] ^
-	propZTest;;^ g
-,;;g h
-(;;i j
-int;;j m
-);;m n
-zTest;;n s
-);;t u
-;;;u v
-if<< 
-(<< 
-isTextMaterial<< 
-==<< 
-false<< 
-)<<  
-{<<! "
-mat== 
-.== 
-SetFloat== 
-(== 
-ShapesMaterialUtils== %
-.==% &
-propZOffsetFactor==& 7
-,==7 8
-zOffsetFactor==9 F
-)==G H
-;==H I
-mat>> 
-.>> 
-SetInt_Shapes>> 
-(>> 
-ShapesMaterialUtils>> *
-.>>* +
-propZOffsetUnits>>+ ;
-,>>; <
-zOffsetUnits>>= I
-)>>J K
-;>>K L
-}?? 
-matAA 
-.AA 
-SetInt_ShapesAA 
-(AA 
-ShapesMaterialUtilsAA )
-.AA) *
-propColorMaskAA* 7
-,AA7 8
-(AA9 :
-intAA: =
-)AA= >
-	colorMaskAA> G
-)AAH I
-;AAI J
-matBB 
-.BB 
-SetInt_ShapesBB 
-(BB 
-ShapesMaterialUtilsBB )
-.BB) *
-propStencilCompBB* 9
-,BB9 :
-(BB; <
-intBB< ?
-)BB? @
-stencilCompBB@ K
-)BBL M
-;BBM N
-matCC 
-.CC 
-SetInt_ShapesCC 
-(CC 
-ShapesMaterialUtilsCC )
-.CC) *
-propStencilOpPassCC* ;
-,CC; <
-(CC= >
-intCC> A
-)CCA B
-stencilOpPassCCB O
-)CCP Q
-;CCQ R
-matDD 
-.DD 
-SetInt_ShapesDD 
-(DD 
-isTextMaterialDD $
-?DD% &
-ShapesMaterialUtilsDD' :
-.DD: ;
-propStencilIDTMPDD; K
-:DDL M
-ShapesMaterialUtilsDDN a
-.DDa b
-propStencilIDDDb o
-,DDo p
-stencilRefIDDDq }
-)DD~ 
-;	DD Ä
-matEE 
-.EE 
-SetInt_ShapesEE 
-(EE 
-ShapesMaterialUtilsEE )
-.EE) *
-propStencilReadMaskEE* =
-,EE= >
-stencilReadMaskEE? N
-)EEO P
-;EEP Q
-matFF 
-.FF 
-SetInt_ShapesFF 
-(FF 
-ShapesMaterialUtilsFF )
-.FF) * 
-propStencilWriteMaskFF* >
-,FF> ?
-stencilWriteMaskFF@ P
-)FFQ R
-;FFR S
-matGG 
-.GG 
-enableInstancingGG 
-=GG 
-trueGG 
-;GG 
-ObjectHH 	
-.HH	 
-
-DontDestroyOnLoadHH
- 
-(HH 
-matHH  
-)HH! "
-;HH" #
-returnII 	
-matII
- 
-;II 
-}JJ 
-staticLL 
-boolLL	 
-StrArrEqualsLL 
-(LL 
-stringLL "
-[LL" #
-]LL# $
-aLL% &
-,LL& '
-stringLL( .
-[LL. /
-]LL/ 0
-bLL1 2
-)LL3 4
-{LL5 6
-ifMM 
-(MM 
-aMM 
-==MM	 
-nullMM 
-||MM 
-bMM 
-==MM 
-nullMM 
-)MM 
-returnNN 
-
-aNN 
-==NN 
-bNN 
-;NN 
-returnOO 	
-aOO
- 
-.OO 
-LengthOO 
-==OO 
-bOO 
-.OO 
-LengthOO 
-&&OO !
-aOO" #
-.OO# $
-SequenceEqualOO$ 1
-(OO1 2
-bOO3 4
-)OO5 6
-;OO6 7
-}PP 
-publicRR 
-boolRR	 
-EqualsRR 
-(RR 
-RenderStateRR !
-otherRR" '
-)RR( )
-=>RR* ,
-EqualsSS 	
-(SS	 
-
-shaderSS 
-,SS 
-otherSS 
-.SS 
-shaderSS 
-)SS  !
-&&SS" $
-StrArrEqualsTT 
-(TT 
-keywordsTT 
-,TT 
-otherTT  
-.TT  !
-keywordsTT! )
-)TT* +
-&&TT, .
-zTestUU 
-==UU	 
-otherUU 
-.UU 
-zTestUU 
-&&UU 
-zOffsetFactorVV 
-.VV 
-EqualsVV 
-(VV 
-otherVV 
-.VV 
-zOffsetFactorVV ,
-)VV- .
-&&VV/ 1
-zOffsetUnitsWW 
-==WW 
-otherWW 
-.WW 
-zOffsetUnitsWW %
-&&WW& (
-	colorMaskXX 
-==XX 
-otherXX 
-.XX 
-	colorMaskXX 
-&&XX  "
-stencilCompYY 
-==YY 
-otherYY 
-.YY 
-stencilCompYY #
-&&YY$ &
-stencilOpPassZZ 
-==ZZ 
-otherZZ 
-.ZZ 
-stencilOpPassZZ '
-&&ZZ( *
-stencilRefID[[ 
-==[[ 
-other[[ 
-.[[ 
-stencilRefID[[ %
-&&[[& (
-stencilReadMask\\ 
-==\\ 
-other\\ 
-.\\ 
-stencilReadMask\\ +
-&&\\, .
-stencilWriteMask]] 
-==]] 
-other]] 
-.]] 
-stencilWriteMask]] -
-;]]- .
-public__ 
-override__	 
-bool__ 
-Equals__ 
-(__ 
-object__ %
-obj__& )
-)__* +
-=>__, .
-obj__/ 2
-is__3 5
-RenderState__6 A
-other__B G
-&&__H J
-Equals__K Q
-(__Q R
-other__S X
-)__Y Z
-;__Z [
-publicaa 
-overrideaa	 
-intaa 
-GetHashCodeaa !
-(aa! "
-)aa" #
-{aa$ %
-	uncheckedbb 
-{bb 
-intcc 
-hashCodecc 
-=cc 
-(cc 
-shadercc 
-!=cc 
-nullcc #
-?cc$ %
-shadercc& ,
-.cc, -
-GetHashCodecc- 8
-(cc8 9
-)cc9 :
-:cc; <
-$numcc= >
-)cc? @
-;cc@ A
-ifdd 
-(dd 
-keywordsdd 
-!=dd 
-nulldd 
-)dd 
-{dd 
-foreachee 
-(ee 
-stringee 
-kwee 
-inee 
-keywordsee #
-)ee$ %
-hashCodeff 
-=ff 
-(ff 
-hashCodeff 
-*ff 
-$numff !
-)ff" #
-^ff$ %
-(ff& '
-kwff( *
-!=ff+ -
-nullff. 2
-?ff3 4
-kwff5 7
-.ff7 8
-GetHashCodeff8 C
-(ffC D
-)ffD E
-:ffF G
-$numffH I
-)ffJ K
-;ffK L
-}gg 
-hashCodeii 
-=ii 
-(ii 
-hashCodeii 
-*ii 
-$numii 
-)ii  !
-^ii" #
-(ii$ %
-intii% (
-)ii( )
-zTestii) .
-;ii. /
-hashCodejj 
-=jj 
-(jj 
-hashCodejj 
-*jj 
-$numjj 
-)jj  !
-^jj" #
-zOffsetFactorjj$ 1
-.jj1 2
-GetHashCodejj2 =
-(jj= >
-)jj> ?
-;jj? @
-hashCodekk 
-=kk 
-(kk 
-hashCodekk 
-*kk 
-$numkk 
-)kk  !
-^kk" #
-zOffsetUnitskk$ 0
-;kk0 1
-hashCodell 
-=ll 
-(ll 
-hashCodell 
-*ll 
-$numll 
-)ll  !
-^ll" #
-(ll$ %
-intll% (
-)ll( )
-	colorMaskll) 2
-;ll2 3
-hashCodemm 
-=mm 
-(mm 
-hashCodemm 
-*mm 
-$nummm 
-)mm  !
-^mm" #
-(mm$ %
-intmm% (
-)mm( )
-stencilCompmm) 4
-;mm4 5
-hashCodenn 
-=nn 
-(nn 
-hashCodenn 
-*nn 
-$numnn 
-)nn  !
-^nn" #
-(nn$ %
-intnn% (
-)nn( )
-stencilOpPassnn) 6
-;nn6 7
-hashCodeoo 
-=oo 
-(oo 
-hashCodeoo 
-*oo 
-$numoo 
-)oo  !
-^oo" #
-stencilRefIDoo$ 0
-.oo0 1
-GetHashCodeoo1 <
-(oo< =
-)oo= >
-;oo> ?
-hashCodepp 
-=pp 
-(pp 
-hashCodepp 
-*pp 
-$numpp 
-)pp  !
-^pp" #
-stencilReadMaskpp$ 3
-.pp3 4
-GetHashCodepp4 ?
-(pp? @
-)pp@ A
-;ppA B
-hashCodeqq 
-=qq 
-(qq 
-hashCodeqq 
-*qq 
-$numqq 
-)qq  !
-^qq" #
-stencilWriteMaskqq$ 4
-.qq4 5
-GetHashCodeqq5 @
-(qq@ A
-)qqA B
-;qqB C
-returnrr 
-
-hashCoderr 
-;rr 
-}ss 
-}tt 
-}vv 
-}xx Æ
+}88 Æ
 sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\UnityInfo.cs
 	namespace 	
 Shapes
@@ -234890,7 +234312,585 @@ DashOffset
 ññh i
 }
 óó 
-}ôô Â
+}ôô ⁄R
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RenderState.cs
+	namespace		 	
+Shapes		
+ 
+{		 
+internal 	
+struct
+ 
+RenderState 
+: 
+
+IEquatable )
+<) *
+RenderState* 5
+>5 6
+{7 8
+public 
+Shader	 
+shader 
+; 
+public 
+string	 
+[ 
+] 
+keywords 
+; 
+public 
+bool	 
+isTextMaterial 
+; 
+public 
+CompareFunction	 
+zTest 
+; 
+public 
+float	 
+zOffsetFactor 
+; 
+public## 
+int##	 
+zOffsetUnits## 
+;## 
+public(( 
+ColorWriteMask((	 
+	colorMask(( !
+;((! "
+public++ 
+CompareFunction++	 
+stencilComp++ $
+;++$ %
+public.. 
+	StencilOp..	 
+stencilOpPass..  
+;..  !
+public11 
+byte11	 
+stencilRefID11 
+;11 
+public44 
+byte44	 
+stencilReadMask44 
+;44 
+public77 
+byte77	 
+stencilWriteMask77 
+;77 
+public99 
+Material99	 
+CreateMaterial99  
+(99  !
+)99! "
+{99# $
+Material:: 
+mat:: 
+=:: 
+new:: 
+Material:: 
+(:: 
+shader::  &
+)::' (
+{::) *
+shaderKeywords::+ 9
+=::: ;
+keywords::< D
+}::E F
+;::F G
+mat;; 
+.;; 
+SetInt_Shapes;; 
+(;; 
+isTextMaterial;; $
+?;;% &
+ShapesMaterialUtils;;' :
+.;;: ;
+propZTestTMP;;; G
+:;;H I
+ShapesMaterialUtils;;J ]
+.;;] ^
+	propZTest;;^ g
+,;;g h
+(;;i j
+int;;j m
+);;m n
+zTest;;n s
+);;t u
+;;;u v
+if<< 
+(<< 
+isTextMaterial<< 
+==<< 
+false<< 
+)<<  
+{<<! "
+mat== 
+.== 
+SetFloat== 
+(== 
+ShapesMaterialUtils== %
+.==% &
+propZOffsetFactor==& 7
+,==7 8
+zOffsetFactor==9 F
+)==G H
+;==H I
+mat>> 
+.>> 
+SetInt_Shapes>> 
+(>> 
+ShapesMaterialUtils>> *
+.>>* +
+propZOffsetUnits>>+ ;
+,>>; <
+zOffsetUnits>>= I
+)>>J K
+;>>K L
+}?? 
+matAA 
+.AA 
+SetInt_ShapesAA 
+(AA 
+ShapesMaterialUtilsAA )
+.AA) *
+propColorMaskAA* 7
+,AA7 8
+(AA9 :
+intAA: =
+)AA= >
+	colorMaskAA> G
+)AAH I
+;AAI J
+matBB 
+.BB 
+SetInt_ShapesBB 
+(BB 
+ShapesMaterialUtilsBB )
+.BB) *
+propStencilCompBB* 9
+,BB9 :
+(BB; <
+intBB< ?
+)BB? @
+stencilCompBB@ K
+)BBL M
+;BBM N
+matCC 
+.CC 
+SetInt_ShapesCC 
+(CC 
+ShapesMaterialUtilsCC )
+.CC) *
+propStencilOpPassCC* ;
+,CC; <
+(CC= >
+intCC> A
+)CCA B
+stencilOpPassCCB O
+)CCP Q
+;CCQ R
+matDD 
+.DD 
+SetInt_ShapesDD 
+(DD 
+isTextMaterialDD $
+?DD% &
+ShapesMaterialUtilsDD' :
+.DD: ;
+propStencilIDTMPDD; K
+:DDL M
+ShapesMaterialUtilsDDN a
+.DDa b
+propStencilIDDDb o
+,DDo p
+stencilRefIDDDq }
+)DD~ 
+;	DD Ä
+matEE 
+.EE 
+SetInt_ShapesEE 
+(EE 
+ShapesMaterialUtilsEE )
+.EE) *
+propStencilReadMaskEE* =
+,EE= >
+stencilReadMaskEE? N
+)EEO P
+;EEP Q
+matFF 
+.FF 
+SetInt_ShapesFF 
+(FF 
+ShapesMaterialUtilsFF )
+.FF) * 
+propStencilWriteMaskFF* >
+,FF> ?
+stencilWriteMaskFF@ P
+)FFQ R
+;FFR S
+matGG 
+.GG 
+enableInstancingGG 
+=GG 
+trueGG 
+;GG 
+ObjectHH 	
+.HH	 
+
+DontDestroyOnLoadHH
+ 
+(HH 
+matHH  
+)HH! "
+;HH" #
+returnII 	
+matII
+ 
+;II 
+}JJ 
+staticLL 
+boolLL	 
+StrArrEqualsLL 
+(LL 
+stringLL "
+[LL" #
+]LL# $
+aLL% &
+,LL& '
+stringLL( .
+[LL. /
+]LL/ 0
+bLL1 2
+)LL3 4
+{LL5 6
+ifMM 
+(MM 
+aMM 
+==MM	 
+nullMM 
+||MM 
+bMM 
+==MM 
+nullMM 
+)MM 
+returnNN 
+
+aNN 
+==NN 
+bNN 
+;NN 
+returnOO 	
+aOO
+ 
+.OO 
+LengthOO 
+==OO 
+bOO 
+.OO 
+LengthOO 
+&&OO !
+aOO" #
+.OO# $
+SequenceEqualOO$ 1
+(OO1 2
+bOO3 4
+)OO5 6
+;OO6 7
+}PP 
+publicRR 
+boolRR	 
+EqualsRR 
+(RR 
+RenderStateRR !
+otherRR" '
+)RR( )
+=>RR* ,
+EqualsSS 	
+(SS	 
+
+shaderSS 
+,SS 
+otherSS 
+.SS 
+shaderSS 
+)SS  !
+&&SS" $
+StrArrEqualsTT 
+(TT 
+keywordsTT 
+,TT 
+otherTT  
+.TT  !
+keywordsTT! )
+)TT* +
+&&TT, .
+zTestUU 
+==UU	 
+otherUU 
+.UU 
+zTestUU 
+&&UU 
+zOffsetFactorVV 
+.VV 
+EqualsVV 
+(VV 
+otherVV 
+.VV 
+zOffsetFactorVV ,
+)VV- .
+&&VV/ 1
+zOffsetUnitsWW 
+==WW 
+otherWW 
+.WW 
+zOffsetUnitsWW %
+&&WW& (
+	colorMaskXX 
+==XX 
+otherXX 
+.XX 
+	colorMaskXX 
+&&XX  "
+stencilCompYY 
+==YY 
+otherYY 
+.YY 
+stencilCompYY #
+&&YY$ &
+stencilOpPassZZ 
+==ZZ 
+otherZZ 
+.ZZ 
+stencilOpPassZZ '
+&&ZZ( *
+stencilRefID[[ 
+==[[ 
+other[[ 
+.[[ 
+stencilRefID[[ %
+&&[[& (
+stencilReadMask\\ 
+==\\ 
+other\\ 
+.\\ 
+stencilReadMask\\ +
+&&\\, .
+stencilWriteMask]] 
+==]] 
+other]] 
+.]] 
+stencilWriteMask]] -
+;]]- .
+public__ 
+override__	 
+bool__ 
+Equals__ 
+(__ 
+object__ %
+obj__& )
+)__* +
+=>__, .
+obj__/ 2
+is__3 5
+RenderState__6 A
+other__B G
+&&__H J
+Equals__K Q
+(__Q R
+other__S X
+)__Y Z
+;__Z [
+publicaa 
+overrideaa	 
+intaa 
+GetHashCodeaa !
+(aa! "
+)aa" #
+{aa$ %
+	uncheckedbb 
+{bb 
+intcc 
+hashCodecc 
+=cc 
+(cc 
+shadercc 
+!=cc 
+nullcc #
+?cc$ %
+shadercc& ,
+.cc, -
+GetHashCodecc- 8
+(cc8 9
+)cc9 :
+:cc; <
+$numcc= >
+)cc? @
+;cc@ A
+ifdd 
+(dd 
+keywordsdd 
+!=dd 
+nulldd 
+)dd 
+{dd 
+foreachee 
+(ee 
+stringee 
+kwee 
+inee 
+keywordsee #
+)ee$ %
+hashCodeff 
+=ff 
+(ff 
+hashCodeff 
+*ff 
+$numff !
+)ff" #
+^ff$ %
+(ff& '
+kwff( *
+!=ff+ -
+nullff. 2
+?ff3 4
+kwff5 7
+.ff7 8
+GetHashCodeff8 C
+(ffC D
+)ffD E
+:ffF G
+$numffH I
+)ffJ K
+;ffK L
+}gg 
+hashCodeii 
+=ii 
+(ii 
+hashCodeii 
+*ii 
+$numii 
+)ii  !
+^ii" #
+(ii$ %
+intii% (
+)ii( )
+zTestii) .
+;ii. /
+hashCodejj 
+=jj 
+(jj 
+hashCodejj 
+*jj 
+$numjj 
+)jj  !
+^jj" #
+zOffsetFactorjj$ 1
+.jj1 2
+GetHashCodejj2 =
+(jj= >
+)jj> ?
+;jj? @
+hashCodekk 
+=kk 
+(kk 
+hashCodekk 
+*kk 
+$numkk 
+)kk  !
+^kk" #
+zOffsetUnitskk$ 0
+;kk0 1
+hashCodell 
+=ll 
+(ll 
+hashCodell 
+*ll 
+$numll 
+)ll  !
+^ll" #
+(ll$ %
+intll% (
+)ll( )
+	colorMaskll) 2
+;ll2 3
+hashCodemm 
+=mm 
+(mm 
+hashCodemm 
+*mm 
+$nummm 
+)mm  !
+^mm" #
+(mm$ %
+intmm% (
+)mm( )
+stencilCompmm) 4
+;mm4 5
+hashCodenn 
+=nn 
+(nn 
+hashCodenn 
+*nn 
+$numnn 
+)nn  !
+^nn" #
+(nn$ %
+intnn% (
+)nn( )
+stencilOpPassnn) 6
+;nn6 7
+hashCodeoo 
+=oo 
+(oo 
+hashCodeoo 
+*oo 
+$numoo 
+)oo  !
+^oo" #
+stencilRefIDoo$ 0
+.oo0 1
+GetHashCodeoo1 <
+(oo< =
+)oo= >
+;oo> ?
+hashCodepp 
+=pp 
+(pp 
+hashCodepp 
+*pp 
+$numpp 
+)pp  !
+^pp" #
+stencilReadMaskpp$ 3
+.pp3 4
+GetHashCodepp4 ?
+(pp? @
+)pp@ A
+;ppA B
+hashCodeqq 
+=qq 
+(qq 
+hashCodeqq 
+*qq 
+$numqq 
+)qq  !
+^qq" #
+stencilWriteMaskqq$ 4
+.qq4 5
+GetHashCodeqq5 @
+(qq@ A
+)qqA B
+;qqB C
+returnrr 
+
+hashCoderr 
+;rr 
+}ss 
+}tt 
+}vv 
+}xx Â
 |C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylineJoins.cs
 	namespace 	
 Shapes

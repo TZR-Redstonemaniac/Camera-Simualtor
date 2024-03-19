@@ -1,37 +1,38 @@
 
-(Shapes.Draw.GradientFillRadialRadius.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
++Shapes.Rectangle.UpdateRectPositioningNow()Ñ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csç ç("0*
 0
-Ú Ú(*
-1*ƒ
+ç ç(*
+1*ˆ
 1
-Ú! Ú(H\
-Z
+ç% ç(ht
+r
 
-Ú! Ú(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+çR ç(f
+%0UnityEngine.Vector4"%Shapes.Rectangle.GetPositioningRect()*"
 
-Ú! Ú(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill\
-Z
+çR ç(d
+Shapes.RectangleÈ
+Ê
 
-Ú! Ú(H2
+ç% ç(h
+
+%1void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*"
+
+ç% ç(2
+Shapes.Rectangle*?
+
+ç4 ç(P1*/
+Shapes.ShapesMaterialUtils"
+propRectint*)
+
+çR ç(f
 
-%1Shapes.GradientFill"
-radialRadiusfloat"__id*
-
-valuefloat*
+%0UnityEngine.Vector4*
 2*2
 2
-ÚI Ú(I"!
+çi ç(i"!
 
-ÚH Ú(I
-implicit return:
-valuefloatB"
-Shapes.DrawX
+çh ç(i
+implicit returnB
+Shapes.RectangleX

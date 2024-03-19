@@ -1,101 +1,30 @@
 
-/Shapes.DashStyle.DashStyle(float, float, float)„
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs¿	 ¿("0*
-0
-¾ ¾(*
-1*¼	
-1
-À Æ(7l
-j
+SShapes.GradientFill.SetLinearStartWorld(UnityEngine.Transform, UnityEngine.Vector3)…
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.csa a(!"0*
+0a a(*
+1*á
+1aJ a(yÌ
+É
+aJ a(y
 
-À À(
-%0Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStylez
-x
-
-À À($-
-Shapes.DashStyle"
-typeShapes.DashType"__id*53*1
-
-%0Shapes.DashStyle"
-typeShapes.DashTypel
-j
-
-Á Á( 
-%1Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStyle~
-|
-
-Á Á(&/
-Shapes.DashStyle"
-spaceShapes.DashSpace"__id*75*3
-
-%1Shapes.DashStyle"
-spaceShapes.DashSpacel
-j
-
-Â Â(
-%2Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStyleƒ
-€
-
-Â Â($1
-Shapes.DashStyle"
-snapShapes.DashSnapping"__id*97*5
-
-%2Shapes.DashStyle"
-snapShapes.DashSnappingL
-J
-
-Ã Ã(#
-Shapes.DashStyle"
-sizefloat"__id*
-
-sizefloatR
-P
-
-Ä Ä(&
-Shapes.DashStyle"
-spacingfloat"__id*
-
-spacingfloatP
-N
-
-Å Å(%
-Shapes.DashStyle"
-offsetfloat"__id*
-
-offsetfloatl
-j
-
-Æ Æ((
-%3Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStylex
-v
-
-Æ Æ(6,
-Shapes.DashStyle"
-shapeModifierfloat"__id*42*0
-
-%3Shapes.DashStyle"
-shapeModifierfloat*
-2*2
-2
-Ç Ç("!
-
-Ç Ç(
-implicit return:
-
-¿ ¿(
-sizefloat:
-
-¿  ¿(-
-spacingfloat:
-
-¿/ ¿(;
-offsetfloatB
-Shapes.DashStyleX
+%0void"dShapes.GradientFill.SetWorldPos(UnityEngine.Transform, ref UnityEngine.Vector3, UnityEngine.Vector3)*#
+aJ a(U
+Shapes.GradientFill*)
+aW a(Y
+
+tfUnityEngine.Transform*I
+a[ a(j=*;
+Shapes.GradientFill""
+linearStartUnityEngine.Vector3*0
+al a(w$
+"
+worldOriginUnityEngine.Vector3*
+2*.
+2az a(z"
+ay a(z
+implicit return:'
+a# a(/
+tfUnityEngine.Transform:.
+a1 a(D"
+worldOriginUnityEngine.Vector3B
+Shapes.GradientFillX

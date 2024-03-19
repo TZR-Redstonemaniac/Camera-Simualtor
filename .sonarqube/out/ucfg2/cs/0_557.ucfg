@@ -1,21 +1,37 @@
 
-&Shapes.Line.MatchDashSpacingToSize.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csI I("0*
-0I I(*
-1*s
-1I
- I( _
-]
-I
- I( 
-%retbool"__id*=
-I
- I( 1*/
-Shapes.Line"
-matchDashSpacingToSizebool*
-2*)
-2I! I(!"
-I  I(!
-
-%retboolB
-Shapes.LineX
+(Shapes.Draw.GradientFillRadialRadius.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
+0
+Ú Ú(*
+1*ƒ
+1
+Ú! Ú(H\
+Z
+
+Ú! Ú(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ú! Ú(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill\
+Z
+
+Ú! Ú(H2
+
+%1Shapes.GradientFill"
+radialRadiusfloat"__id*
+
+valuefloat*
+2*2
+2
+ÚI Ú(I"!
+
+ÚH Ú(I
+implicit return:
+valuefloatB"
+Shapes.DrawX

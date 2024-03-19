@@ -1,112 +1,71 @@
 
-Shapes.Quad.Color.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs² ²("0*
-0
-² ²(*
-1*ø
+DShapes.PolylinePath.AddPoint(float, float, float, UnityEngine.Color)‰
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolylinePath.cs.% .(-"0*
+0. .(*
+1*÷
+1	.[ .(™=;
+	.x .(Ž
+%0UnityEngine.Vector3"UnityEngine.Vector3Ù
+Ö
+	.x .(Ž
+%1UnityEngine.Vector3"0UnityEngine.Vector3.Vector3(float, float, float)*(
+	.x .(Ž
+
+%0UnityEngine.Vector3*
 
-1
-³ ¶(Ba
-_
+.… .(†
 
-³- ³(:+
-Shapes.Quad"
-colorUnityEngine.Color"__id*
+
+xfloat*
+
+.ˆ .(‰
+
+
+yfloat*
+
+.‹ .(Œ
+
+
+zfloat?=
+	.e .(—
+%2Shapes.PolylinePoint"Shapes.PolylinePoint÷
+ô
+	.e .(—
+%3Shapes.PolylinePoint"JShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector3, UnityEngine.Color)*)
+	.e .(—
 
-valueUnityEngine.Colorð
-í
+%2Shapes.PolylinePoint*(
+	.x .(Ž
+
+%0UnityEngine.Vector3**
 
-³ ³(<
-
-%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-
-³ ³(
-Shapes.Quad*@
-
-³ ³(+2*0
-Shapes.ShapesMaterialUtils"
-	propColorint*;
-
-³- ³(:-*+
-Shapes.Quad"
-colorUnityEngine.Colorb
-`
-
-´. ´(<,
-Shapes.Quad"
-colorBUnityEngine.Color"__id*
+. .(•
 
-valueUnityEngine.Colorò
-ï
+colorUnityEngine.Color‹
+ˆ
+	.[ .(™
 
-´ ´(>
-
-%1void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-
-´ ´(
-Shapes.Quad*A
-
-´ ´(,3*1
-Shapes.ShapesMaterialUtils"
-
-propColorBint*<
-
-´. ´(<.*,
-Shapes.Quad"
-colorBUnityEngine.Colorb
-`
-
-µ. µ(<,
-Shapes.Quad"
-colorCUnityEngine.Color"__id*
+%4void"Shapes.PointPath<T>.AddPoint(T)*#
+.[ .(c
+Shapes.PolylinePath*)
+	.e .(—
 
-valueUnityEngine.Colorò
-ï
-
-µ µ(>
-
-%2void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-
-µ µ(
-Shapes.Quad*A
-
-µ µ(,3*1
-Shapes.ShapesMaterialUtils"
-
-propColorCint*<
-
-µ. µ(<.*,
-Shapes.Quad"
-colorCUnityEngine.Colorb
-`
-
-¶1 ¶(?,
-Shapes.Quad"
-colorDUnityEngine.Color"__id*
-
-valueUnityEngine.Colorõ
-ò
-
-¶ ¶(A
-
-%3void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-
-¶ ¶(
-Shapes.Quad*A
-
-¶ ¶(/3*1
-Shapes.ShapesMaterialUtils"
-
-propColorDint*<
-
-¶1 ¶(?.*,
-Shapes.Quad"
-colorDUnityEngine.Color*
+%2Shapes.PolylinePoint*
 2*2
 2
-· ·("!
+.š .(š"!
 
-· ·(
-implicit return:
-valueUnityEngine.ColorB
-Shapes.QuadX
+.™ .(š
+implicit return:
+./ .(6
+
+xfloat:
+.8 .(?
+
+yfloat:
+.A .(H
+
+zfloat:&
+.J .(U
+colorUnityEngine.ColorB
+Shapes.PolylinePathX

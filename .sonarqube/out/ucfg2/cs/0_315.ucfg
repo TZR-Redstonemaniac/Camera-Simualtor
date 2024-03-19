@@ -1,16 +1,35 @@
 
-Shapes.ShapeGroup.IsEnabled.setÉ
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,"0*˙
-0- (-Ã
-…
-É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,(
-Shapes.ShapeGroup"
-	IsEnabledbool"__id*
+#Shapes.Polygon.FillRadialRadius.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs® ®("0*
+0
+® ®(*
+1*„
+1
+®
+ ®(d
+b
 
-valuebool"õ
-É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,
-implicit return:
-valueboolB
-Shapes.ShapeGroupX
+®
+ ®(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillg
+e
+
+®
+ ®(
+%retfloat"__id*B
+
+®
+ ®(4*2
+
+%0Shapes.GradientFill"
+radialRadiusfloat*
+2*.
+2
+® ®("
+
+® ®(
+
+%retfloatB
+Shapes.PolygonX

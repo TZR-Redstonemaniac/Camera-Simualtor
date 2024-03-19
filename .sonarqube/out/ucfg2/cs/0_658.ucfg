@@ -1,27 +1,21 @@
 
-Shapes.Triangle.Color.getƒ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs™ ™("0*
-0
-™ ™(*
-1*†
-1
-™
- ™(p
-n
-
-™
- ™(
-%retUnityEngine.Color"__id*?
-
-™
- ™(1*/
-Shapes.Triangle"
-colorUnityEngine.Color*
-2*:
-2
-™ ™(")
-
-™ ™(
-
-%retUnityEngine.ColorB
-Shapes.Triangle
+ Shapes.Rectangle.CornerRadii.get‚
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csp p("0*
+0p p(*
+1*‹
+1p
+ p(w
+u
+p
+ p(
+%retUnityEngine.Vector4"__id*F
+p
+ p(:*8
+Shapes.Rectangle""
+cornerRadiiUnityEngine.Vector4*
+2*8
+2p p(")
+p p(
+
+%retUnityEngine.Vector4B
+Shapes.Rectangle

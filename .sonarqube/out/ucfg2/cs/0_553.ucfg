@@ -1,25 +1,24 @@
 
-2Shapes.DashStack.DashStack(bool, Shapes.DashStyle)†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DashStack.cs ("0*
-0 (*
-1*Ï
-13 (Nº
-·
-3 (N
+Shapes.Disc.ColorMode.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs0 0("0*
+00 0(*
+1*æ
+11 2(s
+q
+1 1(7
+Shapes.Disc"&
+	colorModeShapes.Disc.DiscColorMode"__id*&$
+"
+valueShapes.Disc.DiscColorMode]
+[
+2 2(
 
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*Q
-3 (9E*C
-Shapes.DashStack"-
-dashes#System.Collections.Generic.Stack<T>*
-@ (L
-	{unknown}*
+%0void"&Shapes.ShapeRenderer.ApplyProperties()*
+2 2(
+Shapes.Disc*
 2*.
-2O (O"
-N (O
-implicit return:
- (
-
-onbool:$
- (-
-dashShapes.DashStyleB
-Shapes.DashStackX
+23 3("
+3 3(
+implicit return:$"
+valueShapes.Disc.DiscColorModeB
+Shapes.DiscX

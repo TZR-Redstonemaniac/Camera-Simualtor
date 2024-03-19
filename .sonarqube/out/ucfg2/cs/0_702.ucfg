@@ -1,17 +1,17 @@
 
-:Shapes.MpbLine2D.Shapes.IDashableMpb.dashShapeModifier.getã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2"0*ê
-0X3 X(3Ω
-∫
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2.
-%ret&System.Collections.Generic.List<float>"__id*Û
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2c*a
-Shapes.MpbLine2D"K
-%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"¿
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(20
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine2D
+!Shapes.ShapesTextPool.OnDisable()Ç
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.cs; ;("0*
+0; ;(*
+1*v
+1< <(b
+`
+< <(
+
+%0void"!Shapes.ShapesTextPool.ClearData()*%
+< <(
+Shapes.ShapesTextPool*
+2*.
+2= =("
+= =(
+implicit returnB
+Shapes.ShapesTextPoolX

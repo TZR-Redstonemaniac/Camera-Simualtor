@@ -1,37 +1,16 @@
 
-Shapes.Draw.TextAlign.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csà à("0*
-0
-à à(*
-1*À
-1
-à! à(B\
-Z
-
-à! à(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-à! à(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStylel
-j
-
-à! à(B7
-
-%1Shapes.TextStyle"
-	alignmentShapes.TextAlign"__id*
-
-valueShapes.TextAlign*
-2*2
-2
-àC à(C"!
-
-àB à(C
-implicit return:
-valueShapes.TextAlignB"
-Shapes.DrawX
+4Shapes.MpbLine2D.Shapes.IDashableMpb.dashSpacing.setã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,"0*€
+0\- \(-•
+¢
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,[
+Shapes.MpbLine2D"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine2D

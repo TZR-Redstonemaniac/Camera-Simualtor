@@ -1,35 +1,53 @@
 
-Shapes.Triangle.DashSnap.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csŠ Š("0*
+Shapes.Triangle.DashSpacing.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csù ù("0*
 0
-Š Š(*
-1*ô
+ù ù(*
+1*‰
 1
-Š
- Š(d
+ú û(Ld
 b
 
-Š
- Š(
+ú ú(
 %0Shapes.DashStyle"__id*64*2
 Shapes.Triangle"
-	dashStyleShapes.DashStylex
-v
+	dashStyleShapes.DashStyleT
+R
 
-Š
- Š(
-%retShapes.DashSnapping"__id*E
-
-Š
- Š(7*5
+ú ú(*
 
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*<
-2
-Š Š("+
+%0Shapes.DashStyle"
+spacingfloat"__id*
+
+valuefloatc
+a
 
-Š Š(
-
-%retShapes.DashSnappingB
+û6 û(I
+%1float"#Shapes.Triangle.GetNetDashSpacing()*!
+
+û6 û(G
+Shapes.TriangleÑ
+Î
+
+û û(K
+
+%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
+
+û û(
+Shapes.Triangle*F
+
+û û(48*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+
+û6 û(I
+
+%1float*
+2*2
+2
+ü ü("!
+
+ü ü(
+implicit return:
+valuefloatB
 Shapes.TriangleX

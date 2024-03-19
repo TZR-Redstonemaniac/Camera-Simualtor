@@ -1,30 +1,30 @@
 
-Shapes.Draw.BlendMode.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csà à("0*
+Shapes.Draw.SizeSpace.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs≤ ≤("0*
 0
-à à(*
-1*Ï
+≤ ≤(*
+1*Í
 1
-à! à(8\
+≤! ≤(8\
 Z
 
-à! à(&
+≤! ≤(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylex
-v
+styleShapes.DrawStylev
+t
 
-à! à(8=
+≤! ≤(8<
 
-%0Shapes.DrawStyle"#
-	blendModeShapes.ShapesBlendMode"__id*#!
-
-valueShapes.ShapesBlendMode*
+%0Shapes.DrawStyle""
+	sizeSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
 2*2
 2
-à9 à(9"!
+≤9 ≤(9"!
 
-à8 à(9
-implicit return:!
-valueShapes.ShapesBlendModeB"
+≤8 ≤(9
+implicit return: 
+valueShapes.ThicknessSpaceB"
 Shapes.DrawX

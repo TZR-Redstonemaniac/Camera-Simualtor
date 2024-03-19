@@ -8,6 +8,7 @@
         Pass
         {
             CGPROGRAM
+            // Upgrade NOTE: excluded shader from DX11, OpenGL ES 2.0 because it uses unsized arrays
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
@@ -102,10 +103,15 @@
             float DefocusStrength;
             float RenderDistance;
 
+            float BlackRayTolerance;
+
             StructuredBuffer<Triangle> Triangles;
             StructuredBuffer<MeshInfo> AllMeshInfo;
             int NumMeshes;
-
+            
+            StructuredBuffer<float3> AllLightSources;
+            int NumLights;
+            
             int UseEnvironment;
 
             // ------------- Ray Intersection Functions -------------
@@ -193,18 +199,6 @@
 				return hitInfo;
             }
 
-            bool RayBoundingBox(const Ray ray, const float3 boxMin, const float3 boxMax)
-			{
-				float3 invDir = 1 / ray.dir;
-				float3 tMin = (boxMin - ray.origin) * invDir;
-				float3 tMax = (boxMax - ray.origin) * invDir;
-				float3 t1 = min(tMin, tMax);
-				float3 t2 = max(tMin, tMax);
-				float tNear = max(max(t1.x, t1.y), t1.z);
-				float tFar = min(min(t2.x, t2.y), t2.z);
-				return tNear <= tFar;
-			};
-
             HitInfo CalculateRayCollision(const Ray ray)
             {
                 HitInfo closestHit = (HitInfo)0;
@@ -273,13 +267,40 @@
                         ray.origin = hitInfo.hitPoint;
                         float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
                         float3 specularDir = reflect(ray.dir, hitInfo.normal);
+
+                        if (i == MaxBounceCount - 1 && NumLights > 0)
+                        {
+                            for (int j = 0; j < NumLights; j++)
+                            {
+                                Ray tempRay;
+                                tempRay.origin = ray.origin;
+                                tempRay.dir = normalize(AllLightSources[j] - ray.origin);
+
+                                HitInfo lightHitInfo;
+                                lightHitInfo.dst = 0;
+                                lightHitInfo.hitPoint = float3(0, 0, 0);
+
+                                const HitInfo tempHitInfo = CalculateRayCollision(tempRay);
+                                if (tempHitInfo.material.emissionStrength != 0)
+                                {
+                                    if (tempHitInfo.dst < lightHitInfo.dst)
+                                    {
+                                        lightHitInfo = tempHitInfo;
+                                    }
+                                }
+
+                                specularDir = lightHitInfo.hitPoint - ray.origin;
+                            }
+                        }
+                        
                         bool isSpecularBounce = material.specularProbability >= RandomValue(rngState);
                         ray.dir = lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce);
                         
                         float3 emittedLight = material.emissionColor * material.emissionStrength;
                         incomingLight += emittedLight * rayColor;
                         rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
-                        if (distance(rayColor, float3(0, 0, 0)) <= 0.001) break;
+                        if (distance(rayColor, float3(0, 0, 0)) <= BlackRayTolerance) break;
+                        if (material.emissionStrength > 0) break;
                     }
                     else
                     {
@@ -295,7 +316,7 @@
                 uint2 numPixels = _ScreenParams.xy;
                 uint2 pixelCoord = i.texcoord * numPixels;
                 const uint pixelIndex = pixelCoord.y * numPixels.x + pixelCoord.x;
-                uint rngState = pixelIndex + NumRenderedFrames * 719393 - NumRenderedFrames * 684;
+                uint rngState = pixelIndex + NumRenderedFrames * 719393 - NumRenderedFrames * 6814;
                 
                 float3 viewPointLocal = float3(i.texcoord - 0.5, 1) * ViewParams;
                 const float3 viewPoint = mul(CamLocalToWorldMatrix, float4(viewPointLocal, 1));

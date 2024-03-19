@@ -1,18 +1,6 @@
 
-)Shapes.DisposableMesh.ActiveMeshCount.getå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DisposableMesh.cs (#"0*
-0 (*
-1*t
-1' (6`
-^
-' (6
-%retint"__id*?
-' (63*1
-Shapes.DisposableMesh"
-activeMeshCountint*
-2*(
-27 (7"
-6 (7
-
-%retintB"
-Shapes.DisposableMeshX
+Shapes.StyleStack.StyleStack()á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\StyleStack.cs	 	(""0*
+0"
+implicit returnB
+Shapes.StyleStackX

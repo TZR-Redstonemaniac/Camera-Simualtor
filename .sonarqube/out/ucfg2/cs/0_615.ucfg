@@ -1,21 +1,38 @@
 
-Shapes.Cuboid.SizeSpace.get
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs ("0*
-0 (*
-1*ä
-1
- (v
-t
-
- (
-%retShapes.ThicknessSpace"__id*C
-
- (7*5
-Shapes.Cuboid""
-	sizeSpaceShapes.ThicknessSpace*
-2*:
-2 ("+
- (
-
-%retShapes.ThicknessSpaceB
-Shapes.CuboidX
+Shapes.Draw.DashSpacing.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs® ®("0*
+0
+® ®(*
+1*æ
+1
+®! ®(8\
+Z
+
+®! ®(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+®! ®(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyle_
+]
+
+®! ®(8
+%retfloat"__id*:
+
+®! ®(8,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+2*.
+2
+®9 ®(9"
+
+®8 ®(9
+
+%retfloatB"
+Shapes.DrawX

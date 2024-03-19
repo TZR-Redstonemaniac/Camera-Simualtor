@@ -1,27 +1,21 @@
 
-+Shapes.Rectangle.MatchDashSpacingToSize.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs“ “("0*
-0
-“ “(*
-1*~
-1
-“
- “( h
-f
-
-“
- “( 
-%retbool"__id*D
-
-“
- “( 6*4
-Shapes.Rectangle"
+&Shapes.Disc.MatchDashSpacingToSize.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
+0 (*
+1*s
+1
+ ( _
+]
+
+ ( 
+%retbool"__id*=
+
+ ( 1*/
+Shapes.Disc"
 matchDashSpacingToSizebool*
-2*-
-2
-“! “(!"
-
-“  “(!
+2*)
+2! (!"
+  (!
 
-%retboolB
-Shapes.RectangleX
+%retboolB
+Shapes.DiscX

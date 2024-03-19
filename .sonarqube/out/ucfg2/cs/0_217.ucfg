@@ -1,6 +1,22 @@
 
- Shapes.RenderState.RenderState()„
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RenderState.cs ("0*
-0"
-implicit returnB
-Shapes.RenderStateX
+!Shapes.IMDrawer.IMDrawer()!static…
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\IMDrawer.cs
+ 
+("0*œ
+0|z
+6 (Z9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>Ó
+Ð
+6 (Z9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*G
+6 (Z;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>«
+¨
+4 (ZW
+Shapes.IMDrawer"B
+matKeywords3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"
+implicit returnB"
+Shapes.IMDrawerX

@@ -1,42 +1,17 @@
 
-?Shapes.DiscColors.Angular(UnityEngine.Color, UnityEngine.Color)‡
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs+ +(""0*
-0+ +(*
-1*€
-1+@ +(h86
-+@ +(h
-%0Shapes.DiscColors"Shapes.DiscColorsÛ
-Ø
-+@ +(h
-%1Shapes.DiscColors"hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)*%
-+@ +(h
-
-%0Shapes.DiscColors*(
-+P +(U
-
-startUnityEngine.Color*(
-+W +(\
-
-startUnityEngine.Color*&
-+^ +(a
-
-endUnityEngine.Color*&
-+c +(f
-
-endUnityEngine.ColorT
-R
-+@ +(h
-%retShapes.DiscColors"__id*%
-+@ +(h
-
-%0Shapes.DiscColors*
-2*6
-2+i +(i"'
-+h +(i
-
-%retShapes.DiscColors:&
-+$ +(/
-startUnityEngine.Color:$
-+1 +(:
-endUnityEngine.ColorB"
-Shapes.DiscColors
+Shapes.ShapeGroup.IsEnabled.getƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs ("0*û
+0  ( Ò
+Ï
+ƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs (
+%retbool"__id*²
+ƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs (**(
+Shapes.ShapeGroup"
+	IsEnabledbool"–
+ƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs (
+
+%retboolB
+Shapes.ShapeGroupX

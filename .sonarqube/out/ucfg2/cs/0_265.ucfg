@@ -1,27 +1,27 @@
 
-Shapes.Polygon.Fill.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csà à("0*
+*Shapes.Triangle.MatchDashSpacingToSize.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csﬁ ﬁ("0*
 0
-à à(*
-1*à
+ﬁ ﬁ(*
+1*}
 1
-à
- à(r
-p
+ﬁ
+ ﬁ( g
+e
 
-à
- à(
-%retShapes.GradientFill"__id*?
+ﬁ
+ ﬁ( 
+%retbool"__id*C
 
-à
- à(1*/
-Shapes.Polygon"
-fillShapes.GradientFill*
-2*<
+ﬁ
+ ﬁ( 5*3
+Shapes.Triangle"
+matchDashSpacingToSizebool*
+2*-
 2
-à à("+
+ﬁ! ﬁ(!"
 
-à à(
-
-%retShapes.GradientFillB
-Shapes.Polygon
+ﬁ  ﬁ(!
+
+%retboolB
+Shapes.TriangleX

@@ -1,33 +1,33 @@
 
-Shapes.Polyline.Thickness.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csC C("0*
-0C C(*
-1*…
-1C
- C(MO
-M
-C: C(K'
-Shapes.Polyline"
-	thicknessfloat"__id*
-
-valuefloat„
-‡
-C
- C(M
+"Shapes.Draw.RingThicknessSpace.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
+0
+Ú Ú(*
+1*Ô
+1
+Ú
+ Ú(&\
+Z
 
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-C
- C(
-Shapes.Polyline*B
-C C(86*4
-Shapes.ShapesMaterialUtils"
-propThicknessint*5
-C: C(K)*'
-Shapes.Polyline"
-	thicknessfloat*
-2*.
-2CN C(N"
-CM C(N
-implicit return:
-valuefloatB
-Shapes.PolylineX
+Ú
+ Ú(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle{
+y
+
+Ú
+ Ú(&A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
+2*2
+2
+Ú' Ú('"!
+
+Ú& Ú('
+implicit return: 
+valueShapes.ThicknessSpaceB"
+Shapes.DrawX

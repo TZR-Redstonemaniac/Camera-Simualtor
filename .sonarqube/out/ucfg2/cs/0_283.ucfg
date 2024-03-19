@@ -1,27 +1,27 @@
 
- Shapes.RegularPolygon.Dashed.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs‡ ‡("0*
+Shapes.Polygon.UseFill.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csè è("0*
 0
-‡ ‡(*
-1*s
+è è(*
+1*m
 1
-‡
- ‡(]
-[
+è
+ è(W
+U
 
-‡
- ‡(
-%retbool"__id*9
+è
+ è(
+%retbool"__id*3
 
-‡
- ‡(+*)
-Shapes.RegularPolygon"
-dashedbool*
+è
+ è(%*#
+Shapes.Polygon"
+useFillbool*
 2*-
 2
-‡ ‡("
+è è("
 
-‡ ‡(
+è è(
 
-%retboolB
-Shapes.RegularPolygonX
+%retboolB
+Shapes.PolygonX

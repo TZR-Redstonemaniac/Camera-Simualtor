@@ -1,18 +1,35 @@
 
-/Shapes.MpbRect.Shapes.IDashableMpb.dashType.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()"0*ç
+Shapes.Draw.SphereRadius.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs≠ ≠("0*
 0
-—* —(*∂
-≥
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —().
-%ret&System.Collections.Generic.List<float>"__id*Í
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()X*V
-Shapes.MpbRect"B
-Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRect
+≠ ≠(*
+1*“
+1
+≠
+ ≠(\
+Z
+
+≠
+ ≠(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle^
+\
+
+≠
+ ≠(
+%retfloat"__id*9
+
+≠
+ ≠(+*)
+
+%0Shapes.DrawStyle"
+radiusfloat*
+2*.
+2
+≠ ≠("
+
+≠ ≠(
+
+%retfloatB"
+Shapes.DrawX

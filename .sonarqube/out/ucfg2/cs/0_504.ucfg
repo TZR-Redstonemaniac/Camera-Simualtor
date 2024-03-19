@@ -1,31 +1,28 @@
 
-Shapes.Draw.ScaleMode.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
-0
-ç ç(*
-1*Î
-1
-ç! ç(0\
-Z
-
-ç! ç(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylew
-u
-
-ç! ç(0
-%retShapes.ScaleMode"__id*G
-
-ç! ç(09*7
+Shapes.Disc.DashType.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs; ;("0*
+0; ;(*
+1*‡
+1;
+ ;(^
+\
+;
+ ;(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStylel
+j
+;
+ ;(
+%retShapes.DashType"__id*?
+;
+ ;(3*1
 
-%0Shapes.DrawStyle"
-	scaleModeShapes.ScaleMode*
-2*9
-2
-ç1 ç(1"(
-
-ç0 ç(1
-
-%retShapes.ScaleModeB"
-Shapes.DrawX
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*4
+2; ;("%
+; ;(
+
+%retShapes.DashTypeB
+Shapes.DiscX

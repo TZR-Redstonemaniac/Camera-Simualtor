@@ -1,0 +1,12 @@
+
+>csharpsquid:S3240"Use the '??=' operator here.(¾öæıÿÿÿÿ
+Ocsharpsquid:S3903"-Move 'RayTracingMesh' into a named namespace.(“Ëùÿÿÿÿ
+kcsharpsquid:S3956
+"IRefactor this field to use a generic collection designed for inheritance.(ˆû¢ùıÿÿÿÿ
+5csharpsquid:S2357"Make 'material' private.(Ğ¦ß
+;csharpsquid:S2357
+"Make 'triangles' private.(ˆû¢ùıÿÿÿÿ
+ˆcsharpsquid:S3887
+"fUse an immutable collection or reduce the accessibility of the non-private readonly field 'triangles'.(ˆû¢ùıÿÿÿÿ
+ucsharpsquid:S1450"SRemove the field 'mesh' and declare it as a local variable in the relevant methods.(éØ‚éşÿÿÿÿ
+[csharpsquid:S113I":Add a new line at the end of the file 'RayTracingMesh.cs'.(æÀö€øÿÿÿÿ

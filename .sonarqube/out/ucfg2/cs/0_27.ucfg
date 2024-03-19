@@ -1,22 +1,38 @@
 
-3Shapes.GradientFillStack.GradientFillStack()!staticè
-ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs
- 
-()"0*Æ
+&Shapes.ShapesTextPool.ShapesTextPool()Ç
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.cs (,"0*î
 0\Z
-: ([)
+' (?)
 %0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>û
 õ
-: ([)
+' (?)
 %1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
-: ([+
+' (?+
 )
-%0#System.Collections.Generic.Stack<T>í
-è
-8 ([N
-Shapes.GradientFillStack"0
-	gradients#System.Collections.Generic.Stack<T>"__id*-+
+%0#System.Collections.Generic.Stack<T>ï
+í
+% (?Q
+Shapes.ShapesTextPool"6
+elementsPassive#System.Collections.Generic.Stack<T>"__id*-+
 )
-%0#System.Collections.Generic.Stack<T>"
-implicit returnB"
-Shapes.GradientFillStackX
+%0#System.Collections.Generic.Stack<T>|z
+0 (R9
+%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>”
+–
+0 (R9
+%33System.Collections.Generic.Dictionary<TKey, TValue>"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*G
+0 (R;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>¥
+±
+. (R`
+Shapes.ShapesTextPool"E
+elementsActive3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>V
+T
+
+%4void")UnityEngine.MonoBehaviour.MonoBehaviour()*
+Shapes.ShapesTextPool"
+implicit returnB
+Shapes.ShapesTextPoolX

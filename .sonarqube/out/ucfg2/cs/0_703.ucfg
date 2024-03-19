@@ -1,16 +1,27 @@
 
-:Shapes.MpbLine2D.Shapes.IDashableMpb.dashShapeModifier.set‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2"0*á
-0X3 X(3«
-¨
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2a
-Shapes.MpbLine2D"K
-%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine2D
+Shapes.Triangle.Color.getƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs™ ™("0*
+0
+™ ™(*
+1*†
+1
+™
+ ™(p
+n
+
+™
+ ™(
+%retUnityEngine.Color"__id*?
+
+™
+ ™(1*/
+Shapes.Triangle"
+colorUnityEngine.Color*
+2*:
+2
+™ ™(")
+
+™ ™(
+
+%retUnityEngine.ColorB
+Shapes.Triangle

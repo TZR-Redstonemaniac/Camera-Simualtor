@@ -1,35 +1,30 @@
 
-QShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector2, UnityEngine.Color, float)Ü
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylinePoint.csO	 O("0*
-0O O(*
-1*ƒ
-1P R(l
-j
-P P(6
-Shapes.PolylinePoint"
-pointUnityEngine.Vector3"__id* 
-
-pointUnityEngine.Vector2h
-f
-Q Q(4
-Shapes.PolylinePoint"
-colorUnityEngine.Color"__id*
-
-colorUnityEngine.ColorX
-V
-R R(,
-Shapes.PolylinePoint"
-	thicknessfloat"__id*
-
-	thicknessfloat*
+Shapes.Draw.ZTest.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csF F("0*
+0F F(*
+1*Û
+1F! F(@Z
+X
+F! F(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+F! F(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateì
+ê
+F! F(@J
+
+%1Shapes.RenderState".
+zTest%UnityEngine.Rendering.CompareFunction"__id*20
+.
+value%UnityEngine.Rendering.CompareFunction*
 2*.
-2S S("
-S S(
-implicit return:(
-O O(%
-pointUnityEngine.Vector2:&
-O' O(2
-colorUnityEngine.Color:
-O4 O(C
-	thicknessfloatB
-Shapes.PolylinePointX
+2FA F(A"
+F@ F(A
+implicit return:0.
+value%UnityEngine.Rendering.CompareFunctionB"
+Shapes.DrawX

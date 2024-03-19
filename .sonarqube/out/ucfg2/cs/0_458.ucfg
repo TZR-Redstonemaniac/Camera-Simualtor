@@ -1,33 +1,27 @@
 
-Shapes.Line.ThicknessSpace.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs[ [("0*
-0[ [(*
-1*¯
-1[
- [(^p
-n
-[D [(Z8
-Shapes.Line"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÒ
-Ó
-[
- [(^
+Shapes.Rectangle.UseFill.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csï ï("0*
+0
+ï ï(*
+1*o
+1
+ï
+ ï(Y
+W
 
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-[
- [(
-Shapes.Line*G
-[ [(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*F
-[= [(\:*8
-Shapes.Line"'
-thicknessSpaceShapes.ThicknessSpace*
-2*.
-2[_ [(_"
-[^ [(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.LineX
+ï
+ ï(
+%retbool"__id*5
+
+ï
+ ï('*%
+Shapes.Rectangle"
+useFillbool*
+2*-
+2
+ï ï("
+
+ï ï(
+
+%retboolB
+Shapes.RectangleX

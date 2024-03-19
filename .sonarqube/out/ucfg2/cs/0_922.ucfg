@@ -1,76 +1,18 @@
 
-*Shapes.GradientFill.GetShaderStartVector()Ö
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.csT T('"0*
-0T T(*
-1*
-1U U(&*
-2
-3*é
-2U0 U(;z
-x
-U0 U(;
-%retUnityEngine.Vector4"__id*I
-U0 U(;=*;
-Shapes.GradientFill""
-linearStartUnityEngine.Vector3*
-4*Ì
-3V
- V(Uo
-m
-V V(#
-%0UnityEngine.Vector3"__id*@>*<
-Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3o
-m
-V' V(3
-%1UnityEngine.Vector3"__id*@>*<
-Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3o
-m
-V7 V(C
-%2UnityEngine.Vector3"__id*@>*<
-Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3<:
-V
- V(U
-%3UnityEngine.Vector4"UnityEngine.Vector4Ì
-Í
-V
- V(U
-%4UnityEngine.Vector4"7UnityEngine.Vector4.Vector4(float, float, float, float)*'
-V
- V(U
-
-%3UnityEngine.Vector4*5
-V V(%)*'
-
-%0UnityEngine.Vector3"
-
-xfloat*5
-V' V(5)*'
-
-%1UnityEngine.Vector3"
-
-yfloat*5
-V7 V(E)*'
-
-%2UnityEngine.Vector3"
-
-zfloat*<
-VG V(S0*.
-Shapes.GradientFill"
-radialRadiusfloatX
-V
-V
- V(U
-%retUnityEngine.Vector4"__id*'
-V
- V(U
-
-%3UnityEngine.Vector4*
-4*8
-4W W(")
-W W(
-
-%retUnityEngine.Vector4B
-Shapes.GradientFill
+3Shapes.MpbPolygon.Shapes.IFillableMpb.fillSpace.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*"0*ë
+0
+ç+ ç(+∫
+∑
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*.
+%ret&System.Collections.Generic.List<float>"__id*Ó
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*\*Z
+Shapes.MpbPolygon"C
+Shapes.IFillableMpb.fillSpace"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csç' ç(*0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbPolygon

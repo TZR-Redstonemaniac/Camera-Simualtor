@@ -1,24 +1,27 @@
 
-Shapes.Disc.ColorMode.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs0 0("0*
-00 0(*
-1*Ê
-11 2(s
-q
-1 1(7
-Shapes.Disc"&
-	colorModeShapes.Disc.DiscColorMode"__id*&$
-"
-valueShapes.Disc.DiscColorMode]
-[
-2 2(
+!Shapes.RegularPolygon.UseFill.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csõ õ("0*
+0
+õ õ(*
+1*t
+1
+õ
+ õ(^
+\
 
-%0void"&Shapes.ShapeRenderer.ApplyProperties()*
-2 2(
-Shapes.Disc*
-2*.
-23 3("
-3 3(
-implicit return:$"
-valueShapes.Disc.DiscColorModeB
-Shapes.DiscX
+õ
+ õ(
+%retbool"__id*:
+
+õ
+ õ(,**
+Shapes.RegularPolygon"
+useFillbool*
+2*-
+2
+õ õ("
+
+õ õ(
+
+%retboolB
+Shapes.RegularPolygonX

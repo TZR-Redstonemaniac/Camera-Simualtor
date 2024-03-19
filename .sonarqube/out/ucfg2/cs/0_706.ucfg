@@ -1,27 +1,24 @@
 
-Shapes.Disc.Radius.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs“ “("0*
-0
-“ “(*
-1*k
-1
-“
- “(U
-S
+Shapes.ShapeGroup.Color.setƒ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs% %("0*
+0% %(*
+1*Ý
+1& '(e
+c
+& &(1
+Shapes.ShapeGroup"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.Colorb
+`
+' '(
 
-“
- “(
-%retfloat"__id*0
-
-“
- “("* 
-Shapes.Disc"
-radiusfloat*
+%0void"%Shapes.ShapeGroup.UpdateChildShapes()*!
+' '(
+Shapes.ShapeGroup*
 2*.
-2
-“ “("
-
-“ “(
-
-%retfloatB
-Shapes.DiscX
+2( (("
+( ((
+implicit return:
+valueUnityEngine.ColorB
+Shapes.ShapeGroupX

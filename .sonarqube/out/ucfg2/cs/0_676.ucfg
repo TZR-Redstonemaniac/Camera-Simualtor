@@ -1,27 +1,42 @@
 
-Shapes.Triangle.ColorB.getÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs® ®("0*
+"Shapes.Triangle.ThicknessSpace.setÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csé é("0*
 0
-® ®(*
-1*á
+é é(*
+1*ê
 1
-®
- ®(q
-o
+é
+ é(^v
+t
 
-®
- ®(
-%retUnityEngine.Color"__id*@
+éD é(Z<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpaceÅ
+˛
 
-®
- ®(2*0
-Shapes.Triangle"
-colorBUnityEngine.Color*
-2*:
+é
+ é(^
+
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*!
+
+é
+ é(
+Shapes.Triangle*I
+
+é é(;;*9
+Shapes.ShapesMaterialUtils"
+propThicknessSpaceint*L
+
+é= é(\>*<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*2
 2
-® ®(")
+é_ é(_"!
 
-® ®(
-
-%retUnityEngine.ColorB
-Shapes.Triangle
+é^ é(_
+implicit return: 
+valueShapes.ThicknessSpaceB
+Shapes.TriangleX

@@ -1,18 +1,35 @@
 
-=Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillColorEnd.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/"0*∑
+'Shapes.Draw.RectangleThicknessSpace.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csõ õ("0*
 0
-Î0 Î(0“
-œ
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*¯
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/f*d
-Shapes.MpbRegularPolygon"F
- Shapes.IFillableMpb.fillColorEnd"System.Collections.Generic.List<T>"–
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/>
-<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
-Shapes.MpbRegularPolygon
+õ õ(*
+1*¸
+1
+õ
+ õ(\
+Z
+
+õ
+ õ(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleá
+Ñ
+
+õ
+ õ(
+%retShapes.ThicknessSpace"__id*Q
+
+õ
+ õ(C*A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
+2
+õ õ("-
+
+õ õ(
+
+%retShapes.ThicknessSpaceB"
+Shapes.DrawX

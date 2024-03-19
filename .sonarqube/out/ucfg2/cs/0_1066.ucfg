@@ -1,47 +1,70 @@
 
-KShapes.PolylinePath.AddPoint(UnityEngine.Vector2, float, UnityEngine.Color)â
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolylinePath.cs6% 6(-"0*
-06 6(*
-1*á
-1	6^ 6(î?=
-	6h 6(í
-%0Shapes.PolylinePoint"Shapes.PolylinePoint¢
-ü
-	6h 6(í
-%1Shapes.PolylinePoint"QShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector2, UnityEngine.Color, float)*)
-	6h 6(í
-
-%0Shapes.PolylinePoint*(
-6{ 6(~
-
-posUnityEngine.Vector2**
+_Shapes.ShapesExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.cs ("0*
+0 (*
+1*‚
+1 (Ã…
+ (/
+%0)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*@
+ (4
+2
+elems)System.Collections.Generic.IEnumerable<T>2GetEnumerator()
+}
+ (6
+	%capture0)System.Collections.Generic.IEnumerator<T>"__id*31
+/
+%0)System.Collections.Generic.IEnumerator<T>*
+2*Æ
+2 (ñì
+ (
 
-6Ä 6(Ö
+%1bool")System.Collections.IEnumerator.MoveNext()*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2
+MoveNext()*
+3
+4*ﬂ
+3 (†ù
+ (
+%2T"5System.Collections.Generic.IEnumerator<T>.Current.get*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2Current.get'
+%
+ (
+eT"__id*	
+
+%2T}
+ (
+
+%3void"System.Action<T>.Invoke(T)*(
+ (
+
 
-colorUnityEngine.Color*"
+actionSystem.Action<T>*
+ (
+
+eT2	Invoke(T)*
+2*
+4 (*
+5
+6*ù
+5 (àÖ
+ (
 
-6á 6(ê
-
-	thicknessfloatã
-à
-	6^ 6(î
-
-%2void"Shapes.PointPath<T>.AddPoint(T)*#
-6^ 6(f
-Shapes.PolylinePath*)
-	6h 6(í
-
-%0Shapes.PolylinePoint*
-2*2
-2
-6ï 6(ï"!
-
-6î 6(ï
-implicit return:&
-6/ 6(:
-posUnityEngine.Vector2:
-6< 6(K
-	thicknessfloat:&
-6M 6(X
-colorUnityEngine.ColorB
-Shapes.PolylinePathX
+%4void"System.IDisposable.Dispose()*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2	Dispose()*
+6*
+6 (*
+7*.
+7 ("
+ (
+implicit return:>
+! (:2
+elems)System.Collections.Generic.IEnumerable<T>:&
+< (L
+actionSystem.Action<T>B"
+Shapes.ShapesExtensionsX

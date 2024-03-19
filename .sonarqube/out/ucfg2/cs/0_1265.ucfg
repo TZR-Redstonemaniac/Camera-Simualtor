@@ -1,43 +1,18 @@
 
--Shapes.ShapeRenderer.HideMeshFilterRenderer()à
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csÕ Õ(&"0*
+8Shapes.MpbRect.Shapes.IDashableMpb.dashShapeModifier.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÃ/ Ã(2"0*ñ
 0
-Õ Õ(*
-1*Ñ
-1
-Œ —(k
-i
-
-Œ Œ(
-
-%0void"'Shapes.ShapeRenderer.VerifyComponents()*&
-
-Œ Œ(
-Shapes.ShapeRenderer<
-:
-
-œ œ(4
-flagsUnityEngine.HideFlags"__id*2°
-û
-
-– –(
-%1UnityEngine.HideFlags" UnityEngine.Object.hideFlags.set*I
-
-– –(;*9
-Shapes.ShapeRenderer"
-rndUnityEngine.MeshRenderer*2û
-õ
-
-— —(
-%2UnityEngine.HideFlags" UnityEngine.Object.hideFlags.set*F
-
-— —(8*6
-Shapes.ShapeRenderer"
-mfUnityEngine.MeshFilter*2*
-2*2
-2
-“ “("!
-
-“ “(
-implicit returnB
-Shapes.ShapeRendererX
+Ã3 Ã(3ø
+º
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÃ/ Ã(2.
+%ret&System.Collections.Generic.List<float>"__id*Û
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÃ/ Ã(2a*_
+Shapes.MpbRect"K
+%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÃ/ Ã(20
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRect

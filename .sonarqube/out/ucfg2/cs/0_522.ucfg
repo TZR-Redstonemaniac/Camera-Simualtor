@@ -1,33 +1,38 @@
 
-Shapes.Disc.ColorOuterStart.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csH H("0*
-0H H(*
-1*ÿ
-1H
- H(Yi
-g
-H@ H(W5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color"__id*
-
-valueUnityEngine.Colorÿ
-ü
-H
- H(Y
+!Shapes.Draw.GradientFillSpace.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÍ Í("0*
+0
+Í Í(*
+1*Þ
+1
+Í! Í(9\
+Z
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-H
- H(
-Shapes.Disc*H
-H H(><*:
-Shapes.ShapesMaterialUtils"
-propColorOuterStartint*C
-H@ H(W7*5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color*
-2*.
-2HZ H(Z"
-HY H(Z
-implicit return:
-valueUnityEngine.ColorB
-Shapes.DiscX
+Í! Í(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Í! Í(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillv
+t
+
+Í! Í(9
+%retShapes.FillSpace"__id*F
+
+Í! Í(98*6
+
+%1Shapes.GradientFill"
+spaceShapes.FillSpace*
+2*9
+2
+Í: Í(:"(
+
+Í9 Í(:
+
+%retShapes.FillSpaceB"
+Shapes.DrawX

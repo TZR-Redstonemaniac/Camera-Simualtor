@@ -1,35 +1,35 @@
 
-&Shapes.Rectangle.DashShapeModifier.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÜ Ü("0*
+Shapes.Triangle.DashSnap.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csä ä("0*
 0
-Ü Ü(*
-1*‚
+ä ä(*
+1*Ù
 1
-Ü
- Ü(!e
-c
+ä
+ ä(d
+b
 
-Ü
- Ü(
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStylee
-c
+ä
+ ä(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStylex
+v
 
-Ü
- Ü(!
-%retfloat"__id*@
+ä
+ ä(
+%retShapes.DashSnapping"__id*E
 
-Ü
- Ü(!2*0
+ä
+ ä(7*5
 
-%0Shapes.DashStyle"
-shapeModifierfloat*
-2*.
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*<
 2
-Ü" Ü(""
+ä ä("+
 
-Ü! Ü("
-
-%retfloatB
-Shapes.RectangleX
+ä ä(
+
+%retShapes.DashSnappingB
+Shapes.TriangleX

@@ -1,35 +1,30 @@
 
-"Shapes.RegularPolygon.DashType.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csà à("0*
-0
-à à(*
-1*Ú
-1
-à
- à(j
-h
-
-à
- à(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStylep
-n
-
-à
- à(
-%retShapes.DashType"__id*A
-
-à
- à(3*1
+Shapes.Draw.StencilComp.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csZ Z("0*
+0Z Z(*
+1*˘
+1Z! Z(FZ
+X
+Z! Z(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+Z! Z(2
+%1Shapes.RenderState"__id*?=*;
 
-%0Shapes.DashStyle"
-typeShapes.DashType*
-2*8
-2
-à à("'
-
-à à(
-
-%retShapes.DashTypeB
-Shapes.RegularPolygonX
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateô
+ñ
+Z! Z(FP
+
+%1Shapes.RenderState"4
+stencilComp%UnityEngine.Rendering.CompareFunction"__id*20
+.
+value%UnityEngine.Rendering.CompareFunction*
+2*.
+2ZG Z(G"
+ZF Z(G
+implicit return:0.
+value%UnityEngine.Rendering.CompareFunctionB"
+Shapes.DrawX

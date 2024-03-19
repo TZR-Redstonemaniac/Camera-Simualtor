@@ -1,35 +1,35 @@
 
- Shapes.Polygon.FillLinearEnd.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¶ ¶("0*
+Shapes.Triangle.DashOffset.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÿ ÿ("0*
 0
-¶ ¶(*
-1*ı
+ÿ ÿ(*
+1*Ú
 1
-¶
- ¶(d
+ÿ
+ ÿ(d
 b
 
-¶
- ¶(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFill€
-~
+ÿ
+ ÿ(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyle^
+\
 
-¶
- ¶(
-%retUnityEngine.Vector3"__id*M
+ÿ
+ ÿ(
+%retfloat"__id*9
 
-¶
- ¶(?*=
-
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3*
-2*<
+ÿ
+ ÿ(+*)
+
+%0Shapes.DashStyle"
+offsetfloat*
+2*.
 2
-¶ ¶("+
+ÿ ÿ("
 
-¶ ¶(
-
-%retUnityEngine.Vector3B
-Shapes.Polygon
+ÿ ÿ(
+
+%retfloatB
+Shapes.TriangleX

@@ -1,24 +1,30 @@
 
-Shapes.Triangle.ColorMode.set
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csa a("0*
-0a a(*
-1*€
-1b c(ˆ
-…
-b b(C
-Shapes.Triangle".
-	colorMode!Shapes.Triangle.TriangleColorMode"__id*.,
-*
-value!Shapes.Triangle.TriangleColorModea
-_
-c c(
+Shapes.Draw.UseDashes.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
+0
+ü ü(*
+1*È
+1
+ü! ü(8\
+Z
 
-%0void"&Shapes.ShapeRenderer.ApplyProperties()*
-c c(
-Shapes.Triangle*
-2*.
-2d d("
-d d(
-implicit return:,*
-value!Shapes.Triangle.TriangleColorModeB
-Shapes.TriangleX
+ü! ü(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleT
+R
+
+ü! ü(8+
+
+%0Shapes.DrawStyle"
+	useDashesbool"__id*
+
+valuebool*
+2*2
+2
+ü9 ü(9"!
+
+ü8 ü(9
+implicit return:
+valueboolB"
+Shapes.DrawX

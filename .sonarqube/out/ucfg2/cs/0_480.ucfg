@@ -1,35 +1,35 @@
 
-%Shapes.Rectangle.FillRadialRadius.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÆ Æ("0*
+#Shapes.RegularPolygon.FillSpace.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs© ©("0*
 0
-Æ Æ(*
-1*Â
+© ©(*
+1*˘
 1
-Æ
- Æ(f
-d
+©
+ ©(k
+i
 
-Æ
- Æ(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillg
-e
+©
+ ©(
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillv
+t
 
-Æ
- Æ(
-%retfloat"__id*B
+©
+ ©(
+%retShapes.FillSpace"__id*F
 
-Æ
- Æ(4*2
+©
+ ©(8*6
 
-%0Shapes.GradientFill"
-radialRadiusfloat*
-2*.
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
+2*9
 2
-Æ Æ("
+© ©("(
 
-Æ Æ(
-
-%retfloatB
-Shapes.RectangleX
+© ©(
+
+%retShapes.FillSpaceB
+Shapes.RegularPolygonX

@@ -1,27 +1,18 @@
 
-%Shapes.DashStyle.DefaultDashStyle.get„
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs„ „("0*
+<Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSpacing.get
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,"0*š
 0
-„ „(*
-1*
-1
-„
- „(z
-x
-
-„
- „(
-%retShapes.DashStyle"__id*J
-
-„
- „(<*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStyle*
-2*9
-2
-„ „("(
-
-„ „(
-
-%retShapes.DashStyleB"
-Shapes.DashStyle
+÷- ÷(-Ã
+À
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,.
+%ret&System.Collections.Generic.List<float>"__id*÷
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,e*c
+Shapes.MpbRegularPolygon"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"Â
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRegularPolygon

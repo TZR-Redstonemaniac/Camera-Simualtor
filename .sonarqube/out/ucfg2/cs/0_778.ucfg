@@ -1,79 +1,24 @@
 
-.Shapes.MpbPolyline2D.TransferShapeProperties()ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csú ú(1"0*
-0
-ú ú(*
-1*“	
-1
-ù †(F™
-ß
+Shapes.ObjectPool<T>.Free(T)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs ("0*
+0 (*
+1*Œ
+1& (6π
+∂
+& (6
 
-ù ù(;
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*S
+& (*G*E
+Shapes.ObjectPool<T>"+
+pool#System.Collections.Generic.Stack<T>*
+1 (4
 
-%0void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*&
-
-ù ù(
-Shapes.MpbPolyline2D*D
-
-ù ù(.6*4
-Shapes.ShapesMaterialUtils"
-propAlignmentint*Y
-
-ù0 ù(9K*I
-Shapes.MpbPolyline2D"/
-	alignment"System.Collections.Generic.List<T>™
-ß
-
-û û(;
-
-%1void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*&
-
-û û(
-Shapes.MpbPolyline2D*D
-
-û û(.6*4
-Shapes.ShapesMaterialUtils"
-propScaleModeint*Y
-
-û0 û(9K*I
-Shapes.MpbPolyline2D"/
-	scaleMode"System.Collections.Generic.List<T>™
-ß
-
-ü ü(;
-
-%2void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*&
-
-ü ü(
-Shapes.MpbPolyline2D*D
-
-ü ü(.6*4
-Shapes.ShapesMaterialUtils"
-propThicknessint*Y
-
-ü0 ü(9K*I
-Shapes.MpbPolyline2D"/
-	thickness"System.Collections.Generic.List<T>¥
-±
-
-† †(E
-
-%3void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*&
-
-† †(
-Shapes.MpbPolyline2D*I
-
-† †(3;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*^
-
-†5 †(CP*N
-Shapes.MpbPolyline2D"4
-thicknessSpace"System.Collections.Generic.List<T>*
-2*2
-2
-° °("!
-
-° °(
-implicit returnB
-Shapes.MpbPolyline2DX
+
+objT*
+2*.
+27 (7"
+6 (7
+implicit return:
+ ( 
+objTB"
+Shapes.ObjectPool<T>X

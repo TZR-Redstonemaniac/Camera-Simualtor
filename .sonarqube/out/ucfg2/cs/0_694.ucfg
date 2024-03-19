@@ -1,37 +1,21 @@
 
-'Shapes.Draw.GradientFillLinearStart.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‡ ‡("0*
-0
-‡ ‡(*
-1*ﬂ
-1
-‡! ‡(G\
-Z
-
-‡! ‡(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
-
-‡! ‡(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillw
-u
-
-‡! ‡(G?
+Shapes.ShapeGroup.Color.getÉ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs$ $("0*
+0$ $(*
+1*Ç
+1$
+ $(n
+l
+$
+ $(
+%retUnityEngine.Color"__id*?
+$
+ $(3*1
+Shapes.ShapeGroup"
+colorUnityEngine.Color*
+2*6
+2$ $("'
+$ $(
 
-%1Shapes.GradientFill""
-linearStartUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3*
-2*2
-2
-‡H ‡(H"!
-
-‡G ‡(H
-implicit return:
-valueUnityEngine.Vector3B"
-Shapes.DrawX
+%retUnityEngine.ColorB
+Shapes.ShapeGroup

@@ -1,18 +1,25 @@
 
-:Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSpace.get
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*"0*˜
-0
-ö+ ö(+Á
-¾
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*.
-%ret&System.Collections.Generic.List<float>"__id*õ
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*c*a
-Shapes.MpbRegularPolygon"C
-Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"Â
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRegularPolygon
+EShapes.GradientFillStack.GradientFillStack(bool, Shapes.GradientFill)
+„C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs ("0*
+0 (*
+1*Ú
+1B (dÅ
+Â
+B (d
+
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*\
+B (KP*N
+Shapes.GradientFillStack"0
+	gradients#System.Collections.Generic.Stack<T>*
+R (b
+	{unknown}*
+2*.
+2e (e"
+d (e
+implicit return:
+ (%
+
+onbool:+
+' (<
+gradientShapes.GradientFillB
+Shapes.GradientFillStackX

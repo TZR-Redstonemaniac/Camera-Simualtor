@@ -1,48 +1,40 @@
 
-*Shapes.MpbSphere.TransferShapeProperties()ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csé é(1"0*
-0
-é é(*
-1*‹
-1
-è ê(@ú
-ô
+Shapes.Line.DashOffset.setõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csk k("0*
+0k k(*
+1*™
+1k
+ k(U^
+\
+k; k(D
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleQ
+O
+k; k(S)
+
+%0Shapes.DashStyle"
+offsetfloat"__id*
+
+valuefloat‚
+ﬂ
+k
+ k(U
 
-è è(5
-
-%0void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*"
-
-è è(
-Shapes.MpbSphere*A
-
-è è(+3*1
-Shapes.ShapesMaterialUtils"
-
-propRadiusint*R
-
-è- è(3D*B
-Shapes.MpbSphere",
-radius"System.Collections.Generic.List<T>¶
-£
-
-ê ê(?
-
-%1void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*"
-
-ê ê(
-Shapes.MpbSphere*F
-
-ê ê(08*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*W
-
-ê2 ê(=I*G
-Shapes.MpbSphere"1
-radiusSpace"System.Collections.Generic.List<T>*
-2*2
-2
-ë ë("!
-
-ë ë(
-implicit returnB
-Shapes.MpbSphereX
+%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+k
+ k(
+Shapes.Line*C
+k k(97*5
+Shapes.ShapesMaterialUtils"
+propDashOffsetint*7
+k; k(S+*)
+
+%0Shapes.DashStyle"
+offsetfloat*
+2*.
+2kV k(V"
+kU k(V
+implicit return:
+valuefloatB
+Shapes.LineX

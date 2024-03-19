@@ -1,17 +1,23 @@
 
-Shapes.Draw.ResetStyle()å
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs, (6"0*
-0 (*
-1*â
-1< (Vu
-s
-< (V*
-Shapes.Draw"
-styleShapes.DrawStyle"__id*53*1
-Shapes.DrawStyle"
-defaultShapes.DrawStyle*
+)Shapes.ColorStack.Push(UnityEngine.Color)á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
+0 (*
+1*„
+12 (JŒ
+À
+2 (J
+
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
+2 (8F*D
+Shapes.ColorStack"-
+colors#System.Collections.Generic.Stack<T>*,
+? (H 
+
+	prevStateUnityEngine.Color*
 2*.
-2W (W"
-V (W
-implicit returnB"
-Shapes.DrawX
+2K (K"
+J (K
+implicit return:*
+ (,
+	prevStateUnityEngine.ColorB"
+Shapes.ColorStackX

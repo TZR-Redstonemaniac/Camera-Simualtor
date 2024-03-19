@@ -1,53 +1,35 @@
 
-%Shapes.RegularPolygon.DashSpacing.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÛ Û("0*
+Shapes.Polygon.FillColorEnd.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csæ æ("0*
 0
-Û Û(*
-1*°
+æ æ(*
+1*˜
 1
-Ù ı(Lj
-h
+æ
+ æ(d
+b
 
-Ù Ù(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStyleT
-R
+æ
+ æ(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFill{
+y
 
-Ù Ù(*
-
-%0Shapes.DashStyle"
-spacingfloat"__id*
-
-valuefloato
-m
+æ
+ æ(
+%retUnityEngine.Color"__id*J
 
-ı6 ı(I
-%1float")Shapes.RegularPolygon.GetNetDashSpacing()*'
-
-ı6 ı(G
-Shapes.RegularPolygon◊
-‘
-
-ı ı(K
-
-%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*'
-
-ı ı(
-Shapes.RegularPolygon*F
-
-ı ı(48*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-
-ı6 ı(I
-
-%1float*
-2*2
+æ
+ æ(<*:
+
+%0Shapes.GradientFill"
+colorEndUnityEngine.Color*
+2*:
 2
-ˆ ˆ("!
+æ æ(")
 
-ˆ ˆ(
-implicit return:
-valuefloatB
-Shapes.RegularPolygonX
+æ æ(
+
+%retUnityEngine.ColorB
+Shapes.Polygon

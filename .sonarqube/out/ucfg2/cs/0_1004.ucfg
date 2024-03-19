@@ -1,21 +1,18 @@
 
-Shapes.Rectangle.Type.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csN N("0*
-0N N(*
-1*œ
-1N
- N(‡
-„
-N
- N(&
-%retShapes.Rectangle.RectangleType"__id*J
-N
- N(>*<
-Shapes.Rectangle"&
-typeShapes.Rectangle.RectangleType*
-2*C
-2N N("4
-N N((
-&
-%retShapes.Rectangle.RectangleTypeB
-Shapes.RectangleX
+9Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashType.get
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()"0*—
+0
+ø* ø(*À
+½
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø().
+%ret&System.Collections.Generic.List<float>"__id*ô
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()b*`
+Shapes.MpbRegularPolygon"B
+Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"Â
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRegularPolygon

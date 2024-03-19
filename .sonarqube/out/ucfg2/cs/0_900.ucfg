@@ -1,30 +1,17 @@
 
-Shapes.Draw.LineGeometry.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs√ √("0*
-0
-√ √(*
-1*È
-1
-√! √(;\
-Z
-
-√! √(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleu
-s
-
-√! √(;=
-
-%0Shapes.DrawStyle"#
-lineGeometryShapes.LineGeometry"__id* 
-
-valueShapes.LineGeometry*
-2*2
-2
-√< √(<"!
-
-√; √(<
-implicit return:
-valueShapes.LineGeometryB"
-Shapes.DrawX
+4Shapes.MpbLine3D.Shapes.IDashableMpb.dashSpacing.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,"0*ä
+0z- z(-∑
+¥
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,.
+%ret&System.Collections.Generic.List<float>"__id*Ì
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,]*[
+Shapes.MpbLine3D"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine3D

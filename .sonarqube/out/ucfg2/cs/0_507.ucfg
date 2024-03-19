@@ -1,30 +1,35 @@
 
-Shapes.Draw.ScaleMode.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csé é("0*
+$Shapes.Rectangle.FillLinearStart.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csµ µ("0*
 0
-é é(*
-1*‡
+µ µ(*
+1*Ç
 1
-é! é(8\
-Z
+µ
+ µ(f
+d
 
-é! é(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylel
-j
+µ
+ µ(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillÉ
+Ä
 
-é! é(87
-
-%0Shapes.DrawStyle"
-	scaleModeShapes.ScaleMode"__id*
+µ
+ µ(
+%retUnityEngine.Vector3"__id*O
+
+µ
+ µ(A*?
 
-valueShapes.ScaleMode*
-2*2
+%0Shapes.GradientFill""
+linearStartUnityEngine.Vector3*
+2*<
 2
-é9 é(9"!
+µ µ("+
 
-é8 é(9
-implicit return:
-valueShapes.ScaleModeB"
-Shapes.DrawX
+µ µ(
+
+%retUnityEngine.Vector3B
+Shapes.Rectangle

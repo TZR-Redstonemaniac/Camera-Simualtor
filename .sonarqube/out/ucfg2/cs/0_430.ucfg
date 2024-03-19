@@ -1,33 +1,50 @@
 
-Shapes.Line.End.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csK K("0*
-0K K(*
-1*Í
-1K
- K(Ha
-_
-K; K(F+
-Shapes.Line"
-endUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3Ú
-Ô
-K
- K(H
+%Shapes.Triangle.DashShapeModifier.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csì ì("0*
+0
+ì ì(*
+1*’
+1
+ì
+ ì(cd
+b
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-K
- K(
-Shapes.Line*A
-K K(95*3
-Shapes.ShapesMaterialUtils"
-propPointEndint*9
-K; K(F-*+
-Shapes.Line"
-endUnityEngine.Vector3*
-2*.
-2KI K(I"
-KH K(I
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.LineX
+ìB ì(K
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyleZ
+X
+
+ìB ì(a0
+
+%0Shapes.DashStyle"
+shapeModifierfloat"__id*
+
+valuefloat¸
+˘
+
+ì
+ ì(c
+
+%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
+
+ì
+ ì(
+Shapes.Triangle*L
+
+ì ì(@>*<
+Shapes.ShapesMaterialUtils"
+propDashShapeModifierint*@
+
+ìB ì(a2*0
+
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2*2
+2
+ìd ì(d"!
+
+ìc ì(d
+implicit return:
+valuefloatB
+Shapes.TriangleX

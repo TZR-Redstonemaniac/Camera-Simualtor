@@ -1,21 +1,30 @@
 
-Shapes.Line.End.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csJ J("0*
-0J J(*
-1*~
-1J
- J(j
-h
-J
- J(
-%retUnityEngine.Vector3"__id*9
-J
- J(-*+
-Shapes.Line"
-endUnityEngine.Vector3*
-2*8
-2J J(")
-J J(
-
-%retUnityEngine.Vector3B
-Shapes.Line
+ Shapes.Draw.StencilWriteMask.getå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csm m("0*
+0m m(*
+1*√
+1m! m(CZ
+X
+m! m(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+m! m(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStated
+b
+m! m(C
+%retbyte"__id*B
+m! m(C6*4
+
+%1Shapes.RenderState"
+stencilWriteMaskbyte*
+2*)
+2mD m(D"
+mC m(D
+
+%retbyteB"
+Shapes.DrawX

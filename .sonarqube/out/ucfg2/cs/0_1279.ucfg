@@ -1,102 +1,18 @@
 
-<Shapes.DrawCommand.OnPostRenderBuiltInRP(UnityEngine.Camera)à
-~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.csc c(#"0*
-0c c(*
-1*—
-1d d(Kπ
-∂
-d d(K
-
-%0bool"GSystem.Collections.Generic.ICollection<T>.TryGetValue(TKey, out TValue)*n
-d d(b*`
-Shapes.DrawCommand"H
-cBuffersRendering3System.Collections.Generic.Dictionary<TKey, TValue>*'
-d& d()
-
-camUnityEngine.Camera*<
-d+ d(I0
+/Shapes.MpbRect.Shapes.IDashableMpb.dashType.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()"0*ç
+0
+—* —(*∂
+≥
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()X*V
+Shapes.MpbRect"B
+Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()0
 .
-drawCmds"System.Collections.Generic.List<T>*
-2
-7*∏
-2e e(#ã
-à
-e e(	
-%1int"3System.Collections.Generic.ICollection<T>.Count.get*<
-e e(0
-.
-drawCmds"System.Collections.Generic.List<T>i
-g
-e e(#	
-%2int"%!binary_implicit_operator_passthrough*
-e e(
-	
-%1int*
-e" e(#2+
-)
-e e(#
-iint"__id*
-	
-%2int*
-3*
-3e% e(+*
-4
-7*∫
-4f	 f(*∂
-≥
-f	 f(
-%3Shapes.DrawCommand"7System.Collections.Generic.ICollection<T>.this[int].get*<
-f	 f(0
-.
-drawCmds"System.Collections.Generic.List<T>*
-f f(
-
-
-iintj
-h
-f	 f(*
-
-%4bool"(Shapes.DrawCommand.CheckIfRenderIsDone()*&
-f	 f(
-
-%3Shapes.DrawCommand*
-5
-6*‘
-5g h(∂
-≥
-g g(
-%5Shapes.DrawCommand"7System.Collections.Generic.ICollection<T>.this[int].get*<
-g g(0
-.
-drawCmds"System.Collections.Generic.List<T>*
-g g(
-
-
-iint\
-Z
-g g(
-
-%6void"Shapes.DrawCommand.Clear()*&
-g g(
-
-%5Shapes.DrawCommand®
-•
-h h(
-
-%7void"7System.Collections.Generic.ICollection<T>.RemoveAt(int)*<
-h h(0
-.
-drawCmds"System.Collections.Generic.List<T>*
-h h(
-
-
-iint*
-6*
-6e- e(0*
-3*.
-7l l("
-l l(
-implicit return:%
-c% c(/
-camUnityEngine.CameraB"
-Shapes.DrawCommandX
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRect

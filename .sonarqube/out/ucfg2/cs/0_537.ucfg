@@ -1,33 +1,38 @@
 
-Shapes.Disc.ColorInnerEnd.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csN N("0*
-0N N(*
-1*˘
-1N
- N(Ug
-e
-N> N(S3
-Shapes.Disc""
-colorInnerEndUnityEngine.Color"__id*
-
-valueUnityEngine.Color˚
-¯
-N
- N(U
+$Shapes.Draw.GradientFillColorEnd.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŸ Ÿ("0*
+0
+Ÿ Ÿ(*
+1*„
+1
+Ÿ! Ÿ(<\
+Z
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-N
- N(
-Shapes.Disc*F
-N N(<:*8
-Shapes.ShapesMaterialUtils"
-propColorInnerEndint*A
-N> N(S5*3
-Shapes.Disc""
-colorInnerEndUnityEngine.Color*
-2*.
-2NV N(V"
-NU N(V
-implicit return:
-valueUnityEngine.ColorB
-Shapes.DiscX
+Ÿ! Ÿ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ÿ! Ÿ(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill{
+y
+
+Ÿ! Ÿ(<
+%retUnityEngine.Color"__id*J
+
+Ÿ! Ÿ(<<*:
+
+%1Shapes.GradientFill"
+colorEndUnityEngine.Color*
+2*:
+2
+Ÿ= Ÿ(=")
+
+Ÿ< Ÿ(=
+
+%retUnityEngine.ColorB"
+Shapes.Draw

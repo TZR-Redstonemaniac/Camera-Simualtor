@@ -1,43 +1,31 @@
 
-Shapes.Triangle.ColorC.setÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csØ Ø("0*
+Shapes.Draw.TextStyle.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÔ Ô("0*
 0
-Ø Ø(*
-1*¸
+Ô Ô(*
+1*Î
 1
-Ø
- Ø(Gf
-d
+Ô! Ô(0\
+Z
 
-Ø7 Ø(E0
-Shapes.Triangle"
-colorCUnityEngine.Color"__id*
-
-valueUnityEngine.Color˝
-˙
+Ô! Ô(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylew
+u
 
-Ø
- Ø(G
+Ô! Ô(0
+%retShapes.TextStyle"__id*G
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
-
-Ø
- Ø(
-Shapes.Triangle*A
-
-Ø Ø(53*1
-Shapes.ShapesMaterialUtils"
-
-propColorCint*@
-
-Ø7 Ø(E2*0
-Shapes.Triangle"
-colorCUnityEngine.Color*
-2*2
+Ô! Ô(09*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyle*
+2*9
 2
-ØH Ø(H"!
+Ô1 Ô(1"(
 
-ØG Ø(H
-implicit return:
-valueUnityEngine.ColorB
-Shapes.TriangleX
+Ô0 Ô(1
+
+%retShapes.TextStyleB"
+Shapes.Draw

@@ -1,6 +1,4 @@
-using System;
-
-using System.Linq;
+﻿using System.Linq;
 using Shapes;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
@@ -11,6 +9,51 @@ namespace Managers {
     [ExecuteAlways]
     [ImageEffectAllowedInSceneView]
     public class RayTracingManager : MonoBehaviour {
+        [Header("References")]
+        [SerializeField] private Shader rayTracingShader;
+        [SerializeField] private Shader companionShader;
+        [SerializeField] private Shader smoothingShader;
+        [SerializeField] private Camera mainCam;
+        
+        [Header("Config")]
+        [SerializeField] private bool useShaderInSceneView;
+        [SerializeField] [Range(0, 32)] private int MaxBounceCount;
+        [SerializeField] [Range(0, 64)] private int NumRaysPerPixel;
+        [SerializeField] [Min(0)] private float DivergeStrength;
+        [SerializeField] [Min(0)] private float DefocusStrength;
+        [SerializeField] [Min(0.1f)] private float FocusDistance;
+        [SerializeField] [Min(0.1f)] private float RenderDistance;
+        [SerializeField] [Range(0f, 1f)] private float BlackRayTolerance;
+        [SerializeField] [Range(0f, 1f)] private float smoothingFactor;
+        
+        [Header("Environment")]
+        [SerializeField] private bool environment;
+        [SerializeField] private bool visualizeFocus;
+        [SerializeField] private Color SkyColorHorizon;
+        [SerializeField] private Color SkyColorZenith;
+        [SerializeField] private Color GroundColor;
+        [SerializeField] private float SunFocus;
+        [SerializeField] private float SunIntensity;
+
+        private Material rayTracingMat;
+        private Material companionMat;
+        private Material smoothingMat;
+
+        private bool init;
+        private RayTracingMesh[] meshes;
+        private ComputeBuffer meshReader;
+
+        private int NumRenderedFrames;
+        
+        private RenderTexture currentTexture;
+
+        private RayTracingMesh[] lights;
+        private SphereObject[] spheres;
+        
+        private ComputeBuffer lightSourcesReader;
+        private ComputeBuffer triangleReader;
+        private ComputeBuffer sphereReader;
+        
         //Shader Properties
         private static readonly int Spheres = Shader.PropertyToID("Spheres");
         private static readonly int Triangles = Shader.PropertyToID("Triangles");
@@ -32,64 +75,16 @@ namespace Managers {
         private static readonly int UseEnvironment = Shader.PropertyToID("UseEnvironment");
         private static readonly int Strength = Shader.PropertyToID("DivergeStrength");
         private static readonly int DefocusStrength1 = Shader.PropertyToID("DefocusStrength");
-
-        [Header("References")]
-        [SerializeField] private Shader rayTracingShader;
-
-        [SerializeField] private Shader companionShader;
-        [SerializeField] private Camera mainCam;
-
-        [Header("Config")]
-        [SerializeField] private bool useShaderInSceneView;
-
-        [SerializeField] [Range(0, 32)] private int MaxBounceCount;
-        [SerializeField] [Range(0, 64)] private int NumRaysPerPixel;
-        [SerializeField] [Min(0)] private float DivergeStrength;
-        [SerializeField] [Min(0)] private float DefocusStrength;
-        [SerializeField] [Min(0.1f)] private float FocusDistance;
-        [SerializeField] [Min(0.1f)] private float RenderDistance;
-        [SerializeField] private float BlackRayTolerance;
-
-        [Header("Environment")]
-        [SerializeField] private bool environment;
-
-        [SerializeField] private bool visualizeFocus;
-
-        [SerializeField] private Color SkyColorHorizon;
-        [SerializeField] private Color SkyColorZenith;
-        [SerializeField] private Color GroundColor;
-        [SerializeField] private float SunFocus;
-        [SerializeField] private float SunIntensity;
-
-        private Material companionMat;
-
-        private RenderTexture currentTexture;
-
-        private bool init;
-        private RayTracingMesh[] meshes;
-        private ComputeBuffer meshReader;
-
-        private int NumRenderedFrames;
-
-        private Material rayTracingMat;
-
-        private ComputeBuffer sphereReader;
-
-        private SphereObject[] spheres;
-        private ComputeBuffer triangleReader;
         private static readonly int Distance = Shader.PropertyToID("RenderDistance");
         private static readonly int RayTolerance = Shader.PropertyToID("BlackRayTolerance");
+        private static readonly int NumLights = Shader.PropertyToID("NumLights");
+        private static readonly int AllLightSources = Shader.PropertyToID("AllLightSources");
+        private static readonly int MainTex = Shader.PropertyToID("_MainTex");
+        private static readonly int SmoothFactor = Shader.PropertyToID("_SmoothFactor");
 
         private void Start() => InitShaders();
 
-        private void OnDestroy() {
-            meshReader?.Release();
-            sphereReader?.Release();
-            triangleReader?.Release();
-            meshReader?.Dispose();
-            sphereReader?.Dispose();
-            triangleReader?.Dispose();
-        }
+        private void OnDestroy() => ReleaseAndDispose();
 
         private void OnRenderImage(RenderTexture src, RenderTexture target) {
             if (!init) Init(src);
@@ -128,6 +123,8 @@ namespace Managers {
                 UpdateMaterialParams();
 
                 Graphics.Blit(null, target, rayTracingMat);
+                
+                ReleaseAndDispose();
             } else if (Camera.current.name != "SceneCamera") {
                 InitShaders();
 
@@ -140,30 +137,33 @@ namespace Managers {
                 NumRenderedFrames += Application.isPlaying ? 1 : 0;
                 UpdateMaterialParams();
                 RenderTexture currentFrame = RenderTexture.GetTemporary(src.width, src.height, 0, GraphicsFormat.R32G32B32A32_SFloat);
+                RenderTexture smoothedFrame = RenderTexture.GetTemporary(src.width, src.height, 0, GraphicsFormat.R32G32B32A32_SFloat);
                 Graphics.Blit(null, currentFrame, rayTracingMat);
 
                 companionMat.SetInt(Frames, NumRenderedFrames);
                 companionMat.SetTexture(PrevFrame, prevFrameCopy);
-                Graphics.Blit(currentFrame, currentTexture, companionMat);
+                Graphics.Blit(currentFrame, smoothedFrame, companionMat);
+                
+                smoothingMat.SetFloat(SmoothFactor, smoothingFactor);
+                smoothingMat.SetTexture(MainTex, smoothedFrame);
+                Graphics.Blit(smoothedFrame, currentTexture, smoothingMat);
 
                 Graphics.Blit(currentTexture, target);
 
                 RenderTexture.ReleaseTemporary(currentFrame);
                 RenderTexture.ReleaseTemporary(prevFrameCopy);
                 RenderTexture.ReleaseTemporary(currentFrame);
+                
+                ReleaseAndDispose();
             } else Graphics.Blit(src, target);
         }
 
         private void InitShaders() {
             rayTracingMat = new Material(rayTracingShader);
             companionMat = new Material(companionShader);
+            smoothingMat = new Material(smoothingShader);
 
-            meshReader?.Release();
-            sphereReader?.Release();
-            triangleReader?.Release();
-            meshReader?.Dispose();
-            sphereReader?.Dispose();
-            triangleReader?.Dispose();
+            ReleaseAndDispose();
 
             meshes = FindObjectsOfType<RayTracingMesh>();
             foreach (RayTracingMesh mesh in meshes) mesh.UpdateMeshData();
@@ -181,6 +181,14 @@ namespace Managers {
             if (spheres.Length > 0) {
                 const int sphereSize = sizeof(float) * 19;
                 sphereReader = new ComputeBuffer(spheres.Length, sphereSize);
+            }
+
+            lights = FindObjectsOfType<RayTracingMesh>();
+            lights = lights.Where(obj => obj.material.emissionStrength > 0).ToArray();
+
+            if (lights.Length > 0) {
+                const int lightSize = sizeof(float) * 3;
+                lightSourcesReader = new ComputeBuffer(lights.Length, lightSize);
             }
         }
 
@@ -205,6 +213,7 @@ namespace Managers {
         private void UpdateCameraParams(Camera cam) {
             rayTracingMat = new Material(rayTracingShader);
             companionMat = new Material(companionShader);
+            smoothingMat = new Material(smoothingShader);
 
             float planeHeight = FocusDistance * Mathf.Tan(cam.fieldOfView * 0.5f * Mathf.Deg2Rad) * 2;
             float planeWidth = planeHeight * cam.aspect;
@@ -216,6 +225,7 @@ namespace Managers {
         private void UpdateMaterialParams() {
             HandleSpheres();
             HandleMeshes();
+            HandleLights();
 
             rayTracingMat.SetInt(BounceCount, MaxBounceCount);
             rayTracingMat.SetInt(RaysPerPixel, NumRaysPerPixel);
@@ -252,6 +262,21 @@ namespace Managers {
             rayTracingMat.SetInt(NumOfSpheres, sphereArray.Length);
             rayTracingMat.SetBuffer(Spheres, sphereReader);
         }
+        
+        private void HandleLights() {
+            Vector3[] lightArray = new Vector3[lights.Length];
+
+            if (lights.Length == 0) return;
+
+            for (int i = 0; i < lights.Length; i++) {
+                lightArray[i] = new Vector3(lights[i].gameObject.transform.position.x, lights[i].gameObject.transform.position.y, 
+                    lights[i].gameObject.transform.position.z);
+            }
+
+            lightSourcesReader.SetData(lightArray);
+            rayTracingMat.SetInt(NumLights, lights.Length);
+            rayTracingMat.SetBuffer(AllLightSources, lightSourcesReader);
+        }
 
         private void HandleMeshes() {
             foreach (RayTracingMesh mesh in meshes) mesh.UpdateMeshData();
@@ -286,6 +311,17 @@ namespace Managers {
             rayTracingMat.SetInt(NumMeshes, meshInfos.Length);
             rayTracingMat.SetBuffer(Triangles, triangleReader);
             rayTracingMat.SetBuffer(AllMeshInfo, meshReader);
+        }
+
+        private void ReleaseAndDispose() {
+            meshReader?.Release();
+            sphereReader?.Release();
+            triangleReader?.Release();
+            lightSourcesReader?.Release();
+            meshReader?.Dispose();
+            sphereReader?.Dispose();
+            triangleReader?.Dispose();
+            lightSourcesReader?.Dispose();
         }
 
         private struct Sphere {

@@ -1,24 +1,31 @@
 
-Shapes.Draw.Color.getå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csw w("0*
-0w w(*
-1*·
-1w! w(,Z
-X
-w! w(&
+Shapes.Draw.Thickness.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csô ô("0*
+0
+ô ô(*
+1*’
+1
+ô! ô(0\
+Z
+
+ô! ô(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyleq
-o
-w! w(,
-%retUnityEngine.Color"__id*B
-w! w(,6*4
+styleShapes.DrawStylea
+_
+
+ô! ô(0
+%retfloat"__id*<
+
+ô! ô(0.*,
 
-%0Shapes.DrawStyle"
-colorUnityEngine.Color*
-2*6
-2w- w(-"'
-w, w(-
-
-%retUnityEngine.ColorB"
-Shapes.Draw
+%0Shapes.DrawStyle"
+	thicknessfloat*
+2*.
+2
+ô1 ô(1"
+
+ô0 ô(1
+
+%retfloatB"
+Shapes.DrawX

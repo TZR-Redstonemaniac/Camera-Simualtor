@@ -1,21 +1,21 @@
 
-Shapes.Line.Dashed.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csQ Q("0*
-0Q Q(*
-1*c
-1Q
- Q(O
-M
-Q
- Q(
-%retbool"__id*-
-Q
- Q(!*
-Shapes.Line"
-dashedbool*
-2*)
-2Q Q("
-Q Q(
-
-%retboolB
-Shapes.LineX
+Shapes.RegularPolygon.Sides.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs ("0*
+0 (*
+1*j
+1
+ (V
+T
+
+ (
+%retint"__id*5
+
+ ()*'
+Shapes.RegularPolygon"
+sidesint*
+2*(
+2 ("
+ (
+
+%retintB
+Shapes.RegularPolygonX

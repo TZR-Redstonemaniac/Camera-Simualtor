@@ -1,33 +1,18 @@
 
-Shapes.Draw.CuboidSizeSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs∫ ∫("0*
+/Shapes.MpbRect.Shapes.IDashableMpb.dashSnap.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()"0*ç
 0
-∫ ∫(*
-1*Í
-1
-∫
- ∫(!\
-Z
-
-∫
- ∫(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylev
-t
-
-∫
- ∫(!<
-
-%0Shapes.DrawStyle""
-	sizeSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
-2
-∫" ∫(""!
-
-∫! ∫("
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+Œ* Œ(*∂
+≥
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()X*V
+Shapes.MpbRect"B
+Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRect

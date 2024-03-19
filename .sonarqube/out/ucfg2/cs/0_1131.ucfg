@@ -1,35 +1,38 @@
 
-Shapes.Draw.RingDashStyle.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs” ”("0*
-0
-” ”(*
-1*Î
-1
-”
- ”(\
-Z
-
-”
- ”(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylew
-u
-
-”
- ”(
-%retShapes.DashStyle"__id*G
-
-”
- ”(9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle*
-2*9
-2
-” ”("(
-
-” ”(
+RShapes.ShapesMeshUtils.EnsureValidMeshBounds(UnityEngine.Mesh, UnityEngine.Bounds)É
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMeshUtils.cs: :(#"0*
+0: :(*
+1*ˆ
+1; =({
+y
+; ;(-
+%0UnityEngine.HideFlags" UnityEngine.Object.hideFlags.set*&
+; ;(
 
-%retShapes.DashStyleB"
-Shapes.Draw
+meshUnityEngine.Mesh*2é
+ã
+< <(
+%1UnityEngine.Bounds"UnityEngine.Mesh.bounds.set*&
+< <(
+
+meshUnityEngine.Mesh* 
+
+boundsUnityEngine.BoundsT
+R
+=
+ =(
+%retUnityEngine.Mesh"__id*&
+=
+ =(
+
+meshUnityEngine.Mesh*
+2*5
+2> >("&
+> >(
+
+%retUnityEngine.Mesh:$
+:% :(.
+meshUnityEngine.Mesh:(
+:0 :(=
+boundsUnityEngine.BoundsB"
+Shapes.ShapesMeshUtils

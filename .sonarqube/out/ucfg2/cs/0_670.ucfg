@@ -1,37 +1,38 @@
 
- Shapes.Draw.GradientFillType.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÈ È("0*
+Shapes.Triangle.Hollow.getƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs ("0*
 0
-È È(*
-1*Ð
+ (*
+1*¯
 1
-È! È(@\
-Z
+
+ (Y
+W
 
-È! È(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+
+ (
 
-È! È(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillh
-f
+%0bool"Shapes.Triangle.Border.get*!
 
-È! È(@4
-
-%1Shapes.GradientFill"
-typeShapes.FillType"__id*
-
-valueShapes.FillType*
-2*2
+
+ (
+Shapes.Triangle>
+<
+
+
+ (
+%retbool"__id*
+
+
+ (
+
+
+%0bool*
+2*-
 2
-ÈA È(A"!
+ ("
 
-È@ È(A
-implicit return:
-valueShapes.FillTypeB"
-Shapes.DrawX
+ (
+
+%retboolB
+Shapes.TriangleX

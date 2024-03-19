@@ -1,58 +1,31 @@
 
-Shapes.Rectangle.FillType.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csù ù("0*
+Shapes.RegularPolygon.Fill.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csï ï("0*
 0
-ù ù(*
-1*˘
+ï ï(*
+1*Ù
 1
-û ü(Xf
-d
+ñ ó(n
+l
 
-û û(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillh
-f
+ñ ñ(6
+Shapes.RegularPolygon"
+fillShapes.GradientFill"__id* 
+
+valueShapes.GradientFilln
+l
 
-û û(4
-
-%0Shapes.GradientFill"
-typeShapes.FillType"__id*
-
-valueShapes.FillTypeƒ
-¡
+ó ó(
 
-ü1 ü(U	
-%1int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*A
+%0void")Shapes.RegularPolygon.SetFillProperties()*'
 
-ü1 ü(53*1
-Shapes.Rectangle"
-fillShapes.GradientFill*5
-
-üL ü(S'*%
-Shapes.Rectangle"
-useFillbool…
-∆
-
-ü ü(W
-
-%2void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
-
-ü ü(
-Shapes.Rectangle*C
-
-ü ü(/5*3
-Shapes.ShapesMaterialUtils"
-propFillTypeint*
-
-ü1 ü(U
-	
-%1int*
+ó ó(
+Shapes.RegularPolygon*
 2*2
 2
-† †("!
+ò ò("!
 
-† †(
-implicit return:
-valueShapes.FillTypeB
-Shapes.RectangleX
+ò ò(
+implicit return:
+valueShapes.GradientFillB
+Shapes.RegularPolygonX

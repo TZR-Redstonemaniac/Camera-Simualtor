@@ -1,33 +1,18 @@
 
-(Shapes.RegularPolygon.ThicknessSpace.setá
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.csN N("0*
-0N N(*
-1*ñ
-1N
- N(^z
-x
-ND N(ZB
-Shapes.RegularPolygon"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÖ
-Ç
-N
- N(^
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*%
-N
- N(
-Shapes.RegularPolygon*G
-N N(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*P
-N= N(\D*B
-Shapes.RegularPolygon"'
-thicknessSpaceShapes.ThicknessSpace*
-2*.
-2N_ N(_"
-N^ N(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.RegularPolygonX
+3Shapes.MpbTriangle.Shapes.IDashableMpb.dashType.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()"0*ë
+0
+ø* ø(*∫
+∑
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø().
+%ret&System.Collections.Generic.List<float>"__id*Ó
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()\*Z
+Shapes.MpbTriangle"B
+Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbTriangle

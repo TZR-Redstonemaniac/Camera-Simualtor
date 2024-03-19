@@ -1,21 +1,80 @@
 
-Shapes.Line.ColorEnd.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs> >("0*
-0> >(*
-1*
-1>
- >(k
-i
->
- >(
-%retUnityEngine.Color"__id*<
->
- >(0*.
-Shapes.Line"
-colorEndUnityEngine.Color*
-2*6
-2> >("'
-> >(
+Shapes.Triangle.DashSpace.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÑ Ñ("0*
+0
+Ñ Ñ(*
+1*´
+1
+Ö Ü(gd
+b
+
+Ö6 Ö(?
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyleh
+f
+
+Ö6 Ö(M3
+
+%0Shapes.DashStyle"
+spaceShapes.DashSpace"__id*
 
-%retUnityEngine.ColorB
-Shapes.Line
+valueShapes.DashSpace
+Ì
+
+Ö Ö(Q
+
+%1void"%Shapes.ShapeRenderer.SetInt(int, int)*!
+
+Ö Ö(
+
+Shapes.Triangle*D
+
+Ö Ö(-6*4
+Shapes.ShapesMaterialUtils"
+propDashSpaceint*C
+
+Ö/ Ö(O5*3
+
+%0Shapes.DashStyle"
+spaceShapes.DashSpaceÄ
+˝
+
+Ü3 Ü(d
+%2float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*B
+
+Ü3 Ü(<4*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyle*3
+
+ÜQ Ü(W%*#
+Shapes.Triangle"
+dashedbool*7
+
+ÜY Ü(b)*'
+Shapes.Triangle"
+	thicknessfloatŒ
+À
+
+Ü Ü(f
+
+%3void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
+
+Ü Ü(
+Shapes.Triangle*C
+
+Ü Ü(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*
+
+Ü3 Ü(d
+
+%2float*
+2*2
+2
+á á("!
+
+á á(
+implicit return:
+valueShapes.DashSpaceB
+Shapes.TriangleX

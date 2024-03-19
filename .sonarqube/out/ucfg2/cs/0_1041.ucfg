@@ -1,38 +1,29 @@
 
-Shapes.Draw.TextLineSpacing.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csô ô("0*
-0
-ô ô(*
-1*¬
-1
-ô! ô(<\
-Z
-
-ô! ô(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ô! ô(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStylec
-a
-
-ô! ô(<
-%retfloat"__id*>
-
-ô! ô(<0*.
-
-%1Shapes.TextStyle"
-lineSpacingfloat*
-2*.
-2
-ô= ô(="
-
-ô< ô(=
-
-%retfloatB"
-Shapes.DrawX
+7Shapes.AngularUnitExtensions.Suffix(Shapes.AngularUnit)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\AngularUnit.cs ("0*
+0 (*
+1*†
+1: (TÀ
+»
+: (T
+%0string"7System.Collections.Generic.ICollection<T>.this[int].get*K
+: (I?*=
+Shapes.AngularUnitExtensions"
+angUnitToSuffixstring[]*(
+J (S
+
+unitShapes.AngularUnit>
+<
+: (T
+%retstring"__id*
+: (T
+
+%0string*
+2*+
+2U (U"
+T (U
+
+%retstring:&
+ (4
+unitShapes.AngularUnitB "
+Shapes.AngularUnitExtensions

@@ -1,30 +1,17 @@
 
-Shapes.Draw.LineEndCaps.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csΩ Ω("0*
-0
-Ω Ω(*
-1*‰
-1
-Ω! Ω(:\
-Z
-
-Ω! Ω(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylep
-n
-
-Ω! Ω(::
-
-%0Shapes.DrawStyle" 
-lineEndCapsShapes.LineEndCap"__id*
-
-valueShapes.LineEndCap*
-2*2
-2
-Ω; Ω(;"!
-
-Ω: Ω(;
-implicit return:
-valueShapes.LineEndCapB"
-Shapes.DrawX
+3Shapes.MpbLine2D.Shapes.IDashableMpb.dashOffset.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+"0*â
+0W, W(,∂
+≥
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+.
+%ret&System.Collections.Generic.List<float>"__id*Ï
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+\*Z
+Shapes.MpbLine2D"D
+Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine2D

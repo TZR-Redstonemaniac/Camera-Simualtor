@@ -1,21 +1,21 @@
 
-Shapes.Triangle.C.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csv v("0*
-0v v(*
-1*Ä
-1v
- v(l
-j
-v
- v(
-%retUnityEngine.Vector3"__id*;
-v
- v(/*-
-Shapes.Triangle"
-cUnityEngine.Vector3*
-2*8
-2v v(")
-v v(
-
-%retUnityEngine.Vector3B
-Shapes.Triangle
+Shapes.Disc.ColorInnerEnd.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csM M("0*
+0M M(*
+1*Ñ
+1M
+ M(p
+n
+M
+ M(
+%retUnityEngine.Color"__id*A
+M
+ M(5*3
+Shapes.Disc""
+colorInnerEndUnityEngine.Color*
+2*6
+2M M("'
+M M(
+
+%retUnityEngine.ColorB
+Shapes.Disc

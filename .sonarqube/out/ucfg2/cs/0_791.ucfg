@@ -1,27 +1,33 @@
 
-Shapes.Disc.ThicknessSpace.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs¯ ¯("0*
+Shapes.Draw.DiscRadiusSpace.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csø ø("0*
 0
-¯ ¯(*
-1*“
+ø ø(*
+1*ì
 1
-¯
- ¯(}
-{
+ø
+ ø(#\
+Z
 
-¯
- ¯(
-%retShapes.ThicknessSpace"__id*H
+ø
+ ø(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylex
+v
 
-¯
- ¯(:*8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
+ø
+ ø(#>
+
+%0Shapes.DrawStyle"$
+radiusSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
+2*2
 2
-¯ ¯("-
+ø$ ø($"!
 
-¯ ¯(
-
-%retShapes.ThicknessSpaceB
-Shapes.DiscX
+ø# ø($
+implicit return: 
+valueShapes.ThicknessSpaceB"
+Shapes.DrawX

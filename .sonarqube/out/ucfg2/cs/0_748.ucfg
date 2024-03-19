@@ -1,17 +1,38 @@
 
-2Shapes.MpbPolygon.Shapes.IFillableMpb.fillType.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()"0*ﬂ
+(Shapes.Rectangle.UpdateRectPositioning()Ñ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csé é("0*
 0
-è* è(*•
-¢
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()Y
-Shapes.MpbPolygon"B
-Shapes.IFillableMpb.fillType"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbPolygon
+é é(*
+1*Û
+1
+é" é(bt
+r
+
+éL é(`
+%0UnityEngine.Vector4"%Shapes.Rectangle.GetPositioningRect()*"
+
+éL é(^
+Shapes.RectangleÊ
+„
+
+é" é(b
+
+%1void"9Shapes.ShapeRenderer.SetVector4(int, UnityEngine.Vector4)*"
+
+é" é(,
+Shapes.Rectangle*?
+
+é. é(J1*/
+Shapes.ShapesMaterialUtils"
+propRectint*)
+
+éL é(`
+
+%0UnityEngine.Vector4*
+2*2
+2
+éc é(c"!
+
+éb é(c
+implicit returnB
+Shapes.RectangleX

@@ -1,99 +1,55 @@
 
-Shapes.Rectangle.DashSize.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs„ „("0*
-0
-„ „(*
-1*î
-1
-‰ Ê(e
-c
+fShapes.DiscColors.Bilinear(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs2 2(#"0*
+02 2(*
+1*°
+1	2m 2(©97
+	2m 2(©
+%0Shapes.DiscColors"Shapes.DiscColors¯
+ı
+	2m 2(©
+%1Shapes.DiscColors"hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)*&
+	2m 2(©
+
+%0Shapes.DiscColors*.
+	2} 2(á!
+
 
-‰ ‰(
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStyleQ
-O
+innerStartUnityEngine.Color*/
 
-‰ ‰('
-
-%0Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloatÉ
-Ä
+2â 2(ì!
+
 
-Â Â(I
-%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*C
+outerStartUnityEngine.Color*-
 
-Â Â(!5*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStyle*4
+2ï 2(ù
+
+innerEndUnityEngine.Color*-
 
-Â6 Â(<&*$
-Shapes.Rectangle"
-dashedbool*8
-
-Â> Â(G**(
-Shapes.Rectangle"
-	thicknessfloat;
-9
-
-Â
- Â(I
-netDashSizefloat"__id*
-
-%1float*
-2
-3*Õ
+2ü 2(ß
+
+outerEndUnityEngine.ColorV
+T
+	2m 2(©
+%retShapes.DiscColors"__id*&
+	2m 2(©
+
+%0Shapes.DiscColors*
+2*:
 2
-Á Á(Je
-c
+2™ 2(™")
 
-Á4 Á(G
-%2float"$Shapes.Rectangle.GetNetDashSpacing()*"
+2© 2(™
+
+%retShapes.DiscColors:+
+2% 2(5
 
-Á4 Á(E
-Shapes.Rectangleœ
-Ã
+innerStartUnityEngine.Color:+
+27 2(G
 
-Á Á(I
-
-%3void")Shapes.ShapeRenderer.SetFloat(int, float)*"
-
-Á Á(
-Shapes.Rectangle*F
-
-Á Á(28*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-
-Á4 Á(G
-
-%2float*
-3*Ô
-3
-Ë Ë(Aÿ
-’
-
-Ë Ë(@
-
-%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*"
-
-Ë Ë(
-Shapes.Rectangle*C
-
-Ë Ë(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*$
-
-Ë3 Ë(>
-
-netDashSizefloat*
-4*2
-4
-È È("!
-
-È È(
-implicit return:
-valuefloatB
-Shapes.RectangleX
+outerStartUnityEngine.Color:)
+2I 2(W
+innerEndUnityEngine.Color:)
+2Y 2(g
+outerEndUnityEngine.ColorB"
+Shapes.DiscColors

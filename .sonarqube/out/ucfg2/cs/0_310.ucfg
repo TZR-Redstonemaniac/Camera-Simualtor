@@ -1,99 +1,40 @@
 
-Shapes.Triangle.DashSize.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÔ Ô("0*
-0
-Ô Ô(*
-1*ê
-1
- Ú(d
-b
-
- (
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyleQ
-O
-
- ('
-
-%0Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloatÄ
-˝
-
-Ò Ò(I
-%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*B
-
-Ò Ò(!4*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyle*3
-
-Ò6 Ò(<%*#
-Shapes.Triangle"
-dashedbool*7
-
-Ò> Ò(G)*'
-Shapes.Triangle"
-	thicknessfloat;
-9
-
-Ò
- Ò(I
-netDashSizefloat"__id*
-
-%1float*
-2
-3* 
-2
-Û Û(Jc
-a
-
-Û4 Û(G
-%2float"#Shapes.Triangle.GetNetDashSpacing()*!
-
-Û4 Û(E
-Shapes.TriangleŒ
-À
-
-Û Û(I
-
-%3void")Shapes.ShapeRenderer.SetFloat(int, float)*!
-
-Û Û(
-Shapes.Triangle*F
-
-Û Û(28*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-
-Û4 Û(G
-
-%2float*
-3*Ó
-3
-Ù Ù(A◊
-‘
-
-Ù Ù(@
-
-%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
-
-Ù Ù(
-Shapes.Triangle*C
-
-Ù Ù(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*$
-
-Ù3 Ù(>
-
-netDashSizefloat*
-4*2
-4
-ı ı("!
-
-ı ı(
-implicit return:
-valuefloatB
-Shapes.TriangleX
+)Shapes.DiscColors.Flat(UnityEngine.Color)á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs! !("0*
+0! !(*
+1*Ñ
+1!2 !(^86
+!2 !(^
+%0Shapes.DiscColors"Shapes.DiscColorsﬂ
+‹
+!2 !(^
+%1Shapes.DiscColors"hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)*%
+!2 !(^
+
+%0Shapes.DiscColors*(
+!B !(G
+
+colorUnityEngine.Color*(
+!I !(N
+
+colorUnityEngine.Color*(
+!P !(U
+
+colorUnityEngine.Color*(
+!W !(\
+
+colorUnityEngine.ColorT
+R
+!2 !(^
+%retShapes.DiscColors"__id*%
+!2 !(^
+
+%0Shapes.DiscColors*
+2*6
+2!_ !(_"'
+!^ !(_
+
+%retShapes.DiscColors:&
+!! !(,
+colorUnityEngine.ColorB"
+Shapes.DiscColors

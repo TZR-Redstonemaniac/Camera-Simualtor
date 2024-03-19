@@ -1,35 +1,27 @@
 
-!Shapes.Draw.SphereRadiusSpace.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs≥ ≥("0*
+Shapes.Quad.ColorB.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs‚ ‚("0*
 0
-≥ ≥(*
-1*˘
+‚ ‚(*
+1*É
 1
-≥
- ≥(\
-Z
+‚
+ ‚(m
+k
 
-≥
- ≥(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleÑ
-Å
+‚
+ ‚(
+%retUnityEngine.Color"__id*<
 
-≥
- ≥(
-%retShapes.ThicknessSpace"__id*N
-
-≥
- ≥(@*>
-
-%0Shapes.DrawStyle"$
-radiusSpaceShapes.ThicknessSpace*
-2*>
+‚
+ ‚(.*,
+Shapes.Quad"
+colorBUnityEngine.Color*
+2*:
 2
-≥ ≥("-
+‚ ‚(")
 
-≥ ≥(
-
-%retShapes.ThicknessSpaceB"
-Shapes.DrawX
+‚ ‚(
+
+%retUnityEngine.ColorB
+Shapes.Quad

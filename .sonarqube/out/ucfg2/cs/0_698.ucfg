@@ -1,43 +1,37 @@
 
-Shapes.Disc.AngRadiansEnd.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csŽ Ž("0*
+Shapes.Draw.Font.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csö ö("0*
 0
-Ž Ž(*
-1*Î
+ö ö(*
+1*Ì
 1
-Ž
- Ž(NQ
-O
+ö! ö(=\
+Z
 
-Ž7 Ž(L'
-Shapes.Disc"
-angRadiansEndfloat"__id*
-
-valuefloatä
-á
+ö! ö(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
 
-Ž
- Ž(N
+ö! ö(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStylem
+k
 
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-
-Ž
- Ž(
-Shapes.Disc*A
-
-Ž Ž(53*1
-Shapes.ShapesMaterialUtils"
-
-propAngEndint*7
-
-Ž7 Ž(L)*'
-Shapes.Disc"
-angRadiansEndfloat*
+ö! ö(=5
+
+%1Shapes.TextStyle"
+fontTMPro.TMP_FontAsset"__id* 
+
+valueTMPro.TMP_FontAsset*
 2*2
 2
-ŽO Ž(O"!
+ö> ö(>"!
 
-ŽN Ž(O
-implicit return:
-valuefloatB
-Shapes.DiscX
+ö= ö(>
+implicit return:
+valueTMPro.TMP_FontAssetB"
+Shapes.DrawX

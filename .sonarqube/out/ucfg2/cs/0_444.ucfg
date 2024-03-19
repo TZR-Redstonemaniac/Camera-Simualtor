@@ -1,51 +1,47 @@
 
-Shapes.Rectangle.UseFill.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csñ ñ("0*
+)Shapes.RegularPolygon.GetNetDashSpacing()ù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csê ê("0*
 0
-ñ ñ(*
-1*˜
+ê ê(*
+1*˙
 1
-ó ò(XN
-L
+ê ê(h°
+û
 
-ó ó(%
-Shapes.Rectangle"
-useFillbool"__id*
+ê ê(h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*'
 
-valueboolƒ
-¡
+ê ê(0
+Shapes.RegularPolygon*H
 
-ò1 ò(U	
-%0int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*A
+ê2 ê(;:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyle*9
 
-ò1 ò(53*1
-Shapes.Rectangle"
-fillShapes.GradientFill*5
+ê= ê(C+*)
+Shapes.RegularPolygon"
+dashedbool*I
 
-òL ò(S'*%
-Shapes.Rectangle"
-useFillbool…
-∆
+êE ê([;*9
+Shapes.RegularPolygon"
+matchDashSpacingToSizebool*=
 
-ò ò(W
+ê] ê(f/*-
+Shapes.RegularPolygon"
+	thicknessfloat@
+>
 
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+ê ê(h
+%retfloat"__id*
 
-ò ò(
-Shapes.Rectangle*C
-
-ò ò(/5*3
-Shapes.ShapesMaterialUtils"
-propFillTypeint*
-
-ò1 ò(U
-	
-%0int*
-2*2
+ê ê(h
+
+%0float*
+2*.
 2
-ô ô("!
+êi ê(i"
 
-ô ô(
-implicit return:
-valueboolB
-Shapes.RectangleX
+êh ê(i
+
+%retfloatB
+Shapes.RegularPolygonX

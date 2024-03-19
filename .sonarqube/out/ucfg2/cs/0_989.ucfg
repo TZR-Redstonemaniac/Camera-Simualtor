@@ -1,33 +1,17 @@
 
-%Shapes.RegularPolygon.RadiusSpace.setá
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.csB B("0*
-0B B(*
-1*ç
-1B
- B(Xw
-u
-BA B(T?
-Shapes.RegularPolygon"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceˇ
-¸
-B
- B(X
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*%
-B
- B(
-Shapes.RegularPolygon*D
-B B(88*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*M
-B: B(VA*?
-Shapes.RegularPolygon"$
-radiusSpaceShapes.ThicknessSpace*
-2*.
-2BY B(Y"
-BX B(Y
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.RegularPolygonX
+8Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillEnd.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*"0*Â
+0
+Ï+ Ï(+´
+®
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*_
+Shapes.MpbRegularPolygon"A
+Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbRegularPolygon

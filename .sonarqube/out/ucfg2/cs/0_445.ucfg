@@ -1,35 +1,47 @@
 
-Shapes.Rectangle.FillType.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csœ œ("0*
+$Shapes.Rectangle.GetNetDashSpacing()
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csŠ Š("0*
 0
-œ œ(*
-1*ñ
+Š Š(*
+1*á
 1
-œ
- œ(f
-d
+Š Š(hˆ
+…
 
-œ
- œ(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFills
-q
+Š Š(h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*"
 
-œ
- œ(
-%retShapes.FillType"__id*D
+Š Š(0
+Shapes.Rectangle*C
 
-œ
- œ(6*4
-
-%0Shapes.GradientFill"
-typeShapes.FillType*
-2*8
+Š2 Š(;5*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyle*4
+
+Š= Š(C&*$
+Shapes.Rectangle"
+dashedbool*D
+
+ŠE Š([6*4
+Shapes.Rectangle"
+matchDashSpacingToSizebool*8
+
+Š] Š(f**(
+Shapes.Rectangle"
+	thicknessfloat@
+>
+
+Š Š(h
+%retfloat"__id*
+
+Š Š(h
+
+%0float*
+2*.
 2
-œ œ("'
+Ši Š(i"
 
-œ œ(
-
-%retShapes.FillTypeB
+Šh Š(i
+
+%retfloatB
 Shapes.RectangleX

@@ -1,44 +1,51 @@
 
-Shapes.Disc.ArcEndCaps.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs∂ ∂("0*
-0
-∂ ∂(*
-1*Ë
-1
-∂
- ∂(Ud
-b
+Shapes.Line.DashSpacing.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csc c("0*
+0c c(*
+1*
+1c
+ c( *
+2
+3*«
+2c# c(1^
+\
+c# c(,
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleS
+Q
+c# c(1
+	%capture0float"__id*+)*'
+
+%0Shapes.DashStyle"
+sizefloat*
+4* 
+3c4 c(E^
+\
+c4 c(=
+%1Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleV
+T
+c4 c(E
+	%capture0float"__id*.,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+4*W
+4c
+ c(EC
+A
+c
+ c(E
+%retfloat"__id* 
+c
+ c(E
+
+	%capture0float*
+5**
+5cF c(F"
+cE c(F
 
-∂? ∂(Q/
-Shapes.Disc"
-
-arcEndCapsShapes.ArcEndCap"__id*
-
-valueShapes.ArcEndCapÎ
-Ë
-
-∂
- ∂(U
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
-∂
- ∂(
-Shapes.Disc*D
-
-∂ ∂(66*4
-Shapes.ShapesMaterialUtils"
-propRoundCapsint*?
-
-∂8 ∂(S1*/
-Shapes.Disc"
-
-arcEndCapsShapes.ArcEndCap*
-2*2
-2
-∂V ∂(V"!
-
-∂U ∂(V
-implicit return:
-valueShapes.ArcEndCapB
-Shapes.DiscX
+%retfloatB
+Shapes.LineX

@@ -1,33 +1,35 @@
 
-Shapes.Draw.DiscRadius.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŒ Œ("0*
-0
-Œ Œ(*
-1*«
-1
-Œ
- Œ(\
-Z
+*Shapes.MpbCuboid.TransferShapeProperties()ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs (1"0*
+0 (*
+1*–
+1 (<û
+õ
+ (1
 
-Œ
- Œ(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleS
-Q
+%0void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Vector4>)* 
+ (
+Shapes.MpbCuboid*=
+ ()1*/
+Shapes.ShapesMaterialUtils"
+propSizeint*N
++ (/B*@
+Shapes.MpbCuboid"*
+size"System.Collections.Generic.List<T>ö
+ó
+ (;
 
-Œ
- Œ()
-
-%0Shapes.DrawStyle"
-radiusfloat"__id*
-
-valuefloat*
-2*2
-2
-Œ Œ("!
-
-Œ Œ(
-implicit return:
-valuefloatB"
-Shapes.DrawX
+%1void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)* 
+ (
+Shapes.MpbCuboid*B
+ (.6*4
+Shapes.ShapesMaterialUtils"
+propSizeSpaceint*S
+0 (9G*E
+Shapes.MpbCuboid"/
+	sizeSpace"System.Collections.Generic.List<T>*
+2*.
+2 ("
+ (
+implicit returnB
+Shapes.MpbCuboidX

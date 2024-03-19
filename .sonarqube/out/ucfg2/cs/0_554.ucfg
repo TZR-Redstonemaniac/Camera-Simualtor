@@ -1,50 +1,21 @@
 
-!Shapes.Rectangle.FillColorEnd.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs≈ ≈("0*
-0
-≈ ≈(*
-1*˚
-1
-≈
- ≈(Pf
-d
-
-≈9 ≈(=
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillp
-n
-
-≈9 ≈(N:
-
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color"__id*
-
-valueUnityEngine.Colorä
-á
-
-≈
- ≈(P
-
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*"
-
-≈
- ≈(
-Shapes.Rectangle*C
-
-≈ ≈(75*3
-Shapes.ShapesMaterialUtils"
-propColorEndint*J
-
-≈9 ≈(N<*:
-
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color*
-2*2
-2
-≈Q ≈(Q"!
-
-≈P ≈(Q
-implicit return:
-valueUnityEngine.ColorB
-Shapes.RectangleX
+ Shapes.RegularPolygon.Border.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs ("0*
+0 (*
+1*m
+1
+ (Y
+W
+
+ (
+%retbool"__id*7
+
+ (+*)
+Shapes.RegularPolygon"
+borderbool*
+2*)
+2 ("
+ (
+
+%retboolB
+Shapes.RegularPolygonX

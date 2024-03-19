@@ -1,30 +1,21 @@
 
-Shapes.Draw.UseGradientFill.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csº º("0*
-0
-º º(*
-1*À
-1
-º! º(;\
-Z
-
-º! º(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleW
-U
-
-º! º(;.
-
-%0Shapes.DrawStyle"
-useGradientsbool"__id*
-
-valuebool*
-2*2
-2
-º< º(<"!
-
-º; º(<
-implicit return:
-valueboolB"
-Shapes.DrawX
+Shapes.Triangle.C.getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csv v("0*
+0v v(*
+1*Ä
+1v
+ v(l
+j
+v
+ v(
+%retUnityEngine.Vector3"__id*;
+v
+ v(/*-
+Shapes.Triangle"
+cUnityEngine.Vector3*
+2*8
+2v v(")
+v v(
+
+%retUnityEngine.Vector3B
+Shapes.Triangle

@@ -1,120 +1,27 @@
 
-†Shapes.ShapesMath.WeightedSum(UnityEngine.Vector4, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)~
-tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMath.cs#/ #(:"0*
-0# #(*
-1*²
-1	#w #(œÝ
-Ú
-#w #(~
-%0UnityEngine.Vector3":UnityEngine.Vector3.operator *(float, UnityEngine.Vector3)*"
-UnityEngine.Vector3*4
-#w #(z(*&
-
-wUnityEngine.Vector4"
+Shapes.Quad.ColorC.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csè è("0*
+0
+è è(*
+1*ƒ
+1
+è
+ è(m
+k
 
-xfloat*&
-#} #(~
-
-aUnityEngine.Vector3ã
-à
+è
+ è(
+%retUnityEngine.Color"__id*<
 
-# #(ˆ
-%1UnityEngine.Vector3":UnityEngine.Vector3.operator *(float, UnityEngine.Vector3)*"
-UnityEngine.Vector3*6
-
-# #(„(*&
-
-wUnityEngine.Vector4"
-
-yfloat*(
-
-#‡ #(ˆ
-
-bUnityEngine.Vector3â
-ß
-	#w #(ˆ
-%2UnityEngine.Vector3"HUnityEngine.Vector3.operator +(UnityEngine.Vector3, UnityEngine.Vector3)*"
-UnityEngine.Vector3*'
-#w #(~
-
-%0UnityEngine.Vector3*)
-
-# #(ˆ
-
-%1UnityEngine.Vector3ã
-à
-
-#‹ #(’
-%3UnityEngine.Vector3":UnityEngine.Vector3.operator *(float, UnityEngine.Vector3)*"
-UnityEngine.Vector3*6
-
-#‹ #(Ž(*&
-
-wUnityEngine.Vector4"
-
-zfloat*(
-
-#‘ #(’
-
-cUnityEngine.Vector3ã
-à
-	#w #(’
-%4UnityEngine.Vector3"HUnityEngine.Vector3.operator +(UnityEngine.Vector3, UnityEngine.Vector3)*"
-UnityEngine.Vector3*(
-	#w #(ˆ
-
-%2UnityEngine.Vector3*)
-
-#‹ #(’
-
-%3UnityEngine.Vector3ã
-à
-
-#• #(œ
-%5UnityEngine.Vector3":UnityEngine.Vector3.operator *(float, UnityEngine.Vector3)*"
-UnityEngine.Vector3*6
-
-#• #(˜(*&
-
-wUnityEngine.Vector4"
-
-wfloat*(
-
-#› #(œ
-
-dUnityEngine.Vector3ã
-à
-	#w #(œ
-%6UnityEngine.Vector3"HUnityEngine.Vector3.operator +(UnityEngine.Vector3, UnityEngine.Vector3)*"
-UnityEngine.Vector3*(
-	#w #(’
-
-%4UnityEngine.Vector3*)
-
-#• #(œ
-
-%5UnityEngine.Vector3Z
-X
-	#w #(œ
-%retUnityEngine.Vector3"__id*(
-	#w #(œ
-
-%6UnityEngine.Vector3*
-2*<
+è
+ è(.*,
+Shapes.Quad"
+colorCUnityEngine.Color*
+2*:
 2
-# #("+
+è è(")
 
-#œ #(
-
-%retUnityEngine.Vector3:$
-#< #(E
-wUnityEngine.Vector4:$
-#G #(P
-aUnityEngine.Vector3:$
-#R #([
-bUnityEngine.Vector3:$
-#] #(f
-cUnityEngine.Vector3:$
-#h #(q
-dUnityEngine.Vector3B"
-Shapes.ShapesMath
+è è(
+
+%retUnityEngine.ColorB
+Shapes.Quad

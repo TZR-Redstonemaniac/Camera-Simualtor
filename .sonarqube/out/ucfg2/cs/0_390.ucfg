@@ -1,24 +1,30 @@
 
-Shapes.ShapeGroup.Color.setƒ
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs% %("0*
-0% %(*
-1*Ý
-1& '(e
-c
-& &(1
-Shapes.ShapeGroup"
-colorUnityEngine.Color"__id*
-
-valueUnityEngine.Colorb
-`
-' '(
-
-%0void"%Shapes.ShapeGroup.UpdateChildShapes()*!
-' '(
-Shapes.ShapeGroup*
-2*.
-2( (("
-( ((
-implicit return:
-valueUnityEngine.ColorB
-Shapes.ShapeGroupX
+Shapes.Draw.StencilComp.getŒ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csY Y("0*
+0Y Y(*
+1*‚
+1Y! Y(>Z
+X
+Y! Y(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+Y! Y(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderState¢
+Ÿ
+Y! Y(>-
+%ret%UnityEngine.Rendering.CompareFunction"__id*^
+Y! Y(>R*P
+
+%1Shapes.RenderState"4
+stencilComp%UnityEngine.Rendering.CompareFunction*
+2*J
+2Y? Y(?";
+Y> Y(?/
+-
+%ret%UnityEngine.Rendering.CompareFunctionB"
+Shapes.DrawX

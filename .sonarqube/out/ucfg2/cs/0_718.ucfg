@@ -1,17 +1,27 @@
 
-8Shapes.MpbDisc.Shapes.IDashableMpb.dashShapeModifier.get‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs4/ 4(2"0*Ž
-043 4(3»
-¸
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs4/ 4(2.
-%ret&System.Collections.Generic.List<float>"__id*ñ
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs4/ 4(2a*_
-Shapes.MpbDisc"K
-%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"À
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs4/ 4(20
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbDisc
+Shapes.Triangle.ColorB.getƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs¨ ¨("0*
+0
+¨ ¨(*
+1*‡
+1
+¨
+ ¨(q
+o
+
+¨
+ ¨(
+%retUnityEngine.Color"__id*@
+
+¨
+ ¨(2*0
+Shapes.Triangle"
+colorBUnityEngine.Color*
+2*:
+2
+¨ ¨(")
+
+¨ ¨(
+
+%retUnityEngine.ColorB
+Shapes.Triangle

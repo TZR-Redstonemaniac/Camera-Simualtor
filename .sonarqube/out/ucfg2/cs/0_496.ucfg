@@ -1,31 +1,35 @@
 
-Shapes.Draw.BlendMode.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csá á("0*
+*Shapes.RegularPolygon.FillRadialRadius.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¥ ¥("0*
 0
-á á(*
-1*˘
+¥ ¥(*
+1*Í
 1
-á! á(0\
-Z
+¥
+ ¥(k
+i
 
-á! á(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleÑ
-Å
+¥
+ ¥(
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillg
+e
 
-á! á(0
-%retShapes.ShapesBlendMode"__id*M
+¥
+ ¥(
+%retfloat"__id*B
 
-á! á(0?*=
-
-%0Shapes.DrawStyle"#
-	blendModeShapes.ShapesBlendMode*
-2*?
+¥
+ ¥(4*2
+
+%0Shapes.GradientFill"
+radialRadiusfloat*
+2*.
 2
-á1 á(1".
+¥ ¥("
 
-á0 á(1 
-
-%retShapes.ShapesBlendModeB"
-Shapes.DrawX
+¥ ¥(
+
+%retfloatB
+Shapes.RegularPolygonX

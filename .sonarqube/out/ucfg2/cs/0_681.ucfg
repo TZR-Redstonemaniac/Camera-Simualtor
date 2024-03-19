@@ -1,39 +1,30 @@
 
-&Shapes.Draw.GradientFillColorStart.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÓ Ó("0*
+'Shapes.Draw.RegularPolygonSideCount.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csá á("0*
 0
-Ó Ó(*
-1*å
+á á(*
+1*Ô
 1
-Ó! Ó(>\
+á! á(F\
 Z
 
-Ó! Ó(&
+á! á(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyler
-p
+styleShapes.DrawStyle`
+^
 
-Ó! Ó(3
-%1Shapes.GradientFill"__id*A?*=
+á! á(F8
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill}
-{
-
-Ó! Ó(>
-%retUnityEngine.Color"__id*L
-
-Ó! Ó(>>*<
-
-%1Shapes.GradientFill"
-
-colorStartUnityEngine.Color*
-2*:
+%0Shapes.DrawStyle"
+regularPolygonSideCountint"__id*
+
+valueint*
+2*2
 2
-Ó? Ó(?")
+áG á(G"!
 
-Ó> Ó(?
-
-%retUnityEngine.ColorB"
-Shapes.Draw
+áF á(G
+implicit return:
+valueintB"
+Shapes.DrawX

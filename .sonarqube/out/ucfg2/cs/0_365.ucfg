@@ -1,80 +1,64 @@
 
-Shapes.Triangle.DashSpace.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÑ Ñ("0*
+ Shapes.Rectangle.DashSpacing.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÏ Ï("0*
 0
-Ñ Ñ(*
-1*´
+Ï Ï(*
+1*
 1
-Ö Ü(gd
-b
-
-Ö6 Ö(?
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyleh
-f
-
-Ö6 Ö(M3
-
-%0Shapes.DashStyle"
-spaceShapes.DashSpace"__id*
-
-valueShapes.DashSpace
-Ì
-
-Ö Ö(Q
-
-%1void"%Shapes.ShapeRenderer.SetInt(int, int)*!
-
-Ö Ö(
-
-Shapes.Triangle*D
-
-Ö Ö(-6*4
-Shapes.ShapesMaterialUtils"
-propDashSpaceint*C
-
-Ö/ Ö(O5*3
-
-%0Shapes.DashStyle"
-spaceShapes.DashSpaceÄ
-˝
-
-Ü3 Ü(d
-%2float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*B
-
-Ü3 Ü(<4*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyle*3
-
-ÜQ Ü(W%*#
-Shapes.Triangle"
-dashedbool*7
-
-ÜY Ü(b)*'
-Shapes.Triangle"
-	thicknessfloatŒ
-À
-
-Ü Ü(f
-
-%3void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
-
-Ü Ü(
-Shapes.Triangle*C
-
-Ü Ü(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*
-
-Ü3 Ü(d
-
-%2float*
-2*2
+Ï
+ Ï( *
+2
+3*“
 2
-á á("!
+Ï# Ï(1e
+c
 
-á á(
-implicit return:
-valueShapes.DashSpaceB
-Shapes.TriangleX
+Ï# Ï(,
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyleU
+S
+
+Ï# Ï(1
+	%capture0float"__id*+)*'
+
+%0Shapes.DashStyle"
+sizefloat*
+4*’
+3
+Ï4 Ï(Ee
+c
+
+Ï4 Ï(=
+%1Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyleX
+V
+
+Ï4 Ï(E
+	%capture0float"__id*.,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+4*]
+4
+Ï
+ Ï(EG
+E
+
+Ï
+ Ï(E
+%retfloat"__id*"
+
+Ï
+ Ï(E
+
+	%capture0float*
+5*.
+5
+ÏF Ï(F"
+
+ÏE Ï(F
+
+%retfloatB
+Shapes.RectangleX

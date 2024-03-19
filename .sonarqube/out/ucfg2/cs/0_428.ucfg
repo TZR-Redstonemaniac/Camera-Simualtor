@@ -1,35 +1,30 @@
 
-Shapes.Polygon.FillColorEnd.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csæ æ("0*
-0
-æ æ(*
-1*˜
-1
-æ
- æ(d
-b
+ Shapes.Draw.StencilWriteMask.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csn n("0*
+0n n(*
+1*∫
+1n! n(KZ
+X
+n! n(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+n! n(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderState[
+Y
+n! n(K4
+
+%1Shapes.RenderState"
+stencilWriteMaskbyte"__id*
 
-æ
- æ(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFill{
-y
-
-æ
- æ(
-%retUnityEngine.Color"__id*J
-
-æ
- æ(<*:
-
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color*
-2*:
-2
-æ æ(")
-
-æ æ(
-
-%retUnityEngine.ColorB
-Shapes.Polygon
+valuebyte*
+2*.
+2nL n(L"
+nK n(L
+implicit return:
+valuebyteB"
+Shapes.DrawX

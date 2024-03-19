@@ -1,18 +1,33 @@
 
-BShapes.MpbRegularPolygon.Shapes.IDashableMpb.dashShapeModifier.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÛ/ Û(2"0*†
+Shapes.Draw.SphereRadius.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÆ Æ("0*
 0
-Û3 Û(3…
-∆
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÛ/ Û(2.
-%ret&System.Collections.Generic.List<float>"__id*˝
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÛ/ Û(2k*i
-Shapes.MpbRegularPolygon"K
-%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÛ/ Û(20
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRegularPolygon
+Æ Æ(*
+1*«
+1
+Æ
+ Æ(\
+Z
+
+Æ
+ Æ(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleS
+Q
+
+Æ
+ Æ()
+
+%0Shapes.DrawStyle"
+radiusfloat"__id*
+
+valuefloat*
+2*2
+2
+Æ Æ("!
+
+Æ Æ(
+implicit return:
+valuefloatB"
+Shapes.DrawX

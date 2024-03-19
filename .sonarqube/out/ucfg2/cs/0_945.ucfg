@@ -1,21 +1,44 @@
 
- Shapes.DashStyle.UniformSize.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.csC C("0*
-0C C(*
-1*h
-1C
- C(T
-R
-C
- C(
-%retfloat"__id*1
-C
- C(%*#
-Shapes.DashStyle"
-sizefloat*
-2**
-2C C("
-C C(
+Shapes.Disc.ArcEndCaps.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs¶ ¶("0*
+0
+¶ ¶(*
+1*è
+1
+¶
+ ¶(Ud
+b
 
-%retfloatB
-Shapes.DashStyleX
+¶? ¶(Q/
+Shapes.Disc"
+
+arcEndCapsShapes.ArcEndCap"__id*
+
+valueShapes.ArcEndCapë
+è
+
+¶
+ ¶(U
+
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+
+¶
+ ¶(
+Shapes.Disc*D
+
+¶ ¶(66*4
+Shapes.ShapesMaterialUtils"
+propRoundCapsint*?
+
+¶8 ¶(S1*/
+Shapes.Disc"
+
+arcEndCapsShapes.ArcEndCap*
+2*2
+2
+¶V ¶(V"!
+
+¶U ¶(V
+implicit return:
+valueShapes.ArcEndCapB
+Shapes.DiscX

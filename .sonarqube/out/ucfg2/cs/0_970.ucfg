@@ -1,20 +1,18 @@
 
-Shapes.ShapeRenderer.Mesh.setÜ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs ("0*
-0 (*
-1*∆
-1 ('±
-Æ
- ('
-%0UnityEngine.Mesh"%UnityEngine.MeshFilter.sharedMesh.set*D
- (8*6
-Shapes.ShapeRenderer"
-mfUnityEngine.MeshFilter*
-
-valueUnityEngine.Mesh*
-2*.
-2( (("
-' ((
-implicit return:
-valueUnityEngine.MeshB
-Shapes.ShapeRendererX
+:Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillStart.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,"0*¥
+0
+Ó- Ó(-œ
+Ã
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*ı
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,c*a
+Shapes.MpbRegularPolygon"C
+Shapes.IFillableMpb.fillStart"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbRegularPolygon

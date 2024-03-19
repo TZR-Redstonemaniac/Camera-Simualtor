@@ -1,76 +1,42 @@
 
-Shapes.Disc.DashSize.setõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
-0 (*
-1*
-1 (^
-\
- (
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleO
-M
- ('
-
-%0Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloatÏ
-È
- (I
-%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*<
- (!0*.
-Shapes.Disc"
-	dashStyleShapes.DashStyle*-
-6 (<!*
-Shapes.Disc"
-dashedbool*1
-> (G%*#
-Shapes.Disc"
-	thicknessfloat9
-7
-
- (I
-netDashSizefloat"__id*
-
-%1float*
-2
-3*∞
-2   (JW
-U
- 4  (G
-%2float"Shapes.Disc.GetNetDashSpacing()*
- 4  (E
-Shapes.Disc¬
-ø
-   (I
-
-%3void")Shapes.ShapeRenderer.SetFloat(int, float)*
-   (
-Shapes.Disc*D
-   (28*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
- 4  (G
-
-%2float*
-3*‡
-3! !(AÀ
-»
-! !(@
-
-%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-! !(
-Shapes.Disc*A
-! !(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*"
-!3 !(>
-
-netDashSizefloat*
-4*.
-4" "("
-" "(
-implicit return:
-valuefloatB
-Shapes.DiscX
+>Shapes.DiscColors.Radial(UnityEngine.Color, UnityEngine.Color)á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs& &(!"0*
+0& &(*
+1*Ñ
+1&A &(m86
+&A &(m
+%0Shapes.DiscColors"Shapes.DiscColorsﬂ
+‹
+&A &(m
+%1Shapes.DiscColors"hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)*%
+&A &(m
+
+%0Shapes.DiscColors*(
+&Q &(V
+
+innerUnityEngine.Color*(
+&X &(]
+
+outerUnityEngine.Color*(
+&_ &(d
+
+innerUnityEngine.Color*(
+&f &(k
+
+outerUnityEngine.ColorT
+R
+&A &(m
+%retShapes.DiscColors"__id*%
+&A &(m
+
+%0Shapes.DiscColors*
+2*6
+2&n &(n"'
+&m &(n
+
+%retShapes.DiscColors:&
+&# &(.
+innerUnityEngine.Color:&
+&0 &(;
+outerUnityEngine.ColorB"
+Shapes.DiscColors

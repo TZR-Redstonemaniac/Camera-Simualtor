@@ -1,33 +1,37 @@
 
-Shapes.Disc.ColorOuterEnd.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csT T("0*
-0T T(*
-1*ù
-1T
- T(Ug
-e
-T> T(S3
-Shapes.Disc""
-colorOuterEndUnityEngine.Color"__id*
-
-valueUnityEngine.Colorû
-ø
-T
- T(U
+Shapes.Draw.DashType.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csˆ ˆ("0*
+0
+ˆ ˆ(*
+1*Ä
+1
+ˆ! ˆ(=\
+Z
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-T
- T(
-Shapes.Disc*F
-T T(<:*8
-Shapes.ShapesMaterialUtils"
-propColorOuterEndint*A
-T> T(S5*3
-Shapes.Disc""
-colorOuterEndUnityEngine.Color*
-2*.
-2TV T(V"
-TU T(V
-implicit return:
-valueUnityEngine.ColorB
-Shapes.DiscX
+ˆ! ˆ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+ˆ! ˆ(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStylee
+c
+
+ˆ! ˆ(=1
+
+%1Shapes.DashStyle"
+typeShapes.DashType"__id*
+
+valueShapes.DashType*
+2*2
+2
+ˆ> ˆ(>"!
+
+ˆ= ˆ(>
+implicit return:
+valueShapes.DashTypeB"
+Shapes.DrawX

@@ -219,9 +219,6 @@
       <Key>S2930</Key>
     </Rule>
     <Rule>
-      <Key>S2931</Key>
-    </Rule>
-    <Rule>
       <Key>S2068</Key>
       <Parameters>
         <Parameter>
@@ -548,9 +545,6 @@
     </Rule>
     <Rule>
       <Key>S3902</Key>
-    </Rule>
-    <Rule>
-      <Key>S3898</Key>
     </Rule>
     <Rule>
       <Key>S3880</Key>
@@ -918,9 +912,6 @@
     </Rule>
     <Rule>
       <Key>S3717</Key>
-    </Rule>
-    <Rule>
-      <Key>S1659</Key>
     </Rule>
     <Rule>
       <Key>S1656</Key>

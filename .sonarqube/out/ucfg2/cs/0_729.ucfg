@@ -1,18 +1,43 @@
 
-6Shapes.MpbPolygon.Shapes.IFillableMpb.fillColorEnd.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/"0*∞
+Shapes.Triangle.ColorC.setÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csØ Ø("0*
 0
-ã0 ã(0À
-»
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*Ò
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/_*]
-Shapes.MpbPolygon"F
- Shapes.IFillableMpb.fillColorEnd"System.Collections.Generic.List<T>"–
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/>
-<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
-Shapes.MpbPolygon
+Ø Ø(*
+1*¸
+1
+Ø
+ Ø(Gf
+d
+
+Ø7 Ø(E0
+Shapes.Triangle"
+colorCUnityEngine.Color"__id*
+
+valueUnityEngine.Color˝
+˙
+
+Ø
+ Ø(G
+
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
+
+Ø
+ Ø(
+Shapes.Triangle*A
+
+Ø Ø(53*1
+Shapes.ShapesMaterialUtils"
+
+propColorCint*@
+
+Ø7 Ø(E2*0
+Shapes.Triangle"
+colorCUnityEngine.Color*
+2*2
+2
+ØH Ø(H"!
+
+ØG Ø(H
+implicit return:
+valueUnityEngine.ColorB
+Shapes.TriangleX

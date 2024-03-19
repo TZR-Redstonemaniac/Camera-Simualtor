@@ -1,12 +1,0 @@
-Ã
-RayTracingManagerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject$
-Start()RayTracingManager.Start(),
-OnDestroy()RayTracingManager.OnDestroy()œ
-COnRenderImage(UnityEngine.RenderTexture, UnityEngine.RenderTexture)URayTracingManager.OnRenderImage(UnityEngine.RenderTexture, UnityEngine.RenderTexture)0
-InitShaders()RayTracingManager.InitShaders()T
-Init(UnityEngine.RenderTexture)1RayTracingManager.Init(UnityEngine.RenderTexture)b
-&UpdateCameraParams(UnityEngine.Camera)8RayTracingManager.UpdateCameraParams(UnityEngine.Camera)B
-UpdateMaterialParams()(RayTracingManager.UpdateMaterialParams()4
-HandleSpheres()!RayTracingManager.HandleSpheres()2
-HandleMeshes() RayTracingManager.HandleMeshes()<
-RayTracingManager()%RayTracingManager.RayTracingManager()

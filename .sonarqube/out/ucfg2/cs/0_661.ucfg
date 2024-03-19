@@ -1,19 +1,27 @@
 
--Shapes.ShapeRendererFillable.FillColorEnd.setè
-ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs8 8("0*
-08 8(*
-1*_
-18
- 8(K
-I
-8
- 8(
-%0UnityEngine.Color"__id*
-
-valueUnityEngine.Color*
+Shapes.Disc.AngRadiansEnd.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csç ç("0*
+0
+ç ç(*
+1*r
+1
+ç
+ ç(\
+Z
+
+ç
+ ç(
+%retfloat"__id*7
+
+ç
+ ç()*'
+Shapes.Disc"
+angRadiansEndfloat*
 2*.
-28 8("
-8 8(
-implicit return:
-valueUnityEngine.ColorB 
-Shapes.ShapeRendererFillableX
+2
+ç ç("
+
+ç ç(
+
+%retfloatB
+Shapes.DiscX

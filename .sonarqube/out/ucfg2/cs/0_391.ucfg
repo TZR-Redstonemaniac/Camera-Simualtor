@@ -1,50 +1,33 @@
 
-Shapes.Rectangle.DashType.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csƒ ƒ("0*
-0
-ƒ ƒ(*
-1*Ö
-1
-ƒ
- ƒ(Xe
-c
+Shapes.Line.End.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csK K("0*
+0K K(*
+1*ê
+1K
+ K(Ha
+_
+K; K(F+
+Shapes.Line"
+endUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ò
+ï
+K
+ K(H
 
-ƒ> ƒ(G
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStylee
-c
-
-ƒ> ƒ(T1
-
-%0Shapes.DashStyle"
-typeShapes.DashType"__id*
-
-valueShapes.DashTypeñ
-î
-
-ƒ
- ƒ(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
-
-ƒ
- ƒ(
-Shapes.Rectangle*C
-
-ƒ ƒ(55*3
+%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
+K
+ K(
+Shapes.Line*A
+K K(95*3
 Shapes.ShapesMaterialUtils"
-propDashTypeint*A
-
-ƒ7 ƒ(V3*1
-
-%0Shapes.DashStyle"
-typeShapes.DashType*
-2*2
-2
-ƒY ƒ(Y"!
-
-ƒX ƒ(Y
-implicit return:
-valueShapes.DashTypeB
-Shapes.RectangleX
+propPointEndint*9
+K; K(F-*+
+Shapes.Line"
+endUnityEngine.Vector3*
+2*.
+2KI K(I"
+KH K(I
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.LineX

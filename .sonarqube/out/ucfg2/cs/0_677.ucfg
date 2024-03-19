@@ -1,47 +1,27 @@
 
-Shapes.Line.GetNetDashSpacing()ù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÅ Å("0*
+Shapes.Disc.Radius.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csì ì("0*
 0
-Å Å(*
-1*»
+ì ì(*
+1*k
 1
-Å Å(hÔ
-Ï
+ì
+ ì(U
+S
 
-Å Å(h
-%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
+ì
+ ì(
+%retfloat"__id*0
 
-Å Å(0
-Shapes.Line*>
-
-Å2 Å(;0*.
-Shapes.Line"
-	dashStyleShapes.DashStyle*/
-
-Å= Å(C!*
-Shapes.Line"
-dashedbool*?
-
-ÅE Å([1*/
-Shapes.Line"
-matchDashSpacingToSizebool*3
-
-Å] Å(f%*#
-Shapes.Line"
-	thicknessfloat@
->
-
-Å Å(h
-%retfloat"__id*
-
-Å Å(h
-
-%0float*
+ì
+ ì("* 
+Shapes.Disc"
+radiusfloat*
 2*.
 2
-Åi Å(i"
+ì ì("
 
-Åh Å(i
+ì ì(
 
 %retfloatB
-Shapes.LineX
+Shapes.DiscX

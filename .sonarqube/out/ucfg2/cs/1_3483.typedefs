@@ -1,7 +1,5 @@
-è
-Shapes.CrosshairUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject!
-Fire()Shapes.Crosshair.Fire()'
-	FireHit()Shapes.Crosshair.FireHit()A
-UpdateCrosshairDecay()'Shapes.Crosshair.UpdateCrosshairDecay()3
-DrawCrosshair() Shapes.Crosshair.DrawCrosshair()+
-Crosshair()Shapes.Crosshair.Crosshair()
+¶
+Shapes.ChargeBarUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject1
+UpdateCharge()Shapes.ChargeBar.UpdateCharge()]
+$DrawBar(Shapes.FpsController, float)5Shapes.ChargeBar.DrawBar(Shapes.FpsController, float)+
+ChargeBar()Shapes.ChargeBar.ChargeBar()

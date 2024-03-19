@@ -1,17 +1,28 @@
 
-8Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillEnd.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*"0*Â
-0
-Ï+ Ï(+´
-®
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*_
-Shapes.MpbRegularPolygon"A
-Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRegularPolygon
+Shapes.Line.DashType.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csy y("0*
+0y y(*
+1*‡
+1y
+ y(^
+\
+y
+ y(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStylel
+j
+y
+ y(
+%retShapes.DashType"__id*?
+y
+ y(3*1
+
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*4
+2y y("%
+y y(
+
+%retShapes.DashTypeB
+Shapes.LineX

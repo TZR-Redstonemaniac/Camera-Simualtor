@@ -1,38 +1,33 @@
 
-RShapes.ShapesMeshUtils.EnsureValidMeshBounds(UnityEngine.Mesh, UnityEngine.Bounds)É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMeshUtils.cs: :(#"0*
-0: :(*
-1*ˆ
-1; =({
-y
-; ;(-
-%0UnityEngine.HideFlags" UnityEngine.Object.hideFlags.set*&
-; ;(
-
-meshUnityEngine.Mesh*2é
-ã
-< <(
-%1UnityEngine.Bounds"UnityEngine.Mesh.bounds.set*&
-< <(
-
-meshUnityEngine.Mesh* 
-
-boundsUnityEngine.BoundsT
-R
-=
- =(
-%retUnityEngine.Mesh"__id*&
-=
- =(
-
-meshUnityEngine.Mesh*
-2*5
-2> >("&
-> >(
-
-%retUnityEngine.Mesh:$
-:% :(.
-meshUnityEngine.Mesh:(
-:0 :(=
-boundsUnityEngine.BoundsB"
-Shapes.ShapesMeshUtils
+Shapes.Draw.RingThickness.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÏ Ï("0*
+0
+Ï Ï(*
+1* 
+1
+Ï
+ Ï(!\
+Z
+
+Ï
+ Ï(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleV
+T
+
+Ï
+ Ï(!,
+
+%0Shapes.DrawStyle"
+	thicknessfloat"__id*
+
+valuefloat*
+2*2
+2
+Ï" Ï(""!
+
+Ï! Ï("
+implicit return:
+valuefloatB"
+Shapes.DrawX

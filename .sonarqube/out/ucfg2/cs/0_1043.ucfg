@@ -1,103 +1,29 @@
 
-!Shapes.DashStyle.DashStyle(float)„
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs“	 “("0*
-0
-’ ’(*
-1*Á
-
-1
-” š(7l
-j
-
-” ”(
-%0Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStylez
-x
-
-” ”($-
-Shapes.DashStyle"
-typeShapes.DashType"__id*53*1
-
-%0Shapes.DashStyle"
-typeShapes.DashTypel
-j
-
-• •( 
-%1Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStyle~
-|
-
-• •(&/
-Shapes.DashStyle"
-spaceShapes.DashSpace"__id*75*3
-
-%1Shapes.DashStyle"
-spaceShapes.DashSpacel
-j
-
-– –(
-%2Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStyleƒ
-€
-
-– –($1
-Shapes.DashStyle"
-snapShapes.DashSnapping"__id*97*5
-
-%2Shapes.DashStyle"
-snapShapes.DashSnappingL
-J
-
-— —(#
-Shapes.DashStyle"
-sizefloat"__id*
-
-sizefloatO
-M
-
-˜ ˜(&
-Shapes.DashStyle"
-spacingfloat"__id*
-
-sizefloatl
-j
-
-™ ™(!
-%3Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStylej
-h
-
-™ ™((%
-Shapes.DashStyle"
-offsetfloat"__id*-+*)
-
-%3Shapes.DashStyle"
-offsetfloatl
-j
-
-š š((
-%4Shapes.DashStyle"__id*><*:
-Shapes.DashStyle"$
-defaultDashStyleShapes.DashStylex
-v
-
-š š(6,
-Shapes.DashStyle"
-shapeModifierfloat"__id*42*0
-
-%4Shapes.DashStyle"
-shapeModifierfloat*
-2*2
-2
-› ›("!
-
-› ›(
-implicit return:
-
-“ “(
-sizefloatB
-Shapes.DashStyleX
+5Shapes.AngularUnitExtensions.Name(Shapes.AngularUnit)„
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\AngularUnit.cs ("0*
+0 (*
+1*
+18 (OÈ
+Å
+8 (O
+%0string"7System.Collections.Generic.ICollection<T>.this[int].get*H
+8 (D<*:
+Shapes.AngularUnitExtensions"
+angUnitNamesstring[]*(
+E (N
+
+unitShapes.AngularUnit>
+<
+8 (O
+%retstring"__id*
+8 (O
+
+%0string*
+2*+
+2P (P"
+O (P
+
+%retstring:&
+ (2
+unitShapes.AngularUnitB "
+Shapes.AngularUnitExtensions

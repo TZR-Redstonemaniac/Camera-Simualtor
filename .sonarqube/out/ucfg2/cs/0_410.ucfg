@@ -1,30 +1,35 @@
 
-Shapes.Draw.ColorMask.getå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csT T("0*
-0T T(*
-1*˛
-1T! T(<Z
-X
-T! T(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
-k
-T! T(2
-%1Shapes.RenderState"__id*?=*;
+Shapes.Triangle.DashType.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csé é("0*
+0
+é é(*
+1*Ï
+1
+é
+ é(d
+b
+
+é
+ é(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStylep
+n
+
+é
+ é(
+%retShapes.DashType"__id*A
+
+é
+ é(3*1
 
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderStateû
-õ
-T! T(<,
-%ret$UnityEngine.Rendering.ColorWriteMask"__id*[
-T! T(<O*M
-
-%1Shapes.RenderState"1
-	colorMask$UnityEngine.Rendering.ColorWriteMask*
-2*I
-2T= T(=":
-T< T(=.
-,
-%ret$UnityEngine.Rendering.ColorWriteMaskB"
-Shapes.DrawX
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*8
+2
+é é("'
+
+é é(
+
+%retShapes.DashTypeB
+Shapes.TriangleX

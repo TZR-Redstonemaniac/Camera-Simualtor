@@ -1,42 +1,63 @@
 
-%Shapes.ShapeRenderer.StencilRefID.setˆ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs­ ­("0*
+Shapes.Quad.ColorLeft.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs¼ ¼("0*
 0
-­ ­(*
-1*÷
+¼ ¼(*
+1*Æ
 1
-­
- ­(bW
-U
+½ ¾(Ba
+_
 
-­L ­(`.
-Shapes.ShapeRenderer"
-stencilRefIDbyte"__id*
+½- ½(:+
+Shapes.Quad"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.Colorð
+í
 
-valuebyte‡
-„
+½ ½(<
 
-­
- ­(b
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
 
-%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
+½ ½(
+Shapes.Quad*@
 
-­
- ­('
-Shapes.ShapeRenderer*D
+½ ½(+2*0
+Shapes.ShapesMaterialUtils"
+	propColorint*;
 
-­) ­(J6*4
-Shapes.ShapesMaterialUtils"
-propStencilIDint*>
+½- ½(:-*+
+Shapes.Quad"
+colorUnityEngine.Colorb
+`
 
-­L ­(`0*.
-Shapes.ShapeRenderer"
-stencilRefIDbyte*
+¾1 ¾(?,
+Shapes.Quad"
+colorBUnityEngine.Color"__id*
+
+valueUnityEngine.Colorõ
+ò
+
+¾ ¾(A
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+
+¾ ¾(
+Shapes.Quad*A
+
+¾ ¾(/3*1
+Shapes.ShapesMaterialUtils"
+
+propColorBint*<
+
+¾1 ¾(?.*,
+Shapes.Quad"
+colorBUnityEngine.Color*
 2*2
 2
-­c ­(c"!
+¿ ¿("!
 
-­b ­(c
-implicit return:
-valuebyteB
-Shapes.ShapeRendererX
+¿ ¿(
+implicit return:
+valueUnityEngine.ColorB
+Shapes.QuadX

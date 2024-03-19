@@ -1,33 +1,21 @@
 
-"Shapes.Draw.LineThicknessSpace.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÂ Â("0*
-0
-Â Â(*
-1*ï
-1
-Â
- Â(&\
-Z
-
-Â
- Â(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle{
-y
-
-Â
- Â(&A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
-2
-Â' Â('"!
-
-Â& Â('
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+Shapes.Quad.ColorMode.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csm m("0*
+0m m(*
+1*
+1m
+ m(|
+z
+m
+ m(!
+%retShapes.Quad.QuadColorMode"__id*E
+m
+ m(9*7
+Shapes.Quad"&
+	colorModeShapes.Quad.QuadColorMode*
+2*>
+2m m("/
+m m(#
+!
+%retShapes.Quad.QuadColorModeB
+Shapes.QuadX

@@ -1,28 +1,99 @@
 
-Shapes.Disc.DashOffset.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs, ,("0*
-0, ,(*
-1*Œ
-1,
- ,(^
-\
-,
- ,(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleZ
-X
-,
- ,(
-%retfloat"__id*7
-,
- ,(+*)
-
-%0Shapes.DashStyle"
-offsetfloat*
-2**
-2, ,("
-, ,(
+"Shapes.RegularPolygon.DashSize.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÈ È("0*
+0
+È È(*
+1*®
+1
+Í Ï(j
+h
 
-%retfloatB
-Shapes.DiscX
+Í Í(
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyleQ
+O
+
+Í Í('
+
+%0Shapes.DashStyle"
+sizefloat"__id*
+
+valuefloatí
+è
+
+Î Î(I
+%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*H
+
+Î Î(!:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyle*9
+
+Î6 Î(<+*)
+Shapes.RegularPolygon"
+dashedbool*=
+
+Î> Î(G/*-
+Shapes.RegularPolygon"
+	thicknessfloat;
+9
+
+Î
+ Î(I
+netDashSizefloat"__id*
+
+%1float*
+2
+3*‹
+2
+Ì Ì(Jo
+m
+
+Ì4 Ì(G
+%2float")Shapes.RegularPolygon.GetNetDashSpacing()*'
+
+Ì4 Ì(E
+Shapes.RegularPolygon‘
+—
+
+Ì Ì(I
+
+%3void")Shapes.ShapeRenderer.SetFloat(int, float)*'
+
+Ì Ì(
+Shapes.RegularPolygon*F
+
+Ì Ì(28*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+
+Ì4 Ì(G
+
+%2float*
+3*Ù
+3
+Ó Ó(A›
+⁄
+
+Ó Ó(@
+
+%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*'
+
+Ó Ó(
+Shapes.RegularPolygon*C
+
+Ó Ó(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*$
+
+Ó3 Ó(>
+
+netDashSizefloat*
+4*2
+4
+Ô Ô("!
+
+Ô Ô(
+implicit return:
+valuefloatB
+Shapes.RegularPolygonX

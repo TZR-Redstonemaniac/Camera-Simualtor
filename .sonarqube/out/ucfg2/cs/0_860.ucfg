@@ -1,17 +1,40 @@
 
-9Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSize.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()"0*Ê
-0
-Ù* Ù(*¨
-©
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()`
-Shapes.MpbRegularPolygon"B
-Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRegularPolygon
+!Shapes.Line.DashShapeModifier.setõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs~ ~("0*
+0~ ~(*
+1*ø
+1~
+ ~(c^
+\
+~B ~(K
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleX
+V
+~B ~(a0
+
+%0Shapes.DashStyle"
+shapeModifierfloat"__id*
+
+valuefloat
+Ì
+~
+ ~(c
+
+%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+~
+ ~(
+Shapes.Line*J
+~ ~(@>*<
+Shapes.ShapesMaterialUtils"
+propDashShapeModifierint*>
+~B ~(a2*0
+
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2*.
+2~d ~(d"
+~c ~(d
+implicit return:
+valuefloatB
+Shapes.LineX

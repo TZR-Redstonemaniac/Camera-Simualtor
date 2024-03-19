@@ -1,38 +1,37 @@
 
-(Shapes.Draw.GradientFillRadialOrigin.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÎ Î("0*
+Shapes.Draw.TextAlign.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csà à("0*
 0
-Î Î(*
-1*Ì
+à à(*
+1*À
 1
-Î! Î(@\
+à! à(B\
 Z
 
-Î! Î(&
+à! à(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyler
-p
+styleShapes.DrawStylei
+g
 
-Î! Î(3
-%1Shapes.GradientFill"__id*A?*=
+à! à(0
+%1Shapes.TextStyle"__id*;9*7
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillÑ
-Å
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStylel
+j
 
-Î! Î(@
-%retUnityEngine.Vector3"__id*P
-
-Î! Î(@B*@
+à! à(B7
+
+%1Shapes.TextStyle"
+	alignmentShapes.TextAlign"__id*
 
-%1Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3*
-2*<
+valueShapes.TextAlign*
+2*2
 2
-ÎA Î(A"+
+àC à(C"!
 
-Î@ Î(A
-
-%retUnityEngine.Vector3B"
-Shapes.Draw
+àB à(C
+implicit return:
+valueShapes.TextAlignB"
+Shapes.DrawX

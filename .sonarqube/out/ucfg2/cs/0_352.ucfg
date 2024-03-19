@@ -1,54 +1,33 @@
 
-#Shapes.Polygon.FillRadialRadius.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs© ©("0*
-0
-© ©(*
-1*á
-1
-ª «(Td
-b
+Shapes.Line.ColorStart.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs9 9("0*
+09 9(*
+1*á
+19
+ 9(E_
+]
+96 9(C+
+Shapes.Line"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.Colorë
+è
+9
+ 9(E
 
-ª ª(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFill\
-Z
-
-ª ª(2
-
-%0Shapes.GradientFill"
-radialRadiusfloat"__id*
-
-valuefloat—
-”
-
-«6 «(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
-
-«6 «(:1*/
-Shapes.Polygon"
-fillShapes.GradientFillì
-é
-
-« «(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
-
-« «(
-Shapes.Polygon*D
-
-« «(46*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
-
-«6 «(Q
-
-%1UnityEngine.Vector4*
-2*2
-2
-¬ ¬("!
-
-¬ ¬(
-implicit return:
-valuefloatB
-Shapes.PolygonX
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+9
+ 9(
+Shapes.Line*>
+9 9(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*9
+96 9(C-*+
+Shapes.Line"
+colorUnityEngine.Color*
+2*.
+29F 9(F"
+9E 9(F
+implicit return:
+valueUnityEngine.ColorB
+Shapes.LineX

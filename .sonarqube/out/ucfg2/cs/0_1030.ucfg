@@ -1,38 +1,17 @@
 
-$Shapes.Draw.TextCharacterSpacing.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
-0
-ç ç(*
-1*«
-1
-ç! ç(A\
-Z
-
-ç! ç(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ç! ç(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleh
-f
-
-ç! ç(A
-%retfloat"__id*C
-
-ç! ç(A5*3
-
-%1Shapes.TextStyle"
-characterSpacingfloat*
-2*.
-2
-çB ç(B"
-
-çA ç(B
-
-%retfloatB"
-Shapes.DrawX
+1Shapes.MpbLine2D.Shapes.IDashableMpb.dashType.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs]& ]()"0*á
+0]* ](*¥
+±
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs]& ]().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs]& ]()Z*X
+Shapes.MpbLine2D"B
+Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs]& ]()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine2D

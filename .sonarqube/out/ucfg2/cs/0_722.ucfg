@@ -1,17 +1,43 @@
 
-1Shapes.MpbDisc.Shapes.IDashableMpb.dashOffset.get‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs3( 3(+"0*‡
-03, 3(,´
-±
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs3( 3(+.
-%ret&System.Collections.Generic.List<float>"__id*ê
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs3( 3(+Z*X
-Shapes.MpbDisc"D
-Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"À
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs3( 3(+0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbDisc
+Shapes.Triangle.ColorB.setƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs© ©("0*
+0
+© ©(*
+1*ü
+1
+©
+ ©(Gf
+d
+
+©7 ©(E0
+Shapes.Triangle"
+colorBUnityEngine.Color"__id*
+
+valueUnityEngine.Colorý
+ú
+
+©
+ ©(G
+
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
+
+©
+ ©(
+Shapes.Triangle*A
+
+© ©(53*1
+Shapes.ShapesMaterialUtils"
+
+propColorBint*@
+
+©7 ©(E2*0
+Shapes.Triangle"
+colorBUnityEngine.Color*
+2*2
+2
+©H ©(H"!
+
+©G ©(H
+implicit return:
+valueUnityEngine.ColorB
+Shapes.TriangleX

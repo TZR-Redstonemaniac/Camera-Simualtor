@@ -1,27 +1,21 @@
 
-Shapes.Triangle.Thickness.getƒ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs‡ ‡("0*
-0
-‡ ‡(*
-1*r
-1
-‡
- ‡(\
-Z
+Shapes.Sphere.Radius.get
+uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
+0 (*
+1*g
+1
+ (S
+Q
+
+ (
+%retfloat"__id*0
+
+ ($*"
+Shapes.Sphere"
+radiusfloat*
+2**
+2 ("
+ (
 
-‡
- ‡(
-%retfloat"__id*7
-
-‡
- ‡()*'
-Shapes.Triangle"
-	thicknessfloat*
-2*.
-2
-‡ ‡("
-
-‡ ‡(
-
-%retfloatB
-Shapes.TriangleX
+%retfloatB
+Shapes.SphereX

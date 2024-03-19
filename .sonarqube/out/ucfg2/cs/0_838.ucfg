@@ -1,17 +1,35 @@
 
-1Shapes.MpbRect.Shapes.IDashableMpb.dashOffset.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÀ( À(+"0*ﬁ
+!Shapes.Draw.TriangleThickness.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs° °("0*
 0
-À, À(,§
-°
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÀ( À(+X
-Shapes.MpbRect"D
-Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÀ( À(+
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRect
+° °(*
+1*’
+1
+°
+ °(\
+Z
+
+°
+ °(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylea
+_
+
+°
+ °(
+%retfloat"__id*<
+
+°
+ °(.*,
+
+%0Shapes.DrawStyle"
+	thicknessfloat*
+2*.
+2
+° °("
+
+° °(
+
+%retfloatB"
+Shapes.DrawX

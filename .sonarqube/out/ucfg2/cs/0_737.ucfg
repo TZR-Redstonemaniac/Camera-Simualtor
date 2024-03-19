@@ -1,17 +1,38 @@
 
-1Shapes.MpbPolygon.Shapes.IFillableMpb.fillEnd.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cså' å(*"0*ﬁ
+Shapes.Draw.TextMargins.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs• •("0*
 0
-å+ å(+§
-°
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cså' å(*X
-Shapes.MpbPolygon"A
-Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cså' å(*
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbPolygon
+• •(*
+1*⁄
+1
+•! •(8\
+Z
+
+•! •(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+•! •(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyle{
+y
+
+•! •(8
+%retUnityEngine.Vector4"__id*H
+
+•! •(8:*8
+
+%1Shapes.TextStyle"
+marginsUnityEngine.Vector4*
+2*<
+2
+•9 •(9"+
+
+•8 •(9
+
+%retUnityEngine.Vector4B"
+Shapes.Draw

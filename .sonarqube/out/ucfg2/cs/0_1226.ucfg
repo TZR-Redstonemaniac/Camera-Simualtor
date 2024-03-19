@@ -1,33 +1,27 @@
 
-'Shapes.Draw.RectangleThicknessSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csú ú("0*
+Shapes.Quad.ColorRight.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÀ À("0*
 0
-ú ú(*
-1*Ô
+À À(*
+1*É
 1
-ú
- ú(&\
-Z
+À
+ À(m
+k
 
-ú
- ú(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle{
-y
+À
+ À(
+%retUnityEngine.Color"__id*<
 
-ú
- ú(&A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
+À
+ À(.*,
+Shapes.Quad"
+colorCUnityEngine.Color*
+2*:
 2
-ú' ú('"!
+À À(")
 
-ú& ú('
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+À À(
+
+%retUnityEngine.ColorB
+Shapes.Quad

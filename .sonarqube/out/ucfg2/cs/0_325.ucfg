@@ -1,54 +1,21 @@
 
-#Shapes.Polygon.FillRadialOrigin.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¢ ¢("0*
-0
-¢ ¢(*
-1*˝
-1
-£ §(Td
-b
-
-£ £(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillx
-v
-
-£ £(@
-
-%0Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ó
-î
-
-§6 §(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
-
-§6 §(:1*/
-Shapes.Polygon"
-fillShapes.GradientFillÏ
-È
-
-§ §(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
-
-§ §(
-Shapes.Polygon*D
-
-§ §(46*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
-
-§6 §(Q
-
-%1UnityEngine.Vector4*
-2*2
-2
-• •("!
-
-• •(
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.PolygonX
+Shapes.Line.Geometry.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs ("0*
+0 (*
+1*É
+1
+ (o
+m
+
+ (
+%retShapes.LineGeometry"__id*>
+
+ (2*0
+Shapes.Line"
+geometryShapes.LineGeometry*
+2*8
+2 (")
+ (
+
+%retShapes.LineGeometryB
+Shapes.LineX

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
     <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
     <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
@@ -45,8 +45,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Managers\RayTracingManager.cs" />
      <Compile Include="Assets\Scripts\Tests\ShaderRenderer.cs" />
+     <Compile Include="Assets\Scripts\Managers\RayTracingManager.cs" />
      <Compile Include="Assets\Scripts\Objects\SphereObject.cs" />
      <Compile Include="Assets\Scripts\Objects\RayTracingMaterial.cs" />
      <Compile Include="Assets\Scripts\MovementHelper.cs" />
@@ -106,6 +106,7 @@
      <None Include="Assets\Shapes\Shaders\Shapes.cginc" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Disc Darken.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Texture Opaque.shader" />
+     <Folder Include="Assets\Scripts\Managers" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D ColorBurn.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D Screen.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Rect Darken.shader" />
@@ -130,6 +131,7 @@
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D ColorDodge.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Quad Screen.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cuboid Additive.shader" />
+     <None Include="Assets\Shaders\Standard\Smoothing.shader" />
      <None Include="Assets\Shapes\Shaders\Core\Regular Polygon Core.cginc" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D Lighten.shader" />
      <None Include="Assets\Shapes\Shaders\Core\Polyline 2D Core.cginc" />
@@ -210,6 +212,7 @@
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cone ColorDodge.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Rect ColorBurn.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Line 2D Screen.shader" />
+     <Folder Include="Assets\Scripts" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cone Additive.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cuboid ColorBurn.shader" />
      <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Regular Polygon Lighten.shader" />

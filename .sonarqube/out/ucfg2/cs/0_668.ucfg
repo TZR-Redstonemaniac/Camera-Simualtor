@@ -1,27 +1,31 @@
 
-Shapes.Triangle.ColorA.getÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs¢ ¢("0*
+Shapes.Draw.PolylineJoins.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‘ ‘("0*
 0
-¢ ¢(*
-1*Ü
+‘ ‘(*
+1*˘
 1
-¢
- ¢(p
-n
+‘! ‘(4\
+Z
 
-¢
- ¢(
-%retUnityEngine.Color"__id*?
+‘! ‘(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleÑ
+Å
 
-¢
- ¢(1*/
-Shapes.Triangle"
-colorUnityEngine.Color*
-2*:
+‘! ‘(4
+%retShapes.PolylineJoins"__id*O
+
+‘! ‘(4A*?
+
+%0Shapes.DrawStyle"%
+polylineJoinsShapes.PolylineJoins*
+2*=
 2
-¢ ¢(")
+‘5 ‘(5",
 
-¢ ¢(
-
-%retUnityEngine.ColorB
-Shapes.Triangle
+‘4 ‘(5
+
+%retShapes.PolylineJoinsB"
+Shapes.DrawX

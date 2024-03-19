@@ -1,34 +1,35 @@
 
-<Shapes.PolylinePoint.operator *(float, Shapes.PolylinePoint)†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylinePoint.cs (&"0*
-0 (*
-1*·
-1H (MÆ
-Ã
-H (M
-%0Shapes.PolylinePoint"<Shapes.PolylinePoint.operator *(Shapes.PolylinePoint, float)*"
-Shapes.PolylinePoint*'
-H (I
+Shapes.Polygon.FillType.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs– –("0*
+0
+– –(*
+1*ï
+1
+–
+ –(d
+b
+
+–
+ –(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFills
+q
+
+–
+ –(
+%retShapes.FillType"__id*D
+
+–
+ –(6*4
 
-aShapes.PolylinePoint*
-L (M
+%0Shapes.GradientFill"
+typeShapes.FillType*
+2*8
+2
+– –("'
 
-
-bfloatZ
-X
-H (M
-%retShapes.PolylinePoint"__id*(
-H (M
-
-%0Shapes.PolylinePoint*
-2*9
-2N (N"*
-M (N
-
-%retShapes.PolylinePoint:
-* (1
-
-bfloat:%
-3 (B
-aShapes.PolylinePointB"
-Shapes.PolylinePoint
+– –(
+
+%retShapes.FillTypeB
+Shapes.PolygonX

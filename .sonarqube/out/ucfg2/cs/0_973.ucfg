@@ -1,77 +1,18 @@
 
-EShapes.ImmediateModeShapeDrawer.OnCameraPreRender(UnityEngine.Camera)ñ
-ãC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ImmediateModeShapeDrawer.cs ("0*
-0 (*
-1*Ë
-1 (v
-t
- (
-%0UnityEngine.CameraType"!UnityEngine.Camera.cameraType.get*'
- (
-
-camUnityEngine.CameraY
-W
- (#
-	%capture0UnityEngine.CameraType"__id* 
-
-%0UnityEngine.CameraType*
-6
-2*
-2	 (*
-6
-3*
-3 (*
-4
-5*√
-4 (Nd
-b
- (+	
-%1int""UnityEngine.Camera.cullingMask.get*'
- (
-
-camUnityEngine.CameraÅ
-
-5 (?
-%2UnityEngine.GameObject"$UnityEngine.Component.gameObject.get*/
-5 (?#!
-Shapes.ImmediateModeShapeDrawere
-c
-5 (E	
-%3int" UnityEngine.GameObject.layer.get**
-5 (?
-
-%2UnityEngine.GameObjecti
-g
-0 (E	
-%4int"%!binary_implicit_operator_passthrough*
-0 (12*
-5 (E
-	
-%3intp
-n
- (G	
-%5int"%!binary_implicit_operator_passthrough*
- (+
-	
-%1int*
-0 (E
-	
-%4int*
-6
-5*Ë
-5! !(”–
-! !(
-
-%6void">Shapes.ImmediateModeShapeDrawer.DrawShapes(UnityEngine.Camera)*/
-! !(#!
-Shapes.ImmediateModeShapeDrawer*'
-! !(
-
-camUnityEngine.Camera2DrawShapes(UnityEngine.Camera)*
-6*.
-6" "("
-" "(
-implicit return:%
- ($
-camUnityEngine.CameraB#!
-Shapes.ImmediateModeShapeDrawerX
+;Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashOffset.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÚ( Ú(+"0*ô
+0
+Ú, Ú(,¬
+ø
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÚ( Ú(+.
+%ret&System.Collections.Generic.List<float>"__id*ˆ
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÚ( Ú(+d*b
+Shapes.MpbRegularPolygon"D
+Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÚ( Ú(+0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRegularPolygon

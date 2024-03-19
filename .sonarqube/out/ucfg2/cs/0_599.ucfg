@@ -1,21 +1,33 @@
 
-Shapes.Cuboid.Size.get
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs ("0*
-0 (*
-1*Å
-1
- (m
-k
-
- (
-%retUnityEngine.Vector3"__id*<
-
- (0*.
-Shapes.Cuboid"
-sizeUnityEngine.Vector3*
-2*8
-2 (")
- (
-
-%retUnityEngine.Vector3B
-Shapes.Cuboid
+Shapes.Disc.ColorOuterEnd.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csT T("0*
+0T T(*
+1*˘
+1T
+ T(Ug
+e
+T> T(S3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color˚
+¯
+T
+ T(U
+
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+T
+ T(
+Shapes.Disc*F
+T T(<:*8
+Shapes.ShapesMaterialUtils"
+propColorOuterEndint*A
+T> T(S5*3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color*
+2*.
+2TV T(V"
+TU T(V
+implicit return:
+valueUnityEngine.ColorB
+Shapes.DiscX

@@ -1,33 +1,37 @@
 
-Shapes.Triangle.B.set
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csq q("0*
-0q q(*
-1*ë
-1q
- q(?c
-a
-q4 q(=-
-Shapes.Triangle"
-bUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ñ
-î
-q
- q(?
+Shapes.Draw.DashSpace.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŽ Ž("0*
+0
+Ž Ž(*
+1*Ç
+1
+Ž! Ž(>\
+Z
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-q
- q(
-Shapes.Triangle*:
-q q(2.*,
-Shapes.ShapesMaterialUtils"
-propBint*;
-q4 q(=/*-
-Shapes.Triangle"
-bUnityEngine.Vector3*
-2*.
-2q@ q(@"
-q? q(@
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.TriangleX
+Ž! Ž(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+Ž! Ž(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyleh
+f
+
+Ž! Ž(>3
+
+%1Shapes.DashStyle"
+spaceShapes.DashSpace"__id*
+
+valueShapes.DashSpace*
+2*2
+2
+Ž? Ž(?"!
+
+Ž> Ž(?
+implicit return:
+valueShapes.DashSpaceB"
+Shapes.DrawX

@@ -1,35 +1,99 @@
 
-Shapes.Rectangle.DashOffset.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÛ Û("0*
+Shapes.Rectangle.DashSize.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs„ „("0*
 0
-Û Û(*
-1*€
+„ „(*
+1*î
 1
-Û
- Û(e
+‰ Ê(e
 c
 
-Û
- Û(
+‰ ‰(
 %0Shapes.DashStyle"__id*75*3
 Shapes.Rectangle"
-	dashStyleShapes.DashStyle^
-\
+	dashStyleShapes.DashStyleQ
+O
 
-Û
- Û(
-%retfloat"__id*9
-
-Û
- Û(+*)
+‰ ‰('
 
-%0Shapes.DashStyle"
-offsetfloat*
-2*.
+%0Shapes.DashStyle"
+sizefloat"__id*
+
+valuefloatÉ
+Ä
+
+Â Â(I
+%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*C
+
+Â Â(!5*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyle*4
+
+Â6 Â(<&*$
+Shapes.Rectangle"
+dashedbool*8
+
+Â> Â(G**(
+Shapes.Rectangle"
+	thicknessfloat;
+9
+
+Â
+ Â(I
+netDashSizefloat"__id*
+
+%1float*
+2
+3*Õ
 2
-Û Û("
+Á Á(Je
+c
 
-Û Û(
+Á4 Á(G
+%2float"$Shapes.Rectangle.GetNetDashSpacing()*"
 
-%retfloatB
+Á4 Á(E
+Shapes.Rectangleœ
+Ã
+
+Á Á(I
+
+%3void")Shapes.ShapeRenderer.SetFloat(int, float)*"
+
+Á Á(
+Shapes.Rectangle*F
+
+Á Á(28*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+
+Á4 Á(G
+
+%2float*
+3*Ô
+3
+Ë Ë(Aÿ
+’
+
+Ë Ë(@
+
+%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*"
+
+Ë Ë(
+Shapes.Rectangle*C
+
+Ë Ë(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*$
+
+Ë3 Ë(>
+
+netDashSizefloat*
+4*2
+4
+È È("!
+
+È È(
+implicit return:
+valuefloatB
 Shapes.RectangleX

@@ -1,37 +1,28 @@
 
-Shapes.Draw.DashSpacing.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs© ©("0*
-0
-© ©(*
-1*³
-1
-©! ©(@\
-Z
-
-©! ©(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-©! ©(0
-%1Shapes.DashStyle"__id*;9*7
+!Shapes.Line.DashShapeModifier.get›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs} }("0*
+0} }(*
+1*Õ
+1}
+ }(!^
+\
+}
+ }(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStylea
+_
+}
+ }(!
+%retfloat"__id*>
+}
+ }(!2*0
 
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleT
-R
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2**
+2}" }(""
+}! }("
 
-©! ©(@*
-
-%1Shapes.DashStyle"
-spacingfloat"__id*
-
-valuefloat*
-2*2
-2
-©A ©(A"!
-
-©@ ©(A
-implicit return:
-valuefloatB"
-Shapes.DrawX
+%retfloatB
+Shapes.LineX

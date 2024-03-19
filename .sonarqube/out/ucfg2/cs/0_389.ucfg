@@ -1,50 +1,35 @@
 
-"Shapes.RegularPolygon.DashSnap.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs… …("0*
+#Shapes.RegularPolygon.DashSpace.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csý ý("0*
 0
-… …(*
-1*ì
+ý ý(*
+1*õ
 1
-…
- …(Xj
+ý
+ ý(j
 h
 
-…> …(G
+ý
+ ý(
 %0Shapes.DashStyle"__id*<:*8
 Shapes.RegularPolygon"
-	dashStyleShapes.DashStylem
-k
+	dashStyleShapes.DashStyles
+q
 
-…> …(T5
+ý
+ ý(
+%retShapes.DashSpace"__id*C
+
+ý
+ ý(5*3
 
-%0Shapes.DashStyle"
-snapShapes.DashSnapping"__id* 
-
-valueShapes.DashSnappingú
-÷
-
-…
- …(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
-
-…
- …(
-Shapes.RegularPolygon*C
-
-… …(55*3
-Shapes.ShapesMaterialUtils"
-propDashSnapint*E
-
-…7 …(V7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*2
+%0Shapes.DashStyle"
+spaceShapes.DashSpace*
+2*9
 2
-…Y …(Y"!
+ý ý("(
 
-…X …(Y
-implicit return:
-valueShapes.DashSnappingB
+ý ý(
+
+%retShapes.DashSpaceB
 Shapes.RegularPolygonX

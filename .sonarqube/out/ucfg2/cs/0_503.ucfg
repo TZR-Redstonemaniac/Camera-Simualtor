@@ -1,35 +1,28 @@
 
-'Shapes.RegularPolygon.FillLinearEnd.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÂ Â("0*
-0
-Â Â(*
-1*„
-1
-Â
- Â(k
-i
-
-Â
- Â(
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFill€
-~
-
-Â
- Â(
-%retUnityEngine.Vector3"__id*M
-
-Â
- Â(?*=
-
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3*
-2*<
-2
-Â Â("+
-
-Â Â(
+Shapes.Disc.DashSnap.get›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs7 7("0*
+07 7(*
+1*è
+17
+ 7(^
+\
+7
+ 7(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStylet
+r
+7
+ 7(
+%retShapes.DashSnapping"__id*C
+7
+ 7(7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*8
+27 7(")
+7 7(
 
-%retUnityEngine.Vector3B
-Shapes.RegularPolygon
+%retShapes.DashSnappingB
+Shapes.DiscX

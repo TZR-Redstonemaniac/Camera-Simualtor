@@ -1,33 +1,23 @@
 
-Shapes.Sphere.RadiusSpace.set
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
-0 (*
-1*õ
-1
- (Xo
-m
-A (T7
-Shapes.Sphere"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceï
-ì
-
- (X
+/Shapes.ColorStack.ColorStack(UnityEngine.Color)‡
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
+0 (*
+1*Ý
+1& (8È
+Å
+& (8
 
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
- (
-Shapes.Sphere*D
- (88*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*E
-: (V9*7
-Shapes.Sphere"$
-radiusSpaceShapes.ThicknessSpace*
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
+& (,F*D
+Shapes.ColorStack"-
+colors#System.Collections.Generic.Stack<T>*&
+3 (6
+
+mtxUnityEngine.Color*
 2*.
-2Y (Y"
-X (Y
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.SphereX
+29 (9"
+8 (9
+implicit return:$
+ ( 
+mtxUnityEngine.ColorB
+Shapes.ColorStackX

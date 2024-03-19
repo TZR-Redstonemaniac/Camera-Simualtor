@@ -1,50 +1,50 @@
 
-'Shapes.RegularPolygon.FillLinearEnd.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs√ √("0*
+"Shapes.Rectangle.FillLinearEnd.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csΩ Ω("0*
 0
-√ √(*
-1*ê
+Ω Ω(*
+1*Ü
 1
-√
- √(Rk
-i
+Ω
+ Ω(Rf
+d
 
-√: √(>
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
+Ω: Ω(>
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
 fillShapes.GradientFillu
 s
 
-√: √(P=
+Ω: Ω(P=
 
 %0Shapes.GradientFill" 
 	linearEndUnityEngine.Vector3"__id* 
 
-valueUnityEngine.Vector3ï
-í
+valueUnityEngine.Vector3ê
+ç
 
-√
- √(R
+Ω
+ Ω(R
 
-%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*'
+%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*"
 
-√
- √(
-Shapes.RegularPolygon*B
+Ω
+ Ω(
+Shapes.Rectangle*B
 
-√ √(84*2
+Ω Ω(84*2
 Shapes.ShapesMaterialUtils"
 propFillEndint*M
 
-√: √(P?*=
+Ω: Ω(P?*=
 
 %0Shapes.GradientFill" 
 	linearEndUnityEngine.Vector3*
 2*2
 2
-√S √(S"!
+ΩS Ω(S"!
 
-√R √(S
+ΩR Ω(S
 implicit return:
-valueUnityEngine.Vector3B
-Shapes.RegularPolygonX
+valueUnityEngine.Vector3B
+Shapes.RectangleX

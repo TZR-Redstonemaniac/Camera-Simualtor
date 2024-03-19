@@ -1,21 +1,32 @@
 
-$Shapes.ShapeRenderer.DetailLevel.get†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csI I("0*
-0I I(*
-1*
-1I
- I(y
-w
-I
- I(
-%retShapes.DetailLevel"__id*I
-I
- I(=*;
-Shapes.ShapeRenderer"!
-detailLevelShapes.DetailLevel*
-2*7
-2I I("(
-I I(
-
-%retShapes.DetailLevelB
-Shapes.ShapeRendererX
+3Shapes.Quad.SetQuadVertex(int, UnityEngine.Vector3)}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csE E("0*
+0E E(*
+1*
+1E> E(Qž
+›
+E> E(Q
+%0UnityEngine.Vector3"Shapes.Quad.this[int].set*
+E> E(B
+Shapes.Quad*
+EC E(H
+
+indexint* 
+
+valueUnityEngine.Vector3[
+Y
+E> E(Q
+%retUnityEngine.Vector3"__id**
+E> E(Q
+
+valueUnityEngine.Vector3*
+2*8
+2ER E(R")
+EQ E(R
+
+%retUnityEngine.Vector3:
+E  E()
+indexint:(
+E+ E(8
+valueUnityEngine.Vector3B
+Shapes.Quad

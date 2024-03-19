@@ -1,38 +1,33 @@
 
-Shapes.Draw.DashOffset.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÆ Æ("0*
+#Shapes.Draw.TorusThicknessSpace.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¿ ¿("0*
 0
-Æ Æ(*
-1*Ω
+¿ ¿(*
+1*Ô
 1
-Æ! Æ(7\
+¿
+ ¿(&\
 Z
 
-Æ! Æ(&
+¿
+ ¿(
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylei
-g
+styleShapes.DrawStyle{
+y
 
-Æ! Æ(0
-%1Shapes.DashStyle"__id*;9*7
+¿
+ ¿(&A
 
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle^
-\
-
-Æ! Æ(7
-%retfloat"__id*9
-
-Æ! Æ(7+*)
-
-%1Shapes.DashStyle"
-offsetfloat*
-2*.
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
+2*2
 2
-Æ8 Æ(8"
+¿' ¿('"!
 
-Æ7 Æ(8
-
-%retfloatB"
+¿& ¿('
+implicit return: 
+valueShapes.ThicknessSpaceB"
 Shapes.DrawX

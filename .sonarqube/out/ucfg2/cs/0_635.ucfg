@@ -1,19 +1,22 @@
 
-.Shapes.ShapeRendererFillable.FillLinearEnd.setè
-ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs0 0("0*
-00 0(*
-1*c
-10
- 0(O
-M
-0
- 0(
-%0UnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3*
+Shapes.Rectangle.Radius.setÇ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csb b("0*
+0b b(*
+1*Ü
+1b
+ b(r
+p
+b
+ b(
+%0float"!Shapes.Rectangle.CornerRadius.set* 
+b
+ b(
+Shapes.Rectangle*
+
+valuefloat*
 2*.
-20 0("
-0 0(
-implicit return:
-valueUnityEngine.Vector3B 
-Shapes.ShapeRendererFillableX
+2b b("
+b b(
+implicit return:
+valuefloatB
+Shapes.RectangleX

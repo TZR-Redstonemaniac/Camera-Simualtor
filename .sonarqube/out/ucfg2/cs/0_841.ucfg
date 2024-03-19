@@ -1,18 +1,19 @@
 
-:Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillStart.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,"0*¥
-0
-Ó- Ó(-œ
-Ã
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*ı
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,c*a
-Shapes.MpbRegularPolygon"C
-Shapes.IFillableMpb.fillStart"System.Collections.Generic.List<T>"–
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,>
-<
-%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
-Shapes.MpbRegularPolygon
+/Shapes.ShapeRendererFillable.FillColorStart.setè
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs4 4("0*
+04 4(*
+1*_
+14
+ 4(K
+I
+4
+ 4(
+%0UnityEngine.Color"__id*
+
+valueUnityEngine.Color*
+2*.
+24 4("
+4 4(
+implicit return:
+valueUnityEngine.ColorB 
+Shapes.ShapeRendererFillableX

@@ -1,35 +1,21 @@
 
-Shapes.Rectangle.DashSnap.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csş ş("0*
-0
-ş ş(*
-1*õ
-1
-ş
- ş(e
-c
-
-ş
- ş(
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStylex
-v
-
-ş
- ş(
-%retShapes.DashSnapping"__id*E
-
-ş
- ş(7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*<
-2
-ş ş("+
-
-ş ş(
+Shapes.Line.End.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csJ J("0*
+0J J(*
+1*~
+1J
+ J(j
+h
+J
+ J(
+%retUnityEngine.Vector3"__id*9
+J
+ J(-*+
+Shapes.Line"
+endUnityEngine.Vector3*
+2*8
+2J J(")
+J J(
 
-%retShapes.DashSnappingB
-Shapes.RectangleX
+%retUnityEngine.Vector3B
+Shapes.Line

@@ -1,27 +1,17 @@
 
-0Shapes.DashExtensions.GetIndex(Shapes.DashSpace)Ç
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashSpace.cs ("0*
-0 (*
-1*∆
-17 (Dx
-v
-7 (D	
-%0int"%!binary_implicit_operator_passthrough*&
-7 (@
-
-nootShapes.DashSpace*
-C (D28
-6
-7 (D
-%retint"__id*
-7 (D
-	
-%0int*
-2*(
-2E (E"
-D (E
-
-%retint:$
- (1
-nootShapes.DashSpaceB"
-Shapes.DashExtensionsX
+Shapes.Draw.ResetStyle()å
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs, (6"0*
+0 (*
+1*â
+1< (Vu
+s
+< (V*
+Shapes.Draw"
+styleShapes.DrawStyle"__id*53*1
+Shapes.DrawStyle"
+defaultShapes.DrawStyle*
+2*.
+2W (W"
+V (W
+implicit returnB"
+Shapes.DrawX

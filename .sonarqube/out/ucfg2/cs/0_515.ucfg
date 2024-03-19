@@ -1,21 +1,35 @@
 
-Shapes.Sphere.Radius.get
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
-0 (*
-1*g
-1
- (S
-Q
-
- (
-%retfloat"__id*0
-
- ($*"
-Shapes.Sphere"
-radiusfloat*
-2**
-2 ("
- (
+"Shapes.Rectangle.FillLinearEnd.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csº º("0*
+0
+º º(*
+1*ˇ
+1
+º
+ º(f
+d
 
-%retfloatB
-Shapes.SphereX
+º
+ º(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillÄ
+~
+
+º
+ º(
+%retUnityEngine.Vector3"__id*M
+
+º
+ º(?*=
+
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3*
+2*<
+2
+º º("+
+
+º º(
+
+%retUnityEngine.Vector3B
+Shapes.Rectangle

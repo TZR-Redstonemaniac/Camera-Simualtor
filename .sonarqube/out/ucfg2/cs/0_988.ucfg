@@ -1,33 +1,18 @@
 
-"Shapes.RegularPolygon.Geometry.setá
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs; ;("0*
-0; ;(*
-1*ü
-1;
- ;(SÖ
-Ç
-;? ;(OD
-Shapes.RegularPolygon")
-geometryShapes.RegularPolygonGeometry"__id**(
-&
-valueShapes.RegularPolygonGeometryÇ
-ˇ
-;
- ;(S
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*%
-;
- ;(
-Shapes.RegularPolygon*B
-; ;(66*4
-Shapes.ShapesMaterialUtils"
-propAlignmentint*R
-;8 ;(QF*D
-Shapes.RegularPolygon")
-geometryShapes.RegularPolygonGeometry*
-2*.
-2;T ;(T"
-;S ;(T
-implicit return:(&
-valueShapes.RegularPolygonGeometryB
-Shapes.RegularPolygonX
+8Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillEnd.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*"0*≤
+0
+Ï+ Ï(+Õ
+ 
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*Û
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*a*_
+Shapes.MpbRegularPolygon"A
+Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbRegularPolygon

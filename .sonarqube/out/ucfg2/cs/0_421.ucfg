@@ -1,35 +1,35 @@
 
-Shapes.Disc.GetNetDashSpacing()õ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csC C("0*
-0C C(*
-1*∂
-1C C(h„
-‡
-C C(h
-%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
-C C(0
-Shapes.Disc*<
-C2 C(;0*.
-Shapes.Disc"
-	dashStyleShapes.DashStyle*-
-C= C(C!*
-Shapes.Disc"
-dashedbool*=
-CE C([1*/
-Shapes.Disc"
-matchDashSpacingToSizebool*1
-C] C(f%*#
-Shapes.Disc"
-	thicknessfloat<
-:
-C C(h
-%retfloat"__id*
-C C(h
-
-%0float*
-2**
-2Ci C(i"
-Ch C(i
+%Shapes.Triangle.DashShapeModifier.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csí í("0*
+0
+í í(*
+1*·
+1
+í
+ í(!d
+b
 
-%retfloatB
-Shapes.DiscX
+í
+ í(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStylee
+c
+
+í
+ í(!
+%retfloat"__id*@
+
+í
+ í(!2*0
+
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2*.
+2
+í" í(""
+
+í! í("
+
+%retfloatB
+Shapes.TriangleX

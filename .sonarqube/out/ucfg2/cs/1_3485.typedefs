@@ -1,3 +1,5 @@
-¼
-2Shapes.IMColorPickerInteraction.ColorPickerElementSystem.EnumSystem.ValueTypeobject_
-ColorPickerElement()GShapes.IMColorPickerInteraction.ColorPickerElement.ColorPickerElement()
+‘
+Shapes.SpinningColorDiscsShapes.ImmediateModeShapeDrawerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.ObjectobjectZ
+DrawShapes(UnityEngine.Camera)8Shapes.SpinningColorDiscs.DrawShapes(UnityEngine.Camera)J
+GetDiscPosition(float)0Shapes.SpinningColorDiscs.GetDiscPosition(float)F
+SpinningColorDiscs().Shapes.SpinningColorDiscs.SpinningColorDiscs()

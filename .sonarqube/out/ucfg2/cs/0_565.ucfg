@@ -1,22 +1,31 @@
 
- Shapes.ShapesTextPool.OnEnable()Ç
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.cs6 6("0*
-06 6(*
-1*Â
-17 8(b
-`
-7 7(
+Shapes.Draw.DashStyle.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÅ Å("0*
+0
+Å Å(*
+1*Î
+1
+Å! Å(0\
+Z
 
-%0void"!Shapes.ShapesTextPool.ClearData()*%
-7 7(
-Shapes.ShapesTextPoolm
-k
-8 8(<
-Shapes.ShapesTextPool"!
-instanceShapes.ShapesTextPool"__id*
-Shapes.ShapesTextPool*
-2*.
-29 9("
-9 9(
-implicit returnB
-Shapes.ShapesTextPoolX
+Å! Å(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylew
+u
+
+Å! Å(0
+%retShapes.DashStyle"__id*G
+
+Å! Å(09*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyle*
+2*9
+2
+Å1 Å(1"(
+
+Å0 Å(1
+
+%retShapes.DashStyleB"
+Shapes.Draw

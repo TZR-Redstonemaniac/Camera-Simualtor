@@ -1,31 +1,33 @@
 
-Shapes.Draw.UseGradientFill.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs» »("0*
-0
-» »(*
-1*Ö
-1
-»! »(3\
-Z
+Shapes.Triangle.A.set
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csk k("0*
+0k k(*
+1*ë
+1k
+ k(?c
+a
+k4 k(=-
+Shapes.Triangle"
+aUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ñ
+î
+k
+ k(?
 
-»! »(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleb
-`
-
-»! »(3
-%retbool"__id*>
-
-»! »(30*.
-
-%0Shapes.DrawStyle"
-useGradientsbool*
-2*-
-2
-»4 »(4"
-
-»3 »(4
-
-%retboolB"
-Shapes.DrawX
+%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
+k
+ k(
+Shapes.Triangle*:
+k k(2.*,
+Shapes.ShapesMaterialUtils"
+propAint*;
+k4 k(=/*-
+Shapes.Triangle"
+aUnityEngine.Vector3*
+2*.
+2k@ k(@"
+k? k(@
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.TriangleX

@@ -1,17 +1,35 @@
 
-:Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSpace.set
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*"0*ç
+#Shapes.Draw.TorusThicknessSpace.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¿ ¿("0*
 0
-ö+ ö(+­
-ª
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*a
-Shapes.MpbRegularPolygon"C
-Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"¥
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csö' ö(*
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRegularPolygon
+¿ ¿(*
+1*ü
+1
+¿
+ ¿(\
+Z
+
+¿
+ ¿(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle‡
+„
+
+¿
+ ¿(
+%retShapes.ThicknessSpace"__id*Q
+
+¿
+ ¿(C*A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
+2
+¿ ¿("-
+
+¿ ¿(
+
+%retShapes.ThicknessSpaceB"
+Shapes.DrawX

@@ -1,43 +1,42 @@
 
-Shapes.Quad.ColorD.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csï ï("0*
+Shapes.Quad.ColorA.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÝ Ý("0*
 0
-ï ï(*
-1*ð
+Ý Ý(*
+1*í
 1
-ï
- ï(Gb
-`
+Ý
+ Ý(Ea
+_
 
-ï7 ï(E,
-Shapes.Quad"
-colorDUnityEngine.Color"__id*
+Ý6 Ý(C+
+Shapes.Quad"
+colorUnityEngine.Color"__id*
 
-valueUnityEngine.Colorõ
-ò
+valueUnityEngine.Coloró
+ð
 
-ï
- ï(G
+Ý
+ Ý(E
 
 %0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
 
-ï
- ï(
-Shapes.Quad*A
+Ý
+ Ý(
+Shapes.Quad*@
 
-ï ï(53*1
-Shapes.ShapesMaterialUtils"
+Ý Ý(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*;
 
-propColorDint*<
-
-ï7 ï(E.*,
-Shapes.Quad"
-colorDUnityEngine.Color*
+Ý6 Ý(C-*+
+Shapes.Quad"
+colorUnityEngine.Color*
 2*2
 2
-ïH ï(H"!
+ÝF Ý(F"!
 
-ïG ï(H
+ÝE Ý(F
 implicit return:
 valueUnityEngine.ColorB
 Shapes.QuadX

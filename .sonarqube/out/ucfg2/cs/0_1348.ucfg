@@ -1,34 +1,24 @@
 
-Shapes.Torus.AngRadiansEnd.set~
-tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs3 3("0*
-03 3(*
-1*Å
-13
- 3(NP
-N
-37 3(L(
-Shapes.Torus"
-angRadiansEndfloat"__id*
-
-valuefloatÞ
-Û
-3
- 3(N
+)Shapes.PointPath<T>.AddPoints(params T[])†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PointPath.cs. .("0*
+0. .(*
+1*·
+1.- .(M¢
+Ÿ
+.- .(M
 
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-3
- 3(
-Shapes.Torus*?
-3 3(53*1
-Shapes.ShapesMaterialUtils"
+%0void"HShapes.PointPath<T>.AddPoints(System.Collections.Generic.IEnumerable<T>)*#
+.- .(6
+Shapes.PointPath<T>*
+.8 .(K
 
-propAngEndint*6
-37 3(L**(
-Shapes.Torus"
-angRadiansEndfloat*
+
+ptsT[]*
 2*.
-23O 3(O"
-3N 3(O
-implicit return:
-valuefloatB
-Shapes.TorusX
+2.N .(N"
+.M .(N
+implicit return:
+. .('
+
+ptsT[]B
+Shapes.PointPath<T>X

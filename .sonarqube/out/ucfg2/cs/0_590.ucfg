@@ -1,33 +1,24 @@
 
-Shapes.Triangle.C.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csw w("0*
-0w w(*
-1*Î
-1w
- w(?c
-a
-w4 w(=-
-Shapes.Triangle"
-cUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3Ò
-Ó
-w
- w(?
+Shapes.Rectangle.Pivot.setÇ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs1 1("0*
+01 1(*
+1*ﬂ
+12 3(b
+`
+2 2(/
+Shapes.Rectangle"
+pivotShapes.RectPivot"__id*
+
+valueShapes.RectPivotg
+e
+3 3(
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-w
- w(
-Shapes.Triangle*:
-w w(2.*,
-Shapes.ShapesMaterialUtils"
-propCint*;
-w4 w(=/*-
-Shapes.Triangle"
-cUnityEngine.Vector3*
+%0void"+Shapes.Rectangle.UpdateRectPositioningNow()* 
+3 3(
+Shapes.Rectangle*
 2*.
-2w@ w(@"
-w? w(@
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.TriangleX
+24 4("
+4 4(
+implicit return:
+valueShapes.RectPivotB
+Shapes.RectangleX

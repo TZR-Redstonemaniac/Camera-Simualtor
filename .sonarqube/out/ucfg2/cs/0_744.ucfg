@@ -1,42 +1,38 @@
 
-Shapes.Disc.RadiusSpace.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csö ö("0*
+Shapes.Draw.TextOverflow.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs± ±("0*
 0
-ö ö(*
-1*˚
+± ±(*
+1*Â
 1
-ö
- ö(Xo
-m
+±! ±(9\
+Z
 
-öA ö(T5
-Shapes.Disc"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÛ
-
+±! ±(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
 
-ö
- ö(X
+±! ±(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyleÖ
+Ç
 
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+±! ±(9
+%retTMPro.TextOverflowModes"__id*M
 
-ö
- ö(
-Shapes.Disc*F
-
-ö ö(88*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*E
-
-ö: ö(V7*5
-Shapes.Disc"$
-radiusSpaceShapes.ThicknessSpace*
-2*2
+±! ±(9?*=
+
+%1Shapes.TextStyle"#
+overflowTMPro.TextOverflowModes*
+2*@
 2
-öY ö(Y"!
+±: ±(:"/
 
-öX ö(Y
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.DiscX
+±9 ±(:!
+
+%retTMPro.TextOverflowModesB"
+Shapes.DrawX

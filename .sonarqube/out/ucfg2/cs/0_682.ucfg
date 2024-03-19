@@ -1,21 +1,27 @@
 
-Shapes.Polyline.Geometry.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.cs! !("0*
-0! !(*
-1*è
-1!
- !({
-y
-!
- !(
-%retShapes.PolylineGeometry"__id*F
-!
- !(:*8
-Shapes.Polyline"#
-geometryShapes.PolylineGeometry*
-2*<
-2! !("-
-! !(!
-
-%retShapes.PolylineGeometryB
-Shapes.PolylineX
+"Shapes.Triangle.ThicknessSpace.getÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csç ç("0*
+0
+ç ç(*
+1*ò
+1
+ç
+ ç(Å
+
+
+ç
+ ç(
+%retShapes.ThicknessSpace"__id*L
+
+ç
+ ç(>*<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
+2
+ç ç("-
+
+ç ç(
+
+%retShapes.ThicknessSpaceB
+Shapes.TriangleX

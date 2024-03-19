@@ -1,36 +1,35 @@
 
-Shapes.Disc.RadiusInner.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs   ("0*
+"Shapes.Draw.LineThicknessSpace.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÁ Á("0*
 0
-   (*
-1*­
+Á Á(*
+1*ü
 1
- 
-  (U
-S
+Á
+ Á(\
+Z
 
- 
-  (
-%0float"Shapes.Disc.Thickness.get*
+Á
+ Á(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle‡
+„
 
- 
-  (
-Shapes.Disc@
->
+Á
+ Á(
+%retShapes.ThicknessSpace"__id*Q
 
- 
-  (
-%retfloat"__id*
-
- 
-  (
-
-%0float*
-2*.
+Á
+ Á(C*A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
 2
-   ("
+Á Á("-
 
-   (
-
-%retfloatB
-Shapes.DiscX
+Á Á(
+
+%retShapes.ThicknessSpaceB"
+Shapes.DrawX

@@ -1,27 +1,17 @@
 
-)Shapes.DashStyle.DefaultDashStyleLine.get„
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.csŽ Ž("0*
-0
-Ž Ž(*
-1*”
-1
-Ž
- Ž(~
-|
-
-Ž
- Ž(
-%retShapes.DashStyle"__id*N
-
-Ž
- Ž(@*>
-Shapes.DashStyle"(
-defaultDashStyleLineShapes.DashStyle*
-2*9
-2
-Ž Ž("(
-
-Ž Ž(
-
-%retShapes.DashStyleB"
-Shapes.DashStyle
+1Shapes.MpbLine2D.Shapes.IDashableMpb.dashSnap.get‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()"0*‡
+0Z* Z(*´
+±
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z().
+%ret&System.Collections.Generic.List<float>"__id*ê
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()Z*X
+Shapes.MpbLine2D"B
+Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"À
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csZ& Z()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine2D

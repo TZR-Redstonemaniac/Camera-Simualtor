@@ -1,28 +1,31 @@
 
-Shapes.Line.DashType.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csy y("0*
-0y y(*
-1*‡
-1y
- y(^
-\
-y
- y(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStylel
-j
-y
- y(
-%retShapes.DashType"__id*?
-y
- y(3*1
+Shapes.Draw.LineEndCaps.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csº º("0*
+0
+º º(*
+1*Ô
+1
+º! º(2\
+Z
+
+º! º(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle{
+y
+
+º! º(2
+%retShapes.LineEndCap"__id*J
+
+º! º(2<*:
 
-%0Shapes.DashStyle"
-typeShapes.DashType*
-2*4
-2y y("%
-y y(
-
-%retShapes.DashTypeB
-Shapes.LineX
+%0Shapes.DrawStyle" 
+lineEndCapsShapes.LineEndCap*
+2*:
+2
+º3 º(3")
+
+º2 º(3
+
+%retShapes.LineEndCapB"
+Shapes.DrawX

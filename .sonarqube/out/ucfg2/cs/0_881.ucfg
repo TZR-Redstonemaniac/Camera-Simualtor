@@ -1,37 +1,33 @@
 
-!Shapes.Draw.DashShapeModifier.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csµ µ("0*
+Shapes.Draw.ConeSizeSpace.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÃ Ã("0*
 0
-µ µ(*
-1*π
+Ã Ã(*
+1*Í
 1
-µ! µ(F\
+Ã
+ Ã(!\
 Z
 
-µ! µ(&
+Ã
+ Ã(
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylei
-g
+styleShapes.DrawStylev
+t
 
-µ! µ(0
-%1Shapes.DashStyle"__id*;9*7
+Ã
+ Ã(!<
 
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleZ
-X
-
-µ! µ(F0
-
-%1Shapes.DashStyle"
-shapeModifierfloat"__id*
-
-valuefloat*
+%0Shapes.DrawStyle""
+	sizeSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
 2*2
 2
-µG µ(G"!
+Ã" Ã(""!
 
-µF µ(G
-implicit return:
-valuefloatB"
+Ã! Ã("
+implicit return: 
+valueShapes.ThicknessSpaceB"
 Shapes.DrawX

@@ -1,42 +1,76 @@
 
-Shapes.Disc.ThicknessSpace.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs∞ ∞("0*
-0
-∞ ∞(*
-1*Ñ
-1
-∞
- ∞(^r
-p
+Shapes.Line.DashSize.setõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csZ Z("0*
+0Z Z(*
+1*
+1[ ](^
+\
+[ [(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleO
+M
+[ [('
+
+%0Shapes.DashStyle"
+sizefloat"__id*
+
+valuefloatÏ
+È
+\ \(I
+%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*<
+\ \(!0*.
+Shapes.Line"
+	dashStyleShapes.DashStyle*-
+\6 \(<!*
+Shapes.Line"
+dashedbool*1
+\> \(G%*#
+Shapes.Line"
+	thicknessfloat9
+7
+\
+ \(I
+netDashSizefloat"__id*
+
+%1float*
+2
+3*∞
+2^ ^(JW
+U
+^4 ^(G
+%2float"Shapes.Line.GetNetDashSpacing()*
+^4 ^(E
+Shapes.Line¬
+ø
+^ ^(I
 
-∞D ∞(Z8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace˘
-ˆ
+%3void")Shapes.ShapeRenderer.SetFloat(int, float)*
+^ ^(
+Shapes.Line*D
+^ ^(28*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+^4 ^(G
+
+%2float*
+3*‡
+3_ _(AÀ
+»
+_ _(@
 
-∞
- ∞(^
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
-∞
- ∞(
-Shapes.Disc*I
-
-∞ ∞(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*H
-
-∞= ∞(\:*8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace*
-2*2
-2
-∞_ ∞(_"!
-
-∞^ ∞(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.DiscX
+%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+_ _(
+Shapes.Line*A
+_ _(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*"
+_3 _(>
+
+netDashSizefloat*
+4*.
+4` `("
+` `(
+implicit return:
+valuefloatB
+Shapes.LineX

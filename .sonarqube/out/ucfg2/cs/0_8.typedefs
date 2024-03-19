@@ -1,8 +1,5 @@
-¨
-Shapes.ImmediateModeShapeDrawerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject`
-DrawShapes(UnityEngine.Camera)>Shapes.ImmediateModeShapeDrawer.DrawShapes(UnityEngine.Camera)n
-%OnCameraPreRender(UnityEngine.Camera)EShapes.ImmediateModeShapeDrawer.OnCameraPreRender(UnityEngine.Camera)8
-
-OnEnable()*Shapes.ImmediateModeShapeDrawer.OnEnable():
-OnDisable()+Shapes.ImmediateModeShapeDrawer.OnDisable()X
-ImmediateModeShapeDrawer():Shapes.ImmediateModeShapeDrawer.ImmediateModeShapeDrawer()
+µ
+Shapes.GradientFillStackSystem.ValueTypeobjectSystem.IDisposableu
+,GradientFillStack(bool, Shapes.GradientFill)EShapes.GradientFillStack.GradientFillStack(bool, Shapes.GradientFill)/
+	Dispose()"Shapes.GradientFillStack.Dispose()C
+GradientFillStack(),Shapes.GradientFillStack.GradientFillStack()

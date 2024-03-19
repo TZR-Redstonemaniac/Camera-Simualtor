@@ -1,42 +1,37 @@
 
-(Shapes.ShapeRenderer.StencilReadMask.setà
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs≥ ≥("0*
-0
-≥ ≥(*
-1*É
-1
-≥
- ≥(kZ
-X
+'Shapes.ShapeRenderer.SortingLayerID.setÜ
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs$ $("0*
+0$ $(*
+1*ê
+1$
+ $(J¯
+ı
+$
+ $(3
+%1UnityEngine.MeshRenderer"@Shapes.ShapeRenderer.MakeSureComponentExists<T>(ref T, out bool)*$
+$
+ $(!
+Shapes.ShapeRenderer*G
+$# $(*;*9
+Shapes.ShapeRenderer"
+rndUnityEngine.MeshRenderer*
+$, $(1
 
-≥R ≥(i1
-Shapes.ShapeRenderer"
-stencilReadMaskbyte"__id*
 
-valuebyteê
-ç
-
-≥
- ≥(k
-
-%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
-
-≥
- ≥('
-Shapes.ShapeRenderer*J
-
-≥) ≥(P<*:
-Shapes.ShapesMaterialUtils"
-propStencilReadMaskint*A
-
-≥R ≥(i3*1
-Shapes.ShapeRenderer"
-stencilReadMaskbyte*
-2*2
-2
-≥l ≥(l"!
-
-≥k ≥(l
-implicit return:
-valuebyteB
+%0boolÄ
+~
+$
+ $(J	
+%2int"'UnityEngine.Renderer.sortingLayerID.set*,
+$
+ $(3 
+
+%1UnityEngine.MeshRenderer*
+
+valueint*
+2*.
+2$K $(K"
+$J $(K
+implicit return:
+valueintB
 Shapes.ShapeRendererX

@@ -1,37 +1,31 @@
 
-Shapes.Draw.TextOverflow.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs≤ ≤("0*
-0
-≤ ≤(*
-1*ÿ
-1
-≤! ≤(A\
-Z
-
-≤! ≤(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-≤! ≤(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyley
-w
-
-≤! ≤(A=
-
-%1Shapes.TextStyle"#
-overflowTMPro.TextOverflowModes"__id*$"
- 
-valueTMPro.TextOverflowModes*
-2*2
-2
-≤B ≤(B"!
-
-≤A ≤(B
-implicit return:" 
-valueTMPro.TextOverflowModesB"
-Shapes.DrawX
+>Shapes.GradientFill.GetLinearStartWorld(UnityEngine.Transform)Ö
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.cs` `($"0*
+0` `(*
+1*ˇ
+1`8 `(Vê
+ç
+`8 `(V
+%0UnityEngine.Vector3"KShapes.GradientFill.GetWorldPos(UnityEngine.Transform, UnityEngine.Vector3)*#
+`8 `(C
+Shapes.GradientFill*)
+`E `(G
+
+tfUnityEngine.Transform*I
+`I `(T=*;
+Shapes.GradientFill""
+linearStartUnityEngine.Vector3X
+V
+`8 `(V
+%retUnityEngine.Vector3"__id*'
+`8 `(V
+
+%0UnityEngine.Vector3*
+2*8
+2`W `(W")
+`V `(W
+
+%retUnityEngine.Vector3:'
+`& `(2
+tfUnityEngine.TransformB
+Shapes.GradientFill

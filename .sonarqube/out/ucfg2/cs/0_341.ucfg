@@ -1,35 +1,35 @@
 
-Shapes.Triangle.DashOffset.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÿ ÿ("0*
-0
-ÿ ÿ(*
-1*Ú
-1
-ÿ
- ÿ(d
-b
-
-ÿ
- ÿ(
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyle^
-\
-
-ÿ
- ÿ(
-%retfloat"__id*9
-
-ÿ
- ÿ(+*)
-
-%0Shapes.DashStyle"
-offsetfloat*
+QShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector3, UnityEngine.Color, float)†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylinePoint.csE	 E("0*
+0E E(*
+1*Ä
+1F H(l
+j
+F F(6
+Shapes.PolylinePoint"
+pointUnityEngine.Vector3"__id* 
+
+pointUnityEngine.Vector3h
+f
+G G(4
+Shapes.PolylinePoint"
+colorUnityEngine.Color"__id*
+
+colorUnityEngine.ColorX
+V
+H H(,
+Shapes.PolylinePoint"
+	thicknessfloat"__id*
+
+	thicknessfloat*
 2*.
-2
-ÿ ÿ("
-
-ÿ ÿ(
-
-%retfloatB
-Shapes.TriangleX
+2I I("
+I I(
+implicit return:(
+E E(%
+pointUnityEngine.Vector3:&
+E' E(2
+colorUnityEngine.Color:
+E4 E(C
+	thicknessfloatB
+Shapes.PolylinePointX

@@ -1,22 +1,0 @@
-
-#Shapes.DashStack.DashStack()!static†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DashStack.cs
- 
-(!"0*£
-0\Z
-4 (R)
-%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>ž
-›
-4 (R)
-%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
-4 (R+
-)
-%0#System.Collections.Generic.Stack<T>‡
-„
-2 (RC
-Shapes.DashStack"-
-dashes#System.Collections.Generic.Stack<T>"__id*-+
-)
-%0#System.Collections.Generic.Stack<T>"
-implicit returnB"
-Shapes.DashStackX

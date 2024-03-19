@@ -1,21 +1,17 @@
 
-Shapes.Rectangle.Width.getÇ
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs: :("0*
-0: :(*
-1*i
-1:
- :(U
-S
-:
- :(
-%retfloat"__id*2
-:
- :(&*$
-Shapes.Rectangle"
-widthfloat*
-2**
-2: :("
-: :(
-
-%retfloatB
-Shapes.RectangleX
+9Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSize.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()"0*Ê
+0
+Ù* Ù(*¨
+©
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()`
+Shapes.MpbRegularPolygon"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbRegularPolygon

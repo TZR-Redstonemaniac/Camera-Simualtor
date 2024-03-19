@@ -3,5 +3,5 @@ projectKey=TZR-Redstonemaniac_Camera-Simualtor
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.52633
 dashboardUrl=https://sonarcloud.io/dashboard?id=TZR-Redstonemaniac_Camera-Simualtor
-ceTaskId=AY2XQO6gkURJdmDuep4F
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY2XQO6gkURJdmDuep4F
+ceTaskId=AY2XsK0vbP6DR_a4qkxT
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY2XsK0vbP6DR_a4qkxT

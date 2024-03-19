@@ -1,27 +1,43 @@
 
-(Shapes.ShapeRenderer.StencilReadMask.getˆ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs² ²("0*
-0
-² ²(*
-1*{
-1
-²
- ²(e
-c
+'Shapes.ShapeRenderer.SortingLayerID.get†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs# #("0*
+0# #(*
+1*·
+1#
+ #(Bø
+õ
+#
+ #(3
+%1UnityEngine.MeshRenderer"@Shapes.ShapeRenderer.MakeSureComponentExists<T>(ref T, out bool)*$
+#
+ #(!
+Shapes.ShapeRenderer*G
+## #(*;*9
+Shapes.ShapeRenderer"
+rndUnityEngine.MeshRenderer*
+#, #(1
 
-²
- ²(
-%retbyte"__id*A
 
-²
- ²(3*1
-Shapes.ShapeRenderer"
-stencilReadMaskbyte*
-2*-
-2
-² ²("
-
-² ²(
-
-%retbyteB
+%0booln
+l
+#
+ #(B	
+%2int"'UnityEngine.Renderer.sortingLayerID.get*,
+#
+ #(3 
+
+%1UnityEngine.MeshRenderer8
+6
+#
+ #(B
+%retint"__id*
+#
+ #(B
+	
+%2int*
+2*(
+2#C #(C"
+#B #(C
+
+%retintB
 Shapes.ShapeRendererX

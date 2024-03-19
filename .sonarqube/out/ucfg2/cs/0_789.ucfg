@@ -1,17 +1,21 @@
 
-1Shapes.MpbLine3D.Shapes.IDashableMpb.dashType.getã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs{& {()"0*á
-0{* {(*¥
-±
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs{& {().
-%ret&System.Collections.Generic.List<float>"__id*Í
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs{& {()Z*X
-Shapes.MpbLine3D"B
-Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¿
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs{& {()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine3D
+(Shapes.ShapeRendererFillable.UseFill.getè
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs ("0*
+0 (*
+1*u
+1
+ (a
+_
+
+ (
+%retbool"__id*?
+
+ (3*1
+Shapes.ShapeRendererFillable"
+useFillbool*
+2*)
+2 ("
+ (
+
+%retboolB 
+Shapes.ShapeRendererFillableX

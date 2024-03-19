@@ -1,28 +1,35 @@
 
-Shapes.Rectangle.Radius.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csa a("0*
-0a a(*
-1*°
-1a
- a(^
-\
-a
- a(
-%0float"!Shapes.Rectangle.CornerRadius.get* 
-a
- a(
-Shapes.Rectangle<
-:
-a
- a(
-%retfloat"__id*
-a
- a(
+.Shapes.GradientFill.GetShaderFillTypeInt(bool)…
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.csY Y(#"0*
+0Y Y(*
+1*
+1Y3 Y(6*
+2
+3*n
+2Y9 Y(BZ
+X
+Y9 Y(B
+	%capture0int"__id*42*0
+Shapes.GradientFill"
+typeShapes.FillType*
+4*I
+3YE Y(N5
+3
+YE Y(N
+	%capture0int"__id*2ÿÿÿÿÿÿÿÿÿ*
+4*S
+4Y3 Y(N?
+=
+Y3 Y(N
+%retint"__id*
+Y3 Y(N
+
+	%capture0int*
+5*(
+5YO Y(O"
+YN Y(O
 
-%0float*
-2**
-2a a("
-a a(
-
-%retfloatB
-Shapes.RectangleX
+%retint:
+Y% Y(-
+useboolB
+Shapes.GradientFillX

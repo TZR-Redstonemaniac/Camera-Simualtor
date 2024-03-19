@@ -1,37 +1,16 @@
 
-Shapes.Draw.FontSize.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*°
-1
-ü! ü(=\
-Z
-
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ü! ü(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleQ
-O
-
-ü! ü(='
-
-%1Shapes.TextStyle"
-sizefloat"__id*
-
-valuefloat*
-2*2
-2
-ü> ü(>"!
-
-ü= ü(>
-implicit return:
-valuefloatB"
-Shapes.DrawX
+1Shapes.MpbLine2D.Shapes.IDashableMpb.dashSize.set‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csY& Y()"0*Ø
+0Y* Y(*¢
+Ÿ
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csY& Y()X
+Shapes.MpbLine2D"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csY& Y()
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine2D

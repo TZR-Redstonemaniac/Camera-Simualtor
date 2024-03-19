@@ -1,7 +1,19 @@
 
+\
+,Assets/Scripts/Managers/RayTracingManager.cs,f\6\f6beb385f21a84ab6d2252670d75210ab8a6c14b
 ^
 .Assets/Shaders/Standard/CompanionShader.shader,1\7\17fbcb93d37258fab128b9633efc9b3c620d5849
 Y
 )Assets/Shaders/Standard/RayTracing.shader,1\e\1eba136e278db7e3174256e64c269d0ebb33e83d
-\
-,Assets/Scripts/Managers/RayTracingManager.cs,f\6\f6beb385f21a84ab6d2252670d75210ab8a6c14b
+P
+ Assets/Scripts/MovementHelper.cs,5\a\5ad66cccccd743fe0eaf7c1fdf2531b01c953317
+Z
+*Assets/Scripts/Tests/IntersectionTester.cs,4\3\4311104e435db03329f7dcf78707578eda1352a4
+d
+4Assets/Shaders/Standard/CustomRayTracerShader.shader,e\d\ede190f50be1324b31df82f2730fa5dcbd83aef0
+O
+Assets/Scripts/Tests/CamTest.cs,c\b\cb50d54ba3f1b7762b06cbaedcf75b9416a5d18c
+X
+(Assets/Scripts/Objects/RayTracingMesh.cs,7\a\7a67be580a88cd533982566ce491a107351212ba
+X
+(Assets/Shaders/Standard/Smoothing.shader,8\b\8b3e00b5e10d7f27c8aa64d9c130a60ae9787c60

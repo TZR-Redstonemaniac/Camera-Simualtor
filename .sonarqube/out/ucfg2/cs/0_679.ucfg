@@ -1,27 +1,31 @@
 
-Shapes.Disc.AngRadiansStart.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs‡ ‡("0*
+'Shapes.Draw.RegularPolygonSideCount.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csà à("0*
 0
-‡ ‡(*
-1*t
+à à(*
+1*ß
 1
-‡
- ‡(^
-\
+à! à(>\
+Z
 
-‡
- ‡(
-%retfloat"__id*9
+à! à(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylek
+i
 
-‡
- ‡(+*)
-Shapes.Disc"
-angRadiansStartfloat*
-2*.
+à! à(>
+%retint"__id*H
+
+à! à(>:*8
+
+%0Shapes.DrawStyle"
+regularPolygonSideCountint*
+2*,
 2
-‡ ‡("
+à? à(?"
 
-‡ ‡(
-
-%retfloatB
-Shapes.DiscX
+à> à(?
+
+%retintB"
+Shapes.DrawX

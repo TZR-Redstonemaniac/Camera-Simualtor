@@ -1,47 +1,29 @@
 
-$Shapes.Rectangle.GetNetDashSpacing()ù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csä ä("0*
-0
-ä ä(*
-1*·
-1
-ä ä(hà
-Ö
+UShapes.Polygon.SetPoints(System.Collections.Generic.IEnumerable<UnityEngine.Vector2>)Ä
+vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.cs@ @("0*
+0@ @(*
+1*á
+1A B(ú
+ô
+A A(
 
-ä ä(h
-%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*"
+%0void"1System.Collections.Generic.ICollection<T>.Clear()*N
+A A(B*@
+Shapes.Polygon",
+points"System.Collections.Generic.List<T>”
+–
+B B(
 
-ä ä(0
-Shapes.Rectangle*C
-
-ä2 ä(;5*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStyle*4
-
-ä= ä(C&*$
-Shapes.Rectangle"
-dashedbool*D
-
-äE ä([6*4
-Shapes.Rectangle"
-matchDashSpacingToSizebool*8
-
-ä] ä(f**(
-Shapes.Rectangle"
-	thicknessfloat@
->
-
-ä ä(h
-%retfloat"__id*
-
-ä ä(h
-
-%0float*
+%1void"UShapes.Polygon.AddPoints(System.Collections.Generic.IEnumerable<UnityEngine.Vector2>)*
+B B(
+Shapes.Polygon*A
+B B(5
+3
+points)System.Collections.Generic.IEnumerable<T>*
 2*.
-2
-äi ä(i"
-
-äh ä(i
-
-%retfloatB
-Shapes.RectangleX
+2C C("
+C C(
+implicit return:?
+@ @(43
+points)System.Collections.Generic.IEnumerable<T>B
+Shapes.PolygonX

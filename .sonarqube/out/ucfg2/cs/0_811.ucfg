@@ -1,37 +1,35 @@
 
-Shapes.Draw.DashSize.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csš š("0*
+,Shapes.Draw.RegularPolygonThicknessSpace.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‰ ‰("0*
 0
-š š(*
-1*°
+‰ ‰(*
+1*ü
 1
-š! š(=\
+‰
+ ‰(\
 Z
 
-š! š(&
+‰
+ ‰(
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylei
-g
+styleShapes.DrawStyle‡
+„
 
-š! š(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleQ
-O
+‰
+ ‰(
+%retShapes.ThicknessSpace"__id*Q
 
-š! š(='
+‰
+ ‰(C*A
 
-%1Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloat*
-2*2
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
 2
-š> š(>"!
+‰ ‰("-
 
-š= š(>
-implicit return:
-valuefloatB"
+‰ ‰(
+
+%retShapes.ThicknessSpaceB"
 Shapes.DrawX

@@ -1,27 +1,27 @@
 
-*Shapes.Triangle.MatchDashSpacingToSize.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csﬁ ﬁ("0*
++Shapes.Rectangle.MatchDashSpacingToSize.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs“ “("0*
 0
-ﬁ ﬁ(*
-1*}
+“ “(*
+1*~
 1
-ﬁ
- ﬁ( g
-e
+“
+ “( h
+f
 
-ﬁ
- ﬁ( 
-%retbool"__id*C
+“
+ “( 
+%retbool"__id*D
 
-ﬁ
- ﬁ( 5*3
-Shapes.Triangle"
+“
+ “( 6*4
+Shapes.Rectangle"
 matchDashSpacingToSizebool*
 2*-
 2
-ﬁ! ﬁ(!"
+“! “(!"
 
-ﬁ  ﬁ(!
+“  “(!
 
-%retboolB
-Shapes.TriangleX
+%retboolB
+Shapes.RectangleX

@@ -1,35 +1,58 @@
 
-"Shapes.RegularPolygon.DashSize.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csË Ë("0*
+Shapes.Polygon.FillType.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csó ó("0*
 0
-Ë Ë(*
-1*ﬁ
+ó ó(*
+1*Ò
 1
-Ë
- Ë(j
-h
+ò ô(Xd
+b
 
-Ë
- Ë(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStyle\
-Z
+ò ò(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillh
+f
 
-Ë
- Ë(
-%retfloat"__id*7
+ò ò(4
+
+%0Shapes.GradientFill"
+typeShapes.FillType"__id*
+
+valueShapes.FillType¿
+Ω
 
-Ë
- Ë()*'
-
-%0Shapes.DashStyle"
-sizefloat*
-2*.
+ô1 ô(U	
+%1int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*?
+
+ô1 ô(51*/
+Shapes.Polygon"
+fillShapes.GradientFill*3
+
+ôL ô(S%*#
+Shapes.Polygon"
+useFillbool«
+ƒ
+
+ô ô(W
+
+%2void"(Shapes.ShapeRenderer.SetIntNow(int, int)* 
+
+ô ô(
+Shapes.Polygon*C
+
+ô ô(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+ô1 ô(U
+	
+%1int*
+2*2
 2
-Ë Ë("
+ö ö("!
 
-Ë Ë(
-
-%retfloatB
-Shapes.RegularPolygonX
+ö ö(
+implicit return:
+valueShapes.FillTypeB
+Shapes.PolygonX

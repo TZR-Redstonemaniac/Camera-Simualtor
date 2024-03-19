@@ -1,40 +1,30 @@
 
-Shapes.Disc.DashSnap.setõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs8 8("0*
-08 8(*
-1* 
-18
- 8(X^
-\
-8> 8(G
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStylek
-i
-8> 8(T5
+Shapes.Draw.ColorMask.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csU U("0*
+0U U(*
+1*ı
+1U! U(DZ
+X
+U! U(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+U! U(2
+%1Shapes.RenderState"__id*?=*;
 
-%0Shapes.DashStyle"
-snapShapes.DashSnapping"__id* 
-
-valueShapes.DashSnappingË
-Â
-8
- 8(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-8
- 8(
-Shapes.Disc*A
-8 8(55*3
-Shapes.ShapesMaterialUtils"
-propDashSnapint*C
-87 8(V7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateï
+í
+U! U(DM
+
+%1Shapes.RenderState"1
+	colorMask$UnityEngine.Rendering.ColorWriteMask"__id*1/
+-
+value$UnityEngine.Rendering.ColorWriteMask*
 2*.
-28Y 8(Y"
-8X 8(Y
-implicit return:
-valueShapes.DashSnappingB
-Shapes.DiscX
+2UE U(E"
+UD U(E
+implicit return:/-
+value$UnityEngine.Rendering.ColorWriteMaskB"
+Shapes.DrawX

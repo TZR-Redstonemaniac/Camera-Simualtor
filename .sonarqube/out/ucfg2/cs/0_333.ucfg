@@ -1,51 +1,52 @@
 
-Shapes.Disc.DashSpacing.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs% %("0*
-0% %(*
-1*
-1%
- %( *
-2
-3*«
-2%# %(1^
-\
-%# %(,
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleS
-Q
-%# %(1
-	%capture0float"__id*+)*'
-
-%0Shapes.DashStyle"
-sizefloat*
-4* 
-3%4 %(E^
-\
-%4 %(=
-%1Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleV
-T
-%4 %(E
-	%capture0float"__id*.,**
-
-%1Shapes.DashStyle"
-spacingfloat*
-4*W
-4%
- %(EC
-A
-%
- %(E
-%retfloat"__id* 
-%
- %(E
-
-	%capture0float*
-5**
-5%F %(F"
-%E %(F
+!Shapes.Polygon.FillColorStart.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csª ª("0*
+0
+ª ª(*
+1*¯
+1
+ª
+ ª(Od
+b
 
-%retfloatB
-Shapes.DiscX
+ª6 ª(:
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillr
+p
+
+ª6 ª(M<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color"__id*
+
+valueUnityEngine.Colorá
+Ñ
+
+ª
+ ª(O
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)* 
+
+ª
+ ª(
+Shapes.Polygon*@
+
+ª ª(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*L
+
+ª6 ª(M>*<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*2
+2
+ªP ª(P"!
+
+ªO ª(P
+implicit return:
+valueUnityEngine.ColorB
+Shapes.PolygonX

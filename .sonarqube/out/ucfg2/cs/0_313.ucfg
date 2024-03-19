@@ -1,49 +1,54 @@
 
-hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)á
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs ("0*
-0 (*
-1*Œ
-1 (o
-m
- (6
-Shapes.DiscColors"
+#Shapes.Polygon.FillRadialOrigin.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¢ ¢("0*
+0
+¢ ¢(*
+1*˝
+1
+£ §(Td
+b
 
-innerStartUnityEngine.Color"__id*#!
-
+£ £(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillx
+v
 
-innerStartUnityEngine.Coloro
-m
- (6
-Shapes.DiscColors"
+£ £(@
+
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ó
+î
 
-outerStartUnityEngine.Color"__id*#!
-
+§6 §(Q
+%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
 
-outerStartUnityEngine.Colork
-i
- (4
-Shapes.DiscColors"
-innerEndUnityEngine.Color"__id*!
-
-innerEndUnityEngine.Colork
-i
- (4
-Shapes.DiscColors"
-outerEndUnityEngine.Color"__id*!
-
-outerEndUnityEngine.Color*
-2*.
-2 ("
- (
-implicit return:+
- ('
+§6 §(:1*/
+Shapes.Polygon"
+fillShapes.GradientFillÏ
+È
 
-innerStartUnityEngine.Color:+
-) (9
+§ §(S
 
-outerStartUnityEngine.Color:)
-; (I
-innerEndUnityEngine.Color:)
-K (Y
-outerEndUnityEngine.ColorB
-Shapes.DiscColorsX
+%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
+
+§ §(
+Shapes.Polygon*D
+
+§ §(46*4
+Shapes.ShapesMaterialUtils"
+propFillStartint*)
+
+§6 §(Q
+
+%1UnityEngine.Vector4*
+2*2
+2
+• •("!
+
+• •(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.PolygonX

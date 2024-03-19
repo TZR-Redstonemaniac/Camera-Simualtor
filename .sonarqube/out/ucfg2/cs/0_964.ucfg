@@ -1,21 +1,17 @@
 
-Shapes.Rectangle.Pivot.getÇ
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs0 0("0*
-00 0(*
-1*
-10
- 0(k
-i
-0
- 0(
-%retShapes.RectPivot"__id*=
-0
- 0(1*/
-Shapes.Rectangle"
-pivotShapes.RectPivot*
-2*5
-20 0("&
-0 0(
-
-%retShapes.RectPivotB
-Shapes.RectangleX
+=Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillColorEnd.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/"0*Í
+0
+Î0 Î(0∞
+≠
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/d
+Shapes.MpbRegularPolygon"F
+ Shapes.IFillableMpb.fillColorEnd"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbRegularPolygon

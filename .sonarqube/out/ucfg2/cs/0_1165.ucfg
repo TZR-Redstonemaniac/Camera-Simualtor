@@ -1,39 +1,47 @@
 
-'Shapes.DrawCommand.DrawCommand()!staticà
-~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.cs#	 #("0*±
-0# #(\Z
- .  (F)
-%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>û
-õ
- .  (F)
-%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
- .  (F+
-)
-%0#System.Collections.Generic.Stack<T>í
-è
- ,  (FN
-Shapes.DrawCommand"6
-cBuffersWriting#System.Collections.Generic.Stack<T>"__id*-+
-)
-%0#System.Collections.Generic.Stack<T>|z
-!L !(w9
-%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>”
-–
-!L !(w9
-%33System.Collections.Generic.Dictionary<TKey, TValue>"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*G
-!L !(w;
-9
-%23System.Collections.Generic.Dictionary<TKey, TValue>¥
-±
-!J !(w`
-Shapes.DrawCommand"H
-cBuffersRendering3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
-9
-%23System.Collections.Generic.Dictionary<TKey, TValue>*
-1*
-1% -(V*
-2*.
-2/ /("
-/ /(
-implicit returnB"
-Shapes.DrawCommandX
+Shapes.Quad.C.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csä ä("0*
+0
+ä ä(*
+1*√
+1
+ã å(a
+_
+
+ã. ã(7)
+Shapes.Quad"
+cUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3Ò
+Ó
+
+ã ã(9
+
+%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
+
+ã ã(
+Shapes.Quad*<
+
+ã ã(,.*,
+Shapes.ShapesMaterialUtils"
+propCint*9
+
+ã. ã(7+*)
+Shapes.Quad"
+cUnityEngine.Vector3V
+T
+
+å å(
+
+%1void"Shapes.Quad.CheckAutoSetD()*
+
+å å(
+Shapes.Quad*
+2*2
+2
+ç ç("!
+
+ç ç(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.QuadX

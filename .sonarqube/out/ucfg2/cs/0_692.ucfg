@@ -1,42 +1,30 @@
 
-Shapes.Disc.AngRadiansStart.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csˆ ˆ("0*
+Shapes.Draw.TextStyle.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csğ ğ("0*
 0
-ˆ ˆ(*
-1*Ô
+ğ ğ(*
+1*à
 1
-ˆ
- ˆ(RS
-Q
+ğ! ğ(8\
+Z
 
-ˆ9 ˆ(P)
-Shapes.Disc"
-angRadiansStartfloat"__id*
-
-valuefloatè
-å
+ğ! ğ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylel
+j
 
-ˆ
- ˆ(R
-
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-
-ˆ
- ˆ(
-Shapes.Disc*C
-
-ˆ ˆ(75*3
-Shapes.ShapesMaterialUtils"
-propAngStartint*9
-
-ˆ9 ˆ(P+*)
-Shapes.Disc"
-angRadiansStartfloat*
+ğ! ğ(87
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyle"__id*
+
+valueShapes.TextStyle*
 2*2
 2
-ˆS ˆ(S"!
+ğ9 ğ(9"!
 
-ˆR ˆ(S
-implicit return:
-valuefloatB
-Shapes.DiscX
+ğ8 ğ(9
+implicit return:
+valueShapes.TextStyleB"
+Shapes.DrawX

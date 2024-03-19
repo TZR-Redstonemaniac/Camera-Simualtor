@@ -1,35 +1,28 @@
 
-#Shapes.RegularPolygon.FillSpace.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs© ©("0*
-0
-© ©(*
-1*˘
-1
-©
- ©(k
-i
+Shapes.Disc.DashOffset.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs, ,("0*
+0, ,(*
+1*Œ
+1,
+ ,(^
+\
+,
+ ,(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStyleZ
+X
+,
+ ,(
+%retfloat"__id*7
+,
+ ,(+*)
+
+%0Shapes.DashStyle"
+offsetfloat*
+2**
+2, ,("
+, ,(
 
-©
- ©(
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFillv
-t
-
-©
- ©(
-%retShapes.FillSpace"__id*F
-
-©
- ©(8*6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpace*
-2*9
-2
-© ©("(
-
-© ©(
-
-%retShapes.FillSpaceB
-Shapes.RegularPolygonX
+%retfloatB
+Shapes.DiscX

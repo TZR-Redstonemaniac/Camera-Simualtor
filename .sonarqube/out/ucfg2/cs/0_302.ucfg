@@ -1,35 +1,27 @@
 
-Shapes.Polygon.FillType.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csñ ñ("0*
+ Shapes.RegularPolygon.Dashed.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs‡ ‡("0*
 0
-ñ ñ(*
-1*Ô
+‡ ‡(*
+1*s
 1
-ñ
- ñ(d
-b
+‡
+ ‡(]
+[
 
-ñ
- ñ(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFills
-q
+‡
+ ‡(
+%retbool"__id*9
 
-ñ
- ñ(
-%retShapes.FillType"__id*D
-
-ñ
- ñ(6*4
-
-%0Shapes.GradientFill"
-typeShapes.FillType*
-2*8
+‡
+ ‡(+*)
+Shapes.RegularPolygon"
+dashedbool*
+2*-
 2
-ñ ñ("'
+‡ ‡("
 
-ñ ñ(
-
-%retShapes.FillTypeB
-Shapes.PolygonX
+‡ ‡(
+
+%retboolB
+Shapes.RegularPolygonX

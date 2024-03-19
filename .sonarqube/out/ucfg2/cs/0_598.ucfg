@@ -1,38 +1,38 @@
 
-Shapes.Triangle.Hollow.getƒ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs ("0*
+Shapes.Draw.DashSizeUniform.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŸ Ÿ("0*
 0
- (*
-1*¯
+Ÿ Ÿ(*
+1*»
 1
-
- (Y
-W
+Ÿ! Ÿ(5\
+Z
 
-
- (
+Ÿ! Ÿ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
 
-%0bool"Shapes.Triangle.Border.get*!
+Ÿ! Ÿ(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyle\
+Z
 
-
- (
-Shapes.Triangle>
-<
+Ÿ! Ÿ(5
+%retfloat"__id*7
 
-
- (
-%retbool"__id*
-
-
- (
-
-
-%0bool*
-2*-
+Ÿ! Ÿ(5)*'
+
+%1Shapes.DashStyle"
+sizefloat*
+2*.
 2
- ("
+Ÿ6 Ÿ(6"
 
- (
-
-%retboolB
-Shapes.TriangleX
+Ÿ5 Ÿ(6
+
+%retfloatB"
+Shapes.DrawX

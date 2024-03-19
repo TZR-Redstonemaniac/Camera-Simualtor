@@ -1,35 +1,30 @@
 
-Shapes.Rectangle.FillSpace.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs£ £("0*
+Shapes.Draw.BlendMode.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csà à("0*
 0
-£ £(*
-1*Ù
+à à(*
+1*Ï
 1
-£
- £(f
-d
+à! à(8\
+Z
 
-£
- £(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillv
-t
+à! à(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylex
+v
 
-£
- £(
-%retShapes.FillSpace"__id*F
-
-£
- £(8*6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpace*
-2*9
+à! à(8=
+
+%0Shapes.DrawStyle"#
+	blendModeShapes.ShapesBlendMode"__id*#!
+
+valueShapes.ShapesBlendMode*
+2*2
 2
-£ £("(
+à9 à(9"!
 
-£ £(
-
-%retShapes.FillSpaceB
-Shapes.RectangleX
+à8 à(9
+implicit return:!
+valueShapes.ShapesBlendModeB"
+Shapes.DrawX

@@ -1,5 +1,6 @@
-›
-Shapes.MpbTorusShapes.MetaMpbobjectF
-TransferShapeProperties())Shapes.MpbTorus.TransferShapeProperties()(
-
-MpbTorus()Shapes.MpbTorus.MpbTorus()
+ù
+!Shapes.ShapesMeshGen.EarClipPointobjectr
+&EarClipPoint(int, UnityEngine.Vector2)HShapes.ShapesMeshGen.EarClipPoint.EarClipPoint(int, UnityEngine.Vector2)L
+MarkReflexUnknown()5Shapes.ShapesMeshGen.EarClipPoint.MarkReflexUnknown()D
+ReflexState.get1Shapes.ShapesMeshGen.EarClipPoint.ReflexState.getD
+ReflexState.set1Shapes.ShapesMeshGen.EarClipPoint.ReflexState.set

@@ -1,54 +1,30 @@
 
-)Shapes.RegularPolygon.FillLinearStart.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¼ ¼("0*
+Shapes.Draw.GradientFill.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÂ Â("0*
 0
-¼ ¼(*
-1*‘
+Â Â(*
+1*é
 1
-½ ¾(Tk
-i
+Â! Â(;\
+Z
 
-½ ½(
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFillw
-u
+Â! Â(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleu
+s
 
-½ ½(?
-
-%0Shapes.GradientFill""
-linearStartUnityEngine.Vector3"__id* 
+Â! Â(;=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill"__id* 
 
-valueUnityEngine.Vector3
-›
-
-¾6 ¾(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*F
-
-¾6 ¾(:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFilló
-ğ
-
-¾ ¾(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*'
-
-¾ ¾(
-Shapes.RegularPolygon*D
-
-¾ ¾(46*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
-
-¾6 ¾(Q
-
-%1UnityEngine.Vector4*
+valueShapes.GradientFill*
 2*2
 2
-¿ ¿("!
+Â< Â(<"!
 
-¿ ¿(
+Â; Â(<
 implicit return:
-valueUnityEngine.Vector3B
-Shapes.RegularPolygonX
+valueShapes.GradientFillB"
+Shapes.DrawX

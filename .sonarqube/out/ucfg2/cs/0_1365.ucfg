@@ -1,33 +1,16 @@
 
-Shapes.Cone.SizeSpace.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs" "("0*
-0" "(*
-1*È
-1"
- "(Tk
-i
-"? "(P3
-Shapes.Cone""
-	sizeSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÁ
-‰
-"
- "(T
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-"
- "(
-Shapes.Cone*B
-" "(66*4
-Shapes.ShapesMaterialUtils"
-propSizeSpaceint*A
-"8 "(R5*3
-Shapes.Cone""
-	sizeSpaceShapes.ThicknessSpace*
-2*.
-2"U "(U"
-"T "(U
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.ConeX
+/Shapes.MpbDisc.Shapes.IDashableMpb.dashSize.setã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs5& 5()"0*÷
+05* 5(*†
+ù
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs5& 5()V
+Shapes.MpbDisc"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs5& 5()
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbDisc

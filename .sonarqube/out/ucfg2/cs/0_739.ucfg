@@ -1,16 +1,37 @@
 
-2Shapes.MpbDisc.Shapes.IDashableMpb.dashSpacing.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs8) 8(,"0*Ÿ
-08- 8(-£
-†
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs8) 8(,Y
-Shapes.MpbDisc"E
-Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs8) 8(,
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbDisc
+Shapes.Draw.TextMargins.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¶ ¶("0*
+0
+¶ ¶(*
+1*œ
+1
+¶! ¶(@\
+Z
+
+¶! ¶(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+¶! ¶(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStylep
+n
+
+¶! ¶(@8
+
+%1Shapes.TextStyle"
+marginsUnityEngine.Vector4"__id* 
+
+valueUnityEngine.Vector4*
+2*2
+2
+¶A ¶(A"!
+
+¶@ ¶(A
+implicit return:
+valueUnityEngine.Vector4B"
+Shapes.DrawX
