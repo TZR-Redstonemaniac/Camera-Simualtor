@@ -1,30 +1,35 @@
 
-Shapes.Draw.ZOffsetFactor.getå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csJ J("0*
-0J J(*
-1*¬
-1J! J(@Z
-X
-J! J(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
-k
-J! J(2
-%1Shapes.RenderState"__id*?=*;
-
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderStatec
-a
-J! J(@
-%retfloat"__id*@
-J! J(@4*2
-
-%1Shapes.RenderState"
-zOffsetFactorfloat*
-2**
-2JA J(A"
-J@ J(A
+Shapes.Rectangle.DashOffset.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÛ Û("0*
+0
+Û Û(*
+1*€
+1
+Û
+ Û(e
+c
 
-%retfloatB"
-Shapes.DrawX
+Û
+ Û(
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStyle^
+\
+
+Û
+ Û(
+%retfloat"__id*9
+
+Û
+ Û(+*)
+
+%0Shapes.DashStyle"
+offsetfloat*
+2*.
+2
+Û Û("
+
+Û Û(
+
+%retfloatB
+Shapes.RectangleX

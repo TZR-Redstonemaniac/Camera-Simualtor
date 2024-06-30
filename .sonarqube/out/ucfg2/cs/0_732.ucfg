@@ -1,38 +1,33 @@
 
-$Shapes.Draw.TextParagraphSpacing.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*«
-1
-ü! ü(A\
-Z
+Shapes.Polyline.Thickness.setÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csC C("0*
+0C C(*
+1*…
+1C
+ C(MO
+M
+C: C(K'
+Shapes.Polyline"
+	thicknessfloat"__id*
+
+valuefloat„
+‡
+C
+ C(M
 
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ü! ü(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleh
-f
-
-ü! ü(A
-%retfloat"__id*C
-
-ü! ü(A5*3
-
-%1Shapes.TextStyle"
-paragraphSpacingfloat*
+%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+C
+ C(
+Shapes.Polyline*B
+C C(86*4
+Shapes.ShapesMaterialUtils"
+propThicknessint*5
+C: C(K)*'
+Shapes.Polyline"
+	thicknessfloat*
 2*.
-2
-üB ü(B"
-
-üA ü(B
-
-%retfloatB"
-Shapes.DrawX
+2CN C(N"
+CM C(N
+implicit return:
+valuefloatB
+Shapes.PolylineX

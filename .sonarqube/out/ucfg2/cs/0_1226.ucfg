@@ -1,27 +1,35 @@
 
-Shapes.Quad.ColorRight.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÀ À("0*
+#Shapes.Draw.TorusThicknessSpace.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csø ø("0*
 0
-À À(*
-1*É
+ø ø(*
+1*¸
 1
-À
- À(m
-k
+ø
+ ø(\
+Z
 
-À
- À(
-%retUnityEngine.Color"__id*<
+ø
+ ø(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleá
+Ñ
 
-À
- À(.*,
-Shapes.Quad"
-colorCUnityEngine.Color*
-2*:
+ø
+ ø(
+%retShapes.ThicknessSpace"__id*Q
+
+ø
+ ø(C*A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
 2
-À À(")
+ø ø("-
 
-À À(
-
-%retUnityEngine.ColorB
-Shapes.Quad
+ø ø(
+
+%retShapes.ThicknessSpaceB"
+Shapes.DrawX

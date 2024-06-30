@@ -1,42 +1,21 @@
 
-Shapes.Disc.RadiusSpace.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csö ö("0*
-0
-ö ö(*
-1*˚
-1
-ö
- ö(Xo
-m
-
-öA ö(T5
-Shapes.Disc"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÛ
-
-
-ö
- ö(X
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
-ö
- ö(
-Shapes.Disc*F
-
-ö ö(88*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*E
-
-ö: ö(V7*5
-Shapes.Disc"$
-radiusSpaceShapes.ThicknessSpace*
-2*2
-2
-öY ö(Y"!
-
-öX ö(Y
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.DiscX
+Shapes.Polyline.Joins.getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.cs- -("0*
+0- -(*
+1*Ü
+1-
+ -(r
+p
+-
+ -(
+%retShapes.PolylineJoins"__id*@
+-
+ -(4*2
+Shapes.Polyline"
+joinsShapes.PolylineJoins*
+2*9
+2- -("*
+- -(
+
+%retShapes.PolylineJoinsB
+Shapes.PolylineX

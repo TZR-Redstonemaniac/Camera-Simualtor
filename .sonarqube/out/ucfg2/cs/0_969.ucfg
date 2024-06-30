@@ -1,17 +1,70 @@
 
-.Shapes.MpbRect.Shapes.IFillableMpb.fillEnd.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*"0*€
-0
-≈+ ≈(+°
-û
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*U
-Shapes.MpbRect"A
-Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRect
+_Shapes.ShapesExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.cs ("0*
+0 (*
+1*‚
+1 (Ã…
+ (/
+%0)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*@
+ (4
+2
+elems)System.Collections.Generic.IEnumerable<T>2GetEnumerator()
+}
+ (6
+	%capture0)System.Collections.Generic.IEnumerator<T>"__id*31
+/
+%0)System.Collections.Generic.IEnumerator<T>*
+2*Æ
+2 (ñì
+ (
+
+%1bool")System.Collections.IEnumerator.MoveNext()*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2
+MoveNext()*
+3
+4*ﬂ
+3 (†ù
+ (
+%2T"5System.Collections.Generic.IEnumerator<T>.Current.get*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2Current.get'
+%
+ (
+eT"__id*	
+
+%2T}
+ (
+
+%3void"System.Action<T>.Invoke(T)*(
+ (
+
+
+actionSystem.Action<T>*
+ (
+
+eT2	Invoke(T)*
+2*
+4 (*
+5
+6*ù
+5 (àÖ
+ (
+
+%4void"System.IDisposable.Dispose()*D
+ (8
+6
+	%capture0)System.Collections.Generic.IEnumerator<T>2	Dispose()*
+6*
+6 (*
+7*.
+7 ("
+ (
+implicit return:>
+! (:2
+elems)System.Collections.Generic.IEnumerable<T>:&
+< (L
+actionSystem.Action<T>B"
+Shapes.ShapesExtensionsX

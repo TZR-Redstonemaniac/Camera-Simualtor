@@ -1,5 +1,3 @@
-™
-Shapes.StateStackSystem.ValueTypeobjectSystem.IDisposable|
-3StateStack(Shapes.DrawStyle, UnityEngine.Matrix4x4)EShapes.StateStack.StateStack(Shapes.DrawStyle, UnityEngine.Matrix4x4)(
-	Dispose()Shapes.StateStack.Dispose().
-StateStack()Shapes.StateStack.StateStack()
+z
+Shapes.ThicknessSpaceSystem.EnumSystem.ValueTypeobject:
+ThicknessSpace()&Shapes.ThicknessSpace.ThicknessSpace()

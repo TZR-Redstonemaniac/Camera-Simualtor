@@ -1,28 +1,16 @@
 
-Shapes.Line.DashSize.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csY Y("0*
-0Y Y(*
-1*Ã
-1Y
- Y(^
-\
-Y
- Y(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStyleX
-V
-Y
- Y(
-%retfloat"__id*5
-Y
- Y()*'
-
-%0Shapes.DashStyle"
-sizefloat*
-2**
-2Y Y("
-Y Y(
-
-%retfloatB
-Shapes.LineX
+2Shapes.MpbLine3D.Shapes.IDashableMpb.dashSpace.setã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csy' y(*"0*Ÿ
+0y+ y(+£
+†
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csy' y(*Y
+Shapes.MpbLine3D"C
+Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csy' y(*
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine3D

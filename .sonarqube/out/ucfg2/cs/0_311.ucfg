@@ -1,42 +1,42 @@
 
->Shapes.DiscColors.Radial(UnityEngine.Color, UnityEngine.Color)‡
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs& &(!"0*
-0& &(*
-1*„
-1&A &(m86
-&A &(m
-%0Shapes.DiscColors"Shapes.DiscColorsß
-Ü
-&A &(m
+?Shapes.DiscColors.Angular(UnityEngine.Color, UnityEngine.Color)‡
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DiscColors.cs+ +(""0*
+0+ +(*
+1*€
+1+@ +(h86
++@ +(h
+%0Shapes.DiscColors"Shapes.DiscColorsÛ
+Ø
++@ +(h
 %1Shapes.DiscColors"hShapes.DiscColors.DiscColors(UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)*%
-&A &(m
++@ +(h
 
 %0Shapes.DiscColors*(
-&Q &(V
++P +(U
 
-innerUnityEngine.Color*(
-&X &(]
+startUnityEngine.Color*(
++W +(\
 
-outerUnityEngine.Color*(
-&_ &(d
-
-innerUnityEngine.Color*(
-&f &(k
-
-outerUnityEngine.ColorT
+startUnityEngine.Color*&
++^ +(a
+
+endUnityEngine.Color*&
++c +(f
+
+endUnityEngine.ColorT
 R
-&A &(m
++@ +(h
 %retShapes.DiscColors"__id*%
-&A &(m
++@ +(h
 
 %0Shapes.DiscColors*
 2*6
-2&n &(n"'
-&m &(n
+2+i +(i"'
++h +(i
 
 %retShapes.DiscColors:&
-&# &(.
-innerUnityEngine.Color:&
-&0 &(;
-outerUnityEngine.ColorB"
++$ +(/
+startUnityEngine.Color:$
++1 +(:
+endUnityEngine.ColorB"
 Shapes.DiscColors

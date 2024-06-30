@@ -1,21 +1,48 @@
 
-Shapes.Triangle.ColorMode.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs` `("0*
-0` `(*
-1*¶
-1`
- `(ë
-é
-`
- `()
-%ret!Shapes.Triangle.TriangleColorMode"__id*Q
-`
- `(E*C
-Shapes.Triangle".
-	colorMode!Shapes.Triangle.TriangleColorMode*
-2*F
-2` `("7
-` `(+
-)
-%ret!Shapes.Triangle.TriangleColorModeB
-Shapes.TriangleX
+Shapes.Disc.ColorEnd.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csr r("0*
+0r r(*
+1*›
+1s t(Pg
+e
+s5 s(J3
+Shapes.Disc""
+colorInnerEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color¯
+ı
+s s(L
+
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+s s(
+Shapes.Disc*F
+s s(3:*8
+Shapes.ShapesMaterialUtils"
+propColorInnerEndint*A
+s5 s(J5*3
+Shapes.Disc""
+colorInnerEndUnityEngine.Colorg
+e
+t8 t(M3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color˚
+¯
+t t(O
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+t t(
+Shapes.Disc*F
+t t(6:*8
+Shapes.ShapesMaterialUtils"
+propColorOuterEndint*A
+t8 t(M5*3
+Shapes.Disc""
+colorOuterEndUnityEngine.Color*
+2*.
+2u u("
+u u(
+implicit return:
+valueUnityEngine.ColorB
+Shapes.DiscX

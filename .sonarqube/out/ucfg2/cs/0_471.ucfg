@@ -1,19 +1,27 @@
 
-7Shapes.TexturePlacement.StretchToFill(UnityEngine.Rect)é
-ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\TexturePlacement.csS S(,"0*
-0S S(*
-1*x
-1S= S(Md
-b
-S= S(M5
-%ret-(UnityEngine.Rect rect, UnityEngine.Rect uvs)"__id*
-S= S(M
-	{unknown}*
-2*R
-2SN S(N"C
-SM S(N7
-5
-%ret-(UnityEngine.Rect rect, UnityEngine.Rect uvs):$
-S. S(7
-rectUnityEngine.RectB"
-Shapes.TexturePlacement
+!Shapes.RegularPolygon.UseFill.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csõ õ("0*
+0
+õ õ(*
+1*t
+1
+õ
+ õ(^
+\
+
+õ
+ õ(
+%retbool"__id*:
+
+õ
+ õ(,**
+Shapes.RegularPolygon"
+useFillbool*
+2*-
+2
+õ õ("
+
+õ õ(
+
+%retboolB
+Shapes.RegularPolygonX

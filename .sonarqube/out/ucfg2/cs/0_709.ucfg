@@ -1,37 +1,28 @@
 
-Shapes.Draw.FontSize.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*°
-1
-ü! ü(=\
-Z
-
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ü! ü(0
-%1Shapes.TextStyle"__id*;9*7
+Shapes.Line.DashType.get›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csy y("0*
+0y y(*
+1*à
+1y
+ y(^
+\
+y
+ y(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStylel
+j
+y
+ y(
+%retShapes.DashType"__id*?
+y
+ y(3*1
 
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleQ
-O
-
-ü! ü(='
-
-%1Shapes.TextStyle"
-sizefloat"__id*
-
-valuefloat*
-2*2
-2
-ü> ü(>"!
-
-ü= ü(>
-implicit return:
-valuefloatB"
-Shapes.DrawX
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*4
+2y y("%
+y y(
+
+%retShapes.DashTypeB
+Shapes.LineX

@@ -1,33 +1,21 @@
 
-Shapes.Disc.ColorOuterStart.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csH H("0*
-0H H(*
-1*ÿ
-1H
- H(Yi
-g
-H@ H(W5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color"__id*
-
-valueUnityEngine.Colorÿ
-ü
-H
- H(Y
-
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-H
- H(
-Shapes.Disc*H
-H H(><*:
-Shapes.ShapesMaterialUtils"
-propColorOuterStartint*C
-H@ H(W7*5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color*
-2*.
-2HZ H(Z"
-HY H(Z
-implicit return:
-valueUnityEngine.ColorB
-Shapes.DiscX
+&Shapes.Line.MatchDashSpacingToSize.get›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csI I("0*
+0I I(*
+1*s
+1I
+ I( _
+]
+I
+ I( 
+%retbool"__id*=
+I
+ I( 1*/
+Shapes.Line"
+matchDashSpacingToSizebool*
+2*)
+2I! I(!"
+I  I(!
+
+%retboolB
+Shapes.LineX

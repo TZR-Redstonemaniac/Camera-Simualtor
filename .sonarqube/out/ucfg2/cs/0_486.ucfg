@@ -1,30 +1,24 @@
 
-Shapes.Draw.ThicknessSpace.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¦ ¦("0*
-0
-¦ ¦(*
-1*ï
-1
-¦! ¦(=\
-Z
+Shapes.Disc.ColorMode.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs0 0("0*
+00 0(*
+1*æ
+11 2(s
+q
+1 1(7
+Shapes.Disc"&
+	colorModeShapes.Disc.DiscColorMode"__id*&$
+"
+valueShapes.Disc.DiscColorMode]
+[
+2 2(
 
-¦! ¦(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle{
-y
-
-¦! ¦(=A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
-2
-¦> ¦(>"!
-
-¦= ¦(>
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+%0void"&Shapes.ShapeRenderer.ApplyProperties()*
+2 2(
+Shapes.Disc*
+2*.
+23 3("
+3 3(
+implicit return:$"
+valueShapes.Disc.DiscColorModeB
+Shapes.DiscX

@@ -1,50 +1,35 @@
 
-Shapes.Rectangle.FillSpace.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs§ §("0*
+Shapes.Rectangle.FillType.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csú ú("0*
 0
-§ §(*
-1*„
+ú ú(*
+1*Ò
 1
-§
- §(Uf
+ú
+ ú(f
 d
 
-§? §(C
+ú
+ ú(
 %0Shapes.GradientFill"__id*53*1
 Shapes.Rectangle"
-fillShapes.GradientFillk
-i
+fillShapes.GradientFills
+q
 
-§? §(Q6
+ú
+ ú(
+%retShapes.FillType"__id*D
+
+ú
+ ú(6*4
 
-%0Shapes.GradientFill"
-spaceShapes.FillSpace"__id*
-
-valueShapes.FillSpace˜
-Ù
-
-§
- §(U
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
-
-§
- §(
-Shapes.Rectangle*D
-
-§ §(66*4
-Shapes.ShapesMaterialUtils"
-propFillSpaceint*F
-
-§8 §(S8*6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpace*
-2*2
+%0Shapes.GradientFill"
+typeShapes.FillType*
+2*8
 2
-§V §(V"!
+ú ú("'
 
-§U §(V
-implicit return:
-valueShapes.FillSpaceB
+ú ú(
+
+%retShapes.FillTypeB
 Shapes.RectangleX

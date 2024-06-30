@@ -1,35 +1,35 @@
 
-Shapes.Triangle.DashSpace.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csƒ ƒ("0*
+Shapes.Rectangle.DashSpace.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs÷ ÷("0*
 0
-ƒ ƒ(*
-1*ï
+÷ ÷(*
+1*ğ
 1
-ƒ
- ƒ(d
-b
+÷
+ ÷(e
+c
 
-ƒ
- ƒ(
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
+÷
+ ÷(
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
 	dashStyleShapes.DashStyles
 q
 
-ƒ
- ƒ(
+÷
+ ÷(
 %retShapes.DashSpace"__id*C
 
-ƒ
- ƒ(5*3
+÷
+ ÷(5*3
 
 %0Shapes.DashStyle"
 spaceShapes.DashSpace*
 2*9
 2
-ƒ ƒ("(
+÷ ÷("(
 
-ƒ ƒ(
+÷ ÷(
 
-%retShapes.DashSpaceB
-Shapes.TriangleX
+%retShapes.DashSpaceB
+Shapes.RectangleX

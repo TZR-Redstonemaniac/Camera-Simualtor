@@ -1,31 +1,36 @@
 
-Shapes.Draw.UseDashes.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csû û("0*
+#Shapes.Rectangle.FillColorStart.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÀ À("0*
 0
-û û(*
-1*Ó
+À À(*
+1*û
 1
-û! û(0\
-Z
+À
+ À(f
+d
 
-û! û(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle_
-]
+À
+ À(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFill}
+{
 
-û! û(0
-%retbool"__id*;
+À
+ À(
+%retUnityEngine.Color"__id*L
 
-û! û(0-*+
-
-%0Shapes.DrawStyle"
-	useDashesbool*
-2*-
+À
+ À(>*<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*:
 2
-û1 û(1"
+À À(")
 
-û0 û(1
-
-%retboolB"
-Shapes.DrawX
+À À(
+
+%retUnityEngine.ColorB
+Shapes.Rectangle

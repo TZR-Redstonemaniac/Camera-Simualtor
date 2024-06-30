@@ -1,28 +1,58 @@
 
-Shapes.Disc.DashSpace.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs0 0("0*
-00 0(*
-1*„
-10
- 0(^
-\
-0
- 0(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleo
-m
-0
- 0(
-%retShapes.DashSpace"__id*A
-0
- 0(5*3
-
-%0Shapes.DashStyle"
-spaceShapes.DashSpace*
-2*5
-20 0("&
-0 0(
+Shapes.Rectangle.FillType.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csù ù("0*
+0
+ù ù(*
+1*˘
+1
+û ü(Xf
+d
+
+û û(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillh
+f
+
+û û(4
+
+%0Shapes.GradientFill"
+typeShapes.FillType"__id*
 
-%retShapes.DashSpaceB
-Shapes.DiscX
+valueShapes.FillTypeƒ
+¡
+
+ü1 ü(U	
+%1int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*A
+
+ü1 ü(53*1
+Shapes.Rectangle"
+fillShapes.GradientFill*5
+
+üL ü(S'*%
+Shapes.Rectangle"
+useFillbool…
+∆
+
+ü ü(W
+
+%2void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+
+ü ü(
+Shapes.Rectangle*C
+
+ü ü(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+ü1 ü(U
+	
+%1int*
+2*2
+2
+† †("!
+
+† †(
+implicit return:
+valueShapes.FillTypeB
+Shapes.RectangleX

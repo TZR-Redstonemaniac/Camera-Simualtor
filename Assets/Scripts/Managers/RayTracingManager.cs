@@ -1,5 +1,8 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Shapes;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
@@ -9,14 +12,18 @@ namespace Managers {
     [ExecuteAlways]
     [ImageEffectAllowedInSceneView]
     public class RayTracingManager : MonoBehaviour {
+        
         [Header("References")]
         [SerializeField] private Shader rayTracingShader;
         [SerializeField] private Shader companionShader;
         [SerializeField] private Shader smoothingShader;
         [SerializeField] private Camera mainCam;
+
         
         [Header("Config")]
         [SerializeField] private bool useShaderInSceneView;
+        [SerializeField] private bool accumulate;
+        [SerializeField] private bool smoothing;
         [SerializeField] [Range(0, 32)] private int MaxBounceCount;
         [SerializeField] [Range(0, 64)] private int NumRaysPerPixel;
         [SerializeField] [Min(0)] private float DivergeStrength;
@@ -25,34 +32,42 @@ namespace Managers {
         [SerializeField] [Min(0.1f)] private float RenderDistance;
         [SerializeField] [Range(0f, 1f)] private float BlackRayTolerance;
         [SerializeField] [Range(0f, 1f)] private float smoothingFactor;
+
         
         [Header("Environment")]
         [SerializeField] private bool environment;
-        [SerializeField] private bool visualizeFocus;
         [SerializeField] private Color SkyColorHorizon;
         [SerializeField] private Color SkyColorZenith;
         [SerializeField] private Color GroundColor;
         [SerializeField] private float SunFocus;
         [SerializeField] private float SunIntensity;
+        
+        
+        [Header("Debug")]
+        [SerializeField] private bool visualizeFocus;
+        [SerializeField] private bool visualizeBoundingBox;
+        [SerializeField] private bool triangleTest;
+        [SerializeField] [Min(0)] private int visDepth;
 
-        private Material rayTracingMat;
+        private float avgFPS;
+        
+        
         private Material companionMat;
-        private Material smoothingMat;
-
+        private RenderTexture currentTexture;
         private bool init;
+        
+        private RayTracingMesh[] lights;
+        private ComputeBuffer lightSourcesReader;
         private RayTracingMesh[] meshes;
         private ComputeBuffer meshReader;
 
         private int NumRenderedFrames;
-        
-        private RenderTexture currentTexture;
 
-        private RayTracingMesh[] lights;
-        private SphereObject[] spheres;
-        
-        private ComputeBuffer lightSourcesReader;
-        private ComputeBuffer triangleReader;
+        private Material rayTracingMat;
+        private Material smoothingMat;
         private ComputeBuffer sphereReader;
+        private SphereObject[] spheres;
+        private ComputeBuffer triangleReader;
         
         //Shader Properties
         private static readonly int Spheres = Shader.PropertyToID("Spheres");
@@ -81,8 +96,11 @@ namespace Managers {
         private static readonly int AllLightSources = Shader.PropertyToID("AllLightSources");
         private static readonly int MainTex = Shader.PropertyToID("_MainTex");
         private static readonly int SmoothFactor = Shader.PropertyToID("_SmoothFactor");
+        private static readonly int TriangleTest = Shader.PropertyToID("TriangleTest");
 
         private void Start() => InitShaders();
+
+        private void Update() => avgFPS += (Time.unscaledDeltaTime - avgFPS) * 0.03f;
 
         private void OnDestroy() => ReleaseAndDispose();
 
@@ -111,9 +129,15 @@ namespace Managers {
                     using (Draw.Command(Camera.current)) {
                         Color color = Color.green;
                         color.a = 0.25f;
-                        Draw.Quad(topRightFrustumLine, topLeftFrustumLine, bottomLeftFrustumLine, bottomRightFrustumLine, color);
+                        Draw.Quad(topRightFrustumLine, topLeftFrustumLine, bottomLeftFrustumLine, bottomRightFrustumLine, 
+                            color);
                     }
                 }
+            }
+
+            if (visualizeBoundingBox) {
+                foreach (RayTracingMesh mesh in meshes)
+                    if (mesh.gameObject.activeInHierarchy) DrawNodes(mesh.bvh.root, mesh.bvh.AllNodes);
             }
 
             if (useShaderInSceneView && !Application.isPlaying) {
@@ -123,39 +147,131 @@ namespace Managers {
                 UpdateMaterialParams();
 
                 Graphics.Blit(null, target, rayTracingMat);
-                
+
                 ReleaseAndDispose();
-            } else if (Camera.current.name != "SceneCamera") {
+            } 
+            
+            else if (Camera.current.name != "SceneCamera") {
                 InitShaders();
 
                 UpdateCameraParams(Camera.current);
                 UpdateMaterialParams();
 
-                RenderTexture prevFrameCopy = RenderTexture.GetTemporary(src.width, src.height, 0, GraphicsFormat.R32G32B32A32_SFloat);
+                RenderTexture prevFrameCopy = RenderTexture.GetTemporary(src.width, src.height, 0, 
+                    GraphicsFormat.R32G32B32A32_SFloat);
                 Graphics.Blit(currentTexture, prevFrameCopy);
 
                 NumRenderedFrames += Application.isPlaying ? 1 : 0;
                 UpdateMaterialParams();
-                RenderTexture currentFrame = RenderTexture.GetTemporary(src.width, src.height, 0, GraphicsFormat.R32G32B32A32_SFloat);
-                RenderTexture smoothedFrame = RenderTexture.GetTemporary(src.width, src.height, 0, GraphicsFormat.R32G32B32A32_SFloat);
+                RenderTexture currentFrame = RenderTexture.GetTemporary(src.width, src.height, 0, 
+                    GraphicsFormat.R32G32B32A32_SFloat);
+                RenderTexture smoothedFrame = RenderTexture.GetTemporary(src.width, src.height, 0, 
+                    GraphicsFormat.R32G32B32A32_SFloat);
                 Graphics.Blit(null, currentFrame, rayTracingMat);
 
                 companionMat.SetInt(Frames, NumRenderedFrames);
                 companionMat.SetTexture(PrevFrame, prevFrameCopy);
-                Graphics.Blit(currentFrame, smoothedFrame, companionMat);
-                
+                if (accumulate) Graphics.Blit(currentFrame, smoothedFrame, companionMat);
+                else Graphics.Blit(currentFrame, smoothedFrame);
+
                 smoothingMat.SetFloat(SmoothFactor, smoothingFactor);
                 smoothingMat.SetTexture(MainTex, smoothedFrame);
-                Graphics.Blit(smoothedFrame, currentTexture, smoothingMat);
+                if (smoothing) Graphics.Blit(smoothedFrame, currentTexture, smoothingMat);
+                else Graphics.Blit(smoothedFrame, currentTexture);
 
                 Graphics.Blit(currentTexture, target);
 
                 RenderTexture.ReleaseTemporary(currentFrame);
                 RenderTexture.ReleaseTemporary(prevFrameCopy);
                 RenderTexture.ReleaseTemporary(currentFrame);
-                
+
                 ReleaseAndDispose();
-            } else Graphics.Blit(src, target);
+            } 
+            
+            else Graphics.Blit(src, target);
+        }
+
+        private void DrawNodes(Node node, List<Node> allNodes, int depth = 0) {
+            if (depth > visDepth || (node.ChildIndex == 0 && depth > 0)) return;
+
+            Color col = Color.HSVToRGB(depth / 6f % 1, 1, 1);
+            if (depth < visDepth) col.a = 0.25f;
+            bool fill = depth == visDepth;
+            DrawBoundingBox(node.Bounds, col, fill);
+            
+            DrawNodes(allNodes[node.ChildIndex], allNodes, depth + 1);
+            DrawNodes(allNodes[node.ChildIndex + 1], allNodes, depth + 1);
+        }
+        
+        private void DrawBoundingBox(BoundingBox bound, Color col, bool fill) {
+            Vector3[] corners = new Vector3[8];
+
+            // Bottom face
+            corners[0] = new Vector3(bound.Min.x, bound.Min.y, bound.Min.z);
+            corners[1] = new Vector3(bound.Max.x, bound.Min.y, bound.Min.z);
+            corners[2] = new Vector3(bound.Max.x, bound.Min.y, bound.Max.z);
+            corners[3] = new Vector3(bound.Min.x, bound.Min.y, bound.Max.z);
+
+            // Top face
+            corners[4] = new Vector3(bound.Min.x, bound.Max.y, bound.Min.z);
+            corners[5] = new Vector3(bound.Max.x, bound.Max.y, bound.Min.z);
+            corners[6] = new Vector3(bound.Max.x, bound.Max.y, bound.Max.z);
+            corners[7] = new Vector3(bound.Min.x, bound.Max.y, bound.Max.z);
+        
+            if (Camera.current.name == "SceneCamera") {
+                using (Draw.Command(Camera.current)) {
+                    Draw.Thickness = 0.025f;
+                    
+                    Draw.UseDashes = !fill;
+                    
+                    Draw.Line(corners[0], corners[1], col);
+                    Draw.Line(corners[1], corners[2], col);
+                    Draw.Line(corners[2], corners[3], col);
+                    Draw.Line(corners[3], corners[0], col);
+
+                    // Draw Top face
+                    Draw.Line(corners[4], corners[5], col);
+                    Draw.Line(corners[5], corners[6], col);
+                    Draw.Line(corners[6], corners[7], col);
+                    Draw.Line(corners[7], corners[4], col);
+
+                    // Draw vertical lines
+                    Draw.Line(corners[0], corners[4], col);
+                    Draw.Line(corners[1], corners[5], col);
+                    Draw.Line(corners[2], corners[6], col);
+                    Draw.Line(corners[3], corners[7], col);
+                    
+                    if (fill) {
+                        col.a = .25f;
+                        
+                        // Draw Bottom Face
+                        Draw.Quad(corners[0], corners[1], corners[2], corners[3], col);
+
+                        // Draw Top Face
+                        Draw.Quad(corners[4], corners[5], corners[6], corners[7], col);
+
+                        // Draw Front Face
+                        Draw.Quad(corners[3], corners[2], corners[6], corners[7], col);
+
+                        // Draw Back Face
+                        Draw.Quad(corners[0], corners[1], corners[5], corners[4], col);
+
+                        // Draw Left Face
+                        Draw.Quad(corners[0], corners[3], corners[7], corners[4], col);
+
+                        // Draw Right Face
+                        Draw.Quad(corners[1], corners[2], corners[6], corners[5], col);
+
+                    }
+                }
+            }
+        }
+
+        private void OnGUI() {
+            // Render UI elements
+            GUI.Label(new Rect(10, 10, 200, 20), "Avg FPS: " + Mathf.Round(1f / avgFPS * 10f) / 10f);
+            GUI.Label(new Rect(10, 30, 200, 20), "Avg Time: " + 
+                Mathf.Round(Time.unscaledDeltaTime * 10000f) / 10f + "ms");
         }
 
         private void InitShaders() {
@@ -171,7 +287,7 @@ namespace Managers {
 
             if (size > 0) {
                 const int triangleSize = sizeof(float) * 18;
-                const int meshSize = sizeof(float) * 15 + sizeof(int) * 2;
+                const int meshSize = sizeof(float) * 21 + sizeof(int) * 2;
                 triangleReader = new ComputeBuffer(size, triangleSize);
                 meshReader = new ComputeBuffer(meshes.Length, meshSize);
             }
@@ -237,13 +353,15 @@ namespace Managers {
             rayTracingMat.SetFloat(Strength, DivergeStrength);
             rayTracingMat.SetFloat(DefocusStrength1, DefocusStrength);
             rayTracingMat.SetFloat(Distance, RenderDistance);
-            
+
             rayTracingMat.SetFloat(RayTolerance, BlackRayTolerance);
 
             rayTracingMat.SetColor(ColorHorizon, SkyColorHorizon);
             rayTracingMat.SetColor(ColorZenith, SkyColorZenith);
             rayTracingMat.SetColor(GroundColor1, GroundColor);
+            
             rayTracingMat.SetInt(UseEnvironment, environment ? 1 : 0);
+            rayTracingMat.SetInt(TriangleTest, triangleTest ? 1 : 0);
         }
 
         private void HandleSpheres() {
@@ -262,14 +380,14 @@ namespace Managers {
             rayTracingMat.SetInt(NumOfSpheres, sphereArray.Length);
             rayTracingMat.SetBuffer(Spheres, sphereReader);
         }
-        
+
         private void HandleLights() {
             Vector3[] lightArray = new Vector3[lights.Length];
 
             if (lights.Length == 0) return;
 
             for (int i = 0; i < lights.Length; i++) {
-                lightArray[i] = new Vector3(lights[i].gameObject.transform.position.x, lights[i].gameObject.transform.position.y, 
+                lightArray[i] = new Vector3(lights[i].gameObject.transform.position.x, lights[i].gameObject.transform.position.y,
                     lights[i].gameObject.transform.position.z);
             }
 
@@ -293,13 +411,11 @@ namespace Managers {
                 meshInfos[i].numTriangles = meshes[i].triangles.Count;
                 meshInfos[i].material = meshes[i].material;
                 meshInfos[i].firstTriangleIndex = triangleIndex;
+                //meshInfos[i].boundsMin = meshes[i].boundsMin;
 
-                for (int j = 0; j < meshes[i].triangles.Count; j++) {
-                    triangleArray[triangleIndex] = new Triangle {
-                        posA = meshes[i].triangles[j].posA, posB = meshes[i].triangles[j].posB, posC = meshes[i].triangles[j].posC,
-                        normalA = meshes[i].triangles[j].normalA, normalB = meshes[i].triangles[j].normalB,
-                        normalC = meshes[i].triangles[j].normalC
-                    };
+                foreach (Triangle tri in meshes[i].triangles) {
+                    triangleArray[triangleIndex] = new Triangle (
+                        tri.posA, tri.posB, tri.posC, tri.normalA, tri.normalB, tri.normalC);
 
                     triangleIndex++;
                 }
@@ -330,15 +446,12 @@ namespace Managers {
             public RayTracingMaterial material;
         }
 
-        private struct Triangle {
-            public Vector3 posA, posB, posC;
-            public Vector3 normalA, normalB, normalC;
-        }
-
         private struct MeshInfo {
             public int firstTriangleIndex;
             public int numTriangles;
             public RayTracingMaterial material;
+            public Vector3 boundsMin;
+            public Vector3 boundsMax;
         }
     }
 }

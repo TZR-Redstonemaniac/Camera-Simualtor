@@ -1,0 +1,63 @@
+
+@TMPro.TMP_TextEventHandler.SendOnLineSelection(string, int, int)•
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.csñ ñ(("0*
+0
+ñ ñ(*
+1*¼
+1
+ó ó('¢
+Ÿ
+
+ó ó(3
+%0-TMPro.TMP_TextEventHandler.LineSelectionEvent".TMPro.TMP_TextEventHandler.onLineSelection.get*,
+
+ó ó(
+TMPro.TMP_TextEventHandler*
+2
+3*»
+2
+ô ô(@¢
+Ÿ
+
+ô ô(3
+%1-TMPro.TMP_TextEventHandler.LineSelectionEvent".TMPro.TMP_TextEventHandler.onLineSelection.get*,
+
+ô ô(
+TMPro.TMP_TextEventHandlerÿ
+ü
+
+ô ô(?
+
+%2void"<UnityEngine.Events.UnityEvent<T0, T1, T2>.Invoke(T0, T1, T2)*C
+
+ô ô(5
+3
+%1-TMPro.TMP_TextEventHandler.LineSelectionEvent*
+
+ô' ô(+
+
+linestring* 
+
+ô- ô(6
+
+	charIndexint*
+
+ô8 ô(>
+
+lengthint*
+3*2
+3
+õ	 õ(	"!
+
+õ õ(	
+implicit return:
+
+ñ) ñ(4
+linestring:
+
+ñ6 ñ(C
+	charIndexint:
+
+ñE ñ(O
+lengthintB
+TMPro.TMP_TextEventHandlerX

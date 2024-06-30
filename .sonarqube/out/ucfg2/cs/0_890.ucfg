@@ -1,16 +1,30 @@
 
-1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSize.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()"0*ÿ
-0w* w(*¢
-ü
+$Shapes.Draw.PolygonTriangulation.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs… …("0*
+0
+… …(*
+1*É
+1
+…! …(C\
+Z
+
+…! …(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleé
 ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()X
-Shapes.MpbLine3D"B
-Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine3D
+
+…! …(CM
+
+%0Shapes.DrawStyle"3
+polygonTriangulationShapes.PolygonTriangulation"__id*(&
+$
+valueShapes.PolygonTriangulation*
+2*2
+2
+…D …(D"!
+
+…C …(D
+implicit return:&$
+valueShapes.PolygonTriangulationB"
+Shapes.DrawX

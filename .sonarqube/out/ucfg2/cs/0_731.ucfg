@@ -1,21 +1,37 @@
 
-Shapes.Rectangle.Thickness.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs ("0*
-0 (*
-1*m
-1
- (Y
-W
-
- (
-%retfloat"__id*6
-
- (**(
-Shapes.Rectangle"
-	thicknessfloat*
-2**
-2 ("
- (
+Shapes.Draw.DashSpace.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŽ Ž("0*
+0
+Ž Ž(*
+1*Ç
+1
+Ž! Ž(>\
+Z
 
-%retfloatB
-Shapes.RectangleX
+Ž! Ž(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+Ž! Ž(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyleh
+f
+
+Ž! Ž(>3
+
+%1Shapes.DashStyle"
+spaceShapes.DashSpace"__id*
+
+valueShapes.DashSpace*
+2*2
+2
+Ž? Ž(?"!
+
+Ž> Ž(?
+implicit return:
+valueShapes.DashSpaceB"
+Shapes.DrawX

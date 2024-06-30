@@ -1,49 +1,22 @@
 
-(Shapes.MpbCone.TransferShapeProperties()ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs (1"0*
-0 (*
-1*—
-1 (<ê
-ç
- (5
-
-%0void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*
- (
-Shapes.MpbCone*?
- (+3*1
-Shapes.ShapesMaterialUtils"
-
-propLengthint*N
-- (3B*@
-Shapes.MpbCone",
-length"System.Collections.Generic.List<T>ê
-ç
- (5
-
-%1void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*
- (
-Shapes.MpbCone*?
- (+3*1
-Shapes.ShapesMaterialUtils"
-
-propRadiusint*N
-- (3B*@
-Shapes.MpbCone",
-radius"System.Collections.Generic.List<T>ñ
-ì
- (;
-
-%2void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)*
- (
-Shapes.MpbCone*B
- (.6*4
-Shapes.ShapesMaterialUtils"
-propSizeSpaceint*Q
-0 (9E*C
-Shapes.MpbCone"/
-	sizeSpace"System.Collections.Generic.List<T>*
+!Shapes.Rectangle.CornerRadiii.setÇ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csw w("0*
+0w w(*
+1*£
+1w
+ w(é
+ã
+w
+ w(
+%0UnityEngine.Vector4" Shapes.Rectangle.CornerRadii.set* 
+w
+ w(
+Shapes.Rectangle* 
+
+valueUnityEngine.Vector4*
 2*.
-2 ("
- (
-implicit returnB
-Shapes.MpbConeX
+2w w("
+w w(
+implicit return:
+valueUnityEngine.Vector4B
+Shapes.RectangleX

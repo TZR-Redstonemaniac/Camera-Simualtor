@@ -1,33 +1,30 @@
 
-"Shapes.Polyline.ThicknessSpace.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csJ J("0*
-0J J(*
-1*Ñ
-1J
- J(^t
-r
-JD J(Z<
-Shapes.Polyline"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace˘
-ˆ
-J
- J(^
+ Shapes.Draw.PolylineGeometry.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csœ œ("0*
+0
+œ œ(*
+1*ˆ
+1
+œ! œ(?\
+Z
 
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-J
- J(
-Shapes.Polyline*G
-J J(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*J
-J= J(\>*<
-Shapes.Polyline"'
-thicknessSpaceShapes.ThicknessSpace*
-2*.
-2J_ J(_"
-J^ J(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.PolylineX
+œ! œ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleÅ
+
+
+œ! œ(?E
+
+%0Shapes.DrawStyle"+
+polylineGeometryShapes.PolylineGeometry"__id*$"
+ 
+valueShapes.PolylineGeometry*
+2*2
+2
+œ@ œ(@"!
+
+œ? œ(@
+implicit return:" 
+valueShapes.PolylineGeometryB"
+Shapes.DrawX

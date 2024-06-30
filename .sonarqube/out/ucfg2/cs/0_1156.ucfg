@@ -1,48 +1,27 @@
 
-6Shapes.PolylinePath.SetPoint(int, UnityEngine.Vector2)‰
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolylinePath.cs ("0*
-0 (*
-1*Ò
-1 (Ñ
-Î
- ( 
-%0Shapes.PolylinePoint"7System.Collections.Generic.ICollection<T>.this[int].get*Q
- (E*C
-Shapes.PolylinePath"*
-path"System.Collections.Generic.List<T>*
- (
-
-indexintM
-K
- ( 
-pShapes.PolylinePoint"__id*
-
-%0Shapes.PolylinePointo
-m
- (9
-
-pShapes.PolylinePoint"
-pointUnityEngine.Vector3"__id* 
-
-pointUnityEngine.Vector2©
-¦
- (
+Shapes.Quad.CheckAutoSetD()
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csª ª("0*
+0
+ª ª(*
+1*
+1
+« «(*
+2
+3*g
+2
+¬ ¬(Q
+O
 
-%1void"$Shapes.PointPath<T>.SetPoint(int, T)*#
- (
-Shapes.PolylinePath*
- (
-
-indexint*'
- (
-
-pShapes.PolylinePoint*
-2*.
-2 ("
- (
-implicit return:
- (!
-indexint:(
-# (0
-pointUnityEngine.Vector2B
-Shapes.PolylinePathX
+¬ ¬(
+
+%0void"Shapes.Quad.AutoSetD()*
+
+¬ ¬(
+Shapes.Quad*
+3*2
+3
+­ ­("!
+
+­ ­(
+implicit returnB
+Shapes.QuadX

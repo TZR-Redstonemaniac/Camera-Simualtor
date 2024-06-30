@@ -1,18 +1,21 @@
 
-/Shapes.MpbRect.Shapes.IDashableMpb.dashSnap.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()"0*ç
-0
-Œ* Œ(*∂
-≥
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ().
-%ret&System.Collections.Generic.List<float>"__id*Í
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()X*V
-Shapes.MpbRect"B
-Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRect
+Shapes.Cone.Radius.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs ("0*
+0 (*
+1*e
+1
+ (Q
+O
+
+ (
+%retfloat"__id*.
+
+ ("* 
+Shapes.Cone"
+radiusfloat*
+2**
+2 ("
+ (
+
+%retfloatB
+Shapes.ConeX

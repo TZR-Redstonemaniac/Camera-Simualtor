@@ -1,28 +1,18 @@
 
-Shapes.Disc.ArcEndCaps.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csµ µ("0*
+<Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSpacing.get
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,"0*š
 0
-µ µ(*
-1*…
-1
-µ
- µ(o
-m
-
-µ
- µ(
-%retShapes.ArcEndCap"__id*?
-
-µ
- µ(1*/
-Shapes.Disc"
-
-arcEndCapsShapes.ArcEndCap*
-2*9
-2
-µ µ("(
-
-µ µ(
-
-%retShapes.ArcEndCapB
-Shapes.DiscX
+÷- ÷(-Ã
+À
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,.
+%ret&System.Collections.Generic.List<float>"__id*÷
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,e*c
+Shapes.MpbRegularPolygon"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"Â
+
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs÷) ÷(,0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRegularPolygon

@@ -1,38 +1,28 @@
 
-Shapes.Draw.FontStyle.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÅ Å("0*
+Shapes.Disc.RadiusInner.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs° °("0*
 0
-Å Å(*
-1*“
+° °(*
+1*
 1
-Å! Å(6\
-Z
-
-Å! Å(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
+°
+ °(i
 g
 
-Å! Å(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyles
-q
+°
+ °(
+%0float"Shapes.Disc.Thickness.set*
 
-Å! Å(6
-%retTMPro.FontStyles"__id*C
-
-Å! Å(65*3
-
-%1Shapes.TextStyle"
-styleTMPro.FontStyles*
-2*9
+°
+ °(
+Shapes.Disc*
+
+valuefloat*
+2*2
 2
-Å7 Å(7"(
+° °("!
 
-Å6 Å(7
-
-%retTMPro.FontStylesB"
-Shapes.DrawX
+° °(
+implicit return:
+valuefloatB
+Shapes.DiscX

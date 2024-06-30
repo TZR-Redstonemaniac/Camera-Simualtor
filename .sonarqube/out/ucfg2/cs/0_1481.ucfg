@@ -1,21 +1,25 @@
 
-Shapes.Torus.Thickness.get~
-tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs ("0*
-0 (*
-1*i
-1
- (U
-S
-
- (
-%retfloat"__id*2
-
- (&*$
-Shapes.Torus"
-	thicknessfloat*
-2**
-2 ("
- (
+<Shapes.ShapeRenderer.OnPreCamCullWithCam(UnityEngine.Camera)ˆ
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs– –("0*
+0
+– –(*
+1*
+1
+–, –(:wu
 
-%retfloatB
-Shapes.TorusX
+–, –(:
+
+%0void"#Shapes.ShapeRenderer.CamOnPreCull()*&
+
+–, –(8
+Shapes.ShapeRenderer2CamOnPreCull()*
+2*2
+2
+–; –(;"!
+
+–: –(;
+implicit return:'
+
+– –(&
+camUnityEngine.CameraB
+Shapes.ShapeRendererX

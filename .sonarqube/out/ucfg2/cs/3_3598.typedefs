@@ -1,0 +1,11 @@
+ˆ
+#TMPro.Examples.TextConsoleSimulatorUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject6
+Awake()+TMPro.Examples.TextConsoleSimulator.Awake()6
+Start()+TMPro.Examples.TextConsoleSimulator.Start()<
+
+OnEnable().TMPro.Examples.TextConsoleSimulator.OnEnable()>
+OnDisable()/TMPro.Examples.TextConsoleSimulator.OnDisable()n
+#ON_TEXT_CHANGED(UnityEngine.Object)GTMPro.Examples.TextConsoleSimulator.ON_TEXT_CHANGED(UnityEngine.Object)h
+ RevealCharacters(TMPro.TMP_Text)DTMPro.Examples.TextConsoleSimulator.RevealCharacters(TMPro.TMP_Text)^
+RevealWords(TMPro.TMP_Text)?TMPro.Examples.TextConsoleSimulator.RevealWords(TMPro.TMP_Text)T
+TextConsoleSimulator():TMPro.Examples.TextConsoleSimulator.TextConsoleSimulator()

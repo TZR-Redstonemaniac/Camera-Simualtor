@@ -1,24 +1,16 @@
 
-Shapes.ObjectPool<T>.Free(T)„
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs ("0*
-0 (*
-1*Î
-1& (6¹
-¶
-& (6
-
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*S
-& (*G*E
-Shapes.ObjectPool<T>"+
-pool#System.Collections.Generic.Stack<T>*
-1 (4
-
-
-objT*
-2*.
-27 (7"
-6 (7
-implicit return:
- ( 
-objTB"
-Shapes.ObjectPool<T>X
+1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSize.set‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()"0*Ø
+0w* w(*¢
+Ÿ
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()X
+Shapes.MpbLine3D"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine3D

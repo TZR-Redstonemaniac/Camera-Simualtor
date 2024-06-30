@@ -1,50 +1,50 @@
 
-Shapes.Polygon.FillColorEnd.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¿ ¿("0*
+ Shapes.Polygon.FillLinearEnd.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs· ·("0*
 0
-¿ ¿(*
-1*÷
+· ·(*
+1*‚
 1
-¿
- ¿(Pd
+·
+ ·(Rd
 b
 
-¿9 ¿(=
+·: ·(>
 %0Shapes.GradientFill"__id*31*/
 Shapes.Polygon"
-fillShapes.GradientFillp
-n
+fillShapes.GradientFillu
+s
 
-¿9 ¿(N:
+·: ·(P=
 
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color"__id*
-
-valueUnityEngine.Colorˆ
-…
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3Ž
+‹
 
-¿
- ¿(P
+·
+ ·(R
 
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)* 
+%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)* 
 
-¿
- ¿(
-Shapes.Polygon*C
+·
+ ·(
+Shapes.Polygon*B
 
-¿ ¿(75*3
-Shapes.ShapesMaterialUtils"
-propColorEndint*J
+· ·(84*2
+Shapes.ShapesMaterialUtils"
+propFillEndint*M
 
-¿9 ¿(N<*:
+·: ·(P?*=
 
-%0Shapes.GradientFill"
-colorEndUnityEngine.Color*
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3*
 2*2
 2
-¿Q ¿(Q"!
+·S ·(S"!
 
-¿P ¿(Q
-implicit return:
-valueUnityEngine.ColorB
+·R ·(S
+implicit return:
+valueUnityEngine.Vector3B
 Shapes.PolygonX

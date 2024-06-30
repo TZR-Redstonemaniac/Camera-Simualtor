@@ -1,18 +1,32 @@
 
-3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSnap.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()"0*ë
-0
-º* º(*∫
-∑
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º().
-%ret&System.Collections.Generic.List<float>"__id*Ó
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()\*Z
-Shapes.MpbTriangle"B
-Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbTriangle
+3Shapes.Quad.SetQuadVertex(int, UnityEngine.Vector3)}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csE E("0*
+0E E(*
+1*ê
+1E> E(Qû
+õ
+E> E(Q
+%0UnityEngine.Vector3"Shapes.Quad.this[int].set*
+E> E(B
+Shapes.Quad*
+EC E(H
+
+indexint* 
+
+valueUnityEngine.Vector3[
+Y
+E> E(Q
+%retUnityEngine.Vector3"__id**
+E> E(Q
+
+valueUnityEngine.Vector3*
+2*8
+2ER E(R")
+EQ E(R
+
+%retUnityEngine.Vector3:
+E  E()
+indexint:(
+E+ E(8
+valueUnityEngine.Vector3B
+Shapes.Quad

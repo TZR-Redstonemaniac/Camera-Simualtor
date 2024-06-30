@@ -1,35 +1,28 @@
 
-$Shapes.Draw.RegularPolygonRadius.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csı ı("0*
-0
-ı ı(*
-1*Ò
-1
-ı
- ı(\
-Z
-
-ı
- ı(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle^
+Shapes.Rectangle.Radius.get‚
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csa a("0*
+0a a(*
+1*°
+1a
+ a(^
 \
+a
+ a(
+%0float"!Shapes.Rectangle.CornerRadius.get* 
+a
+ a(
+Shapes.Rectangle<
+:
+a
+ a(
+%retfloat"__id*
+a
+ a(
+
+%0float*
+2**
+2a a("
+a a(
 
-ı
- ı(
-%retfloat"__id*9
-
-ı
- ı(+*)
-
-%0Shapes.DrawStyle"
-radiusfloat*
-2*.
-2
-ı ı("
-
-ı ı(
-
-%retfloatB"
-Shapes.DrawX
+%retfloatB
+Shapes.RectangleX

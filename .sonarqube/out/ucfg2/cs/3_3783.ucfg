@@ -1,0 +1,37 @@
+
+)TMPro.Examples.ShaderPropAnimator.Awake()‘
+†C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs ("0*
+0 (*
+1*À
+1 (-…
+‚
+ (1
+%0UnityEngine.Renderer"'UnityEngine.Component.GetComponent<T>()*1
+ (/%#
+!TMPro.Examples.ShaderPropAnimator}
+{
+ (1I#
+!TMPro.Examples.ShaderPropAnimator""
+
+m_RendererUnityEngine.Renderer"__id*
+
+%0UnityEngine.Renderer¥
+¢
+ (,
+%1UnityEngine.Material"!UnityEngine.Renderer.material.get*W
+ (#K*I#
+!TMPro.Examples.ShaderPropAnimator""
+
+m_RendererUnityEngine.Renderer}
+{
+ (,I#
+!TMPro.Examples.ShaderPropAnimator""
+
+m_MaterialUnityEngine.Material"__id*
+
+%1UnityEngine.Material*
+2*.
+2	 (	"
+ (	
+implicit returnB%#
+!TMPro.Examples.ShaderPropAnimatorX

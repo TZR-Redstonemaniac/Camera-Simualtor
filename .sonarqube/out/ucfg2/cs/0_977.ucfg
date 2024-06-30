@@ -1,18 +1,37 @@
 
-9Shapes.MpbRegularPolygon.Shapes.IDashableMpb.dashSize.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()"0*ó
+Shapes.Draw.Font.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csˆ ˆ("0*
 0
-Ù* Ù(*¿
-Ω
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù().
-%ret&System.Collections.Generic.List<float>"__id*Ù
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()b*`
-Shapes.MpbRegularPolygon"B
-Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÙ& Ù()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRegularPolygon
+ˆ ˆ(*
+1*Ã
+1
+ˆ! ˆ(=\
+Z
+
+ˆ! ˆ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+ˆ! ˆ(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStylem
+k
+
+ˆ! ˆ(=5
+
+%1Shapes.TextStyle"
+fontTMPro.TMP_FontAsset"__id* 
+
+valueTMPro.TMP_FontAsset*
+2*2
+2
+ˆ> ˆ(>"!
+
+ˆ= ˆ(>
+implicit return:
+valueTMPro.TMP_FontAssetB"
+Shapes.DrawX

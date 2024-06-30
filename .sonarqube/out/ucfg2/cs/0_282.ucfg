@@ -1,35 +1,27 @@
 
-Shapes.Rectangle.DashSize.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csâ â("0*
+Shapes.Rectangle.Dashed.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÚ Ú("0*
 0
-â â(*
-1*Ù
+Ú Ú(*
+1*n
 1
-â
- â(e
-c
+Ú
+ Ú(X
+V
 
-â
- â(
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStyle\
-Z
+Ú
+ Ú(
+%retbool"__id*4
 
-â
- â(
-%retfloat"__id*7
-
-â
- â()*'
-
-%0Shapes.DashStyle"
-sizefloat*
-2*.
+Ú
+ Ú(&*$
+Shapes.Rectangle"
+dashedbool*
+2*-
 2
-â â("
+Ú Ú("
 
-â â(
-
-%retfloatB
+Ú Ú(
+
+%retboolB
 Shapes.RectangleX

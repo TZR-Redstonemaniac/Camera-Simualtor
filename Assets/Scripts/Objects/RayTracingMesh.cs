@@ -6,6 +6,7 @@ public class RayTracingMesh : MonoBehaviour {
     private static readonly int Glossiness = Shader.PropertyToID("_Glossiness");
 
     public RayTracingMaterial material;
+    public BVH bvh;
 
     public readonly List<Triangle> triangles = new();
 
@@ -30,8 +31,16 @@ public class RayTracingMesh : MonoBehaviour {
         Vector3[] normals = mesh.normals;
         int[] indices = mesh.triangles;
 
-        Triangle triangle = new();
+        for (int i = 0; i < vertices.Length; i++) {
+            Vector3 temp = vertices[i];
+            vertices[i] = LocalToWorld(temp);
+        }
+
+        bvh = new BVH(vertices, indices);
+
         for (int i = 0; i < indices.Length; i += 3) {
+            Triangle triangle = new();
+    
             int a = indices[i];
             int b = indices[i + 1];
             int c = indices[i + 2];
@@ -44,8 +53,8 @@ public class RayTracingMesh : MonoBehaviour {
 
             triangle.posC = LocalToWorld(vertices[c]);
             triangle.normalC = normals[c];
+
             triangles.Add(triangle);
-            triangle = new Triangle();
         }
     }
 
@@ -64,10 +73,5 @@ public class RayTracingMesh : MonoBehaviour {
         Vector3 worldVertex = objectPosition + rotatedVertex;
 
         return worldVertex;
-    }
-
-    public struct Triangle {
-        public Vector3 posA, posB, posC;
-        public Vector3 normalA, normalB, normalC;
     }
 }

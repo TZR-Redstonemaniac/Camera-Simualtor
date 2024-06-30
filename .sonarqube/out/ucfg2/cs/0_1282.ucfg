@@ -1,27 +1,21 @@
 
-Shapes.Quad.ColorC.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csè è("0*
-0
-è è(*
-1*ƒ
-1
-è
- è(m
-k
+Shapes.Cone.Length.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs ("0*
+0 (*
+1*e
+1
+ (Q
+O
+
+ (
+%retfloat"__id*.
+
+ ("* 
+Shapes.Cone"
+lengthfloat*
+2**
+2 ("
+ (
 
-è
- è(
-%retUnityEngine.Color"__id*<
-
-è
- è(.*,
-Shapes.Quad"
-colorCUnityEngine.Color*
-2*:
-2
-è è(")
-
-è è(
-
-%retUnityEngine.ColorB
-Shapes.Quad
+%retfloatB
+Shapes.ConeX

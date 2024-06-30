@@ -1,17 +1,29 @@
 
-0Shapes.MpbRect.Shapes.IFillableMpb.fillStart.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs«) «(,"0*›
-0
-«- «(-£
-†
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs«) «(,W
-Shapes.MpbRect"C
-Shapes.IFillableMpb.fillStart"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs«) «(,
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbRect
+7Shapes.AngularUnitExtensions.Suffix(Shapes.AngularUnit)Ñ
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\AngularUnit.cs ("0*
+0 (*
+1*†
+1: (TÀ
+»
+: (T
+%0string"7System.Collections.Generic.ICollection<T>.this[int].get*K
+: (I?*=
+Shapes.AngularUnitExtensions"
+angUnitToSuffixstring[]*(
+J (S
+
+unitShapes.AngularUnit>
+<
+: (T
+%retstring"__id*
+: (T
+
+%0string*
+2*+
+2U (U"
+T (U
+
+%retstring:&
+ (4
+unitShapes.AngularUnitB "
+Shapes.AngularUnitExtensions

@@ -1,91 +1,48 @@
 
-%Shapes.Triangle.GetTriangleColor(int)Å
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs@ @("0*
-0@ @(*
-1*M
-1A B(
-6
-4
-A A(
-	%capture0int"__id*
-
-indexint*
-2
-3*À
-2B B(a
-_
-B B(
-%0UnityEngine.Color"Shapes.Triangle.Color.get*
-B B(
-Shapes.TriangleT
-R
-B B(
-%retUnityEngine.Color"__id*%
-B B(
-
-%0UnityEngine.Color*
-8*
-3C	 C(
-*
-4
-5*Ã
-4C C(b
-`
-C C(
-%1UnityEngine.Color"Shapes.Triangle.ColorB.get*
-C C(
-Shapes.TriangleT
-R
-C C(
-%retUnityEngine.Color"__id*%
-C C(
-
-%1UnityEngine.Color*
-8*
-5D	 D(
-*
-6
-7*Ã
-6D D(b
-`
-D D(
-%2UnityEngine.Color"Shapes.Triangle.ColorC.get*
-D D(
-Shapes.TriangleT
-R
-D D(
-%retUnityEngine.Color"__id*%
-D D(
-
-%2UnityEngine.Color*
-8*Ò
-7F F(zò
-ï
-F) F(x
-%3string"__concat*U
-F+ F(pIG
-ETriangle only has four vertices, 0 to 2, you tried to access element *
-Fp F(w
-
-indexintTR
-F F(z%
-%4System.IndexOutOfRangeException"System.IndexOutOfRangeException«
-ƒ
-F F(z%
-%5System.IndexOutOfRangeException"@System.IndexOutOfRangeException.IndexOutOfRangeException(string)*3
-F F(z'
-%
-%4System.IndexOutOfRangeException*
-F) F(x
-
-%3string"'
-H H(
-
-%retUnityEngine.Color*6
-8H H("'
-H H(
-
-%retUnityEngine.Color:
-@! @(*
-indexintB
-Shapes.Triangle
+Shapes.Disc.ColorStart.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csj j("0*
+0j j(*
+1*À
+1k l(T_
+]
+k- k(:+
+Shapes.Disc"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.ColorË
+Â
+k k(<
+
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
+k k(
+Shapes.Disc*>
+k k(+2*0
+Shapes.ShapesMaterialUtils"
+	propColorint*9
+k- k(:-*+
+Shapes.Disc"
+colorUnityEngine.Colori
+g
+l: l(Q5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Color"__id*
+
+valueUnityEngine.Colorˇ
+¸
+l l(S
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+l l(
+Shapes.Disc*H
+l l(8<*:
+Shapes.ShapesMaterialUtils"
+propColorOuterStartint*C
+l: l(Q7*5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Color*
+2*.
+2m m("
+m m(
+implicit return:
+valueUnityEngine.ColorB
+Shapes.DiscX

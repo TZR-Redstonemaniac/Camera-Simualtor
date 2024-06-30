@@ -1,28 +1,24 @@
 
-!Shapes.Rectangle.CornerRadiii.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csv v("0*
-0v v(*
-1*Ù
-1v
- v(k
-i
-v
- v(
-%0UnityEngine.Vector4" Shapes.Rectangle.CornerRadii.get* 
-v
- v(
-Shapes.RectangleX
-V
-v
- v(
-%retUnityEngine.Vector4"__id*'
-v
- v(
-
-%0UnityEngine.Vector4*
-2*8
-2v v(")
-v v(
-
-%retUnityEngine.Vector4B
-Shapes.Rectangle
+Shapes.Rectangle.Height.set‚
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csE E("0*
+0E E(*
+1*Ê
+1F G(M
+K
+F F(%
+Shapes.Rectangle"
+heightfloat"__id*
+
+valuefloatg
+e
+G G(
+
+%0void"+Shapes.Rectangle.UpdateRectPositioningNow()* 
+G G(
+Shapes.Rectangle*
+2*.
+2H H("
+H H(
+implicit return:
+valuefloatB
+Shapes.RectangleX

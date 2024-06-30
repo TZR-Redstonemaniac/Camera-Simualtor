@@ -1,21 +1,39 @@
 
-%Shapes.Rectangle.CornerRadiusMode.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csZ Z("0*
-0Z Z(*
-1*À
-1Z
- Z(«
-¨
-Z
- Z(2
-%ret*Shapes.Rectangle.RectangleCornerRadiusMode"__id*b
-Z
- Z(V*T
-Shapes.Rectangle">
-cornerRadiusMode*Shapes.Rectangle.RectangleCornerRadiusMode*
-2*O
-2Z Z("@
-Z Z(4
-2
-%ret*Shapes.Rectangle.RectangleCornerRadiusModeB
-Shapes.RectangleX
+&Shapes.Draw.GradientFillColorStart.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÓ Ó("0*
+0
+Ó Ó(*
+1*å
+1
+Ó! Ó(>\
+Z
+
+Ó! Ó(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ó! Ó(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill}
+{
+
+Ó! Ó(>
+%retUnityEngine.Color"__id*L
+
+Ó! Ó(>>*<
+
+%1Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*:
+2
+Ó? Ó(?")
+
+Ó> Ó(?
+
+%retUnityEngine.ColorB"
+Shapes.Draw

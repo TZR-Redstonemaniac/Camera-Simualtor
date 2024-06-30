@@ -1,30 +1,37 @@
 
-Shapes.Draw.LineGeometry.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs√ √("0*
+'Shapes.Draw.GradientFillLinearStart.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‡ ‡("0*
 0
-√ √(*
-1*È
+‡ ‡(*
+1*ﬂ
 1
-√! √(;\
+‡! ‡(G\
 Z
 
-√! √(&
+‡! ‡(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyleu
-s
+styleShapes.DrawStyler
+p
 
-√! √(;=
+‡! ‡(3
+%1Shapes.GradientFill"__id*A?*=
 
 %0Shapes.DrawStyle"#
-lineGeometryShapes.LineGeometry"__id* 
+gradientFillShapes.GradientFillw
+u
+
+‡! ‡(G?
+
+%1Shapes.GradientFill""
+linearStartUnityEngine.Vector3"__id* 
 
-valueShapes.LineGeometry*
+valueUnityEngine.Vector3*
 2*2
 2
-√< √(<"!
+‡H ‡(H"!
 
-√; √(<
+‡G ‡(H
 implicit return:
-valueShapes.LineGeometryB"
+valueUnityEngine.Vector3B"
 Shapes.DrawX

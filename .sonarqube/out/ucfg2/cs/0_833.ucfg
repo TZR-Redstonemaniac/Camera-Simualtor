@@ -1,28 +1,49 @@
 
-Shapes.Line.DashSnap.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csu u("0*
-0u u(*
-1*Ë
-1u
- u(^
-\
-u
- u(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Line"
-	dashStyleShapes.DashStylet
-r
-u
- u(
-%retShapes.DashSnapping"__id*C
-u
- u(7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*8
-2u u(")
-u u(
-
-%retShapes.DashSnappingB
-Shapes.LineX
+)Shapes.ShapesTextPool.ReleaseElement(int)Ç
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.csT T("0*
+0T T(*
+1*´
+1U U(<ì
+ê
+U U(<
+
+%0bool"GSystem.Collections.Generic.ICollection<T>.TryGetValue(TKey, out TValue)*n
+U U(b*`
+Shapes.ShapesTextPool"E
+elementsActive3System.Collections.Generic.Dictionary<TKey, TValue>*
+U# U(%
+	
+idint*&
+U' U(:
+
+tmpTMPro.TextMeshPro*
+2
+3*«
+2V W( ⁄
+◊
+V V(
+
+%1bool"6System.Collections.Generic.ICollection<T>.Remove(TKey)*n
+V V(b*`
+Shapes.ShapesTextPool"E
+elementsActive3System.Collections.Generic.Dictionary<TKey, TValue>*
+V V(
+	
+idint’
+“
+W W(
+
+%2void"1System.Collections.Generic.ICollection<T>.Push(T)*_
+W W(S*Q
+Shapes.ShapesTextPool"6
+elementsPassive#System.Collections.Generic.Stack<T>*&
+W W(
+
+tmpTMPro.TextMeshPro*
+3*.
+3[ [("
+[ [(
+implicit return:
+T T($	
+idintB
+Shapes.ShapesTextPoolX

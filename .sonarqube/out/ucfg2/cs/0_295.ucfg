@@ -1,23 +1,24 @@
 
-)Shapes.ColorStack.Push(UnityEngine.Color)‡
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
+-Shapes.DashStack.Push(bool, Shapes.DashStyle)†
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DashStack.cs ("0*
 0 (*
-1*ã
-12 (JÎ
-Ë
-2 (J
+1*Ï
+1C (gº
+·
+C (g
 
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
-2 (8F*D
-Shapes.ColorStack"-
-colors#System.Collections.Generic.Stack<T>*,
-? (H 
-
-	prevStateUnityEngine.Color*
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*Q
+C (IE*C
+Shapes.DashStack"-
+dashes#System.Collections.Generic.Stack<T>*
+P (e
+	{unknown}*
 2*.
-2K (K"
-J (K
-implicit return:*
- (,
-	prevStateUnityEngine.ColorB"
-Shapes.ColorStackX
+2h (h"
+g (h
+implicit return:
+ ((
+prevOnbool:)
+* (=
+	prevStateShapes.DashStyleB"
+Shapes.DashStackX

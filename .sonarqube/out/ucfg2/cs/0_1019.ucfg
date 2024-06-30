@@ -1,18 +1,37 @@
 
-3Shapes.MpbTriangle.Shapes.IDashableMpb.dashType.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()"0*ë
+Shapes.Draw.TextWordSpacing.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csî î("0*
 0
-ø* ø(*∫
-∑
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø().
-%ret&System.Collections.Generic.List<float>"__id*Ó
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()\*Z
-Shapes.MpbTriangle"B
-Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csø& ø()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbTriangle
+î î(*
+1*∑
+1
+î! î(D\
+Z
+
+î! î(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+î! î(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyleX
+V
+
+î! î(D.
+
+%1Shapes.TextStyle"
+wordSpacingfloat"__id*
+
+valuefloat*
+2*2
+2
+îE î(E"!
+
+îD î(E
+implicit return:
+valuefloatB"
+Shapes.DrawX

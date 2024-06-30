@@ -1,38 +1,21 @@
 
-&Shapes.Draw.GradientFillColorStart.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‘ ‘("0*
-0
-‘ ‘(*
-1*⁄
-1
-‘! ‘(F\
-Z
-
-‘! ‘(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
-
-‘! ‘(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillr
-p
-
-‘! ‘(F<
-
-%1Shapes.GradientFill"
-
-colorStartUnityEngine.Color"__id*
-
-valueUnityEngine.Color*
-2*2
-2
-‘G ‘(G"!
-
-‘F ‘(G
-implicit return:
-valueUnityEngine.ColorB"
-Shapes.DrawX
+Shapes.Sphere.RadiusSpace.get
+uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
+0 (*
+1*å
+1
+ (x
+v
+
+ (
+%retShapes.ThicknessSpace"__id*E
+
+ (9*7
+Shapes.Sphere"$
+radiusSpaceShapes.ThicknessSpace*
+2*:
+2 ("+
+ (
+
+%retShapes.ThicknessSpaceB
+Shapes.SphereX

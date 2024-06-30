@@ -1,28 +1,22 @@
 
-Shapes.Disc.ColorOuter.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csY Y("0*
-0Y Y(*
-1*Í
-1Y
- Y(c
-a
-Y
- Y(
-%0UnityEngine.Color"Shapes.Disc.ColorOuterStart.get*
-Y
- Y(
-Shapes.DiscT
-R
-Y
- Y(
-%retUnityEngine.Color"__id*%
-Y
- Y(
-
-%0UnityEngine.Color*
-2*6
-2Y Y("'
-Y Y(
-
-%retUnityEngine.ColorB
-Shapes.Disc
+ Shapes.ShapesTextPool.OnEnable()‚
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.cs6 6("0*
+06 6(*
+1*å
+17 8(b
+`
+7 7(
+
+%0void"!Shapes.ShapesTextPool.ClearData()*%
+7 7(
+Shapes.ShapesTextPoolm
+k
+8 8(<
+Shapes.ShapesTextPool"!
+instanceShapes.ShapesTextPool"__id*
+Shapes.ShapesTextPool*
+2*.
+29 9("
+9 9(
+implicit returnB
+Shapes.ShapesTextPoolX

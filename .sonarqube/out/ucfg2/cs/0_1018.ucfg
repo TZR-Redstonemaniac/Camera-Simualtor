@@ -1,17 +1,31 @@
 
-6Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpacing.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,"0*„
-0
-æ- æ(-©
-¶
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,]
-Shapes.MpbTriangle"E
-Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbTriangle
+>Shapes.GradientFill.GetLinearStartWorld(UnityEngine.Transform)Ö
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.cs` `($"0*
+0` `(*
+1*ˇ
+1`8 `(Vê
+ç
+`8 `(V
+%0UnityEngine.Vector3"KShapes.GradientFill.GetWorldPos(UnityEngine.Transform, UnityEngine.Vector3)*#
+`8 `(C
+Shapes.GradientFill*)
+`E `(G
+
+tfUnityEngine.Transform*I
+`I `(T=*;
+Shapes.GradientFill""
+linearStartUnityEngine.Vector3X
+V
+`8 `(V
+%retUnityEngine.Vector3"__id*'
+`8 `(V
+
+%0UnityEngine.Vector3*
+2*8
+2`W `(W")
+`V `(W
+
+%retUnityEngine.Vector3:'
+`& `(2
+tfUnityEngine.TransformB
+Shapes.GradientFill

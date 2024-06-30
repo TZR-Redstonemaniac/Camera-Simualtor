@@ -1,51 +1,31 @@
 
-!Shapes.RegularPolygon.UseFill.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csú ú("0*
+Shapes.RegularPolygon.Fill.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csï ï("0*
 0
-ú ú(*
-1*ã
+ï ï(*
+1*Ù
 1
-ù û(XS
-Q
+ñ ó(n
+l
 
-ù ù(*
-Shapes.RegularPolygon"
-useFillbool"__id*
-
-valueboolŒ
-À
-
-û1 û(U	
-%0int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*F
-
-û1 û(58*6
+ñ ñ(6
 Shapes.RegularPolygon"
-fillShapes.GradientFill*:
+fillShapes.GradientFill"__id* 
+
+valueShapes.GradientFilln
+l
 
-ûL û(S,**
-Shapes.RegularPolygon"
-useFillboolŒ
-À
+ó ó(
 
-û û(W
+%0void")Shapes.RegularPolygon.SetFillProperties()*'
 
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
-
-û û(
-Shapes.RegularPolygon*C
-
-û û(/5*3
-Shapes.ShapesMaterialUtils"
-propFillTypeint*
-
-û1 û(U
-	
-%0int*
+ó ó(
+Shapes.RegularPolygon*
 2*2
 2
-ü ü("!
+ò ò("!
 
-ü ü(
-implicit return:
-valueboolB
+ò ò(
+implicit return:
+valueShapes.GradientFillB
 Shapes.RegularPolygonX

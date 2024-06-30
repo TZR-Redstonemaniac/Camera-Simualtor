@@ -1,33 +1,17 @@
 
-"Shapes.Draw.RectangleShapeFill.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÊ Ê("0*
-0
-Ê Ê(*
-1*È
-1
-Ê
- Ê($\
-Z
-
-Ê
- Ê(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleu
-s
-
-Ê
- Ê($=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill"__id* 
-
-valueShapes.GradientFill*
-2*2
-2
-Ê% Ê(%"!
-
-Ê$ Ê(%
-implicit return:
-valueShapes.GradientFillB"
-Shapes.DrawX
+:Shapes.MpbLine3D.Shapes.IDashableMpb.dashShapeModifier.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2"0*ê
+0v3 v(3Ω
+∫
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2.
+%ret&System.Collections.Generic.List<float>"__id*Û
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2c*a
+Shapes.MpbLine3D"K
+%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(20
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine3D

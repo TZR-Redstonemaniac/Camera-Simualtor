@@ -1,169 +1,99 @@
 
-"Shapes.Polygon.SetFillProperties()ù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¬ ¬( "0*
+"Shapes.RegularPolygon.DashSize.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÈ È("0*
 0
-¬ ¬(*
-1*
+È È(*
+1*®
 1
-√ √(*
+Í Ï(j
+h
+
+Í Í(
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyleQ
+O
+
+Í Í('
+
+%0Shapes.DashStyle"
+sizefloat"__id*
+
+valuefloatí
+è
+
+Î Î(I
+%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*H
+
+Î Î(!:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyle*9
+
+Î6 Î(<+*)
+Shapes.RegularPolygon"
+dashedbool*=
+
+Î> Î(G/*-
+Shapes.RegularPolygon"
+	thicknessfloat;
+9
+
+Î
+ Î(I
+netDashSizefloat"__id*
+
+%1float*
 2
-3*ƒ
+3*‹
 2
-ƒ »(@d
-b
+Ì Ì(Jo
+m
 
-ƒ4 ƒ(8
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillÚ
-Ô
+Ì4 Ì(G
+%2float")Shapes.RegularPolygon.GetNetDashSpacing()*'
 
-ƒ ƒ(@
+Ì4 Ì(E
+Shapes.RegularPolygon‘
+—
 
-%1void"%Shapes.ShapeRenderer.SetInt(int, int)* 
+Ì Ì(I
 
-ƒ ƒ(
-
-Shapes.Polygon*D
+%3void")Shapes.ShapeRenderer.SetFloat(int, float)*'
 
-ƒ ƒ(-6*4
-Shapes.ShapesMaterialUtils"
-propFillSpaceint*F
+Ì Ì(
+Shapes.RegularPolygon*F
 
-ƒ/ ƒ(>8*6
-
-%0Shapes.GradientFill"
-spaceShapes.FillSpaceó
-î
+Ì Ì(28*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
 
-≈3 ≈(N
-%2UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
-
-≈3 ≈(71*/
-Shapes.Polygon"
-fillShapes.GradientFillÈ
-Ê
-
-≈ ≈(P
-
-%3void"9Shapes.ShapeRenderer.SetVector4(int, UnityEngine.Vector4)* 
-
-≈ ≈(
-Shapes.Polygon*D
-
-≈ ≈(16*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
-
-≈3 ≈(N
-
-%2UnityEngine.Vector4d
-b
-
-∆1 ∆(5
-%4Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillã
-à
-
-∆ ∆(A
-
-%5void"9Shapes.ShapeRenderer.SetVector3(int, UnityEngine.Vector3)* 
-
-∆ ∆(
-Shapes.Polygon*B
-
-∆ ∆(/4*2
-Shapes.ShapesMaterialUtils"
-propFillEndint*M
-
-∆1 ∆(??*=
-
-%4Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3d
-b
-
-«- «(1
-%6Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillÑ
-Å
-
-« «(>
-
-%7void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)* 
-
-« «(
-Shapes.Polygon*@
-
-« «(+2*0
-Shapes.ShapesMaterialUtils"
-	propColorint*L
-
-«- «(<>*<
-
-%6Shapes.GradientFill"
-
-colorStartUnityEngine.Colord
-b
-
-»0 »(4
-%8Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillÖ
-Ç
-
-» »(?
-
-%9void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)* 
-
-» »(
-Shapes.Polygon*C
-
-» »(.5*3
-Shapes.ShapesMaterialUtils"
-propColorEndint*J
-
-»0 »(=<*:
-
-%8Shapes.GradientFill"
-colorEndUnityEngine.Color*
-3*°
+Ì4 Ì(G
+
+%2float*
+3*Ù
 3
-À À(T¡
-æ
+Ó Ó(A›
+⁄
 
-À- À(Q
+Ó Ó(@
 
-%10int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*?
+%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*'
 
-À- À(11*/
-Shapes.Polygon"
-fillShapes.GradientFill*3
+Ó Ó(
+Shapes.RegularPolygon*C
 
-ÀH À(O%*#
-Shapes.Polygon"
-useFillbool∆
-√
-
-À À(S
-%11void"%Shapes.ShapeRenderer.SetInt(int, int)* 
-
-À À(	
-Shapes.Polygon*C
-
-À À(+5*3
+Ó Ó(15*3
 Shapes.ShapesMaterialUtils"
-propFillTypeint*
+propDashSizeint*$
 
-À- À(Q
-
-
-%10int*
+Ó3 Ó(>
+
+netDashSizefloat*
 4*2
 4
-Ã Ã("!
+Ô Ô("!
 
-Ã Ã(
-implicit returnB
-Shapes.PolygonX
+Ô Ô(
+implicit return:
+valuefloatB
+Shapes.RegularPolygonX

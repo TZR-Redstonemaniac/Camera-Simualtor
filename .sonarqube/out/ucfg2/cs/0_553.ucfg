@@ -1,24 +1,50 @@
 
-Shapes.Disc.ColorMode.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs0 0("0*
-00 0(*
-1*Ê
-11 2(s
-q
-1 1(7
-Shapes.Disc"&
-	colorModeShapes.Disc.DiscColorMode"__id*&$
-"
-valueShapes.Disc.DiscColorMode]
-[
-2 2(
+"Shapes.Rectangle.FillLinearEnd.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csΩ Ω("0*
+0
+Ω Ω(*
+1*Ü
+1
+Ω
+ Ω(Rf
+d
 
-%0void"&Shapes.ShapeRenderer.ApplyProperties()*
-2 2(
-Shapes.Disc*
-2*.
-23 3("
-3 3(
-implicit return:$"
-valueShapes.Disc.DiscColorModeB
-Shapes.DiscX
+Ω: Ω(>
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillu
+s
+
+Ω: Ω(P=
+
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ê
+ç
+
+Ω
+ Ω(R
+
+%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*"
+
+Ω
+ Ω(
+Shapes.Rectangle*B
+
+Ω Ω(84*2
+Shapes.ShapesMaterialUtils"
+propFillEndint*M
+
+Ω: Ω(P?*=
+
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3*
+2*2
+2
+ΩS Ω(S"!
+
+ΩR Ω(S
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.RectangleX

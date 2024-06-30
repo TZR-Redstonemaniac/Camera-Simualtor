@@ -1,35 +1,18 @@
 
-"Shapes.Draw.LineThicknessSpace.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¡ ¡("0*
+2Shapes.MpbPolygon.Shapes.IFillableMpb.fillType.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()"0*ê
 0
-¡ ¡(*
-1*¸
-1
-¡
- ¡(\
-Z
-
-¡
- ¡(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleá
-Ñ
-
-¡
- ¡(
-%retShapes.ThicknessSpace"__id*Q
-
-¡
- ¡(C*A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
-2
-¡ ¡("-
-
-¡ ¡(
-
-%retShapes.ThicknessSpaceB"
-Shapes.DrawX
+è* è(*π
+∂
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è().
+%ret&System.Collections.Generic.List<float>"__id*Ì
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()[*Y
+Shapes.MpbPolygon"B
+Shapes.IFillableMpb.fillType"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbPolygon

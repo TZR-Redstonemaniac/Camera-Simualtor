@@ -1,16 +1,18 @@
 
-1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSnap.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()"0*ÿ
-0x* x(*¢
-ü
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()X
-Shapes.MpbLine3D"B
-Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csx& x()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine3D
+/Shapes.MpbRect.Shapes.IDashableMpb.dashType.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()"0*ç
+0
+—* —(*∂
+≥
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()X*V
+Shapes.MpbRect"B
+Shapes.IDashableMpb.dashType"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs—& —()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRect

@@ -1,0 +1,97 @@
+
+1TMPro.TMP_TextEventHandler.TMP_TextEventHandler()“
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs
+ 
+(%"0*ß
+0zx
+%A %(^8
+%02TMPro.TMP_TextEventHandler.CharacterSelectionEvent"2TMPro.TMP_TextEventHandler.CharacterSelectionEventÝ
+Ú
+%A %(^8
+%12TMPro.TMP_TextEventHandler.CharacterSelectionEvent"LTMPro.TMP_TextEventHandler.CharacterSelectionEvent.CharacterSelectionEvent()*F
+%A %(^:
+8
+%02TMPro.TMP_TextEventHandler.CharacterSelectionEvent¿
+¼
+%? %(^l
+TMPro.TMP_TextEventHandler"L
+m_OnCharacterSelection2TMPro.TMP_TextEventHandler.CharacterSelectionEvent"__id*<:
+8
+%02TMPro.TMP_TextEventHandler.CharacterSelectionEventtr
+1; 1(U5
+%2/TMPro.TMP_TextEventHandler.SpriteSelectionEvent"/TMPro.TMP_TextEventHandler.SpriteSelectionEventÑ
+Î
+1; 1(U5
+%3/TMPro.TMP_TextEventHandler.SpriteSelectionEvent"FTMPro.TMP_TextEventHandler.SpriteSelectionEvent.SpriteSelectionEvent()*C
+1; 1(U7
+5
+%2/TMPro.TMP_TextEventHandler.SpriteSelectionEvent¶
+³
+19 1(Uf
+TMPro.TMP_TextEventHandler"F
+m_OnSpriteSelection/TMPro.TMP_TextEventHandler.SpriteSelectionEvent"__id*97
+5
+%2/TMPro.TMP_TextEventHandler.SpriteSelectionEventpn
+=7 =(O3
+%4-TMPro.TMP_TextEventHandler.WordSelectionEvent"-TMPro.TMP_TextEventHandler.WordSelectionEventÉ
+Æ
+=7 =(O3
+%5-TMPro.TMP_TextEventHandler.WordSelectionEvent"BTMPro.TMP_TextEventHandler.WordSelectionEvent.WordSelectionEvent()*A
+=7 =(O5
+3
+%4-TMPro.TMP_TextEventHandler.WordSelectionEvent°
+­
+=5 =(Ob
+TMPro.TMP_TextEventHandler"B
+m_OnWordSelection-TMPro.TMP_TextEventHandler.WordSelectionEvent"__id*75
+3
+%4-TMPro.TMP_TextEventHandler.WordSelectionEventpn
+I7 I(O3
+%6-TMPro.TMP_TextEventHandler.LineSelectionEvent"-TMPro.TMP_TextEventHandler.LineSelectionEventÉ
+Æ
+I7 I(O3
+%7-TMPro.TMP_TextEventHandler.LineSelectionEvent"BTMPro.TMP_TextEventHandler.LineSelectionEvent.LineSelectionEvent()*A
+I7 I(O5
+3
+%6-TMPro.TMP_TextEventHandler.LineSelectionEvent°
+­
+I5 I(Ob
+TMPro.TMP_TextEventHandler"B
+m_OnLineSelection-TMPro.TMP_TextEventHandler.LineSelectionEvent"__id*75
+3
+%6-TMPro.TMP_TextEventHandler.LineSelectionEventpn
+U7 U(O3
+%8-TMPro.TMP_TextEventHandler.LinkSelectionEvent"-TMPro.TMP_TextEventHandler.LinkSelectionEventÉ
+Æ
+U7 U(O3
+%9-TMPro.TMP_TextEventHandler.LinkSelectionEvent"BTMPro.TMP_TextEventHandler.LinkSelectionEvent.LinkSelectionEvent()*A
+U7 U(O5
+3
+%8-TMPro.TMP_TextEventHandler.LinkSelectionEvent°
+­
+U5 U(Ob
+TMPro.TMP_TextEventHandler"B
+m_OnLinkSelection-TMPro.TMP_TextEventHandler.LinkSelectionEvent"__id*75
+3
+%8-TMPro.TMP_TextEventHandler.LinkSelectionEventZ
+X
+^# ^('5
+TMPro.TMP_TextEventHandler"
+m_selectedLinkint"__id*2ÿÿÿÿÿÿÿÿÿ[
+Y
+_$ _((6
+TMPro.TMP_TextEventHandler"
+m_lastCharIndexint"__id*2ÿÿÿÿÿÿÿÿÿ[
+Y
+`$ `((6
+TMPro.TMP_TextEventHandler"
+m_lastWordIndexint"__id*2ÿÿÿÿÿÿÿÿÿ[
+Y
+a$ a((6
+TMPro.TMP_TextEventHandler"
+m_lastLineIndexint"__id*2ÿÿÿÿÿÿÿÿÿ\
+Z
+%10void")UnityEngine.MonoBehaviour.MonoBehaviour()* 
+TMPro.TMP_TextEventHandler"
+implicit returnB
+TMPro.TMP_TextEventHandlerX

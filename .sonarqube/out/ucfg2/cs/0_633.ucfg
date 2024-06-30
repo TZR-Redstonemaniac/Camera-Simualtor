@@ -1,24 +1,30 @@
 
-Shapes.Triangle.ColorMode.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csa a("0*
-0a a(*
-1*Ä
-1b c(à
-Ö
-b b(C
-Shapes.Triangle".
-	colorMode!Shapes.Triangle.TriangleColorMode"__id*.,
-*
-value!Shapes.Triangle.TriangleColorModea
+ Shapes.RegularPolygon.Hollow.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs ("0*
+0 (*
+1*±
+1
+ (a
 _
-c c(
+
+ (
 
-%0void"&Shapes.ShapeRenderer.ApplyProperties()*
-c c(
-Shapes.Triangle*
-2*.
-2d d("
-d d(
-implicit return:,*
-value!Shapes.Triangle.TriangleColorModeB
-Shapes.TriangleX
+%0bool" Shapes.RegularPolygon.Border.get*%
+
+ (
+Shapes.RegularPolygon:
+8
+
+ (
+%retbool"__id*
+
+ (
+
+
+%0bool*
+2*)
+2 ("
+ (
+
+%retboolB
+Shapes.RegularPolygonX

@@ -1,24 +1,42 @@
 
-"Shapes.ShapeRenderer.BlendMode.set†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs5 5("0*
-05 5(*
-1*ñ
-16 7(v
-t
-6 6(=
-Shapes.ShapeRenderer"#
-	blendModeShapes.ShapesBlendMode"__id*#!
-
-valueShapes.ShapesBlendModee
-c
-7 7(
+"Shapes.ShapeRenderer.ColorMask.setˆ
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csŒ Œ("0*
+0
+Œ Œ(*
+1*Ó
+1
+Œ
+ Œ(h•
+’
 
-%0void"%Shapes.ShapeRenderer.UpdateMaterial()*$
-7 7(
-Shapes.ShapeRenderer*
-2*.
-28 8("
-8 8(
-implicit return:!
-valueShapes.ShapesBlendModeB
+ŒS Œ(dK
+Shapes.ShapeRenderer"1
+	colorMask$UnityEngine.Rendering.ColorWriteMask"__id*1/
+-
+value$UnityEngine.Rendering.ColorWriteMask¤
+¡
+
+Œ
+ Œ(h
+
+%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
+
+Œ
+ Œ('
+Shapes.ShapeRenderer*D
+
+Œ) Œ(J6*4
+Shapes.ShapesMaterialUtils"
+propColorMaskint*[
+
+ŒL Œ(fM*K
+Shapes.ShapeRenderer"1
+	colorMask$UnityEngine.Rendering.ColorWriteMask*
+2*2
+2
+Œi Œ(i"!
+
+Œh Œ(i
+implicit return:/-
+value$UnityEngine.Rendering.ColorWriteMaskB
 Shapes.ShapeRendererX

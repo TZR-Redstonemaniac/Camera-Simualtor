@@ -1,31 +1,35 @@
 
-Shapes.RegularPolygon.Fill.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csï ï("0*
-0
-ï ï(*
-1*Ù
-1
-ñ ó(n
-l
+Shapes.Disc.GetNetDashSpacing()õ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csC C("0*
+0C C(*
+1*∂
+1C C(h„
+‡
+C C(h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
+C C(0
+Shapes.Disc*<
+C2 C(;0*.
+Shapes.Disc"
+	dashStyleShapes.DashStyle*-
+C= C(C!*
+Shapes.Disc"
+dashedbool*=
+CE C([1*/
+Shapes.Disc"
+matchDashSpacingToSizebool*1
+C] C(f%*#
+Shapes.Disc"
+	thicknessfloat<
+:
+C C(h
+%retfloat"__id*
+C C(h
+
+%0float*
+2**
+2Ci C(i"
+Ch C(i
 
-ñ ñ(6
-Shapes.RegularPolygon"
-fillShapes.GradientFill"__id* 
-
-valueShapes.GradientFilln
-l
-
-ó ó(
-
-%0void")Shapes.RegularPolygon.SetFillProperties()*'
-
-ó ó(
-Shapes.RegularPolygon*
-2*2
-2
-ò ò("!
-
-ò ò(
-implicit return:
-valueShapes.GradientFillB
-Shapes.RegularPolygonX
+%retfloatB
+Shapes.DiscX

@@ -1,47 +1,35 @@
 
-Shapes.Quad.B.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs ("0*
+$Shapes.Draw.RegularPolygonRadius.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csı ı("0*
 0
- (*
-1*Ã
+ı ı(*
+1*Ò
 1
-‚ ƒ(a
-_
+ı
+ ı(\
+Z
 
-‚. ‚(7)
-Shapes.Quad"
-bUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ñ
-î
+ı
+ ı(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle^
+\
 
-‚ ‚(9
+ı
+ ı(
+%retfloat"__id*9
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-
-‚ ‚(
-Shapes.Quad*<
-
-‚ ‚(,.*,
-Shapes.ShapesMaterialUtils"
-propBint*9
-
-‚. ‚(7+*)
-Shapes.Quad"
-bUnityEngine.Vector3V
-T
-
-ƒ ƒ(
-
-%1void"Shapes.Quad.CheckAutoSetD()*
-
-ƒ ƒ(
-Shapes.Quad*
-2*2
+ı
+ ı(+*)
+
+%0Shapes.DrawStyle"
+radiusfloat*
+2*.
 2
-„ „("!
+ı ı("
 
-„ „(
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.QuadX
+ı ı(
+
+%retfloatB"
+Shapes.DrawX

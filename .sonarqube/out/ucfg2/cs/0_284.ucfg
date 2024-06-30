@@ -1,21 +1,34 @@
 
-Shapes.Disc.Dashed.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
-0 (*
-1*c
-1
- (O
-M
-
- (
-%retbool"__id*-
-
- (!*
-Shapes.Disc"
-dashedbool*
-2*)
-2 ("
- (
-
-%retboolB
-Shapes.DiscX
+<Shapes.PolylinePoint.operator *(float, Shapes.PolylinePoint)Ü
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylinePoint.cs (&"0*
+0 (*
+1*∑
+1H (M∆
+√
+H (M
+%0Shapes.PolylinePoint"<Shapes.PolylinePoint.operator *(Shapes.PolylinePoint, float)*"
+Shapes.PolylinePoint*'
+H (I
+
+aShapes.PolylinePoint*
+L (M
+
+
+bfloatZ
+X
+H (M
+%retShapes.PolylinePoint"__id*(
+H (M
+
+%0Shapes.PolylinePoint*
+2*9
+2N (N"*
+M (N
+
+%retShapes.PolylinePoint:
+* (1
+
+bfloat:%
+3 (B
+aShapes.PolylinePointB"
+Shapes.PolylinePoint

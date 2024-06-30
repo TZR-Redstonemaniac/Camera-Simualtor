@@ -1,31 +1,71 @@
 
->Shapes.GradientFill.GetLinearStartWorld(UnityEngine.Transform)Ö
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.cs` `($"0*
-0` `(*
-1*ˇ
-1`8 `(Vê
-ç
-`8 `(V
-%0UnityEngine.Vector3"KShapes.GradientFill.GetWorldPos(UnityEngine.Transform, UnityEngine.Vector3)*#
-`8 `(C
-Shapes.GradientFill*)
-`E `(G
-
-tfUnityEngine.Transform*I
-`I `(T=*;
-Shapes.GradientFill""
-linearStartUnityEngine.Vector3X
-V
-`8 `(V
-%retUnityEngine.Vector3"__id*'
-`8 `(V
+DShapes.PolylinePath.AddPoint(float, float, float, UnityEngine.Color)â
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolylinePath.cs.% .(-"0*
+0. .(*
+1*˜
+1	.[ .(ô=;
+	.x .(é
+%0UnityEngine.Vector3"UnityEngine.Vector3Ÿ
+÷
+	.x .(é
+%1UnityEngine.Vector3"0UnityEngine.Vector3.Vector3(float, float, float)*(
+	.x .(é
 
-%0UnityEngine.Vector3*
-2*8
-2`W `(W")
-`V `(W
-
-%retUnityEngine.Vector3:'
-`& `(2
-tfUnityEngine.TransformB
-Shapes.GradientFill
+%0UnityEngine.Vector3*
+
+.Ö .(Ü
+
+
+xfloat*
+
+.à .(â
+
+
+yfloat*
+
+.ã .(å
+
+
+zfloat?=
+	.e .(ó
+%2Shapes.PolylinePoint"Shapes.PolylinePoint˜
+Ù
+	.e .(ó
+%3Shapes.PolylinePoint"JShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector3, UnityEngine.Color)*)
+	.e .(ó
+
+%2Shapes.PolylinePoint*(
+	.x .(é
+
+%0UnityEngine.Vector3**
+
+.ê .(ï
+
+colorUnityEngine.Colorã
+à
+	.[ .(ô
+
+%4void"Shapes.PointPath<T>.AddPoint(T)*#
+.[ .(c
+Shapes.PolylinePath*)
+	.e .(ó
+
+%2Shapes.PolylinePoint*
+2*2
+2
+.ö .(ö"!
+
+.ô .(ö
+implicit return:
+./ .(6
+
+xfloat:
+.8 .(?
+
+yfloat:
+.A .(H
+
+zfloat:&
+.J .(U
+colorUnityEngine.ColorB
+Shapes.PolylinePathX

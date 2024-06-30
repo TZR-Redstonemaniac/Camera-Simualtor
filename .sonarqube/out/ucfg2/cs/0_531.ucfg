@@ -1,52 +1,35 @@
 
-#Shapes.Rectangle.FillColorStart.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¡ ¡("0*
+$Shapes.Rectangle.FillLinearStart.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csµ µ("0*
 0
-¡ ¡(*
-1*¸
+µ µ(*
+1*Ç
 1
-¡
- ¡(Of
+µ
+ µ(f
 d
 
-¡6 ¡(:
+µ
+ µ(
 %0Shapes.GradientFill"__id*53*1
 Shapes.Rectangle"
-fillShapes.GradientFillr
-p
+fillShapes.GradientFillÉ
+Ä
 
-¡6 ¡(M<
+µ
+ µ(
+%retUnityEngine.Vector3"__id*O
+
+µ
+ µ(A*?
 
-%0Shapes.GradientFill"
-
-colorStartUnityEngine.Color"__id*
-
-valueUnityEngine.Colorâ
-Ü
-
-¡
- ¡(O
-
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*"
-
-¡
- ¡(
-Shapes.Rectangle*@
-
-¡ ¡(42*0
-Shapes.ShapesMaterialUtils"
-	propColorint*L
-
-¡6 ¡(M>*<
-
-%0Shapes.GradientFill"
-
-colorStartUnityEngine.Color*
-2*2
+%0Shapes.GradientFill""
+linearStartUnityEngine.Vector3*
+2*<
 2
-¡P ¡(P"!
+µ µ("+
 
-¡O ¡(P
-implicit return:
-valueUnityEngine.ColorB
-Shapes.RectangleX
+µ µ(
+
+%retUnityEngine.Vector3B
+Shapes.Rectangle

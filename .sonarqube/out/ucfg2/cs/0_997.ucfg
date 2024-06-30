@@ -1,17 +1,28 @@
 
-3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSize.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()"0*‡
-0
-ª* ª(*¶
-£
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()Z
-Shapes.MpbTriangle"B
-Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbTriangle
+Shapes.Quad.GetQuadVertex(int)}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs@ @("0*
+0@ @(*
+1*È
+1@/ @(:{
+y
+@/ @(:
+%0UnityEngine.Vector3"Shapes.Quad.this[int].get*
+@/ @(3
+Shapes.Quad*
+@4 @(9
+
+indexintX
+V
+@/ @(:
+%retUnityEngine.Vector3"__id*'
+@/ @(:
+
+%0UnityEngine.Vector3*
+2*8
+2@; @(;")
+@: @(;
+
+%retUnityEngine.Vector3:
+@  @()
+indexintB
+Shapes.Quad

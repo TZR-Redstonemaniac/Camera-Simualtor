@@ -1,37 +1,19 @@
 
-!Shapes.Draw.DashShapeModifier.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csµ µ("0*
-0
-µ µ(*
-1*π
-1
-µ! µ(F\
-Z
-
-µ! µ(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-µ! µ(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleZ
-X
-
-µ! µ(F0
-
-%1Shapes.DashStyle"
-shapeModifierfloat"__id*
+1Shapes.ShapeRendererFillable.FillRadialRadius.setè
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs( (("0*
+0( ((*
+1*G
+1(
+ ((3
+1
+(
+ ((
+%0float"__id*
 
 valuefloat*
-2*2
-2
-µG µ(G"!
-
-µF µ(G
+2*.
+2( (("
+( ((
 implicit return:
-valuefloatB"
-Shapes.DrawX
+valuefloatB 
+Shapes.ShapeRendererFillableX

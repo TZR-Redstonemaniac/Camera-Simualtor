@@ -1,17 +1,18 @@
 
-3Shapes.MpbLine2D.Shapes.IDashableMpb.dashOffset.getã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+"0*â
-0W, W(,∂
-≥
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+.
-%ret&System.Collections.Generic.List<float>"__id*Ï
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+\*Z
-Shapes.MpbLine2D"D
-Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"¿
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csW( W(+0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine2D
+=Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillColorEnd.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/"0*∑
+0
+Î0 Î(0“
+œ
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*¯
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/f*d
+Shapes.MpbRegularPolygon"F
+ Shapes.IFillableMpb.fillColorEnd"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÎ, Î(/>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbRegularPolygon

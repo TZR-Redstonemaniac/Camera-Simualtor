@@ -1,31 +1,47 @@
 
-Shapes.Draw.ScaleMode.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
+#Shapes.Triangle.GetNetDashSpacing()ù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csñ ñ("0*
 0
-ç ç(*
-1*Î
+ñ ñ(*
+1*‹
 1
-ç! ç(0\
-Z
+ñ ñ(hÉ
+Ä
 
-ç! ç(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylew
-u
+ñ ñ(h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*!
 
-ç! ç(0
-%retShapes.ScaleMode"__id*G
+ñ ñ(0
+Shapes.Triangle*B
 
-ç! ç(09*7
-
-%0Shapes.DrawStyle"
-	scaleModeShapes.ScaleMode*
-2*9
+ñ2 ñ(;4*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyle*3
+
+ñ= ñ(C%*#
+Shapes.Triangle"
+dashedbool*C
+
+ñE ñ([5*3
+Shapes.Triangle"
+matchDashSpacingToSizebool*7
+
+ñ] ñ(f)*'
+Shapes.Triangle"
+	thicknessfloat@
+>
+
+ñ ñ(h
+%retfloat"__id*
+
+ñ ñ(h
+
+%0float*
+2*.
 2
-ç1 ç(1"(
+ñi ñ(i"
 
-ç0 ç(1
-
-%retShapes.ScaleModeB"
-Shapes.DrawX
+ñh ñ(i
+
+%retfloatB
+Shapes.TriangleX

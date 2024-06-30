@@ -1,35 +1,52 @@
 
-QShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector2, UnityEngine.Color, float)Ü
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylinePoint.csO	 O("0*
-0O O(*
-1*ƒ
-1P R(l
-j
-P P(6
-Shapes.PolylinePoint"
-pointUnityEngine.Vector3"__id* 
-
-pointUnityEngine.Vector2h
-f
-Q Q(4
-Shapes.PolylinePoint"
-colorUnityEngine.Color"__id*
+!Shapes.Polygon.FillColorStart.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csª ª("0*
+0
+ª ª(*
+1*¯
+1
+ª
+ ª(Od
+b
+
+ª6 ª(:
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillr
+p
+
+ª6 ª(M<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color"__id*
 
-colorUnityEngine.ColorX
-V
-R R(,
-Shapes.PolylinePoint"
-	thicknessfloat"__id*
-
-	thicknessfloat*
-2*.
-2S S("
-S S(
-implicit return:(
-O O(%
-pointUnityEngine.Vector2:&
-O' O(2
-colorUnityEngine.Color:
-O4 O(C
-	thicknessfloatB
-Shapes.PolylinePointX
+valueUnityEngine.Colorá
+Ñ
+
+ª
+ ª(O
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)* 
+
+ª
+ ª(
+Shapes.Polygon*@
+
+ª ª(42*0
+Shapes.ShapesMaterialUtils"
+	propColorint*L
+
+ª6 ª(M>*<
+
+%0Shapes.GradientFill"
+
+colorStartUnityEngine.Color*
+2*2
+2
+ªP ª(P"!
+
+ªO ª(P
+implicit return:
+valueUnityEngine.ColorB
+Shapes.PolygonX

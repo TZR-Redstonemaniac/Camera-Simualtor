@@ -1,76 +1,30 @@
 
-Shapes.Disc.DashSize.setõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
-0 (*
-1*
-1 (^
-\
- (
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleO
-M
- ('
+ Shapes.Draw.StencilWriteMask.getå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csm m("0*
+0m m(*
+1*√
+1m! m(CZ
+X
+m! m(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+m! m(2
+%1Shapes.RenderState"__id*?=*;
 
-%0Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloatÏ
-È
- (I
-%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*<
- (!0*.
-Shapes.Disc"
-	dashStyleShapes.DashStyle*-
-6 (<!*
-Shapes.Disc"
-dashedbool*1
-> (G%*#
-Shapes.Disc"
-	thicknessfloat9
-7
-
- (I
-netDashSizefloat"__id*
-
-%1float*
-2
-3*∞
-2   (JW
-U
- 4  (G
-%2float"Shapes.Disc.GetNetDashSpacing()*
- 4  (E
-Shapes.Disc¬
-ø
-   (I
-
-%3void")Shapes.ShapeRenderer.SetFloat(int, float)*
-   (
-Shapes.Disc*D
-   (28*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
- 4  (G
-
-%2float*
-3*‡
-3! !(AÀ
-»
-! !(@
-
-%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-! !(
-Shapes.Disc*A
-! !(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*"
-!3 !(>
-
-netDashSizefloat*
-4*.
-4" "("
-" "(
-implicit return:
-valuefloatB
-Shapes.DiscX
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStated
+b
+m! m(C
+%retbyte"__id*B
+m! m(C6*4
+
+%1Shapes.RenderState"
+stencilWriteMaskbyte*
+2*)
+2mD m(D"
+mC m(D
+
+%retbyteB"
+Shapes.DrawX

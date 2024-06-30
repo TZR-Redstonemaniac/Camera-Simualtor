@@ -1,35 +1,21 @@
 
-!Shapes.PointPath<T>.this[int].get†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PointPath.cs ("0*
-0 (*
-1*…
-1
- (º
-·
-
- (
-%0T"7System.Collections.Generic.ICollection<T>.this[int].get*Q
-
- (E*C
-Shapes.PointPath<T>"*
-path"System.Collections.Generic.List<T>*
- (
-
-
-iint4
-2
-
- (	
-%retT"__id*
-
- (	
-
-%0T*
-2*&
-2 ("
- (
-	
-%retT:
-
-iintB
-Shapes.PointPath<T>
+Shapes.Cone.FillCap.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs' '("0*
+0' '(*
+1*d
+1'
+ '(P
+N
+'
+ '(
+%retbool"__id*.
+'
+ '("* 
+Shapes.Cone"
+fillCapbool*
+2*)
+2' '("
+' '(
+
+%retboolB
+Shapes.ConeX

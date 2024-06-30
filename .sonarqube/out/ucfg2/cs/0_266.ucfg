@@ -1,27 +1,27 @@
 
-+Shapes.Rectangle.MatchDashSpacingToSize.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs“ “("0*
+Shapes.Polygon.Fill.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csà à("0*
 0
-“ “(*
-1*~
+à à(*
+1*à
 1
-“
- “( h
-f
+à
+ à(r
+p
 
-“
- “( 
-%retbool"__id*D
+à
+ à(
+%retShapes.GradientFill"__id*?
 
-“
- “( 6*4
-Shapes.Rectangle"
-matchDashSpacingToSizebool*
-2*-
+à
+ à(1*/
+Shapes.Polygon"
+fillShapes.GradientFill*
+2*<
 2
-“! “(!"
+à à("+
 
-“  “(!
-
-%retboolB
-Shapes.RectangleX
+à à(
+
+%retShapes.GradientFillB
+Shapes.Polygon

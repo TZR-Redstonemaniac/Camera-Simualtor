@@ -1,47 +1,39 @@
 
-KShapes.PolylinePath.AddPoint(UnityEngine.Vector2, float, UnityEngine.Color)â
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolylinePath.cs6% 6(-"0*
-06 6(*
-1*á
-1	6^ 6(î?=
-	6h 6(í
-%0Shapes.PolylinePoint"Shapes.PolylinePoint¢
-ü
-	6h 6(í
-%1Shapes.PolylinePoint"QShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector2, UnityEngine.Color, float)*)
-	6h 6(í
-
-%0Shapes.PolylinePoint*(
-6{ 6(~
-
-posUnityEngine.Vector2**
+DShapes.ShapesMaterialUtils.GetPolylineJoinsMat(Shapes.PolylineJoins)â
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs¶  ¶(3"0*
+0
+¶ ¶(*
+1*Ì
+1
+¶M ¶(hÚ
+Ô
 
-6Ä 6(Ö
-
-colorUnityEngine.Color*"
+¶M ¶(h
+%0Shapes.ShapesMaterials"7System.Collections.Generic.ICollection<T>.this[int].get*\
 
-6á 6(ê
-
-	thicknessfloatã
-à
-	6^ 6(î
+¶M ¶(]N*L
+Shapes.ShapesMaterialUtils",
+matsPolylineJoinShapes.ShapesMaterials[]*,
 
-%2void"Shapes.PointPath<T>.AddPoint(T)*#
-6^ 6(f
-Shapes.PolylinePath*)
-	6h 6(í
-
-%0Shapes.PolylinePoint*
-2*2
+¶^ ¶(g
+
+joinShapes.PolylineJoinsb
+`
+
+¶M ¶(h
+%retShapes.ShapesMaterials"__id*,
+
+¶M ¶(h
+
+%0Shapes.ShapesMaterials*
+2*?
 2
-6ï 6(ï"!
+¶i ¶(i".
 
-6î 6(ï
-implicit return:&
-6/ 6(:
-posUnityEngine.Vector2:
-6< 6(K
-	thicknessfloat:&
-6M 6(X
-colorUnityEngine.ColorB
-Shapes.PolylinePathX
+¶h ¶(i 
+
+%retShapes.ShapesMaterials:*
+
+¶5 ¶(G
+joinShapes.PolylineJoinsB"
+Shapes.ShapesMaterialUtils

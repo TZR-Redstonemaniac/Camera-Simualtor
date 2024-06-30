@@ -1,33 +1,18 @@
 
-Shapes.Polyline.Thickness.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csC C("0*
-0C C(*
-1*…
-1C
- C(MO
-M
-C: C(K'
-Shapes.Polyline"
-	thicknessfloat"__id*
-
-valuefloat„
-‡
-C
- C(M
-
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
-C
- C(
-Shapes.Polyline*B
-C C(86*4
-Shapes.ShapesMaterialUtils"
-propThicknessint*5
-C: C(K)*'
-Shapes.Polyline"
-	thicknessfloat*
-2*.
-2CN C(N"
-CM C(N
-implicit return:
-valuefloatB
-Shapes.PolylineX
+8Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillEnd.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*"0*≤
+0
+Ï+ Ï(+Õ
+ 
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*Û
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*a*_
+Shapes.MpbRegularPolygon"A
+Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÏ' Ï(*>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbRegularPolygon

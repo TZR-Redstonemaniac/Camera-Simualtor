@@ -1,30 +1,50 @@
 
-Shapes.Draw.StencilReadMask.getŒ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csh h("0*
-0h h(*
-1*Â
-1h! h(BZ
-X
-h! h(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
+Shapes.Rectangle.DashSnap.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÿ ÿ("0*
+0
+ÿ ÿ(*
+1*â
+1
+ÿ
+ ÿ(Xe
+c
+
+ÿ> ÿ(G
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStylem
 k
-h! h(2
-%1Shapes.RenderState"__id*?=*;
+
+ÿ> ÿ(T5
 
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderStatec
-a
-h! h(B
-%retbyte"__id*A
-h! h(B5*3
-
-%1Shapes.RenderState"
-stencilReadMaskbyte*
-2*)
-2hC h(C"
-hB h(C
-
-%retbyteB"
-Shapes.DrawX
+%0Shapes.DashStyle"
+snapShapes.DashSnapping"__id* 
+
+valueShapes.DashSnappingõ
+ò
+
+ÿ
+ ÿ(X
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+
+ÿ
+ ÿ(
+Shapes.Rectangle*C
+
+ÿ ÿ(55*3
+Shapes.ShapesMaterialUtils"
+propDashSnapint*E
+
+ÿ7 ÿ(V7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*2
+2
+ÿY ÿ(Y"!
+
+ÿX ÿ(Y
+implicit return:
+valueShapes.DashSnappingB
+Shapes.RectangleX

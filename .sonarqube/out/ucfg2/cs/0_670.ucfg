@@ -1,38 +1,19 @@
 
-Shapes.Triangle.Hollow.getƒ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs ("0*
-0
- (*
-1*¯
-1
-
- (Y
-W
-
-
- (
-
-%0bool"Shapes.Triangle.Border.get*!
-
-
- (
-Shapes.Triangle>
-<
-
-
- (
-%retbool"__id*
-
-
- (
-
-
-%0bool*
-2*-
-2
- ("
-
- (
-
-%retboolB
-Shapes.TriangleX
+/Shapes.ShapeRendererFillable.FillColorStart.set
+„C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs4 4("0*
+04 4(*
+1*_
+14
+ 4(K
+I
+4
+ 4(
+%0UnityEngine.Color"__id*
+
+valueUnityEngine.Color*
+2*.
+24 4("
+4 4(
+implicit return:
+valueUnityEngine.ColorB 
+Shapes.ShapeRendererFillableX

@@ -1,35 +1,17 @@
 
-'Shapes.Draw.RegularPolygonThickness.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÉ É("0*
-0
-É É(*
-1*’
-1
-É
- É(\
-Z
-
-É
- É(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylea
-_
-
-É
- É(
-%retfloat"__id*<
-
-É
- É(.*,
-
-%0Shapes.DrawStyle"
-	thicknessfloat*
-2*.
-2
-É É("
-
-É É(
-
-%retfloatB"
-Shapes.DrawX
+0Shapes.MpbDisc.Shapes.IDashableMpb.dashSpace.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs7' 7(*"0*Ü
+07+ 7(+≥
+∞
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs7' 7(*.
+%ret&System.Collections.Generic.List<float>"__id*È
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs7' 7(*Y*W
+Shapes.MpbDisc"C
+Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs7' 7(*0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbDisc

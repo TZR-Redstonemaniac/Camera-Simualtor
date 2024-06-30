@@ -1,17 +1,21 @@
 
-1Shapes.MpbLine3D.Shapes.IDashableMpb.dashSize.get‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()"0*‡
-0w* w(*´
-±
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w().
-%ret&System.Collections.Generic.List<float>"__id*ê
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()Z*X
-Shapes.MpbLine3D"B
-Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"À
-‹
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csw& w()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine3D
+Shapes.Rectangle.Thickness.get‚
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs ("0*
+0 (*
+1*m
+1
+ (Y
+W
+
+ (
+%retfloat"__id*6
+
+ (**(
+Shapes.Rectangle"
+	thicknessfloat*
+2**
+2 ("
+ (
+
+%retfloatB
+Shapes.RectangleX

@@ -1,17 +1,18 @@
 
-3Shapes.MpbLine3D.Shapes.IDashableMpb.dashOffset.getã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+"0*â
-0u, u(,∂
+/Shapes.MpbRect.Shapes.IDashableMpb.dashSnap.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()"0*ç
+0
+Œ* Œ(*∂
 ≥
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+.
-%ret&System.Collections.Generic.List<float>"__id*Ï
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+\*Z
-Shapes.MpbLine3D"D
-Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"¿
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+0
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ().
+%ret&System.Collections.Generic.List<float>"__id*Í
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()X*V
+Shapes.MpbRect"B
+Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csŒ& Œ()0
 .
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbLine3D
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbRect

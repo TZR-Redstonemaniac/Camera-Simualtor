@@ -1,30 +1,27 @@
 
-&Shapes.Draw.RegularPolygonGeometry.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
+Shapes.Disc.RadiusSpace.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs™ ™("0*
 0
-ç ç(*
-1*‰
+™ ™(*
+1*
 1
-ç! ç(E\
-Z
+™
+ ™(z
+x
 
-ç! ç(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle”
-‘
+™
+ ™(
+%retShapes.ThicknessSpace"__id*E
 
-ç! ç(EQ
-
-%0Shapes.DrawStyle"7
-regularPolygonGeometryShapes.RegularPolygonGeometry"__id**(
-&
-valueShapes.RegularPolygonGeometry*
-2*2
+™
+ ™(7*5
+Shapes.Disc"$
+radiusSpaceShapes.ThicknessSpace*
+2*>
 2
-çF ç(F"!
+™ ™("-
 
-çE ç(F
-implicit return:(&
-valueShapes.RegularPolygonGeometryB"
-Shapes.DrawX
+™ ™(
+
+%retShapes.ThicknessSpaceB
+Shapes.DiscX

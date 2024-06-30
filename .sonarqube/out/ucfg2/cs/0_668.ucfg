@@ -1,31 +1,21 @@
 
-Shapes.Draw.PolylineJoins.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‘ ‘("0*
-0
-‘ ‘(*
-1*˘
-1
-‘! ‘(4\
-Z
+#Shapes.RegularPolygon.Roundness.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs" "("0*
+0" "(*
+1*r
+1"
+ "(^
+\
+"
+ "(
+%retfloat"__id*;
+"
+ "(/*-
+Shapes.RegularPolygon"
+	roundnessfloat*
+2**
+2" "("
+" "(
 
-‘! ‘(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleÑ
-Å
-
-‘! ‘(4
-%retShapes.PolylineJoins"__id*O
-
-‘! ‘(4A*?
-
-%0Shapes.DrawStyle"%
-polylineJoinsShapes.PolylineJoins*
-2*=
-2
-‘5 ‘(5",
-
-‘4 ‘(5
-
-%retShapes.PolylineJoinsB"
-Shapes.DrawX
+%retfloatB
+Shapes.RegularPolygonX

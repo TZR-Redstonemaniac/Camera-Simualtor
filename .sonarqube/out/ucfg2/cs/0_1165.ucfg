@@ -1,47 +1,35 @@
 
-Shapes.Quad.C.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csä ä("0*
+'Shapes.Draw.RegularPolygonThickness.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÉ É("0*
 0
-ä ä(*
-1*√
+É É(*
+1*’
 1
-ã å(a
+É
+ É(\
+Z
+
+É
+ É(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylea
 _
 
-ã. ã(7)
-Shapes.Quad"
-cUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3Ò
-Ó
+É
+ É(
+%retfloat"__id*<
 
-ã ã(9
-
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-
-ã ã(
-Shapes.Quad*<
-
-ã ã(,.*,
-Shapes.ShapesMaterialUtils"
-propCint*9
-
-ã. ã(7+*)
-Shapes.Quad"
-cUnityEngine.Vector3V
-T
-
-å å(
-
-%1void"Shapes.Quad.CheckAutoSetD()*
-
-å å(
-Shapes.Quad*
-2*2
+É
+ É(.*,
+
+%0Shapes.DrawStyle"
+	thicknessfloat*
+2*.
 2
-ç ç("!
+É É("
 
-ç ç(
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.QuadX
+É É(
+
+%retfloatB"
+Shapes.DrawX

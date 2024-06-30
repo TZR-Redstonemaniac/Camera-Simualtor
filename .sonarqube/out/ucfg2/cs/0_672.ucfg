@@ -1,31 +1,21 @@
 
-Shapes.Draw.DiscGeometry.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
-0
-Ú Ú(*
-1*õ
-1
-Ú! Ú(3\
-Z
-
-Ú! Ú(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle€
-~
-
-Ú! Ú(3
-%retShapes.DiscGeometry"__id*M
-
-Ú! Ú(3?*=
-
-%0Shapes.DrawStyle"#
-discGeometryShapes.DiscGeometry*
-2*<
-2
-Ú4 Ú(4"+
-
-Ú3 Ú(4
+Shapes.Triangle.B.get
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csp p("0*
+0p p(*
+1*€
+1p
+ p(l
+j
+p
+ p(
+%retUnityEngine.Vector3"__id*;
+p
+ p(/*-
+Shapes.Triangle"
+bUnityEngine.Vector3*
+2*8
+2p p(")
+p p(
 
-%retShapes.DiscGeometryB"
-Shapes.DrawX
+%retUnityEngine.Vector3B
+Shapes.Triangle

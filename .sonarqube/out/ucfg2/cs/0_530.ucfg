@@ -1,23 +1,55 @@
 
-/Shapes.ColorStack.ColorStack(UnityEngine.Color)‡
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ColorStack.cs ("0*
-0 (*
-1*Ý
-1& (8È
-Å
-& (8
-
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*R
-& (,F*D
-Shapes.ColorStack"-
-colors#System.Collections.Generic.Stack<T>*&
-3 (6
-
-mtxUnityEngine.Color*
-2*.
-29 (9"
-8 (9
-implicit return:$
- ( 
-mtxUnityEngine.ColorB
-Shapes.ColorStackX
+Shapes.ObjectPool<T>.Alloc()„
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs ("0*
+0 (*
+1*º
+1 (,¢
+Ÿ
+ ('	
+%0int"3System.Collections.Generic.ICollection<T>.Count.get*S
+ (!G*E
+Shapes.ObjectPool<T>"+
+pool#System.Collections.Generic.Stack<T>*
+2
+3*’
+2/ (6
+/ (6
+%1T"T3
+1
+/ (6
+%2T"T.T()*
+/ (6	
+
+%1T/
+-
+/ (6
+	%capture0T"__id*	
+
+%1T*
+4*â
+39 (Cœ
+™
+9 (C
+%3T"/System.Collections.Generic.ICollection<T>.Pop()*S
+9 (=G*E
+Shapes.ObjectPool<T>"+
+pool#System.Collections.Generic.Stack<T>/
+-
+9 (C
+	%capture0T"__id*	
+
+%3T*
+4*O
+4 (C;
+9
+ (C	
+%retT"__id*
+ (C
+
+	%capture0T*
+5*&
+5D (D"
+C (D
+	
+%retTB"
+Shapes.ObjectPool<T>

@@ -1,0 +1,24 @@
+
+)TMPro.Examples.ShaderPropAnimator.Start()ë
+ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs ("0*
+0 (*
+1*ê
+1 (0ù
+ö
+ (.$
+%0System.Collections.IEnumerator"5TMPro.Examples.ShaderPropAnimator.AnimateProperties()*1
+ (,%#
+!TMPro.Examples.ShaderPropAnimator€
+ÿ
+ (/
+%1UnityEngine.Coroutine"HUnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)*1
+ (%#
+!TMPro.Examples.ShaderPropAnimator*2
+ (.&
+$
+%0System.Collections.IEnumerator*
+2*.
+2	 (	"
+ (	
+implicit returnB%#
+!TMPro.Examples.ShaderPropAnimatorX

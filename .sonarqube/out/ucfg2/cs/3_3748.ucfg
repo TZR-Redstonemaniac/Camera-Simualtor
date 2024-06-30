@@ -1,0 +1,63 @@
+
+@TMPro.TMP_TextEventHandler.SendOnWordSelection(string, int, int)•
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.csë ë(("0*
+0
+ë ë(*
+1*¼
+1
+í í('¢
+Ÿ
+
+í í(3
+%0-TMPro.TMP_TextEventHandler.WordSelectionEvent".TMPro.TMP_TextEventHandler.onWordSelection.get*,
+
+í í(
+TMPro.TMP_TextEventHandler*
+2
+3*»
+2
+î î(@¢
+Ÿ
+
+î î(3
+%1-TMPro.TMP_TextEventHandler.WordSelectionEvent".TMPro.TMP_TextEventHandler.onWordSelection.get*,
+
+î î(
+TMPro.TMP_TextEventHandlerÿ
+ü
+
+î î(?
+
+%2void"<UnityEngine.Events.UnityEvent<T0, T1, T2>.Invoke(T0, T1, T2)*C
+
+î î(5
+3
+%1-TMPro.TMP_TextEventHandler.WordSelectionEvent*
+
+î' î(+
+
+wordstring* 
+
+î- î(6
+
+	charIndexint*
+
+î8 î(>
+
+lengthint*
+3*2
+3
+ï	 ï(	"!
+
+ï ï(	
+implicit return:
+
+ë) ë(4
+wordstring:
+
+ë6 ë(C
+	charIndexint:
+
+ëE ë(O
+lengthintB
+TMPro.TMP_TextEventHandlerX

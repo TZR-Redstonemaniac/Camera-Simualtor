@@ -1,31 +1,27 @@
 
-<Shapes.GradientFill.GetLinearEndWorld(UnityEngine.Transform)…
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\GradientFill.csb b(""0*
-0b b(*
-1*ý
-1b6 b(RŽ
-‹
-b6 b(R
-%0UnityEngine.Vector3"KShapes.GradientFill.GetWorldPos(UnityEngine.Transform, UnityEngine.Vector3)*#
-b6 b(A
-Shapes.GradientFill*)
-bC b(E
+Shapes.Quad.C.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs‰ ‰("0*
+0
+‰ ‰(*
+1*‚
+1
+‰
+ ‰(l
+j
+
+‰
+ ‰(
+%retUnityEngine.Vector3"__id*9
+
+‰
+ ‰(+*)
+Shapes.Quad"
+cUnityEngine.Vector3*
+2*<
+2
+‰ ‰("+
+
+‰ ‰(
 
-tfUnityEngine.Transform*G
-bG b(P;*9
-Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3X
-V
-b6 b(R
-%retUnityEngine.Vector3"__id*'
-b6 b(R
-
-%0UnityEngine.Vector3*
-2*8
-2bS b(S")
-bR b(S
-
-%retUnityEngine.Vector3:'
-b$ b(0
-tfUnityEngine.TransformB
-Shapes.GradientFill
+%retUnityEngine.Vector3B
+Shapes.Quad

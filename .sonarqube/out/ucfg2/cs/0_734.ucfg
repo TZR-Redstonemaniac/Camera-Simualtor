@@ -1,37 +1,18 @@
 
-$Shapes.Draw.TextParagraphSpacing.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs† †("0*
+6Shapes.MpbPolygon.Shapes.IFillableMpb.fillColorEnd.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/"0*∞
 0
-† †(*
-1*º
-1
-†! †(I\
-Z
-
-†! †(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-†! †(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyle]
-[
-
-†! †(I3
-
-%1Shapes.TextStyle"
-paragraphSpacingfloat"__id*
-
-valuefloat*
-2*2
-2
-†J †(J"!
-
-†I †(J
-implicit return:
-valuefloatB"
-Shapes.DrawX
+ã0 ã(0À
+»
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*Ò
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/_*]
+Shapes.MpbPolygon"F
+ Shapes.IFillableMpb.fillColorEnd"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csã, ã(/>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbPolygon

@@ -1,0 +1,56 @@
+
+>TMPro.TMP_TextEventHandler.SendOnCharacterSelection(char, int)•
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.csß ß(-"0*
+0
+ß ß(*
+1*Æ
+1
+á á(,¬
+©
+
+á á($8
+%02TMPro.TMP_TextEventHandler.CharacterSelectionEvent"3TMPro.TMP_TextEventHandler.onCharacterSelection.get*,
+
+á á($
+TMPro.TMP_TextEventHandler*
+2
+3*«
+2
+â â(G¬
+©
+
+â â($8
+%12TMPro.TMP_TextEventHandler.CharacterSelectionEvent"3TMPro.TMP_TextEventHandler.onCharacterSelection.get*,
+
+â â($
+TMPro.TMP_TextEventHandlerå
+â
+
+â â(F
+
+%2void"4UnityEngine.Events.UnityEvent<T0, T1>.Invoke(T0, T1)*H
+
+â â($:
+8
+%12TMPro.TMP_TextEventHandler.CharacterSelectionEvent*!
+
+â, â(5
+
+	characterchar*%
+
+â7 â(E
+
+characterIndexint*
+3*2
+3
+ã	 ã(	"!
+
+ã ã(	
+implicit return:
+
+ß. ß(<
+	characterchar:#
+
+ß> ß(P
+characterIndexintB
+TMPro.TMP_TextEventHandlerX

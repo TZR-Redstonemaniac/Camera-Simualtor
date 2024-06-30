@@ -1,31 +1,25 @@
 
-Shapes.Draw.BlendMode.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csá á("0*
-0
-á á(*
-1*˘
-1
-á! á(0\
-Z
+2Shapes.DashStack.DashStack(bool, Shapes.DashStyle)Ü
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DashStack.cs ("0*
+0 (*
+1*œ
+13 (N∫
+∑
+3 (N
 
-á! á(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleÑ
-Å
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*Q
+3 (9E*C
+Shapes.DashStack"-
+dashes#System.Collections.Generic.Stack<T>*
+@ (L
+	{unknown}*
+2*.
+2O (O"
+N (O
+implicit return:
+ (
 
-á! á(0
-%retShapes.ShapesBlendMode"__id*M
-
-á! á(0?*=
-
-%0Shapes.DrawStyle"#
-	blendModeShapes.ShapesBlendMode*
-2*?
-2
-á1 á(1".
-
-á0 á(1 
-
-%retShapes.ShapesBlendModeB"
-Shapes.DrawX
+onbool:$
+ (-
+dashShapes.DashStyleB
+Shapes.DashStackX

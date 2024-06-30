@@ -1,38 +1,21 @@
 
-Shapes.Draw.DashSizeUniform.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*ª
-1
-ü! ü(5\
-Z
-
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ü! ü(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle\
-Z
-
-ü! ü(5
-%retfloat"__id*7
-
-ü! ü(5)*'
-
-%1Shapes.DashStyle"
-sizefloat*
-2*.
-2
-ü6 ü(6"
-
-ü5 ü(6
-
-%retfloatB"
-Shapes.DrawX
+Shapes.Cuboid.SizeSpace.get
+uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs ("0*
+0 (*
+1*ä
+1
+ (v
+t
+
+ (
+%retShapes.ThicknessSpace"__id*C
+
+ (7*5
+Shapes.Cuboid""
+	sizeSpaceShapes.ThicknessSpace*
+2*:
+2 ("+
+ (
+
+%retShapes.ThicknessSpaceB
+Shapes.CuboidX

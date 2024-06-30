@@ -1,38 +1,33 @@
 
-!Shapes.Draw.DashShapeModifier.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs´ ´("0*
-0
-´ ´(*
-1*Ä
-1
-´! ´(>\
-Z
+Shapes.Disc.Geometry.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs| |("0*
+0| |(*
+1*á
+1|
+ |(Sf
+d
+|? |(O0
+Shapes.Disc"
+geometryShapes.DiscGeometry"__id* 
+
+valueShapes.DiscGeometryä
+á
+|
+ |(S
 
-´! ´(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-´! ´(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStylee
-c
-
-´! ´(>
-%retfloat"__id*@
-
-´! ´(>2*0
-
-%1Shapes.DashStyle"
-shapeModifierfloat*
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+|
+ |(
+Shapes.Disc*B
+| |(66*4
+Shapes.ShapesMaterialUtils"
+propAlignmentint*>
+|8 |(Q2*0
+Shapes.Disc"
+geometryShapes.DiscGeometry*
 2*.
-2
-´? ´(?"
-
-´> ´(?
-
-%retfloatB"
-Shapes.DrawX
+2|T |(T"
+|S |(T
+implicit return:
+valueShapes.DiscGeometryB
+Shapes.DiscX

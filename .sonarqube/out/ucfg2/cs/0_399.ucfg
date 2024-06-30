@@ -1,30 +1,62 @@
 
-Shapes.Draw.StencilOpPass.setå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs_ _("0*
-0_ _(*
-1*Ô
-1_! _(HZ
-X
-_! _(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
-k
-_! _(2
-%1Shapes.RenderState"__id*?=*;
+Shapes.Disc.DashSpace.setõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs1 1("0*
+01 1(*
+1*ı
+12 3(g^
+\
+26 2(?
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStylef
+d
+26 2(M3
 
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderStateè
-å
-_! _(HL
-
-%1Shapes.RenderState"0
-stencilOpPassUnityEngine.Rendering.StencilOp"__id*,*
-(
-valueUnityEngine.Rendering.StencilOp*
+%0Shapes.DashStyle"
+spaceShapes.DashSpace"__id*
+
+valueShapes.DashSpace‰
+·
+2 2(Q
+
+%1void"%Shapes.ShapeRenderer.SetInt(int, int)*
+2 2(
+
+Shapes.Disc*B
+2 2(-6*4
+Shapes.ShapesMaterialUtils"
+propDashSpaceint*A
+2/ 2(O5*3
+
+%0Shapes.DashStyle"
+spaceShapes.DashSpaceÏ
+È
+33 3(d
+%2float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*<
+33 3(<0*.
+Shapes.Disc"
+	dashStyleShapes.DashStyle*-
+3Q 3(W!*
+Shapes.Disc"
+dashedbool*1
+3Y 3(b%*#
+Shapes.Disc"
+	thicknessfloat¬
+ø
+3 3(f
+
+%3void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+3 3(
+Shapes.Disc*A
+3 3(15*3
+Shapes.ShapesMaterialUtils"
+propDashSizeint*
+33 3(d
+
+%2float*
 2*.
-2_I _(I"
-_H _(I
-implicit return:*(
-valueUnityEngine.Rendering.StencilOpB"
-Shapes.DrawX
+24 4("
+4 4(
+implicit return:
+valueShapes.DashSpaceB
+Shapes.DiscX

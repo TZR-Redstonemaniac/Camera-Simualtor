@@ -1,95 +1,27 @@
 
-(Shapes.MpbRect.TransferShapeProperties()ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs” ”(1"0*
+$Shapes.ShapeRenderer.StencilComp.getà
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs† †("0*
 0
-” ”(*
-1*Ÿ
+† †(*
+1*ª
 1
-‘ ÿ(F∞
-≠
+†
+ †(§
+°
 
-‘ ‘(?
+†
+ †(-
+%ret%UnityEngine.Rendering.CompareFunction"__id*^
 
-%0void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Vector4>)* 
-
-‘ ‘(
-Shapes.MpbRect*F
-
-‘ ‘(08*6
-Shapes.ShapesMaterialUtils"
-propCornerRadiiint*U
-
-‘2 ‘(=G*E
-Shapes.MpbRect"1
-cornerRadii"System.Collections.Generic.List<T>¢
-ü
-
-’ ’(1
-
-%1void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Vector4>)* 
-
-’ ’(
-Shapes.MpbRect*?
-
-’ ’()1*/
-Shapes.ShapesMaterialUtils"
-propRectint*N
-
-’+ ’(/@*>
-Shapes.MpbRect"*
-rect"System.Collections.Generic.List<T>û
-õ
-
-÷ ÷(;
-
-%2void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)* 
-
-÷ ÷(
-Shapes.MpbRect*D
-
-÷ ÷(.6*4
-Shapes.ShapesMaterialUtils"
-propScaleModeint*S
-
-÷0 ÷(9E*C
-Shapes.MpbRect"/
-	scaleMode"System.Collections.Generic.List<T>û
-õ
-
-◊ ◊(;
-
-%3void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)* 
-
-◊ ◊(
-Shapes.MpbRect*D
-
-◊ ◊(.6*4
-Shapes.ShapesMaterialUtils"
-propThicknessint*S
-
-◊0 ◊(9E*C
-Shapes.MpbRect"/
-	thickness"System.Collections.Generic.List<T>®
-•
-
-ÿ ÿ(E
-
-%4void"DShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<float>)* 
-
-ÿ ÿ(
-Shapes.MpbRect*I
-
-ÿ ÿ(3;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*X
-
-ÿ5 ÿ(CJ*H
-Shapes.MpbRect"4
-thicknessSpace"System.Collections.Generic.List<T>*
-2*2
+†
+ †(P*N
+Shapes.ShapeRenderer"4
+stencilComp%UnityEngine.Rendering.CompareFunction*
+2*N
 2
-Ÿ Ÿ("!
+† †("=
 
-Ÿ Ÿ(
-implicit returnB
-Shapes.MpbRectX
+† †(/
+-
+%ret%UnityEngine.Rendering.CompareFunctionB
+Shapes.ShapeRendererX

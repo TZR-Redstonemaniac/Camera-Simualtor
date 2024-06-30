@@ -1,19 +1,38 @@
 
-/Shapes.ShapeRendererFillable.FillColorStart.set
-„C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs4 4("0*
-04 4(*
-1*_
-14
- 4(K
-I
-4
- 4(
-%0UnityEngine.Color"__id*
-
-valueUnityEngine.Color*
+!Shapes.Draw.DashShapeModifier.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs´ ´("0*
+0
+´ ´(*
+1*Ä
+1
+´! ´(>\
+Z
+
+´! ´(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+´! ´(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStylee
+c
+
+´! ´(>
+%retfloat"__id*@
+
+´! ´(>2*0
+
+%1Shapes.DashStyle"
+shapeModifierfloat*
 2*.
-24 4("
-4 4(
-implicit return:
-valueUnityEngine.ColorB 
-Shapes.ShapeRendererFillableX
+2
+´? ´(?"
+
+´> ´(?
+
+%retfloatB"
+Shapes.DrawX

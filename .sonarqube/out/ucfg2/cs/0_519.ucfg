@@ -1,50 +1,31 @@
 
-"Shapes.Rectangle.FillLinearEnd.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csΩ Ω("0*
+Shapes.Draw.DetailLevel.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csì ì("0*
 0
-Ω Ω(*
-1*Ü
+ì ì(*
+1*Ò
 1
-Ω
- Ω(Rf
-d
+ì! ì(2\
+Z
 
-Ω: Ω(>
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillu
-s
+ì! ì(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle}
+{
 
-Ω: Ω(P=
-
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ê
-ç
+ì! ì(2
+%retShapes.DetailLevel"__id*K
 
-Ω
- Ω(R
-
-%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*"
-
-Ω
- Ω(
-Shapes.Rectangle*B
-
-Ω Ω(84*2
-Shapes.ShapesMaterialUtils"
-propFillEndint*M
-
-Ω: Ω(P?*=
-
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3*
-2*2
+ì! ì(2=*;
+
+%0Shapes.DrawStyle"!
+detailLevelShapes.DetailLevel*
+2*;
 2
-ΩS Ω(S"!
+ì3 ì(3"*
 
-ΩR Ω(S
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.RectangleX
+ì2 ì(3
+
+%retShapes.DetailLevelB"
+Shapes.DrawX

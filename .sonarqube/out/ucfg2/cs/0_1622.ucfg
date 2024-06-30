@@ -1,42 +1,61 @@
 
-(Shapes.ShapeRenderer.StencilReadMask.setà
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs≥ ≥("0*
+&Shapes.ShapeRenderer.ApplyProperties()à
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csó ó(("0*
 0
-≥ ≥(*
-1*É
+ó ó(*
+1*É
 1
-≥
- ≥(kZ
-X
+ò ö(4k
+i
 
-≥R ≥(i1
-Shapes.ShapeRenderer"
-stencilReadMaskbyte"__id*
+ò ò(
 
-valuebyteê
-ç
+%0void"'Shapes.ShapeRenderer.VerifyComponents()*&
 
-≥
- ≥(k
+ò ò(
+Shapes.ShapeRenderer}
+{
 
-%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
+ô ô('
+%1!UnityEngine.MaterialPropertyBlock"Shapes.ShapeRenderer.Mpb.get*&
 
-≥
- ≥('
-Shapes.ShapeRenderer*J
+ô ô(
+Shapes.ShapeRendererÈ
+Ê
 
-≥) ≥(P<*:
-Shapes.ShapesMaterialUtils"
-propStencilReadMaskint*A
+ô ô(
 
-≥R ≥(i3*1
-Shapes.ShapeRenderer"
-stencilReadMaskbyte*
-2*2
+%2void"HUnityEngine.Renderer.SetPropertyBlock(UnityEngine.MaterialPropertyBlock)*I
+
+ô ô(;*9
+Shapes.ShapeRenderer"
+rndUnityEngine.MeshRenderer*7
+
+ô ô()
+'
+%1!UnityEngine.MaterialPropertyBlockëé
+
+ö ö(
+%3Shapes.MeshUpdateMode"'Shapes.ShapeRenderer.MeshUpdateMode.get*&
+
+ö ö(
+Shapes.ShapeRenderer2MeshUpdateMode.get*
+2
+3*Å
 2
-≥l ≥(l"!
+õ õ(k
+i
 
-≥k ≥(l
-implicit return:
-valuebyteB
+õ õ(
+
+%4void"'Shapes.ShapeRenderer.UpdateMeshBounds()*&
+
+õ õ(
+Shapes.ShapeRenderer*
+3*2
+3
+ú ú("!
+
+ú ú(
+implicit returnB
 Shapes.ShapeRendererX

@@ -1,0 +1,56 @@
+
+;TMPro.TMP_TextEventHandler.SendOnSpriteSelection(char, int)•
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cså å(*"0*
+0
+å å(*
+1*À
+1
+ç ç()¦
+£
+
+ç ç(!5
+%0/TMPro.TMP_TextEventHandler.SpriteSelectionEvent"0TMPro.TMP_TextEventHandler.onSpriteSelection.get*,
+
+ç ç(!
+TMPro.TMP_TextEventHandler*
+2
+3*¢
+2
+è è(D¦
+£
+
+è è(!5
+%1/TMPro.TMP_TextEventHandler.SpriteSelectionEvent"0TMPro.TMP_TextEventHandler.onSpriteSelection.get*,
+
+è è(!
+TMPro.TMP_TextEventHandlerâ
+ß
+
+è è(C
+
+%2void"4UnityEngine.Events.UnityEvent<T0, T1>.Invoke(T0, T1)*E
+
+è è(!7
+5
+%1/TMPro.TMP_TextEventHandler.SpriteSelectionEvent*!
+
+è) è(2
+
+	characterchar*%
+
+è4 è(B
+
+characterIndexint*
+3*2
+3
+é	 é(	"!
+
+é é(	
+implicit return:
+
+å+ å(9
+	characterchar:#
+
+å; å(M
+characterIndexintB
+TMPro.TMP_TextEventHandlerX

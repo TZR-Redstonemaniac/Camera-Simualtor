@@ -1,54 +1,50 @@
 
-#Shapes.Polygon.FillRadialOrigin.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¢ ¢("0*
+Shapes.Polygon.FillSpace.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csû û("0*
 0
-¢ ¢(*
-1*˝
+û û(*
+1*ﬂ
 1
-£ §(Td
+û
+ û(Ud
 b
 
-£ £(
+û? û(C
 %0Shapes.GradientFill"__id*31*/
 Shapes.Polygon"
-fillShapes.GradientFillx
-v
+fillShapes.GradientFillk
+i
 
-£ £(@
+û? û(Q6
 
-%0Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ó
-î
+%0Shapes.GradientFill"
+spaceShapes.FillSpace"__id*
+
+valueShapes.FillSpaceı
+Ú
 
-§6 §(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
+û
+ û(U
 
-§6 §(:1*/
-Shapes.Polygon"
-fillShapes.GradientFillÏ
-È
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)* 
 
-§ §(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
-
-§ §(
+û
+ û(
 Shapes.Polygon*D
 
-§ §(46*4
+û û(66*4
 Shapes.ShapesMaterialUtils"
-propFillStartint*)
+propFillSpaceint*F
 
-§6 §(Q
+û8 û(S8*6
 
-%1UnityEngine.Vector4*
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
 2*2
 2
-• •("!
+ûV û(V"!
 
-• •(
-implicit return:
-valueUnityEngine.Vector3B
+ûU û(V
+implicit return:
+valueShapes.FillSpaceB
 Shapes.PolygonX

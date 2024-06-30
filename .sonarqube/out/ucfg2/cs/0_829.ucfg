@@ -1,33 +1,38 @@
 
-"Shapes.Draw.RectangleThickness.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csñ ñ("0*
+Shapes.Draw.DashSpacing.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs® ®("0*
 0
-ñ ñ(*
-1* 
+® ®(*
+1*æ
 1
-ñ
- ñ(!\
+®! ®(8\
 Z
 
-ñ
- ñ(
+®! ®(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyleV
-T
+styleShapes.DrawStylei
+g
 
-ñ
- ñ(!,
+®! ®(0
+%1Shapes.DashStyle"__id*;9*7
 
-%0Shapes.DrawStyle"
-	thicknessfloat"__id*
-
-valuefloat*
-2*2
-2
-ñ" ñ(""!
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyle_
+]
 
-ñ! ñ("
-implicit return:
-valuefloatB"
+®! ®(8
+%retfloat"__id*:
+
+®! ®(8,**
+
+%1Shapes.DashStyle"
+spacingfloat*
+2*.
+2
+®9 ®(9"
+
+®8 ®(9
+
+%retfloatB"
 Shapes.DrawX

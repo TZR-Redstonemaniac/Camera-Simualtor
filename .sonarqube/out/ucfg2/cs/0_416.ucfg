@@ -1,21 +1,35 @@
 
-Shapes.Line.ThicknessSpace.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csZ Z("0*
-0Z Z(*
-1*ç
-1Z
- Z(y
-w
-Z
- Z(
-%retShapes.ThicknessSpace"__id*F
-Z
- Z(:*8
-Shapes.Line"'
-thicknessSpaceShapes.ThicknessSpace*
-2*:
-2Z Z("+
-Z Z(
-
-%retShapes.ThicknessSpaceB
-Shapes.LineX
+Shapes.Rectangle.DashType.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÇ Ç("0*
+0
+Ç Ç(*
+1*Ì
+1
+Ç
+ Ç(e
+c
+
+Ç
+ Ç(
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
+	dashStyleShapes.DashStylep
+n
+
+Ç
+ Ç(
+%retShapes.DashType"__id*A
+
+Ç
+ Ç(3*1
+
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*8
+2
+Ç Ç("'
+
+Ç Ç(
+
+%retShapes.DashTypeB
+Shapes.RectangleX

@@ -1,33 +1,24 @@
 
-Shapes.Triangle.A.setÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csk k("0*
-0k k(*
-1*Î
-1k
- k(?c
-a
-k4 k(=-
-Shapes.Triangle"
-aUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3Ò
-Ó
-k
- k(?
+Shapes.Triangle.ColorMode.setÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csa a("0*
+0a a(*
+1*Ä
+1b c(à
+Ö
+b b(C
+Shapes.Triangle".
+	colorMode!Shapes.Triangle.TriangleColorMode"__id*.,
+*
+value!Shapes.Triangle.TriangleColorModea
+_
+c c(
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-k
- k(
-Shapes.Triangle*:
-k k(2.*,
-Shapes.ShapesMaterialUtils"
-propAint*;
-k4 k(=/*-
-Shapes.Triangle"
-aUnityEngine.Vector3*
+%0void"&Shapes.ShapeRenderer.ApplyProperties()*
+c c(
+Shapes.Triangle*
 2*.
-2k@ k(@"
-k? k(@
-implicit return:
-valueUnityEngine.Vector3B
+2d d("
+d d(
+implicit return:,*
+value!Shapes.Triangle.TriangleColorModeB
 Shapes.TriangleX

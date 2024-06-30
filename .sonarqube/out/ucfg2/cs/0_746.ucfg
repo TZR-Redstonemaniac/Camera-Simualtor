@@ -1,35 +1,21 @@
 
-Shapes.Draw.LineThickness.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csª ª("0*
-0
-ª ª(*
-1*’
-1
-ª
- ª(\
-Z
-
-ª
- ª(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylea
-_
-
-ª
- ª(
-%retfloat"__id*<
-
-ª
- ª(.*,
-
-%0Shapes.DrawStyle"
-	thicknessfloat*
-2*.
-2
-ª ª("
-
-ª ª(
-
-%retfloatB"
-Shapes.DrawX
+"Shapes.Polyline.ThicknessSpace.getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csI I("0*
+0I I(*
+1*ë
+1I
+ I(}
+{
+I
+ I(
+%retShapes.ThicknessSpace"__id*J
+I
+ I(>*<
+Shapes.Polyline"'
+thicknessSpaceShapes.ThicknessSpace*
+2*:
+2I I("+
+I I(
+
+%retShapes.ThicknessSpaceB
+Shapes.PolylineX

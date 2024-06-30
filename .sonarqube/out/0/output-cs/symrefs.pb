@@ -56,7 +56,10 @@ yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 @@  
 @@/ 7AA 
 @@D KFF 
-@@Y _FF; AFFW ]
+@@Y _FF; AFFW ]à
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.cs
+
+ 
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RectPivot.cs(
  # ,# ,S \
 
@@ -73,10 +76,7 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ô ö,
 C Dy z
 í ì
-ú ùà
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.cs
-
- ò
+ú ùò
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\TextStyle.cs
   ": C
 
@@ -148,7 +148,125 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 aa "77 
 dd $:: 
 ee  6;; 
-hh >> ‹
+hh >> ±
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs
+
+ $2
+; A
+ 7 =SS. 4pp 
+ 
+ 
+ 
+
+ <
+ 
+ 4 9ZZ, 1cc cc 
+
+ <
+) 2""
+ ##: C[[0 9dd dd '
+
+!! (
+%% ((
+ ))4 9YY* /
+
+'' P
+++ ..
+ //7 =UU- 3aa 	aa !pp "pp/ 5
+
+-- 
+
+44 +(
+77* 2::
+ ;;? GTT3 ;
+
+99  (2
+>>" -AA
+ BBA LVV5 @ll 
+
+@@ #F
+DD "GG
+ HH: CWW0 9bb bb 'oo= F
+
+FF 2
+JJ" 0MM
+ NND RXX8 Foo !
+
+LL &
+
+QQ" :
+
+``" 2
+
+hh (
+
+ii( 4
+
+kk$ 6
+oo	 pp% ,
+pp	 qq 
+qq	 rr1 5rr7 ;ï
+ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DestroyOnAssemblyReload.cs
+
+ %å
+vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesConfig.cs(
+		 	  "" '
+ !yy	 yy. A
+ ~~	 ~~6 D"
+ &
+ìì	 !
+ìì? W(
+ !! "" 	## 
+
+ %
+
+((  
+
+++ )
+
+00 (
+
+88 +
+
+DD -
+
+II (Z
+KK $ZZ [[ \\ ]] ^^ __ `` aa Z
+XX ZZ< M[[@ Q\\> O]]= N^^> O__< M``@ Qaa? P
+
+ZZ+ 9
+
+[[+ =
+
+\\+ ;
+
+]]+ :
+
+^^+ ;
+
+__+ 9
+
+``+ =
+
+aa+ <
+
+ee 
+
+gg )
+
+oo 
+
+pp 
+
+qq 
+
+yy +
+
+~~ 3
+
+ìì" <
+
+úú  ‹
 ~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PolygonPath.cs
 
  
@@ -221,125 +339,147 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 hh> Kkk ooN [
 hhV ]oo. 5
 rr oo? L
-rr+ 8ss ,uu2 ?ï
-ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DestroyOnAssemblyReload.cs
+rr+ 8ss ,uu2 ?æ
+ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesColorFieldAttribute.cs
 
- %å
-vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesConfig.cs(
-		 	  "" '
- !yy	 yy. A
- ~~	 ~~6 D"
- &
-ìì	 !
-ìì? W(
- !! "" 	## 
+		 .
+
+
+  = F
+) 2I RÄ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs
 
- %
+
+
+ d
+ %%" /%%F S((" /((F S++# 0++I VKK  KK( 5MM	 @
+ 'WW ,WW@ YYY	 "
+óó 4
+ôô  9
 
-((  
+%% 
 
-++ )
+(( 
 
-00 (
+++ B
+-- "00
+ 22 	
+ëë 
+íí 
+∞∞ 
 
-88 +
+// Z
+77 ::
+ << 	
+ëë5 :
+ìì) .
+¶¶ 
+¶¶ 
+ØØ $
 
-DD -
+99 Z
+AA DD
+ FF 
+
+íí5 ;
+ìì0 6
+ßß 	
+ßß !
+ØØ& ,
 
-II (Z
-KK $ZZ [[ \\ ]] ^^ __ `` aa Z
-XX ZZ< M[[@ Q\\> O]]= N^^> O__< M``@ Qaa? P
+CC f
+KK! %%% %%> B(( ((> B++ ++A ENN
+ PP 
+¨¨g k
 
-ZZ+ 9
+MM 6
+WW- =ZZ
+ [[
+ 
+óó 
+ôô 
 
-[[+ =
+YY# 3
 
-\\+ ;
+`` V
+ee &hh
+ kk8 Cpp
+ qq> I
+òò5 @
+•• 
+••& 1X
+gg __A Maa
+ bb
+ 
+ööB N
+ööP \
+öö^ j
+ööl x2
+jj
+ kkS TkkV WkkY Zkk\ ]
+oo vv
+ ww
+ 
 
-]]+ :
+uu D
+{{ "
+ 
+ÄÄ: C
+úú0 9
+®® 
+®® '
 
-^^+ ;
+~~ 0
 
-__+ 9
+ÑÑ" 0
+àà
+ 
+ââD R
+ùù; I
 
-``+ =
+áá &
 
-aa+ <
+åå (*
 
-ee 
+çç 33 == GG 
 
-gg )
+éé 
+õõ $
 
-oo 
+êê
+ 
+ççR d
+ééL ^
 
-pp 
+ëë	 
+ìì 
 
-qq 
+íí	 
+ìì  '
 
-yy +
+ññ" :
 
-~~ 3
+§§" 2
 
-ìì" <
+¨¨( 4
 
-úú  ±
-}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs
+ÆÆ$ 6$
 
- $2
-; A
- 7 =SS. 4pp 
- 
- 
- 
+ØØ 
+∞∞: >
+±± "
 
- <
- 
- 4 9ZZ, 1cc cc 
+∞∞ 
+±± Ï
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs2
+ !4 8@ DF JR V
+ ' %
 
- <
-) 2""
- ##: C[[0 9dd dd '
+  
 
-!! (
-%% ((
- ))4 9YY* /
++ /
 
-'' P
-++ ..
- //7 =UU- 3aa 	aa !pp "pp/ 5
-
--- 
-
-44 +(
-77* 2::
- ;;? GTT3 ;
-
-99  (2
->>" -AA
- BBA LVV5 @ll 
-
-@@ #F
-DD "GG
- HH: CWW0 9bb bb 'oo= F
-
-FF 2
-JJ" 0MM
- NND RXX8 Foo !
-
-LL &
-
-QQ" :
-
-``" 2
-
-hh (
-
-ii( 4
-
-kk$ 6
-oo	 pp% ,
-pp	 qq 
-qq	 rr1 5rr7 ;’
++ .’
 sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs
 
 
@@ -491,215 +631,7 @@ sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 
 ÒÒ	 
 ÚÚ1 5
-ÚÚ7 ;œ
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterials.cs
-
-
-
- 
- --U c
-
- /(
- 2 ;  
-
-( ,
-! +! +
-= EP X
-  ! 2
-    @ A
- &888 G
-/ 9   
-B Q   )(
-c k  #- 5
-
-    + 9
-## 111 2
-##< ?&& '' (( )) 
-
-,, &
-,,/ 5--  &
-,,A J--7 @
-,,\ d.. // '(
--- 00 11! $22
- 
-55  
-55' 188I S
-55: I88U d
-55[ c88f n
-88
- 99; ?;;3 7
-99 :: 
-<<
- Ä
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs
-
-
-
- d
- %%" /%%F S((" /((F S++# 0++I VKK  KK( 5MM	 @
- 'WW ,WW@ YYY	 "
-óó 4
-ôô  9
-
-%% 
-
-(( 
-
-++ B
--- "00
- 22 	
-ëë 
-íí 
-∞∞ 
-
-// Z
-77 ::
- << 	
-ëë5 :
-ìì) .
-¶¶ 
-¶¶ 
-ØØ $
-
-99 Z
-AA DD
- FF 
-
-íí5 ;
-ìì0 6
-ßß 	
-ßß !
-ØØ& ,
-
-CC f
-KK! %%% %%> B(( ((> B++ ++A ENN
- PP 
-¨¨g k
-
-MM 6
-WW- =ZZ
- [[
- 
-óó 
-ôô 
-
-YY# 3
-
-`` V
-ee &hh
- kk8 Cpp
- qq> I
-òò5 @
-•• 
-••& 1X
-gg __A Maa
- bb
- 
-ööB N
-ööP \
-öö^ j
-ööl x2
-jj
- kkS TkkV WkkY Zkk\ ]
-oo vv
- ww
- 
-
-uu D
-{{ "
- 
-ÄÄ: C
-úú0 9
-®® 
-®® '
-
-~~ 0
-
-ÑÑ" 0
-àà
- 
-ââD R
-ùù; I
-
-áá &
-
-åå (*
-
-çç 33 == GG 
-
-éé 
-õõ $
-
-êê
- 
-ççR d
-ééL ^
-
-ëë	 
-ìì 
-
-íí	 
-ìì  '
-
-ññ" :
-
-§§" 2
-
-¨¨( 4
-
-ÆÆ$ 6$
-
-ØØ 
-∞∞: >
-±± "
-
-∞∞ 
-±± ù
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
-
-
-
- P
- 
- 7 =//- 355 	55 !AA1 7AA= C
-
- F
- 
- 7 =00- 366 	66 !AAI O
-
- 2
-" +!!
- ""? H113 <?? 
-
- #
-   !
- 
- (
-$$ ''
- )) <<; B
-
-&& 
-
-.." :
-
-44" 2
-
-99 (
-
-:: &
-
-;;( 4
-
-<<" 5
-
->>$ 6æ
-ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesColorFieldAttribute.cs
-
-		 .
-
-
-  = F
-) 2I R™
+ÚÚ7 ;™
 tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs
 
 
@@ -744,7 +676,46 @@ tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 
 HH$ 6
 LL	 MM &NNA H
-MM	 NN1 7NN9 ?˝
+MM	 NN1 7NN9 ?œ
+yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterials.cs
+
+
+
+ 
+ --U c
+
+ /(
+ 2 ;  
+
+( ,
+! +! +
+= EP X
+  ! 2
+    @ A
+ &888 G
+/ 9   
+B Q   )(
+c k  #- 5
+
+    + 9
+## 111 2
+##< ?&& '' (( )) 
+
+,, &
+,,/ 5--  &
+,,A J--7 @
+,,\ d.. // '(
+-- 00 11! $22
+ 
+55  
+55' 188I S
+55: I88U d
+55[ c88f n
+88
+ 99; ?;;3 7
+99 :: 
+<<
+ ˝
 wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs
 
  4
@@ -2516,16 +2487,45 @@ wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ãã0 8
 
 ãã %
-ãã; CÏ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs2
- !4 8@ DF JR V
- ' %
+ãã; Cù
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
 
-  
+
+
+ P
+ 
+ 7 =//- 355 	55 !AA1 7AA= C
 
-+ /
+ F
+ 
+ 7 =00- 366 	66 !AAI O
 
-+ .ê
+ 2
+" +!!
+ ""? H113 <?? 
+
+ #
+   !
+ 
+ (
+$$ ''
+ )) <<; B
+
+&& 
+
+.." :
+
+44" 2
+
+99 (
+
+:: &
+
+;;( 4
+
+<<" 5
+
+>>$ 6ê
 zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpb.cs
 
 
@@ -2665,10 +2665,10 @@ vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
  (
    	 
 
- %Ö
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\FillType.cs
+ %â
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\LineGeometry.cs
 
- ‰
+ ‰
 
 {C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\IMDrawer.cs
 
@@ -2735,10 +2735,10 @@ wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 " &+ /
 " %* -
 
- 1â
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\LineGeometry.cs
+ 1Ö
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\FillType.cs
 
- ˙
+ ˙
 ~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\TextElement.cs
 
 		 
@@ -4821,8 +4821,35 @@ rC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 
 ÔÔJ M
 
-ÔÔU ZÄ
-~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesAssemblyConfig.csÉ
+ÔÔU Zƒ
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ShapeDrawState.cs2
+   .	  &"" &<
+		 : >H L--% )//  88 <
+
+
+ l oy |--H K//4 777 2
+ P Wa h--5 <//C J
+
+ (
+/ 4B G[ `s x
+
+ n
+ ! $$ -- $--+ 4--> G// //* 3//9 B77 88 F
+ " '' --a d//O R33 44+ .(
+  ## --Z _(
+  (( 	//" (2
+  %% --P X66 '2
+  && ,, 55 
+' 0 
+< B 
+""' 0$$ 
+""6 ;## 
+""I Q%% 
+
+++  
+++0 3-- // 
+
+22 É
 }C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs
 
 		 *
@@ -5038,35 +5065,8 @@ rC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 
 ®®N Q
 ¨¨ 
-ÆÆ ƒ
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\ShapeDrawState.cs2
-   .	  &"" &<
-		 : >H L--% )//  88 <
-
-
- l oy |--H K//4 777 2
- P Wa h--5 <//C J
-
- (
-/ 4B G[ `s x
-
- n
- ! $$ -- $--+ 4--> G// //* 3//9 B77 88 F
- " '' --a d//O R33 44+ .(
-  ## --Z _(
-  (( 	//" (2
-  %% --P X66 '2
-  && ,, 55 
-' 0 
-< B 
-""' 0$$ 
-""6 ;## 
-""I Q%% 
-
-++  
-++0 3-- // 
-
-22 •
+ÆÆ Ä
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesAssemblyConfig.cs•
 vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.cs
 
  
@@ -5130,7 +5130,10 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
  ã
 }C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\MeshUpdateMode.cs
 
- ‹
+ Ü
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ArcEndCap.cs
+
+ ‹
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.cs¶
  
 
@@ -5326,10 +5329,7 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ƒƒ 
 
 øø5 ;
-≈≈ Ü
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ArcEndCap.cs
-
- è
+≈≈ è
 ~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.csà
        8 C!!* 5!!h sFF *QQ8 CRR4 ?dd4 ?
 àà 
@@ -7468,7 +7468,38 @@ yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 22ï ù
 22_ g
 22ü ß
-444 =44I R—
+444 =44I R‚
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RenderState.cs(
+ * 5RR !__6 A<
+ ::  &SS SS cc cc& ,<
+ ::< DTT TT! )dd ee #(
+ ;; $<< DD $2
+ ;;n sUU UU ii) .2
+ ==9 FVV VV ,jj$ 12
+## >>= IWW WW %kk$ 02
+(( !AA> GXX XX ll) 22
+++ $BB@ KYY YY #mm) 42
+..  CCB OZZ ZZ 'nn) 62
+11 DDq }[[ [[ %oo$ 02
+44 EE? N\\ \\ +pp$ 32
+77 FF@ P]] ]] -qq$ 4
+
+99  Ç
+:: ;; == >> AA BB CC DD EE FF GG HH  II
+ 
+LL TT 2
+LL% &MM NN OO
+ OO" #2
+LL1 2MM NN OO OO3 4
+RR __K Qx
+RR" 'SS TT  UU VV WW XX YY ZZ [[ \\ ]] 
+
+__ 
+__& )__/ 2
+__B G__S X
+
+aa !‹
+cc ff ff ii ii jj jj kk kk ll ll mm mm nn nn oo oo pp pp qq qq rr —
 sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\UnityInfo.cs
 
   
@@ -8034,38 +8065,7 @@ sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 
 ññ 
 ÛÛ4 E
-˚˚6 G‚
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RenderState.cs(
- * 5RR !__6 A<
- ::  &SS SS cc cc& ,<
- ::< DTT TT! )dd ee #(
- ;; $<< DD $2
- ;;n sUU UU ii) .2
- ==9 FVV VV ,jj$ 12
-## >>= IWW WW %kk$ 02
-(( !AA> GXX XX ll) 22
-++ $BB@ KYY YY #mm) 42
-..  CCB OZZ ZZ 'nn) 62
-11 DDq }[[ [[ %oo$ 02
-44 EE? N\\ \\ +pp$ 32
-77 FF@ P]] ]] -qq$ 4
-
-99  Ç
-:: ;; == >> AA BB CC DD EE FF GG HH  II
- 
-LL TT 2
-LL% &MM NN OO
- OO" #2
-LL1 2MM NN OO OO3 4
-RR __K Qx
-RR" 'SS TT  UU VV WW XX YY ZZ [[ \\ ]] 
-
-__ 
-__& )__/ 2
-__B G__S X
-
-aa !‹
-cc ff ff ii ii jj jj kk kk ll ll mm mm nn nn oo oo pp pp qq qq rr Ê
+˚˚6 GÊ
 |C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\PolylineJoins.csn
  ' 4	 	 	 	 "") 6$$	 %%	 &&	 ''	 
 

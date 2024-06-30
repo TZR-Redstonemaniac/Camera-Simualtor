@@ -1,35 +1,16 @@
 
-,Shapes.Draw.RegularPolygonThicknessSpace.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‰ ‰("0*
-0
-‰ ‰(*
-1*ü
-1
-‰
- ‰(\
-Z
-
-‰
- ‰(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle‡
-„
-
-‰
- ‰(
-%retShapes.ThicknessSpace"__id*Q
-
-‰
- ‰(C*A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
-2
-‰ ‰("-
-
-‰ ‰(
-
-%retShapes.ThicknessSpaceB"
-Shapes.DrawX
+4Shapes.MpbLine3D.Shapes.IDashableMpb.dashSpacing.set‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,"0*Û
+0z- z(-¥
+¢
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,[
+Shapes.MpbLine3D"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"£
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csz) z(,
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine3D

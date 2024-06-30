@@ -1,21 +1,42 @@
 
-Shapes.Polyline.Joins.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.cs- -("0*
-0- -(*
-1*Ü
-1-
- -(r
+Shapes.Disc.ThicknessSpace.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs∞ ∞("0*
+0
+∞ ∞(*
+1*Ñ
+1
+∞
+ ∞(^r
 p
--
- -(
-%retShapes.PolylineJoins"__id*@
--
- -(4*2
-Shapes.Polyline"
-joinsShapes.PolylineJoins*
-2*9
-2- -("*
-- -(
-
-%retShapes.PolylineJoinsB
-Shapes.PolylineX
+
+∞D ∞(Z8
+Shapes.Disc"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace˘
+ˆ
+
+∞
+ ∞(^
+
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+
+∞
+ ∞(
+Shapes.Disc*I
+
+∞ ∞(;;*9
+Shapes.ShapesMaterialUtils"
+propThicknessSpaceint*H
+
+∞= ∞(\:*8
+Shapes.Disc"'
+thicknessSpaceShapes.ThicknessSpace*
+2*2
+2
+∞_ ∞(_"!
+
+∞^ ∞(_
+implicit return: 
+valueShapes.ThicknessSpaceB
+Shapes.DiscX

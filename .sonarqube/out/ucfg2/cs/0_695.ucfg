@@ -1,38 +1,30 @@
 
-Shapes.Draw.Font.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csõ õ("0*
+Shapes.Draw.UseDashes.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
 0
-õ õ(*
-1*×
+ü ü(*
+1*È
 1
-õ! õ(5\
+ü! ü(8\
 Z
 
-õ! õ(&
+ü! ü(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylei
-g
+styleShapes.DrawStyleT
+R
 
-õ! õ(0
-%1Shapes.TextStyle"__id*;9*7
+ü! ü(8+
 
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStylex
-v
+%0Shapes.DrawStyle"
+	useDashesbool"__id*
 
-õ! õ(5
-%retTMPro.TMP_FontAsset"__id*E
-
-õ! õ(57*5
-
-%1Shapes.TextStyle"
-fontTMPro.TMP_FontAsset*
-2*<
+valuebool*
+2*2
 2
-õ6 õ(6"+
+ü9 ü(9"!
 
-õ5 õ(6
-
-%retTMPro.TMP_FontAssetB"
-Shapes.Draw
+ü8 ü(9
+implicit return:
+valueboolB"
+Shapes.DrawX

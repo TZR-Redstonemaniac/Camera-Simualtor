@@ -1,35 +1,21 @@
 
-&Shapes.Rectangle.DashShapeModifier.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÜ Ü("0*
-0
-Ü Ü(*
-1*‚
-1
-Ü
- Ü(!e
-c
-
-Ü
- Ü(
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStylee
-c
-
-Ü
- Ü(!
-%retfloat"__id*@
-
-Ü
- Ü(!2*0
-
-%0Shapes.DashStyle"
-shapeModifierfloat*
-2*.
-2
-Ü" Ü(""
-
-Ü! Ü("
-
-%retfloatB
-Shapes.RectangleX
+Shapes.Line.EndCaps.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs` `("0*
+0` `(*
+1*~
+1`
+ `(j
+h
+`
+ `(
+%retShapes.LineEndCap"__id*;
+`
+ `(/*-
+Shapes.Line"
+endCapsShapes.LineEndCap*
+2*6
+2` `("'
+` `(
+
+%retShapes.LineEndCapB
+Shapes.LineX

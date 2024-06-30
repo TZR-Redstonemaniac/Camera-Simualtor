@@ -1,37 +1,32 @@
 
-Shapes.Draw.DashSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csé é("0*
-0
-é é(*
-1*«
-1
-é! é(>\
-Z
-
-é! é(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-é! é(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyleh
-f
-
-é! é(>3
-
-%1Shapes.DashStyle"
-spaceShapes.DashSpace"__id*
-
-valueShapes.DashSpace*
-2*2
-2
-é? é(?"!
-
-é> é(?
-implicit return:
-valueShapes.DashSpaceB"
-Shapes.DrawX
+;Shapes.Triangle.SetTriangleVertex(int, UnityEngine.Vector3)Å
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs< <(""0*
+0< <(*
+1*ò
+1<B <(U¶
+£
+<B <(U
+%0UnityEngine.Vector3"Shapes.Triangle.this[int].set*
+<B <(F
+Shapes.Triangle*
+<G <(L
+
+indexint* 
+
+valueUnityEngine.Vector3[
+Y
+<B <(U
+%retUnityEngine.Vector3"__id**
+<B <(U
+
+valueUnityEngine.Vector3*
+2*8
+2<V <(V")
+<U <(V
+
+%retUnityEngine.Vector3:
+<$ <(-
+indexint:(
+</ <(<
+valueUnityEngine.Vector3B
+Shapes.Triangle

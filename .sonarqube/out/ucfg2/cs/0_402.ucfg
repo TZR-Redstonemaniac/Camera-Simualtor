@@ -1,35 +1,35 @@
 
-"Shapes.RegularPolygon.DashSnap.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs„ „("0*
+Shapes.Rectangle.DashSnap.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csş ş("0*
 0
-„ „(*
-1*ú
+ş ş(*
+1*õ
 1
-„
- „(j
-h
+ş
+ ş(e
+c
 
-„
- „(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
+ş
+ ş(
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
 	dashStyleShapes.DashStylex
 v
 
-„
- „(
+ş
+ ş(
 %retShapes.DashSnapping"__id*E
 
-„
- „(7*5
+ş
+ ş(7*5
 
 %0Shapes.DashStyle"
 snapShapes.DashSnapping*
 2*<
 2
-„ „("+
+ş ş("+
 
-„ „(
+ş ş(
 
-%retShapes.DashSnappingB
-Shapes.RegularPolygonX
+%retShapes.DashSnappingB
+Shapes.RectangleX

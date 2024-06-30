@@ -1,38 +1,50 @@
 
-(Shapes.Draw.GradientFillRadialRadius.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csñ ñ("0*
+'Shapes.RegularPolygon.FillLinearEnd.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÃ Ã("0*
 0
-ñ ñ(*
-1*Ï
+Ã Ã(*
+1*
 1
-ñ! ñ(@\
-Z
+Ã
+ Ã(Rk
+i
 
-ñ! ñ(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+Ã: Ã(>
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillu
+s
 
-ñ! ñ(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillg
-e
-
-ñ! ñ(@
-%retfloat"__id*B
-
-ñ! ñ(@4*2
+Ã: Ã(P=
 
-%1Shapes.GradientFill"
-radialRadiusfloat*
-2*.
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3•
+’
+
+Ã
+ Ã(R
+
+%1void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*'
+
+Ã
+ Ã(
+Shapes.RegularPolygon*B
+
+Ã Ã(84*2
+Shapes.ShapesMaterialUtils"
+propFillEndint*M
+
+Ã: Ã(P?*=
+
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3*
+2*2
 2
-ñA ñ(A"
+ÃS Ã(S"!
 
-ñ@ ñ(A
-
-%retfloatB"
-Shapes.DrawX
+ÃR Ã(S
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.RegularPolygonX

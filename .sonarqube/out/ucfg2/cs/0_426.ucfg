@@ -1,33 +1,30 @@
 
-Shapes.Line.ThicknessSpace.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs[ [("0*
-0[ [(*
-1*¯
-1[
- [(^p
-n
-[D [(Z8
-Shapes.Line"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceÒ
-Ó
-[
- [(^
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-[
- [(
-Shapes.Line*G
-[ [(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*F
-[= [(\:*8
-Shapes.Line"'
-thicknessSpaceShapes.ThicknessSpace*
+Shapes.Draw.ColorMask.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csU U("0*
+0U U(*
+1*ı
+1U! U(DZ
+X
+U! U(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+U! U(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateï
+í
+U! U(DM
+
+%1Shapes.RenderState"1
+	colorMask$UnityEngine.Rendering.ColorWriteMask"__id*1/
+-
+value$UnityEngine.Rendering.ColorWriteMask*
 2*.
-2[_ [(_"
-[^ [(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.LineX
+2UE U(E"
+UD U(E
+implicit return:/-
+value$UnityEngine.Rendering.ColorWriteMaskB"
+Shapes.DrawX

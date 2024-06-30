@@ -1,42 +1,38 @@
 
-Shapes.Disc.AngRadiansStart.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csà à("0*
+(Shapes.Draw.GradientFillRadialOrigin.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÎ Î("0*
 0
-à à(*
-1*‘
+Î Î(*
+1*Ì
 1
-à
- à(RS
-Q
+Î! Î(@\
+Z
 
-à9 à(P)
-Shapes.Disc"
-angRadiansStartfloat"__id*
-
-valuefloatË
-Â
+Î! Î(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
 
-à
- à(R
+Î! Î(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillÑ
+Å
 
-%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+Î! Î(@
+%retUnityEngine.Vector3"__id*P
 
-à
- à(
-Shapes.Disc*C
-
-à à(75*3
-Shapes.ShapesMaterialUtils"
-propAngStartint*9
-
-à9 à(P+*)
-Shapes.Disc"
-angRadiansStartfloat*
-2*2
+Î! Î(@B*@
+
+%1Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3*
+2*<
 2
-àS à(S"!
+ÎA Î(A"+
 
-àR à(S
-implicit return:
-valuefloatB
-Shapes.DiscX
+Î@ Î(A
+
+%retUnityEngine.Vector3B"
+Shapes.Draw

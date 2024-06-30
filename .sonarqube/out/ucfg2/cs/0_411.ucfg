@@ -1,50 +1,21 @@
 
-"Shapes.RegularPolygon.DashSnap.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÖ Ö("0*
-0
-Ö Ö(*
-1*Ï
-1
-Ö
- Ö(Xj
-h
-
-Ö> Ö(G
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStylem
-k
-
-Ö> Ö(T5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping"__id* 
-
-valueShapes.DashSnapping˙
-˜
-
-Ö
- Ö(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
-
-Ö
- Ö(
-Shapes.RegularPolygon*C
-
-Ö Ö(55*3
-Shapes.ShapesMaterialUtils"
-propDashSnapint*E
-
-Ö7 Ö(V7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*2
-2
-ÖY Ö(Y"!
-
-ÖX Ö(Y
-implicit return:
-valueShapes.DashSnappingB
-Shapes.RegularPolygonX
+Shapes.Line.ThicknessSpace.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csZ Z("0*
+0Z Z(*
+1*ç
+1Z
+ Z(y
+w
+Z
+ Z(
+%retShapes.ThicknessSpace"__id*F
+Z
+ Z(:*8
+Shapes.Line"'
+thicknessSpaceShapes.ThicknessSpace*
+2*:
+2Z Z("+
+Z Z(
+
+%retShapes.ThicknessSpaceB
+Shapes.LineX

@@ -1,21 +1,24 @@
 
-Shapes.Sphere.Radius.get
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
-0 (*
-1*g
-1
- (S
-Q
-
- (
-%retfloat"__id*0
-
- ($*"
-Shapes.Sphere"
-radiusfloat*
-2**
-2 ("
- (
+8Shapes.GradientFillStack.Push(bool, Shapes.GradientFill)è
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs ("0*
+0 (*
+1*⁄
+1F (m≈
+¬
+F (m
 
-%retfloatB
-Shapes.SphereX
+%0void"1System.Collections.Generic.ICollection<T>.Push(T)*\
+F (OP*N
+Shapes.GradientFillStack"0
+	gradients#System.Collections.Generic.Stack<T>*
+V (k
+	{unknown}*
+2*.
+2n (n"
+m (n
+implicit return:
+ ((
+prevOnbool:,
+* (@ 
+	prevStateShapes.GradientFillB"
+Shapes.GradientFillStackX

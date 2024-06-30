@@ -1,17 +1,38 @@
 
-4Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpace.setç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*"0*·
+$Shapes.Draw.TextCharacterSpacing.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
 0
-Ω+ Ω(+ß
-§
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*[
-Shapes.MpbTriangle"C
-Shapes.IDashableMpb.dashSpace"System.Collections.Generic.List<T>"__id*/-
-+
-value"System.Collections.Generic.List<T>"•
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csΩ' Ω(*
-implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbTriangle
+ç ç(*
+1*«
+1
+ç! ç(A\
+Z
+
+ç! ç(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
+
+ç! ç(0
+%1Shapes.TextStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyleh
+f
+
+ç! ç(A
+%retfloat"__id*C
+
+ç! ç(A5*3
+
+%1Shapes.TextStyle"
+characterSpacingfloat*
+2*.
+2
+çB ç(B"
+
+çA ç(B
+
+%retfloatB"
+Shapes.DrawX

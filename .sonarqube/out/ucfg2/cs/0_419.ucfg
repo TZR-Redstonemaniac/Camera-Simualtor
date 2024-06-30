@@ -1,29 +1,50 @@
 
-UShapes.Polygon.SetPoints(System.Collections.Generic.IEnumerable<UnityEngine.Vector2>)Ä
-vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.cs@ @("0*
-0@ @(*
-1*á
-1A B(ú
-ô
-A A(
+Shapes.Triangle.DashSnap.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csã ã("0*
+0
+ã ã(*
+1*‡
+1
+ã
+ ã(Xd
+b
 
-%0void"1System.Collections.Generic.ICollection<T>.Clear()*N
-A A(B*@
-Shapes.Polygon",
-points"System.Collections.Generic.List<T>”
-–
-B B(
+ã> ã(G
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStylem
+k
 
-%1void"UShapes.Polygon.AddPoints(System.Collections.Generic.IEnumerable<UnityEngine.Vector2>)*
-B B(
-Shapes.Polygon*A
-B B(5
-3
-points)System.Collections.Generic.IEnumerable<T>*
-2*.
-2C C("
-C C(
-implicit return:?
-@ @(43
-points)System.Collections.Generic.IEnumerable<T>B
-Shapes.PolygonX
+ã> ã(T5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping"__id* 
+
+valueShapes.DashSnappingÙ
+Ò
+
+ã
+ ã(X
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*!
+
+ã
+ ã(
+Shapes.Triangle*C
+
+ã ã(55*3
+Shapes.ShapesMaterialUtils"
+propDashSnapint*E
+
+ã7 ã(V7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*2
+2
+ãY ã(Y"!
+
+ãX ã(Y
+implicit return:
+valueShapes.DashSnappingB
+Shapes.TriangleX

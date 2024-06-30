@@ -1,33 +1,27 @@
 
-Shapes.Draw.LineDashStyle.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs» »("0*
+"Shapes.Triangle.ThicknessSpace.getÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csç ç("0*
 0
-» »(*
-1*‡
+ç ç(*
+1*ò
 1
-»
- »(!\
-Z
+ç
+ ç(Å
+
 
-»
- »(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylel
-j
+ç
+ ç(
+%retShapes.ThicknessSpace"__id*L
 
-»
- »(!7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle"__id*
-
-valueShapes.DashStyle*
-2*2
+ç
+ ç(>*<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
 2
-»" »(""!
+ç ç("-
 
-»! »("
-implicit return:
-valueShapes.DashStyleB"
-Shapes.DrawX
+ç ç(
+
+%retShapes.ThicknessSpaceB
+Shapes.TriangleX

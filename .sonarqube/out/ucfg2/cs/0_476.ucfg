@@ -1,35 +1,24 @@
 
-Shapes.Rectangle.FillSpace.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs£ £("0*
-0
-£ £(*
-1*Ù
-1
-£
- £(f
-d
-
-£
- £(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFillv
-t
-
-£
- £(
-%retShapes.FillSpace"__id*F
-
-£
- £(8*6
+Shapes.Draw.Color.getå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csw w("0*
+0w w(*
+1*·
+1w! w(,Z
+X
+w! w(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleq
+o
+w! w(,
+%retUnityEngine.Color"__id*B
+w! w(,6*4
+
+%0Shapes.DrawStyle"
+colorUnityEngine.Color*
+2*6
+2w- w(-"'
+w, w(-
 
-%0Shapes.GradientFill"
-spaceShapes.FillSpace*
-2*9
-2
-£ £("(
-
-£ £(
-
-%retShapes.FillSpaceB
-Shapes.RectangleX
+%retUnityEngine.ColorB"
+Shapes.Draw

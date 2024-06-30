@@ -1,27 +1,30 @@
 
-Shapes.Rectangle.Fill.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csé é("0*
-0
-é é(*
-1*ä
-1
-é
- é(t
-r
-
-é
- é(
-%retShapes.GradientFill"__id*A
-
-é
- é(3*1
-Shapes.Rectangle"
-fillShapes.GradientFill*
-2*<
-2
-é é("+
-
-é é(
-
-%retShapes.GradientFillB
-Shapes.Rectangle
+Shapes.Draw.StencilRefID.getå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csc c("0*
+0c c(*
+1*ø
+1c! c(?Z
+X
+c! c(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+c! c(2
+%1Shapes.RenderState"__id*?=*;
+
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderState`
+^
+c! c(?
+%retbyte"__id*>
+c! c(?2*0
+
+%1Shapes.RenderState"
+stencilRefIDbyte*
+2*)
+2c@ c(@"
+c? c(@
+
+%retbyteB"
+Shapes.DrawX

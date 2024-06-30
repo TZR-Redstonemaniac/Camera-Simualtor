@@ -1,37 +1,31 @@
 
-$Shapes.Draw.GradientFillColorEnd.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
+Shapes.Draw.ThicknessSpace.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¥ ¥("0*
 0
-Ú Ú(*
-1*Ø
+¥ ¥(*
+1*ü
 1
-Ú! Ú(D\
+¥! ¥(5\
 Z
 
-Ú! Ú(&
+¥! ¥(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyler
-p
+styleShapes.DrawStyle‡
+„
 
-Ú! Ú(3
-%1Shapes.GradientFill"__id*A?*=
+¥! ¥(5
+%retShapes.ThicknessSpace"__id*Q
+
+¥! ¥(5C*A
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillp
-n
-
-Ú! Ú(D:
-
-%1Shapes.GradientFill"
-colorEndUnityEngine.Color"__id*
-
-valueUnityEngine.Color*
-2*2
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
 2
-ÚE Ú(E"!
+¥6 ¥(6"-
 
-ÚD Ú(E
-implicit return:
-valueUnityEngine.ColorB"
+¥5 ¥(6
+
+%retShapes.ThicknessSpaceB"
 Shapes.DrawX

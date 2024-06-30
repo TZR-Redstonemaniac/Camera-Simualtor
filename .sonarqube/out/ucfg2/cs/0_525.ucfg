@@ -1,36 +1,33 @@
 
-#Shapes.Rectangle.FillColorStart.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÀ À("0*
-0
-À À(*
-1*û
-1
-À
- À(f
-d
+Shapes.Disc.ColorOuterStart.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csH H("0*
+0H H(*
+1*ÿ
+1H
+ H(Yi
+g
+H@ H(W5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Color"__id*
+
+valueUnityEngine.Colorÿ
+ü
+H
+ H(Y
 
-À
- À(
-%0Shapes.GradientFill"__id*53*1
-Shapes.Rectangle"
-fillShapes.GradientFill}
-{
-
-À
- À(
-%retUnityEngine.Color"__id*L
-
-À
- À(>*<
-
-%0Shapes.GradientFill"
-
-colorStartUnityEngine.Color*
-2*:
-2
-À À(")
-
-À À(
-
-%retUnityEngine.ColorB
-Shapes.Rectangle
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+H
+ H(
+Shapes.Disc*H
+H H(><*:
+Shapes.ShapesMaterialUtils"
+propColorOuterStartint*C
+H@ H(W7*5
+Shapes.Disc"$
+colorOuterStartUnityEngine.Color*
+2*.
+2HZ H(Z"
+HY H(Z
+implicit return:
+valueUnityEngine.ColorB
+Shapes.DiscX

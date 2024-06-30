@@ -1,33 +1,37 @@
 
-Shapes.Sphere.RadiusSpace.set
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Sphere.cs ("0*
-0 (*
-1*õ
-1
- (Xo
-m
-A (T7
-Shapes.Sphere"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpaceï
-ì
-
- (X
+$Shapes.Draw.GradientFillColorEnd.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
+0
+Ú Ú(*
+1*Ø
+1
+Ú! Ú(D\
+Z
 
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
- (
-Shapes.Sphere*D
- (88*6
-Shapes.ShapesMaterialUtils"
-propRadiusSpaceint*E
-: (V9*7
-Shapes.Sphere"$
-radiusSpaceShapes.ThicknessSpace*
-2*.
-2Y (Y"
-X (Y
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.SphereX
+Ú! Ú(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ú! Ú(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillp
+n
+
+Ú! Ú(D:
+
+%1Shapes.GradientFill"
+colorEndUnityEngine.Color"__id*
+
+valueUnityEngine.Color*
+2*2
+2
+ÚE Ú(E"!
+
+ÚD Ú(E
+implicit return:
+valueUnityEngine.ColorB"
+Shapes.DrawX

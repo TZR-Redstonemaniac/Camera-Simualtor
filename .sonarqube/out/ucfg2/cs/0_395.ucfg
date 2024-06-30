@@ -1,80 +1,30 @@
 
-Shapes.Triangle.DashSpace.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÑ Ñ("0*
-0
-Ñ Ñ(*
-1*´
-1
-Ö Ü(gd
-b
-
-Ö6 Ö(?
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyleh
-f
-
-Ö6 Ö(M3
+Shapes.Draw.ZTest.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csF F("0*
+0F F(*
+1*Û
+1F! F(@Z
+X
+F! F(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+F! F(2
+%1Shapes.RenderState"__id*?=*;
 
-%0Shapes.DashStyle"
-spaceShapes.DashSpace"__id*
-
-valueShapes.DashSpace
-Ì
-
-Ö Ö(Q
-
-%1void"%Shapes.ShapeRenderer.SetInt(int, int)*!
-
-Ö Ö(
-
-Shapes.Triangle*D
-
-Ö Ö(-6*4
-Shapes.ShapesMaterialUtils"
-propDashSpaceint*C
-
-Ö/ Ö(O5*3
-
-%0Shapes.DashStyle"
-spaceShapes.DashSpaceÄ
-˝
-
-Ü3 Ü(d
-%2float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*B
-
-Ü3 Ü(<4*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyle*3
-
-ÜQ Ü(W%*#
-Shapes.Triangle"
-dashedbool*7
-
-ÜY Ü(b)*'
-Shapes.Triangle"
-	thicknessfloatŒ
-À
-
-Ü Ü(f
-
-%3void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
-
-Ü Ü(
-Shapes.Triangle*C
-
-Ü Ü(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*
-
-Ü3 Ü(d
-
-%2float*
-2*2
-2
-á á("!
-
-á á(
-implicit return:
-valueShapes.DashSpaceB
-Shapes.TriangleX
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateì
+ê
+F! F(@J
+
+%1Shapes.RenderState".
+zTest%UnityEngine.Rendering.CompareFunction"__id*20
+.
+value%UnityEngine.Rendering.CompareFunction*
+2*.
+2FA F(A"
+F@ F(A
+implicit return:0.
+value%UnityEngine.Rendering.CompareFunctionB"
+Shapes.DrawX

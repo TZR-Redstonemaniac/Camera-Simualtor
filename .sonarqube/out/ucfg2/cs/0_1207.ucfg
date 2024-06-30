@@ -1,27 +1,33 @@
 
-Shapes.Quad.ColorLeft.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csª ª("0*
+Shapes.Draw.SphereRadius.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÆ Æ("0*
 0
-ª ª(*
-1*Ç
+Æ Æ(*
+1*«
 1
-ª
- ª(l
-j
+Æ
+ Æ(\
+Z
 
-ª
- ª(
-%retUnityEngine.Color"__id*;
+Æ
+ Æ(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleS
+Q
 
-ª
- ª(-*+
-Shapes.Quad"
-colorUnityEngine.Color*
-2*:
+Æ
+ Æ()
+
+%0Shapes.DrawStyle"
+radiusfloat"__id*
+
+valuefloat*
+2*2
 2
-ª ª(")
+Æ Æ("!
 
-ª ª(
-
-%retUnityEngine.ColorB
-Shapes.Quad
+Æ Æ(
+implicit return:
+valuefloatB"
+Shapes.DrawX

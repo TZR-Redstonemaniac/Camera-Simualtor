@@ -1,35 +1,21 @@
 
-Shapes.Draw.DiscRadius.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÕ Õ("0*
-0
-Õ Õ(*
-1*“
-1
-Õ
- Õ(\
-Z
-
-Õ
- Õ(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle^
+#Shapes.RegularPolygon.Thickness.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.csG G("0*
+0G G(*
+1*r
+1G
+ G(^
 \
+G
+ G(
+%retfloat"__id*;
+G
+ G(/*-
+Shapes.RegularPolygon"
+	thicknessfloat*
+2**
+2G G("
+G G(
 
-Õ
- Õ(
-%retfloat"__id*9
-
-Õ
- Õ(+*)
-
-%0Shapes.DrawStyle"
-radiusfloat*
-2*.
-2
-Õ Õ("
-
-Õ Õ(
-
-%retfloatB"
-Shapes.DrawX
+%retfloatB
+Shapes.RegularPolygonX

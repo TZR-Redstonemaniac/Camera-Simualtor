@@ -1,33 +1,18 @@
 
-!Shapes.Draw.SphereRadiusSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¥ ¥("0*
+.Shapes.MpbRect.Shapes.IFillableMpb.fillEnd.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*"0*®
 0
-¥ ¥(*
-1*Ï
-1
-¥
- ¥(#\
-Z
-
-¥
- ¥(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylex
-v
-
-¥
- ¥(#>
-
-%0Shapes.DrawStyle"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
-2
-¥$ ¥($"!
-
-¥# ¥($
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+≈+ ≈(+√
+¿
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>"__id*È
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*W*U
+Shapes.MpbRect"A
+Shapes.IFillableMpb.fillEnd"System.Collections.Generic.List<T>"–
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs≈' ≈(*>
+<
+%ret4System.Collections.Generic.List<UnityEngine.Vector4>B
+Shapes.MpbRect

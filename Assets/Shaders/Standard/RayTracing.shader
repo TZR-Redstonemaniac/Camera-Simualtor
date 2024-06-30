@@ -70,6 +70,8 @@
                 uint firstTriangleIndex;
                 uint numTriangles;
                 RayTracingMaterial material;
+                float3 boundsMin;
+                float3 boundsMax;
             };
 
             struct HitInfo
@@ -113,6 +115,7 @@
             int NumLights;
             
             int UseEnvironment;
+            int TriangleTest;
 
             // ------------- Ray Intersection Functions -------------
             float RandomValue(inout uint state)
@@ -199,7 +202,19 @@
 				return hitInfo;
             }
 
-            HitInfo CalculateRayCollision(const Ray ray)
+            bool RayBoundingBox(Ray ray, float3 boxMin, float3 boxMax)
+			{
+                const float3 invDir = 1 / ray.dir;
+                const float3 tMin = (boxMin - ray.origin) * invDir;
+                const float3 tMax = (boxMax - ray.origin) * invDir;
+				float3 t1 = min(tMin, tMax);
+				float3 t2 = max(tMin, tMax);
+                const float tNear = max(max(t1.x, t1.y), t1.z);
+                const float tFar = min(min(t2.x, t2.y), t2.z);
+				return tNear <= tFar;
+			};
+
+            HitInfo CalculateRayCollision(const Ray ray, inout int numTests)
             {
                 HitInfo closestHit = (HitInfo)0;
                 closestHit.dst = FLT_MAX;
@@ -207,8 +222,8 @@
                 for (int i = 0; i < numOfSpheres; i++)
                 {
                     Sphere sphere = Spheres[i];
-
                     HitInfo hitInfo = RaySphere(ray, sphere.position, sphere.radius);
+                    numTests++;
 
                     if (hitInfo.didHit && hitInfo.dst < closestHit.dst)
                     {
@@ -221,14 +236,15 @@
 				for (int meshIndex = 0; meshIndex < NumMeshes; meshIndex ++)
 				{
 					MeshInfo meshInfo = AllMeshInfo[meshIndex];
-					/*if (!RayBoundingBox(ray, meshInfo.boundsMin, meshInfo.boundsMax)) {
+				    if (!RayBoundingBox(ray, meshInfo.boundsMin, meshInfo.boundsMax)) {
 						continue;
-					}*/
+					}
 
 					for (uint i = 0; i < meshInfo.numTriangles; i ++) {
 						int triIndex = meshInfo.firstTriangleIndex + i;
 						Triangle tri = Triangles[triIndex];
 						HitInfo hitInfo = RayTriangle(ray, tri);
+					    numTests++;
 	
 						if (hitInfo.didHit && hitInfo.dst < closestHit.dst)
 						{
@@ -256,10 +272,11 @@
             {
                 float3 incomingLight = 0;
                 float3 rayColor = 1;
+                int numTests = 0;
 
                 for (int i = 0; i <= MaxBounceCount; i++)
                 {
-                    const HitInfo hitInfo = CalculateRayCollision(ray);
+                    const HitInfo hitInfo = CalculateRayCollision(ray, numTests);
                     const RayTracingMaterial material = hitInfo.material;
                     
                     if (hitInfo.didHit && hitInfo.dst <= RenderDistance)
@@ -280,7 +297,7 @@
                                 lightHitInfo.dst = 0;
                                 lightHitInfo.hitPoint = float3(0, 0, 0);
 
-                                const HitInfo tempHitInfo = CalculateRayCollision(tempRay);
+                                const HitInfo tempHitInfo = CalculateRayCollision(tempRay, numTests);
                                 if (tempHitInfo.material.emissionStrength != 0)
                                 {
                                     if (tempHitInfo.dst < lightHitInfo.dst)
@@ -299,7 +316,6 @@
                         float3 emittedLight = material.emissionColor * material.emissionStrength;
                         incomingLight += emittedLight * rayColor;
                         rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
-                        if (distance(rayColor, float3(0, 0, 0)) <= BlackRayTolerance) break;
                         if (material.emissionStrength > 0) break;
                     }
                     else
@@ -308,6 +324,10 @@
                         break;
                     }
                 }
+
+                float debugVis = numTests / 2000.0;
+
+                if (TriangleTest == 1) return debugVis < 1 ? debugVis : float3(1, 0, 0);
 
                 return incomingLight;
             }

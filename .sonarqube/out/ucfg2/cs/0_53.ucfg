@@ -1,24 +1,20 @@
 
-.Shapes.ShapesTextPool.ImmediateModeElement.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesTextPool.cs ()"0*
-0 (*
-1*ú
-1- (=
-Œ
-- (=
-%0TMPro.TextMeshPro"%Shapes.ShapesTextPool.GetElement(int)*%
-- (7
-Shapes.ShapesTextPool*
-9 (;2ÿÿÿÿÿÿÿÿÿT
-R
-- (=
-%retTMPro.TextMeshPro"__id*%
-- (=
-
-%0TMPro.TextMeshPro*
-2*6
-2> (>"'
-= (>
-
-%retTMPro.TextMeshProB
-Shapes.ShapesTextPool
+%Shapes.StyleStack.StyleStack()!static‡
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\StyleStack.cs	 	(""0*¤
+0\Z
+, (B)
+%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>ž
+›
+, (B)
+%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
+, (B+
+)
+%0#System.Collections.Generic.Stack<T>ˆ
+…
+* (BD
+Shapes.StyleStack"-
+styles#System.Collections.Generic.Stack<T>"__id*-+
+)
+%0#System.Collections.Generic.Stack<T>"
+implicit returnB"
+Shapes.StyleStackX

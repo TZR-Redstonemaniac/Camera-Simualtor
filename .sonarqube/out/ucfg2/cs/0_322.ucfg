@@ -1,16 +1,54 @@
 
-Shapes.ShapeGroup.IsEnabled.setÉ
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,"0*˙
-0- (-Ã
-…
-É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,(
-Shapes.ShapeGroup"
-	IsEnabledbool"__id*
+#Shapes.Polygon.FillRadialOrigin.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¢ ¢("0*
+0
+¢ ¢(*
+1*˝
+1
+£ §(Td
+b
 
-valuebool"õ
-É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs) (,
-implicit return:
-valueboolB
-Shapes.ShapeGroupX
+£ £(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFillx
+v
+
+£ £(@
+
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ó
+î
+
+§6 §(Q
+%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*?
+
+§6 §(:1*/
+Shapes.Polygon"
+fillShapes.GradientFillÏ
+È
+
+§ §(S
+
+%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)* 
+
+§ §(
+Shapes.Polygon*D
+
+§ §(46*4
+Shapes.ShapesMaterialUtils"
+propFillStartint*)
+
+§6 §(Q
+
+%1UnityEngine.Vector4*
+2*2
+2
+• •("!
+
+• •(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.PolygonX

@@ -1,0 +1,63 @@
+
+CTMPro.TMP_TextEventHandler.SendOnLinkSelection(string, string, int)•
+ˆC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs÷ ÷(("0*
+0
+÷ ÷(*
+1*¼
+1
+ù ù('¢
+Ÿ
+
+ù ù(3
+%0-TMPro.TMP_TextEventHandler.LinkSelectionEvent".TMPro.TMP_TextEventHandler.onLinkSelection.get*,
+
+ù ù(
+TMPro.TMP_TextEventHandler*
+2
+3*Â
+2
+ú ú(D¢
+Ÿ
+
+ú ú(3
+%1-TMPro.TMP_TextEventHandler.LinkSelectionEvent".TMPro.TMP_TextEventHandler.onLinkSelection.get*,
+
+ú ú(
+TMPro.TMP_TextEventHandler†
+ƒ
+
+ú ú(C
+
+%2void"<UnityEngine.Events.UnityEvent<T0, T1, T2>.Invoke(T0, T1, T2)*C
+
+ú ú(5
+3
+%1-TMPro.TMP_TextEventHandler.LinkSelectionEvent* 
+
+ú' ú(-
+
+linkIDstring*"
+
+ú/ ú(7
+
+linkTextstring* 
+
+ú9 ú(B
+
+	linkIndexint*
+3*2
+3
+û	 û(	"!
+
+û û(	
+implicit return:
+
+÷) ÷(6
+linkIDstring: 
+
+÷8 ÷(G
+linkTextstring:
+
+÷I ÷(V
+	linkIndexintB
+TMPro.TMP_TextEventHandlerX

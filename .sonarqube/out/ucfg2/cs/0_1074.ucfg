@@ -1,64 +1,36 @@
 
-3Shapes.ShapesExtensions.ToVector4(UnityEngine.Rect)„
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.cs (!"0*
-0 (*
-1*Œ
-14 (^V
-T
-A (D
-%0float"UnityEngine.Rect.x.get*#
-A (B
-
-rUnityEngine.RectV
-T
-F (I
-%1float"UnityEngine.Rect.y.get*#
-F (G
-
-rUnityEngine.RectZ
-X
-K (R
-%2float"UnityEngine.Rect.width.get*#
-K (L
-
-rUnityEngine.Rect[
-Y
-T (\
-%3float"UnityEngine.Rect.height.get*#
-T (U
-
-rUnityEngine.Rect<:
-4 (^
-%4UnityEngine.Vector4"UnityEngine.Vector4ö
-ó
-4 (^
-%5UnityEngine.Vector4"7UnityEngine.Vector4.Vector4(float, float, float, float)*'
-4 (^
-
-%4UnityEngine.Vector4*
-A (D
-
-%0float*
-F (I
-
-%1float*
-K (R
-
-%2float*
-T (\
-
-%3floatX
-V
-4 (^
-%retUnityEngine.Vector4"__id*'
-4 (^
-
-%4UnityEngine.Vector4*
-2*8
-2_ (_")
-^ (_
-
-%retUnityEngine.Vector4:!
-# (.
-rUnityEngine.RectB"
-Shapes.ShapesExtensions
+Shapes.Quad.A.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csx x("0*
+0x x(*
+1*³
+1y z(_
+]
+y. y(7)
+Shapes.Quad"
+aUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3é
+æ
+y y(9
+
+%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
+y y(
+Shapes.Quad*:
+y y(,.*,
+Shapes.ShapesMaterialUtils"
+propAint*7
+y. y(7+*)
+Shapes.Quad"
+aUnityEngine.Vector3R
+P
+z z(
+
+%1void"Shapes.Quad.CheckAutoSetD()*
+z z(
+Shapes.Quad*
+2*.
+2{ {("
+{ {(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.QuadX

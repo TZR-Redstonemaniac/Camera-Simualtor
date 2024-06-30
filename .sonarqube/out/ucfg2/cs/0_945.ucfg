@@ -1,44 +1,31 @@
 
-Shapes.Disc.ArcEndCaps.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs¶ ¶("0*
+Shapes.Draw.DiscGeometry.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
 0
-¶ ¶(*
-1*è
+Ú Ú(*
+1*õ
 1
-¶
- ¶(Ud
-b
+Ú! Ú(3\
+Z
 
-¶? ¶(Q/
-Shapes.Disc"
+Ú! Ú(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle€
+~
 
-arcEndCapsShapes.ArcEndCap"__id*
-
-valueShapes.ArcEndCapë
-è
+Ú! Ú(3
+%retShapes.DiscGeometry"__id*M
 
-¶
- ¶(U
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
-¶
- ¶(
-Shapes.Disc*D
-
-¶ ¶(66*4
-Shapes.ShapesMaterialUtils"
-propRoundCapsint*?
-
-¶8 ¶(S1*/
-Shapes.Disc"
-
-arcEndCapsShapes.ArcEndCap*
-2*2
+Ú! Ú(3?*=
+
+%0Shapes.DrawStyle"#
+discGeometryShapes.DiscGeometry*
+2*<
 2
-¶V ¶(V"!
+Ú4 Ú(4"+
 
-¶U ¶(V
-implicit return:
-valueShapes.ArcEndCapB
-Shapes.DiscX
+Ú3 Ú(4
+
+%retShapes.DiscGeometryB"
+Shapes.DrawX

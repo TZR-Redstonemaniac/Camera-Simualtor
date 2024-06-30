@@ -1,35 +1,87 @@
 
-(Shapes.Cuboid.SetAllMaterialProperties()
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs" (:"0*
-0 (*
-1*
-1 (?
-Ì
- (3
+Shapes.Triangle.Color.setÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csö ö("0*
+0
+ö ö(*
+1*√
+1
+õ ù(Be
+c
 
-%0void"9Shapes.ShapeRenderer.SetVector3(int, UnityEngine.Vector3)*
- (
-Shapes.Cuboid*=
- (+1*/
-Shapes.ShapesMaterialUtils"
-propSizeint*<
-- (10*.
-Shapes.Cuboid"
-sizeUnityEngine.Vector3Ë
-Â
- (>
+õ- õ(:/
+Shapes.Triangle"
+colorUnityEngine.Color"__id*
+
+valueUnityEngine.Color¯
+ı
 
-%1void"%Shapes.ShapeRenderer.SetInt(int, int)*
- (	
-Shapes.Cuboid*B
- (,6*4
-Shapes.ShapesMaterialUtils"
-propSizeSpaceint*C
-. (<7*5
-Shapes.Cuboid""
-	sizeSpaceShapes.ThicknessSpace*
-2*.
-2 ("
- (
-implicit returnB
-Shapes.CuboidX
+õ õ(<
+
+%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*!
+
+õ õ(
+Shapes.Triangle*@
+
+õ õ(+2*0
+Shapes.ShapesMaterialUtils"
+	propColorint*?
+
+õ- õ(:1*/
+Shapes.Triangle"
+colorUnityEngine.Colorf
+d
+
+ú. ú(<0
+Shapes.Triangle"
+colorBUnityEngine.Color"__id*
+
+valueUnityEngine.Color˙
+˜
+
+ú ú(>
+
+%1void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*!
+
+ú ú(
+Shapes.Triangle*A
+
+ú ú(,3*1
+Shapes.ShapesMaterialUtils"
+
+propColorBint*@
+
+ú. ú(<2*0
+Shapes.Triangle"
+colorBUnityEngine.Colorf
+d
+
+ù1 ù(?0
+Shapes.Triangle"
+colorCUnityEngine.Color"__id*
+
+valueUnityEngine.Color˝
+˙
+
+ù ù(A
+
+%2void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
+
+ù ù(
+Shapes.Triangle*A
+
+ù ù(/3*1
+Shapes.ShapesMaterialUtils"
+
+propColorCint*@
+
+ù1 ù(?2*0
+Shapes.Triangle"
+colorCUnityEngine.Color*
+2*2
+2
+û û("!
+
+û û(
+implicit return:
+valueUnityEngine.ColorB
+Shapes.TriangleX

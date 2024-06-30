@@ -1,4 +1,5 @@
-Å
-SphereObjectUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject!
-Update()SphereObject.Update()-
-SphereObject()SphereObject.SphereObject()
+ð
+EnvMapAnimatorUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject!
+Awake()EnvMapAnimator.Awake()!
+Start()EnvMapAnimator.Start()3
+EnvMapAnimator()EnvMapAnimator.EnvMapAnimator()

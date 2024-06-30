@@ -1,37 +1,35 @@
 
- Shapes.Draw.GradientFillType.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs» »("0*
+%Shapes.Rectangle.FillRadialRadius.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÆ Æ("0*
 0
-» »(*
-1*–
+Æ Æ(*
+1*Â
 1
-»! »(@\
-Z
+Æ
+ Æ(f
+d
 
-»! »(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+Æ
+ Æ(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillg
+e
 
-»! »(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillh
-f
+Æ
+ Æ(
+%retfloat"__id*B
 
-»! »(@4
+Æ
+ Æ(4*2
 
-%1Shapes.GradientFill"
-typeShapes.FillType"__id*
-
-valueShapes.FillType*
-2*2
+%0Shapes.GradientFill"
+radialRadiusfloat*
+2*.
 2
-»A »(A"!
+Æ Æ("
 
-»@ »(A
-implicit return:
-valueShapes.FillTypeB"
-Shapes.DrawX
+Æ Æ(
+
+%retfloatB
+Shapes.RectangleX

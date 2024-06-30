@@ -1,37 +1,21 @@
 
-Shapes.Draw.DashType.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csˆ ˆ("0*
-0
-ˆ ˆ(*
-1*Ä
-1
-ˆ! ˆ(=\
-Z
-
-ˆ! ˆ(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ˆ! ˆ(0
-%1Shapes.DashStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStylee
-c
-
-ˆ! ˆ(=1
-
-%1Shapes.DashStyle"
-typeShapes.DashType"__id*
-
-valueShapes.DashType*
-2*2
-2
-ˆ> ˆ(>"!
-
-ˆ= ˆ(>
-implicit return:
-valueShapes.DashTypeB"
-Shapes.DrawX
+Shapes.Disc.ColorInner.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csa a("0*
+0a a(*
+1*|
+1a
+ a(h
+f
+a
+ a(
+%retUnityEngine.Color"__id*9
+a
+ a(-*+
+Shapes.Disc"
+colorUnityEngine.Color*
+2*6
+2a a("'
+a a(
+
+%retUnityEngine.ColorB
+Shapes.Disc

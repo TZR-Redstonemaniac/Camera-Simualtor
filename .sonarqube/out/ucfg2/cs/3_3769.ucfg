@@ -1,0 +1,28 @@
+
+&TMPro.Examples.SkewTextExample.Awake()Ž
+ƒC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs ("0*
+0 (*
+1*„
+1 (B€
+~
+ ((
+%0UnityEngine.GameObject"$UnityEngine.Component.gameObject.get*.
+ ((" 
+TMPro.Examples.SkewTextExamplex
+v
+ (A
+%1TMPro.TMP_Text"(UnityEngine.GameObject.GetComponent<T>()**
+ ((
+
+%0UnityEngine.GameObjects
+q
+ (AE 
+TMPro.Examples.SkewTextExample"!
+m_TextComponentTMPro.TMP_Text"__id*
+
+%1TMPro.TMP_Text*
+2*.
+2	 (	"
+ (	
+implicit returnB" 
+TMPro.Examples.SkewTextExampleX

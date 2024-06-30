@@ -1,29 +1,24 @@
 
-7Shapes.AngularUnitExtensions.Suffix(Shapes.AngularUnit)„
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\AngularUnit.cs ("0*
-0 (*
-1* 
-1: (TË
-È
-: (T
-%0string"7System.Collections.Generic.ICollection<T>.this[int].get*K
-: (I?*=
-Shapes.AngularUnitExtensions"
-angUnitToSuffixstring[]*(
-J (S
-
-unitShapes.AngularUnit>
-<
-: (T
-%retstring"__id*
-: (T
-
-%0string*
-2*+
-2U (U"
-T (U
-
-%retstring:&
- (4
-unitShapes.AngularUnitB "
-Shapes.AngularUnitExtensions
+)Shapes.DashStyle.DefaultDashStyleRing.set„
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashStyle.csŠ Š("0*
+0
+Š Š(*
+1*a
+1
+Š
+ Š(K
+I
+
+Š
+ Š(
+%0Shapes.DashStyle"__id*
+
+valueShapes.DashStyle*
+2*2
+2
+Š Š("!
+
+Š Š(
+implicit return:
+valueShapes.DashStyleB"
+Shapes.DashStyleX

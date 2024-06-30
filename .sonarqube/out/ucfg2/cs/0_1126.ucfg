@@ -1,36 +1,47 @@
 
-Shapes.Quad.A.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csx x("0*
-0x x(*
-1*≥
-1y z(_
-]
-y. y(7)
-Shapes.Quad"
-aUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3È
-Ê
-y y(9
++Shapes.MpbTexture.TransferShapeProperties()å
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbTexture.cs (1"0*
+0 (*
+1*Ä
+1 (9†
+ù
+ (1
 
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-y y(
-Shapes.Quad*:
-y y(,.*,
-Shapes.ShapesMaterialUtils"
-propAint*7
-y. y(7+*)
-Shapes.Quad"
-aUnityEngine.Vector3R
-P
-z z(
+%0void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Vector4>)*!
+ (
+Shapes.MpbTexture*=
+ ()1*/
+Shapes.ShapesMaterialUtils"
+propRectint*O
++ (/C*A
+Shapes.MpbTexture"*
+rect"System.Collections.Generic.List<T>û
+õ
+ (/
 
-%1void"Shapes.Quad.CheckAutoSetD()*
-z z(
-Shapes.Quad*
+%1void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Vector4>)*!
+ (
+Shapes.MpbTexture*<
+ ((0*.
+Shapes.ShapesMaterialUtils"
+propUvsint*N
+* (-B*@
+Shapes.MpbTexture")
+uvs"System.Collections.Generic.List<T>ß
+§
+ (8
+
+%2void"RShapes.MetaMpb.Transfer(int, System.Collections.Generic.List<UnityEngine.Texture>)*!
+ (
+Shapes.MpbTexture*@
+ (,4*2
+Shapes.ShapesMaterialUtils"
+propMainTexint*S
+. (6G*E
+Shapes.MpbTexture".
+textures"System.Collections.Generic.List<T>*
 2*.
-2{ {("
-{ {(
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.QuadX
+2 ("
+ (
+implicit returnB
+Shapes.MpbTextureX

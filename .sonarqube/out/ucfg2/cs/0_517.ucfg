@@ -1,35 +1,54 @@
 
-'Shapes.RegularPolygon.FillLinearEnd.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÂ Â("0*
+%Shapes.Rectangle.FillRadialOrigin.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs¨ ¨("0*
 0
-Â Â(*
-1*„
+¨ ¨(*
+1*ƒ
 1
-Â
- Â(k
-i
+© ª(Tf
+d
 
-Â
- Â(
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFill€
-~
+© ©(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillx
+v
 
-Â
- Â(
-%retUnityEngine.Vector3"__id*M
-
-Â
- Â(?*=
+© ©(@
 
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3*
-2*<
-2
-Â Â("+
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3™
+–
 
-Â Â(
-
-%retUnityEngine.Vector3B
-Shapes.RegularPolygon
+ª6 ª(Q
+%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*A
+
+ª6 ª(:3*1
+Shapes.Rectangle"
+fillShapes.GradientFillî
+ë
+
+ª ª(S
+
+%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*"
+
+ª ª(
+Shapes.Rectangle*D
+
+ª ª(46*4
+Shapes.ShapesMaterialUtils"
+propFillStartint*)
+
+ª6 ª(Q
+
+%1UnityEngine.Vector4*
+2*2
+2
+« «("!
+
+« «(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.RectangleX

@@ -1,35 +1,31 @@
 
-#Shapes.Draw.TorusThicknessSpace.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¿ ¿("0*
+$Shapes.Draw.PolygonTriangulation.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÈ È("0*
 0
-¿ ¿(*
-1*ü
+È È(*
+1*Ž
 1
-¿
- ¿(\
+È! È(;\
 Z
 
-¿
- ¿(
+È! È(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyle‡
-„
+styleShapes.DrawStyle™
+–
 
-¿
- ¿(
-%retShapes.ThicknessSpace"__id*Q
+È! È(;#
+%retShapes.PolygonTriangulation"__id*]
 
-¿
- ¿(C*A
+È! È(;O*M
 
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
+%0Shapes.DrawStyle"3
+polygonTriangulationShapes.PolygonTriangulation*
+2*D
 2
-¿ ¿("-
+È< È(<"3
 
-¿ ¿(
-
-%retShapes.ThicknessSpaceB"
+È; È(<%
+#
+%retShapes.PolygonTriangulationB"
 Shapes.DrawX

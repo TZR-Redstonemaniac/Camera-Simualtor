@@ -1,38 +1,38 @@
 
-Shapes.Draw.DashOffset.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÆ Æ("0*
+&Shapes.Draw.GradientFillColorStart.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‘ ‘("0*
 0
-Æ Æ(*
-1*Ω
+‘ ‘(*
+1*⁄
 1
-Æ! Æ(7\
+‘! ‘(F\
 Z
 
-Æ! Æ(&
+‘! ‘(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylei
-g
+styleShapes.DrawStyler
+p
 
-Æ! Æ(0
-%1Shapes.DashStyle"__id*;9*7
+‘! ‘(3
+%1Shapes.GradientFill"__id*A?*=
 
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle^
-\
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillr
+p
 
-Æ! Æ(7
-%retfloat"__id*9
+‘! ‘(F<
+
+%1Shapes.GradientFill"
 
-Æ! Æ(7+*)
-
-%1Shapes.DashStyle"
-offsetfloat*
-2*.
+colorStartUnityEngine.Color"__id*
+
+valueUnityEngine.Color*
+2*2
 2
-Æ8 Æ(8"
+‘G ‘(G"!
 
-Æ7 Æ(8
-
-%retfloatB"
+‘F ‘(G
+implicit return:
+valueUnityEngine.ColorB"
 Shapes.DrawX

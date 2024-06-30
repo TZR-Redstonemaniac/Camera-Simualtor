@@ -1,50 +1,30 @@
 
-Shapes.Rectangle.DashType.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÉ É("0*
-0
-É É(*
-1*÷
-1
-É
- É(Xe
-c
-
-É> É(G
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStylee
-c
-
-É> É(T1
+Shapes.Draw.ZOffsetUnits.setå
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csP P("0*
+0P P(*
+1*¥
+1P! P(GZ
+X
+P! P(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylem
+k
+P! P(2
+%1Shapes.RenderState"__id*?=*;
 
-%0Shapes.DashStyle"
-typeShapes.DashType"__id*
+%0Shapes.DrawStyle"!
+renderStateShapes.RenderStateU
+S
+P! P(G/
 
-valueShapes.DashTypeÒ
-Ó
-
-É
- É(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
-
-É
- É(
-Shapes.Rectangle*C
-
-É É(55*3
-Shapes.ShapesMaterialUtils"
-propDashTypeint*A
-
-É7 É(V3*1
-
-%0Shapes.DashStyle"
-typeShapes.DashType*
-2*2
-2
-ÉY É(Y"!
-
-ÉX É(Y
-implicit return:
-valueShapes.DashTypeB
-Shapes.RectangleX
+%1Shapes.RenderState"
+zOffsetUnitsint"__id*
+
+valueint*
+2*.
+2PH P(H"
+PG P(H
+implicit return:
+valueintB"
+Shapes.DrawX

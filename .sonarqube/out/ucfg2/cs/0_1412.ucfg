@@ -1,164 +1,86 @@
 
-÷Shapes.ShapesExtensions.Zip<T1, T2, T3, TResult>(System.Collections.Generic.IEnumerable<T1>, System.Collections.Generic.IEnumerable<T2>, System.Collections.Generic.IEnumerable<T3>, System.Func<T1, T2, T3, TResult>)Ñ
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.csk% k(("0*
-0k k(*
-1*‹
-1l l()Õ 
-l l()/
-%0)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*A
-l l(5
-3
-source)System.Collections.Generic.IEnumerable<T>2GetEnumerator()x
-v
-l l()/
-e1)System.Collections.Generic.IEnumerator<T>"__id*31
-/
-%0)System.Collections.Generic.IEnumerator<T>*
-2*‹
-2m m(*Õ 
-m m(*/
-%1)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*A
-m m(5
-3
-second)System.Collections.Generic.IEnumerable<T>2GetEnumerator()x
-v
-m m(*/
-e2)System.Collections.Generic.IEnumerator<T>"__id*31
-/
-%1)System.Collections.Generic.IEnumerator<T>*
-3*€
-3n n(*Ã…
-n n(*/
-%2)System.Collections.Generic.IEnumerator<T>"9System.Collections.Generic.IEnumerable<T>.GetEnumerator()*@
-n n(4
-2
-third)System.Collections.Generic.IEnumerable<T>2GetEnumerator()x
-v
-n n(*/
-e3)System.Collections.Generic.IEnumerator<T>"__id*31
-/
-%2)System.Collections.Generic.IEnumerator<T>*
-4*ß
-4o o(èå
-o o(
+'Shapes.Torus.SetAllMaterialProperties()~
+tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs6" 6(:"0*
+06 6(*
+1*Ê
 
-%3bool")System.Collections.IEnumerator.MoveNext()*=
-o o(1
-/
-e1)System.Collections.Generic.IEnumerator<T>2
-MoveNext()*
-5
-8*ß
-5o o(+èå
-o o(+
+17 <(=‘
+—
+7 7(5
 
-%4bool")System.Collections.IEnumerator.MoveNext()*=
-o o( 1
-/
-e2)System.Collections.Generic.IEnumerator<T>2
-MoveNext()*
-6
-8*ß
-6o/ o(<èå
-o/ o(<
+%0void")Shapes.ShapeRenderer.SetFloat(int, float)*
+7 7(
+Shapes.Torus*?
+7 7(+3*1
+Shapes.ShapesMaterialUtils"
 
-%5bool")System.Collections.IEnumerator.MoveNext()*=
-o/ o(11
-/
-e3)System.Collections.Generic.IEnumerator<T>2
-MoveNext()*
-7
-8*¡
-7p p(?öó
-p p($
-%6T1"5System.Collections.Generic.IEnumerator<T>.Current.get*=
-p p(1
-/
-e1)System.Collections.Generic.IEnumerator<T>2Current.getöó
-p& p(0
-%7T2"5System.Collections.Generic.IEnumerator<T>.Current.get*=
-p& p((1
-/
-e2)System.Collections.Generic.IEnumerator<T>2Current.getöó
-p2 p(<
-%8T3"5System.Collections.Generic.IEnumerator<T>.Current.get*=
-p2 p(41
-/
-e3)System.Collections.Generic.IEnumerator<T>2Current.getÂ‚
-p p(>
-%9TResult"3System.Func<T1, T2, T3, TResult>.Invoke(T1, T2, T3)*6
-p p(*
-(
-func System.Func<T1, T2, T3, TResult>*
-p p($
+propRadiusint*/
+7- 7(3#*!
+Shapes.Torus"
+radiusfloat⁄
+◊
+8 8(;
 
-
-%6T1*
-p& p(0
+%1void")Shapes.ShapeRenderer.SetFloat(int, float)*
+8 8(
+Shapes.Torus*B
+8 8(.6*4
+Shapes.ShapesMaterialUtils"
+propThicknessint*2
+80 8(9&*$
+Shapes.Torus"
+	thicknessfloat
+Ì
+9 9(H
 
-
-%7T2*
-p2 p(<
+%2void"%Shapes.ShapeRenderer.SetInt(int, int)*
+9 9(	
+Shapes.Torus*G
+9 9(1;*9
+Shapes.ShapesMaterialUtils"
+propThicknessSpaceint*G
+93 9(F;*9
+Shapes.Torus"'
+thicknessSpaceShapes.ThicknessSpaceÍ
+Á
+: :(B
 
-
-%8T32Invoke(T1, T2, T3)\Z
-p p(?*
-%ret"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>è
-å
-p p(?
-%10void"0System.Collections.Generic.ICollection<T>.Add(T)*.,
-*
-%ret"System.Collections.Generic.List<T>*
+%3void"%Shapes.ShapeRenderer.SetInt(int, int)*
+: :(	
+Shapes.Torus*D
+: :(.8*6
+Shapes.ShapesMaterialUtils"
+propRadiusSpaceint*D
+:0 :(@8*6
+Shapes.Torus"$
+radiusSpaceShapes.ThicknessSpaceﬂ
+‹
+; ;(@
 
-%9TResult*
-4*
-8n n(**
-9
-10*ó
-9n n(*Å
-n n(*
-%11void"System.IDisposable.Dispose()*=
-n n(*1
-/
-e3)System.Collections.Generic.IEnumerator<T>2	Dispose()*
-10*
-10k k(*
-11*
-11m m(**
-12
-13*ò
-12m m(*Å
-m m(*
-%12void"System.IDisposable.Dispose()*=
-m m(*1
-/
-e2)System.Collections.Generic.IEnumerator<T>2	Dispose()*
-13*
-13k k(*
-14*
-14l l()*
-15
-16*ò
-15l l()Å
-l l()
-%13void"System.IDisposable.Dispose()*=
-l l()1
-/
-e1)System.Collections.Generic.IEnumerator<T>2	Dispose()*
-16*
-16k k(*
-17*U
-17q q("E
-q q(9
-7
-%ret/System.Collections.Generic.IEnumerable<TResult>:?
-k? k(Z3
-source)System.Collections.Generic.IEnumerable<T>:?
-k\ k(r3
-second)System.Collections.Generic.IEnumerable<T>:?
-	kt k(â2
-third)System.Collections.Generic.IEnumerable<T>:6
+%4void")Shapes.ShapeRenderer.SetFloat(int, float)*
+; ;(
+Shapes.Torus*A
+; ;(-5*3
+Shapes.ShapesMaterialUtils"
+propAngStartint*8
+;/ ;(>,**
+Shapes.Torus"
+angRadiansStartfloat€
+ÿ
+< <(<
 
-kã k(©(
-func System.Func<T1, T2, T3, TResult>B"
-Shapes.ShapesExtensions
+%5void")Shapes.ShapeRenderer.SetFloat(int, float)*
+< <(
+Shapes.Torus*?
+< <(+3*1
+Shapes.ShapesMaterialUtils"
+
+propAngEndint*6
+<- <(:**(
+Shapes.Torus"
+angRadiansEndfloat*
+2*.
+2= =("
+= =(
+implicit returnB
+Shapes.TorusX

@@ -1,48 +1,21 @@
 
-Shapes.Disc.ColorOuter.set}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csZ Z("0*
-0Z Z(*
-1*ã
-1[ \(Pi
-g
-[7 [(N5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color"__id*
-
-valueUnityEngine.Colorü
-ù
-[ [(P
-
-%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-[ [(
-Shapes.Disc*H
-[ [(5<*:
-Shapes.ShapesMaterialUtils"
-propColorOuterStartint*C
-[7 [(N7*5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Colorg
-e
-\8 \(M3
+Shapes.Disc.ColorEnd.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csq q("0*
+0q q(*
+1*„
+1q
+ q(p
+n
+q
+ q(
+%retUnityEngine.Color"__id*A
+q
+ q(5*3
 Shapes.Disc""
-colorOuterEndUnityEngine.Color"__id*
-
-valueUnityEngine.Colorû
-ø
-\ \(O
-
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-\ \(
-Shapes.Disc*F
-\ \(6:*8
-Shapes.ShapesMaterialUtils"
-propColorOuterEndint*A
-\8 \(M5*3
-Shapes.Disc""
-colorOuterEndUnityEngine.Color*
-2*.
-2] ]("
-] ](
-implicit return:
-valueUnityEngine.ColorB
-Shapes.DiscX
+colorInnerEndUnityEngine.Color*
+2*6
+2q q("'
+q q(
+
+%retUnityEngine.ColorB
+Shapes.Disc

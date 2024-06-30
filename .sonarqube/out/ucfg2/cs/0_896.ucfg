@@ -1,16 +1,17 @@
 
-:Shapes.MpbLine3D.Shapes.IDashableMpb.dashShapeModifier.setã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2"0*·
-0v3 v(3´
-®
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2a
-Shapes.MpbLine3D"K
-%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"__id*/-
+:Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillStart.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,"0*Á
+0
+Ó- Ó(-≠
+™
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,a
+Shapes.MpbRegularPolygon"C
+Shapes.IFillableMpb.fillStart"System.Collections.Generic.List<T>"__id*/-
 +
-value"System.Collections.Generic.List<T>"£
-ã
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csv/ v(2
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÓ) Ó(,
 implicit return:-+
-value"System.Collections.Generic.List<T>B
-Shapes.MpbLine3D
+value"System.Collections.Generic.List<T>B
+Shapes.MpbRegularPolygon

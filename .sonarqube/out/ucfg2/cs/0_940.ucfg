@@ -1,42 +1,17 @@
 
-Shapes.Disc.ThicknessSpace.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs∞ ∞("0*
+6Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpacing.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,"0*„
 0
-∞ ∞(*
-1*Ñ
-1
-∞
- ∞(^r
-p
-
-∞D ∞(Z8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace˘
-ˆ
-
-∞
- ∞(^
-
-%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
-
-∞
- ∞(
-Shapes.Disc*I
-
-∞ ∞(;;*9
-Shapes.ShapesMaterialUtils"
-propThicknessSpaceint*H
-
-∞= ∞(\:*8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace*
-2*2
-2
-∞_ ∞(_"!
-
-∞^ ∞(_
-implicit return: 
-valueShapes.ThicknessSpaceB
-Shapes.DiscX
+æ- æ(-©
+¶
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,]
+Shapes.MpbTriangle"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csæ) æ(,
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbTriangle

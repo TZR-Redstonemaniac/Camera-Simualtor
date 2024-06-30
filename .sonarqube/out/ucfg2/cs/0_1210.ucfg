@@ -1,20 +1,77 @@
 
-Shapes.ShapeRenderer.Mesh.setÜ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs ("0*
-0 (*
-1*∆
-1 ('±
-Æ
- ('
-%0UnityEngine.Mesh"%UnityEngine.MeshFilter.sharedMesh.set*D
- (8*6
-Shapes.ShapeRenderer"
-mfUnityEngine.MeshFilter*
-
-valueUnityEngine.Mesh*
-2*.
-2( (("
-' ((
-implicit return:
-valueUnityEngine.MeshB
-Shapes.ShapeRendererX
+;Shapes.ShapesMaterialUtils.GetDiscMaterial(Shapes.DiscType)á
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs~  ~(/"0*
+0~ ~(*
+1*]
+1
+â å(D
+B
+
+â â(
+matShapes.ShapesMaterials"__id*
+	{unknown}*
+2
+3*Û
+2
+ç
+ ç(Nï
+í
+
+ç& ç(L
+%0string"__concat*'
+
+ç( ç(=
+Loaded disc material *'
+
+ç= ç(C
+
+typeShapes.DiscType*
+
+çC ç(K
+
+ is nullRP
+
+ç
+ ç(N#
+%1System.NullReferenceException"System.NullReferenceException≈
+¬
+
+ç
+ ç(N#
+%2System.NullReferenceException"<System.NullReferenceException.NullReferenceException(string)*3
+
+ç
+ ç(N%
+#
+%1System.NullReferenceException*
+
+ç& ç(L
+
+%0string".
+
+ë ë( 
+
+%retShapes.ShapesMaterials*y
+3
+ê
+ ê(c
+a
+
+ê
+ ê(
+%retShapes.ShapesMaterials"__id*-
+
+ê
+ ê(
+
+matShapes.ShapesMaterials*
+4*?
+4
+ë ë(".
+
+ë ë( 
+
+%retShapes.ShapesMaterials:#
+~1 ~(>
+typeShapes.DiscTypeB"
+Shapes.ShapesMaterialUtils

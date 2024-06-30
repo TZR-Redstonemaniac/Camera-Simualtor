@@ -1,31 +1,30 @@
 
-Shapes.Draw.DashStyle.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÅ Å("0*
+Shapes.Draw.SizeSpace.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs≤ ≤("0*
 0
-Å Å(*
-1*Î
+≤ ≤(*
+1*Í
 1
-Å! Å(0\
+≤! ≤(8\
 Z
 
-Å! Å(&
+≤! ≤(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStylew
-u
+styleShapes.DrawStylev
+t
 
-Å! Å(0
-%retShapes.DashStyle"__id*G
-
-Å! Å(09*7
+≤! ≤(8<
 
-%0Shapes.DrawStyle"
-	dashStyleShapes.DashStyle*
-2*9
+%0Shapes.DrawStyle""
+	sizeSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
+2*2
 2
-Å1 Å(1"(
+≤9 ≤(9"!
 
-Å0 Å(1
-
-%retShapes.DashStyleB"
-Shapes.Draw
+≤8 ≤(9
+implicit return: 
+valueShapes.ThicknessSpaceB"
+Shapes.DrawX

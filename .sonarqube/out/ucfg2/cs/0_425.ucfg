@@ -1,35 +1,50 @@
 
-+Shapes.RegularPolygon.DashShapeModifier.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cså å("0*
+Shapes.Rectangle.DashType.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÉ É("0*
 0
-å å(*
-1*Á
+É É(*
+1*÷
 1
-å
- å(!j
-h
+É
+ É(Xe
+c
 
-å
- å(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
+É> É(G
+%0Shapes.DashStyle"__id*75*3
+Shapes.Rectangle"
 	dashStyleShapes.DashStylee
 c
 
-å
- å(!
-%retfloat"__id*@
-
-å
- å(!2*0
+É> É(T1
 
-%0Shapes.DashStyle"
-shapeModifierfloat*
-2*.
+%0Shapes.DashStyle"
+typeShapes.DashType"__id*
+
+valueShapes.DashTypeÒ
+Ó
+
+É
+ É(X
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
+
+É
+ É(
+Shapes.Rectangle*C
+
+É É(55*3
+Shapes.ShapesMaterialUtils"
+propDashTypeint*A
+
+É7 É(V3*1
+
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*2
 2
-å" å(""
+ÉY É(Y"!
 
-å! å("
-
-%retfloatB
-Shapes.RegularPolygonX
+ÉX É(Y
+implicit return:
+valueShapes.DashTypeB
+Shapes.RectangleX

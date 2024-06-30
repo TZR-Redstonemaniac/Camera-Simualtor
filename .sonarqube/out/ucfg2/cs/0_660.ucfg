@@ -1,27 +1,37 @@
 
-Shapes.Disc.AngRadiansStart.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csá á("0*
+%Shapes.Draw.GradientFillLinearEnd.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÊ Ê("0*
 0
-á á(*
-1*t
+Ê Ê(*
+1*›
 1
-á
- á(^
-\
+Ê! Ê(E\
+Z
 
-á
- á(
-%retfloat"__id*9
+Ê! Ê(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
 
-á
- á(+*)
-Shapes.Disc"
-angRadiansStartfloat*
-2*.
+Ê! Ê(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFillu
+s
+
+Ê! Ê(E=
+
+%1Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3*
+2*2
 2
-á á("
+ÊF Ê(F"!
 
-á á(
-
-%retfloatB
-Shapes.DiscX
+ÊE Ê(F
+implicit return:
+valueUnityEngine.Vector3B"
+Shapes.DrawX

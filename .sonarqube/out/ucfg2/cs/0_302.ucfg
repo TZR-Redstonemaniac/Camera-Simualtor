@@ -1,27 +1,35 @@
 
- Shapes.RegularPolygon.Dashed.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs‡ ‡("0*
+"Shapes.RegularPolygon.DashSize.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csË Ë("0*
 0
-‡ ‡(*
-1*s
+Ë Ë(*
+1*ﬁ
 1
-‡
- ‡(]
-[
+Ë
+ Ë(j
+h
 
-‡
- ‡(
-%retbool"__id*9
+Ë
+ Ë(
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStyle\
+Z
 
-‡
- ‡(+*)
-Shapes.RegularPolygon"
-dashedbool*
-2*-
+Ë
+ Ë(
+%retfloat"__id*7
+
+Ë
+ Ë()*'
+
+%0Shapes.DashStyle"
+sizefloat*
+2*.
 2
-‡ ‡("
+Ë Ë("
 
-‡ ‡(
-
-%retboolB
+Ë Ë(
+
+%retfloatB
 Shapes.RegularPolygonX

@@ -1,37 +1,35 @@
 
-'Shapes.Draw.GradientFillLinearStart.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‡ ‡("0*
+"Shapes.Rectangle.FillLinearEnd.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csº º("0*
 0
-‡ ‡(*
-1*ﬂ
+º º(*
+1*ˇ
 1
-‡! ‡(G\
-Z
+º
+ º(f
+d
 
-‡! ‡(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyler
-p
+º
+ º(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillÄ
+~
 
-‡! ‡(3
-%1Shapes.GradientFill"__id*A?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillw
-u
+º
+ º(
+%retUnityEngine.Vector3"__id*M
 
-‡! ‡(G?
+º
+ º(?*=
 
-%1Shapes.GradientFill""
-linearStartUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3*
-2*2
+%0Shapes.GradientFill" 
+	linearEndUnityEngine.Vector3*
+2*<
 2
-‡H ‡(H"!
+º º("+
 
-‡G ‡(H
-implicit return:
-valueUnityEngine.Vector3B"
-Shapes.DrawX
+º º(
+
+%retUnityEngine.Vector3B
+Shapes.Rectangle

@@ -1,21 +1,27 @@
 
-&Shapes.Disc.MatchDashSpacingToSize.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
-0 (*
-1*s
-1
- ( _
-]
-
- ( 
-%retbool"__id*=
-
- ( 1*/
-Shapes.Disc"
+0Shapes.RegularPolygon.MatchDashSpacingToSize.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÿ ÿ("0*
+0
+ÿ ÿ(*
+1*É
+1
+ÿ
+ ÿ( m
+k
+
+ÿ
+ ÿ( 
+%retbool"__id*I
+
+ÿ
+ ÿ( ;*9
+Shapes.RegularPolygon"
 matchDashSpacingToSizebool*
-2*)
-2! (!"
-  (!
+2*-
+2
+ÿ! ÿ(!"
+
+ÿ  ÿ(!
 
-%retboolB
-Shapes.DiscX
+%retboolB
+Shapes.RegularPolygonX

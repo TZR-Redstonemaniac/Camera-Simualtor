@@ -1,21 +1,50 @@
 
-Shapes.Line.EndCaps.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs` `("0*
-0` `(*
-1*~
-1`
- `(j
+"Shapes.RegularPolygon.DashType.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs‰ ‰("0*
+0
+‰ ‰(*
+1*à
+1
+‰
+ ‰(Xj
 h
-`
- `(
-%retShapes.LineEndCap"__id*;
-`
- `(/*-
-Shapes.Line"
-endCapsShapes.LineEndCap*
-2*6
-2` `("'
-` `(
-
-%retShapes.LineEndCapB
-Shapes.LineX
+
+‰> ‰(G
+%0Shapes.DashStyle"__id*<:*8
+Shapes.RegularPolygon"
+	dashStyleShapes.DashStylee
+c
+
+‰> ‰(T1
+
+%0Shapes.DashStyle"
+typeShapes.DashType"__id*
+
+valueShapes.DashTypeö
+ó
+
+‰
+ ‰(X
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
+
+‰
+ ‰(
+Shapes.RegularPolygon*C
+
+‰ ‰(55*3
+Shapes.ShapesMaterialUtils"
+propDashTypeint*A
+
+‰7 ‰(V3*1
+
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*2
+2
+‰Y ‰(Y"!
+
+‰X ‰(Y
+implicit return:
+valueShapes.DashTypeB
+Shapes.RegularPolygonX

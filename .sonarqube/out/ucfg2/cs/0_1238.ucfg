@@ -1,37 +1,39 @@
 
-%Shapes.ShapeRenderer.SortingOrder.setÜ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs) )("0*
-0) )(*
-1*ç
-1)
- )(H¯
-ı
-)
- )(3
-%1UnityEngine.MeshRenderer"@Shapes.ShapeRenderer.MakeSureComponentExists<T>(ref T, out bool)*$
-)
- )(!
-Shapes.ShapeRenderer*G
-)# )(*;*9
-Shapes.ShapeRenderer"
-rndUnityEngine.MeshRenderer*
-), )(1
+?Shapes.ShapesMaterialUtils.GetPolylineMat(Shapes.PolylineJoins)â
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs§  §(."0*
+0
+§ §(*
+1*È
+1
+§H §(_Ó
+Î
 
+§H §(_
+%0Shapes.ShapesMaterials"7System.Collections.Generic.ICollection<T>.this[int].get*X
 
-%0bool~
-|
-)
- )(H	
-%2int"%UnityEngine.Renderer.sortingOrder.set*,
-)
- )(3 
+§H §(TJ*H
+Shapes.ShapesMaterialUtils"(
+matsPolylineShapes.ShapesMaterials[]*,
+
+§U §(^
+
+joinShapes.PolylineJoinsb
+`
+
+§H §(_
+%retShapes.ShapesMaterials"__id*,
+
+§H §(_
+
+%0Shapes.ShapesMaterials*
+2*?
+2
+§` §(`".
+
+§_ §(` 
 
-%1UnityEngine.MeshRenderer*
-
-valueint*
-2*.
-2)I )(I"
-)H )(I
-implicit return:
-valueintB
-Shapes.ShapeRendererX
+%retShapes.ShapesMaterials:*
+
+§0 §(B
+joinShapes.PolylineJoinsB"
+Shapes.ShapesMaterialUtils

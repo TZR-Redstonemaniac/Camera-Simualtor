@@ -1,33 +1,47 @@
 
-Shapes.Draw.DiscRadiusSpace.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csø ø("0*
+Shapes.Line.GetNetDashSpacing()
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs ("0*
 0
-ø ø(*
-1*ì
+ (*
+1*È
 1
-ø
- ø(#\
-Z
+ (hï
+ì
 
-ø
- ø(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylex
-v
+ (h
+%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
 
-ø
- ø(#>
-
-%0Shapes.DrawStyle"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
+ (0
+Shapes.Line*>
+
+2 (;0*.
+Shapes.Line"
+	dashStyleShapes.DashStyle*/
+
+= (C!*
+Shapes.Line"
+dashedbool*?
+
+E ([1*/
+Shapes.Line"
+matchDashSpacingToSizebool*3
+
+] (f%*#
+Shapes.Line"
+	thicknessfloat@
+>
+
+ (h
+%retfloat"__id*
+
+ (h
+
+%0float*
+2*.
 2
-ø$ ø($"!
+i (i"
 
-ø# ø($
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+h (i
+
+%retfloatB
+Shapes.LineX

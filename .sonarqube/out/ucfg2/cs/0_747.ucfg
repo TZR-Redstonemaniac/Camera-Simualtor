@@ -1,33 +1,17 @@
 
-Shapes.Draw.LineThickness.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csº º("0*
-0
-º º(*
-1* 
-1
-º
- º(!\
-Z
-
-º
- º(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleV
-T
-
-º
- º(!,
-
-%0Shapes.DrawStyle"
-	thicknessfloat"__id*
-
-valuefloat*
-2*2
-2
-º" º(""!
-
-º! º("
-implicit return:
-valuefloatB"
-Shapes.DrawX
+3Shapes.MpbLine3D.Shapes.IDashableMpb.dashOffset.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+"0*â
+0u, u(,∂
+≥
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+.
+%ret&System.Collections.Generic.List<float>"__id*Ï
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+\*Z
+Shapes.MpbLine3D"D
+Shapes.IDashableMpb.dashOffset"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csu( u(+0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine3D

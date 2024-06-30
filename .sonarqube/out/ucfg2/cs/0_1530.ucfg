@@ -1,52 +1,38 @@
 
-@Shapes.Polyline.AddPoint(UnityEngine.Vector3, UnityEngine.Color)É
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csú ú("0*
+'Shapes.ShapeRenderer.UpdateMeshBounds()à
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs– –("0*
 0
-ú ú(*
-1*ˆ
+– –(*
+1*ß
 1
-ú; ú(k@>
+– –(?m
+k
 
-úE ú(i
-%0Shapes.PolylinePoint"Shapes.PolylinePointÄ
-˝
+– –(!
+%0UnityEngine.Mesh"Shapes.ShapeRenderer.Mesh.get*&
 
-úE ú(i
-%1Shapes.PolylinePoint"JShapes.PolylinePoint.PolylinePoint(UnityEngine.Vector3, UnityEngine.Color)**
+– –(!
+Shapes.ShapeRendereríè
 
-úE ú(i
-
-%0Shapes.PolylinePoint*/
+–+ –(?
+%1UnityEngine.Bounds")Shapes.ShapeRenderer.GetBounds_Internal()*&
 
-úX ú(`!
-
-positionUnityEngine.Vector3**
+–+ –(=
+Shapes.ShapeRenderer2GetBounds_Internal()å
+â
 
-úb ú(g
-
-colorUnityEngine.Colorö
-ó
+– –(?
+%2UnityEngine.Bounds"UnityEngine.Mesh.bounds.set*&
 
-ú; ú(k
-
-%2void".Shapes.Polyline.AddPoint(Shapes.PolylinePoint)*!
-
-ú; ú(C
-Shapes.Polyline**
-
-úE ú(i
-
-%0Shapes.PolylinePoint*
+– –(!
+
+%0UnityEngine.Mesh*
+
+%1UnityEngine.Bounds*
 2*2
 2
-úl ú(l"!
+–@ –(@"!
 
-úk ú(l
-implicit return:-
-
-ú ú((
-positionUnityEngine.Vector3:(
-
-ú* ú(5
-colorUnityEngine.ColorB
-Shapes.PolylineX
+–? –(@
+implicit returnB
+Shapes.ShapeRendererX

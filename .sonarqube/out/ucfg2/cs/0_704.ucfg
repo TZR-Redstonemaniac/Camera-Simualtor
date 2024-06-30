@@ -1,28 +1,40 @@
 
-Shapes.Disc.RadiusInner.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs¡ ¡("0*
-0
-¡ ¡(*
-1*
-1
-¡
- ¡(i
-g
+Shapes.Line.DashSnap.set›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csv v("0*
+0v v(*
+1*Ê
+1v
+ v(X^
+\
+v> v(G
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStylek
+i
+v> v(T5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping"__id* 
+
+valueShapes.DashSnappingè
+å
+v
+ v(X
 
-¡
- ¡(
-%0float"Shapes.Disc.Thickness.set*
-
-¡
- ¡(
-Shapes.Disc*
-
-valuefloat*
-2*2
-2
-¡ ¡("!
-
-¡ ¡(
-implicit return:
-valuefloatB
-Shapes.DiscX
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+v
+ v(
+Shapes.Line*A
+v v(55*3
+Shapes.ShapesMaterialUtils"
+propDashSnapint*C
+v7 v(V7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*.
+2vY v(Y"
+vX v(Y
+implicit return:
+valueShapes.DashSnappingB
+Shapes.LineX

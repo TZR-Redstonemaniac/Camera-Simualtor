@@ -1,0 +1,45 @@
+
+ETMPro.Examples.TMP_TextSelector_B.ON_TEXT_CHANGED(UnityEngine.Object)ë
+ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.csG G("0*
+0G G(*
+1*ô
+1I I($Å
+˛
+I I($
+
+%0bool"FUnityEngine.Object.operator ==(UnityEngine.Object, UnityEngine.Object)*"
+UnityEngine.Object*'
+I I(
+
+objUnityEngine.Object*[
+I I($O*M#
+!TMPro.Examples.TMP_TextSelector_B"&
+m_TextMeshProTMPro.TextMeshProUGUI*
+2
+3*∆
+2L L(]°
+û
+L- L(C
+%1TMPro.TMP_TextInfo"TMPro.TMP_Text.textInfo.get*[
+L- L(:O*M#
+!TMPro.Examples.TMP_TextSelector_B"&
+m_TextMeshProTMPro.TextMeshProUGUI}
+{
+L- L(\
+%2TMPro.TMP_MeshInfo[]"+TMPro.TMP_TextInfo.CopyMeshInfoVertexData()*&
+L- L(C
+
+%1TMPro.TMP_TextInfoé
+ã
+L L(\Y#
+!TMPro.Examples.TMP_TextSelector_B"2
+m_cachedMeshInfoVertexDataTMPro.TMP_MeshInfo[]"__id*
+
+%2TMPro.TMP_MeshInfo[]*
+3*.
+3N	 N(	"
+N N(	
+implicit return:%
+G G('
+objUnityEngine.ObjectB%#
+!TMPro.Examples.TMP_TextSelector_BX

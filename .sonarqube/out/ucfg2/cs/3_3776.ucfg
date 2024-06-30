@@ -1,0 +1,47 @@
+
+MTMPro.Examples.SkewTextExample.CopyAnimationCurve(UnityEngine.AnimationCurve)Ž
+ƒC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs (1"0*
+0 (*
+1*î
+1! %(JH
+!& !(: 
+%0UnityEngine.AnimationCurve"UnityEngine.AnimationCurveŒ
+‰
+!& !(: 
+%1UnityEngine.AnimationCurve"+UnityEngine.AnimationCurve.AnimationCurve()*.
+!& !(:"
+ 
+%0UnityEngine.AnimationCurve`
+^
+! !(:&
+newCurveUnityEngine.AnimationCurve"__id*$"
+ 
+%0UnityEngine.AnimationCurveƒ
+€
+# #(&
+%2UnityEngine.Keyframe[]"#UnityEngine.AnimationCurve.keys.get*1
+# #(!%
+#
+curveUnityEngine.AnimationCurve¨
+¥
+# #(&
+%3UnityEngine.Keyframe[]"#UnityEngine.AnimationCurve.keys.set*4
+# #((
+&
+newCurveUnityEngine.AnimationCurve* 
+
+%2UnityEngine.Keyframe[]l
+j
+% %("
+%retUnityEngine.AnimationCurve"__id*4
+% %((
+&
+newCurveUnityEngine.AnimationCurve*
+2*?
+2&	 &(	"0
+& &(	$
+"
+%retUnityEngine.AnimationCurve:/
+2 (F#
+curveUnityEngine.AnimationCurveB" 
+TMPro.Examples.SkewTextExample

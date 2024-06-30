@@ -1,21 +1,28 @@
 
-Shapes.Polyline.Closed.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.cs8 8("0*
-08 8(*
-1*g
-18
- 8(S
-Q
-8
- 8(
-%retbool"__id*1
-8
- 8(%*#
-Shapes.Polyline"
-closedbool*
-2*)
-28 8("
-8 8(
-
-%retboolB
-Shapes.PolylineX
+Shapes.Disc.ArcEndCaps.get
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csµ µ("0*
+0
+µ µ(*
+1*Ö
+1
+µ
+ µ(o
+m
+
+µ
+ µ(
+%retShapes.ArcEndCap"__id*?
+
+µ
+ µ(1*/
+Shapes.Disc"
+
+arcEndCapsShapes.ArcEndCap*
+2*9
+2
+µ µ("(
+
+µ µ(
+
+%retShapes.ArcEndCapB
+Shapes.DiscX

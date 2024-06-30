@@ -1,35 +1,41 @@
 
-'Shapes.Draw.RectangleThicknessSpace.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csõ õ("0*
-0
-õ õ(*
-1*¸
-1
-õ
- õ(\
-Z
+<Shapes.DisposableMesh.ReleaseFromCommand(Shapes.DrawCommand)å
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DisposableMesh.cs2 2(""0*
+02 2(*
+1*ù
+13 4( ÷
+”
+3 3(
 
-õ
- õ(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleá
-Ñ
+%0bool"3System.Collections.Generic.ICollection<T>.Remove(T)*]
+3 3(Q*O
+Shapes.DisposableMesh"4
+usedByCommands"System.Collections.Generic.List<T>*'
+3 3(
+
+cmdShapes.DrawCommand¨
+©
+4 4(	
+%1int"3System.Collections.Generic.ICollection<T>.Count.get*]
+4 4(Q*O
+Shapes.DisposableMesh"4
+usedByCommands"System.Collections.Generic.List<T>*
+2
+4*
+24$ 4(<*
+3
+4*t
+35 5(`
+^
+5 5(
 
-õ
- õ(
-%retShapes.ThicknessSpace"__id*Q
-
-õ
- õ(C*A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
-2
-õ õ("-
-
-õ õ(
-
-%retShapes.ThicknessSpaceB"
-Shapes.DrawX
+%2void"Shapes.DisposableMesh.Dispose()*%
+5 5(
+Shapes.DisposableMesh*
+4*.
+46 6("
+6 6(
+implicit return:%
+2$ 2(3
+cmdShapes.DrawCommandB
+Shapes.DisposableMeshX

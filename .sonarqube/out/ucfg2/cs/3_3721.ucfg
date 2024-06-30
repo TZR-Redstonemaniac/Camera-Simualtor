@@ -1,0 +1,28 @@
+
++TMPro.Examples.TextConsoleSimulator.Awake()ì
+àC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs ("0*
+0 (*
+1*è
+1 (BÜ
+É
+ ((
+%0UnityEngine.GameObject"$UnityEngine.Component.gameObject.get*3
+ (('%
+#TMPro.Examples.TextConsoleSimulatorx
+v
+ (A
+%1TMPro.TMP_Text"(UnityEngine.GameObject.GetComponent<T>()**
+ ((
+
+%0UnityEngine.GameObjectx
+v
+ (AJ%
+#TMPro.Examples.TextConsoleSimulator"!
+m_TextComponentTMPro.TMP_Text"__id*
+
+%1TMPro.TMP_Text*
+2*.
+2	 (	"
+ (	
+implicit returnB'%
+#TMPro.Examples.TextConsoleSimulatorX

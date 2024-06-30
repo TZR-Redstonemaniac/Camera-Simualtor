@@ -1,0 +1,17 @@
+Û
+$TMPro.Examples.TMP_TextInfoDebugToolUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.ObjectobjectE
+OnDrawGizmos()3TMPro.Examples.TMP_TextInfoDebugTool.OnDrawGizmos()U
+DrawCharactersBounds();TMPro.Examples.TMP_TextInfoDebugTool.DrawCharactersBounds()I
+DrawWordBounds()5TMPro.Examples.TMP_TextInfoDebugTool.DrawWordBounds()I
+DrawLinkBounds()5TMPro.Examples.TMP_TextInfoDebugTool.DrawLinkBounds()I
+DrawLineBounds()5TMPro.Examples.TMP_TextInfoDebugTool.DrawLineBounds()A
+DrawBounds()1TMPro.Examples.TMP_TextInfoDebugTool.DrawBounds()I
+DrawTextBounds()5TMPro.Examples.TMP_TextInfoDebugTool.DrawTextBounds()½
+JDrawRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)oTMPro.Examples.TMP_TextInfoDebugTool.DrawRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)×
+WDrawDottedRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, float)|TMPro.Examples.TMP_TextInfoDebugTool.DrawDottedRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, float)Õ
+VDrawSolidRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, float){TMPro.Examples.TMP_TextInfoDebugTool.DrawSolidRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, float)›
+9DrawSquare(UnityEngine.Vector3, float, UnityEngine.Color)^TMPro.Examples.TMP_TextInfoDebugTool.DrawSquare(UnityEngine.Vector3, float, UnityEngine.Color)¡
+<DrawCrosshair(UnityEngine.Vector3, float, UnityEngine.Color)aTMPro.Examples.TMP_TextInfoDebugTool.DrawCrosshair(UnityEngine.Vector3, float, UnityEngine.Color)’
+tDrawRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)™TMPro.Examples.TMP_TextInfoDebugTool.DrawRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)ž
+zDrawDottedRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)ŸTMPro.Examples.TMP_TextInfoDebugTool.DrawDottedRectangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)W
+TMP_TextInfoDebugTool()<TMPro.Examples.TMP_TextInfoDebugTool.TMP_TextInfoDebugTool()

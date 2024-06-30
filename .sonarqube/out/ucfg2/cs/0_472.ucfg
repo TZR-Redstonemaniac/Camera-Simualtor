@@ -1,51 +1,21 @@
 
-Shapes.Disc.DashSpacing.getõ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs% %("0*
-0% %(*
-1*
-1%
- %( *
-2
-3*«
-2%# %(1^
-\
-%# %(,
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleS
-Q
-%# %(1
-	%capture0float"__id*+)*'
-
-%0Shapes.DashStyle"
-sizefloat*
-4* 
-3%4 %(E^
-\
-%4 %(=
-%1Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStyleV
-T
-%4 %(E
-	%capture0float"__id*.,**
-
-%1Shapes.DashStyle"
-spacingfloat*
-4*W
-4%
- %(EC
-A
-%
- %(E
-%retfloat"__id* 
-%
- %(E
-
-	%capture0float*
-5**
-5%F %(F"
-%E %(F
-
-%retfloatB
+Shapes.Disc.Type.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs$ $("0*
+0$ $(*
+1*w
+1$
+ $(c
+a
+$
+ $(
+%retShapes.DiscType"__id*6
+$
+ $(**(
+Shapes.Disc"
+typeShapes.DiscType*
+2*4
+2$ $("%
+$ $(
+
+%retShapes.DiscTypeB
 Shapes.DiscX

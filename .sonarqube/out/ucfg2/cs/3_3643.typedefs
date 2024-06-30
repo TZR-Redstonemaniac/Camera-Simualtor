@@ -1,0 +1,14 @@
+¾
+!TMPro.Examples.TMP_TextSelector_BUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject-UnityEngine.EventSystems.IPointerEnterHandler,UnityEngine.EventSystems.IPointerExitHandler-UnityEngine.EventSystems.IPointerClickHandler*UnityEngine.EventSystems.IPointerUpHandler4
+Awake())TMPro.Examples.TMP_TextSelector_B.Awake():
+
+OnEnable(),TMPro.Examples.TMP_TextSelector_B.OnEnable()<
+OnDisable()-TMPro.Examples.TMP_TextSelector_B.OnDisable()l
+#ON_TEXT_CHANGED(UnityEngine.Object)ETMPro.Examples.TMP_TextSelector_B.ON_TEXT_CHANGED(UnityEngine.Object)>
+LateUpdate().TMPro.Examples.TMP_TextSelector_B.LateUpdate()˜
+9OnPointerEnter(UnityEngine.EventSystems.PointerEventData)[TMPro.Examples.TMP_TextSelector_B.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)–
+8OnPointerExit(UnityEngine.EventSystems.PointerEventData)ZTMPro.Examples.TMP_TextSelector_B.OnPointerExit(UnityEngine.EventSystems.PointerEventData)˜
+9OnPointerClick(UnityEngine.EventSystems.PointerEventData)[TMPro.Examples.TMP_TextSelector_B.OnPointerClick(UnityEngine.EventSystems.PointerEventData)’
+6OnPointerUp(UnityEngine.EventSystems.PointerEventData)XTMPro.Examples.TMP_TextSelector_B.OnPointerUp(UnityEngine.EventSystems.PointerEventData)j
+"RestoreCachedVertexAttributes(int)DTMPro.Examples.TMP_TextSelector_B.RestoreCachedVertexAttributes(int)N
+TMP_TextSelector_B()6TMPro.Examples.TMP_TextSelector_B.TMP_TextSelector_B()

@@ -1,63 +1,27 @@
 
-Shapes.Quad.ColorBottom.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs‘ ‘("0*
+"Shapes.ShapeRenderer.ColorMask.getà
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.csã ã("0*
 0
-‘ ‘(*
-1*∆
+ã ã(*
+1*∑
 1
-’ ÷(@b
-`
+ã
+ ã(†
+ù
 
-’. ’(<,
-Shapes.Quad"
-colorDUnityEngine.Color"__id*
-
-valueUnityEngine.ColorÚ
-Ô
+ã
+ ã(,
+%ret$UnityEngine.Rendering.ColorWriteMask"__id*[
 
-’ ’(>
-
-%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-
-’ ’(
-Shapes.Quad*A
-
-’ ’(,3*1
-Shapes.ShapesMaterialUtils"
-
-propColorDint*<
-
-’. ’(<.*,
-Shapes.Quad"
-colorDUnityEngine.Colora
-_
-
-÷0 ÷(=+
-Shapes.Quad"
-colorUnityEngine.Color"__id*
-
-valueUnityEngine.ColorÛ
-
-
-÷ ÷(?
-
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-
-÷ ÷(
-Shapes.Quad*@
-
-÷ ÷(.2*0
-Shapes.ShapesMaterialUtils"
-	propColorint*;
-
-÷0 ÷(=-*+
-Shapes.Quad"
-colorUnityEngine.Color*
-2*2
+ã
+ ã(M*K
+Shapes.ShapeRenderer"1
+	colorMask$UnityEngine.Rendering.ColorWriteMask*
+2*M
 2
-◊ ◊("!
+ã ã("<
 
-◊ ◊(
-implicit return:
-valueUnityEngine.ColorB
-Shapes.QuadX
+ã ã(.
+,
+%ret$UnityEngine.Rendering.ColorWriteMaskB
+Shapes.ShapeRendererX

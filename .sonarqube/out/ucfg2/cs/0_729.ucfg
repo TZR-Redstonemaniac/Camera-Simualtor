@@ -1,43 +1,38 @@
 
-Shapes.Triangle.ColorC.setÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csØ Ø("0*
+Shapes.Draw.DashSpace.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
 0
-Ø Ø(*
-1*¸
+ç ç(*
+1*“
 1
-Ø
- Ø(Gf
-d
+ç! ç(6\
+Z
 
-Ø7 Ø(E0
-Shapes.Triangle"
-colorCUnityEngine.Color"__id*
-
-valueUnityEngine.Color˝
-˙
+ç! ç(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylei
+g
 
-Ø
- Ø(G
+ç! ç(0
+%1Shapes.DashStyle"__id*;9*7
+
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyles
+q
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*!
+ç! ç(6
+%retShapes.DashSpace"__id*C
 
-Ø
- Ø(
-Shapes.Triangle*A
-
-Ø Ø(53*1
-Shapes.ShapesMaterialUtils"
-
-propColorCint*@
-
-Ø7 Ø(E2*0
-Shapes.Triangle"
-colorCUnityEngine.Color*
-2*2
+ç! ç(65*3
+
+%1Shapes.DashStyle"
+spaceShapes.DashSpace*
+2*9
 2
-ØH Ø(H"!
+ç7 ç(7"(
 
-ØG Ø(H
-implicit return:
-valueUnityEngine.ColorB
-Shapes.TriangleX
+ç6 ç(7
+
+%retShapes.DashSpaceB"
+Shapes.DrawX

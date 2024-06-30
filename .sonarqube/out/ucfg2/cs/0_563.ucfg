@@ -1,30 +1,17 @@
 
-Shapes.Draw.UseDashes.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*È
-1
-ü! ü(8\
+)Shapes.Polygon.SetAllMaterialProperties()€
+vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.csl" l(:"0*
+0l l(*
+1*p
+1l@ l(S\
 Z
+l@ l(S
 
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleT
-R
-
-ü! ü(8+
-
-%0Shapes.DrawStyle"
-	useDashesbool"__id*
-
-valuebool*
-2*2
-2
-ü9 ü(9"!
-
-ü8 ü(9
-implicit return:
-valueboolB"
-Shapes.DrawX
+%0void""Shapes.Polygon.SetFillProperties()*
+l@ l(Q
+Shapes.Polygon*
+2*.
+2lT l(T"
+lS l(T
+implicit returnB
+Shapes.PolygonX

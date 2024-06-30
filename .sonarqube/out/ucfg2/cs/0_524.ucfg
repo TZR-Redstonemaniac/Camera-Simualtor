@@ -1,36 +1,31 @@
 
-(Shapes.RegularPolygon.FillColorStart.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs∆ ∆("0*
+Shapes.Draw.Thickness.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csô ô("0*
 0
-∆ ∆(*
-1*Ä
+ô ô(*
+1*’
 1
-∆
- ∆(k
-i
+ô! ô(0\
+Z
 
-∆
- ∆(
-%0Shapes.GradientFill"__id*:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFill}
-{
+ô! ô(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylea
+_
 
-∆
- ∆(
-%retUnityEngine.Color"__id*L
+ô! ô(0
+%retfloat"__id*<
 
-∆
- ∆(>*<
-
-%0Shapes.GradientFill"
-
-colorStartUnityEngine.Color*
-2*:
+ô! ô(0.*,
+
+%0Shapes.DrawStyle"
+	thicknessfloat*
+2*.
 2
-∆ ∆(")
+ô1 ô(1"
 
-∆ ∆(
-
-%retUnityEngine.ColorB
-Shapes.RegularPolygon
+ô0 ô(1
+
+%retfloatB"
+Shapes.DrawX

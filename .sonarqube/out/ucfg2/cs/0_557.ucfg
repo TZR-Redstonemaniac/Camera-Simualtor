@@ -1,37 +1,30 @@
 
-(Shapes.Draw.GradientFillRadialRadius.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csò ò("0*
+Shapes.Draw.RadiusSpace.setŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¬ ¬("0*
 0
-ò ò(*
-1*Ä
+¬ ¬(*
+1*ì
 1
-ò! ò(H\
+¬! ¬(:\
 Z
 
-ò! ò(&
+¬! ¬(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyler
-p
+styleShapes.DrawStylex
+v
 
-ò! ò(3
-%1Shapes.GradientFill"__id*A?*=
+¬! ¬(:>
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill\
-Z
-
-ò! ò(H2
-
-%1Shapes.GradientFill"
-radialRadiusfloat"__id*
-
-valuefloat*
+%0Shapes.DrawStyle"$
+radiusSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace*
 2*2
 2
-òI ò(I"!
+¬; ¬(;"!
 
-òH ò(I
-implicit return:
-valuefloatB"
+¬: ¬(;
+implicit return: 
+valueShapes.ThicknessSpaceB"
 Shapes.DrawX

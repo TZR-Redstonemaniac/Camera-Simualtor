@@ -1,30 +1,35 @@
 
-Shapes.Draw.RadiusSpace.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¬ ¬("0*
+Shapes.Rectangle.FillSpace.get
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs£ £("0*
 0
-¬ ¬(*
-1*ì
+£ £(*
+1*ô
 1
-¬! ¬(:\
-Z
+£
+ £(f
+d
 
-¬! ¬(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylex
-v
+£
+ £(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillv
+t
 
-¬! ¬(:>
-
-%0Shapes.DrawStyle"$
-radiusSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
+£
+ £(
+%retShapes.FillSpace"__id*F
+
+£
+ £(8*6
+
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
+2*9
 2
-¬; ¬(;"!
+£ £("(
 
-¬: ¬(;
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+£ £(
+
+%retShapes.FillSpaceB
+Shapes.RectangleX

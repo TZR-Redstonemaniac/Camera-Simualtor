@@ -1,0 +1,7 @@
+å
+#TMPro.Examples.TMP_FrameRateCounterUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject6
+Awake()+TMPro.Examples.TMP_FrameRateCounter.Awake()6
+Start()+TMPro.Examples.TMP_FrameRateCounter.Start()8
+Update(),TMPro.Examples.TMP_FrameRateCounter.Update()Ø
+XSet_FrameCounter_Position(TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions)|TMPro.Examples.TMP_FrameRateCounter.Set_FrameCounter_Position(TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions)T
+TMP_FrameRateCounter():TMPro.Examples.TMP_FrameRateCounter.TMP_FrameRateCounter()

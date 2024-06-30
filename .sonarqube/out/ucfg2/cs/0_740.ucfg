@@ -1,51 +1,30 @@
 
-Shapes.ArrayPool<T>.Alloc(int)Ñ
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\ObjectPools.cs	 	("0*
-0	 	(*
-1*π
-1	- 	(<°
-û
-	- 	(7	
-%0int"3System.Collections.Generic.ICollection<T>.Count.get*R
-	- 	(1F*D
-Shapes.ArrayPool<T>"+
-pool#System.Collections.Generic.Stack<T>*
-2
-3*e
-2	? 	(N
-	? 	(N	
-%1T[]"T[]3
-1
-	? 	(N
-	%capture0T[]"__id*
-	
-%1T[]*
-4*Á
-3	Q 	([ù
-ö
-	Q 	([	
-%2T[]"/System.Collections.Generic.ICollection<T>.Pop()*R
-	Q 	(UF*D
-Shapes.ArrayPool<T>"+
-pool#System.Collections.Generic.Stack<T>3
-1
-	Q 	([
-	%capture0T[]"__id*
-	
-%2T[]*
-4*S
-4	- 	([?
-=
-	- 	([
-%retT[]"__id*
-	- 	([
-
-	%capture0T[]*
-5*(
-5	\ 	(\"
-	[ 	(\
-
-%retT[]:
-	 	('
-maxCountintB"
-Shapes.ArrayPool<T>
+Shapes.Rectangle.Type.setÇ
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csO O("0*
+0O O(*
+1*ÿ
+1P R(}
+{
+P P(<
+Shapes.Rectangle"&
+typeShapes.Rectangle.RectangleType"__id*+)
+'
+valueShapes.Rectangle.RectangleTypea
+_
+Q Q(
+
+%0void"%Shapes.ShapeRenderer.UpdateMaterial()* 
+Q Q(
+Shapes.Rectangleb
+`
+R R(
+
+%1void"&Shapes.ShapeRenderer.ApplyProperties()* 
+R R(
+Shapes.Rectangle*
+2*.
+2S S("
+S S(
+implicit return:)'
+valueShapes.Rectangle.RectangleTypeB
+Shapes.RectangleX

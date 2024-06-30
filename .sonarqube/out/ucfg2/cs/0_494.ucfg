@@ -1,31 +1,58 @@
 
-Shapes.Draw.SizeSpace.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs± ±("0*
+"Shapes.RegularPolygon.FillType.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs£ £("0*
 0
-± ±(*
-1*ö
+£ £(*
+1*
 1
-±! ±(0\
-Z
+¤ ¥(Xk
+i
 
-±! ±(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle
-
+¤ ¤(
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillh
+f
 
-±! ±(0
-%retShapes.ThicknessSpace"__id*L
+¤ ¤(4
+
+%0Shapes.GradientFill"
+typeShapes.FillType"__id*
+
+valueShapes.FillTypeÎ
+Ë
 
-±! ±(0>*<
-
-%0Shapes.DrawStyle""
-	sizeSpaceShapes.ThicknessSpace*
-2*>
+¥1 ¥(U	
+%1int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*F
+
+¥1 ¥(58*6
+Shapes.RegularPolygon"
+fillShapes.GradientFill*:
+
+¥L ¥(S,**
+Shapes.RegularPolygon"
+useFillboolÎ
+Ë
+
+¥ ¥(W
+
+%2void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
+
+¥ ¥(
+Shapes.RegularPolygon*C
+
+¥ ¥(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+¥1 ¥(U
+	
+%1int*
+2*2
 2
-±1 ±(1"-
+¦ ¦("!
 
-±0 ±(1
-
-%retShapes.ThicknessSpaceB"
-Shapes.DrawX
+¦ ¦(
+implicit return:
+valueShapes.FillTypeB
+Shapes.RegularPolygonX

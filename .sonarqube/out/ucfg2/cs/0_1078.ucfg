@@ -1,32 +1,35 @@
 
-3Shapes.Quad.SetQuadVertex(int, UnityEngine.Vector3)}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csE E("0*
-0E E(*
-1*
-1E> E(Qž
-›
-E> E(Q
-%0UnityEngine.Vector3"Shapes.Quad.this[int].set*
-E> E(B
-Shapes.Quad*
-EC E(H
-
-indexint* 
-
-valueUnityEngine.Vector3[
-Y
-E> E(Q
-%retUnityEngine.Vector3"__id**
-E> E(Q
-
-valueUnityEngine.Vector3*
-2*8
-2ER E(R")
-EQ E(R
-
-%retUnityEngine.Vector3:
-E  E()
-indexint:(
-E+ E(8
-valueUnityEngine.Vector3B
-Shapes.Quad
+"Shapes.Draw.LineThicknessSpace.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÁ Á("0*
+0
+Á Á(*
+1*ü
+1
+Á
+ Á(\
+Z
+
+Á
+ Á(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle‡
+„
+
+Á
+ Á(
+%retShapes.ThicknessSpace"__id*Q
+
+Á
+ Á(C*A
+
+%0Shapes.DrawStyle"'
+thicknessSpaceShapes.ThicknessSpace*
+2*>
+2
+Á Á("-
+
+Á Á(
+
+%retShapes.ThicknessSpaceB"
+Shapes.DrawX

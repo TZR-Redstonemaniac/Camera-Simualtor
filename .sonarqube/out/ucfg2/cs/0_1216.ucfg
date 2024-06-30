@@ -1,63 +1,89 @@
 
-Shapes.Quad.ColorLeft.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.cs¼ ¼("0*
+6Shapes.ShapesMaterialUtils.GetRectMaterial(bool, bool)‰
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMaterialUtils.cs“  “(/"0*
 0
-¼ ¼(*
-1*Æ
+“ “(*
+1*
 1
-½ ¾(Ba
-_
-
-½- ½(:+
-Shapes.Quad"
-colorUnityEngine.Color"__id*
-
-valueUnityEngine.Colorð
-í
-
-½ ½(<
-
-%0void"5Shapes.ShapeRenderer.SetColor(int, UnityEngine.Color)*
-
-½ ½(
-Shapes.Quad*@
-
-½ ½(+2*0
-Shapes.ShapesMaterialUtils"
-	propColorint*;
-
-½- ½(:-*+
-Shapes.Quad"
-colorUnityEngine.Colorb
-`
-
-¾1 ¾(?,
-Shapes.Quad"
-colorBUnityEngine.Color"__id*
-
-valueUnityEngine.Colorõ
-ò
-
-¾ ¾(A
-
-%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
-
-¾ ¾(
-Shapes.Quad*A
-
-¾ ¾(/3*1
-Shapes.ShapesMaterialUtils"
-
-propColorBint*<
-
-¾1 ¾(?.*,
-Shapes.Quad"
-colorBUnityEngine.Color*
-2*2
+” ”(*
+2
+6*
 2
-¿ ¿("!
+• •(*
+3
+4*¥
+3
+• •()Ž
+‹
 
-¿ ¿(
-implicit return:
-valueUnityEngine.ColorB
-Shapes.QuadX
+• •()#
+	%capture0Shapes.ShapesMaterials"__id*RP*N
+Shapes.ShapesMaterialUtils".
+matRectBorderRoundedShapes.ShapesMaterials*
+5*ž
+4
+•, •(9‡
+„
+
+•, •(9#
+	%capture0Shapes.ShapesMaterials"__id*KI*G
+Shapes.ShapesMaterialUtils"'
+matRectBorderShapes.ShapesMaterials*
+5*€
+5
+• •(9i
+g
+
+• •(9
+%retShapes.ShapesMaterials"__id*3
+
+• •(9%
+#
+	%capture0Shapes.ShapesMaterials*
+10*
+6
+— —(*
+7
+8*Ÿ
+7
+— —(#ˆ
+…
+
+— —(##
+	%capture1Shapes.ShapesMaterials"__id*LJ*H
+Shapes.ShapesMaterialUtils"(
+matRectRoundedShapes.ShapesMaterials*
+9*ž
+8
+—& —(3‡
+„
+
+—& —(3#
+	%capture1Shapes.ShapesMaterials"__id*KI*G
+Shapes.ShapesMaterialUtils"'
+matRectSimpleShapes.ShapesMaterials*
+9*€
+9
+— —(3i
+g
+
+— —(3
+%retShapes.ShapesMaterials"__id*3
+
+— —(3%
+#
+	%capture1Shapes.ShapesMaterials*
+10*@
+10
+˜ ˜(".
+
+˜ ˜( 
+
+%retShapes.ShapesMaterials:
+
+“1 “(<
+hollowbool:
+
+“> “(J
+roundedboolB"
+Shapes.ShapesMaterialUtils

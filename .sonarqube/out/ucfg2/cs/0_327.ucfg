@@ -1,35 +1,21 @@
 
- Shapes.Polygon.FillLinearEnd.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs∂ ∂("0*
-0
-∂ ∂(*
-1*˝
-1
-∂
- ∂(d
-b
-
-∂
- ∂(
-%0Shapes.GradientFill"__id*31*/
-Shapes.Polygon"
-fillShapes.GradientFillÄ
-~
-
-∂
- ∂(
-%retUnityEngine.Vector3"__id*M
-
-∂
- ∂(?*=
-
-%0Shapes.GradientFill" 
-	linearEndUnityEngine.Vector3*
-2*<
-2
-∂ ∂("+
-
-∂ ∂(
-
-%retUnityEngine.Vector3B
-Shapes.Polygon
+Shapes.Line.ColorMode.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.cs+ +("0*
+0+ +(*
+1*ê
+1+
+ +(|
+z
++
+ +(!
+%retShapes.Line.LineColorMode"__id*E
++
+ +(9*7
+Shapes.Line"&
+	colorModeShapes.Line.LineColorMode*
+2*>
+2+ +("/
++ +(#
+!
+%retShapes.Line.LineColorModeB
+Shapes.LineX

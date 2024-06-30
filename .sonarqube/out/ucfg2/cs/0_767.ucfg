@@ -1,82 +1,16 @@
 
-%Shapes.ShapeGroup.UpdateChildShapes()É
-yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeGroup.cs- -("0*
-0- -(*
-1*Ò
-1. /(Å
-
-. .(D
-%0Shapes.ShapeRenderer[]"2UnityEngine.Component.GetComponentsInChildren<T>()*!
-. .(B
-Shapes.ShapeGroupV
-T
-. .(D 
-shapesShapes.ShapeRenderer[]"__id* 
-
-%0Shapes.ShapeRenderer[]*
-2
-8*§
-20$ 0(*§°
-0$ 0(*$
-%1System.Collections.IEnumerator".System.Collections.IEnumerable.GetEnumerator()*.
-0$ 0(*"
- 
-shapesShapes.ShapeRenderer[]2GetEnumerator()i
-g
-0$ 0(*+
-	%capture0System.Collections.IEnumerator"__id*(&
-$
-%1System.Collections.IEnumerator*
-3*£
-30$ 0(*ãà
-0$ 0(*
-
-%2bool")System.Collections.IEnumerator.MoveNext()*9
-0$ 0(*-
+:Shapes.MpbLine2D.Shapes.IDashableMpb.dashShapeModifier.setã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2"0*·
+0X3 X(3´
+®
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2a
+Shapes.MpbLine2D"K
+%Shapes.IDashableMpb.dashShapeModifier"System.Collections.Generic.List<T>"__id*/-
 +
-	%capture0System.Collections.IEnumerator2
-MoveNext()*
-4
-5*‰
-40 1()èå
-0 0(
-%3object"*System.Collections.IEnumerator.Current.get*9
-0$ 0(*-
-+
-	%capture0System.Collections.IEnumerator2Current.getC
-A
-0 0(
-shapeShapes.ShapeRenderer"__id*
-
-%3objecty
-w
-1 1((
-
-%4void"2Shapes.ShapeRenderer.UpdateAllMaterialProperties()*+
-1 1(
-
-
-shapeShapes.ShapeRenderer*
-3*{
-50$ 0(*d
-b
-0$ 0(*
-	%capture1System.IDisposable"__id*/-
-+
-	%capture0System.Collections.IEnumerator*
-6
-7*Ñ
-60$ 0(*pn
-0$ 0(*
-
-%5void"System.IDisposable.Dispose()*-
-0$ 0(*!
-
-	%capture1System.IDisposable2	Dispose()*
-7*
-7- -(*
-8*.
-82 2("
-2 2(
-implicit returnB
-Shapes.ShapeGroupX
+value"System.Collections.Generic.List<T>"£
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csX/ X(2
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbLine2D

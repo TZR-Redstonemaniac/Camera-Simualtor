@@ -1,35 +1,35 @@
 
- Shapes.Draw.PolygonShapeFill.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŸ Ÿ("0*
-0
-Ÿ Ÿ(*
-1*ı
-1
-Ÿ
- Ÿ(\
-Z
+Shapes.Polyline.this[int].getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csR R("0*
+0R R(*
+1*º
+1R
+ R(À
+»
+R
+ R(
+%0Shapes.PolylinePoint"7System.Collections.Generic.ICollection<T>.this[int].get*O
+R
+ R(C*A
+Shapes.Polyline",
+points"System.Collections.Generic.List<T>*
+R R(
 
-Ÿ
- Ÿ(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleÄ
-~
-
-Ÿ
- Ÿ(
-%retShapes.GradientFill"__id*M
-
-Ÿ
- Ÿ(?*=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill*
-2*<
-2
-Ÿ Ÿ("+
-
-Ÿ Ÿ(
-
-%retShapes.GradientFillB"
-Shapes.Draw
+
+iintZ
+X
+R
+ R(
+%retShapes.PolylinePoint"__id*(
+R
+ R(
+
+%0Shapes.PolylinePoint*
+2*9
+2R R("*
+R R(
+
+%retShapes.PolylinePoint:
+
+iintB
+Shapes.Polyline

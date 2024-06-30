@@ -1,27 +1,18 @@
 
-Shapes.Disc.ThicknessSpace.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csØ Ø("0*
+3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSnap.getç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()"0*ë
 0
-Ø Ø(*
-1*ì
-1
-Ø
- Ø(}
-{
-
-Ø
- Ø(
-%retShapes.ThicknessSpace"__id*H
-
-Ø
- Ø(:*8
-Shapes.Disc"'
-thicknessSpaceShapes.ThicknessSpace*
-2*>
-2
-Ø Ø("-
-
-Ø Ø(
-
-%retShapes.ThicknessSpaceB
-Shapes.DiscX
+º* º(*∫
+∑
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º().
+%ret&System.Collections.Generic.List<float>"__id*Ó
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()\*Z
+Shapes.MpbTriangle"B
+Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"¬
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csº& º()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbTriangle

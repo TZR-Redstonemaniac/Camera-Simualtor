@@ -1,31 +1,42 @@
 
-Shapes.Draw.LineGeometry.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÂ Â("0*
+Shapes.Disc.AngRadiansStart.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csˆ ˆ("0*
 0
-Â Â(*
-1*õ
+ˆ ˆ(*
+1*Ô
 1
-Â! Â(3\
-Z
+ˆ
+ ˆ(RS
+Q
 
-Â! Â(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle€
-~
+ˆ9 ˆ(P)
+Shapes.Disc"
+angRadiansStartfloat"__id*
+
+valuefloatè
+å
 
-Â! Â(3
-%retShapes.LineGeometry"__id*M
+ˆ
+ ˆ(R
 
-Â! Â(3?*=
-
-%0Shapes.DrawStyle"#
-lineGeometryShapes.LineGeometry*
-2*<
+%0void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+
+ˆ
+ ˆ(
+Shapes.Disc*C
+
+ˆ ˆ(75*3
+Shapes.ShapesMaterialUtils"
+propAngStartint*9
+
+ˆ9 ˆ(P+*)
+Shapes.Disc"
+angRadiansStartfloat*
+2*2
 2
-Â4 Â(4"+
+ˆS ˆ(S"!
 
-Â3 Â(4
-
-%retShapes.LineGeometryB"
-Shapes.DrawX
+ˆR ˆ(S
+implicit return:
+valuefloatB
+Shapes.DiscX

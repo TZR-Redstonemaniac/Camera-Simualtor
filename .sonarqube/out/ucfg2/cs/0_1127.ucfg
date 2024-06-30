@@ -1,27 +1,33 @@
 
-Shapes.Quad.B.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÄ Ä("0*
+"Shapes.Draw.RectangleShapeFill.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÊ Ê("0*
 0
-Ä Ä(*
-1*Ç
+Ê Ê(*
+1*È
 1
-Ä
- Ä(l
-j
+Ê
+ Ê($\
+Z
 
-Ä
- Ä(
-%retUnityEngine.Vector3"__id*9
+Ê
+ Ê(
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleu
+s
 
-Ä
- Ä(+*)
-Shapes.Quad"
-bUnityEngine.Vector3*
-2*<
+Ê
+ Ê($=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill"__id* 
+
+valueShapes.GradientFill*
+2*2
 2
-Ä Ä("+
+Ê% Ê(%"!
 
-Ä Ä(
-
-%retUnityEngine.Vector3B
-Shapes.Quad
+Ê$ Ê(%
+implicit return:
+valueShapes.GradientFillB"
+Shapes.DrawX

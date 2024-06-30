@@ -1,50 +1,40 @@
 
-"Shapes.RegularPolygon.DashType.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csâ â("0*
-0
-â â(*
-1*‡
-1
-â
- â(Xj
-h
-
-â> â(G
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStylee
-c
-
-â> â(T1
+Shapes.Disc.DashType.setõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs< <("0*
+0< <(*
+1*æ
+1<
+ <(X^
+\
+<> <(G
+%0Shapes.DashStyle"__id*20*.
+Shapes.Disc"
+	dashStyleShapes.DashStylec
+a
+<> <(T1
 
 %0Shapes.DashStyle"
 typeShapes.DashType"__id*
 
-valueShapes.DashTypeˆ
-Û
+valueShapes.DashType‰
+·
+<
+ <(X
 
-â
- â(X
-
-%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
-
-â
- â(
-Shapes.RegularPolygon*C
-
-â â(55*3
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*
+<
+ <(
+Shapes.Disc*A
+< <(55*3
 Shapes.ShapesMaterialUtils"
-propDashTypeint*A
-
-â7 â(V3*1
+propDashTypeint*?
+<7 <(V3*1
 
 %0Shapes.DashStyle"
 typeShapes.DashType*
-2*2
-2
-âY â(Y"!
-
-âX â(Y
+2*.
+2<Y <(Y"
+<X <(Y
 implicit return:
-valueShapes.DashTypeB
-Shapes.RegularPolygonX
+valueShapes.DashTypeB
+Shapes.DiscX

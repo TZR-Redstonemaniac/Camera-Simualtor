@@ -1,50 +1,21 @@
 
-Shapes.Rectangle.DashOffset.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÙ Ù("0*
-0
-Ù Ù(*
-1*¬
-1
-Ù
- Ù(Ue
-c
+Shapes.Line.Thickness.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csP P("0*
+0P P(*
+1*h
+1P
+ P(T
+R
+P
+ P(
+%retfloat"__id*1
+P
+ P(%*#
+Shapes.Line"
+	thicknessfloat*
+2**
+2P P("
+P P(
 
-Ù; Ù(D
-%0Shapes.DashStyle"__id*75*3
-Shapes.Rectangle"
-	dashStyleShapes.DashStyleS
-Q
-
-Ù; Ù(S)
-
-%0Shapes.DashStyle"
-offsetfloat"__id*
-
-valuefloatÔ
-Ï
-
-Ù
- Ù(U
-
-%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*"
-
-Ù
- Ù(
-Shapes.Rectangle*E
-
-Ù Ù(97*5
-Shapes.ShapesMaterialUtils"
-propDashOffsetint*9
-
-Ù; Ù(S+*)
-
-%0Shapes.DashStyle"
-offsetfloat*
-2*2
-2
-ÙV Ù(V"!
-
-ÙU Ù(V
-implicit return:
-valuefloatB
-Shapes.RectangleX
+%retfloatB
+Shapes.LineX

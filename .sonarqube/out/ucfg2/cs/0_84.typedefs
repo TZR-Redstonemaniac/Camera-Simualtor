@@ -1,60 +1,44 @@
-þ
-Shapes.QuadShapes.ShapeRendererUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject4
-GetQuadVertex(int)Shapes.Quad.GetQuadVertex(int)^
-'SetQuadVertex(int, UnityEngine.Vector3)3Shapes.Quad.SetQuadVertex(int, UnityEngine.Vector3)2
-GetQuadColor(int)Shapes.Quad.GetQuadColor(int)X
-$SetQuadColor(int, UnityEngine.Color)0Shapes.Quad.SetQuadColor(int, UnityEngine.Color)$
+·
+Shapes.PolylineShapes.ShapeRendererUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobjecth
+*SetPointPosition(int, UnityEngine.Vector3):Shapes.Polyline.SetPointPosition(int, UnityEngine.Vector3)^
+%SetPointColor(int, UnityEngine.Color)5Shapes.Polyline.SetPointColor(int, UnityEngine.Color)N
+SetPointThickness(int, float)-Shapes.Polyline.SetPointThickness(int, float)¸
+‘SetPoints(System.Collections.Generic.IReadOnlyCollection<UnityEngine.Vector3>, System.Collections.Generic.IReadOnlyCollection<UnityEngine.Color>)¡Shapes.Polyline.SetPoints(System.Collections.Generic.IReadOnlyCollection<UnityEngine.Vector3>, System.Collections.Generic.IReadOnlyCollection<UnityEngine.Color>)¸
+‘SetPoints(System.Collections.Generic.IReadOnlyCollection<UnityEngine.Vector2>, System.Collections.Generic.IReadOnlyCollection<UnityEngine.Color>)¡Shapes.Polyline.SetPoints(System.Collections.Generic.IReadOnlyCollection<UnityEngine.Vector2>, System.Collections.Generic.IReadOnlyCollection<UnityEngine.Color>)¢
+GSetPoints(System.Collections.Generic.IEnumerable<Shapes.PolylinePoint>)WShapes.Polyline.SetPoints(System.Collections.Generic.IEnumerable<Shapes.PolylinePoint>)¢
+GAddPoints(System.Collections.Generic.IEnumerable<Shapes.PolylinePoint>)WShapes.Polyline.AddPoints(System.Collections.Generic.IEnumerable<Shapes.PolylinePoint>)N
+AddPoint(UnityEngine.Vector3)-Shapes.Polyline.AddPoint(UnityEngine.Vector3)t
+0AddPoint(UnityEngine.Vector3, UnityEngine.Color)@Shapes.Polyline.AddPoint(UnityEngine.Vector3, UnityEngine.Color)‚
+7AddPoint(UnityEngine.Vector3, UnityEngine.Color, float)GShapes.Polyline.AddPoint(UnityEngine.Vector3, UnityEngine.Color, float)\
+$AddPoint(UnityEngine.Vector3, float)4Shapes.Polyline.AddPoint(UnityEngine.Vector3, float)P
+AddPoint(Shapes.PolylinePoint).Shapes.Polyline.AddPoint(Shapes.PolylinePoint)0
+CamOnPreCull()Shapes.Polyline.CamOnPreCull()0
+GenerateMesh()Shapes.Polyline.GenerateMesh()H
+SetAllMaterialProperties()*Shapes.Polyline.SetAllMaterialProperties()8
+ShapeClampRanges()"Shapes.Polyline.ShapeClampRanges()0
+GetMaterials()Shapes.Polyline.GetMaterials()<
+GetBounds_Internal()$Shapes.Polyline.GetBounds_Internal()(
 
-AutoSetD()Shapes.Quad.AutoSetD().
-CheckAutoSetD()Shapes.Quad.CheckAutoSetD()D
-SetAllMaterialProperties()&Shapes.Quad.SetAllMaterialProperties():
-GetInitialMeshAsset()!Shapes.Quad.GetInitialMeshAsset(),
-GetMaterials()Shapes.Quad.GetMaterials()8
-GetBounds_Internal() Shapes.Quad.GetBounds_Internal()
-Quad()Shapes.Quad.Quad()*
-this[int].getShapes.Quad.this[int].get*
-this[int].setShapes.Quad.this[int].set*
-ColorMode.getShapes.Quad.ColorMode.get*
-ColorMode.setShapes.Quad.ColorMode.set
-A.getShapes.Quad.A.get
-A.setShapes.Quad.A.set
-B.getShapes.Quad.B.get
-B.setShapes.Quad.B.set
-C.getShapes.Quad.C.get
-C.setShapes.Quad.C.set
-D.getShapes.Quad.D.get
-D.setShapes.Quad.D.set0
-IsUsingAutoD.getShapes.Quad.IsUsingAutoD.get0
-IsUsingAutoD.setShapes.Quad.IsUsingAutoD.set"
-	DAuto.getShapes.Quad.DAuto.get"
-	DAuto.setShapes.Quad.DAuto.set"
-	Color.getShapes.Quad.Color.get"
-	Color.setShapes.Quad.Color.set*
-ColorLeft.getShapes.Quad.ColorLeft.get*
-ColorLeft.setShapes.Quad.ColorLeft.set(
-ColorTop.getShapes.Quad.ColorTop.get(
-ColorTop.setShapes.Quad.ColorTop.set,
-ColorRight.getShapes.Quad.ColorRight.get,
-ColorRight.setShapes.Quad.ColorRight.set.
-ColorBottom.getShapes.Quad.ColorBottom.get.
-ColorBottom.setShapes.Quad.ColorBottom.set$
+Polyline()Shapes.Polyline.Polyline()0
+PolyPoints.getShapes.Polyline.PolyPoints.get0
+PolyPoints.setShapes.Polyline.PolyPoints.set,
+Geometry.getShapes.Polyline.Geometry.get,
+Geometry.setShapes.Polyline.Geometry.set&
+	Joins.getShapes.Polyline.Joins.get&
+	Joins.setShapes.Polyline.Joins.set(
 
-ColorA.getShapes.Quad.ColorA.get$
+Closed.getShapes.Polyline.Closed.get(
 
-ColorA.setShapes.Quad.ColorA.set$
-
-ColorB.getShapes.Quad.ColorB.get$
-
-ColorB.setShapes.Quad.ColorB.set$
-
-ColorC.getShapes.Quad.ColorC.get$
-
-ColorC.setShapes.Quad.ColorC.set$
-
-ColorD.getShapes.Quad.ColorD.get$
-
-ColorD.setShapes.Quad.ColorD.set6
-HasDetailLevels.getShapes.Quad.HasDetailLevels.get6
-HasDetailLevels.setShapes.Quad.HasDetailLevels.set2
-HasScaleModes.getShapes.Quad.HasScaleModes.get2
-HasScaleModes.setShapes.Quad.HasScaleModes.set
+Closed.setShapes.Polyline.Closed.set.
+Thickness.getShapes.Polyline.Thickness.get.
+Thickness.setShapes.Polyline.Thickness.set8
+ThicknessSpace.get"Shapes.Polyline.ThicknessSpace.get8
+ThicknessSpace.set"Shapes.Polyline.ThicknessSpace.set&
+	Count.getShapes.Polyline.Count.get&
+	Count.setShapes.Polyline.Count.set.
+this[int].getShapes.Polyline.this[int].get.
+this[int].setShapes.Polyline.this[int].set:
+UseCamOnPreCull.get#Shapes.Polyline.UseCamOnPreCull.get:
+UseCamOnPreCull.set#Shapes.Polyline.UseCamOnPreCull.set8
+MeshUpdateMode.get"Shapes.Polyline.MeshUpdateMode.get8
+MeshUpdateMode.set"Shapes.Polyline.MeshUpdateMode.set

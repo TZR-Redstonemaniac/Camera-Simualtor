@@ -1,24 +1,17 @@
 
-Shapes.PointPath<T>.PointPath()Ü
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\PointPath.cs	 	("0*Ô
-0ZX
- (((
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ö
-ó
- (((
-%1"System.Collections.Generic.List<T>")System.Collections.Generic.List<T>.List()*6
- ((*
-(
-%0"System.Collections.Generic.List<T>Ü
-É
- ((C
-Shapes.PointPath<T>"*
-path"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>Q
-O
+Shapes.Polygon.Polygon()ù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÑ Ñ("0*
+0á
+Ñ
 
-%2void"&Shapes.DisposableMesh.DisposableMesh()*
-Shapes.PointPath<T>"
-implicit returnB
-Shapes.PointPath<T>X
+Ö7 Ö(Q/
+Shapes.Polygon"
+fillShapes.GradientFill"__id*?=*;
+Shapes.GradientFill""
+defaultFillShapes.GradientFillJ
+H
+
+%0void"$Shapes.ShapeRenderer.ShapeRenderer()*
+Shapes.Polygon"
+implicit returnB
+Shapes.PolygonX

@@ -1,120 +1,94 @@
 
-ÜShapes.ShapesMath.WeightedSum(UnityEngine.Vector4, UnityEngine.Vector2, UnityEngine.Vector2, UnityEngine.Vector2, UnityEngine.Vector2)~
-tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMath.cs$/ $(:"0*
-0$ $(*
-1*≤
-1	$w $(ú›
-⁄
-$w $(~
-%0UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*4
-$w $(z(*&
-
-wUnityEngine.Vector4"
-
-xfloat*&
-$} $(~
-
-aUnityEngine.Vector2„
-‡
-
-$Å $(à
-%1UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
-
-$Å $(Ñ(*&
-
-wUnityEngine.Vector4"
-
-yfloat*(
-
-$á $(à
-
-bUnityEngine.Vector2‚
-ﬂ
-	$w $(à
-%2UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*'
-$w $(~
-
-%0UnityEngine.Vector2*)
-
-$Å $(à
-
-%1UnityEngine.Vector2„
-‡
-
-$ã $(í
-%3UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
-
-$ã $(é(*&
-
-wUnityEngine.Vector4"
-
-zfloat*(
-
-$ë $(í
-
-cUnityEngine.Vector2„
-‡
-	$w $(í
-%4UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*(
-	$w $(à
-
-%2UnityEngine.Vector2*)
-
-$ã $(í
-
-%3UnityEngine.Vector2„
-‡
-
-$ï $(ú
-%5UnityEngine.Vector2":UnityEngine.Vector2.operator *(float, UnityEngine.Vector2)*"
-UnityEngine.Vector2*6
-
-$ï $(ò(*&
-
-wUnityEngine.Vector4"
-
-wfloat*(
-
-$õ $(ú
-
-dUnityEngine.Vector2„
-‡
-	$w $(ú
-%6UnityEngine.Vector2"HUnityEngine.Vector2.operator +(UnityEngine.Vector2, UnityEngine.Vector2)*"
-UnityEngine.Vector2*(
-	$w $(í
-
-%4UnityEngine.Vector2*)
-
-$ï $(ú
-
-%5UnityEngine.Vector2Z
-X
-	$w $(ú
-%retUnityEngine.Vector2"__id*(
-	$w $(ú
-
-%6UnityEngine.Vector2*
-2*<
+OShapes.ShapesExtensions.SetIntValue(UnityEditor.SerializedProperty, int, int[])Ü
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesExtensions.csî î( "0*
+0
+î î(*
+1*
+1
+ï ï(*
+2
+3*„
 2
-$ù $(ù"+
+ñ ñ(!ô
+ñ
 
-$ú $(ù
-
-%retUnityEngine.Vector2:$
-$< $(E
-wUnityEngine.Vector4:$
-$G $(P
-aUnityEngine.Vector2:$
-$R $([
-bUnityEngine.Vector2:$
-$] $(f
-cUnityEngine.Vector2:$
-$h $(q
-dUnityEngine.Vector2B"
-Shapes.ShapesMath
+ñ ñ( 	
+%0int"7System.Collections.Generic.ICollection<T>.this[int].get*&
+
+ñ ñ(
+
+indexOverrideint[]*
+
+ñ ñ(
+
+valueint1
+/
+
+ñ ñ( 
+valueint"__id*
+	
+%0int*
+3*±
+3
+ò ô($¢
+ü
+
+ò ò((
+%1"UnityEditor.SerializedPropertyType"/UnityEditor.SerializedProperty.propertyType.get*6
+
+ò ò((
+&
+propUnityEditor.SerializedPropertys
+q
+
+ò ò(/
+	%capture0"UnityEditor.SerializedPropertyType"__id*,*
+(
+%1"UnityEditor.SerializedPropertyType*
+4
+5*Æ
+4
+ö ö(!ó
+î
+
+ö ö( 	
+%2int"1UnityEditor.SerializedProperty.enumValueIndex.set*6
+
+ö ö(	(
+&
+propUnityEditor.SerializedProperty*
+
+valueint*
+7*
+5
+ú	 ú('*
+6
+7*®
+6
+ù ù(ë
+é
+
+ù ù(	
+%3int"+UnityEditor.SerializedProperty.intValue.set*6
+
+ù ù(	(
+&
+propUnityEditor.SerializedProperty*
+
+valueint*
+7*2
+7
+† †("!
+
+† †(
+implicit return:4
+
+î" î(>&
+propUnityEditor.SerializedProperty:
+
+î@ î(I
+valueint:$
+
+îK î(e
+indexOverrideint[]B"
+Shapes.ShapesExtensionsX

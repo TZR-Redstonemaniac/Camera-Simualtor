@@ -1,33 +1,42 @@
 
- Shapes.Draw.PolygonShapeFill.set
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
+"Shapes.Triangle.ThicknessSpace.setƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs ("0*
 0
-Ú Ú(*
-1*é
+ (*
+1*
 1
-Ú
- Ú($\
-Z
+
+ (^v
+t
 
-Ú
- Ú(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleu
-s
+D (Z<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace"__id*" 
+
+valueShapes.ThicknessSpace
+ş
 
-Ú
- Ú($=
-
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill"__id* 
-
-valueShapes.GradientFill*
+
+ (^
+
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*!
+
+
+ (
+Shapes.Triangle*I
+
+ (;;*9
+Shapes.ShapesMaterialUtils"
+propThicknessSpaceint*L
+
+= (\>*<
+Shapes.Triangle"'
+thicknessSpaceShapes.ThicknessSpace*
 2*2
 2
-Ú% Ú(%"!
+_ (_"!
 
-Ú$ Ú(%
-implicit return:
-valueShapes.GradientFillB"
-Shapes.DrawX
+^ (_
+implicit return: 
+valueShapes.ThicknessSpaceB
+Shapes.TriangleX

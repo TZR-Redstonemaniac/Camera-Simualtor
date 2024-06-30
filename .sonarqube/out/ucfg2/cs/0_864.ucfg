@@ -1,25 +1,30 @@
 
-EShapes.GradientFillStack.GradientFillStack(bool, Shapes.GradientFill)è
-ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\GradientFillStack.cs ("0*
-0 (*
-1*⁄
-1B (d≈
-¬
-B (d
+Shapes.Draw.LineEndCaps.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csΩ Ω("0*
+0
+Ω Ω(*
+1*‰
+1
+Ω! Ω(:\
+Z
 
-%0void"1System.Collections.Generic.ICollection<T>.Push(T)*\
-B (KP*N
-Shapes.GradientFillStack"0
-	gradients#System.Collections.Generic.Stack<T>*
-R (b
-	{unknown}*
-2*.
-2e (e"
-d (e
-implicit return:
- (%
+Ω! Ω(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylep
+n
 
-onbool:+
-' (<
-gradientShapes.GradientFillB
-Shapes.GradientFillStackX
+Ω! Ω(::
+
+%0Shapes.DrawStyle" 
+lineEndCapsShapes.LineEndCap"__id*
+
+valueShapes.LineEndCap*
+2*2
+2
+Ω; Ω(;"!
+
+Ω: Ω(;
+implicit return:
+valueShapes.LineEndCapB"
+Shapes.DrawX

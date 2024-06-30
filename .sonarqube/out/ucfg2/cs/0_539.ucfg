@@ -1,35 +1,54 @@
 
-Shapes.Disc.GetNetDashSpacing()õ
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csC C("0*
-0C C(*
-1*∂
-1C C(h„
-‡
-C C(h
-%0float"KShapes.ShapeRenderer.GetNetDashSpacing(Shapes.DashStyle, bool, bool, float)*
-C C(0
-Shapes.Disc*<
-C2 C(;0*.
-Shapes.Disc"
-	dashStyleShapes.DashStyle*-
-C= C(C!*
-Shapes.Disc"
-dashedbool*=
-CE C([1*/
-Shapes.Disc"
-matchDashSpacingToSizebool*1
-C] C(f%*#
-Shapes.Disc"
-	thicknessfloat<
-:
-C C(h
-%retfloat"__id*
-C C(h
-
-%0float*
-2**
-2Ci C(i"
-Ch C(i
+$Shapes.Rectangle.FillLinearStart.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs∂ ∂("0*
+0
+∂ ∂(*
+1*Ç
+1
+∑ ∏(Tf
+d
 
-%retfloatB
-Shapes.DiscX
+∑ ∑(
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillw
+u
+
+∑ ∑(?
+
+%0Shapes.GradientFill""
+linearStartUnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3ô
+ñ
+
+∏6 ∏(Q
+%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*A
+
+∏6 ∏(:3*1
+Shapes.Rectangle"
+fillShapes.GradientFillÓ
+Î
+
+∏ ∏(S
+
+%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*"
+
+∏ ∏(
+Shapes.Rectangle*D
+
+∏ ∏(46*4
+Shapes.ShapesMaterialUtils"
+propFillStartint*)
+
+∏6 ∏(Q
+
+%1UnityEngine.Vector4*
+2*2
+2
+π π("!
+
+π π(
+implicit return:
+valueUnityEngine.Vector3B
+Shapes.RectangleX

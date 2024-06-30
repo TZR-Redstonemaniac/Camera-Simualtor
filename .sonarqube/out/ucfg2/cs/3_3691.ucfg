@@ -1,0 +1,24 @@
+
+#TMPro.Examples.VertexShakeA.Start()ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs% %("0*
+0% %(*
+1*Ä
+1' '(2ì
+ê
+' '(0$
+%0System.Collections.IEnumerator"1TMPro.Examples.VertexShakeA.AnimateVertexColors()*+
+' '(.
+TMPro.Examples.VertexShakeA’
+“
+' '(1
+%1UnityEngine.Coroutine"HUnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)*+
+' '(
+TMPro.Examples.VertexShakeA*2
+' '(0&
+$
+%0System.Collections.IEnumerator*
+2*.
+2(	 ((	"
+( ((	
+implicit returnB
+TMPro.Examples.VertexShakeAX

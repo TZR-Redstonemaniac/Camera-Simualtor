@@ -1,17 +1,30 @@
 
-)Shapes.Polygon.SetAllMaterialProperties()Ä
-vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polygon.csl" l(:"0*
-0l l(*
-1*p
-1l@ l(S\
+Shapes.Draw.LineGeometry.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs√ √("0*
+0
+√ √(*
+1*È
+1
+√! √(;\
 Z
-l@ l(S
 
-%0void""Shapes.Polygon.SetFillProperties()*
-l@ l(Q
-Shapes.Polygon*
-2*.
-2lT l(T"
-lS l(T
-implicit returnB
-Shapes.PolygonX
+√! √(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyleu
+s
+
+√! √(;=
+
+%0Shapes.DrawStyle"#
+lineGeometryShapes.LineGeometry"__id* 
+
+valueShapes.LineGeometry*
+2*2
+2
+√< √(<"!
+
+√; √(<
+implicit return:
+valueShapes.LineGeometryB"
+Shapes.DrawX

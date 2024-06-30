@@ -1,43 +1,42 @@
 
-Shapes.Quad.ColorC.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csé é("0*
+$Shapes.ShapeRenderer.StencilComp.setˆ
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs¡ ¡("0*
 0
-é é(*
-1*ð
+¡ ¡(*
+1*Ü
 1
-é
- é(Gb
-`
+¡
+ ¡(l™
+–
 
-é7 é(E,
-Shapes.Quad"
-colorCUnityEngine.Color"__id*
-
-valueUnityEngine.Colorõ
-ò
+¡U ¡(hN
+Shapes.ShapeRenderer"4
+stencilComp%UnityEngine.Rendering.CompareFunction"__id*20
+.
+value%UnityEngine.Rendering.CompareFunction©
+¦
 
-é
- é(G
+¡
+ ¡(l
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+%0void"<Shapes.ShapeRenderer.SetIntOnAllInstancedMaterials(int, int)*&
 
-é
- é(
-Shapes.Quad*A
+¡
+ ¡('
+Shapes.ShapeRenderer*F
 
-é é(53*1
-Shapes.ShapesMaterialUtils"
+¡) ¡(L8*6
+Shapes.ShapesMaterialUtils"
+propStencilCompint*^
 
-propColorCint*<
-
-é7 é(E.*,
-Shapes.Quad"
-colorCUnityEngine.Color*
+¡N ¡(jP*N
+Shapes.ShapeRenderer"4
+stencilComp%UnityEngine.Rendering.CompareFunction*
 2*2
 2
-éH é(H"!
+¡m ¡(m"!
 
-éG é(H
-implicit return:
-valueUnityEngine.ColorB
-Shapes.QuadX
+¡l ¡(m
+implicit return:0.
+value%UnityEngine.Rendering.CompareFunctionB
+Shapes.ShapeRendererX

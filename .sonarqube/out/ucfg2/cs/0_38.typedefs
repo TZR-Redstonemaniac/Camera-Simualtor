@@ -1,18 +1,18 @@
-Ù
-Shapes.MpbTriangleShapes.MetaMpbobjectShapes.IDashableMpbI
-TransferShapeProperties(),Shapes.MpbTriangle.TransferShapeProperties()1
-MpbTriangle() Shapes.MpbTriangle.MpbTriangle()[
-"Shapes.IDashableMpb.dashOffset.get5Shapes.MpbTriangle.Shapes.IDashableMpb.dashOffset.get[
-"Shapes.IDashableMpb.dashOffset.set5Shapes.MpbTriangle.Shapes.IDashableMpb.dashOffset.seti
-)Shapes.IDashableMpb.dashShapeModifier.get<Shapes.MpbTriangle.Shapes.IDashableMpb.dashShapeModifier.geti
-)Shapes.IDashableMpb.dashShapeModifier.set<Shapes.MpbTriangle.Shapes.IDashableMpb.dashShapeModifier.setW
- Shapes.IDashableMpb.dashSize.get3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSize.getW
- Shapes.IDashableMpb.dashSize.set3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSize.setW
- Shapes.IDashableMpb.dashSnap.get3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSnap.getW
- Shapes.IDashableMpb.dashSnap.set3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSnap.setY
-!Shapes.IDashableMpb.dashSpace.get4Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpace.getY
-!Shapes.IDashableMpb.dashSpace.set4Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpace.set]
-#Shapes.IDashableMpb.dashSpacing.get6Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpacing.get]
-#Shapes.IDashableMpb.dashSpacing.set6Shapes.MpbTriangle.Shapes.IDashableMpb.dashSpacing.setW
- Shapes.IDashableMpb.dashType.get3Shapes.MpbTriangle.Shapes.IDashableMpb.dashType.getW
- Shapes.IDashableMpb.dashType.set3Shapes.MpbTriangle.Shapes.IDashableMpb.dashType.set
+ì
+Shapes.SphereShapes.ShapeRendererUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.ObjectobjectF
+SetAllMaterialProperties()(Shapes.Sphere.SetAllMaterialProperties()6
+ShapeClampRanges() Shapes.Sphere.ShapeClampRanges().
+GetMaterials()Shapes.Sphere.GetMaterials()<
+GetInitialMeshAsset()#Shapes.Sphere.GetInitialMeshAsset():
+GetBounds_Internal()"Shapes.Sphere.GetBounds_Internal()"
+Sphere()Shapes.Sphere.Sphere()&
+
+Radius.getShapes.Sphere.Radius.get&
+
+Radius.setShapes.Sphere.Radius.set0
+RadiusSpace.getShapes.Sphere.RadiusSpace.get0
+RadiusSpace.setShapes.Sphere.RadiusSpace.set8
+HasDetailLevels.get!Shapes.Sphere.HasDetailLevels.get8
+HasDetailLevels.set!Shapes.Sphere.HasDetailLevels.set4
+HasScaleModes.getShapes.Sphere.HasScaleModes.get4
+HasScaleModes.setShapes.Sphere.HasScaleModes.set

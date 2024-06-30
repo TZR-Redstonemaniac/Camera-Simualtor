@@ -1,27 +1,38 @@
 
-Shapes.Disc.ColorStart.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csi i("0*
-0i i(*
-1*‡
-1i
- i(vt
-i
- i(
-%0UnityEngine.Color"Shapes.ShapeRenderer.Color.get*$
-i
- i(
-Shapes.ShapeRenderer2	Color.getT
-R
-i
- i(
-%retUnityEngine.Color"__id*%
-i
- i(
-
-%0UnityEngine.Color*
-2*6
-2i i("'
-i i(
+$Shapes.Draw.GradientFillColorEnd.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŸ Ÿ("0*
+0
+Ÿ Ÿ(*
+1*„
+1
+Ÿ! Ÿ(<\
+Z
+
+Ÿ! Ÿ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyler
+p
+
+Ÿ! Ÿ(3
+%1Shapes.GradientFill"__id*A?*=
+
+%0Shapes.DrawStyle"#
+gradientFillShapes.GradientFill{
+y
+
+Ÿ! Ÿ(<
+%retUnityEngine.Color"__id*J
+
+Ÿ! Ÿ(<<*:
 
-%retUnityEngine.ColorB
-Shapes.Disc
+%1Shapes.GradientFill"
+colorEndUnityEngine.Color*
+2*:
+2
+Ÿ= Ÿ(=")
+
+Ÿ< Ÿ(=
+
+%retUnityEngine.ColorB"
+Shapes.Draw

@@ -1,31 +1,21 @@
 
-&Shapes.Draw.RegularPolygonGeometry.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÊ Ê("0*
-0
-Ê Ê(*
-1*î
-1
-Ê! Ê(=\
-Z
-
-Ê! Ê(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleü
-ú
-
-Ê! Ê(=%
-%retShapes.RegularPolygonGeometry"__id*a
-
-Ê! Ê(=S*Q
-
-%0Shapes.DrawStyle"7
-regularPolygonGeometryShapes.RegularPolygonGeometry*
-2*F
-2
-Ê> Ê(>"5
-
-Ê= Ê(>'
-%
-%retShapes.RegularPolygonGeometryB"
-Shapes.DrawX
+Shapes.Triangle.C.getÅ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csv v("0*
+0v v(*
+1*Ä
+1v
+ v(l
+j
+v
+ v(
+%retUnityEngine.Vector3"__id*;
+v
+ v(/*-
+Shapes.Triangle"
+cUnityEngine.Vector3*
+2*8
+2v v(")
+v v(
+
+%retUnityEngine.Vector3B
+Shapes.Triangle

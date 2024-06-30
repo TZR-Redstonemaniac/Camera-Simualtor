@@ -1,35 +1,58 @@
 
-#Shapes.Polygon.FillRadialOrigin.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs° °("0*
+Shapes.Polygon.FillType.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csó ó("0*
 0
-° °(*
-1*Å
+ó ó(*
+1*Ò
 1
-°
- °(d
+ò ô(Xd
 b
 
-°
- °(
+ò ò(
 %0Shapes.GradientFill"__id*31*/
 Shapes.Polygon"
-fillShapes.GradientFillÑ
-Å
+fillShapes.GradientFillh
+f
 
-°
- °(
-%retUnityEngine.Vector3"__id*P
-
-°
- °(B*@
+ò ò(4
 
-%0Shapes.GradientFill"#
-radialOriginUnityEngine.Vector3*
-2*<
-2
-° °("+
+%0Shapes.GradientFill"
+typeShapes.FillType"__id*
+
+valueShapes.FillType¿
+Ω
 
-° °(
-
-%retUnityEngine.Vector3B
-Shapes.Polygon
+ô1 ô(U	
+%1int".Shapes.GradientFill.GetShaderFillTypeInt(bool)*?
+
+ô1 ô(51*/
+Shapes.Polygon"
+fillShapes.GradientFill*3
+
+ôL ô(S%*#
+Shapes.Polygon"
+useFillbool«
+ƒ
+
+ô ô(W
+
+%2void"(Shapes.ShapeRenderer.SetIntNow(int, int)* 
+
+ô ô(
+Shapes.Polygon*C
+
+ô ô(/5*3
+Shapes.ShapesMaterialUtils"
+propFillTypeint*
+
+ô1 ô(U
+	
+%1int*
+2*2
+2
+ö ö("!
+
+ö ö(
+implicit return:
+valueShapes.FillTypeB
+Shapes.PolygonX

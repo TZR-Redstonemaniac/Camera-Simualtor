@@ -1,21 +1,43 @@
 
-"Shapes.ShapeRenderer.BlendMode.get†
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs4 4("0*
-04 4(*
-1*“
-14
- 4(
-}
-4
- 4(
-%retShapes.ShapesBlendMode"__id*K
-4
- 4(?*=
-Shapes.ShapeRenderer"#
-	blendModeShapes.ShapesBlendMode*
-2*;
-24 4(",
-4 4( 
-
-%retShapes.ShapesBlendModeB
-Shapes.ShapeRendererX
+Shapes.Quad.ColorD.set
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csï ï("0*
+0
+ï ï(*
+1*ð
+1
+ï
+ ï(Gb
+`
+
+ï7 ï(E,
+Shapes.Quad"
+colorDUnityEngine.Color"__id*
+
+valueUnityEngine.Colorõ
+ò
+
+ï
+ ï(G
+
+%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+
+ï
+ ï(
+Shapes.Quad*A
+
+ï ï(53*1
+Shapes.ShapesMaterialUtils"
+
+propColorDint*<
+
+ï7 ï(E.*,
+Shapes.Quad"
+colorDUnityEngine.Color*
+2*2
+2
+ïH ï(H"!
+
+ïG ï(H
+implicit return:
+valueUnityEngine.ColorB
+Shapes.QuadX

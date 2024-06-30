@@ -1,54 +1,50 @@
 
-%Shapes.Rectangle.FillRadialRadius.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csØ Ø("0*
+Shapes.Rectangle.FillSpace.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs§ §("0*
 0
-Ø Ø(*
-1*Á
+§ §(*
+1*„
 1
-∞ ±(Tf
+§
+ §(Uf
 d
 
-∞ ∞(
+§? §(C
 %0Shapes.GradientFill"__id*53*1
 Shapes.Rectangle"
-fillShapes.GradientFill\
-Z
+fillShapes.GradientFillk
+i
 
-∞ ∞(2
+§? §(Q6
 
-%0Shapes.GradientFill"
-radialRadiusfloat"__id*
-
-valuefloatô
-ñ
+%0Shapes.GradientFill"
+spaceShapes.FillSpace"__id*
+
+valueShapes.FillSpace˜
+Ù
 
-±6 ±(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*A
+§
+ §(U
 
-±6 ±(:3*1
-Shapes.Rectangle"
-fillShapes.GradientFillÓ
-Î
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*"
 
-± ±(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*"
-
-± ±(
+§
+ §(
 Shapes.Rectangle*D
 
-± ±(46*4
+§ §(66*4
 Shapes.ShapesMaterialUtils"
-propFillStartint*)
+propFillSpaceint*F
 
-±6 ±(Q
+§8 §(S8*6
 
-%1UnityEngine.Vector4*
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
 2*2
 2
-≤ ≤("!
+§V §(V"!
 
-≤ ≤(
-implicit return:
-valuefloatB
+§U §(V
+implicit return:
+valueShapes.FillSpaceB
 Shapes.RectangleX

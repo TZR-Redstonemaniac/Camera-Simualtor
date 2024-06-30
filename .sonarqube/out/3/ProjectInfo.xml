@@ -7,11 +7,11 @@
   <FullPath>C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assembly-CSharp.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\3\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\conf\3\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Temp\Bin\Debug\Assembly-CSharp\Assembly-CSharp.dll.RoslynCA.json|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Temp\Bin\Debug\Assembly-CSharp\Assembly-CSharp.dll.RoslynCA.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\3</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\3\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\.sonarqube\out\3</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

@@ -1,21 +1,19 @@
 
-Shapes.Rectangle.Type.get‚
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.csN N("0*
-0N N(*
-1*œ
-1N
- N(‡
-„
-N
- N(&
-%retShapes.Rectangle.RectangleType"__id*J
-N
- N(>*<
-Shapes.Rectangle"&
-typeShapes.Rectangle.RectangleType*
-2*C
-2N N("4
-N N((
-&
-%retShapes.Rectangle.RectangleTypeB
-Shapes.RectangleX
+)Shapes.ShapeRendererFillable.FillType.set
+„C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs ("0*
+0 (*
+1*[
+1
+ (G
+E
+
+ (
+%0Shapes.FillType"__id*
+
+valueShapes.FillType*
+2*.
+2 ("
+ (
+implicit return:
+valueShapes.FillTypeB 
+Shapes.ShapeRendererFillableX

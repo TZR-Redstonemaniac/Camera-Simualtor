@@ -1,43 +1,116 @@
 
-Shapes.Quad.ColorD.set
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Quad.csÔ Ô("0*
-0
-Ô Ô(*
-1*
-1
-Ô
- Ô(Gb
-`
+~Shapes.ShapesMath.WeightedSum(UnityEngine.Vector4, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)~
+tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMath.cs%- %(8"0*
+0% %(*
+1*“
+1	%m %(í”
+–
+%m %(t
+%0UnityEngine.Color"6UnityEngine.Color.operator *(float, UnityEngine.Color)*"
+UnityEngine.Color*4
+%m %(p(*&
+
+wUnityEngine.Vector4"
 
-Ô7 Ô(E,
-Shapes.Quad"
-colorDUnityEngine.Color"__id*
-
-valueUnityEngine.Colorı
-Ú
+xfloat*$
+%s %(t
+
+aUnityEngine.Color”
+–
+%w %(~
+%1UnityEngine.Color"6UnityEngine.Color.operator *(float, UnityEngine.Color)*"
+UnityEngine.Color*4
+%w %(z(*&
+
+wUnityEngine.Vector4"
 
-Ô
- Ô(G
+yfloat*$
+%} %(~
+
+bUnityEngine.Color—
+Œ
+%m %(~
+%2UnityEngine.Color"BUnityEngine.Color.operator +(UnityEngine.Color, UnityEngine.Color)*"
+UnityEngine.Color*%
+%m %(t
+
+%0UnityEngine.Color*%
+%w %(~
+
+%1UnityEngine.ColorŸ
+÷
 
-%0void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*
+%Å %(à
+%3UnityEngine.Color"6UnityEngine.Color.operator *(float, UnityEngine.Color)*"
+UnityEngine.Color*6
 
-Ô
- Ô(
-Shapes.Quad*A
+%Å %(Ñ(*&
+
+wUnityEngine.Vector4"
 
-Ô Ô(53*1
-Shapes.ShapesMaterialUtils"
+zfloat*&
 
-propColorDint*<
+%á %(à
+
+cUnityEngine.Color‘
+—
+	%m %(à
+%4UnityEngine.Color"BUnityEngine.Color.operator +(UnityEngine.Color, UnityEngine.Color)*"
+UnityEngine.Color*%
+%m %(~
+
+%2UnityEngine.Color*'
 
-Ô7 Ô(E.*,
-Shapes.Quad"
-colorDUnityEngine.Color*
-2*2
+%Å %(à
+
+%3UnityEngine.ColorŸ
+÷
+
+%ã %(í
+%5UnityEngine.Color"6UnityEngine.Color.operator *(float, UnityEngine.Color)*"
+UnityEngine.Color*6
+
+%ã %(é(*&
+
+wUnityEngine.Vector4"
+
+wfloat*&
+
+%ë %(í
+
+dUnityEngine.Color’
+“
+	%m %(í
+%6UnityEngine.Color"BUnityEngine.Color.operator +(UnityEngine.Color, UnityEngine.Color)*"
+UnityEngine.Color*&
+	%m %(à
+
+%4UnityEngine.Color*'
+
+%ã %(í
+
+%5UnityEngine.ColorV
+T
+	%m %(í
+%retUnityEngine.Color"__id*&
+	%m %(í
+
+%6UnityEngine.Color*
+2*:
 2
-ÔH Ô(H"!
+%ì %(ì")
 
-ÔG Ô(H
-implicit return:
-valueUnityEngine.ColorB
-Shapes.QuadX
+%í %(ì
+
+%retUnityEngine.Color:$
+%: %(C
+wUnityEngine.Vector4:"
+%E %(L
+aUnityEngine.Color:"
+%N %(U
+bUnityEngine.Color:"
+%W %(^
+cUnityEngine.Color:"
+%` %(g
+dUnityEngine.ColorB"
+Shapes.ShapesMath

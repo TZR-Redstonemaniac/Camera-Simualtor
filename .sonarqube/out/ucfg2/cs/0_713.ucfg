@@ -1,37 +1,38 @@
 
-Shapes.Draw.FontStyle.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‚ ‚("0*
+Shapes.Draw.DashType.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs‡ ‡("0*
 0
-‚ ‚(*
-1*Ç
+‡ ‡(*
+1*Ï
 1
-‚! ‚(>\
+‡! ‡(5\
 Z
 
-‚! ‚(&
+‡! ‡(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
 styleShapes.DrawStylei
 g
 
-‚! ‚(0
-%1Shapes.TextStyle"__id*;9*7
+‡! ‡(0
+%1Shapes.DashStyle"__id*;9*7
 
 %0Shapes.DrawStyle"
-	textStyleShapes.TextStyleh
-f
+	dashStyleShapes.DashStylep
+n
 
-‚! ‚(>3
+‡! ‡(5
+%retShapes.DashType"__id*A
+
+‡! ‡(53*1
 
-%1Shapes.TextStyle"
-styleTMPro.FontStyles"__id*
-
-valueTMPro.FontStyles*
-2*2
+%1Shapes.DashStyle"
+typeShapes.DashType*
+2*8
 2
-‚? ‚(?"!
+‡6 ‡(6"'
 
-‚> ‚(?
-implicit return:
-valueTMPro.FontStylesB"
+‡5 ‡(6
+
+%retShapes.DashTypeB"
 Shapes.DrawX

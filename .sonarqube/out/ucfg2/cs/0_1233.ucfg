@@ -1,43 +1,39 @@
 
-%Shapes.ShapeRenderer.SortingOrder.getÜ
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRenderer.cs( (("0*
-0( ((*
-1*µ
-1(
- ((@¯
-ı
-(
- ((3
-%1UnityEngine.MeshRenderer"@Shapes.ShapeRenderer.MakeSureComponentExists<T>(ref T, out bool)*$
-(
- ((!
-Shapes.ShapeRenderer*G
-(# ((*;*9
-Shapes.ShapeRenderer"
-rndUnityEngine.MeshRenderer*
-(, ((1
-
-
-%0booll
-j
-(
- ((@	
-%2int"%UnityEngine.Renderer.sortingOrder.get*,
-(
- ((3 
-
-%1UnityEngine.MeshRenderer8
-6
-(
- ((@
-%retint"__id*
-(
- ((@
-	
-%2int*
-2*(
-2(A ((A"
-(@ ((A
-
-%retintB
-Shapes.ShapeRendererX
+'Shapes.DrawCommand.DrawCommand()!staticà
+~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawCommand.cs#	 #("0*±
+0# #(\Z
+ .  (F)
+%0#System.Collections.Generic.Stack<T>"#System.Collections.Generic.Stack<T>û
+õ
+ .  (F)
+%1#System.Collections.Generic.Stack<T>"+System.Collections.Generic.Stack<T>.Stack()*7
+ .  (F+
+)
+%0#System.Collections.Generic.Stack<T>í
+è
+ ,  (FN
+Shapes.DrawCommand"6
+cBuffersWriting#System.Collections.Generic.Stack<T>"__id*-+
+)
+%0#System.Collections.Generic.Stack<T>|z
+!L !(w9
+%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>”
+–
+!L !(w9
+%33System.Collections.Generic.Dictionary<TKey, TValue>"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*G
+!L !(w;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>¥
+±
+!J !(w`
+Shapes.DrawCommand"H
+cBuffersRendering3System.Collections.Generic.Dictionary<TKey, TValue>"__id*=;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>*
+1*
+1% -(V*
+2*.
+2/ /("
+/ /(
+implicit returnB"
+Shapes.DrawCommandX

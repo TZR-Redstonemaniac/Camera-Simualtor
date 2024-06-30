@@ -1,33 +1,17 @@
 
-Shapes.Cuboid.Size.set
-uC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cuboid.cs ("0*
-0 (*
-1*î
-1
- (Ed
-b
-7 (C.
-Shapes.Cuboid"
-sizeUnityEngine.Vector3"__id* 
-
-valueUnityEngine.Vector3ó
-ð
-
- (E
-
-%0void"<Shapes.ShapeRenderer.SetVector3Now(int, UnityEngine.Vector3)*
-
- (
-Shapes.Cuboid*=
- (51*/
-Shapes.ShapesMaterialUtils"
-propSizeint*<
-7 (C0*.
-Shapes.Cuboid"
-sizeUnityEngine.Vector3*
-2*.
-2F (F"
-E (F
-implicit return:
-valueUnityEngine.Vector3B
-Shapes.CuboidX
+/Shapes.MpbDisc.Shapes.IDashableMpb.dashSnap.get‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs6& 6()"0*…
+06* 6(*²
+¯
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs6& 6().
+%ret&System.Collections.Generic.List<float>"__id*è
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs6& 6()X*V
+Shapes.MpbDisc"B
+Shapes.IDashableMpb.dashSnap"System.Collections.Generic.List<T>"À
+‹
+€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs6& 6()0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbDisc

@@ -1,54 +1,35 @@
 
-*Shapes.RegularPolygon.FillRadialRadius.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csµ µ("0*
+*Shapes.RegularPolygon.FillRadialOrigin.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs≠ ≠("0*
 0
-µ µ(*
-1*ˆ
+≠ ≠(*
+1*à
 1
-∂ ∑(Tk
+≠
+ ≠(k
 i
 
-∂ ∂(
+≠
+ ≠(
 %0Shapes.GradientFill"__id*:8*6
 Shapes.RegularPolygon"
-fillShapes.GradientFill\
-Z
+fillShapes.GradientFillÑ
+Å
 
-∂ ∂(2
+≠
+ ≠(
+%retUnityEngine.Vector3"__id*P
+
+≠
+ ≠(B*@
 
-%0Shapes.GradientFill"
-radialRadiusfloat"__id*
-
-valuefloatû
-õ
-
-∑6 ∑(Q
-%1UnityEngine.Vector4"*Shapes.GradientFill.GetShaderStartVector()*F
-
-∑6 ∑(:8*6
-Shapes.RegularPolygon"
-fillShapes.GradientFillÛ
-
-
-∑ ∑(S
-
-%2void"<Shapes.ShapeRenderer.SetVector4Now(int, UnityEngine.Vector4)*'
-
-∑ ∑(
-Shapes.RegularPolygon*D
-
-∑ ∑(46*4
-Shapes.ShapesMaterialUtils"
-propFillStartint*)
-
-∑6 ∑(Q
-
-%1UnityEngine.Vector4*
-2*2
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3*
+2*<
 2
-∏ ∏("!
+≠ ≠("+
 
-∏ ∏(
-implicit return:
-valuefloatB
-Shapes.RegularPolygonX
+≠ ≠(
+
+%retUnityEngine.Vector3B
+Shapes.RegularPolygon

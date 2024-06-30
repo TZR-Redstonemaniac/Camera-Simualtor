@@ -1,21 +1,50 @@
 
-Shapes.Disc.ColorOuterStart.get}
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.csG G("0*
-0G G(*
-1*Ü
-1G
- G(r
-p
-G
- G(
-%retUnityEngine.Color"__id*C
-G
- G(7*5
-Shapes.Disc"$
-colorOuterStartUnityEngine.Color*
-2*6
-2G G("'
-G G(
+!Shapes.Rectangle.FillColorEnd.setù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs≈ ≈("0*
+0
+≈ ≈(*
+1*˚
+1
+≈
+ ≈(Pf
+d
+
+≈9 ≈(=
+%0Shapes.GradientFill"__id*53*1
+Shapes.Rectangle"
+fillShapes.GradientFillp
+n
+
+≈9 ≈(N:
 
-%retUnityEngine.ColorB
-Shapes.Disc
+%0Shapes.GradientFill"
+colorEndUnityEngine.Color"__id*
+
+valueUnityEngine.Colorä
+á
+
+≈
+ ≈(P
+
+%1void"8Shapes.ShapeRenderer.SetColorNow(int, UnityEngine.Color)*"
+
+≈
+ ≈(
+Shapes.Rectangle*C
+
+≈ ≈(75*3
+Shapes.ShapesMaterialUtils"
+propColorEndint*J
+
+≈9 ≈(N<*:
+
+%0Shapes.GradientFill"
+colorEndUnityEngine.Color*
+2*2
+2
+≈Q ≈(Q"!
+
+≈P ≈(Q
+implicit return:
+valueUnityEngine.ColorB
+Shapes.RectangleX

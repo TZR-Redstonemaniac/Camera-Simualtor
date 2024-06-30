@@ -1,35 +1,38 @@
 
-Shapes.Draw.DiscRadiusSpace.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs÷ ÷("0*
+Shapes.Draw.DashSize.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs™ ™("0*
 0
-÷ ÷(*
-1*ù
+™ ™(*
+1*»
 1
-÷
- ÷(\
+™! ™(5\
 Z
 
-÷
- ÷(
+™! ™(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyle„
-
+styleShapes.DrawStylei
+g
 
-÷
- ÷(
-%retShapes.ThicknessSpace"__id*N
-
-÷
- ÷(@*>
+™! ™(0
+%1Shapes.DashStyle"__id*;9*7
 
-%0Shapes.DrawStyle"$
-radiusSpaceShapes.ThicknessSpace*
-2*>
-2
-÷ ÷("-
+%0Shapes.DrawStyle"
+	dashStyleShapes.DashStyle\
+Z
 
-÷ ÷(
-
-%retShapes.ThicknessSpaceB"
+™! ™(5
+%retfloat"__id*7
+
+™! ™(5)*'
+
+%1Shapes.DashStyle"
+sizefloat*
+2*.
+2
+™6 ™(6"
+
+™5 ™(6
+
+%retfloatB"
 Shapes.DrawX

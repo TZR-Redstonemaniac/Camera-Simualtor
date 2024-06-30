@@ -1,31 +1,31 @@
 
-Shapes.Draw.GradientFill.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs¡ ¡("0*
+Shapes.Draw.ScaleMode.geté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csç ç("0*
 0
-¡ ¡(*
-1*ı
+ç ç(*
+1*Î
 1
-¡! ¡(3\
+ç! ç(0\
 Z
 
-¡! ¡(&
+ç! ç(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyleÄ
-~
+styleShapes.DrawStylew
+u
 
-¡! ¡(3
-%retShapes.GradientFill"__id*M
+ç! ç(0
+%retShapes.ScaleMode"__id*G
 
-¡! ¡(3?*=
+ç! ç(09*7
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFill*
-2*<
+%0Shapes.DrawStyle"
+	scaleModeShapes.ScaleMode*
+2*9
 2
-¡4 ¡(4"+
+ç1 ç(1"(
 
-¡3 ¡(4
-
-%retShapes.GradientFillB"
-Shapes.Draw
+ç0 ç(1
+
+%retShapes.ScaleModeB"
+Shapes.DrawX

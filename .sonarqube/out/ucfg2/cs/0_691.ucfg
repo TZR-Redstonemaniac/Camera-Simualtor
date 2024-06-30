@@ -1,27 +1,28 @@
 
-Shapes.Triangle.Roundness.getÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csì ì("0*
-0
-ì ì(*
-1*r
-1
-ì
- ì(\
-Z
-
-ì
- ì(
-%retfloat"__id*7
-
-ì
- ì()*'
-Shapes.Triangle"
-	roundnessfloat*
-2*.
-2
-ì ì("
-
-ì ì(
-
-%retfloatB
-Shapes.TriangleX
+Shapes.Line.DashSnap.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csu u("0*
+0u u(*
+1*Ë
+1u
+ u(^
+\
+u
+ u(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStylet
+r
+u
+ u(
+%retShapes.DashSnapping"__id*C
+u
+ u(7*5
+
+%0Shapes.DashStyle"
+snapShapes.DashSnapping*
+2*8
+2u u(")
+u u(
+
+%retShapes.DashSnappingB
+Shapes.LineX

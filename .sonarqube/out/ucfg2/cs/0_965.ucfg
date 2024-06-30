@@ -1,18 +1,30 @@
 
-:Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillSpace.get
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csí' í(*"0*˜
+Shapes.Draw.TextStyle.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csğ ğ("0*
 0
-í+ í(+Á
-¾
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csí' í(*.
-%ret&System.Collections.Generic.List<float>"__id*õ
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csí' í(*c*a
-Shapes.MpbRegularPolygon"C
-Shapes.IFillableMpb.fillSpace"System.Collections.Generic.List<T>"Â
-
-€C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csí' í(*0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbRegularPolygon
+ğ ğ(*
+1*à
+1
+ğ! ğ(8\
+Z
+
+ğ! ğ(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStylel
+j
+
+ğ! ğ(87
+
+%0Shapes.DrawStyle"
+	textStyleShapes.TextStyle"__id*
+
+valueShapes.TextStyle*
+2*2
+2
+ğ9 ğ(9"!
+
+ğ8 ğ(9
+implicit return:
+valueShapes.TextStyleB"
+Shapes.DrawX

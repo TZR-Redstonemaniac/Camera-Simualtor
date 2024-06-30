@@ -1,37 +1,33 @@
 
-Shapes.Draw.TextLineSpacing.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csö ö("0*
-0
-ö ö(*
-1*∑
-1
-ö! ö(D\
-Z
+"Shapes.RegularPolygon.Geometry.setá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs; ;("0*
+0; ;(*
+1*ü
+1;
+ ;(SÖ
+Ç
+;? ;(OD
+Shapes.RegularPolygon")
+geometryShapes.RegularPolygonGeometry"__id**(
+&
+valueShapes.RegularPolygonGeometryÇ
+ˇ
+;
+ ;(S
 
-ö! ö(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
-
-ö! ö(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleX
-V
-
-ö! ö(D.
-
-%1Shapes.TextStyle"
-lineSpacingfloat"__id*
-
-valuefloat*
-2*2
-2
-öE ö(E"!
-
-öD ö(E
-implicit return:
-valuefloatB"
-Shapes.DrawX
+%0void"(Shapes.ShapeRenderer.SetIntNow(int, int)*%
+;
+ ;(
+Shapes.RegularPolygon*B
+; ;(66*4
+Shapes.ShapesMaterialUtils"
+propAlignmentint*R
+;8 ;(QF*D
+Shapes.RegularPolygon")
+geometryShapes.RegularPolygonGeometry*
+2*.
+2;T ;(T"
+;S ;(T
+implicit return:(&
+valueShapes.RegularPolygonGeometryB
+Shapes.RegularPolygonX

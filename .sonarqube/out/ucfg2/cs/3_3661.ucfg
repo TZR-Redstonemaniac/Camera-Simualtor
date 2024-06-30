@@ -1,0 +1,28 @@
+
+ShaderRenderer.Start()s
+iC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\ShaderRenderer.cs	 	("0*
+0	 	(*
+1*Š
+1	 	(@><
+	, 	(@
+%0UnityEngine.Material"UnityEngine.MaterialÆ
+Ã
+	, 	(@
+%1UnityEngine.Material"1UnityEngine.Material.Material(UnityEngine.Shader)*(
+	, 	(@
+
+%0UnityEngine.Material*>
+	9 	(?2*0
+ShaderRenderer"
+shaderUnityEngine.Shaderm
+k
+	 	(@9
+ShaderRenderer"%
+rayTracingMatUnityEngine.Material"__id*
+
+%0UnityEngine.Material*
+2*.
+2	A 	(A"
+	@ 	(A
+implicit returnB
+ShaderRendererX

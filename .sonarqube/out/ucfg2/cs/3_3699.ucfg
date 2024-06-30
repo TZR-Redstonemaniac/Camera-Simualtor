@@ -1,0 +1,24 @@
+
+(TMPro.Examples.VertexColorCycler.Start()ê
+ÖC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs ("0*
+0 (*
+1*è
+1 (2ù
+ö
+ (0$
+%0System.Collections.IEnumerator"6TMPro.Examples.VertexColorCycler.AnimateVertexColors()*0
+ (.$"
+ TMPro.Examples.VertexColorCycler⁄
+◊
+ (1
+%1UnityEngine.Coroutine"HUnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)*0
+ ($"
+ TMPro.Examples.VertexColorCycler*2
+ (0&
+$
+%0System.Collections.IEnumerator*
+2*.
+2	 (	"
+ (	
+implicit returnB$"
+ TMPro.Examples.VertexColorCyclerX

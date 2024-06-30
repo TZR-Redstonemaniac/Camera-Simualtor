@@ -1,0 +1,190 @@
+
+.Managers.RayTracingManager.ReleaseAndDispose(){
+oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Managers\RayTracingManager.cs¼ ¼(&"0*
+0
+¼ ¼(*
+1*¤
+1
+½ ½(Š
+‡
+
+½ ½(&
+	%capture0UnityEngine.ComputeBuffer"__id*KI*G
+Managers.RayTracingManager"'
+
+meshReaderUnityEngine.ComputeBuffer*
+2
+3*
+2
+½ ½("w
+u
+
+½ ½(!
+
+%0void"#UnityEngine.ComputeBuffer.Release()*6
+
+½ ½((
+&
+	%capture0UnityEngine.ComputeBuffer*
+3*¦
+3
+¾ ¾(Œ
+‰
+
+¾ ¾(&
+	%capture1UnityEngine.ComputeBuffer"__id*MK*I
+Managers.RayTracingManager")
+sphereReaderUnityEngine.ComputeBuffer*
+4
+5*
+4
+¾ ¾($w
+u
+
+¾ ¾(#
+
+%1void"#UnityEngine.ComputeBuffer.Release()*6
+
+¾ ¾((
+&
+	%capture1UnityEngine.ComputeBuffer*
+5*¨
+5
+¿ ¿(
+‹
+
+¿ ¿(&
+	%capture2UnityEngine.ComputeBuffer"__id*OM*K
+Managers.RayTracingManager"+
+triangleReaderUnityEngine.ComputeBuffer*
+6
+7*
+6
+¿ ¿(&w
+u
+
+¿ ¿(%
+
+%2void"#UnityEngine.ComputeBuffer.Release()*6
+
+¿ ¿((
+&
+	%capture2UnityEngine.ComputeBuffer*
+7*¬
+7
+À À(’
+
+
+À À(&
+	%capture3UnityEngine.ComputeBuffer"__id*SQ*O
+Managers.RayTracingManager"/
+lightSourcesReaderUnityEngine.ComputeBuffer*
+8
+9*
+8
+À À(*w
+u
+
+À À()
+
+%3void"#UnityEngine.ComputeBuffer.Release()*6
+
+À À((
+&
+	%capture3UnityEngine.ComputeBuffer*
+9*¦
+9
+Á Á(Š
+‡
+
+Á Á(&
+	%capture4UnityEngine.ComputeBuffer"__id*KI*G
+Managers.RayTracingManager"'
+
+meshReaderUnityEngine.ComputeBuffer*
+10
+11*
+10
+Á Á("w
+u
+
+Á Á(!
+
+%4void"#UnityEngine.ComputeBuffer.Dispose()*6
+
+Á Á((
+&
+	%capture4UnityEngine.ComputeBuffer*
+11*©
+11
+Â Â(Œ
+‰
+
+Â Â(&
+	%capture5UnityEngine.ComputeBuffer"__id*MK*I
+Managers.RayTracingManager")
+sphereReaderUnityEngine.ComputeBuffer*
+12
+13*
+12
+Â Â($w
+u
+
+Â Â(#
+
+%5void"#UnityEngine.ComputeBuffer.Dispose()*6
+
+Â Â((
+&
+	%capture5UnityEngine.ComputeBuffer*
+13*«
+13
+Ã Ã(
+‹
+
+Ã Ã(&
+	%capture6UnityEngine.ComputeBuffer"__id*OM*K
+Managers.RayTracingManager"+
+triangleReaderUnityEngine.ComputeBuffer*
+14
+15*
+14
+Ã Ã(&w
+u
+
+Ã Ã(%
+
+%6void"#UnityEngine.ComputeBuffer.Dispose()*6
+
+Ã Ã((
+&
+	%capture6UnityEngine.ComputeBuffer*
+15*¯
+15
+Ä Ä(’
+
+
+Ä Ä(&
+	%capture7UnityEngine.ComputeBuffer"__id*SQ*O
+Managers.RayTracingManager"/
+lightSourcesReaderUnityEngine.ComputeBuffer*
+16
+17*
+16
+Ä Ä(*w
+u
+
+Ä Ä()
+
+%7void"#UnityEngine.ComputeBuffer.Dispose()*6
+
+Ä Ä((
+&
+	%capture7UnityEngine.ComputeBuffer*
+17*3
+17
+Å	 Å(	"!
+
+Å Å(	
+implicit returnB
+Managers.RayTracingManagerX

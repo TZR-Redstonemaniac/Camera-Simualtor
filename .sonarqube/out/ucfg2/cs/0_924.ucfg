@@ -1,18 +1,17 @@
 
-2Shapes.MpbPolygon.Shapes.IFillableMpb.fillType.getç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()"0*ê
+3Shapes.MpbTriangle.Shapes.IDashableMpb.dashSize.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()"0*‡
 0
-è* è(*π
-∂
+ª* ª(*¶
+£
 ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è().
-%ret&System.Collections.Generic.List<float>"__id*Ì
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()Z
+Shapes.MpbTriangle"B
+Shapes.IDashableMpb.dashSize"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
 ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()[*Y
-Shapes.MpbPolygon"B
-Shapes.IFillableMpb.fillType"System.Collections.Generic.List<T>"¬
-ç
-ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csè& è()0
-.
-%ret&System.Collections.Generic.List<float>B
-Shapes.MpbPolygon
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csª& ª()
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbTriangle

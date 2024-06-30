@@ -1,35 +1,17 @@
 
-Shapes.Polyline.this[int].getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Polyline.csR R("0*
-0R R(*
-1*º
-1R
- R(À
-»
-R
- R(
-%0Shapes.PolylinePoint"7System.Collections.Generic.ICollection<T>.this[int].get*O
-R
- R(C*A
-Shapes.Polyline",
-points"System.Collections.Generic.List<T>*
-R R(
-
-
-iintZ
-X
-R
- R(
-%retShapes.PolylinePoint"__id*(
-R
- R(
-
-%0Shapes.PolylinePoint*
-2*9
-2R R("*
-R R(
-
-%retShapes.PolylinePoint:
-
-iintB
-Shapes.Polyline
+:Shapes.MpbRegularPolygon.Shapes.IFillableMpb.fillSpace.setç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÌ' Ì(*"0*Á
+0
+Ì+ Ì(+≠
+™
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÌ' Ì(*a
+Shapes.MpbRegularPolygon"C
+Shapes.IFillableMpb.fillSpace"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"•
+ç
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.csÌ' Ì(*
+implicit return:-+
+value"System.Collections.Generic.List<T>B
+Shapes.MpbRegularPolygon

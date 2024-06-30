@@ -1,38 +1,29 @@
 
-Shapes.Draw.TextWordSpacing.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csì ì("0*
+Shapes.Triangle.Hollow.setÉ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csÇ Ç("0*
 0
-ì ì(*
-1*¬
+Ç Ç(*
+1*Ç
 1
-ì! ì(<\
-Z
+Ç
+ Ç(l
+j
 
-ì! ì(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
+Ç
+ Ç(
 
-ì! ì(0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStylec
-a
+%0bool"Shapes.Triangle.Border.set*!
 
-ì! ì(<
-%retfloat"__id*>
+Ç
+ Ç(
+Shapes.Triangle*
 
-ì! ì(<0*.
-
-%1Shapes.TextStyle"
-wordSpacingfloat*
-2*.
+valuebool*
+2*2
 2
-ì= ì(="
+Ç Ç("!
 
-ì< ì(=
-
-%retfloatB"
-Shapes.DrawX
+Ç Ç(
+implicit return:
+valueboolB
+Shapes.TriangleX

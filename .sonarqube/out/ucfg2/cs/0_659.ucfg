@@ -1,21 +1,19 @@
 
-Shapes.Triangle.Border.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs| |("0*
-0| |(*
-1*g
-1|
- |(S
-Q
-|
- |(
-%retbool"__id*1
-|
- |(%*#
-Shapes.Triangle"
-borderbool*
-2*)
-2| |("
-| |(
-
-%retboolB
-Shapes.TriangleX
+.Shapes.ShapeRendererFillable.FillLinearEnd.setè
+ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\ShapeRendererFillable.cs0 0("0*
+00 0(*
+1*c
+10
+ 0(O
+M
+0
+ 0(
+%0UnityEngine.Vector3"__id* 
+
+valueUnityEngine.Vector3*
+2*.
+20 0("
+0 0(
+implicit return:
+valueUnityEngine.Vector3B 
+Shapes.ShapeRendererFillableX

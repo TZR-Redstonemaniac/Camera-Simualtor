@@ -1,21 +1,21 @@
 
-Shapes.Triangle.B.getÅ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csp p("0*
-0p p(*
-1*Ä
-1p
- p(l
-j
-p
- p(
-%retUnityEngine.Vector3"__id*;
-p
- p(/*-
-Shapes.Triangle"
-bUnityEngine.Vector3*
-2*8
-2p p(")
-p p(
-
-%retUnityEngine.Vector3B
-Shapes.Triangle
+Shapes.RegularPolygon.Sides.getá
+}C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\RegularPolygon.cs ("0*
+0 (*
+1*j
+1
+ (V
+T
+
+ (
+%retint"__id*5
+
+ ()*'
+Shapes.RegularPolygon"
+sidesint*
+2*(
+2 ("
+ (
+
+%retintB
+Shapes.RegularPolygonX

@@ -1,38 +1,38 @@
 
-$Shapes.Draw.TextCharacterSpacing.getŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.cs ("0*
+Shapes.Triangle.Hollow.getƒ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.cs ("0*
 0
- (*
-1*Ç
+ (*
+1*¯
 1
-! (A\
-Z
+
+ (Y
+W
 
-! (&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylei
-g
+
+ (
 
-! (0
-%1Shapes.TextStyle"__id*;9*7
-
-%0Shapes.DrawStyle"
-	textStyleShapes.TextStyleh
-f
+%0bool"Shapes.Triangle.Border.get*!
 
-! (A
-%retfloat"__id*C
+
+ (
+Shapes.Triangle>
+<
 
-! (A5*3
-
-%1Shapes.TextStyle"
-characterSpacingfloat*
-2*.
+
+ (
+%retbool"__id*
+
+
+ (
+
+
+%0bool*
+2*-
 2
-B (B"
+ ("
 
-A (B
-
-%retfloatB"
-Shapes.DrawX
+ (
+
+%retboolB
+Shapes.TriangleX

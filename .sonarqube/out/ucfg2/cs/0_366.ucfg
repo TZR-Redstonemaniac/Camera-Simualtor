@@ -1,64 +1,53 @@
 
-%Shapes.RegularPolygon.DashSpacing.get
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csò ò("0*
+Shapes.Triangle.DashSpacing.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csù ù("0*
 0
-ò ò(*
-1*
+ù ù(*
+1*‰
 1
-ò
- ò( *
-2
-3*×
+ú û(Ld
+b
+
+ú ú(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStyleT
+R
+
+ú ú(*
+
+%0Shapes.DashStyle"
+spacingfloat"__id*
+
+valuefloatc
+a
+
+û6 û(I
+%1float"#Shapes.Triangle.GetNetDashSpacing()*!
+
+û6 û(G
+Shapes.TriangleÑ
+Î
+
+û û(K
+
+%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
+
+û û(
+Shapes.Triangle*F
+
+û û(48*6
+Shapes.ShapesMaterialUtils"
+propDashSpacingint*
+
+û6 û(I
+
+%1float*
+2*2
 2
-ò# ò(1j
-h
+ü ü("!
 
-ò# ò(,
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStyleU
-S
-
-ò# ò(1
-	%capture0float"__id*+)*'
-
-%0Shapes.DashStyle"
-sizefloat*
-4*Ú
-3
-ò4 ò(Ej
-h
-
-ò4 ò(=
-%1Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStyleX
-V
-
-ò4 ò(E
-	%capture0float"__id*.,**
-
-%1Shapes.DashStyle"
-spacingfloat*
-4*]
-4
-ò
- ò(EG
-E
-
-ò
- ò(E
-%retfloat"__id*"
-
-ò
- ò(E
-
-	%capture0float*
-5*.
-5
-òF ò(F"
-
-òE ò(F
-
-%retfloatB
-Shapes.RegularPolygonX
+ü ü(
+implicit return:
+valuefloatB
+Shapes.TriangleX

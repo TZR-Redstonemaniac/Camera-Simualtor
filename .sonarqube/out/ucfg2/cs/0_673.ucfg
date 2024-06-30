@@ -1,29 +1,28 @@
 
-Shapes.Triangle.Hollow.setÉ
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Triangle.csÇ Ç("0*
-0
-Ç Ç(*
-1*Ç
-1
-Ç
- Ç(l
-j
-
-Ç
- Ç(
-
-%0bool"Shapes.Triangle.Border.set*!
-
-Ç
- Ç(
-Shapes.Triangle*
-
-valuebool*
-2*2
-2
-Ç Ç("!
-
-Ç Ç(
-implicit return:
-valueboolB
-Shapes.TriangleX
+Shapes.Line.DashSpace.getõ
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csn n("0*
+0n n(*
+1*„
+1n
+ n(^
+\
+n
+ n(
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleo
+m
+n
+ n(
+%retShapes.DashSpace"__id*A
+n
+ n(5*3
+
+%0Shapes.DashStyle"
+spaceShapes.DashSpace*
+2*5
+2n n("&
+n n(
+
+%retShapes.DashSpaceB
+Shapes.LineX

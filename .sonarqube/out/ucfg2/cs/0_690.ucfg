@@ -1,27 +1,31 @@
 
-Shapes.Disc.RadiusSpace.get
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs™ ™("0*
+Shapes.Draw.UseDashes.getŽ
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csû û("0*
 0
-™ ™(*
-1*
+û û(*
+1*Ó
 1
-™
- ™(z
-x
+û! û(0\
+Z
 
-™
- ™(
-%retShapes.ThicknessSpace"__id*E
+û! û(&
+%0Shapes.DrawStyle"__id*.,**
+Shapes.Draw"
+styleShapes.DrawStyle_
+]
 
-™
- ™(7*5
-Shapes.Disc"$
-radiusSpaceShapes.ThicknessSpace*
-2*>
+û! û(0
+%retbool"__id*;
+
+û! û(0-*+
+
+%0Shapes.DrawStyle"
+	useDashesbool*
+2*-
 2
-™ ™("-
+û1 û(1"
 
-™ ™(
-
-%retShapes.ThicknessSpaceB
-Shapes.DiscX
+û0 û(1
+
+%retboolB"
+Shapes.DrawX

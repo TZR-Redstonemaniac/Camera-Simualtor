@@ -1,99 +1,35 @@
 
-Shapes.Triangle.DashSize.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÔ Ô("0*
+Shapes.Polygon.FillColorEnd.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csæ æ("0*
 0
-Ô Ô(*
-1*ê
+æ æ(*
+1*˜
 1
- Ú(d
+æ
+ æ(d
 b
 
- (
-%0Shapes.DashStyle"__id*64*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyleQ
-O
+æ
+ æ(
+%0Shapes.GradientFill"__id*31*/
+Shapes.Polygon"
+fillShapes.GradientFill{
+y
 
- ('
-
-%0Shapes.DashStyle"
-sizefloat"__id*
-
-valuefloatÄ
-˝
+æ
+ æ(
+%retUnityEngine.Color"__id*J
 
-Ò Ò(I
-%1float"0Shapes.DashStyle.GetNetAbsoluteSize(bool, float)*B
-
-Ò Ò(!4*2
-Shapes.Triangle"
-	dashStyleShapes.DashStyle*3
-
-Ò6 Ò(<%*#
-Shapes.Triangle"
-dashedbool*7
-
-Ò> Ò(G)*'
-Shapes.Triangle"
-	thicknessfloat;
-9
-
-Ò
- Ò(I
-netDashSizefloat"__id*
-
-%1float*
-2
-3* 
+æ
+ æ(<*:
+
+%0Shapes.GradientFill"
+colorEndUnityEngine.Color*
+2*:
 2
-Û Û(Jc
-a
+æ æ(")
 
-Û4 Û(G
-%2float"#Shapes.Triangle.GetNetDashSpacing()*!
-
-Û4 Û(E
-Shapes.TriangleŒ
-À
-
-Û Û(I
-
-%3void")Shapes.ShapeRenderer.SetFloat(int, float)*!
-
-Û Û(
-Shapes.Triangle*F
-
-Û Û(28*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-
-Û4 Û(G
-
-%2float*
-3*Ó
-3
-Ù Ù(A◊
-‘
-
-Ù Ù(@
-
-%4void",Shapes.ShapeRenderer.SetFloatNow(int, float)*!
-
-Ù Ù(
-Shapes.Triangle*C
-
-Ù Ù(15*3
-Shapes.ShapesMaterialUtils"
-propDashSizeint*$
-
-Ù3 Ù(>
-
-netDashSizefloat*
-4*2
-4
-ı ı("!
-
-ı ı(
-implicit return:
-valuefloatB
-Shapes.TriangleX
+æ æ(
+
+%retUnityEngine.ColorB
+Shapes.Polygon

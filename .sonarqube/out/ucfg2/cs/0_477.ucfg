@@ -1,31 +1,30 @@
 
-Shapes.Draw.Radius.geté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csü ü("0*
-0
-ü ü(*
-1*“
-1
-ü! ü(-\
+Shapes.Disc.Type.set}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs% %("0*
+0% %(*
+1*´
+1& ((Z
+X
+& &((
+Shapes.Disc"
+typeShapes.DiscType"__id*
+
+valueShapes.DiscType\
 Z
+' '(
 
-ü! ü(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle^
-\
+%0void"%Shapes.ShapeRenderer.UpdateMaterial()*
+' '(
+Shapes.Disc]
+[
+( ((
 
-ü! ü(-
-%retfloat"__id*9
-
-ü! ü(-+*)
-
-%0Shapes.DrawStyle"
-radiusfloat*
+%1void"&Shapes.ShapeRenderer.ApplyProperties()*
+( ((
+Shapes.Disc*
 2*.
-2
-ü. ü(."
-
-ü- ü(.
-
-%retfloatB"
-Shapes.DrawX
+2) )("
+) )(
+implicit return:
+valueShapes.DiscTypeB
+Shapes.DiscX

@@ -1,37 +1,30 @@
 
-!Shapes.Draw.GradientFillSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csŒ Œ("0*
+Shapes.Draw.Thickness.seté
+ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csö ö("0*
 0
-Œ Œ(*
-1*”
+ö ö(*
+1* 
 1
-Œ! Œ(A\
+ö! ö(8\
 Z
 
-Œ! Œ(&
+ö! ö(&
 %0Shapes.DrawStyle"__id*.,**
 Shapes.Draw"
-styleShapes.DrawStyler
-p
+styleShapes.DrawStyleV
+T
 
-Œ! Œ(3
-%1Shapes.GradientFill"__id*A?*=
+ö! ö(8,
 
-%0Shapes.DrawStyle"#
-gradientFillShapes.GradientFillk
-i
-
-Œ! Œ(A6
-
-%1Shapes.GradientFill"
-spaceShapes.FillSpace"__id*
-
-valueShapes.FillSpace*
+%0Shapes.DrawStyle"
+	thicknessfloat"__id*
+
+valuefloat*
 2*2
 2
-ŒB Œ(B"!
+ö9 ö(9"!
 
-ŒA Œ(B
-implicit return:
-valueShapes.FillSpaceB"
+ö8 ö(9
+implicit return:
+valuefloatB"
 Shapes.DrawX

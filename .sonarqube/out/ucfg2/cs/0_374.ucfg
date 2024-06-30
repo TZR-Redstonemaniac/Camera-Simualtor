@@ -1,53 +1,21 @@
 
-%Shapes.RegularPolygon.DashSpacing.setù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csÛ Û("0*
-0
-Û Û(*
-1*°
-1
-Ù ı(Lj
+Shapes.Line.End.get}
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Line.csJ J("0*
+0J J(*
+1*~
+1J
+ J(j
 h
-
-Ù Ù(
-%0Shapes.DashStyle"__id*<:*8
-Shapes.RegularPolygon"
-	dashStyleShapes.DashStyleT
-R
-
-Ù Ù(*
-
-%0Shapes.DashStyle"
-spacingfloat"__id*
-
-valuefloato
-m
-
-ı6 ı(I
-%1float")Shapes.RegularPolygon.GetNetDashSpacing()*'
-
-ı6 ı(G
-Shapes.RegularPolygon◊
-‘
-
-ı ı(K
-
-%2void",Shapes.ShapeRenderer.SetFloatNow(int, float)*'
-
-ı ı(
-Shapes.RegularPolygon*F
-
-ı ı(48*6
-Shapes.ShapesMaterialUtils"
-propDashSpacingint*
-
-ı6 ı(I
-
-%1float*
-2*2
-2
-ˆ ˆ("!
-
-ˆ ˆ(
-implicit return:
-valuefloatB
-Shapes.RegularPolygonX
+J
+ J(
+%retUnityEngine.Vector3"__id*9
+J
+ J(-*+
+Shapes.Line"
+endUnityEngine.Vector3*
+2*8
+2J J(")
+J J(
+
+%retUnityEngine.Vector3B
+Shapes.Line

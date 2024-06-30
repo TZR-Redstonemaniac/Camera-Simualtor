@@ -1,33 +1,40 @@
 
-Shapes.Draw.DiscRadius.setŽ
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÎ Î("0*
-0
-Î Î(*
-1*Ç
-1
-Î
- Î(\
-Z
-
-Î
- Î(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyleS
-Q
-
-Î
- Î()
+!Shapes.Line.DashShapeModifier.set›
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs~ ~("0*
+0~ ~(*
+1*¿
+1~
+ ~(c^
+\
+~B ~(K
+%0Shapes.DashStyle"__id*20*.
+Shapes.Line"
+	dashStyleShapes.DashStyleX
+V
+~B ~(a0
 
-%0Shapes.DrawStyle"
-radiusfloat"__id*
+%0Shapes.DashStyle"
+shapeModifierfloat"__id*
 
-valuefloat*
-2*2
-2
-Î Î("!
+valuefloatð
+í
+~
+ ~(c
 
-Î Î(
+%1void",Shapes.ShapeRenderer.SetFloatNow(int, float)*
+~
+ ~(
+Shapes.Line*J
+~ ~(@>*<
+Shapes.ShapesMaterialUtils"
+propDashShapeModifierint*>
+~B ~(a2*0
+
+%0Shapes.DashStyle"
+shapeModifierfloat*
+2*.
+2~d ~(d"
+~c ~(d
 implicit return:
-valuefloatB"
-Shapes.DrawX
+valuefloatB
+Shapes.LineX

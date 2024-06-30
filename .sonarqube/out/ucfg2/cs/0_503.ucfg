@@ -1,28 +1,50 @@
 
-Shapes.Disc.DashSnap.get›
-C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.cs7 7("0*
-07 7(*
-1*è
-17
- 7(^
-\
-7
- 7(
-%0Shapes.DashStyle"__id*20*.
-Shapes.Disc"
-	dashStyleShapes.DashStylet
-r
-7
- 7(
-%retShapes.DashSnapping"__id*C
-7
- 7(7*5
-
-%0Shapes.DashStyle"
-snapShapes.DashSnapping*
-2*8
-27 7(")
-7 7(
-
-%retShapes.DashSnappingB
-Shapes.DiscX
+#Shapes.RegularPolygon.FillSpace.set
+C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csª ª("0*
+0
+ª ª(*
+1*í
+1
+ª
+ ª(Uk
+i
+
+ª? ª(C
+%0Shapes.GradientFill"__id*:8*6
+Shapes.RegularPolygon"
+fillShapes.GradientFillk
+i
+
+ª? ª(Q6
+
+%0Shapes.GradientFill"
+spaceShapes.FillSpace"__id*
+
+valueShapes.FillSpaceü
+ù
+
+ª
+ ª(U
+
+%1void"(Shapes.ShapeRenderer.SetIntNow(int, int)*'
+
+ª
+ ª(
+Shapes.RegularPolygon*D
+
+ª ª(66*4
+Shapes.ShapesMaterialUtils"
+propFillSpaceint*F
+
+ª8 ª(S8*6
+
+%0Shapes.GradientFill"
+spaceShapes.FillSpace*
+2*2
+2
+ªV ª(V"!
+
+ªU ª(V
+implicit return:
+valueShapes.FillSpaceB
+Shapes.RegularPolygonX

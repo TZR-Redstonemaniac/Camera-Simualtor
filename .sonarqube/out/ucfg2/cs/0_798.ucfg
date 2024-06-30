@@ -1,33 +1,17 @@
 
-"Shapes.Draw.RingThicknessSpace.seté
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csÚ Ú("0*
-0
-Ú Ú(*
-1*Ô
-1
-Ú
- Ú(&\
-Z
-
-Ú
- Ú(
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStyle{
-y
-
-Ú
- Ú(&A
-
-%0Shapes.DrawStyle"'
-thicknessSpaceShapes.ThicknessSpace"__id*" 
-
-valueShapes.ThicknessSpace*
-2*2
-2
-Ú' Ú('"!
-
-Ú& Ú('
-implicit return: 
-valueShapes.ThicknessSpaceB"
-Shapes.DrawX
+4Shapes.MpbLine2D.Shapes.IDashableMpb.dashSpacing.getã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,"0*ä
+0\- \(-∑
+¥
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,.
+%ret&System.Collections.Generic.List<float>"__id*Ì
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,]*[
+Shapes.MpbLine2D"E
+Shapes.IDashableMpb.dashSpacing"System.Collections.Generic.List<T>"¿
+ã
+ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpbShapes.cs\) \(,0
+.
+%ret&System.Collections.Generic.List<float>B
+Shapes.MpbLine2D

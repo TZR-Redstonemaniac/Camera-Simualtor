@@ -1,30 +1,35 @@
 
-Shapes.Draw.StencilReadMask.setå
-ÅC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawStateStyle.csi i("0*
-0i i(*
-1*π
-1i! i(JZ
-X
-i! i(&
-%0Shapes.DrawStyle"__id*.,**
-Shapes.Draw"
-styleShapes.DrawStylem
-k
-i! i(2
-%1Shapes.RenderState"__id*?=*;
-
-%0Shapes.DrawStyle"!
-renderStateShapes.RenderStateZ
-X
-i! i(J3
-
-%1Shapes.RenderState"
-stencilReadMaskbyte"__id*
+Shapes.Triangle.DashType.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csé é("0*
+0
+é é(*
+1*Ï
+1
+é
+ é(d
+b
 
-valuebyte*
-2*.
-2iK i(K"
-iJ i(K
-implicit return:
-valuebyteB"
-Shapes.DrawX
+é
+ é(
+%0Shapes.DashStyle"__id*64*2
+Shapes.Triangle"
+	dashStyleShapes.DashStylep
+n
+
+é
+ é(
+%retShapes.DashType"__id*A
+
+é
+ é(3*1
+
+%0Shapes.DashStyle"
+typeShapes.DashType*
+2*8
+2
+é é("'
+
+é é(
+
+%retShapes.DashTypeB
+Shapes.TriangleX

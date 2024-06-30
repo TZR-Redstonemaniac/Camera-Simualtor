@@ -1,35 +1,35 @@
 
-$Shapes.Rectangle.FillLinearStart.getù
-êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csµ µ("0*
+%Shapes.Rectangle.FillRadialOrigin.getù
+êC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Interfaces\GeneratedInterfaceImplementations.csß ß("0*
 0
-µ µ(*
-1*Ç
+ß ß(*
+1*É
 1
-µ
- µ(f
+ß
+ ß(f
 d
 
-µ
- µ(
+ß
+ ß(
 %0Shapes.GradientFill"__id*53*1
 Shapes.Rectangle"
-fillShapes.GradientFillÉ
-Ä
+fillShapes.GradientFillÑ
+Å
 
-µ
- µ(
-%retUnityEngine.Vector3"__id*O
+ß
+ ß(
+%retUnityEngine.Vector3"__id*P
 
-µ
- µ(A*?
+ß
+ ß(B*@
 
-%0Shapes.GradientFill""
-linearStartUnityEngine.Vector3*
+%0Shapes.GradientFill"#
+radialOriginUnityEngine.Vector3*
 2*<
 2
-µ µ("+
+ß ß("+
 
-µ µ(
+ß ß(
 
 %retUnityEngine.Vector3B
 Shapes.Rectangle
