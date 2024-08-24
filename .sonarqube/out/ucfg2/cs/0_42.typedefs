@@ -1,6 +1,5 @@
-ü
-Shapes.IMDrawerSystem.ValueTypeobjectSystem.IDisposableè
-jIMDrawer(Shapes.MetaMpb, UnityEngine.Material, UnityEngine.Mesh, int, Shapes.IMDrawer.DrawType, bool, int)zShapes.IMDrawer.IMDrawer(Shapes.MetaMpb, UnityEngine.Material, UnityEngine.Mesh, int, Shapes.IMDrawer.DrawType, bool, int)&
-	Dispose()Shapes.IMDrawer.Dispose()(
+›
+Shapes.MpbTorusShapes.MetaMpbobjectF
+TransferShapeProperties())Shapes.MpbTorus.TransferShapeProperties()(
 
-IMDrawer()Shapes.IMDrawer.IMDrawer()
+MpbTorus()Shapes.MpbTorus.MpbTorus()

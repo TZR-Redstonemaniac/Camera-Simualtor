@@ -1,0 +1,19 @@
+³
+Objects.BoundingBoxobject\
+"GrowToInclude(UnityEngine.Vector3)6Objects.BoundingBox.GrowToInclude(UnityEngine.Vector3)V
+GrowToInclude(Objects.Triangle)3Objects.BoundingBox.GrowToInclude(Objects.Triangle)2
+BoundingBox()!Objects.BoundingBox.BoundingBox(),
+
+center.getObjects.BoundingBox.center.get,
+
+center.setObjects.BoundingBox.center.set(
+Size.getObjects.BoundingBox.Size.get(
+Size.setObjects.BoundingBox.Size.set&
+Max.getObjects.BoundingBox.Max.get&
+Max.setObjects.BoundingBox.Max.set&
+Min.getObjects.BoundingBox.Min.get&
+Min.setObjects.BoundingBox.Min.set,
+
+Center.getObjects.BoundingBox.Center.get,
+
+Center.setObjects.BoundingBox.Center.set

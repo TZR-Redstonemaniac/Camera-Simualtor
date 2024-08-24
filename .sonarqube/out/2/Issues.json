@@ -20,27 +20,6 @@
           }
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'directionLabels' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 12,
-                  "endLine": 23,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S113",
           "level": "warning",
           "message": "Add a new line at the end of the file 'SpinningColorDiscs.cs'.",
@@ -53,153 +32,6 @@
                   "startColumn": 1,
                   "endLine": 46,
                   "endColumn": 2
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'position' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 18,
-                  "endLine": 7,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'width' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 16,
-                  "endLine": 8,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'magnitude' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 16,
-                  "endLine": 11,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'curve' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 25,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bullets' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 14,
-                  "endLine": 8,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'decaySpeed' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 16,
-                  "endLine": 10,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'totalBullets' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 14,
-                  "endLine": 7,
-                  "endColumn": 26
                 }
               }
             }
@@ -251,27 +83,6 @@
           }
         },
         {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'picker' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerInteraction.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 32,
-                  "endLine": 16,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S105",
           "level": "warning",
           "message": "Replace all tab characters in this file by sequences of white-spaces.",
@@ -284,174 +95,6 @@
                   "startColumn": 1,
                   "endLine": 5,
                   "endColumn": 1
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'value' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 32,
-                  "endLine": 13,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'lineThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 36,
-                  "endLine": 9,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bendRadius' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 36,
-                  "endLine": 10,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bulletThicknessScale' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 53,
-                  "endLine": 10,
-                  "endColumn": 73
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairCrossInnerRad' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 56,
-                  "endLine": 7,
-                  "endColumn": 78
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'valueInv' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 32,
-                  "endLine": 14,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'discRadius' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/SpinningColorDiscs.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 34,
-                  "endLine": 19,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'discCount' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/SpinningColorDiscs.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 31,
-                  "endLine": 18,
-                  "endColumn": 40
                 }
               }
             }
@@ -482,132 +125,6 @@
           }
         },
         {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bulletEjectScale' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 35,
-                  "endLine": 11,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairCrossOuterRad' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 36,
-                  "endLine": 8,
-                  "endColumn": 58
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 't' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 32,
-                  "endLine": 15,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bulletDisappearTime' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 40,
-                  "endLine": 13,
-                  "endColumn": 59
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'isCharging' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 38,
-                  "endLine": 9,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3052",
-          "level": "warning",
-          "message": "Remove this initialization to 'isCharging', the compiler will do that for you.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 49,
-                  "endLine": 9,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S105",
           "level": "warning",
           "message": "Replace all tab characters in this file by sequences of white-spaces.",
@@ -620,132 +137,6 @@
                   "startColumn": 1,
                   "endLine": 5,
                   "endColumn": 1
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairCrossThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 36,
-                  "endLine": 9,
-                  "endColumn": 59
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'tickColor' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 36,
-                  "endLine": 12,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'chargeFillGradient' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 19,
-                  "endLine": 13,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairHitCrossInnerRad' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 36,
-                  "endLine": 10,
-                  "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'bulletEjectAngSpeed' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 45,
-                  "endLine": 14,
-                  "endColumn": 64
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'lineThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 61,
-                  "endLine": 9,
-                  "endColumn": 74
                 }
               }
             }
@@ -776,48 +167,6 @@
           }
         },
         {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'lineColor' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 16,
-                  "endLine": 10,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairHitCrossOuterRad' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 36,
-                  "endLine": 11,
-                  "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S105",
           "level": "warning",
           "message": "Replace all tab characters in this file by sequences of white-spaces.",
@@ -839,111 +188,6 @@
           }
         },
         {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'tickSizeSmol' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 35,
-                  "endLine": 14,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'seed' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 39,
-                  "endLine": 12,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3052",
-          "level": "warning",
-          "message": "Remove this initialization to 'seed', the compiler will do that for you.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 44,
-                  "endLine": 12,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'head' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 31,
-                  "startColumn": 20,
-                  "endLine": 31,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshairHitCrossThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 36,
-                  "endLine": 12,
-                  "endColumn": 62
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S105",
           "level": "warning",
           "message": "Replace all tab characters in this file by sequences of white-spaces.",
@@ -956,90 +200,6 @@
                   "startColumn": 1,
                   "endLine": 5,
                   "endColumn": 1
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'cam' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 17,
-                  "endLine": 32,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'crosshair' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 33,
-                  "startColumn": 20,
-                  "endLine": 33,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'chargeBar' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 20,
-                  "endLine": 34,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'fieldOfView' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 57,
-                  "endLine": 11,
-                  "endColumn": 68
                 }
               }
             }
@@ -1112,27 +272,6 @@
           }
         },
         {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'ammoBar' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 18,
-                  "endLine": 35,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S105",
           "level": "warning",
           "message": "Replace all tab characters in this file by sequences of white-spaces.",
@@ -1145,48 +284,6 @@
                   "startColumn": 1,
                   "endLine": 5,
                   "endColumn": 1
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'hue' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 32,
-                  "endLine": 11,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3052",
-          "level": "warning",
-          "message": "Remove this initialization to 'hue', the compiler will do that for you.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 36,
-                  "endLine": 11,
-                  "endColumn": 39
                 }
               }
             }
@@ -1219,16 +316,37 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'compass' private.",
+          "message": "Make 'position' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
-                  "startLine": 36,
+                  "startLine": 7,
                   "startColumn": 18,
-                  "endLine": 36,
-                  "endColumn": 25
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'totalBullets' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 14,
+                  "endLine": 7,
+                  "endColumn": 26
                 }
               }
             }
@@ -1259,18 +377,18 @@
           }
         },
         {
-          "ruleId": "S2357",
+          "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'crosshairTransform' private.",
+          "message": "Make 'directionLabels' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
-                  "startLine": 37,
-                  "startColumn": 20,
-                  "endLine": 37,
-                  "endColumn": 38
+                  "startLine": 23,
+                  "startColumn": 12,
+                  "endLine": 23,
+                  "endColumn": 27
                 }
               }
             }
@@ -1282,37 +400,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'tickSizeLorge' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 35,
-                  "endLine": 15,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'ejectRotSpeedVariance' private.",
+          "message": "Make 'bullets' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 45,
-                  "endLine": 15,
-                  "endColumn": 66
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 21
                 }
               }
             }
@@ -1324,16 +421,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'bulletEjectX' private.",
+          "message": "Make 'width' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 25,
-                  "endLine": 16,
-                  "endColumn": 37
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 21
                 }
               }
             }
@@ -1345,16 +442,142 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'bulletEjectY' private.",
+          "message": "Make 'discCount' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/SpinningColorDiscs.cs",
                 "region": {
-                  "startLine": 17,
-                  "startColumn": 25,
-                  "endLine": 17,
-                  "endColumn": 37
+                  "startLine": 18,
+                  "startColumn": 31,
+                  "endLine": 18,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'lineThickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 36,
+                  "endLine": 9,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bendRadius' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 36,
+                  "endLine": 10,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'discRadius' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/SpinningColorDiscs.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 34,
+                  "endLine": 19,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'lineColor' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'lineThickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 61,
+                  "endLine": 9,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'lineCount' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 33,
+                  "endLine": 13,
+                  "endColumn": 42
                 }
               }
             }
@@ -1387,37 +610,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'lineCount' private.",
+          "message": "Make 'picker' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerInteraction.cs",
                 "region": {
-                  "startLine": 13,
-                  "startColumn": 33,
-                  "endLine": 13,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S105",
-          "level": "warning",
-          "message": "Replace all tab characters in this file by sequences of white-spaces.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1,
-                  "endLine": 8,
-                  "endColumn": 1
+                  "startLine": 16,
+                  "startColumn": 32,
+                  "endLine": 16,
+                  "endColumn": 38
                 }
               }
             }
@@ -1429,37 +631,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'scaleFire' private.",
+          "message": "Make 'fieldOfView' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
-                  "startLine": 14,
+                  "startLine": 11,
                   "startColumn": 57,
-                  "endLine": 14,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'fireDecayer' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 18,
-                  "endLine": 15,
-                  "endColumn": 29
+                  "endLine": 11,
+                  "endColumn": 68
                 }
               }
             }
@@ -1492,15 +673,57 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'tickTickness' private.",
+          "message": "Make 'branchesMin' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 30,
+                  "endLine": 14,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S105",
+          "level": "warning",
+          "message": "Replace all tab characters in this file by sequences of white-spaces.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 1,
+                  "endLine": 8,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'isCharging' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 36,
-                  "endLine": 16,
+                  "startLine": 9,
+                  "startColumn": 38,
+                  "endLine": 9,
                   "endColumn": 48
                 }
               }
@@ -1511,39 +734,18 @@
           }
         },
         {
-          "ruleId": "S2357",
+          "ruleId": "S3052",
           "level": "warning",
-          "message": "Make 'hitDecayer' private.",
+          "message": "Remove this initialization to 'isCharging', the compiler will do that for you.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 18,
-                  "endLine": 16,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'saturation' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 32,
-                  "endLine": 12,
-                  "endColumn": 42
+                  "startLine": 9,
+                  "startColumn": 49,
+                  "endLine": 9,
+                  "endColumn": 56
                 }
               }
             }
@@ -1576,15 +778,15 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'branchesMin' private.",
+          "message": "Make 'branchesMax' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
                 "region": {
-                  "startLine": 14,
+                  "startLine": 15,
                   "startColumn": 30,
-                  "endLine": 14,
+                  "endLine": 15,
                   "endColumn": 41
                 }
               }
@@ -1597,16 +799,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'fontSize' private.",
+          "message": "Make 'tickColor' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
                 "region": {
-                  "startLine": 17,
-                  "startColumn": 35,
-                  "endLine": 17,
-                  "endColumn": 43
+                  "startLine": 12,
+                  "startColumn": 36,
+                  "endLine": 12,
+                  "endColumn": 45
                 }
               }
             }
@@ -1618,77 +820,35 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'smoof' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 66,
-                  "endLine": 39,
-                  "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'moveSpeed' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 16,
-                  "endLine": 40,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'lookSensitivity' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 41,
-                  "startColumn": 16,
-                  "endLine": 41,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'value' private.",
+          "message": "Make 'saturation' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
                 "region": {
-                  "startLine": 13,
+                  "startLine": 12,
                   "startColumn": 32,
+                  "endLine": 12,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'chargeFillGradient' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
                   "endLine": 13,
                   "endColumn": 37
                 }
@@ -1723,16 +883,58 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'fontSizeLorge' private.",
+          "message": "Make 'branchLengthMin' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 35,
-                  "endLine": 18,
-                  "endColumn": 48
+                  "startLine": 16,
+                  "startColumn": 32,
+                  "endLine": 16,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshairCrossInnerRad' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 56,
+                  "endLine": 7,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'value' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 32,
+                  "endLine": 13,
+                  "endColumn": 37
                 }
               }
             }
@@ -1765,226 +967,37 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'branchesMax' private.",
+          "message": "Make 'crosshairCrossOuterRad' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 30,
-                  "endLine": 15,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'percentLabelOffset' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 35,
-                  "endLine": 19,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'hueStripThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 35,
-                  "endLine": 16,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'tickLabelOffset' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 35,
-                  "endLine": 17,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'fontGrowRangePrev' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 35,
-                  "endLine": 20,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'branchLengthMin' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 32,
-                  "endLine": 16,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'fontSizeLookLabel' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 68,
-                  "endLine": 19,
-                  "endColumn": 85
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'outline' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 35,
-                  "endLine": 17,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'lookAngLabelOffset' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 18,
-                  "endLine": 20,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'fontGrowRangeNext' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 21,
-                  "startColumn": 35,
-                  "endLine": 21,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'triangleNootSize' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
-                "region": {
-                  "startLine": 21,
+                  "startLine": 8,
                   "startColumn": 36,
-                  "endLine": 21,
-                  "endColumn": 52
+                  "endLine": 8,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'tickSizeSmol' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 35,
+                  "endLine": 14,
+                  "endColumn": 47
                 }
               }
             }
@@ -2017,58 +1030,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'ammoBarAngularSpanRad' private.",
+          "message": "Make 'tickLabelOffset' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
-                  "startLine": 47,
-                  "startColumn": 78,
-                  "endLine": 47,
-                  "endColumn": 99
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'chargeFillCurve' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 24,
-                  "startColumn": 49,
-                  "endLine": 24,
-                  "endColumn": 64
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'quadMargin' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
-                "region": {
-                  "startLine": 18,
+                  "startLine": 17,
                   "startColumn": 35,
-                  "endLine": 18,
-                  "endColumn": 45
+                  "endLine": 17,
+                  "endColumn": 50
                 }
               }
             }
@@ -2080,36 +1051,15 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'animChargeShakeMagnitude' private.",
+          "message": "Make 'crosshairCrossThickness' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
                 "region": {
-                  "startLine": 25,
-                  "startColumn": 25,
-                  "endLine": 25,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'ammoBarOutlineThickness' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
-                "region": {
-                  "startLine": 48,
+                  "startLine": 9,
                   "startColumn": 36,
-                  "endLine": 48,
+                  "endLine": 9,
                   "endColumn": 59
                 }
               }
@@ -2122,16 +1072,100 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'hueDotScale' private.",
+          "message": "Make 'hueStripThickness' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 35,
+                  "endLine": 16,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'tickSizeLorge' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 35,
+                  "endLine": 15,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshairHitCrossInnerRad' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 36,
+                  "endLine": 10,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'outline' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 35,
+                  "endLine": 17,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fontSizeLookLabel' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
                   "startLine": 19,
-                  "startColumn": 35,
+                  "startColumn": 68,
                   "endLine": 19,
-                  "endColumn": 46
+                  "endColumn": 85
                 }
               }
             }
@@ -2143,58 +1177,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'chargeShakeSpeed' private.",
+          "message": "Make 'lookAngLabelOffset' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 16,
-                  "endLine": 27,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'chargeShakeMagnitude' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
-                "region": {
-                  "startLine": 26,
-                  "startColumn": 36,
-                  "endLine": 26,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2357",
-          "level": "warning",
-          "message": "Make 'labelSize' private.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
                 "region": {
                   "startLine": 20,
                   "startColumn": 18,
                   "endLine": 20,
-                  "endColumn": 27
+                  "endColumn": 36
                 }
               }
             }
@@ -2206,16 +1198,16 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'ammoBarThickness' private.",
+          "message": "Make 'decaySpeed' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
                 "region": {
-                  "startLine": 49,
-                  "startColumn": 35,
-                  "endLine": 49,
-                  "endColumn": 51
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 26
                 }
               }
             }
@@ -2227,16 +1219,100 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'maxAngDeviation' private.",
+          "message": "Make 'magnitude' private.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 49,
-                  "endLine": 18,
-                  "endColumn": 64
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'curve' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 25,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'tickTickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 36,
+                  "endLine": 16,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshairHitCrossOuterRad' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 36,
+                  "endLine": 11,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'triangleNootSize' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Compass.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 36,
+                  "endLine": 21,
+                  "endColumn": 52
                 }
               }
             }
@@ -2311,6 +1387,909 @@
         {
           "ruleId": "S2357",
           "level": "warning",
+          "message": "Make 'maxAngDeviation' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 49,
+                  "endLine": 18,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'labelSize' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 18,
+                  "endLine": 20,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'hueDotScale' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 35,
+                  "endLine": 19,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fontSize' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 35,
+                  "endLine": 17,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'value' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 32,
+                  "endLine": 13,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'quadMargin' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 35,
+                  "endLine": 18,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fireDecayer' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'scaleFire' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 57,
+                  "endLine": 14,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'seed' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 39,
+                  "endLine": 12,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'valueInv' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 32,
+                  "endLine": 14,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "level": "warning",
+          "message": "Remove this initialization to 'seed', the compiler will do that for you.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ProceduralTree.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 44,
+                  "endLine": 12,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'hitDecayer' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 18,
+                  "endLine": 16,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fontSizeLorge' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 35,
+                  "endLine": 18,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 't' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 32,
+                  "endLine": 15,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'percentLabelOffset' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 35,
+                  "endLine": 19,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fontGrowRangePrev' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletThicknessScale' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 53,
+                  "endLine": 10,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'fontGrowRangeNext' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 35,
+                  "endLine": 21,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletDisappearTime' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 40,
+                  "endLine": 13,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'chargeFillCurve' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 49,
+                  "endLine": 24,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'animChargeShakeMagnitude' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 25,
+                  "endLine": 25,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletEjectScale' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 35,
+                  "endLine": 11,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletEjectAngSpeed' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 45,
+                  "endLine": 14,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'chargeShakeSpeed' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 16,
+                  "endLine": 27,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'chargeShakeMagnitude' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/ChargeBar.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 36,
+                  "endLine": 26,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'hue' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 32,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'ejectRotSpeedVariance' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 45,
+                  "endLine": 15,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "level": "warning",
+          "message": "Remove this initialization to 'hue', the compiler will do that for you.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/IMColorPickerRenderer.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 36,
+                  "endLine": 11,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletEjectX' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 25,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'bulletEjectY' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 25,
+                  "endLine": 17,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'head' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 20,
+                  "endLine": 31,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'cam' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 17,
+                  "endLine": 32,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshair' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 20,
+                  "endLine": 33,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'chargeBar' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 20,
+                  "endLine": 34,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'ammoBar' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 18,
+                  "endLine": 35,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'compass' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 18,
+                  "endLine": 36,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshairTransform' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 20,
+                  "endLine": 37,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'lookSensitivity' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 16,
+                  "endLine": 41,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'moveSpeed' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 16,
+                  "endLine": 40,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'smoof' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 66,
+                  "endLine": 39,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'ammoBarOutlineThickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 36,
+                  "endLine": 48,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'crosshairHitCrossThickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/Crosshair.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 36,
+                  "endLine": 12,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'ammoBarAngularSpanRad' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 78,
+                  "endLine": 47,
+                  "endColumn": 99
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2357",
+          "level": "warning",
           "message": "Make 'ammoBarRadius' private.",
           "locations": [
             {
@@ -2353,15 +2332,15 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'shakeAnimX' private.",
+          "message": "Make 'shakeAnimY' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
                 "region": {
-                  "startLine": 53,
+                  "startLine": 54,
                   "startColumn": 25,
-                  "endLine": 53,
+                  "endLine": 54,
                   "endColumn": 35
                 }
               }
@@ -2374,15 +2353,15 @@
         {
           "ruleId": "S2357",
           "level": "warning",
-          "message": "Make 'shakeAnimY' private.",
+          "message": "Make 'shakeAnimX' private.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
                 "region": {
-                  "startLine": 54,
+                  "startLine": 53,
                   "startColumn": 25,
-                  "endLine": 54,
+                  "endLine": 53,
                   "endColumn": 35
                 }
               }
@@ -2414,6 +2393,27 @@
           }
         },
         {
+          "ruleId": "S2357",
+          "level": "warning",
+          "message": "Make 'ammoBarThickness' private.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/FpsController.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 35,
+                  "endLine": 49,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2190",
           "level": "warning",
           "message": "Add a way to break out of this method's recursion.",
@@ -2426,27 +2426,6 @@
                   "startColumn": 15,
                   "endLine": 81,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3900",
-          "level": "warning",
-          "message": "Refactor this method to add validation of parameter 'fpsController' before using it.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 25,
-                  "endLine": 32,
-                  "endColumn": 38
                 }
               }
             }
@@ -2488,6 +2467,27 @@
                   "startLine": 135,
                   "startColumn": 30,
                   "endLine": 135,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3900",
+          "level": "warning",
+          "message": "Refactor this method to add validation of parameter 'fpsController' before using it.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/kdeen/OneDrive/Documents/Coding%20Projects/Camera-Simulator/Assets/Shapes/Samples/Assets/Scripts/AmmoBar.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 25,
+                  "endLine": 32,
                   "endColumn": 38
                 }
               }

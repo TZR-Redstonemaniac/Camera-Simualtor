@@ -1,0 +1,9 @@
+
+±
+AZBn4NSjshfe4O5bKe7Acsharpsquid:S101"KRename class 'BVH' to match pascal case naming rules, consider using 'Bvh'.(¾ôÍÖıÿÿÿÿ8¸†ü¾†2@J$b13a8505-6c0b-4c30-b2ed-3b49e9b2cd1a
+dcsharpsquid:S2933"Make 'sw' 'readonly'.(—üÿÿÿÿ8Ÿ‘«ó2J$42226c46-c278-498b-a7bf-e6cc767304f6
+´csharpsquid:S3887"eUse an immutable collection or reduce the accessibility of the non-private readonly field 'AllNodes'.(ş¹¼ªûÿÿÿÿ8ƒğğÌ2J$4fe91dd2-02bc-4223-b20f-6fcc8727582f
+¸csharpsquid:S3887"iUse an immutable collection or reduce the accessibility of the non-private readonly field 'AllTriangles'.(ô¨ğóüÿÿÿÿ8ƒğğÌ2J$41bcdd0e-550b-4c30-bcb8-87c86baa3e7d
+°csharpsquid:S3887"fUse an immutable collection or reduce the accessibility of the non-private readonly field 'LeafNodes'.(®Šò8ƒğğÌ2J$8a262343-2b63-415e-a5cb-110886f7cf46
+´csharpsquid:S3887"kUse an immutable collection or reduce the accessibility of the non-private readonly field 'LeafNodesDepth'.(÷ÛÓ=8ƒğğÌ2J$8e27a837-3736-4400-a3bc-b2ba10593b6a
+csharpsquid:S3900""NRefactor this method to add validation of parameter 'normals' before using it.(ìü¡«ÿÿÿÿÿ8ÈÔîò2J$ba7930a5-3394-41ed-98bf-02aed1e64e10

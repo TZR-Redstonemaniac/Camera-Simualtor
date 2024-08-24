@@ -2,7 +2,11 @@
 yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\LineEndCap.csjr	
 …C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RegularPolygonGeometry.csr	Û
 yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesMeshUtils.cs 8jr3
- "#%&*,-./12345:;<=>@ABCDEFGIJLNx‚ #&*-./123;<=ABCDEFI©g
+ "#%&*,-./12345:;<=>@ABCDEFGIJLNx‚ #&*-./123;<=ABCDEFI˜
+xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RectPivot.cs 8jr	
+x‚‡
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.csr		
+©g
 €C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawOverloads.csØ 8jù
  "$&(*,.02468:<>@BDFHJQX_fmt{‚‰—ž¥¬³ºÁÈÏÖÝäëòù€‡Ž•œ£ª±¸¿ÆÍÔÛâéð÷þ…Œ“šœž ¢¤¦¨ª¬®°²´¶¸ºÁÈÏÖÝäëòù€‡Ž•œ£ª±¸¿ÆÍÔÛâéð÷þ…Œ“š¡¨¯¶½ÄËÒÙàçîõüƒŠ‘˜Ÿ¦­´»ÂÉÐ×Þàâäæèêìîðòôöøúüþ€‚„†”›¢©°·¾ÅÌÓÚÜÞàâéð÷þ…Œ“š¡¨¯¶½ÄËÒÙàâäæèêìóú	ˆ		–		¤	«	²	¹	À	Â	Ä	Æ	È	Ï	Ö	Ý	ä	ë	ò	ù	€
 ‡
@@ -204,11 +208,7 @@ yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ú
 û
 ü
-€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÅÇÉËÍÏÑÓÕ×ÙÛÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼ÀÁÂÃÇÈÉÊÎÏÐÑÕÖ×ØÜÝÞßãäåæêëìíñòóôøùúûÿ€‚†‡ˆ‰Ž”•–—›œž¢£¤¥©ª«¬°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÚÛÜÝáâãäèéêëïðñòö÷øùýþÿ€„…†‡‹ŒŽ’“”•™š›œ ¡¢£§¨©ª®¯°±µ¶·¸¼½¾¿ÃÄÅÆÊËÌÍÑÒÓÔ×ÙÛÝßáäåæçëìíîòóôõùúûü€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÆÇÈÉÍÎÏÐÔÕÖ×ÛÜÝÞâãäåéêëìðñòó÷øùúþÿ€…†‡ˆŒŽ“”•–š›œ¡¢£¤¨©ª«¯°±²¶·¸¹½¾¿ÀÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼ÀÁÂÃÇÈÉÊÎÏÐÑÕÖ×ØÜÝÞßãäåæêëìíñòóôøùúûÿ€‚†‡ˆ‰Ž”•–—›œž¢£¤¥©ª«¬°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÙÛÝßáãæçèéíîïðôõö÷ûüýþ‚ƒ„…‰Š‹Œ‘’“—˜™šžŸ ¡¥¦§¨¬­®¯³´µ¶º»¼½ÁÂÃÄÈÉÊËÏÐÑÒÖ×ØÙÝÞßàäåæçëìíîòóôõùúûü€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÆÇÈÉÍÎÏÐÔÕÖ×ÛÜÝÞáãåçéëíïñóõ÷ùûýÿƒ…‡‰ŒŽ“”•–š›œ¡¢£¤§©«­°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÙÛÞßàáåæçèìíîïóôõöúûüý‚ƒ„‡‰ŒŽ“”•–š›œ¡¢£¤¨©ª«¯°±²¶·¸¹½¾¿ÀÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜßáãåèéêëïðñòö÷øùýþÿ€„…†‡‹ŒŽ‘“–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý ‚ ƒ „ ˆ ‰ Š ‹   ‘ ’ – — ˜ ™  ž Ÿ   £ ¥ § © « ­ ¯ ± ³ µ · ¹ » ½ ¿ Á Ã Å Ç É Ë Í Ï Ñ Ó Õ × Ù Û Ý ß á ã å ç é ë í ï ñ ó õ ÷ ù û ý ÿ !ƒ!…!‡!‰!‹!!!‘!“!•!‡
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.csr		
-˜
-xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RectPivot.cs 8jr	
-x‚³
+€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÅÇÉËÍÏÑÓÕ×ÙÛÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼ÀÁÂÃÇÈÉÊÎÏÐÑÕÖ×ØÜÝÞßãäåæêëìíñòóôøùúûÿ€‚†‡ˆ‰Ž”•–—›œž¢£¤¥©ª«¬°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÚÛÜÝáâãäèéêëïðñòö÷øùýþÿ€„…†‡‹ŒŽ’“”•™š›œ ¡¢£§¨©ª®¯°±µ¶·¸¼½¾¿ÃÄÅÆÊËÌÍÑÒÓÔ×ÙÛÝßáäåæçëìíîòóôõùúûü€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÆÇÈÉÍÎÏÐÔÕÖ×ÛÜÝÞâãäåéêëìðñòó÷øùúþÿ€…†‡ˆŒŽ“”•–š›œ¡¢£¤¨©ª«¯°±²¶·¸¹½¾¿ÀÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼ÀÁÂÃÇÈÉÊÎÏÐÑÕÖ×ØÜÝÞßãäåæêëìíñòóôøùúûÿ€‚†‡ˆ‰Ž”•–—›œž¢£¤¥©ª«¬°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÙÛÝßáãæçèéíîïðôõö÷ûüýþ‚ƒ„…‰Š‹Œ‘’“—˜™šžŸ ¡¥¦§¨¬­®¯³´µ¶º»¼½ÁÂÃÄÈÉÊËÏÐÑÒÖ×ØÙÝÞßàäåæçëìíîòóôõùúûü€‚ƒ‡ˆ‰ŠŽ‘•–—˜œžŸ£¤¥¦ª«¬­±²³´¸¹º»¿ÀÁÂÆÇÈÉÍÎÏÐÔÕÖ×ÛÜÝÞáãåçéëíïñóõ÷ùûýÿƒ…‡‰ŒŽ“”•–š›œ¡¢£¤§©«­°±²³·¸¹º¾¿ÀÁÅÆÇÈÌÍÎÏÓÔÕÖÙÛÞßàáåæçèìíîïóôõöúûüý‚ƒ„‡‰ŒŽ“”•–š›œ¡¢£¤¨©ª«¯°±²¶·¸¹½¾¿ÀÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜßáãåèéêëïðñòö÷øùýþÿ€„…†‡‹ŒŽ‘“–—˜™žŸ ¤¥¦§«¬­®²³´µ¹º»¼¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý‚ƒ„ˆ‰Š‹‘’–—˜™žŸ £¥§©«­¯±³µ·¹»½¿ÁÄÅÆÇËÌÍÎÒÓÔÕÙÚÛÜàáâãçèéêîïðñõö÷øüýþÿƒ„…†Š‹Œ‘’“”˜™š›Ÿ ¡¢¦§¨©­®¯°´µ¶·»¼½¾ÂÃÄÅÉÊËÌÐÑÒÓ×ØÙÚÞßàáåæçèìíîïóôõöúûüý ‚ ƒ „ ˆ ‰ Š ‹   ‘ ’ – — ˜ ™  ž Ÿ   £ ¥ § © « ­ ¯ ± ³ µ · ¹ » ½ ¿ Á Ã Å Ç É Ë Í Ï Ñ Ó Õ × Ù Û Ý ß á ã å ç é ë í ï ñ ó õ ÷ ù û ý ÿ !ƒ!…!‡!‰!‹!!!‘!“!•!³
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\TextStyle.csj	!$'*-0369r
 "%(+.147:<>‚Ê
 C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\IMMaterialPool.cs 8j	
@@ -223,9 +223,10 @@ vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ƒC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Utils\ShapesColorFieldAttribute.cs 8jr		
 ‚Œ
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Rectangle.cs !8)j $*.8BLX^fn}†r¥	
-!"%'(+-/01234579:;<=>?ACDEFGHIKMNOPQRSTWYZ[\_`abceghijklmopqrtuvwxz{~€ƒ„‡ˆ‰ŠŒŽ‘’“”–—˜™š›œžŸ ¤¥¦§¨©¬®¯°±²´¶x‚C%(+-23<=FGKPQRWhjkq€„‰Ž‘’“—˜™š›œžŸ¥¦§¨¬°±¥
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs 8j
-r‚á
+!"%'(+-/01234579:;<=>?ACDEFGHIKMNOPQRSTWYZ[\_`abceghijklmopqrtuvwxz{~€ƒ„‡ˆ‰ŠŒŽ‘’“”–—˜™š›œžŸ ¤¥¦§¨©¬®¯°±²´¶x‚C%(+-23<=FGKPQRWhjkq€„‰Ž‘’“—˜™š›œžŸ¥¦§¨¬°±Ó
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
+ 8j%r5	
+ !"#$&'()*+,./01245679:;<>?@ABDFx‚")*/0156;<?@Aá
 sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs9 /8;j/"-5?EKQW_goy…‹‘—£­³àáâîrŸ	
 !#$%&'()*,./012346789:;<=>@ABCDFGHIJLMNOPRSTUXYZ[\]^`abcdefhijklmnpqrstuvxz{|}„†‡ˆ‰ŠŒŽ’“”•–˜™š›œžŸ ¡¢¤¥¦§¨©ª«¬®¯°±²´µ¶·¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ÙÚÜßàáâãäçèéëìíïðñòóõ÷x	‚‹!&'(,129:;<BDHJNPT[\cdiklstx|ˆŠŽ”–š§¨©¬°²¶º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙàáâãèìíïðòæ
 tC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Torus.cs 8j$*0Kr<	
@@ -240,10 +241,9 @@ wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\TextAlign.cs' 8&jrV	
  !"#$%&'()*+,-./123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXY[\]_x‚'3456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWX[œ
 
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\Draw.csÍ 83j68>I\n|Þóôý™¡¨¯²¹º»ÀÂÅÇÎÓÕ„rì"%'()*+,-./0123456789:;<>?ABCDEFGHIKLMNOPQRTUVWXYZ\]_`bcdefhjklmnpqrstuvwxyz|}€‚„…†‡ˆŠ‹ŒŽ‘’“”•–—™š›œžŸ ¡£¥¦§©ª«¬­®¯°±²³´µ¶·¸¹»½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÔÖ×ØÙÚÛÜßàâãäåæçèéêëíïðñòóôõö÷øùúûüýþÿ€‚ƒ„…†ˆŠ‹ŒŽ‘’“”•–—˜™š›œŸ¡¢£¤¥¦§¨ª¬­®¯°±²³´µ¶·¹»¼½¾¿ÀÁÂÄÆÇÈÉÊËÌÍÎÏÐÑÒÓÕÖ×ØÙÚÛÜÝÞßáãäåæçèéêëìíîðñòóôõö÷øùúûüýþÿ€‚ƒ„†‡ˆŠŒŽ‘’”•–˜š›œžŸ¢£¤¥¦©ª«¬­®°±³´¶·º¼¿ÁÃÆÈÉÊÍÏÐÑÒÓÔÖ×ØÙÛÝÞàáâãäåæèéêëìíïðñòóôõöøùúûüýþÿ€‚…†ˆ‰Š‹ŒŽx‚í".0123456789:HIKMNPQUVWXY\]_`bcdmnprsuvxy|}€‡Ž– ¥¦§©ª«¬­®¯°±²³´µ¶·ÄÅÆÇÈÉÊËÌÍÎÏÐÜßàâãäåæçèéøùúûüýþÿ€‚ƒ„’“”•–—˜™š£¤¥¦°±²³´µ½¾¿ÀËÌÍÎÏÐÑÒÕÖ×ØÙÚÛÜÝêëìíüýþÿ‚ƒ†‡‘”š›œžŸ¢£¤¥¦©ª«¬­°±³¶·ºÁÆÈÉÍÏÐÑÒÓÔÞàáâãäìõÿ‹Ó
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
- 8j%r5	
- !"#$&'()*+,./01245679:;<>?@ABDFx‚")*/0156;<?@AÔ
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\Draw.csÍ 83j68>I\n|Þóôý™¡¨¯²¹º»ÀÂÅÇÎÓÕ„rì"%'()*+,-./0123456789:;<>?ABCDEFGHIKLMNOPQRTUVWXYZ\]_`bcdefhjklmnpqrstuvwxyz|}€‚„…†‡ˆŠ‹ŒŽ‘’“”•–—™š›œžŸ ¡£¥¦§©ª«¬­®¯°±²³´µ¶·¸¹»½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÔÖ×ØÙÚÛÜßàâãäåæçèéêëíïðñòóôõö÷øùúûüýþÿ€‚ƒ„…†ˆŠ‹ŒŽ‘’“”•–—˜™š›œŸ¡¢£¤¥¦§¨ª¬­®¯°±²³´µ¶·¹»¼½¾¿ÀÁÂÄÆÇÈÉÊËÌÍÎÏÐÑÒÓÕÖ×ØÙÚÛÜÝÞßáãäåæçèéêëìíîðñòóôõö÷øùúûüýþÿ€‚ƒ„†‡ˆŠŒŽ‘’”•–˜š›œžŸ¢£¤¥¦©ª«¬­®°±³´¶·º¼¿ÁÃÆÈÉÊÍÏÐÑÒÓÔÖ×ØÙÛÝÞàáâãäåæèéêëìíïðñòóôõöøùúûüýþÿ€‚…†ˆ‰Š‹ŒŽx‚í".0123456789:HIKMNPQUVWXY\]_`bcdmnprsuvxy|}€‡Ž– ¥¦§©ª«¬­®¯°±²³´µ¶·ÄÅÆÇÈÉÊËÌÍÎÏÐÜßàâãäåæçèéøùúûüýþÿ€‚ƒ„’“”•–—˜™š£¤¥¦°±²³´µ½¾¿ÀËÌÍÎÏÐÑÒÕÖ×ØÙÚÛÜÝêëìíüýþÿ‚ƒ†‡‘”š›œžŸ¢£¤¥¦©ª«¬­°±³¶·ºÁÆÈÉÍÏÐÑÒÓÔÞàáâãäìõÿ‹¥
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs 8j
+r‚Ô
 zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpb.csY 8jGIKRUW_doqu€‘¨rº
  !"#$%&'()+,-./0123456789:;<=>?ACEFGHIJKMNPQRSTUVWXZ[]^_`abcdeghjkmnopqrsuvxy{}~€‚„…†‡‰Š‹ŒŽ’“–—˜™š›œžŸ ¡¢£¤¥¦©ª¬­®¯°±³x‚x "#$%&'-./012345789:;<=AFGHIKMQRTUWZ^_abdgmnopqruvx~€‚„…†Š‹Œ’“–—˜™š›žŸ ¡¢£¤¥©­®¯ 
 wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DashType.cs 8jr	x‚©

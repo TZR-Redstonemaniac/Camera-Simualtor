@@ -9,9 +9,11 @@ eC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scrip
 ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.csutf-8ê
 ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.csutf-8ï
 ãC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.csutf-8ç
-ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.csutf-8ç
-ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.csutf-8l
-cC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\MovementHelper.csutf-8ê
+ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.csutf-8t
+kC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Helpers\MovementHelper.csutf-8i
+`C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\BVH.csutf-8ç
+ÉC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.csutf-8n
+eC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\Triangle.csutf-8ê
 ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.csutf-8à
 C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.csutf-8x
 oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\RayTracingMaterial.csutf-8á
@@ -33,7 +35,8 @@ oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scrip
 C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.csutf-8ä
 ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.csutf-8é
 ÑC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.csutf-8ê
-ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.csutf-8å
+ÜC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.csutf-8j
+aC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\Node.csutf-8å
 ÇC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.csutf-8è
 ÖC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.csutf-8å
 ÇC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.csutf-8ä
@@ -42,4 +45,5 @@ oC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scrip
 àC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.csutf-8r
 iC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Tests\ShaderRenderer.csutf-8ä
 ÄC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.csutf-8í
-àC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.csutf-8
+àC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.csutf-8q
+hC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Scripts\Objects\BoundingBox.csutf-8

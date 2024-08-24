@@ -21,7 +21,7 @@ namespace Helpers {
             Vector2 direction = point2 - point1;
 
             // Calculate the angle in radians using Mathf.Atan2
-            float angleRadians = Mathf.Atan2(direction.x, direction.y);
+            float angleRadians = Mathf.Atan2(direction.y, direction.x);
 
             // Convert the angle from radians to degrees
             float angleDegrees = angleRadians * Mathf.Rad2Deg;

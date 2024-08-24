@@ -1,4 +1,5 @@
-´
-Shapes.MpbPolyline2DShapes.MetaMpbobjectK
-TransferShapeProperties().Shapes.MpbPolyline2D.TransferShapeProperties()7
-MpbPolyline2D()$Shapes.MpbPolyline2D.MpbPolyline2D()
+Ç
+Shapes.ShapesMaterialsobjectk
+(ShapesMaterials(string, params string[])?Shapes.ShapesMaterials.ShapesMaterials(string, params string[])[
+ this[Shapes.ShapesBlendMode].get7Shapes.ShapesMaterials.this[Shapes.ShapesBlendMode].get[
+ this[Shapes.ShapesBlendMode].set7Shapes.ShapesMaterials.this[Shapes.ShapesBlendMode].set

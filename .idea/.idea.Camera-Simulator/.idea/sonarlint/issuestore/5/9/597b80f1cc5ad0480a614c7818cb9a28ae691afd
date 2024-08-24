@@ -1,0 +1,4 @@
+
+¡csharpsquid:S1450"^Remove the field 'currentRotation' and declare it as a local variable in the relevant methods.(‚„¿J$f4a544f5-efb8-4188-b194-cd03a475ebd1
+¡csharpsquid:S1450"^Remove the field 'desiredRotation' and declare it as a local variable in the relevant methods.(ÖÆó„J$0e1a928b-020d-470f-97c3-b17acfd0b167
+Ÿcsharpsquid:S1450"WRemove the field 'position' and declare it as a local variable in the relevant methods.(›Œ°³ıÿÿÿÿJ$a13a7369-207c-476c-8d96-3b2bb0f05926

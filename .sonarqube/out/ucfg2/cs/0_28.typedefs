@@ -1,3 +1,5 @@
-f
-Shapes.TextAlignSystem.EnumSystem.ValueTypeobject+
-TextAlign()Shapes.TextAlign.TextAlign()
+ë
+Shapes.StyleStackSystem.ValueTypeobjectSystem.IDisposableN
+StyleStack(Shapes.DrawStyle).Shapes.StyleStack.StyleStack(Shapes.DrawStyle)(
+	Dispose()Shapes.StyleStack.Dispose().
+StyleStack()Shapes.StyleStack.StyleStack()

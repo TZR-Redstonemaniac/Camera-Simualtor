@@ -1,0 +1,10 @@
+®
+TMPro.Examples.VertexZoomUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject,
+Awake()!TMPro.Examples.VertexZoom.Awake()2
+
+OnEnable()$TMPro.Examples.VertexZoom.OnEnable()4
+OnDisable()%TMPro.Examples.VertexZoom.OnDisable(),
+Start()!TMPro.Examples.VertexZoom.Start()d
+#ON_TEXT_CHANGED(UnityEngine.Object)=TMPro.Examples.VertexZoom.ON_TEXT_CHANGED(UnityEngine.Object)H
+AnimateVertexColors()/TMPro.Examples.VertexZoom.AnimateVertexColors()6
+VertexZoom()&TMPro.Examples.VertexZoom.VertexZoom()

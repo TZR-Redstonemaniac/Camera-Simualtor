@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +65,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -204,87 +199,54 @@ Material:
     - _Color: {r: 0, g: 0.036538124, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!21 &564687632
-Material:
-  serializedVersion: 8
+  m_AllowLocking: 1
+--- !u!1 &521700426
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.25
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521700428}
+  - component: {fileID: 521700427}
+  m_Layer: 0
+  m_Name: Logger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &521700427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521700426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673c314e7459465f8fdce9311afd10e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  log: 1
+  csvFilePath: C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Logs\CSV\
+  filePrefix: Better_Mesh_Updates
+--- !u!4 &521700428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521700426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8609374, y: -0.18495369, z: 4.3026304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &745925716
 Material:
   serializedVersion: 8
@@ -366,6 +328,7 @@ Material:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &764975050
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +388,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -492,6 +458,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!21 &881369062
 Material:
   serializedVersion: 8
@@ -573,6 +550,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!21 &933020271
 Material:
   serializedVersion: 8
@@ -654,6 +632,7 @@ Material:
     - _Color: {r: 0.15604478, g: 0.7264151, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1052568374
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +672,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &1052568376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -731,6 +721,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -818,6 +811,17 @@ MonoBehaviour:
     emissionStrength: 10
     smoothness: 0
     specularProbability: 0
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &1061020721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -856,6 +860,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -943,6 +950,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &1066568244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -981,6 +999,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1054,9 +1075,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104292518}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1106,8 +1126,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1104292520
 Transform:
   m_ObjectHideFlags: 0
@@ -1117,12 +1141,149 @@ Transform:
   m_GameObject: {fileID: 1104292518}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.09, y: 4.514, z: -5.82}
+  m_LocalPosition: {x: 0.09, y: 4.514, z: -9.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1260985342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260985348}
+  - component: {fileID: 1260985347}
+  - component: {fileID: 1260985346}
+  - component: {fileID: 1260985345}
+  - component: {fileID: 1260985344}
+  - component: {fileID: 1260985343}
+  m_Layer: 0
+  m_Name: RayTester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1260985343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea97fe775f544288af5263891dcdfca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 8065867626085594416}
+  visualizer: {fileID: 1260985344}
+--- !u!114 &1260985344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1004e0f2b084bd6a7f5b6bb3a3f900e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCullingMasks: 0
+--- !u!135 &1260985345
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1260985346
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1260985347
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1260985348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260985342}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.09578193, y: -0.06337102, z: -0.14276706, w: 0.98307055}
+  m_LocalPosition: {x: 1.7177556, y: 1.9, z: -4.43}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -11.912, y: -5.704, z: -15.931}
 --- !u!21 &1311193657
 Material:
   serializedVersion: 8
@@ -1204,6 +1365,7 @@ Material:
     - _Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1376862856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,6 +1379,8 @@ GameObject:
   - component: {fileID: 1376862857}
   - component: {fileID: 1376862860}
   - component: {fileID: 1376862861}
+  - component: {fileID: 1376862862}
+  - component: {fileID: 1376862863}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1315,11 +1479,12 @@ MonoBehaviour:
   smoothingShader: {fileID: 4800000, guid: 666f60591d174668968ad33b327181a4, type: 3}
   mainCam: {fileID: 1376862858}
   useShaderInSceneView: 0
+  useShaderInGameView: 1
   accumulate: 0
   smoothing: 0
-  MaxBounceCount: 6
-  NumRaysPerPixel: 3
-  DivergeStrength: 0.2
+  MaxBounceCount: 1
+  NumRaysPerPixel: 1
+  DivergeStrength: 0.23
   DefocusStrength: 5
   FocusDistance: 10.34
   RenderDistance: 17.4
@@ -1331,10 +1496,10 @@ MonoBehaviour:
   GroundColor: {r: 0.59599996, g: 0.59599996, b: 0.59599996, a: 1}
   SunFocus: 500
   SunIntensity: 500
-  visualizeFocus: 0
-  visualizeBoundingBox: 0
-  triangleTest: 0
-  visDepth: 7
+  debugView: 1
+  debugViewMode: 0
+  boxDisplayThreshold: 107
+  triangleDisplayThreshold: 70
 --- !u!114 &1376862861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1347,6 +1512,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb0c3014edec17c41a4b879b6e9662ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1376862862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376862856}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be61fd137a45de045bb9b4950cf24253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 5132019465290353765}
+  targetOffset: {x: 0, y: 0, z: 0}
+  distance: 5
+  maxDistance: 20
+  minDistance: 0.6
+  xSpeed: 200
+  ySpeed: 200
+  yMinLimit: -80
+  yMaxLimit: 80
+  zoomRate: 40
+  panSpeed: 0.3
+  zoomDampening: 5
+--- !u!114 &1376862863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376862856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4aeead263664a6a898030038a921950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCullingMasks: 0
+  manager: {fileID: 1376862860}
+  visualizeFocus: 0
+  visualizeBoundingBox: 0
+  visualizeTriangles: 0
+  fill: 0
+  boxFill: 0
+  boxLimit: 0
+  visDepth: 0
+  child: 0
 --- !u!1 &1386737017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1597,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &1386737019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1424,6 +1646,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1553,6 +1778,89 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1684265179
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.96981126, g: 0.9350444, b: 0.9350444, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1848808341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1900,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &1848808343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1630,6 +1949,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1759,6 +2081,7 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2099740943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +2159,17 @@ MonoBehaviour:
     emissionStrength: 0
     smoothness: 0
     specularProbability: 0.25
+  stats:
+    GenTime: 0
+    Triangles: 0
+    NodeCount: 0
+    LeafCount: 0
+    MaxLeafDepth: 0
+    MinLeafDepth: 0
+    MeanLeafDepth: 0
+    MaxLeafTri: 0
+    MinLeafTri: 0
+    MeanLeafTri: 0
 --- !u!65 &2106049506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1874,6 +2208,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1922,13 +2259,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2099740944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &298056977831822212
+--- !u!1 &4147454605130440542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5132019465290353765}
+  - component: {fileID: 8065867626085594415}
+  - component: {fileID: 6830287169777865147}
+  - component: {fileID: 8065867626085594416}
+  - component: {fileID: 8065867626085594417}
+  m_Layer: 0
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5132019465290353765
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8832902762856452287}
+  m_GameObject: {fileID: 4147454605130440542}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.50052893, z: -0, w: 0.8657198}
   m_LocalPosition: {x: 0, y: 2.04, z: 0}
@@ -1937,13 +2294,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &2148353639595318874
+--- !u!23 &6830287169777865147
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8832902762856452287}
+  m_GameObject: {fileID: 4147454605130440542}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1954,10 +2311,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 564687632}
+  - {fileID: 1684265179}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1979,52 +2339,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &3239713629651352270
+--- !u!33 &8065867626085594415
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8832902762856452287}
-  m_Mesh: {fileID: -2432090755550338912, guid: 5c90513077fff91418a9a81cc363b468, type: 3}
---- !u!1 &8832902762856452287
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 298056977831822212}
-  - component: {fileID: 3239713629651352270}
-  - component: {fileID: 2148353639595318874}
-  - component: {fileID: 8832902762856452288}
-  m_Layer: 0
-  m_Name: Dragon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &8832902762856452288
+  m_GameObject: {fileID: 4147454605130440542}
+  m_Mesh: {fileID: -2432090755550338912, guid: c309b57c4ad8f114ebe69abdb56e9fbb, type: 3}
+--- !u!114 &8065867626085594416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8832902762856452287}
+  m_GameObject: {fileID: 4147454605130440542}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d713b2a342e29a141bd2d34645956aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   material:
-    color: {r: 1, g: 1, b: 1, a: 1}
+    color: {r: 0.96981126, g: 0.9350444, b: 0.9350444, a: 1}
     emissionColor: {r: 0, g: 0, b: 0, a: 0}
-    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    specularColor: {r: 0, g: 0, b: 0, a: 0}
     emissionStrength: 0
-    smoothness: 0.25
-    specularProbability: 0.5
+    smoothness: 0
+    specularProbability: 0
+  stats:
+    GenTime: 18784
+    Triangles: 87130
+    NodeCount: 173793
+    LeafCount: 86897
+    MaxLeafDepth: 23
+    MinLeafDepth: 9
+    MeanLeafDepth: 16
+    MaxLeafTri: 4
+    MinLeafTri: 0
+    MeanLeafTri: 1
+--- !u!114 &8065867626085594417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4147454605130440542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe929ec88ff8614e974ab0784bcf00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateTime: 7
+  quitAfterRot: 1
+  logger: {fileID: 521700427}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2032,4 +2399,6 @@ SceneRoots:
   - {fileID: 1376862859}
   - {fileID: 1104292520}
   - {fileID: 2099740944}
-  - {fileID: 298056977831822212}
+  - {fileID: 5132019465290353765}
+  - {fileID: 1260985348}
+  - {fileID: 521700428}

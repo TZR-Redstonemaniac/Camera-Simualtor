@@ -1,0 +1,11 @@
+Ü
+!TMPro.Examples.TMP_TextEventCheckUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject:
+
+OnEnable(),TMPro.Examples.TMP_TextEventCheck.OnEnable()<
+OnDisable()-TMPro.Examples.TMP_TextEventCheck.OnDisable()d
+OnCharacterSelection(char, int)ATMPro.Examples.TMP_TextEventCheck.OnCharacterSelection(char, int)^
+OnSpriteSelection(char, int)>TMPro.Examples.TMP_TextEventCheck.OnSpriteSelection(char, int)h
+!OnWordSelection(string, int, int)CTMPro.Examples.TMP_TextEventCheck.OnWordSelection(string, int, int)h
+!OnLineSelection(string, int, int)CTMPro.Examples.TMP_TextEventCheck.OnLineSelection(string, int, int)n
+$OnLinkSelection(string, string, int)FTMPro.Examples.TMP_TextEventCheck.OnLinkSelection(string, string, int)N
+TMP_TextEventCheck()6TMPro.Examples.TMP_TextEventCheck.TMP_TextEventCheck()

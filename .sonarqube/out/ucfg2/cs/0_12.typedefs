@@ -1,5 +1,6 @@
-µ
-Shapes.GradientFillStackSystem.ValueTypeobjectSystem.IDisposableu
-,GradientFillStack(bool, Shapes.GradientFill)EShapes.GradientFillStack.GradientFillStack(bool, Shapes.GradientFill)/
-	Dispose()"Shapes.GradientFillStack.Dispose()C
-GradientFillStack(),Shapes.GradientFillStack.GradientFillStack()
+Ü
+Shapes.TextElementobjectSystem.IDisposable1
+TextElement() Shapes.TextElement.TextElement())
+	Dispose()Shapes.TextElement.Dispose()%
+Tmp.getShapes.TextElement.Tmp.get%
+Tmp.setShapes.TextElement.Tmp.set

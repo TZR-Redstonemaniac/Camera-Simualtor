@@ -1,0 +1,9 @@
+
+ucsharpsquid:S1172^"+Remove this unused method parameter 'fill'.(©ñƒÑ8šã¢ò2J$48d21152-2f98-4969-af83-5fb68be14f39
+àcsharpsquid:S3242¹"•Consider using more general type 'System.Collections.Generic.IList<Objects.Triangle>' instead of 'System.Collections.Generic.List<Objects.Triangle>'.(šÜ8—³âŒŠ2J$29733c2c-f53c-46da-9d7e-e7c500c26a4b
+“csharpsquid:S3900"JRefactor this method to add validation of parameter 'cam' before using it.(È …k8Î«ÅŒŠ2J$7235901b-a7ef-4a8a-bc51-f66771f6af48
+†csharpsquid:S1117O"7Rename 'fill' which hides the field with the same name.(¸º¤„üÿÿÿÿ8ºÇÏŒŠ2J$9ba62583-9699-4075-8de3-271e98dc176e
+hcsharpsquid:S125s"Remove this commented out code.(™á8»Ö«ò2J$5e9f6acd-c2e9-483b-adef-6f01462abec3
+hcsharpsquid:S125t"Remove this commented out code.(‚ñø8›ã¢ò2J$78c8b764-bdb2-4ec8-8d90-3a0ae6ec4965
+ncsharpsquid:S125¶"Remove this commented out code.(éØ»Úûÿÿÿÿ8»Ö«ò2J$b5ed8fda-dcb6-47d0-8913-5070751e0912
+csharpsquid:S113É"AAdd a new line at the end of the file 'BoundingBoxVisualizer.cs'.(æÀö€øÿÿÿÿ8úÇªŒŠ2J$cdc0280e-3909-443a-b964-6b1e758f5806

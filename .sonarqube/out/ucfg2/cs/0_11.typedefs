@@ -1,5 +1,8 @@
-ï
-Shapes.DashStackSystem.ValueTypeobjectSystem.IDisposableW
-!DashStack(bool, Shapes.DashStyle)2Shapes.DashStack.DashStack(bool, Shapes.DashStyle)'
-	Dispose()Shapes.DashStack.Dispose()+
-DashStack()Shapes.DashStack.DashStack()
+¨
+Shapes.ImmediateModeShapeDrawerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject`
+DrawShapes(UnityEngine.Camera)>Shapes.ImmediateModeShapeDrawer.DrawShapes(UnityEngine.Camera)n
+%OnCameraPreRender(UnityEngine.Camera)EShapes.ImmediateModeShapeDrawer.OnCameraPreRender(UnityEngine.Camera)8
+
+OnEnable()*Shapes.ImmediateModeShapeDrawer.OnEnable():
+OnDisable()+Shapes.ImmediateModeShapeDrawer.OnDisable()X
+ImmediateModeShapeDrawer():Shapes.ImmediateModeShapeDrawer.ImmediateModeShapeDrawer()

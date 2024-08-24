@@ -1,0 +1,13 @@
+Ü
+Objects.RayTracingMeshUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject)
+Start()Objects.RayTracingMesh.Start()+
+Update()Objects.RayTracingMesh.Update();
+UpdateMeshData()'Objects.RayTracingMesh.UpdateMeshData()]
+!LocalToWorld(UnityEngine.Vector3)8Objects.RayTracingMesh.LocalToWorld(UnityEngine.Vector3);
+RayTracingMesh()'Objects.RayTracingMesh.RayTracingMesh()3
+Material.get#Objects.RayTracingMesh.Material.get3
+Material.set#Objects.RayTracingMesh.Material.set)
+BVH.getObjects.RayTracingMesh.BVH.get)
+BVH.setObjects.RayTracingMesh.BVH.set5
+Triangles.get$Objects.RayTracingMesh.Triangles.get5
+Triangles.set$Objects.RayTracingMesh.Triangles.set

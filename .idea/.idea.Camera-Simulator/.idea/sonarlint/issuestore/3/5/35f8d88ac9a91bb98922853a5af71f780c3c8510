@@ -1,0 +1,16 @@
+
+Rcsharpsquid:S1121R"6Extract the assignment of 'list' from this expression.(­†ä/
+Lcsharpsquid:S1125Q"*Remove the unnecessary Boolean literal(s).(·²½Êüÿÿÿÿ
+Hcsharpsquid:S1125"*Remove the unnecessary Boolean literal(s).(ƒ†Åë
+hcsharpsquid:S3881"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(”àı¨
+Šcsharpsquid:S4055"gReplace this string literal with a string retrieved through an instance of the 'ResourceManager' class.(ÒËÏ™øÿÿÿÿ
+Qcsharpsquid:S3257,"4'sceneA' is not used. Use discard parameter instead.(ë†Àê
+Qcsharpsquid:S3257,"4'sceneB' is not used. Use discard parameter instead.(ë†Àê
+Pcsharpsquid:S3257-"3'scene' is not used. Use discard parameter instead.(ŞÕáÁ
+Pcsharpsquid:S3257-"3'setup' is not used. Use discard parameter instead.(ŞÕáÁ
+Ocsharpsquid:S3257-"2'mode' is not used. Use discard parameter instead.(ŞÕáÁ
+scsharpsquid:S2696‹"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(›ö­â
+scsharpsquid:S2696‘"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(óÏŠà
+fcsharpsquid:S2696À"HRemove this set, which updates a 'static' field from an instance method.(İªáˆ
+Ycsharpsquid:S113ä"7Add a new line at the end of the file 'DrawCommand.cs'.(æÀö€øÿÿÿÿ
+acsharpsquid:S105"EReplace all tab characters in this file by sequences of white-spaces.(”àı¨

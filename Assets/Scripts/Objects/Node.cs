@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using UnityEngine;
 
-public class Node {
-    public BoundingBox Bounds = new();
-    public int TriangleIndex;
-    public int TrianglesCount;
-    public int ChildIndex;
+namespace Objects {
+    public struct Node {
+        public int ChildIndex;
+        public int TriangleIndex;
+        public int TrianglesCount;
+        public Vector3 BoundsMin;
+        public Vector3 BoundsMax;
+    }
 }

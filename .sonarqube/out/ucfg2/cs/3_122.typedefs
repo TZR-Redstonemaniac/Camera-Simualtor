@@ -1,0 +1,8 @@
+Ã
+Objects.BVHobjectR
+!BVH(UnityEngine.Vector3[], int[])-Objects.BVH.BVH(UnityEngine.Vector3[], int[])@
+Split(Objects.Node, int)$Objects.BVH.Split(Objects.Node, int) 
+Root.getObjects.BVH.Root.get 
+Root.setObjects.BVH.Root.set(
+AllNodes.getObjects.BVH.AllNodes.get(
+AllNodes.setObjects.BVH.AllNodes.set

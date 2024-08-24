@@ -1,14 +1,13 @@
 ﻿Shader "Custom/RayTracing"
 {
-    Properties {
-
-    }
     SubShader
     {
+        Cull Off ZWrite Off ZTest Always
+        
         Pass
         {
             CGPROGRAM
-            // Upgrade NOTE: excluded shader from DX11, OpenGL ES 2.0 because it uses unsized arrays
+
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
@@ -40,6 +39,7 @@
             {
                 float3 origin;
                 float3 dir;
+                float3 invDir;
             };
 
             struct RayTracingMaterial
@@ -52,17 +52,15 @@
                 float specularProbability;
             };
 
-            struct Sphere
-            {
-                float3 position;
-                float radius;
-                RayTracingMaterial material;
-            };
-
             struct Triangle
             {
-                float3 posA, posB, posC;
-                float3 normalA, normalB, normalC;
+                float3 posA;
+                float3 posB;
+                float3 posC;
+                float3 normalA;
+                float3 normalB;
+                float3 normalC;
+                float3 center;
             };
 
             struct MeshInfo
@@ -74,6 +72,23 @@
                 float3 boundsMax;
             };
 
+            struct BoundingBox
+            {
+                float3 Max;
+                float3 Min;
+                float3 Center;
+                float3 Size;
+            };
+
+            struct Node
+            {
+                int ChildIndex;
+                int TriangleIndex;
+                int TrianglesCount;
+                float3 BoundsMin;
+                float3 BoundsMax;
+            };
+
             struct HitInfo
             {
                 bool didHit;
@@ -82,6 +97,17 @@
                 float3 normal;
                 RayTracingMaterial material;
             };
+
+            struct TriangleHitInfo
+			{
+				bool didHit;
+				float dst;
+				float3 hitPoint;
+				float3 normal;
+				int triIndex;
+                RayTracingMaterial material;
+                int triCount;
+			};
             
             // ------------- Variables -------------
             float4 SkyColorHorizon;
@@ -93,9 +119,6 @@
 
             float3 ViewParams;
             float4x4 CamLocalToWorldMatrix;
-            
-            StructuredBuffer<Sphere> Spheres;
-            int numOfSpheres;
 
             int MaxBounceCount;
             int NumRaysPerPixel;
@@ -107,15 +130,26 @@
 
             float BlackRayTolerance;
 
-            StructuredBuffer<Triangle> Triangles;
+            StructuredBuffer<Triangle> TriangleBuffer;
+            StructuredBuffer<Node> Nodes;
             StructuredBuffer<MeshInfo> AllMeshInfo;
             int NumMeshes;
+            int NumTriangles;
             
             StructuredBuffer<float3> AllLightSources;
             int NumLights;
             
             int UseEnvironment;
-            int TriangleTest;
+            
+            int DebugView;
+            int DebugViewMode;
+
+            float BoxDisplayThreshold;
+            float TriangleDisplayThreshold;
+
+            int2 stats;
+
+            float4x4 ModelWorldToLocalMatrix;
 
             // ------------- Ray Intersection Functions -------------
             float RandomValue(inout uint state)
@@ -133,10 +167,10 @@
                 return rho * cos(theta);
             }
 
-            float2 RandomPointInCircle(inout uint rngState)
+            float2 RandomPointInCircle(uint rngState)
             {
-                float angle = RandomValue(rngState) * 2 * PI;
-                float2 pointOnCircle = float2(cos(angle), sin(angle));
+                const float angle = RandomValue(rngState) * 2 * PI;
+                const float2 pointOnCircle = float2(cos(angle), sin(angle));
                 return pointOnCircle * sqrt(RandomValue(rngState));
             }
 
@@ -176,74 +210,158 @@
                 return hitInfo;
             }
 
-            HitInfo RayTriangle(const Ray ray, const Triangle tri)
-            {
-                float3 edgeAB = tri.posB - tri.posA;
-				float3 edgeAC = tri.posC - tri.posA;
-				float3 normalVector = cross(edgeAB, edgeAC);
-				float3 ao = ray.origin - tri.posA;
-				float3 dao = cross(ao, ray.dir);
+            TriangleHitInfo RayTriangle(Ray ray, Triangle tri)
+			{
+				TriangleHitInfo info;
+                info.didHit = false;
 
-				float determinant = -dot(ray.dir, normalVector);
-				float invDet = 1 / determinant;
-				
-				// Calculate dst to triangle & barycentric coordinates of intersection point
-				float dst = dot(ao, normalVector) * invDet;
-				float u = dot(edgeAC, dao) * invDet;
-				float v = -dot(edgeAB, dao) * invDet;
-				float w = 1 - u - v;
-				
-				// Initialize hit info
-				HitInfo hitInfo;
-				hitInfo.didHit = determinant >= 1E-6 && dst >= 0 && u >= 0 && v >= 0 && w >= 0;
-				hitInfo.hitPoint = ray.origin + ray.dir * dst;
-				hitInfo.normal = normalize(tri.normalA * w + tri.normalB * u + tri.normalC * v);
-				hitInfo.dst = dst;
-				return hitInfo;
-            }
+                const float3 vertex0 = tri.posA;
+                const float3 vertex1 = tri.posB;
+                const float3 vertex2 = tri.posC;
+
+                const float EPSILON = 1E-8f;
+
+                const float3 edge1 = vertex1 - vertex0;
+                const float3 edge2 = vertex2 - vertex0;
+                const float3 h = cross(ray.dir, edge2);
+                const float a = dot(edge1, h);
+
+                if (a > -EPSILON && a < EPSILON) return info; // This ray is parallel to this triangle.
+
+                const float f = 1.0 / a;
+                const float3 s = ray.origin - vertex0;
+                const float u = f * dot(s, h);
+
+                if (u < 0.0 || u > 1.0) return info;
+
+                const float3 q = cross(s, edge1);
+                const float v = f * dot(ray.dir, q);
+
+                if (v < 0.0 || u + v > 1.0) return info;
+
+                // At this stage we can compute t to find out where the intersection point is on the line.
+                const float t = f * dot(edge2, q);
+                if (t > EPSILON) // ray intersection
+                {
+                    const float3 edgeAB = tri.posB - tri.posA;
+                    const float3 edgeAC = tri.posC - tri.posA;
+                    const float3 normalVector = normalize(cross(edgeAB, edgeAC));
+
+                    const float dst = distance(tri.center, ray.origin);
+
+                    info.didHit = true;
+                    info.hitPoint = ray.origin + ray.dir * dst;
+                    info.normal = normalVector;
+                    info.dst = dst;
+                    
+                    return info;
+                } // This means that there is a line intersection but not a ray intersection.
+
+                return info;
+			}
 
             bool RayBoundingBox(Ray ray, float3 boxMin, float3 boxMax)
 			{
-                const float3 invDir = 1 / ray.dir;
-                const float3 tMin = (boxMin - ray.origin) * invDir;
-                const float3 tMax = (boxMax - ray.origin) * invDir;
-				float3 t1 = min(tMin, tMax);
-				float3 t2 = max(tMin, tMax);
-                const float tNear = max(max(t1.x, t1.y), t1.z);
-                const float tFar = min(min(t2.x, t2.y), t2.z);
-				return tNear <= tFar;
+                float tmin = 0.0, tmax = FLT_MAX;
+
+                for (int d = 0; d < 3; ++d) {
+                    const float t1 = (boxMin[d] - ray.origin[d]) * ray.invDir[d];
+                    const float t2 = (boxMax[d] - ray.origin[d]) * ray.invDir[d];
+
+                    tmin = max(tmin, min(t1, t2));
+                    tmax = min(tmax, max(t1, t2));
+                }
+
+                return tmin < tmax;
 			};
 
-            HitInfo CalculateRayCollision(const Ray ray, inout int numTests)
+            float RayBoundingBoxDst(Ray ray, float3 boxMin, float3 boxMax)
+			{
+				float tmin = 0.0, tmax = FLT_MAX;
+
+                for (int d = 0; d < 3; ++d) {
+                    const float t1 = (boxMin[d] - ray.origin[d]) * ray.invDir[d];
+                    const float t2 = (boxMax[d] - ray.origin[d]) * ray.invDir[d];
+
+                    tmin = max(tmin, min(t1, t2));
+                    tmax = min(tmax, max(t1, t2));
+                }
+
+                const bool hit = tmin < tmax;
+                const float dst = hit ? tmin > 0 ? tmin : 0 : FLT_MAX;
+				return dst;
+			}
+
+            TriangleHitInfo RayTriangleTest(const Ray ray)
             {
-                HitInfo closestHit = (HitInfo)0;
-                closestHit.dst = FLT_MAX;
+                int stack[32];
+                int stackIndex = 0;
+                stack[stackIndex++] = 0;
 
-                for (int i = 0; i < numOfSpheres; i++)
+                TriangleHitInfo result;
+                result.dst = FLT_MAX;
+                result.didHit = false;
+
+                while (stackIndex > 0)
                 {
-                    Sphere sphere = Spheres[i];
-                    HitInfo hitInfo = RaySphere(ray, sphere.position, sphere.radius);
-                    numTests++;
-
-                    if (hitInfo.didHit && hitInfo.dst < closestHit.dst)
+                    const Node node = Nodes[stack[--stackIndex]];
+                    
+                    if (node.ChildIndex == 0)
                     {
-                        closestHit = hitInfo;
-                        closestHit.material = sphere.material;
+                        stats[1] += node.TrianglesCount;
+                        for (int i = node.TriangleIndex; i < node.TriangleIndex + node.TrianglesCount; i++)
+                        {
+                            const TriangleHitInfo triHitInfo = RayTriangle(ray, TriangleBuffer[i]);
+                            if (triHitInfo.dst < result.dst && triHitInfo.didHit)
+                            {
+                                result.didHit = triHitInfo.didHit;
+                                result.hitPoint = triHitInfo.hitPoint;
+                                result.normal = triHitInfo.normal;
+                                result.dst = triHitInfo.dst;
+                            }
+                        }
+                    } else {
+                        int childIndexA = node.ChildIndex + 0;
+						int childIndexB = node.ChildIndex + 1;
+                        const Node childA = Nodes[childIndexA];
+                        const Node childB = Nodes[childIndexB];
+
+						float dstA = RayBoundingBoxDst(ray, childA.BoundsMin, childA.BoundsMax);
+						float dstB = RayBoundingBoxDst(ray, childB.BoundsMin, childB.BoundsMax);
+						stats[1] += 2; // count bounding box intersection tests
+						
+						// We want to look at closest child node first, so push it last
+                        const bool isNearestA = dstA <= dstB;
+                        const float dstNear = isNearestA ? dstA : dstB;
+                        const float dstFar = isNearestA ? dstB : dstA;
+                        const int childIndexNear = isNearestA ? childIndexA : childIndexB;
+                        const int childIndexFar = isNearestA ? childIndexB : childIndexA;
+
+						if (dstFar < result.dst) stack[stackIndex++] = childIndexFar;
+						if (dstNear < result.dst) stack[stackIndex++] = childIndexNear;
                     }
                 }
+                
+                return result;
+            }
+
+            TriangleHitInfo CalculateRayCollision(const Ray ray, inout int numTests)
+            {
+                TriangleHitInfo closestHit = (TriangleHitInfo)0;
+                closestHit.dst = FLT_MAX;
 
                 // Raycast against all meshes and keep info about the closest hit
 				for (int meshIndex = 0; meshIndex < NumMeshes; meshIndex ++)
 				{
-					MeshInfo meshInfo = AllMeshInfo[meshIndex];
+                    const MeshInfo meshInfo = AllMeshInfo[meshIndex];
 				    if (!RayBoundingBox(ray, meshInfo.boundsMin, meshInfo.boundsMax)) {
 						continue;
 					}
 
 					for (uint i = 0; i < meshInfo.numTriangles; i ++) {
-						int triIndex = meshInfo.firstTriangleIndex + i;
-						Triangle tri = Triangles[triIndex];
-						HitInfo hitInfo = RayTriangle(ray, tri);
+                        const int triIndex = meshInfo.firstTriangleIndex + i;
+                        const Triangle tri = TriangleBuffer[triIndex];
+                        const TriangleHitInfo hitInfo = RayTriangle(ray, tri);
 					    numTests++;
 	
 						if (hitInfo.didHit && hitInfo.dst < closestHit.dst)
@@ -259,28 +377,59 @@
 
             float3 GetEnvironmentLight(Ray ray)
             {
-                float skyGradientT = pow(smoothstep(0, 0.4, ray.dir.y), 0.35);
-                float groundToSkyT = smoothstep(-0.01, 0, ray.dir.y);
-                float3 skyGradient = lerp(SkyColorHorizon, SkyColorZenith, skyGradientT);
-                float sun = pow(max(0, dot(ray.dir, _WorldSpaceLightPos0.xyz)), SunFocus) * SunIntensity;
+                const float skyGradientT = pow(smoothstep(0, 0.4, ray.dir.y), 0.35);
+                const float groundToSkyT = smoothstep(-0.01, 0, ray.dir.y);
+                const float3 skyGradient = lerp(SkyColorHorizon, SkyColorZenith, skyGradientT);
+                const float sun = pow(max(0, dot(ray.dir, _WorldSpaceLightPos0.xyz)), SunFocus) * SunIntensity;
                 // Combine ground, sky, and sun
                 float3 composite = lerp(GroundColor, skyGradient, groundToSkyT) + sun * (groundToSkyT >= 1);
                 return composite;
             }
 
-            float3 Trace(Ray ray, inout uint rngState)
+            float3 RayDebugView(Ray ray)
             {
+                ray.origin = mul(ModelWorldToLocalMatrix, float4(ray.origin, 1));
+                ray.dir = mul(ModelWorldToLocalMatrix, float4(ray.dir, 0));
+                ray.invDir = 1 / ray.dir;
+                
+                const TriangleHitInfo hitInfo = RayTriangleTest(ray);
+
+                float boxDisplay = stats[0] / BoxDisplayThreshold;
+                float triangleDisplay = stats[0] / TriangleDisplayThreshold;
+
+                switch (DebugViewMode)
+                {
+                    case 0:
+                        return (hitInfo.normal * 0.5 + 0.5) * hitInfo.didHit;
+                    case 1:
+                        return boxDisplay < 1 ? boxDisplay : float3(1, 0, 0);
+                    case 2:
+                        return triangleDisplay < 1 ? triangleDisplay : float3(1, 0, 0);
+                    default:
+                        return float3(1, 0, 1);
+                }
+            }
+
+            float3 Trace(Ray ray, uint rngState)
+            {
+                ray.origin = mul(ModelWorldToLocalMatrix, float4(ray.origin, 1));
+                ray.dir = mul(ModelWorldToLocalMatrix, float4(ray.dir, 0));
+                ray.invDir = 1 / ray.dir;
+                
                 float3 incomingLight = 0;
                 float3 rayColor = 1;
                 int numTests = 0;
+                TriangleHitInfo hitInfo;
 
                 for (int i = 0; i <= MaxBounceCount; i++)
                 {
-                    const HitInfo hitInfo = CalculateRayCollision(ray, numTests);
+                    hitInfo = CalculateRayCollision(ray, numTests);
                     const RayTracingMaterial material = hitInfo.material;
-                    
+
                     if (hitInfo.didHit && hitInfo.dst <= RenderDistance)
                     {
+                        hitInfo = CalculateRayCollision(ray, numTests);
+                        
                         ray.origin = hitInfo.hitPoint;
                         float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
                         float3 specularDir = reflect(ray.dir, hitInfo.normal);
@@ -292,12 +441,13 @@
                                 Ray tempRay;
                                 tempRay.origin = ray.origin;
                                 tempRay.dir = normalize(AllLightSources[j] - ray.origin);
+                                tempRay.invDir = 1 / normalize(AllLightSources[j] - ray.origin);
 
-                                HitInfo lightHitInfo;
+                                TriangleHitInfo lightHitInfo;
                                 lightHitInfo.dst = 0;
                                 lightHitInfo.hitPoint = float3(0, 0, 0);
 
-                                const HitInfo tempHitInfo = CalculateRayCollision(tempRay, numTests);
+                                const TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay, numTests);
                                 if (tempHitInfo.material.emissionStrength != 0)
                                 {
                                     if (tempHitInfo.dst < lightHitInfo.dst)
@@ -325,10 +475,6 @@
                     }
                 }
 
-                float debugVis = numTests / 2000.0;
-
-                if (TriangleTest == 1) return debugVis < 1 ? debugVis : float3(1, 0, 0);
-
                 return incomingLight;
             }
             
@@ -336,12 +482,12 @@
                 uint2 numPixels = _ScreenParams.xy;
                 uint2 pixelCoord = i.texcoord * numPixels;
                 const uint pixelIndex = pixelCoord.y * numPixels.x + pixelCoord.x;
-                uint rngState = pixelIndex + NumRenderedFrames * 719393 - NumRenderedFrames * 6814;
+                const uint rngState = pixelIndex + NumRenderedFrames * 719393 - NumRenderedFrames * 6814;
                 
                 float3 viewPointLocal = float3(i.texcoord - 0.5, 1) * ViewParams;
                 const float3 viewPoint = mul(CamLocalToWorldMatrix, float4(viewPointLocal, 1));
-                float3 camRight = CamLocalToWorldMatrix._m00_m10_m20;
-                float3 camUp = CamLocalToWorldMatrix._m01_m11_m21;
+                const float3 camRight = CamLocalToWorldMatrix._m00_m10_m20;
+                const float3 camUp = CamLocalToWorldMatrix._m01_m11_m21;
 
                 float3 totalIncomingLight = 0;
 
@@ -349,12 +495,14 @@
                 {
                     Ray ray;
                     float2 defocusJitter  = RandomPointInCircle(rngState) * DefocusStrength / numPixels.x;
-                    ray.origin = _WorldSpaceCameraPos + camRight * defocusJitter.x + camUp * defocusJitter.y;
+                    ray.origin = DebugView == 0 ?
+                        _WorldSpaceCameraPos + camRight * defocusJitter.x + camUp * defocusJitter.y : _WorldSpaceCameraPos;
                     float2 jitter = RandomPointInCircle(rngState) * DivergeStrength / numPixels.x;
-                    float3 jitteredViewPoint = viewPoint + camRight * jitter.x + camUp * jitter.y;
+                    const float3 jitteredViewPoint = DebugView == 0 ? viewPoint + camRight * jitter.x + camUp * jitter.y : viewPoint;
                     ray.dir = normalize(jitteredViewPoint - ray.origin);
+                    ray.invDir = 1 / ray.dir;  
                     
-                    totalIncomingLight += Trace(ray, rngState);
+                    totalIncomingLight += DebugView == 1 ? RayDebugView(ray) : Trace(ray, rngState);
                 }
 
                 float3 pixelColor = totalIncomingLight / NumRaysPerPixel;

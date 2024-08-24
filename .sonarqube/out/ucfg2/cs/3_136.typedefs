@@ -1,0 +1,22 @@
+ª
+TMPro.TMP_TextEventHandlerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject-UnityEngine.EventSystems.IPointerEnterHandler,UnityEngine.EventSystems.IPointerExitHandler-
+Awake()"TMPro.TMP_TextEventHandler.Awake()7
+LateUpdate()'TMPro.TMP_TextEventHandler.LateUpdate()‘
+9OnPointerEnter(UnityEngine.EventSystems.PointerEventData)TTMPro.TMP_TextEventHandler.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+8OnPointerExit(UnityEngine.EventSystems.PointerEventData)STMPro.TMP_TextEventHandler.OnPointerExit(UnityEngine.EventSystems.PointerEventData)e
+#SendOnCharacterSelection(char, int)>TMPro.TMP_TextEventHandler.SendOnCharacterSelection(char, int)_
+ SendOnSpriteSelection(char, int);TMPro.TMP_TextEventHandler.SendOnSpriteSelection(char, int)i
+%SendOnWordSelection(string, int, int)@TMPro.TMP_TextEventHandler.SendOnWordSelection(string, int, int)i
+%SendOnLineSelection(string, int, int)@TMPro.TMP_TextEventHandler.SendOnLineSelection(string, int, int)o
+(SendOnLinkSelection(string, string, int)CTMPro.TMP_TextEventHandler.SendOnLinkSelection(string, string, int)K
+TMP_TextEventHandler()1TMPro.TMP_TextEventHandler.TMP_TextEventHandler()O
+onCharacterSelection.get3TMPro.TMP_TextEventHandler.onCharacterSelection.getO
+onCharacterSelection.set3TMPro.TMP_TextEventHandler.onCharacterSelection.setI
+onSpriteSelection.get0TMPro.TMP_TextEventHandler.onSpriteSelection.getI
+onSpriteSelection.set0TMPro.TMP_TextEventHandler.onSpriteSelection.setE
+onWordSelection.get.TMPro.TMP_TextEventHandler.onWordSelection.getE
+onWordSelection.set.TMPro.TMP_TextEventHandler.onWordSelection.setE
+onLineSelection.get.TMPro.TMP_TextEventHandler.onLineSelection.getE
+onLineSelection.set.TMPro.TMP_TextEventHandler.onLineSelection.setE
+onLinkSelection.get.TMPro.TMP_TextEventHandler.onLinkSelection.getE
+onLinkSelection.set.TMPro.TMP_TextEventHandler.onLinkSelection.set

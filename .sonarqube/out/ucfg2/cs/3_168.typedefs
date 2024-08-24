@@ -1,0 +1,18 @@
+Þ
+Managers.RayTracingManagerUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject-
+Start()"Managers.RayTracingManager.Start()/
+Update()#Managers.RayTracingManager.Update()5
+OnDestroy()&Managers.RayTracingManager.OnDestroy()¥
+COnRenderImage(UnityEngine.RenderTexture, UnityEngine.RenderTexture)^Managers.RayTracingManager.OnRenderImage(UnityEngine.RenderTexture, UnityEngine.RenderTexture)µ
+KDrawNodes(Objects.Node, System.Collections.Generic.List<Objects.Node>, int)fManagers.RayTracingManager.DrawNodes(Objects.Node, System.Collections.Generic.List<Objects.Node>, int)™
+=DrawBoundingBox(Objects.BoundingBox, UnityEngine.Color, bool)XManagers.RayTracingManager.DrawBoundingBox(Objects.BoundingBox, UnityEngine.Color, bool)-
+OnGUI()"Managers.RayTracingManager.OnGUI()9
+InitShaders()(Managers.RayTracingManager.InitShaders()]
+Init(UnityEngine.RenderTexture):Managers.RayTracingManager.Init(UnityEngine.RenderTexture)k
+&UpdateCameraParams(UnityEngine.Camera)AManagers.RayTracingManager.UpdateCameraParams(UnityEngine.Camera)K
+UpdateMaterialParams()1Managers.RayTracingManager.UpdateMaterialParams()=
+HandleSpheres()*Managers.RayTracingManager.HandleSpheres();
+HandleLights())Managers.RayTracingManager.HandleLights();
+HandleMeshes())Managers.RayTracingManager.HandleMeshes()E
+ReleaseAndDispose().Managers.RayTracingManager.ReleaseAndDispose()E
+RayTracingManager().Managers.RayTracingManager.RayTracingManager()

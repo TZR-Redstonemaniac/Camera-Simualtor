@@ -1,0 +1,13 @@
+
+‰csharpsquid:S1227-":Refactor the code in order to remove this break statement.(ÁªÈ›øÿÿÿÿ8¿“à‰2J$58b8ae29-1220-4f46-a4ed-5657a1560544
+ csharpsquid:S101"WRename class 'BVHTester' to match pascal case naming rules, consider using 'BvhTester'.(€óŞº8óÛëÜ‰2J$34846741-b955-4cb8-a8fd-9516f9159664
+„csharpsquid:S1854s"5Remove this useless assignment to local variable 'q'.(¹Œñíùÿÿÿÿ8¿“à‰2J$adc52025-153b-4042-902e-7ae34a20dac1
+csharpsquid:S1854r"5Remove this useless assignment to local variable 's'.(©Ô¾ş8×ùÍİ‰2J$e0f3d4b9-fc96-40dc-a3d3-59d0b0f30cc3
+csharpsquid:S1854q"5Remove this useless assignment to local variable 'h'.(ÿ¹Ÿ8×ùÍİ‰2J$fc0b3424-9cab-416d-8654-3b2c4e26502f
+ƒcsharpsquid:S1854p"9Remove this useless assignment to local variable 'edge2'.(âìÿì8×ùÍİ‰2J$c05dc518-c304-485e-abf3-1a6f4fe99fa0
+ˆcsharpsquid:S1854o"9Remove this useless assignment to local variable 'edge1'.(£¥ñûùÿÿÿÿ8†Æéß‰2J$043ac944-2b64-4d7a-93ac-67a64218de17
+ccsharpsquid:S2357"Make 'Mesh' private.(ö»äşÿÿÿÿ8ôÛëÜ‰2J$0b467b07-c5fa-4f08-909e-39f2994d5472
+icsharpsquid:S2357"Make 'visualizer' private.(å­’®ıÿÿÿÿ8ôÛëÜ‰2J$48518d2c-677f-45c4-89d5-37b7b927166f
+‹csharpsquid:S134N"CRefactor this code to not nest more than 3 control flow statements.(Ÿ™œD8Á“à‰2J$6ad79da2-c4af-402e-9857-92afc8d08df2
+…csharpsquid:S17519";Refactor the containing loop to do more than one iteration.(õùş¹8Á“à‰2J$7c685eab-4bdb-4173-afa7-93a974d4ee1d
+jcsharpsquid:S1128" Remove this unnecessary 'using'.(ş™—Ã8õÛëÜ‰2J$987bed0c-3e14-4fd3-bc51-1ba5f457a70d

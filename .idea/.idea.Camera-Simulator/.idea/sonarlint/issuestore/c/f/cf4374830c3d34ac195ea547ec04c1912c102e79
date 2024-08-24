@@ -1,0 +1,22 @@
+
+Zcsharpsquid:S1121ß"<Extract the assignment of 'rect.width' from this expression.(ï‹½ç
+[csharpsquid:S1121à"=Extract the assignment of 'rect.height' from this expression.(üþ¢‚
+Gcsharpsquid:S1125H"*Remove the unnecessary Boolean literal(s).(ÐÊ“·
+Lcsharpsquid:S1125m"*Remove the unnecessary Boolean literal(s).(Í ®þÿÿÿÿ
+Hcsharpsquid:S3376†"*Make this class name end with 'Attribute'.(ì‡ÿ¦
+Hcsharpsquid:S3376‰"*Make this class name end with 'Attribute'.(¿©È”
+[csharpsquid:S4136ð"8All 'Text_Internal' method overloads should be adjacent.(ÙËùÿÿÿÿ
+ccsharpsquid:S2360""AUse the overloading mechanism instead of the optional parameters.(€ˆ¥þÿÿÿÿ
+ocsharpsquid:S1301K"MReplace this 'switch' statement with 'if' statements to increase readability.(¹åÁºÿÿÿÿÿ
+Scsharpsquid:S131K"2Add a 'default' clause to this 'switch' statement.(¹åÁºÿÿÿÿÿ
+Scsharpsquid:S131p"2Add a 'default' clause to this 'switch' statement.(¹åÁºÿÿÿÿÿ
+]csharpsquid:S107¥"@Method has 8 parameters, which is greater than the 7 authorized.(Ë˜¹
+bcsharpsquid:S107ï"@Method has 9 parameters, which is greater than the 7 authorized.(î›ÃÂùÿÿÿÿ
+\csharpsquid:S107Š"@Method has 8 parameters, which is greater than the 7 authorized.(Ü³ÿ
+bcsharpsquid:S107ð"@Method has 9 parameters, which is greater than the 7 authorized.(ÙËùÿÿÿÿ
+]csharpsquid:S107˜"@Method has 9 parameters, which is greater than the 7 authorized.(€æü
+<csharpsquid:S125Ì"Remove this commented out code.(ú¢ ó
+Wcsharpsquid:S1135À"4Complete the task associated to this 'TODO' comment.(½ðÉÊÿÿÿÿÿ
+Rcsharpsquid:S1135Ç"4Complete the task associated to this 'TODO' comment.(±…å˜
+Rcsharpsquid:S113Ž"0Add a new line at the end of the file 'Draw.cs'.(æÀö€øÿÿÿÿ
+fcsharpsquid:S105"EReplace all tab characters in this file by sequences of white-spaces.(¹£³Öüÿÿÿÿ

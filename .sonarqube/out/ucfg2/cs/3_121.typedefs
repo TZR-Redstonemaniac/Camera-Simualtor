@@ -1,0 +1,22 @@
+ß
+Objects.Triangleobject)
+
+Triangle()Objects.Triangle.Triangle()£
+GTriangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)XObjects.Triangle.Triangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)£
+†Triangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)—Objects.Triangle.Triangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)%
+posA.getObjects.Triangle.posA.get%
+posA.setObjects.Triangle.posA.set%
+posB.getObjects.Triangle.posB.get%
+posB.setObjects.Triangle.posB.set%
+posC.getObjects.Triangle.posC.get%
+posC.setObjects.Triangle.posC.set+
+normalA.getObjects.Triangle.normalA.get+
+normalA.setObjects.Triangle.normalA.set+
+normalB.getObjects.Triangle.normalB.get+
+normalB.setObjects.Triangle.normalB.set+
+normalC.getObjects.Triangle.normalC.get+
+normalC.setObjects.Triangle.normalC.set)
+
+center.getObjects.Triangle.center.get)
+
+center.setObjects.Triangle.center.set

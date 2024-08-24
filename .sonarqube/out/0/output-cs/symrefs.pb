@@ -56,10 +56,7 @@ yC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 @@  
 @@/ 7AA 
 @@D KFF 
-@@Y _FF; AFFW ]à
-zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.cs
-
- 
+@@Y _FF; AFFW ]
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\RectPivot.cs(
  # ,# ,S \
 
@@ -76,7 +73,10 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ô ö,
 C Dy z
 í ì
-ú ùò
+ú ùà
+zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\DetailLevel.cs
+
+ ò
 xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\TextStyle.cs
   ": C
 
@@ -470,16 +470,45 @@ xC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ±± "
 
 ∞∞ 
-±± Ï
-|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs2
- !4 8@ DF JR V
- ' %
+±± ù
+sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
 
-  
+
+
+ P
+ 
+ 7 =//- 355 	55 !AA1 7AA= C
 
-+ /
+ F
+ 
+ 7 =00- 366 	66 !AAI O
 
-+ .’
+ 2
+" +!!
+ ""? H113 <?? 
+
+ #
+   !
+ 
+ (
+$$ ''
+ )) <<; B
+
+&& 
+
+.." :
+
+44" 2
+
+99 (
+
+:: &
+
+;;( 4
+
+<<" 5
+
+>>$ 6’
 sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Disc.cs
 
 
@@ -2487,45 +2516,16 @@ wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 ãã0 8
 
 ãã %
-ãã; Cù
-sC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Components\Cone.cs
+ãã; CÏ
+|C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\DrawState.cs2
+ !4 8@ DF JR V
+ ' %
 
-
-
- P
- 
- 7 =//- 355 	55 !AA1 7AA= C
+  
 
- F
- 
- 7 =00- 366 	66 !AAI O
++ /
 
- 2
-" +!!
- ""? H113 <?? 
-
- #
-   !
- 
- (
-$$ ''
- )) <<; B
-
-&& 
-
-.." :
-
-44" 2
-
-99 (
-
-:: &
-
-;;( 4
-
-<<" 5
-
->>$ 6ê
++ .ê
 zC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\MetaMpb.cs
 
 
@@ -2665,10 +2665,10 @@ vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
  (
    	 
 
- %â
-{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\LineGeometry.cs
+ %Ö
+wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\FillType.cs
 
- ‰
+ ‰
 
 {C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\IMDrawer.cs
 
@@ -2735,10 +2735,10 @@ vC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shape
 " &+ /
 " %* -
 
- 1Ö
-wC:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\FillType.cs
+ 1â
+{C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Microtypes\LineGeometry.cs
 
- ˙
+ ˙
 ~C:\Users\kdeen\OneDrive\Documents\Coding Projects\Camera-Simulator\Assets\Shapes\Scripts\Runtime\Immediate Mode\TextElement.cs
 
 		 

@@ -1,0 +1,10 @@
+Â
+TMPro.Examples.VertexShakeAUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject.
+Awake()#TMPro.Examples.VertexShakeA.Awake()4
+
+OnEnable()&TMPro.Examples.VertexShakeA.OnEnable()6
+OnDisable()'TMPro.Examples.VertexShakeA.OnDisable().
+Start()#TMPro.Examples.VertexShakeA.Start()f
+#ON_TEXT_CHANGED(UnityEngine.Object)?TMPro.Examples.VertexShakeA.ON_TEXT_CHANGED(UnityEngine.Object)J
+AnimateVertexColors()1TMPro.Examples.VertexShakeA.AnimateVertexColors()<
+VertexShakeA()*TMPro.Examples.VertexShakeA.VertexShakeA()

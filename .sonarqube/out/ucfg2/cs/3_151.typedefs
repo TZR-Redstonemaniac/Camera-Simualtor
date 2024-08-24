@@ -1,0 +1,10 @@
+Â
+TMPro.Examples.VertexJitterUnityEngine.MonoBehaviourUnityEngine.BehaviourUnityEngine.ComponentUnityEngine.Objectobject.
+Awake()#TMPro.Examples.VertexJitter.Awake()4
+
+OnEnable()&TMPro.Examples.VertexJitter.OnEnable()6
+OnDisable()'TMPro.Examples.VertexJitter.OnDisable().
+Start()#TMPro.Examples.VertexJitter.Start()f
+#ON_TEXT_CHANGED(UnityEngine.Object)?TMPro.Examples.VertexJitter.ON_TEXT_CHANGED(UnityEngine.Object)J
+AnimateVertexColors()1TMPro.Examples.VertexJitter.AnimateVertexColors()<
+VertexJitter()*TMPro.Examples.VertexJitter.VertexJitter()
