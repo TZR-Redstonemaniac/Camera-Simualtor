@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Objects {
+    [Serializable]
     public struct Node {
         public int ChildIndex;
         public int TriangleIndex;

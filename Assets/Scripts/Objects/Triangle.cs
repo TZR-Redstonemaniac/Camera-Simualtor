@@ -2,6 +2,7 @@
 using UnityEngine;
 
 namespace Objects {
+    [Serializable]
     public struct Triangle {
 
         public Vector3 posA { get; set; }
@@ -33,7 +34,8 @@ namespace Objects {
             this.normalB = normalB;
             this.normalC = normalC;
 
-            center = new Vector3((posA.x + posB.x + posC.x) / 3, (posA.y + posB.y + posC.y) / 3, (posA.z + posB.z + posC.z) / 3);
+            center = new Vector3((posA.x + posB.x + posC.x) / 3, (posA.y + posB.y + posC.y) / 3, 
+                (posA.z + posB.z + posC.z) / 3);
         }
     }
 }

@@ -1,18 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
 namespace Objects {
+    [Serializable]
     public class BVH {
 
-        public readonly Node Root;
+        public Node Root;
         private readonly List<CNode> CAllNodes = new();
         private readonly List<CTriangle> CAllTriangles = new();
 
-        public readonly List<Node> AllNodes = new();
-        public readonly List<Triangle> AllTriangles = new();
-        public readonly List<CNode> LeafNodes = new();
-        public readonly List<int> LeafNodesDepth = new();
+        public List<Node> AllNodes = new();
+        public List<Triangle> AllTriangles = new();
+        public List<CNode> LeafNodes = new();
+        public List<int> LeafNodesDepth = new();
 
         public float genTime;
 
@@ -43,19 +45,20 @@ namespace Objects {
             }
             
 
-            CNode IRoot = new() { Bounds = bounds, TriangleIndex = 0, ChildIndex = 0, TrianglesCount = AllTriangles.Count }; 
+            CNode IRoot = new() { Bounds = bounds, TriangleIndex = 0, ChildIndex = 0, 
+                TrianglesCount = AllTriangles.Count }; 
             CAllNodes.Add(IRoot);
             Split(IRoot);
             
             BoundingBox bound = new() { Min = IRoot.Bounds.Min, Max = IRoot.Bounds.Max };
-            Root = new Node { BoundsMin = bound.Min, BoundsMax = bound.Max, TriangleIndex = IRoot.TriangleIndex, 
-                ChildIndex = IRoot.ChildIndex, TrianglesCount = IRoot.TrianglesCount};
             
             foreach (CNode node in CAllNodes) {
                 bound = new BoundingBox { Min = node.Bounds.Min, Max = node.Bounds.Max };
                 AllNodes.Add(new Node { BoundsMin = bound.Min, BoundsMax = bound.Max, TriangleIndex = node.TriangleIndex, 
                     ChildIndex = node.ChildIndex, TrianglesCount = node.TrianglesCount});
             }
+            
+            Root = AllNodes[0];
 
             sw.Stop();
             genTime = (int)sw.ElapsedMilliseconds;
@@ -63,7 +66,7 @@ namespace Objects {
 
         private void Split(CNode parent, int depth = 0) {
             (int splitAxis, float splitPos, float cost) = ChooseSplit(parent);
-            if (depth < MaxDepth && cost < NodeCost(parent.Bounds.Size, parent.TrianglesCount)) {
+            if (depth != MaxDepth && cost < NodeCost(parent.Bounds.Size, parent.TrianglesCount)) {
                 CNode childA = new() { TriangleIndex = parent.TriangleIndex };
                 CNode childB = new() { TriangleIndex = parent.TriangleIndex };
 

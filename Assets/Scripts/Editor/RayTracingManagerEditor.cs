@@ -6,7 +6,9 @@ namespace Editors {
     [CustomEditor(typeof(RayTracingManager))]
     public class RayTracingManagerEditor : Editor {
         
-        private string[] debugViewModeOptions = { "Normals", "Box Test Count", "Triangle Test Count" };
+        private string[] debugViewModeOptions = {
+            "Normals", "Box Test Count", "Triangle Test Count", "Did Hit"
+        };
         private int selectedDebugViewModeIndex;
         
         public override void OnInspectorGUI()
@@ -37,7 +39,6 @@ namespace Editors {
             // Add the "Update Meshes" button
             if (GUILayout.Button("Update Meshes"))
             {
-                
                 //Initialize all shaders
                 rayTracingManager.InitShaders();
             

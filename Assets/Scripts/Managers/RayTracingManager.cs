@@ -59,13 +59,25 @@ namespace Managers {
         private RenderTexture currentTexture;
 
         internal RayTracingMesh[] meshes;
+        
+        private List<MeshInfo> meshesInfos = new();
+        private List<Node> AllNodes = new();
+        private List<Triangle> AllTriangles = new();
+        
+        private readonly HashSet<string> sentMeshes = new();
 
         private ComputeBuffer triangleBuffer;
         private ComputeBuffer nodeBuffer;
+        private ComputeBuffer meshInfoBuffer;
+        private ComputeBuffer matrixBuffer;
 
         private Material rayTracingMat;
         private Material companionMat;
         private Material smoothingMat;
+        
+        private int activeMeshNum;
+
+        private bool handlingMeshes;
         
         //Shader Properties
         #region Properties
@@ -97,7 +109,7 @@ namespace Managers {
         private static readonly int DebugViewMode = Shader.PropertyToID("DebugViewMode");
         private static readonly int BoxDisplayThreshold = Shader.PropertyToID("BoxDisplayThreshold");
         private static readonly int TriangleDisplayThreshold = Shader.PropertyToID("TriangleDisplayThreshold");
-        private static readonly int ModelWorldToLocalMatrix = Shader.PropertyToID("ModelWorldToLocalMatrix");
+        private static readonly int AllMeshInfo = Shader.PropertyToID("AllMeshInfo");
 
         #endregion
 
@@ -178,7 +190,6 @@ namespace Managers {
                 
                 //Iterate the number of rendered frames if the app is playing
                 NumRenderedFrames += Application.isPlaying ? 1 : 0;
-                UpdateMaterialParams();
 
                 //Release and dispose all the buffers
                 ReleaseAndDispose();
@@ -228,9 +239,12 @@ namespace Managers {
 
         private void UpdateCameraParams(Camera cam) {
             
-            rayTracingMat = new Material(rayTracingShader);
-            companionMat = new Material(companionShader);
-            smoothingMat = new Material(smoothingShader);
+            if (rayTracingMat == null)
+            {
+                rayTracingMat = new Material(rayTracingShader);
+                companionMat = new Material(companionShader);
+                smoothingMat = new Material(smoothingShader);
+            }
 
             float planeHeight = FocusDistance * Mathf.Tan(cam.fieldOfView * 0.5f * Mathf.Deg2Rad) * 2;
             float planeWidth = planeHeight * cam.aspect;
@@ -272,52 +286,101 @@ namespace Managers {
         public void HandleMeshes() {
             //Find all meshes in the scene with the RayTracingMesh script attached
             meshes = FindObjectsByType<RayTracingMesh>(FindObjectsSortMode.None);
+
+            handlingMeshes = true;
             
             //Update the mesh data for all meshes
             foreach (RayTracingMesh mesh in meshes) mesh.UpdateMeshData();
+
+            handlingMeshes = false;
             
             Debug.Log("Handled Meshes");
         }
 
         private void SendMeshes() {
+            int nodeOffset = 0;
+            int triangleOffset = 0;
+            int prevNodeOffset = 0;
+            int prevTriangleOffset = 0;
+            
             //Get the total number of triangles in the scene
             int size = meshes.Sum(mesh => mesh.Triangles.Count);
 
             //Stop if there are no triangles present in the scene
-            if (size == 0) return;
+            if (size == 0 || handlingMeshes) return;
             
-            rayTracingMat.SetInt(NumMeshes, meshes.Length);
+            AllNodes.Clear();
+            AllTriangles.Clear();
 
-            foreach (RayTracingMesh mesh in meshes) if (mesh.gameObject.activeInHierarchy) SendMeshToShader(mesh);
+            activeMeshNum = 0;
+            
+            sentMeshes.Clear();
+            
+            foreach (RayTracingMesh mesh in meshes) {
+                if (mesh.gameObject.activeInHierarchy) {
+                    if (!sentMeshes.Contains(mesh.meshName)) {
+                        prevNodeOffset = nodeOffset;
+                        prevTriangleOffset = triangleOffset;
+                    }
+                    
+                    meshesInfos.Add(new MeshInfo {
+                        nodeOffset = prevNodeOffset, triOffset = prevTriangleOffset, 
+                        WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix, 
+                        LTWMatrix = mesh.gameObject.transform.localToWorldMatrix,
+                        material = mesh.material
+                    });
+                    
+                    mesh.stats.NodeOffset = nodeOffset;
+                    mesh.stats.TriOffset = triangleOffset;
+                    
+                    if (!sentMeshes.Contains(mesh.meshName)) {
+                        AllNodes.AddRange(mesh.BVH.AllNodes);
+                        AllTriangles.AddRange(mesh.BVH.AllTriangles);
+                        
+                        nodeOffset += mesh.BVH.AllNodes.Count;
+                        triangleOffset += mesh.BVH.AllTriangles.Count;
+                        
+                        sentMeshes.Add(mesh.meshName);
+                    }
+                    
+                    activeMeshNum++;
+                }
+            }
+            
+            SendMeshesToShader();
         }
         
-        private void SendMeshToShader(RayTracingMesh mesh) {
+        private void SendMeshesToShader() {
             //Create BVH buffers
-            CreateBuffer(ref triangleBuffer, mesh.BVH.AllTriangles);
-            CreateBuffer(ref nodeBuffer, mesh.BVH.AllNodes);
-            Matrix4x4 invMatrix = mesh.transform.worldToLocalMatrix;
+            CreateBuffer(ref triangleBuffer, AllTriangles);
+            CreateBuffer(ref nodeBuffer, AllNodes);
+            CreateBuffer(ref meshInfoBuffer, meshesInfos);
             
-            triangleBuffer.SetData(mesh.BVH.AllTriangles);
-            nodeBuffer.SetData(mesh.BVH.AllNodes);
+            triangleBuffer.SetData(AllTriangles);
+            nodeBuffer.SetData(AllNodes);
+            meshInfoBuffer.SetData(meshesInfos);
             
             rayTracingMat.SetBuffer(Triangles, triangleBuffer);
             rayTracingMat.SetBuffer(Nodes, nodeBuffer);
             
-            rayTracingMat.SetInt(NumTriangles, mesh.BVH.AllTriangles.Count);
-
-            rayTracingMat.SetMatrix(ModelWorldToLocalMatrix, invMatrix);
+            rayTracingMat.SetInt(NumMeshes, activeMeshNum);
+            
+            rayTracingMat.SetBuffer(AllMeshInfo, meshInfoBuffer);
         }
 
-        private static void CreateBuffer<T>(ref ComputeBuffer buffer, List<T> data, int inputStride = 0) where T : struct
+        private static void CreateBuffer<T>(ref ComputeBuffer buffer, List<T> data, 
+            int inputStride = 0) where T : struct
         {
             int stride = inputStride == 0 ? GetStride<T>() : inputStride;
-            
+
+            // Only recreate the buffer if necessary
             bool createNewBuffer = buffer == null || !buffer.IsValid() || buffer.count != data.Count || buffer.stride != stride;
             if (createNewBuffer) {
                 Release(buffer);
                 buffer = new ComputeBuffer(data.Count, stride);
             }
-            
+
+            // Update buffer data (this can be separated from the creation to prevent full recreation)
             buffer.SetData(data);
         }
 
@@ -326,8 +389,11 @@ namespace Managers {
         private void ReleaseAndDispose() {
             triangleBuffer?.Release();
             nodeBuffer?.Release();
+            meshInfoBuffer?.Release();
+            
             triangleBuffer?.Dispose();
             nodeBuffer?.Dispose();
+            meshInfoBuffer?.Dispose();
         }
 
         private static void Release(params ComputeBuffer[] buffers) {

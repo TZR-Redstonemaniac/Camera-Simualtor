@@ -65,11 +65,11 @@
 
             struct MeshInfo
             {
-                uint firstTriangleIndex;
-                uint numTriangles;
+                uint triOffset;
+                uint nodeOffset;
+                float4x4 WorldToLocalMatrix;
+                float4x4 LocalToWorldMatrix;
                 RayTracingMaterial material;
-                float3 boundsMin;
-                float3 boundsMax;
             };
 
             struct BoundingBox
@@ -134,7 +134,6 @@
             StructuredBuffer<Node> Nodes;
             StructuredBuffer<MeshInfo> AllMeshInfo;
             int NumMeshes;
-            int NumTriangles;
             
             StructuredBuffer<float3> AllLightSources;
             int NumLights;
@@ -148,8 +147,6 @@
             float TriangleDisplayThreshold;
 
             int2 stats;
-
-            float4x4 ModelWorldToLocalMatrix;
 
             // ------------- Ray Intersection Functions -------------
             float RandomValue(inout uint state)
@@ -212,87 +209,58 @@
 
             TriangleHitInfo RayTriangle(Ray ray, Triangle tri)
 			{
-				TriangleHitInfo info;
-                info.didHit = false;
+				float3 edgeAB = tri.posB - tri.posA;
+				float3 edgeAC = tri.posC - tri.posA;
+				float3 normalVector = cross(edgeAB, edgeAC);
+				float3 ao = ray.origin - tri.posA;
+				float3 dao = cross(ao, ray.dir);
 
-                const float3 vertex0 = tri.posA;
-                const float3 vertex1 = tri.posB;
-                const float3 vertex2 = tri.posC;
+				float determinant = -dot(ray.dir, normalVector);
+				float invDet = 1 / determinant;
 
-                const float EPSILON = 1E-8f;
+				// Calculate dst to triangle & barycentric coordinates of intersection point
+				float dst = dot(ao, normalVector) * invDet;
+				float u = dot(edgeAC, dao) * invDet;
+				float v = -dot(edgeAB, dao) * invDet;
+				float w = 1 - u - v;
 
-                const float3 edge1 = vertex1 - vertex0;
-                const float3 edge2 = vertex2 - vertex0;
-                const float3 h = cross(ray.dir, edge2);
-                const float a = dot(edge1, h);
-
-                if (a > -EPSILON && a < EPSILON) return info; // This ray is parallel to this triangle.
-
-                const float f = 1.0 / a;
-                const float3 s = ray.origin - vertex0;
-                const float u = f * dot(s, h);
-
-                if (u < 0.0 || u > 1.0) return info;
-
-                const float3 q = cross(s, edge1);
-                const float v = f * dot(ray.dir, q);
-
-                if (v < 0.0 || u + v > 1.0) return info;
-
-                // At this stage we can compute t to find out where the intersection point is on the line.
-                const float t = f * dot(edge2, q);
-                if (t > EPSILON) // ray intersection
-                {
-                    const float3 edgeAB = tri.posB - tri.posA;
-                    const float3 edgeAC = tri.posC - tri.posA;
-                    const float3 normalVector = normalize(cross(edgeAB, edgeAC));
-
-                    const float dst = distance(tri.center, ray.origin);
-
-                    info.didHit = true;
-                    info.hitPoint = ray.origin + ray.dir * dst;
-                    info.normal = normalVector;
-                    info.dst = dst;
-                    
-                    return info;
-                } // This means that there is a line intersection but not a ray intersection.
-
-                return info;
+				// Initialize hit info
+				TriangleHitInfo hitInfo;
+				hitInfo.didHit = determinant >= 1E-8 && dst >= 0 && u >= 0 && v >= 0 && w >= 0;
+				hitInfo.hitPoint = ray.origin + ray.dir * dst;
+				hitInfo.normal = normalize(tri.normalA * w + tri.normalB * u + tri.normalC * v);
+				hitInfo.dst = dst;
+				return hitInfo;
 			}
 
             bool RayBoundingBox(Ray ray, float3 boxMin, float3 boxMax)
 			{
-                float tmin = 0.0, tmax = FLT_MAX;
+                float3 tMin = (boxMin - ray.origin) * ray.invDir;
+				float3 tMax = (boxMax - ray.origin) * ray.invDir;
+				float3 t1 = min(tMin, tMax);
+				float3 t2 = max(tMin, tMax);
+				float tNear = max(max(t1.x, t1.y), t1.z);
+				float tFar = min(min(t2.x, t2.y), t2.z);
 
-                for (int d = 0; d < 3; ++d) {
-                    const float t1 = (boxMin[d] - ray.origin[d]) * ray.invDir[d];
-                    const float t2 = (boxMax[d] - ray.origin[d]) * ray.invDir[d];
-
-                    tmin = max(tmin, min(t1, t2));
-                    tmax = min(tmax, max(t1, t2));
-                }
-
-                return tmin < tmax;
+				bool hit = tFar >= tNear && tFar > 0;
+				return hit;
 			};
 
             float RayBoundingBoxDst(Ray ray, float3 boxMin, float3 boxMax)
 			{
-				float tmin = 0.0, tmax = FLT_MAX;
+				float3 tMin = (boxMin - ray.origin) * ray.invDir;
+				float3 tMax = (boxMax - ray.origin) * ray.invDir;
+				float3 t1 = min(tMin, tMax);
+				float3 t2 = max(tMin, tMax);
+				float tNear = max(max(t1.x, t1.y), t1.z);
+				float tFar = min(min(t2.x, t2.y), t2.z);
 
-                for (int d = 0; d < 3; ++d) {
-                    const float t1 = (boxMin[d] - ray.origin[d]) * ray.invDir[d];
-                    const float t2 = (boxMax[d] - ray.origin[d]) * ray.invDir[d];
-
-                    tmin = max(tmin, min(t1, t2));
-                    tmax = min(tmax, max(t1, t2));
-                }
-
-                const bool hit = tmin < tmax;
-                const float dst = hit ? tmin > 0 ? tmin : 0 : FLT_MAX;
+				bool hit = tFar >= tNear && tFar > 0;
+				float dst = hit ? tNear > 0 ? tNear : 0 : 1.#INF;
 				return dst;
 			}
 
-            TriangleHitInfo RayTriangleTest(const Ray ray)
+            TriangleHitInfo RayTriangleBVH(const Ray ray, int nodeOffset, int triOffset)
             {
                 int stack[32];
                 int stackIndex = 0;
@@ -304,14 +272,15 @@
 
                 while (stackIndex > 0)
                 {
-                    const Node node = Nodes[stack[--stackIndex]];
+                    const Node node = Nodes[stack[--stackIndex] + nodeOffset];
                     
                     if (node.ChildIndex == 0)
                     {
-                        stats[1] += node.TrianglesCount;
+                        stats[0] += node.TrianglesCount;
                         for (int i = node.TriangleIndex; i < node.TriangleIndex + node.TrianglesCount; i++)
                         {
-                            const TriangleHitInfo triHitInfo = RayTriangle(ray, TriangleBuffer[i]);
+                            TriangleHitInfo triHitInfo =
+                                RayTriangle(ray, TriangleBuffer[i + triOffset]);
                             if (triHitInfo.dst < result.dst && triHitInfo.didHit)
                             {
                                 result.didHit = triHitInfo.didHit;
@@ -323,8 +292,8 @@
                     } else {
                         int childIndexA = node.ChildIndex + 0;
 						int childIndexB = node.ChildIndex + 1;
-                        const Node childA = Nodes[childIndexA];
-                        const Node childB = Nodes[childIndexB];
+                        const Node childA = Nodes[childIndexA + nodeOffset];
+                        const Node childB = Nodes[childIndexB + nodeOffset];
 
 						float dstA = RayBoundingBoxDst(ray, childA.BoundsMin, childA.BoundsMax);
 						float dstB = RayBoundingBoxDst(ray, childB.BoundsMin, childB.BoundsMax);
@@ -345,7 +314,7 @@
                 return result;
             }
 
-            TriangleHitInfo CalculateRayCollision(const Ray ray, inout int numTests)
+            TriangleHitInfo CalculateRayCollision(const Ray ray)
             {
                 TriangleHitInfo closestHit = (TriangleHitInfo)0;
                 closestHit.dst = FLT_MAX;
@@ -353,23 +322,24 @@
                 // Raycast against all meshes and keep info about the closest hit
 				for (int meshIndex = 0; meshIndex < NumMeshes; meshIndex ++)
 				{
+                    Ray modifiedRay;
                     const MeshInfo meshInfo = AllMeshInfo[meshIndex];
-				    if (!RayBoundingBox(ray, meshInfo.boundsMin, meshInfo.boundsMax)) {
-						continue;
-					}
 
-					for (uint i = 0; i < meshInfo.numTriangles; i ++) {
-                        const int triIndex = meshInfo.firstTriangleIndex + i;
-                        const Triangle tri = TriangleBuffer[triIndex];
-                        const TriangleHitInfo hitInfo = RayTriangle(ray, tri);
-					    numTests++;
-	
-						if (hitInfo.didHit && hitInfo.dst < closestHit.dst)
-						{
-							closestHit = hitInfo;
-							closestHit.material = meshInfo.material;
-						}
-					}
+                    modifiedRay.origin = mul(meshInfo.WorldToLocalMatrix,float4(ray.origin, 1));
+                    modifiedRay.dir = mul(meshInfo.WorldToLocalMatrix,float4(ray.dir, 0));
+                    modifiedRay.invDir = 1 / modifiedRay.dir;
+				    
+					const TriangleHitInfo hitInfo = RayTriangleBVH(modifiedRay, meshInfo.nodeOffset, 
+					meshInfo.triOffset);
+
+				    if (hitInfo.dst < closestHit.dst) {
+				        closestHit.didHit = true;
+						closestHit.dst = hitInfo.dst;
+						closestHit.normal = normalize(mul(meshInfo.LocalToWorldMatrix,
+						    float4(hitInfo.normal, 0)));
+						closestHit.hitPoint = ray.origin + ray.dir * hitInfo.dst;
+						closestHit.material = meshInfo.material;
+				    }
 				}
 
                 return closestHit;
@@ -388,11 +358,7 @@
 
             float3 RayDebugView(Ray ray)
             {
-                ray.origin = mul(ModelWorldToLocalMatrix, float4(ray.origin, 1));
-                ray.dir = mul(ModelWorldToLocalMatrix, float4(ray.dir, 0));
-                ray.invDir = 1 / ray.dir;
-                
-                const TriangleHitInfo hitInfo = RayTriangleTest(ray);
+                TriangleHitInfo hitInfo = CalculateRayCollision(ray);
 
                 float boxDisplay = stats[0] / BoxDisplayThreshold;
                 float triangleDisplay = stats[0] / TriangleDisplayThreshold;
@@ -405,6 +371,8 @@
                         return boxDisplay < 1 ? boxDisplay : float3(1, 0, 0);
                     case 2:
                         return triangleDisplay < 1 ? triangleDisplay : float3(1, 0, 0);
+                    case 3:
+                        return hitInfo.didHit;
                     default:
                         return float3(1, 0, 1);
                 }
@@ -412,66 +380,64 @@
 
             float3 Trace(Ray ray, uint rngState)
             {
-                ray.origin = mul(ModelWorldToLocalMatrix, float4(ray.origin, 1));
-                ray.dir = mul(ModelWorldToLocalMatrix, float4(ray.dir, 0));
-                ray.invDir = 1 / ray.dir;
-                
                 float3 incomingLight = 0;
                 float3 rayColor = 1;
-                int numTests = 0;
                 TriangleHitInfo hitInfo;
 
                 for (int i = 0; i <= MaxBounceCount; i++)
                 {
-                    hitInfo = CalculateRayCollision(ray, numTests);
-                    const RayTracingMaterial material = hitInfo.material;
+                    hitInfo = CalculateRayCollision(ray);
 
-                    if (hitInfo.didHit && hitInfo.dst <= RenderDistance)
+                    if (hitInfo.didHit)
                     {
-                        hitInfo = CalculateRayCollision(ray, numTests);
-                        
-                        ray.origin = hitInfo.hitPoint;
-                        float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
-                        float3 specularDir = reflect(ray.dir, hitInfo.normal);
+                        return float4(1, 0, 0, 1);
+                        const RayTracingMaterial material = hitInfo.material;
 
-                        if (i == MaxBounceCount - 1 && NumLights > 0)
+                        if (hitInfo.dst <= RenderDistance)
                         {
-                            for (int j = 0; j < NumLights; j++)
+                            ray.origin = hitInfo.hitPoint;
+                            float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
+                            float3 specularDir = reflect(ray.dir, hitInfo.normal);
+
+                            if (i == MaxBounceCount - 1 && NumLights > 0)
                             {
-                                Ray tempRay;
-                                tempRay.origin = ray.origin;
-                                tempRay.dir = normalize(AllLightSources[j] - ray.origin);
-                                tempRay.invDir = 1 / normalize(AllLightSources[j] - ray.origin);
-
-                                TriangleHitInfo lightHitInfo;
-                                lightHitInfo.dst = 0;
-                                lightHitInfo.hitPoint = float3(0, 0, 0);
-
-                                const TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay, numTests);
-                                if (tempHitInfo.material.emissionStrength != 0)
+                                for (int j = 0; j < NumLights; j++)
                                 {
-                                    if (tempHitInfo.dst < lightHitInfo.dst)
-                                    {
-                                        lightHitInfo = tempHitInfo;
-                                    }
-                                }
+                                    Ray tempRay;
+                                    tempRay.origin = ray.origin;
+                                    tempRay.dir = normalize(AllLightSources[j] - ray.origin);
+                                    tempRay.invDir = 1 / normalize(AllLightSources[j] - ray.origin);
 
-                                specularDir = lightHitInfo.hitPoint - ray.origin;
+                                    TriangleHitInfo lightHitInfo;
+                                    lightHitInfo.dst = 0;
+                                    lightHitInfo.hitPoint = float3(0, 0, 0);
+
+                                    const TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay);
+                                    if (tempHitInfo.material.emissionStrength != 0)
+                                    {
+                                        if (tempHitInfo.dst < lightHitInfo.dst)
+                                        {
+                                            lightHitInfo = tempHitInfo;
+                                        }
+                                    }
+
+                                    specularDir = lightHitInfo.hitPoint - ray.origin;
+                                }
                             }
+                            
+                            bool isSpecularBounce = material.specularProbability >= RandomValue(rngState);
+                            ray.dir = lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce);
+                            
+                            float3 emittedLight = material.emissionColor * material.emissionStrength;
+                            incomingLight += emittedLight * rayColor;
+                            rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
+                            if (material.emissionStrength > 0) break;
                         }
-                        
-                        bool isSpecularBounce = material.specularProbability >= RandomValue(rngState);
-                        ray.dir = lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce);
-                        
-                        float3 emittedLight = material.emissionColor * material.emissionStrength;
-                        incomingLight += emittedLight * rayColor;
-                        rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
-                        if (material.emissionStrength > 0) break;
-                    }
-                    else
+                        else
                     {
                         if (UseEnvironment == 1) incomingLight += GetEnvironmentLight(ray) * rayColor;
                         break;
+                    }
                     }
                 }
 
@@ -491,16 +457,18 @@
 
                 float3 totalIncomingLight = 0;
 
-                for (int rayIndex = 0; rayIndex < NumRaysPerPixel; rayIndex++)
+                for (int rayIndex = 0; rayIndex < 1; rayIndex++)
                 {
                     Ray ray;
                     float2 defocusJitter  = RandomPointInCircle(rngState) * DefocusStrength / numPixels.x;
                     ray.origin = DebugView == 0 ?
-                        _WorldSpaceCameraPos + camRight * defocusJitter.x + camUp * defocusJitter.y : _WorldSpaceCameraPos;
+                        _WorldSpaceCameraPos + camRight * defocusJitter.x + camUp * defocusJitter.y :
+                    _WorldSpaceCameraPos;
                     float2 jitter = RandomPointInCircle(rngState) * DivergeStrength / numPixels.x;
-                    const float3 jitteredViewPoint = DebugView == 0 ? viewPoint + camRight * jitter.x + camUp * jitter.y : viewPoint;
+                    const float3 jitteredViewPoint = DebugView == 0 ?
+                        viewPoint + camRight * jitter.x + camUp * jitter.y : viewPoint;
                     ray.dir = normalize(jitteredViewPoint - ray.origin);
-                    ray.invDir = 1 / ray.dir;  
+                    ray.invDir = 1 / ray.dir;
                     
                     totalIncomingLight += DebugView == 1 ? RayDebugView(ray) : Trace(ray, rngState);
                 }

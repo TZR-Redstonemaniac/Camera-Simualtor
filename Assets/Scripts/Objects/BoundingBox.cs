@@ -18,8 +18,12 @@ namespace Objects {
         }
 
         public void GrowToInclude(Triangle triangle) {
-            Vector3 min = Vector3.Min(Vector3.Min(triangle.posA, triangle.posB), triangle.posC);
-            Vector3 max = Vector3.Max(Vector3.Max(triangle.posA, triangle.posB), triangle.posC);
+            Vector3 a = new(triangle.posA.x, triangle.posA.y, triangle.posA.z);
+            Vector3 b = new(triangle.posB.x, triangle.posB.y, triangle.posB.z);
+            Vector3 c = new(triangle.posC.x, triangle.posC.y, triangle.posC.z);
+            
+            Vector3 min = Vector3.Min(Vector3.Min(a, b), c);
+            Vector3 max = Vector3.Max(Vector3.Max(a, b), c);
             
             Min.x = min.x < Min.x ? min.x : Min.x;
             Min.y = min.y < Min.y ? min.y : Min.y;

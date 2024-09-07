@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Objects {
+    [Serializable]
     public class CTriangle {
         public Vector3 posA { get; set; }
         public Vector3 posB { get; set; }

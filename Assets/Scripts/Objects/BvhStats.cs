@@ -9,6 +9,8 @@ namespace Objects {
         [ReadOnly] public int Triangles;
         [ReadOnly] public int NodeCount;
         [ReadOnly] public int LeafCount;
+        [ReadOnly] public int NodeOffset;
+        [ReadOnly] public int TriOffset;
         
         [Header("Leaf Depth")]
         [ReadOnly] public int MaxLeafDepth;

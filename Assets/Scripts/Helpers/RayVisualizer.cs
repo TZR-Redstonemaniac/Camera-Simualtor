@@ -23,14 +23,23 @@ namespace Helpers {
 
                     if (triangles != null) {
                         foreach (Triangle tri in triangles) {
-                            Draw.Line(tri.posA + tri.normalA * 0.01f, tri.posB + tri.normalB * 0.01f, col);
-                            Draw.Line(tri.posB + tri.normalB * 0.01f, tri.posC + tri.normalC * 0.01f, col);
-                            Draw.Line(tri.posC + tri.normalC * 0.01f, tri.posA + tri.normalA * 0.01f, col);
+                            Vector3 a = new(tri.posA.x, tri.posA.y, tri.posA.z);
+                            Vector3 b = new(tri.posB.x, tri.posB.y, tri.posB.z);
+                            Vector3 c = new(tri.posC.x, tri.posC.y, tri.posC.z);
+                            
+                            Vector3 normalA = new(tri.normalA.x, tri.normalA.y, tri.normalA.z);
+                            Vector3 normalB = new(tri.normalB.x, tri.normalB.y, tri.normalB.z);
+                            Vector3 normalC = new(tri.normalC.x, tri.normalC.y, tri.normalC.z);
+                            
+                            Draw.Line(a + normalA * 0.01f, b + normalB * 0.01f, col);
+                            Draw.Line(b + normalB * 0.01f, c + normalC * 0.01f, col);
+                            Draw.Line(c + normalC * 0.01f, a + normalA * 0.01f, col);
 
                             col.a = 0.25f;
 
-                            Draw.Triangle(tri.posA + tri.normalA * 0.01f, tri.posB + tri.normalB * 0.01f,
-                                tri.posC + tri.normalC * 0.01f, col);
+                            Draw.Triangle(a + normalA * 0.01f, 
+                                b + normalB * 0.01f,
+                                c + normalC * 0.01f, col);
                         }
                     }
 

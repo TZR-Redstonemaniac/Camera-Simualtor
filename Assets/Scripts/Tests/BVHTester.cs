@@ -105,9 +105,9 @@ namespace Tests {
             TriangleHitInfo info = default;
             info.didHit = false;
             
-            Vector3 vertex0 = tri.posA;
-            Vector3 vertex1 = tri.posB;
-            Vector3 vertex2 = tri.posC;
+            Vector3 vertex0 = new(tri.posA.x, tri.posA.y, tri.posA.z);
+            Vector3 vertex1 = new(tri.posB.x, tri.posB.y, tri.posB.z);
+            Vector3 vertex2 = new(tri.posC.x, tri.posC.y, tri.posC.z);
             Vector3 edge1 = new();
             Vector3 edge2 = new();
             Vector3 h = new();
@@ -138,11 +138,13 @@ namespace Tests {
             double t = f * Vector3.Dot(edge2, q);
             if (t > EPSILON) // ray intersection
             {
-                Vector3 edgeAB = tri.posB - tri.posA;
-                Vector3 edgeAC = tri.posC - tri.posA;
+                Vector3 edgeAB = vertex1 - vertex0;
+                Vector3 edgeAC = vertex2 - vertex0;
                 Vector3 normalVector = Vector3.Normalize(Vector3.Cross(edgeAB, edgeAC));
+                
+                Vector3 center = new(tri.center.x, tri.center.y, tri.center.z);
 
-                float dst = Vector3.Distance(tri.center, transform.position);
+                float dst = Vector3.Distance(center, transform.position);
 
                 info.didHit = true;
                 info.hitPoint = transform.position + transform.forward * dst;
