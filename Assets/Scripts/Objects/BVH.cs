@@ -21,6 +21,10 @@ namespace Objects {
         private Stopwatch sw;
         private const int MaxDepth = 32;
 
+        public BVH() {
+            
+        }
+
         public BVH(Vector3[] vertices, int[] triangleIndices, Vector3[] normals) {
             sw = Stopwatch.StartNew();
 

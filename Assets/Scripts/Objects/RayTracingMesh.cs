@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -58,8 +59,13 @@ namespace Objects {
             // Check if the BVH file exists
             if (File.Exists(filePath))
             {
-                // Load BVH from file
-                LoadBVHFromFile(filePath);
+                try {
+                    // Load the BVH file
+                    LoadBVHFromFile(filePath);
+                }
+                catch (Exception ex) {
+                    Debug.LogError($"Failed to load BVH: {ex.Message}");
+                }
             }
             else
             {
@@ -117,10 +123,7 @@ namespace Objects {
         
         private void SaveBVHToFile(string filePath)
         {
-            if (!Directory.Exists(saveDir))
-            {
-                Directory.CreateDirectory(saveDir);
-            }
+            if (!Directory.Exists(saveDir)) Directory.CreateDirectory(saveDir);
 
             using BinaryWriter writer = new(File.Open(filePath, FileMode.Create));
             writer.Write(BVH.genTime); // Save generation time
@@ -130,40 +133,28 @@ namespace Objects {
 
             // Save all nodes
             writer.Write(BVH.AllNodes.Count);
-            foreach (Node node in BVH.AllNodes)
-            {
-                WriteNode(writer, node);
-            }
+            foreach (Node node in BVH.AllNodes) WriteNode(writer, node);
 
             // Save all triangles
             writer.Write(BVH.AllTriangles.Count);
-            foreach (Triangle triangle in BVH.AllTriangles)
-            {
-                WriteTriangle(writer, triangle);
-            }
+            foreach (Triangle triangle in BVH.AllTriangles) WriteTriangle(writer, triangle);
 
             // Save leaf nodes
             writer.Write(BVH.LeafNodes.Count);
-            foreach (CNode leafNode in BVH.LeafNodes)
-            {
-                WriteCNode(writer, leafNode);
-            }
+            foreach (CNode leafNode in BVH.LeafNodes) WriteCNode(writer, leafNode);
 
             // Save leaf node depths
             writer.Write(BVH.LeafNodesDepth.Count);
-            foreach (int depth in BVH.LeafNodesDepth)
-            {
-                writer.Write(depth);
-            }
+            foreach (int depth in BVH.LeafNodesDepth) writer.Write(depth);
         }
 
         private void LoadBVHFromFile(string filePath) {
+            BVH = new BVH();
+            
             while (IsFileLocked(new FileInfo(filePath)))
-            {
                 // Optionally, add a small delay to avoid a busy wait
                 System.Threading.Thread.Sleep(100);
-            }
-            
+
             using BinaryReader reader = new(File.Open(filePath, FileMode.Open));
             BVH.genTime = reader.ReadSingle(); // Read generation time
 
@@ -177,34 +168,22 @@ namespace Objects {
 
             // Read all nodes
             int nodeCount = reader.ReadInt32();
-            for (int i = 0; i < nodeCount; i++)
-            {
-                BVH.AllNodes.Add(ReadNode(reader));
-            }
+            for (int i = 0; i < nodeCount; i++) BVH.AllNodes.Add(ReadNode(reader));
 
             // Read all triangles
             int triangleCount = reader.ReadInt32();
             BVH.AllTriangles.Clear();
-            for (int i = 0; i < triangleCount; i++)
-            {
-                BVH.AllTriangles.Add(ReadTriangle(reader));
-            }
+            for (int i = 0; i < triangleCount; i++) BVH.AllTriangles.Add(ReadTriangle(reader));
 
             // Read leaf nodes
             int leafNodeCount = reader.ReadInt32();
             BVH.LeafNodes.Clear();
-            for (int i = 0; i < leafNodeCount; i++)
-            {
-                BVH.LeafNodes.Add(ReadCNode(reader));
-            }
+            for (int i = 0; i < leafNodeCount; i++) BVH.LeafNodes.Add(ReadCNode(reader));
 
             // Read leaf node depths
             int leafDepthCount = reader.ReadInt32();
             BVH.LeafNodesDepth.Clear();
-            for (int i = 0; i < leafDepthCount; i++)
-            {
-                BVH.LeafNodesDepth.Add(reader.ReadInt32());
-            }
+            for (int i = 0; i < leafDepthCount; i++) BVH.LeafNodesDepth.Add(reader.ReadInt32());
         }
         
         private bool IsFileLocked(FileInfo file)

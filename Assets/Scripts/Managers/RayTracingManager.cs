@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Objects;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
@@ -63,19 +65,21 @@ namespace Managers {
         private List<MeshInfo> meshesInfos = new();
         private List<Node> AllNodes = new();
         private List<Triangle> AllTriangles = new();
-        
-        private readonly HashSet<string> sentMeshes = new();
+        private List<Vector3> lightPositions = new();
+
+        private Dictionary<RayTracingMesh, (int nodeOffset, int triOffset)> MeshOffsetInfo = new();
 
         private ComputeBuffer triangleBuffer;
         private ComputeBuffer nodeBuffer;
         private ComputeBuffer meshInfoBuffer;
-        private ComputeBuffer matrixBuffer;
+        private ComputeBuffer lightBuffer;
 
         private Material rayTracingMat;
         private Material companionMat;
         private Material smoothingMat;
         
         private int activeMeshNum;
+        private int numLights;
 
         private bool handlingMeshes;
         
@@ -96,7 +100,8 @@ namespace Managers {
         private static readonly int Frames = Shader.PropertyToID("_NumRenderedFrames");
         private static readonly int PrevFrame = Shader.PropertyToID("_PrevFrame");
         private static readonly int NumMeshes = Shader.PropertyToID("NumMeshes");
-        private static readonly int NumTriangles = Shader.PropertyToID("NumTriangles");
+        private static readonly int NumLights = Shader.PropertyToID("NumLights");
+        private static readonly int LightPositions = Shader.PropertyToID("LightPositions");
         private static readonly int UseEnvironment = Shader.PropertyToID("UseEnvironment");
         private static readonly int Strength = Shader.PropertyToID("DivergeStrength");
         private static readonly int DefocusStrength1 = Shader.PropertyToID("DefocusStrength");
@@ -113,16 +118,29 @@ namespace Managers {
 
         #endregion
 
+        // Subscribe to the hierarchyChanged event in the Unity editor
+        private void OnEnable() => EditorApplication.hierarchyChanged += OnHierarchyChanged;
+
+        // Unsubscribe from the hierarchyChanged event when this script is disabled
+        private void OnDisable() => EditorApplication.hierarchyChanged -= OnHierarchyChanged;
+
         private void Start() {
             //Initialize all shaders
             InitShaders();
             
             //Handle the meshes in the scene
             HandleMeshes();
+
+            if (Camera.main != null) Camera.main.depthTextureMode = DepthTextureMode.Depth;
         }
 
         //Update the avg FPS
-        private void Update() => avgFPS += (Time.unscaledDeltaTime - avgFPS) * 0.03f;
+        private void Update() {
+            avgFPS += (Time.unscaledDeltaTime - avgFPS) * 0.03f; 
+            
+            
+            
+        }
 
         //When an object is destroyed, release and dispose all buffers
         private void OnDestroy() => ReleaseAndDispose();
@@ -132,7 +150,7 @@ namespace Managers {
             if (!init) Init(src);
 
             //Display the shader in the scene view if selected and the app is not running
-            if (useShaderInSceneView && !Application.isPlaying) {
+            if (useShaderInSceneView && !Application.isPlaying && Camera.current.name == "SceneCamera") {
                 //Update the camera and material parameters
                 UpdateCameraParams(Camera.current);
                 UpdateMaterialParams();
@@ -293,15 +311,11 @@ namespace Managers {
             foreach (RayTracingMesh mesh in meshes) mesh.UpdateMeshData();
 
             handlingMeshes = false;
-            
-            Debug.Log("Handled Meshes");
         }
 
         private void SendMeshes() {
             int nodeOffset = 0;
             int triangleOffset = 0;
-            int prevNodeOffset = 0;
-            int prevTriangleOffset = 0;
             
             //Get the total number of triangles in the scene
             int size = meshes.Sum(mesh => mesh.Triangles.Count);
@@ -311,42 +325,46 @@ namespace Managers {
             
             AllNodes.Clear();
             AllTriangles.Clear();
+            lightPositions.Clear();
+            MeshOffsetInfo.Clear();
 
             activeMeshNum = 0;
-            
-            sentMeshes.Clear();
+            numLights = 0;
             
             foreach (RayTracingMesh mesh in meshes) {
                 if (mesh.gameObject.activeInHierarchy) {
-                    if (!sentMeshes.Contains(mesh.meshName)) {
-                        prevNodeOffset = nodeOffset;
-                        prevTriangleOffset = triangleOffset;
-                    }
-                    
-                    meshesInfos.Add(new MeshInfo {
-                        nodeOffset = prevNodeOffset, triOffset = prevTriangleOffset, 
-                        WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix, 
-                        LTWMatrix = mesh.gameObject.transform.localToWorldMatrix,
-                        material = mesh.material
-                    });
-                    
-                    mesh.stats.NodeOffset = nodeOffset;
-                    mesh.stats.TriOffset = triangleOffset;
-                    
-                    if (!sentMeshes.Contains(mesh.meshName)) {
+                    if (!MeshOffsetInfo.ContainsKey(mesh)) {
+                        MeshOffsetInfo.Add(mesh, (nodeOffset, triangleOffset));
+                        
                         AllNodes.AddRange(mesh.BVH.AllNodes);
                         AllTriangles.AddRange(mesh.BVH.AllTriangles);
                         
                         nodeOffset += mesh.BVH.AllNodes.Count;
                         triangleOffset += mesh.BVH.AllTriangles.Count;
-                        
-                        sentMeshes.Add(mesh.meshName);
+                    }
+                    
+                    meshesInfos.Add(new MeshInfo {
+                        triOffset = MeshOffsetInfo[mesh].triOffset, 
+                        nodeOffset = MeshOffsetInfo[mesh].nodeOffset, 
+                        WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix, 
+                        LTWMatrix = mesh.gameObject.transform.localToWorldMatrix,
+                        material = mesh.material
+                    });
+                    
+                    mesh.stats.NodeOffset = MeshOffsetInfo[mesh].nodeOffset;
+                    mesh.stats.TriOffset = MeshOffsetInfo[mesh].triOffset;
+
+                    if (mesh.material.emissionStrength > 0) {
+                        lightPositions.Add(mesh.transform.position);
+                        numLights++;
                     }
                     
                     activeMeshNum++;
                 }
             }
-            
+
+            if (lightPositions.Count == 0) lightPositions.Add(Vector3.zero);
+
             SendMeshesToShader();
         }
         
@@ -355,21 +373,25 @@ namespace Managers {
             CreateBuffer(ref triangleBuffer, AllTriangles);
             CreateBuffer(ref nodeBuffer, AllNodes);
             CreateBuffer(ref meshInfoBuffer, meshesInfos);
+            CreateBuffer(ref lightBuffer, lightPositions);
             
+            //Set BVH buffers data
             triangleBuffer.SetData(AllTriangles);
             nodeBuffer.SetData(AllNodes);
             meshInfoBuffer.SetData(meshesInfos);
+            lightBuffer.SetData(lightPositions);
             
+            //Send data to shader
             rayTracingMat.SetBuffer(Triangles, triangleBuffer);
             rayTracingMat.SetBuffer(Nodes, nodeBuffer);
+            rayTracingMat.SetBuffer(AllMeshInfo, meshInfoBuffer);
+            rayTracingMat.SetBuffer(LightPositions, lightBuffer);
             
             rayTracingMat.SetInt(NumMeshes, activeMeshNum);
-            
-            rayTracingMat.SetBuffer(AllMeshInfo, meshInfoBuffer);
+            rayTracingMat.SetInt(NumLights, numLights);
         }
 
-        private static void CreateBuffer<T>(ref ComputeBuffer buffer, List<T> data, 
-            int inputStride = 0) where T : struct
+        private static void CreateBuffer<T>(ref ComputeBuffer buffer, List<T> data, int inputStride = 0) where T : struct
         {
             int stride = inputStride == 0 ? GetStride<T>() : inputStride;
 
@@ -390,14 +412,21 @@ namespace Managers {
             triangleBuffer?.Release();
             nodeBuffer?.Release();
             meshInfoBuffer?.Release();
+            lightBuffer?.Release();
             
             triangleBuffer?.Dispose();
             nodeBuffer?.Dispose();
             meshInfoBuffer?.Dispose();
+            lightBuffer?.Dispose();
         }
 
         private static void Release(params ComputeBuffer[] buffers) {
             foreach (ComputeBuffer t in buffers) t?.Release();
+        }
+
+        private void OnHierarchyChanged() {
+            InitShaders();
+            HandleMeshes();
         }
     }
 }

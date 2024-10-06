@@ -1,2 +1,13 @@
 
-¯csharpsquid:S4018Ä"_Refactor this method to use all type parameters in the parameter list to enable type inference.(Ë•“ëûÿÿÿÿ8ıÿÓ2J$39526904-a40c-4af1-80a1-fc9d9786e1f3
+Gcsharpsquid:S2933?"Make 'meshesInfos' 'readonly'.(şÑÎèùÿÿÿÿ8¦ÁÅ€2
+?csharpsquid:S2933@"Make 'AllNodes' 'readonly'.(ƒ‡Ÿ„8§ÁÅ€2
+Hcsharpsquid:S2933A"Make 'AllTriangles' 'readonly'.(âŒõüÿÿÿÿ8¨ÁÅ€2
+Acsharpsquid:S23570"Make 'debugViewMode' private.(ÍØ¾Ã8¨ÁÅ€2
+¯csharpsquid:S4018ƒ"_Refactor this method to use all type parameters in the parameter list to enable type inference.(Ë•“ëûÿÿÿÿ8ıÿÓ2J$39526904-a40c-4af1-80a1-fc9d9786e1f3
+Xcsharpsquid:S1144H"/Remove the unused private field 'matrixBuffer'.(œÿ´²ÿÿÿÿÿ8©ÁÅ€2
+Xcsharpsquid:S1144c"/Remove the unused private field 'NumTriangles'.(±Î±éøÿÿÿÿ8©ÁÅ€2
+Rcsharpsquid:S1144t")Remove the unused private method 'Start'.(®Ş††ÿÿÿÿÿ8©ÁÅ€2
+Scsharpsquid:S1144}"*Remove the unused private method 'Update'.(‹š·Æûÿÿÿÿ8©ÁÅ€2
+Wcsharpsquid:S1144€"-Remove the unused private method 'OnDestroy'.(‹æ°±øÿÿÿÿ8ªÁÅ€2
+Vcsharpsquid:S1144‚"1Remove the unused private method 'OnRenderImage'.(²ìåÄ8ªÁÅ€2
+Ncsharpsquid:S1144Ê")Remove the unused private method 'OnGUI'.(êÃèÖ8«ÁÅ€2
