@@ -51,9 +51,9 @@
     <Compile Include="Assets\Scripts\Objects\SphereObject.cs" />
     <Compile Include="Assets\Scripts\Objects\RayTracingMaterial.cs" />
     <Compile Include="Assets\Scripts\Tests\BVHTester.cs" />
-    <Compile Include="Assets\Scripts\Objects\Triangle.cs" />
     <Compile Include="Assets\Scripts\Objects\CBoundingBox.cs" />
     <Compile Include="Assets\Scripts\Tests\Screenshot.cs" />
+    <Compile Include="Assets\Scripts\Objects\MeshTriangle.cs" />
     <Compile Include="Assets\Scripts\Objects\MeshInfo.cs" />
     <Compile Include="Assets\Scripts\Objects\BoundingBox.cs" />
     <Compile Include="Assets\Scripts\Helpers\Rotator.cs" />

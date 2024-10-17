@@ -5,7 +5,6 @@ using Helpers;
 using Objects;
 using Shapes;
 using UnityEngine;
-using Triangle = Objects.Triangle;
 
 namespace Tests {
     [ExecuteAlways]
@@ -15,7 +14,7 @@ namespace Tests {
         public RayVisualizer visualizer;
 
         private List<Node> Nodes;
-        private List<Triangle> Triangles;
+        private List<MeshTriangle> Triangles;
 
         private Node finalNode;
         private Node prevNode;
@@ -27,7 +26,7 @@ namespace Tests {
 
             TriangleHitInfo info = RayTriangleTest();
 
-            List<Triangle> drawTriangles = new();
+            List<MeshTriangle> drawTriangles = new();
             List<Node> visNodes = new();
 
             for (int i = info.triIndex; i < info.triIndex + info.triCount; i++) drawTriangles.Add(Triangles[i]);
@@ -101,7 +100,7 @@ namespace Tests {
             return result;
         }
 
-        private TriangleHitInfo RayTriangle(Triangle tri) {
+        private TriangleHitInfo RayTriangle(MeshTriangle tri) {
             TriangleHitInfo info = default;
             info.didHit = false;
             

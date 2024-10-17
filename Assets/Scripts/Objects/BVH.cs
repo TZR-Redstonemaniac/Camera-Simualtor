@@ -12,7 +12,7 @@ namespace Objects {
         private readonly List<CTriangle> CAllTriangles = new();
 
         public List<Node> AllNodes = new();
-        public List<Triangle> AllTriangles = new();
+        public List<MeshTriangle> AllTriangles = new();
         public List<CNode> LeafNodes = new();
         public List<int> LeafNodesDepth = new();
 
@@ -41,7 +41,7 @@ namespace Objects {
                 Vector3 normalB = normals[triangleIndices[i + 1]];
                 Vector3 normalC = normals[triangleIndices[i + 2]];
 
-                Triangle tri = new(a, b, c, normalA, normalB, normalC);
+                MeshTriangle tri = new(a, b, c, normalA, normalB, normalC);
                 CTriangle Ctri = new(a, b, c, normalA, normalB, normalC);
                 AllTriangles.Add(tri);
                 CAllTriangles.Add(Ctri);

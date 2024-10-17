@@ -127,9 +127,10 @@
             StructuredBuffer<Triangle> TriangleBuffer;
             StructuredBuffer<Node> Nodes;
             StructuredBuffer<MeshInfo> AllMeshInfo;
+            StructuredBuffer<float3> RandLightPositions;
+            StructuredBuffer<RayTracingMaterial> RandLightMaterials;
+            
             int NumMeshes;
-
-            StructuredBuffer<float3> LightPositions;
             int NumLights;
 
             int UseEnvironment;
@@ -140,9 +141,41 @@
             float BoxDisplayThreshold;
             float TriangleDisplayThreshold;
 
+            float Weights[100];
+
+            float3 samples[10];
+            float3 sampleWeights[10];
+            
+            float SpecularPower;
+
             int2 stats;
 
             // ------------- Ray Intersection Functions -------------
+            float3 BRDF(Ray inRay, Ray outRay, float kd, float ks, float3 N, float3 col)
+            {
+                float inPhi = atan(inRay.dir[0] / inRay.dir[1]);
+                float inTheta = atan(sqrt(pow(inRay.dir[0], 2) + pow(inRay.dir[1], 2)) / inRay.dir[2]);
+
+                float outPhi = atan(outRay.dir[0] / outRay.dir[1]);
+                float outTheta = atan(sqrt(pow(outRay.dir[0], 2) + pow(outRay.dir[1], 2)) / outRay.dir[2]);
+
+                float R = reflect(inRay.dir, N);
+
+                float dwi = sin(inTheta) * 0.1 * 0.1;
+
+                float BRDF = (kd * dot(inRay.dir, N) + ks * pow(dot(R, outRay.dir), SpecularPower)) / (cos(inTheta) * dwi);
+
+                return float3(col[0] * BRDF, col[1] * BRDF, col[2] * BRDF);
+            }
+
+            void CalculateLightWeights(Ray inRay, float3 hitNormal, float3 hitPoint)
+            {
+                for (int i = 0; i < NumLights; i++)
+                {
+                    Weights[i] = dot(inRay.dir, hitNormal) / (1 / pow(abs(hitPoint - RandLightPositions[i]), 2));
+                }
+            }
+            
             float RandomValue(inout uint state)
             {
                 state = state * 747796405 + 2891336453;
@@ -332,8 +365,7 @@
                     {
                         closestHit.didHit = true;
                         closestHit.dst = hitInfo.dst;
-                        closestHit.normal = normalize(mul(meshInfo.LocalToWorldMatrix,
-        float4(hitInfo.normal, 0)));
+                        closestHit.normal = normalize(mul(meshInfo.LocalToWorldMatrix, float4(hitInfo.normal, 0)));
                         closestHit.hitPoint = ray.origin + ray.dir * hitInfo.dst;
                         closestHit.material = meshInfo.material;
                     }
@@ -375,59 +407,120 @@
                 }
             }
 
+            void CalculateRayEffect(Ray ray, TriangleHitInfo info, int index, int timesDone, inout uint rngState)
+            {
+                float3 rayColor = 1;
+                                
+                RayTracingMaterial mat = RandLightMaterials[index];
+
+                Ray tempRay = ray;
+                tempRay.dir = normalize(RandLightPositions[index] - info.hitPoint);
+                TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay);
+                
+                bool visible = tempHitInfo.hitPoint - RandLightPositions[index] <= 0.1;
+
+                float ogRayDir = abs(dot(normalize(ray.dir), info.normal));
+                //ray.origin = info.hitPoint;
+                //float3 diffuseDir = normalize(info.normal + RandomDirection(rngState));
+                //float3 specularDir = reflect(ray.dir, info.normal);
+                bool isSpecularBounce = mat.specularProbability >= RandomValue(rngState);
+
+                //ray.dir = normalize(lerp(diffuseDir, specularDir, mat.smoothness * isSpecularBounce));
+
+                float3 emittedLight = mat.emissionColor * mat.emissionStrength;
+                emittedLight * rayColor;
+                
+                rayColor *= lerp(mat.color, mat.specularColor, isSpecularBounce);
+
+                rayColor.r *= ogRayDir;
+                rayColor.g *= ogRayDir;
+                rayColor.b *= ogRayDir;
+                
+                float p = max(rayColor.r, max(rayColor.g, rayColor.b));
+                
+                rayColor *= 1 / p;
+
+                float totalWeight = 0;
+                for (int i = 0; i < NumLights; i++) totalWeight += Weights[i];
+
+                totalWeight *= 1 / NumLights;
+                
+                samples[timesDone] = emittedLight * rayColor * visible * (1 / abs(info.hitPoint - RandLightPositions[index]));
+                sampleWeights[timesDone] = totalWeight / Weights[index];
+            }
+
             float3 Trace(Ray ray, uint rngState)
             {
                 float3 incomingLight = 0;
                 float3 rayColor = 1;
-
-                for (int i = 0; i <= MaxBounceCount; i++)
+                
+                for (int rayIndex = 0; rayIndex < NumRaysPerPixel; rayIndex++)
                 {
                     TriangleHitInfo hitInfo = CalculateRayCollision(ray);
 
                     if (hitInfo.didHit)
                     {
-                        const RayTracingMaterial material = hitInfo.material;
+                        CalculateLightWeights(ray, hitInfo.normal, hitInfo.hitPoint);
 
-                        if (hitInfo.dst <= RenderDistance)
+                        float cumulativeWeights[100];
+                        float totalWeight = 0;
+
+                        for (int i = 0; i < NumLights; i++){
+                            totalWeight += Weights[i];
+                            cumulativeWeights[i] = totalWeight;
+                        }
+                        
+                        float r = RandomValueNormalDistribution(rngState) * totalWeight;
+
+                        int timesDone = 0;
+                        bool running = true;
+                        int index = 0;
+                        while (running) {
+                            if (timesDone >= MaxBounceCount) {
+                                running = false;
+                                break;
+                            }
+                                
+                            if (r < cumulativeWeights[index])
+                            {
+                                CalculateRayEffect(ray, hitInfo, index, timesDone, rngState);
+                                r = RandomValueNormalDistribution(rngState) * totalWeight;
+                                timesDone++;
+                                index = 0;
+                            }
+                            else
+                            {
+                                index++;
+                            }
+                        }
+
+                        /*if (hitInfo.dst <= RenderDistance)
                         {
+                            float ogRayDir = abs(dot(normalize(ray.dir), hitInfo.normal));
+                            
                             ray.origin = hitInfo.hitPoint;
                             float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
                             float3 specularDir = reflect(ray.dir, hitInfo.normal);
                             bool isSpecularBounce = material.specularProbability >= RandomValue(rngState);
 
-                            if (i == MaxBounceCount - 1 && NumLights > 0 && isSpecularBounce)
-                            {
-                                for (int j = 0; j < NumLights; j++)
-                                {
-                                    Ray tempRay;
-                                    tempRay.origin = ray.origin;
-                                    tempRay.dir = normalize(LightPositions[j] - ray.origin);
-                                    tempRay.invDir = 1 / normalize(LightPositions[j] - ray.origin);
-
-                                    TriangleHitInfo lightHitInfo;
-                                    lightHitInfo.dst = 0;
-                                    lightHitInfo.hitPoint = float3(0, 0, 0);
-
-                                    const TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay);
-                                    if (tempHitInfo.material.emissionStrength != 0)
-                                    {
-                                        if (tempHitInfo.dst < lightHitInfo.dst)
-                                        {
-                                            lightHitInfo = tempHitInfo;
-                                        }
-                                    }
-
-                                    specularDir = lightHitInfo.hitPoint - ray.origin;
-                                }
-                            }
-
-                            ray.dir = lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce);
+                            ray.dir = normalize(lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce));
 
                             float3 emittedLight = material.emissionColor * material.emissionStrength;
                             incomingLight += emittedLight * rayColor;
+                            
                             rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
-                            if (material.emissionStrength > 0) break;
-                        }
+
+                            rayColor.r *= ogRayDir;
+                            rayColor.g *= ogRayDir;
+                            rayColor.b *= ogRayDir;
+                            
+                            float p = max(rayColor.r, max(rayColor.g, rayColor.b));
+						    if (RandomValue(rngState) >= p) {
+							    break;
+						    }
+                            
+                            rayColor *= 1 / p;
+                        }*/
                     }
                     else
                     {
@@ -435,6 +528,7 @@
                         break;
                     }
                 }
+                
 
                 return incomingLight;
             }
@@ -453,7 +547,7 @@
 
                 float3 totalIncomingLight = 0;
 
-                for (int rayIndex = 0; rayIndex < NumRaysPerPixel; rayIndex++)
+                for (int rayIndex = 0; rayIndex < 0; rayIndex++)
                 {
                     Ray ray;
                     

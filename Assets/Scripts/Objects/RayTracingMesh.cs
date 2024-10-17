@@ -22,7 +22,7 @@ namespace Objects {
         private RayTracingMaterial prevMaterial;
 
         public BVH BVH { get; private set; }
-        public List<Triangle> Triangles { get; } = new();
+        public List<MeshTriangle> Triangles { get; } = new();
 
         private Material mat;
 
@@ -102,22 +102,22 @@ namespace Objects {
             stats.MeanLeafTri = leafNodeTriCount / BVH.LeafNodes.Count;
 
             for (int i = 0; i < indices.Length; i += 3) {
-                Triangle triangle = new();
+                MeshTriangle meshTriangle = new();
 
                 int a = indices[i];
                 int b = indices[i + 1];
                 int c = indices[i + 2];
 
-                triangle.posA = vertices[a];
-                triangle.normalA = normals[a];
+                meshTriangle.posA = vertices[a];
+                meshTriangle.normalA = normals[a];
 
-                triangle.posB = vertices[b];
-                triangle.normalB = normals[b];
+                meshTriangle.posB = vertices[b];
+                meshTriangle.normalB = normals[b];
 
-                triangle.posC = vertices[c];
-                triangle.normalC = normals[c];
+                meshTriangle.posC = vertices[c];
+                meshTriangle.normalC = normals[c];
 
-                Triangles.Add(triangle);
+                Triangles.Add(meshTriangle);
             }
         }
         
@@ -137,7 +137,7 @@ namespace Objects {
 
             // Save all triangles
             writer.Write(BVH.AllTriangles.Count);
-            foreach (Triangle triangle in BVH.AllTriangles) WriteTriangle(writer, triangle);
+            foreach (MeshTriangle triangle in BVH.AllTriangles) WriteTriangle(writer, triangle);
 
             // Save leaf nodes
             writer.Write(BVH.LeafNodes.Count);
@@ -164,7 +164,7 @@ namespace Objects {
             BVH.AllNodes = new List<Node>();
             BVH.LeafNodes = new List<CNode>();
             BVH.LeafNodesDepth = new List<int>();
-            BVH.AllTriangles = new List<Triangle>();
+            BVH.AllTriangles = new List<MeshTriangle>();
 
             // Read all nodes
             int nodeCount = reader.ReadInt32();
@@ -226,17 +226,17 @@ namespace Objects {
             return new Node { BoundsMin = boundsMin, BoundsMax = boundsMax, TriangleIndex = triangleIndex, ChildIndex = childIndex, TrianglesCount = trianglesCount };
         }
 
-        private void WriteTriangle(BinaryWriter writer, Triangle triangle)
+        private void WriteTriangle(BinaryWriter writer, MeshTriangle meshTriangle)
         {
-            WriteVector3(writer, triangle.posA);
-            WriteVector3(writer, triangle.posB);
-            WriteVector3(writer, triangle.posC);
-            WriteVector3(writer, triangle.normalA);
-            WriteVector3(writer, triangle.normalB);
-            WriteVector3(writer, triangle.normalC);
+            WriteVector3(writer, meshTriangle.posA);
+            WriteVector3(writer, meshTriangle.posB);
+            WriteVector3(writer, meshTriangle.posC);
+            WriteVector3(writer, meshTriangle.normalA);
+            WriteVector3(writer, meshTriangle.normalB);
+            WriteVector3(writer, meshTriangle.normalC);
         }
 
-        private Triangle ReadTriangle(BinaryReader reader)
+        private MeshTriangle ReadTriangle(BinaryReader reader)
         {
             Vector3 posA = ReadVector3(reader);
             Vector3 posB = ReadVector3(reader);
@@ -244,7 +244,7 @@ namespace Objects {
             Vector3 normalA = ReadVector3(reader);
             Vector3 normalB = ReadVector3(reader);
             Vector3 normalC = ReadVector3(reader);
-            return new Triangle(posA, posB, posC, normalA, normalB, normalC);
+            return new MeshTriangle(posA, posB, posC, normalA, normalB, normalC);
         }
 
         private void WriteCNode(BinaryWriter writer, CNode cnode)

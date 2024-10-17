@@ -5,6 +5,7 @@ using Objects;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
+using Random = UnityEngine.Random;
 
 // ReSharper disable NotAccessedField.Local
 
@@ -33,6 +34,7 @@ namespace Managers {
         [SerializeField] [Min(0.1f)] private float RenderDistance;
         [SerializeField] [Range(0f, 1f)] private float BlackRayTolerance;
         [SerializeField] [Range(0f, 1f)] private float smoothingFactor;
+        [SerializeField] [Min(0)] private float specularPower;
 
         
         [Header("Environment")]
@@ -64,15 +66,17 @@ namespace Managers {
         
         private List<MeshInfo> meshesInfos = new();
         private List<Node> AllNodes = new();
-        private List<Triangle> AllTriangles = new();
-        private List<Vector3> lightPositions = new();
+        private List<MeshTriangle> AllTriangles = new();
+        private List<Vector3> RandLightPos = new();
+        private List<RayTracingMaterial> RandLightMat = new();
 
         private Dictionary<RayTracingMesh, (int nodeOffset, int triOffset)> MeshOffsetInfo = new();
 
         private ComputeBuffer triangleBuffer;
         private ComputeBuffer nodeBuffer;
         private ComputeBuffer meshInfoBuffer;
-        private ComputeBuffer lightBuffer;
+        private ComputeBuffer randLightPosBuffer;
+        private ComputeBuffer randLightMatBuffer;
 
         private Material rayTracingMat;
         private Material companionMat;
@@ -100,8 +104,6 @@ namespace Managers {
         private static readonly int Frames = Shader.PropertyToID("_NumRenderedFrames");
         private static readonly int PrevFrame = Shader.PropertyToID("_PrevFrame");
         private static readonly int NumMeshes = Shader.PropertyToID("NumMeshes");
-        private static readonly int NumLights = Shader.PropertyToID("NumLights");
-        private static readonly int LightPositions = Shader.PropertyToID("LightPositions");
         private static readonly int UseEnvironment = Shader.PropertyToID("UseEnvironment");
         private static readonly int Strength = Shader.PropertyToID("DivergeStrength");
         private static readonly int DefocusStrength1 = Shader.PropertyToID("DefocusStrength");
@@ -115,6 +117,10 @@ namespace Managers {
         private static readonly int BoxDisplayThreshold = Shader.PropertyToID("BoxDisplayThreshold");
         private static readonly int TriangleDisplayThreshold = Shader.PropertyToID("TriangleDisplayThreshold");
         private static readonly int AllMeshInfo = Shader.PropertyToID("AllMeshInfo");
+        private static readonly int SpecularPower = Shader.PropertyToID("SpecularPower");
+        private static readonly int RandLightPositions = Shader.PropertyToID("RandLightPositions");
+        private static readonly int RandLightMaterials = Shader.PropertyToID("RandLightMaterials");
+        private static readonly int NumLights = Shader.PropertyToID("NumLights");
 
         #endregion
 
@@ -298,6 +304,8 @@ namespace Managers {
             rayTracingMat.SetInt(BoxDisplayThreshold, boxDisplayThreshold);
             rayTracingMat.SetInt(TriangleDisplayThreshold, triangleDisplayThreshold);
             
+            rayTracingMat.SetFloat(SpecularPower, specularPower);
+            
             SendMeshes();
         }
 
@@ -322,14 +330,13 @@ namespace Managers {
 
             //Stop if there are no triangles present in the scene
             if (size == 0 || handlingMeshes) return;
-            
-            AllNodes.Clear();
-            AllTriangles.Clear();
-            lightPositions.Clear();
-            MeshOffsetInfo.Clear();
 
             activeMeshNum = 0;
             numLights = 0;
+            
+            meshesInfos.Clear();
+            RandLightPos.Clear();
+            RandLightMat.Clear();
             
             foreach (RayTracingMesh mesh in meshes) {
                 if (mesh.gameObject.activeInHierarchy) {
@@ -341,29 +348,31 @@ namespace Managers {
                         
                         nodeOffset += mesh.BVH.AllNodes.Count;
                         triangleOffset += mesh.BVH.AllTriangles.Count;
+                        
                     }
                     
-                    meshesInfos.Add(new MeshInfo {
-                        triOffset = MeshOffsetInfo[mesh].triOffset, 
-                        nodeOffset = MeshOffsetInfo[mesh].nodeOffset, 
-                        WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix, 
-                        LTWMatrix = mesh.gameObject.transform.localToWorldMatrix,
-                        material = mesh.material
-                    });
+                    MeshInfo info = new() {
+                        triOffset = MeshOffsetInfo[mesh].triOffset, nodeOffset = MeshOffsetInfo[mesh].nodeOffset,
+                        WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix,
+                        LTWMatrix = mesh.gameObject.transform.localToWorldMatrix, material = mesh.material
+                    };
+                    
+                    meshesInfos.Add(info);
                     
                     mesh.stats.NodeOffset = MeshOffsetInfo[mesh].nodeOffset;
                     mesh.stats.TriOffset = MeshOffsetInfo[mesh].triOffset;
 
                     if (mesh.material.emissionStrength > 0) {
-                        lightPositions.Add(mesh.transform.position);
+                        RandLightPos.Add(mesh.GetComponent<MeshFilter>().sharedMesh
+                            .vertices[Random.Range(0, mesh.GetComponent<MeshFilter>().sharedMesh.vertexCount)]);
+                        RandLightMat.Add(mesh.material);
+
                         numLights++;
                     }
                     
                     activeMeshNum++;
                 }
             }
-
-            if (lightPositions.Count == 0) lightPositions.Add(Vector3.zero);
 
             SendMeshesToShader();
         }
@@ -373,19 +382,22 @@ namespace Managers {
             CreateBuffer(ref triangleBuffer, AllTriangles);
             CreateBuffer(ref nodeBuffer, AllNodes);
             CreateBuffer(ref meshInfoBuffer, meshesInfos);
-            CreateBuffer(ref lightBuffer, lightPositions);
+            CreateBuffer(ref randLightPosBuffer, RandLightPos);
+            CreateBuffer(ref randLightMatBuffer, RandLightMat);
             
             //Set BVH buffers data
             triangleBuffer.SetData(AllTriangles);
             nodeBuffer.SetData(AllNodes);
             meshInfoBuffer.SetData(meshesInfos);
-            lightBuffer.SetData(lightPositions);
+            randLightPosBuffer.SetData(RandLightPos);
+            randLightMatBuffer.SetData(RandLightMat);
             
             //Send data to shader
             rayTracingMat.SetBuffer(Triangles, triangleBuffer);
             rayTracingMat.SetBuffer(Nodes, nodeBuffer);
             rayTracingMat.SetBuffer(AllMeshInfo, meshInfoBuffer);
-            rayTracingMat.SetBuffer(LightPositions, lightBuffer);
+            rayTracingMat.SetBuffer(RandLightPositions, randLightPosBuffer);
+            rayTracingMat.SetBuffer(RandLightMaterials, randLightMatBuffer);
             
             rayTracingMat.SetInt(NumMeshes, activeMeshNum);
             rayTracingMat.SetInt(NumLights, numLights);
@@ -412,12 +424,14 @@ namespace Managers {
             triangleBuffer?.Release();
             nodeBuffer?.Release();
             meshInfoBuffer?.Release();
-            lightBuffer?.Release();
+            randLightPosBuffer?.Release();
+            randLightMatBuffer?.Release();
             
             triangleBuffer?.Dispose();
             nodeBuffer?.Dispose();
             meshInfoBuffer?.Dispose();
-            lightBuffer?.Dispose();
+            randLightPosBuffer?.Dispose();
+            randLightMatBuffer?.Dispose();
         }
 
         private static void Release(params ComputeBuffer[] buffers) {
@@ -427,6 +441,10 @@ namespace Managers {
         private void OnHierarchyChanged() {
             InitShaders();
             HandleMeshes();
+            
+            AllNodes.Clear();
+            AllTriangles.Clear();
+            MeshOffsetInfo.Clear();
         }
     }
 }

@@ -2,7 +2,6 @@
 using Objects;
 using Shapes;
 using UnityEngine;
-using Triangle = Objects.Triangle;
 
 namespace Helpers {
     
@@ -10,7 +9,7 @@ namespace Helpers {
     [ImageEffectAllowedInSceneView]
     public class RayVisualizer : ImmediateModeShapeDrawer {
 
-        [HideInInspector] public List<Triangle> triangles;
+        [HideInInspector] public List<MeshTriangle> triangles;
         [HideInInspector] public List<Node> nodes;
         
         public override void DrawShapes(Camera cam){
@@ -22,7 +21,7 @@ namespace Helpers {
                     Draw.Line(transform.position, transform.position + transform.forward * 50, col);
 
                     if (triangles != null) {
-                        foreach (Triangle tri in triangles) {
+                        foreach (MeshTriangle tri in triangles) {
                             Vector3 a = new(tri.posA.x, tri.posA.y, tri.posA.z);
                             Vector3 b = new(tri.posB.x, tri.posB.y, tri.posB.z);
                             Vector3 c = new(tri.posC.x, tri.posC.y, tri.posC.z);

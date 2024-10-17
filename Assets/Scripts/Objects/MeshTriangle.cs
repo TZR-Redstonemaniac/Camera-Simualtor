@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Objects {
     [Serializable]
-    public struct Triangle {
+    public struct MeshTriangle {
 
         public Vector3 posA { get; set; }
         public Vector3 posB { get; set; }
@@ -13,7 +13,7 @@ namespace Objects {
         public Vector3 normalC { get; set; }
         public Vector3 center { get; private set; }
 
-        public Triangle(Vector3 a, Vector3 b, Vector3 c) {
+        public MeshTriangle(Vector3 a, Vector3 b, Vector3 c) {
             posA = a;
             posB = b;
             posC = c;
@@ -25,7 +25,7 @@ namespace Objects {
             center = new Vector3((posA.x + posB.x + posC.x) / 3, (posA.y + posB.y + posC.y) / 3, (posA.z + posB.z + posC.z) / 3);
         }
 
-        public Triangle(Vector3 a, Vector3 b, Vector3 c, Vector3 normalA, Vector3 normalB, Vector3 normalC) {
+        public MeshTriangle(Vector3 a, Vector3 b, Vector3 c, Vector3 normalA, Vector3 normalB, Vector3 normalC) {
             posA = a;
             posB = b;
             posC = c;

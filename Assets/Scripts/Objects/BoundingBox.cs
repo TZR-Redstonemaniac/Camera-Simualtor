@@ -17,10 +17,10 @@ namespace Objects {
             Size = new Vector3(Max.x - Min.x, Max.y - Min.y, Max.z - Min.z);
         }
 
-        public void GrowToInclude(Triangle triangle) {
-            Vector3 a = new(triangle.posA.x, triangle.posA.y, triangle.posA.z);
-            Vector3 b = new(triangle.posB.x, triangle.posB.y, triangle.posB.z);
-            Vector3 c = new(triangle.posC.x, triangle.posC.y, triangle.posC.z);
+        public void GrowToInclude(MeshTriangle meshTriangle) {
+            Vector3 a = new(meshTriangle.posA.x, meshTriangle.posA.y, meshTriangle.posA.z);
+            Vector3 b = new(meshTriangle.posB.x, meshTriangle.posB.y, meshTriangle.posB.z);
+            Vector3 c = new(meshTriangle.posC.x, meshTriangle.posC.y, meshTriangle.posC.z);
             
             Vector3 min = Vector3.Min(Vector3.Min(a, b), c);
             Vector3 max = Vector3.Max(Vector3.Max(a, b), c);
