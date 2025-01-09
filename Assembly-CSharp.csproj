@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Helpers\RayVisualizer.cs" />
     <Compile Include="Assets\Scripts\Objects\BVH.cs" />
     <Compile Include="Assets\Scripts\Helpers\MovementHelper.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Tests\CamTest.cs" />
     <Compile Include="Assets\Scripts\Objects\RayTracingMesh.cs" />
     <Compile Include="Assets\Scripts\Objects\BvhStats.cs" />
@@ -80,7 +81,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Texture Screen.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Rect ColorDodge.shader" />
-    <None Include="Assets\Shaders\Standard\Testing.shader" />
+    <None Include="Assets\Shaders\Tests\Testing.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cuboid Screen.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Line 2D Subtractive.shader" />
@@ -147,7 +148,7 @@
     <None Include="Assets\Shapes\Shaders\Core\Regular Polygon Core.cginc" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D Lighten.shader" />
     <None Include="Assets\Shapes\Shaders\Core\Polyline 2D Core.cginc" />
-    <None Include="Assets\Shaders\Standard\CustomRayTracerShader.shader" />
+    <None Include="Assets\Shaders\Tests\CustomRayTracerShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Quad Opaque.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Polyline 2D LinearBurn.shader" />
@@ -206,7 +207,7 @@
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Disc Screen.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Torus Multiplicative.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Line 2D Multiplicative.shader" />
-    <None Include="Assets\Shaders\Standard\CompanionShader.shader" />
+    <None Include="Assets\Shaders\Standard\Accumulate.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Cuboid Transparent.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Line 3D ColorDodge.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Texture Transparent.shader" />
@@ -270,13 +271,14 @@
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Regular Polygon Screen.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Line 3D LinearBurn.shader" />
-    <None Include="Assets\Shaders\Standard\Random.shader" />
+    <None Include="Assets\Shaders\Tests\Random.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Texture Darken.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Triangle Lighten.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Sphere ColorDodge.shader" />
-    <None Include="Assets\Shaders\Standard\RayTracingURP.shader" />
+    <None Include="Assets\Shaders\Tests\RayTracingURP.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Sphere Transparent.shader" />
+    <None Include="Assets\Models\BVHData\Sphere_BVH.json" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Sphere Opaque.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Shapes\Shaders\Generated Shaders\Resources\Quad Additive.shader" />

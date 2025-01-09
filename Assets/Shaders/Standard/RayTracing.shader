@@ -6,6 +6,8 @@
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma exclude_renderers d3d11_9x
+            #pragma exclude_renderers d3d9
             #include "UnityCG.cginc"
             #define FLT_MAX 3.402823466e+38
             #define PI 3.141592
@@ -141,33 +143,42 @@
             float BoxDisplayThreshold;
             float TriangleDisplayThreshold;
 
-            float Weights[100];
+            float Weights[500];
 
-            float3 samples[10];
-            float3 sampleWeights[10];
+            float3 samples[500];
+            float3 sampleWeights[500];
             
             float SpecularPower;
 
             int2 stats;
 
             // ------------- Ray Intersection Functions -------------
-            float3 BRDF(Ray inRay, Ray outRay, float kd, float ks, float3 N, float3 col)
+            float Dirac(float3 ray)
             {
-                float inPhi = atan(inRay.dir[0] / inRay.dir[1]);
-                float inTheta = atan(sqrt(pow(inRay.dir[0], 2) + pow(inRay.dir[1], 2)) / inRay.dir[2]);
-
-                float outPhi = atan(outRay.dir[0] / outRay.dir[1]);
-                float outTheta = atan(sqrt(pow(outRay.dir[0], 2) + pow(outRay.dir[1], 2)) / outRay.dir[2]);
-
-                float R = reflect(inRay.dir, N);
-
-                float dwi = sin(inTheta) * 0.1 * 0.1;
-
-                float BRDF = (kd * dot(inRay.dir, N) + ks * pow(dot(R, outRay.dir), SpecularPower)) / (cos(inTheta) * dwi);
-
-                return float3(col[0] * BRDF, col[1] * BRDF, col[2] * BRDF);
+                return ray == 0 ? 99999 : 0;
             }
 
+            float UnpolarizedFrensel(Ray inRay, Ray outRay)
+            {
+                float thetaI = acos(inRay.dir.z);
+                float thetaT = acos(outRay.dir.z);
+                
+                float rs = (cos(thetaT) - cos(thetaI)) / (cos(thetaT) + cos(thetaI));
+                float rp = (cos(thetaI) - cos(thetaT)) / (cos(thetaT) + cos(thetaI));
+                
+                return (rs + rp) / 2;
+            }
+            
+            float DiffuseBRDF(RayTracingMaterial mat)
+            {
+                return (1 - mat.specularProbability) / PI;
+            }
+
+            float SpecularBRDF(Ray inRay, Ray outRay)
+            {
+                return UnpolarizedFrensel(inRay, outRay) * (Dirac(inRay.dir - outRay.dir) / outRay.dir.z);
+            }
+            
             void CalculateLightWeights(Ray inRay, float3 hitNormal, float3 hitPoint)
             {
                 for (int i = 0; i < NumLights; i++)
@@ -178,6 +189,7 @@
             
             float RandomValue(inout uint state)
             {
+                //Perform random calculations to get as random a value as possible
                 state = state * 747796405 + 2891336453;
                 uint result = (state >> (state >> 28) + 4 ^ state) * 277803737;
                 result = result >> 22 ^ result;
@@ -186,6 +198,7 @@
 
             float RandomValueNormalDistribution(inout uint state)
             {
+                //Generate a random value from a normal distribution
                 const float theta = 2 * 3.1415296 * RandomValue(state);
                 const float rho = sqrt(-2 * log(RandomValue(state)));
                 return rho * cos(theta);
@@ -193,6 +206,7 @@
 
             float2 RandomPointInCircle(uint rngState)
             {
+                //Generate a ranfom point in a circle
                 const float angle = RandomValue(rngState) * 2 * PI;
                 const float2 pointOnCircle = float2(cos(angle), sin(angle));
                 return pointOnCircle * sqrt(RandomValue(rngState));
@@ -200,6 +214,7 @@
 
             float3 RandomDirection(inout uint state)
             {
+                //Get a random position in a cube and normalize it to make a vector dir
                 float x = RandomValueNormalDistribution(state);
                 float y = RandomValueNormalDistribution(state);
                 float z = RandomValueNormalDistribution(state);
@@ -209,6 +224,7 @@
 
             HitInfo RaySphere(const Ray ray, const float3 sphereCenter, const float sphereRadius)
             {
+                //Check if ray intersects with a sphere
                 HitInfo hitInfo = (HitInfo)0;
                 const float3 offsetPos = ray.origin - sphereCenter;
 
@@ -236,6 +252,7 @@
 
             TriangleHitInfo RayTriangle(Ray ray, Triangle tri)
             {
+                //Get the edges and normal vectors
                 float3 edgeAB = tri.posB - tri.posA;
                 float3 edgeAC = tri.posC - tri.posA;
                 float3 normalVector = cross(edgeAB, edgeAC);
@@ -245,13 +262,13 @@
                 float determinant = -dot(ray.dir, normalVector);
                 float invDet = 1 / determinant;
 
-                // Calculate dst to triangle & barycentric coordinates of intersection point
+                //Calculate dst to triangle & barycentric coordinates of intersection point
                 float dst = dot(ao, normalVector) * invDet;
                 float u = dot(edgeAC, dao) * invDet;
                 float v = -dot(edgeAB, dao) * invDet;
                 float w = 1 - u - v;
 
-                // Initialize hit info
+                //Initialize hit info
                 TriangleHitInfo hitInfo;
                 hitInfo.didHit = determinant >= 1E-8 && dst >= 0 && u >= 0 && v >= 0 && w >= 0;
                 hitInfo.hitPoint = ray.origin + ray.dir * dst;
@@ -262,6 +279,7 @@
 
             bool RayBoundingBox(Ray ray, float3 boxMin, float3 boxMax)
             {
+                //Perform complex calculations to determine wheter a ray intersects a box 
                 float3 tMin = (boxMin - ray.origin) * ray.invDir;
                 float3 tMax = (boxMax - ray.origin) * ray.invDir;
                 float3 t1 = min(tMin, tMax);
@@ -273,8 +291,8 @@
                 return hit;
             };
 
-            float RayBoundingBoxDst(Ray ray, float3 boxMin, float3 boxMax)
-            {
+            float RayBoundingBoxDst(Ray ray, float3 boxMin, float3 boxMax) {
+                //Perform calculations that determine the distance of a ray from a box if it hits
                 float3 tMin = (boxMin - ray.origin) * ray.invDir;
                 float3 tMax = (boxMax - ray.origin) * ray.invDir;
                 float3 t1 = min(tMin, tMax);
@@ -287,29 +305,38 @@
                 return dst;
             }
 
-            TriangleHitInfo RayTriangleBVH(const Ray ray, int nodeOffset, int triOffset)
-            {
+            TriangleHitInfo RayTriangleBVH(const Ray ray, int nodeOffset, int triOffset) {
+                //Create an array of an arbitrary size to use as a stack
                 int stack[32];
+
+                //Index that holds the top-most value of the stack
                 int stackIndex = 0;
+
+                //Push an index of 0
                 stack[stackIndex++] = 0;
 
+                //Create a temp result object and set the hit distance to basically infinity
                 TriangleHitInfo result;
                 result.dst = FLT_MAX;
                 result.didHit = false;
 
-                while (stackIndex > 0)
-                {
+                //Loop while the stack is not empty
+                while (stackIndex > 0) {
+                    //Pop the first node index from the stack and get the node
                     const Node node = Nodes[stack[--stackIndex] + nodeOffset];
 
-                    if (node.ChildIndex == 0)
-                    {
+                    //Run if the node does not have a child (reached end of tree)
+                    if (node.ChildIndex == 0) {
+                        //Update stats object for debug purposes
                         stats[0] += node.TrianglesCount;
-                        for (int i = node.TriangleIndex; i < node.TriangleIndex + node.TrianglesCount; i++)
-                        {
-                            TriangleHitInfo triHitInfo =
-                                RayTriangle(ray, TriangleBuffer[i + triOffset]);
-                            if (triHitInfo.dst < result.dst && triHitInfo.didHit)
-                            {
+
+                        //Run for every triangle in the node
+                        for (int i = node.TriangleIndex; i < node.TriangleIndex + node.TrianglesCount; i++) {
+                            //Check if the ray intersects with the current triangle
+                            TriangleHitInfo triHitInfo = RayTriangle(ray, TriangleBuffer[i + triOffset]);
+
+                            //If the ray intersects with the triangle and is closer than the current closest, update closest
+                            if (triHitInfo.dst < result.dst && triHitInfo.didHit) {
                                 result.didHit = triHitInfo.didHit;
                                 result.hitPoint = triHitInfo.hitPoint;
                                 result.normal = triHitInfo.normal;
@@ -317,18 +344,25 @@
                             }
                         }
                     }
-                    else
-                    {
+
+                    //Run if the node does have a child (has not reached end of tree)
+                    else {
+                        //Get the node's child indicies
                         int childIndexA = node.ChildIndex + 0;
                         int childIndexB = node.ChildIndex + 1;
+
+                        //Get the node objects
                         const Node childA = Nodes[childIndexA + nodeOffset];
                         const Node childB = Nodes[childIndexB + nodeOffset];
 
+                        //Get the distance of each node from the ray
                         float dstA = RayBoundingBoxDst(ray, childA.BoundsMin, childA.BoundsMax);
                         float dstB = RayBoundingBoxDst(ray, childB.BoundsMin, childB.BoundsMax);
-                        stats[1] += 2; // count bounding box intersection tests
 
-                        // We want to look at closest child node first, so push it last
+                        //Count bounding box intersection tests for debug purposes
+                        stats[1] += 2; 
+
+                        //Push closest child last to look at it first
                         const bool isNearestA = dstA <= dstB;
                         const float dstNear = isNearestA ? dstA : dstB;
                         const float dstFar = isNearestA ? dstB : dstA;
@@ -343,26 +377,28 @@
                 return result;
             }
 
-            TriangleHitInfo CalculateRayCollision(const Ray ray)
-            {
+            TriangleHitInfo CalculateRayCollision(const Ray ray) {
+                //Set the distance of the closest hit to basically infinity
                 TriangleHitInfo closestHit;
                 closestHit.dst = FLT_MAX;
 
-                // Raycast against all meshes and keep info about the closest hit
-                for (int meshIndex = 0; meshIndex < NumMeshes; meshIndex++)
-                {
+                //Loop through all the meshes and keep info about the closest hit
+                for (int meshIndex = 0; meshIndex < NumMeshes; meshIndex++) {
+                    //Get the current mesh info
                     Ray modifiedRay;
                     const MeshInfo meshInfo = AllMeshInfo[meshIndex];
 
+                    //Apply mesh matricies to fix object translation
                     modifiedRay.origin = mul(meshInfo.WorldToLocalMatrix, float4(ray.origin, 1));
                     modifiedRay.dir = mul(meshInfo.WorldToLocalMatrix, float4(ray.dir, 0));
                     modifiedRay.invDir = 1 / modifiedRay.dir;
 
+                    //Get the hit info of the ray and the triangle it intersects
                     const TriangleHitInfo hitInfo = RayTriangleBVH(modifiedRay, meshInfo.nodeOffset,
                        meshInfo.triOffset);
 
-                    if (hitInfo.dst < closestHit.dst)
-                    {
+                    //If the current hit is closer, set the closest hit to it
+                    if (hitInfo.dst < closestHit.dst) {
                         closestHit.didHit = true;
                         closestHit.dst = hitInfo.dst;
                         closestHit.normal = normalize(mul(meshInfo.LocalToWorldMatrix, float4(hitInfo.normal, 0)));
@@ -374,40 +410,56 @@
                 return closestHit;
             }
 
-            float3 GetEnvironmentLight(Ray ray)
-            {
+            float3 GetEnvironmentLight(Ray ray) {
+                //Determine the gradient transition by angle of ray
                 const float skyGradientT = pow(smoothstep(0, 0.4, ray.dir.y), 0.35);
                 const float groundToSkyT = smoothstep(-0.01, 0, ray.dir.y);
+
+                //Change the sky gradient color
                 const float3 skyGradient = lerp(SkyColorHorizon, SkyColorZenith, skyGradientT);
+
+                //Put the sun in the direction the global light in the scene faces
                 const float sun = pow(max(0, dot(ray.dir, _WorldSpaceLightPos0.xyz)), SunFocus) * SunIntensity;
-                // Combine ground, sky, and sun
+                
+                //Combine ground, sky, and sun
                 float3 composite = lerp(GroundColor, skyGradient, groundToSkyT) + sun * (groundToSkyT >= 1);
                 return composite;
             }
 
             float3 RayDebugView(Ray ray)
             {
+                //Perform ray collision test
                 TriangleHitInfo hitInfo = CalculateRayCollision(ray);
 
+                //Determine the display colors based on threshold
                 float boxDisplay = stats[0] / BoxDisplayThreshold;
                 float triangleDisplay = stats[0] / TriangleDisplayThreshold;
 
                 switch (DebugViewMode)
                 {
-                case 0:
-                    return (hitInfo.normal * 0.5 + 0.5) * hitInfo.didHit;
-                case 1:
-                    return boxDisplay < 1 ? boxDisplay : float3(1, 0, 0);
-                case 2:
-                    return triangleDisplay < 1 ? triangleDisplay : float3(1, 0, 0);
-                case 3:
-                    return hitInfo.didHit;
-                default:
-                    return float3(1, 0, 1);
+                    //Return hit normal color
+                    case 0:
+                        return (hitInfo.normal * 0.5 + 0.5) * hitInfo.didHit;
+
+                    //Return number of box collisions from black to white, with red if over threshold
+                    case 1:
+                        return boxDisplay < 1 ? boxDisplay : float3(1, 0, 0);
+
+                    //Return number of triangle collisions from black to white, with red if over threshold
+                    case 2:
+                        return triangleDisplay < 1 ? triangleDisplay : float3(1, 0, 0);
+
+                    //Highlight objects that are hit
+                    case 3:
+                        return hitInfo.didHit;
+
+                    //Return purple in default case
+                    default:
+                        return float3(1, 0, 1);
                 }
             }
 
-            void CalculateRayEffect(Ray ray, TriangleHitInfo info, int index, int timesDone, inout uint rngState)
+            void CalculateRayEffect(Ray ray, TriangleHitInfo info, int i, int index, float val, inout uint rngState)
             {
                 float3 rayColor = 1;
                                 
@@ -417,7 +469,7 @@
                 tempRay.dir = normalize(RandLightPositions[index] - info.hitPoint);
                 TriangleHitInfo tempHitInfo = CalculateRayCollision(tempRay);
                 
-                bool visible = tempHitInfo.hitPoint - RandLightPositions[index] <= 0.1;
+                bool visible = abs(tempHitInfo.hitPoint - RandLightPositions[index]) <= 1;
 
                 float ogRayDir = abs(dot(normalize(ray.dir), info.normal));
                 //ray.origin = info.hitPoint;
@@ -428,9 +480,12 @@
                 //ray.dir = normalize(lerp(diffuseDir, specularDir, mat.smoothness * isSpecularBounce));
 
                 float3 emittedLight = mat.emissionColor * mat.emissionStrength;
-                emittedLight * rayColor;
+
+                Ray outRay = ray;
+                outRay.dir = reflect(ray.dir, info.normal);
                 
                 rayColor *= lerp(mat.color, mat.specularColor, isSpecularBounce);
+                //rayColor *= lerp(DiffuseBRDF(mat), SpecularBRDF(ray, outRay), isSpecularBounce);
 
                 rayColor.r *= ogRayDir;
                 rayColor.g *= ogRayDir;
@@ -439,140 +494,145 @@
                 float p = max(rayColor.r, max(rayColor.g, rayColor.b));
                 
                 rayColor *= 1 / p;
-
-                float totalWeight = 0;
-                for (int i = 0; i < NumLights; i++) totalWeight += Weights[i];
-
-                totalWeight *= 1 / NumLights;
                 
-                samples[timesDone] = emittedLight * rayColor * visible * (1 / abs(info.hitPoint - RandLightPositions[index]));
-                sampleWeights[timesDone] = totalWeight / Weights[index];
+                float distance = abs(info.hitPoint - RandLightPositions[index]) + 0.0001;
+                samples[i] = emittedLight * rayColor * visible * (1 / distance);
+
+                float weight = Weights[index] + 0.0001;
+                sampleWeights[i] = val / weight;
             }
 
-            float3 Trace(Ray ray, uint rngState)
-            {
+            float3 Trace(Ray ray, uint rngState) {
+                //Initialize the incoming light and current ray color
                 float3 incomingLight = 0;
                 float3 rayColor = 1;
-                
-                for (int rayIndex = 0; rayIndex < NumRaysPerPixel; rayIndex++)
-                {
+
+                //Run for every bounce
+                for (int rayIndex = 0; rayIndex < MaxBounceCount; rayIndex++) {
+                    //Calculate the info of the triangle the ray intersected
                     TriangleHitInfo hitInfo = CalculateRayCollision(ray);
 
-                    if (hitInfo.didHit)
-                    {
-                        CalculateLightWeights(ray, hitInfo.normal, hitInfo.hitPoint);
+                    //Run if the ray hit something
+                    if (hitInfo.didHit) {
+                        /*CalculateLightWeights(ray, hitInfo.normal, hitInfo.hitPoint);
 
-                        float cumulativeWeights[100];
-                        float totalWeight = 0;
+                        int currIndex = -1;
+                        float resevoirVal = 0;
 
                         for (int i = 0; i < NumLights; i++){
-                            totalWeight += Weights[i];
-                            cumulativeWeights[i] = totalWeight;
+                            bool add = RandomValueNormalDistribution(rngState) <= 0.5;
+                            if (add) currIndex = i;
+                            resevoirVal += Weights[i];
                         }
                         
-                        float r = RandomValueNormalDistribution(rngState) * totalWeight;
+                        for (int i = 0; i < MaxBounceCount; i++) {
+                            for (int j = 0; j < NumLights; j++){
+                                bool add = RandomValueNormalDistribution(rngState) <= 0.5;
+                                if (add) currIndex = j;
+                                resevoirVal += Weights[j];
+                            }
 
-                        int timesDone = 0;
-                        bool running = true;
-                        int index = 0;
-                        while (running) {
-                            if (timesDone >= MaxBounceCount) {
-                                running = false;
-                                break;
-                            }
-                                
-                            if (r < cumulativeWeights[index])
-                            {
-                                CalculateRayEffect(ray, hitInfo, index, timesDone, rngState);
-                                r = RandomValueNormalDistribution(rngState) * totalWeight;
-                                timesDone++;
-                                index = 0;
-                            }
-                            else
-                            {
-                                index++;
-                            }
+                            CalculateRayEffect(ray, hitInfo, i, currIndex, resevoirVal / NumLights, rngState);
                         }
 
-                        /*if (hitInfo.dst <= RenderDistance)
+                        for (int j = 0; j < MaxBounceCount; j++)
                         {
-                            float ogRayDir = abs(dot(normalize(ray.dir), hitInfo.normal));
-                            
+                            incomingLight += samples[j] * sampleWeights[j];
+                        }*/
+
+                        //Check if the hit point is within the render distance
+                        if (hitInfo.dst <= RenderDistance) {
+                            //Move the ray origin to the hit point
                             ray.origin = hitInfo.hitPoint;
+
+                            //Get the diffuse direction and the specular direction
                             float3 diffuseDir = normalize(hitInfo.normal + RandomDirection(rngState));
                             float3 specularDir = reflect(ray.dir, hitInfo.normal);
-                            bool isSpecularBounce = material.specularProbability >= RandomValue(rngState);
 
-                            ray.dir = normalize(lerp(diffuseDir, specularDir, material.smoothness * isSpecularBounce));
+                            //Randomly decide if the bounce is specular based on specular prob
+                            bool isSpecularBounce = hitInfo.material.specularProbability >= RandomValue(rngState);
 
-                            float3 emittedLight = material.emissionColor * material.emissionStrength;
+                            //Lerp the ray dir based on the smoothness and if the bounce is speculat or not
+                            ray.dir = normalize(lerp(diffuseDir, specularDir, hitInfo.material.smoothness * isSpecularBounce));
+
+                            //Add to the incoming light if the object has an emission
+                            float3 emittedLight = hitInfo.material.emissionColor * hitInfo.material.emissionStrength;
                             incomingLight += emittedLight * rayColor;
-                            
-                            rayColor *= lerp(material.color, material.specularColor, isSpecularBounce);
 
-                            rayColor.r *= ogRayDir;
-                            rayColor.g *= ogRayDir;
-                            rayColor.b *= ogRayDir;
-                            
+                            //Multiply the ray color by either the normal color or specular color based on bounce type
+                            rayColor *= lerp(hitInfo.material.color, hitInfo.material.specularColor, isSpecularBounce);
+
+                            //Break if the ray color is so dark that it won't contribute much
                             float p = max(rayColor.r, max(rayColor.g, rayColor.b));
 						    if (RandomValue(rngState) >= p) {
 							    break;
 						    }
-                            
+
+                            //Multiply by the reciprocal to improve color brightness
                             rayColor *= 1 / p;
-                        }*/
+                        }
                     }
-                    else
-                    {
+                    else {
+                        //Add the environment light if the ray misses and it's enabled, then break
                         if (UseEnvironment == 1) incomingLight += GetEnvironmentLight(ray) * rayColor;
                         break;
                     }
                 }
                 
-
                 return incomingLight;
             }
 
-            float4 frag(const v2f i) : SV_Target
-            {
+            float4 frag(const v2f i) : SV_Target {
+                //Get the data of the current pixel
                 uint2 numPixels = _ScreenParams.xy;
                 uint2 pixelCoord = i.texcoord * numPixels;
                 const uint pixelIndex = pixelCoord.y * numPixels.x + pixelCoord.x;
+
+                //Create as random a state as possible
                 const uint rngState = pixelIndex + NumRenderedFrames * 719393 - NumRenderedFrames * 6814;
 
+                //Get the data of the current cam viewpoint
                 float3 viewPointLocal = float3(i.texcoord - 0.5, 1) * ViewParams;
                 const float3 viewPoint = mul(CamLocalToWorldMatrix, float4(viewPointLocal, 1));
                 const float3 camRight = CamLocalToWorldMatrix._m00_m10_m20;
                 const float3 camUp = CamLocalToWorldMatrix._m01_m11_m21;
 
+                //Set variable for light of current pixel
                 float3 totalIncomingLight = 0;
 
-                for (int rayIndex = 0; rayIndex < 0; rayIndex++)
-                {
+                //Run algorithm for the amount of times per pixel
+                for (int rayIndex = 0; rayIndex < NumRaysPerPixel; rayIndex++) {
                     Ray ray;
-                    
+
+                    //Change the origin point based on the defocus strength if not using debug view
                     float2 defocusJitter = RandomPointInCircle(rngState) * DefocusStrength / numPixels.x;
                     ray.origin = DebugView == 0
                     ? _WorldSpaceCameraPos + camRight * defocusJitter.x + camUp * defocusJitter.y
                     : _WorldSpaceCameraPos;
-                    
+
+                    //Change the direction based on the diverge strength if not using debug view
                     float2 jitter = RandomPointInCircle(rngState) * DivergeStrength / numPixels.x;
                     const float3 jitteredViewPoint = DebugView == 0
                     ? viewPoint + camRight * jitter.x + camUp * jitter.y
                     : viewPoint;
-                    
+
+                    //Change the ray direction and inverse direction
                     ray.dir = normalize(jitteredViewPoint - ray.origin);
                     ray.invDir = 1 / ray.dir;
 
+                    //Either trace the ray or show the debug view
                     totalIncomingLight += DebugView == 1 ? RayDebugView(ray) : Trace(ray, rngState);
 
+                    //Run only once if debug view is enabled
                     if (DebugView == 1) break;
                 }
 
+                //Divide the incoming light by the number of rays to not result in extra brightness
                 float3 pixelColor = DebugView == 0
                 ? totalIncomingLight / NumRaysPerPixel
                 : totalIncomingLight;
 
+                //Draw color to pixel
                 return float4(pixelColor, 1);
             }
             ENDCG

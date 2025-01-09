@@ -137,16 +137,12 @@ namespace Managers {
             //Handle the meshes in the scene
             HandleMeshes();
 
+            //Ensure the depth texture mode is set to depth to avoid errors
             if (Camera.main != null) Camera.main.depthTextureMode = DepthTextureMode.Depth;
         }
 
         //Update the avg FPS
-        private void Update() {
-            avgFPS += (Time.unscaledDeltaTime - avgFPS) * 0.03f; 
-            
-            
-            
-        }
+        private void Update() => avgFPS += (Time.unscaledDeltaTime - avgFPS) * 0.03f;
 
         //When an object is destroyed, release and dispose all buffers
         private void OnDestroy() => ReleaseAndDispose();
@@ -262,17 +258,19 @@ namespace Managers {
         }
 
         private void UpdateCameraParams(Camera cam) {
-            
-            if (rayTracingMat == null)
+            //Create the materials if they are null
+            if (rayTracingMat == null || companionMat == null || smoothingMat == null)
             {
                 rayTracingMat = new Material(rayTracingShader);
                 companionMat = new Material(companionShader);
                 smoothingMat = new Material(smoothingShader);
             }
 
+            //Get the cam plane height and width
             float planeHeight = FocusDistance * Mathf.Tan(cam.fieldOfView * 0.5f * Mathf.Deg2Rad) * 2;
             float planeWidth = planeHeight * cam.aspect;
 
+            //Send the ViewParams and cam matrix to the shader
             rayTracingMat.SetVector(ViewParams, new Vector3(planeWidth, planeHeight, FocusDistance));
             rayTracingMat.SetMatrix(CamLocalToWorldMatrix, cam.transform.localToWorldMatrix);
         }
@@ -282,46 +280,46 @@ namespace Managers {
             rayTracingMat.SetInt(BounceCount, MaxBounceCount);
             rayTracingMat.SetInt(RaysPerPixel, NumRaysPerPixel);
             rayTracingMat.SetInt(RenderedFrames, NumRenderedFrames);
-
+            
             rayTracingMat.SetFloat(Intensity, SunIntensity);
             rayTracingMat.SetFloat(Focus, SunFocus);
-
             rayTracingMat.SetFloat(Strength, DivergeStrength);
             rayTracingMat.SetFloat(DefocusStrength1, DefocusStrength);
             rayTracingMat.SetFloat(Distance, RenderDistance);
-
             rayTracingMat.SetFloat(RayTolerance, BlackRayTolerance);
+            rayTracingMat.SetFloat(SpecularPower, specularPower);
 
             rayTracingMat.SetColor(ColorHorizon, SkyColorHorizon);
             rayTracingMat.SetColor(ColorZenith, SkyColorZenith);
             rayTracingMat.SetColor(GroundColor1, GroundColor);
             
             rayTracingMat.SetInt(UseEnvironment, environment ? 1 : 0);
-            
             rayTracingMat.SetInt(DebugView, debugView ? 1 : 0);
             rayTracingMat.SetInt(DebugViewMode, debugViewMode);
-            
             rayTracingMat.SetInt(BoxDisplayThreshold, boxDisplayThreshold);
             rayTracingMat.SetInt(TriangleDisplayThreshold, triangleDisplayThreshold);
             
-            rayTracingMat.SetFloat(SpecularPower, specularPower);
             
-            SendMeshes();
+            //Prep the meshes to be sent
+            PrepMeshes();
         }
 
         public void HandleMeshes() {
             //Find all meshes in the scene with the RayTracingMesh script attached
             meshes = FindObjectsByType<RayTracingMesh>(FindObjectsSortMode.None);
 
+            //Set handlingMeshes to true to prevent certain problems from arising
             handlingMeshes = true;
             
             //Update the mesh data for all meshes
             foreach (RayTracingMesh mesh in meshes) mesh.UpdateMeshData();
 
+            //Set handlingMeshes to false
             handlingMeshes = false;
         }
 
-        private void SendMeshes() {
+        private void PrepMeshes() {
+            //Set the offsets to 0 for counting
             int nodeOffset = 0;
             int triangleOffset = 0;
             
@@ -331,49 +329,61 @@ namespace Managers {
             //Stop if there are no triangles present in the scene
             if (size == 0 || handlingMeshes) return;
 
+            //Reset the number of active meshes and lights
             activeMeshNum = 0;
             numLights = 0;
             
+            //Clear the mesh infos and the light positions and materials
             meshesInfos.Clear();
             RandLightPos.Clear();
             RandLightMat.Clear();
             
+            //Run for each mesh in the scene if it is active
             foreach (RayTracingMesh mesh in meshes) {
                 if (mesh.gameObject.activeInHierarchy) {
+                    //If the MeshOffsetInfo does not contain the current mesh, add offset data
                     if (!MeshOffsetInfo.ContainsKey(mesh)) {
                         MeshOffsetInfo.Add(mesh, (nodeOffset, triangleOffset));
                         
+                        //Update the list of used nodes and triangles
                         AllNodes.AddRange(mesh.BVH.AllNodes);
                         AllTriangles.AddRange(mesh.BVH.AllTriangles);
                         
+                        //Shift the offsets accordingly
                         nodeOffset += mesh.BVH.AllNodes.Count;
                         triangleOffset += mesh.BVH.AllTriangles.Count;
-                        
                     }
                     
+                    //Create a new mesh info object with the offsets and matrices
                     MeshInfo info = new() {
                         triOffset = MeshOffsetInfo[mesh].triOffset, nodeOffset = MeshOffsetInfo[mesh].nodeOffset,
                         WTLMatrix = mesh.gameObject.transform.worldToLocalMatrix,
                         LTWMatrix = mesh.gameObject.transform.localToWorldMatrix, material = mesh.material
                     };
                     
+                    //Add the info to the array
                     meshesInfos.Add(info);
                     
+                    //Set the offsets in the stats
                     mesh.stats.NodeOffset = MeshOffsetInfo[mesh].nodeOffset;
                     mesh.stats.TriOffset = MeshOffsetInfo[mesh].triOffset;
 
+                    //If the object is a light, get a random position on it and save it and the material to the arrays
                     if (mesh.material.emissionStrength > 0) {
                         RandLightPos.Add(mesh.GetComponent<MeshFilter>().sharedMesh
                             .vertices[Random.Range(0, mesh.GetComponent<MeshFilter>().sharedMesh.vertexCount)]);
                         RandLightMat.Add(mesh.material);
 
+                        //Increase number of lights
                         numLights++;
                     }
                     
+                    //Increase number of active meshes
                     activeMeshNum++;
                 }
             }
 
+            //Send the meshes to the shader
             SendMeshesToShader();
         }
         
@@ -405,6 +415,7 @@ namespace Managers {
 
         private static void CreateBuffer<T>(ref ComputeBuffer buffer, List<T> data, int inputStride = 0) where T : struct
         {
+            //Calculate the stride size if one is not provided
             int stride = inputStride == 0 ? GetStride<T>() : inputStride;
 
             // Only recreate the buffer if necessary
@@ -418,15 +429,18 @@ namespace Managers {
             buffer.SetData(data);
         }
 
+        //Get the size of the stride
         private static int GetStride<T>() => System.Runtime.InteropServices.Marshal.SizeOf(typeof(T));
 
         private void ReleaseAndDispose() {
+            //Release any existing buffer
             triangleBuffer?.Release();
             nodeBuffer?.Release();
             meshInfoBuffer?.Release();
             randLightPosBuffer?.Release();
             randLightMatBuffer?.Release();
             
+            //Dispose of any existing buffer
             triangleBuffer?.Dispose();
             nodeBuffer?.Dispose();
             meshInfoBuffer?.Dispose();
@@ -439,6 +453,7 @@ namespace Managers {
         }
 
         private void OnHierarchyChanged() {
+            //Reinitialize all parameters if the hierarchy changed
             InitShaders();
             HandleMeshes();
             

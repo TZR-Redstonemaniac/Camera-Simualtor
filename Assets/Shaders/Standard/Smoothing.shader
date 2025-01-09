@@ -36,14 +36,14 @@
 
             fixed4 frag(v2f i) : SV_Target
             {
-                // Sample four surrounding pixels with bilinear filtering
+                //Sample four surrounding pixels with bilinear filtering
                 const fixed4 center = tex2D(_MainTex, i.texcoord);
                 const fixed4 up = tex2D(_MainTex, i.texcoord + half2(0.0, _SmoothFactor / 100000));
                 const fixed4 down = tex2D(_MainTex, i.texcoord - half2(0.0, _SmoothFactor / 100000));
                 const fixed4 right = tex2D(_MainTex, i.texcoord + half2(_SmoothFactor / 100000, 0.0));
                 const fixed4 left = tex2D(_MainTex, i.texcoord - half2(_SmoothFactor / 100000, 0.0));
 
-                // Average the sampled colors based on smooth factor
+                //Average the sampled colors based on smooth factor
                 fixed4 color = (center + up + down + right + left) / 5.0;
 
                 return color;
